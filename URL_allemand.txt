@@ -1,6 +1,3 @@
-
-articles ALL:
-
 Fremd/ Fremde/fremder
                    
 https://www.goethe.de/ins/sn/de/kul/mag/20903459.html
