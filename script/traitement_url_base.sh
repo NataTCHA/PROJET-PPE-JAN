@@ -32,14 +32,14 @@ fichier_tableau=$2 # le fichier HTML en sortie
 echo "<html>
         <head>
                 <meta charset ="utf-8"/>
-                <title> tableau </title>
+                <title> Tableau URLs </title>
                 </header>
                 <body>
                 <table>
                 <tr>
-                <th> ligne </th>
-                <th>code</th>
-                <th>url</th> 
+                <th>Ligne</th>
+                <th>Code de réponse</th>
+                <th>URL</th> 
                 </tr>" > $fichier_tableau
                 
  # On crée un compteur pour les URLs/le nombre de lignes :               
