@@ -12,4 +12,5 @@ Dans les autres langues choisies, ces concepts sont désignés par plusieurs mot
 Nous avons ajouté des fichiers textes pour les URLs anglais, l'allemand et le français. Après réflexion, nous avons décidé de ne pas garder l'espagnol comme langue afin de nous concenctrer uniquement sur le français, l'anglais et l'allemand.
 
 16/11/2022 :
-Nous avons ajouté le script qui nous a permis de créer le tableau html. Ce script permet de valider les url recherchées. Une majeure partie des url ont leur code de réponse validé mais pour certaines s'affiche un message d'erreur (404 et 303 notamment). 
+
+Nous avons ajouté le premier script qui nous a servi à tester les URLs et à créer un tableau HTML récapitulatif avec l'URL et le code de réponse. Après un premier test, nous avons pu voir qu'une majeure partie des URLs sont valides mais qu'il existe des URLs qui renvoient un code d'erreur (404 et 303 notamment). 
