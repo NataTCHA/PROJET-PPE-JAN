@@ -14,3 +14,7 @@ Nous avons ajouté des fichiers textes pour les URLs anglais, l'allemand et le f
 16/11/2022 :
 
 Nous avons ajouté le premier script qui nous a servi à tester les URLs et à créer un tableau HTML récapitulatif avec l'URL et le code de réponse. Après un premier test, nous avons pu voir qu'une majeure partie des URLs sont valides mais qu'il existe des URLs qui renvoient un code d'erreur (404 et 303 notamment). 
+
+
+ 30/11/2022:
+ Nous avons élaboré le script pour le TD 2: scriptaspi.sh. Cependant un problème reste à résoudre en ce qui concerne notre tableau html. En effet le chemin des fichiers est errroné; par conséquent il ne débouche sur rien. 
