@@ -33,6 +33,7 @@ echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
 
 # On crée l'architecture HTML du tableau de sortie dans le fichier donné en second argument :
+#Déclaration de l'encodage et on associe Bulma pour la mise en forme CSS
 echo "<!DOCTYPE html><html><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" /></head><body>" > $fichier_tableau
 echo "<h2>Tableau $basename :</h2>" >> $fichier_tableau
