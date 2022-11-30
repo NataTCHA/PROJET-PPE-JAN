@@ -28,6 +28,9 @@ fi
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
 
+echo $fichier_urls;
+basename=$(basename -s .txt $fichier_urls)
+
 # On crée l'architecture HTML du tableau de sortie dans le fichier donné en second argument :
 echo "<html>
         <head>
@@ -39,7 +42,7 @@ echo "<html>
                 <tr>
                 <th> ligne </th>
                 <th>code</th>
-                <th>url</th> 
+                <th>URL</th> 
                 <th>encodage</th>
                 </tr>" >$fichier_tableau
 
@@ -53,30 +56,32 @@ do
 	URL=$line
 	# On récupère le code de réponse :
 	CODEHTTP=$(curl -I -s $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | head -n1)	
-	ENC=$(curl -I -s $line | grep -Po "charset=[\w-]+"| cut -d= -f2)
+        ENC=$(curl -I -s $line | grep -Po "charset=[\w-]+"| cut -d= -f2)
 	# On ajoute une ligne avec le code de réponse et l'URL au tableau HTML :
 	# Les doubles chevrons permettent de ne pas écraser le fichier de sortie.
 	#echo -e "\tURL : $URL";
 	echo -e "\tURL N°: $lineno";
-    echo -e "\tcode : $CODEHTTP";
-
+	echo -e "\tcode : $CODEHTTP";
+	# Si l'encodage est différent de UTF-8 :
 	if [[ ! $ENC ]]
 	then
 		echo -e "\tencodage non détecté, on prendra UTF-8 par défaut.";
-		charset="UTF-8";
+		ENC="UTF-8";
 	else
 		echo -e "\tencodage : $ENC";
 	fi
-
+	# Si le code HTTP est différent de 200
 	if [[ $CODEHTTP -eq 200 ]]
 	then
 		dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$ENC $URL)
+		echo "$dump" > "dumps-text/$basename-$lineno.txt" 
+
 		if [[ $ENC -ne "UTF-8" && -n "$dump" ]]
 		then
 			dump=$(echo $dump | iconv -f $ENC -t UTF-8//IGNORE)
 		fi
 	else
-		echo -e "\tcode différent de 200 utilisation d'un dump vide"
+		echo -e "\tCode sortie différent de 200, utilisation d'un dump vide"
 		dump=""
 		charset=""
 	fi
