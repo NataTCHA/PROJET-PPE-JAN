@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #===============================================================================
-# Ce script est notre premier programme pour traiter les URLs. Il permet de créer un tableau HTML en sortie avec chaque URL, le code de réponse correspondant .
+# Ce script est notre programme pour traiter les URLs. Il permet de créer un tableau HTML en sortie avec chaque URL, le code de réponse correspondant .
 # Il s'utilise dans le dossier avec le fichier à traiter <URL.txt> (avec un URL/ligne) avec la ligne de commande :
 # bash traitement_url_base.sh <URL.txt>  <tableauURL.html> 
 
@@ -32,33 +32,58 @@ fichier_tableau=$2 # le fichier HTML en sortie
 echo "<html>
         <head>
                 <meta charset ="utf-8"/>
-                <title> Tableau URLs </title>
+                <title> tableau </title>
                 </header>
                 <body>
                 <table>
                 <tr>
-                <th>Ligne</th>
-                <th>Code de réponse</th>
-                <th>URL</th> 
-                </tr>" > $fichier_tableau
-                
+                <th> ligne </th>
+                <th>code</th>
+                <th>url</th> 
+                <th>encodage</th>
+                </tr>" >$fichier_tableau
+
  # On crée un compteur pour les URLs/le nombre de lignes :               
 lineno=1;
 
 # On lit chaque ligne :
 while read -r line;
 do
-        # On récupère l'URL (=la ligne)
-        URL=$line
-        # On récupère le code de réponse :
-        CODEHTTP=$(curl -I -s $line | head -n1)
-        # On ajoute une ligne avec le code de réponse et l'URL au tableau HTML :
-        # Les doubles chevrons permettent de ne pas écraser le fichier de sortie.
-	    echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td>$URL</td></tr>" >> $fichier_tableau
-	    # On incrément le compteur :
-	    lineno=$((lineno+1));
-# On clot la boucle et on indique le fichier à parcourir :
-done < $fichier_urls           
+	# On récupère l'URL (=la ligne)
+	URL=$line
+	# On récupère le code de réponse :
+	CODEHTTP=$(curl -I -s $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | head -n1)	
+	ENC=$(curl -I -s $line | grep -Po "charset=[\w-]+"| cut -d= -f2)
+	# On ajoute une ligne avec le code de réponse et l'URL au tableau HTML :
+	# Les doubles chevrons permettent de ne pas écraser le fichier de sortie.
+	#echo -e "\tURL : $URL";
+	echo -e "\tURL N°: $lineno";
+    echo -e "\tcode : $CODEHTTP";
+
+	if [[ ! $ENC ]]
+	then
+		echo -e "\tencodage non détecté, on prendra UTF-8 par défaut.";
+		charset="UTF-8";
+	else
+		echo -e "\tencodage : $ENC";
+	fi
+
+	if [[ $CODEHTTP -eq 200 ]]
+	then
+		dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$ENC $URL)
+		if [[ $ENC -ne "UTF-8" && -n "$dump" ]]
+		then
+			dump=$(echo $dump | iconv -f $ENC -t UTF-8//IGNORE)
+		fi
+	else
+		echo -e "\tcode différent de 200 utilisation d'un dump vide"
+		dump=""
+		charset=""
+	fi
     
-# On clot le tableau HTML :
+    echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td>$URL</td><td>$ENC</td></tr>" >> $fichier_tableau
+	lineno=$((lineno+1));
+                
+       done < $fichier_urls               
+
         echo "</table></body></html>" >> $fichier_tableau
