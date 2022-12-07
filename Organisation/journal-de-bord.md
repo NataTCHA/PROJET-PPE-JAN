@@ -18,8 +18,12 @@ Nous avons ajouté le premier script qui nous a servi à tester les URLs et à c
 
  30/11/2022:
  
- Nous avons élaboré le script pour le TD 2: scriptaspi.sh. Cependant un problème reste à résoudre en ce qui concerne notre tableau html. En effet le chemin des fichiers est errroné; par conséquent il ne débouche sur rien. 
+Nous avons élaboré le script pour le TD 2: scriptaspi.sh. Cependant un problème reste à résoudre en ce qui concerne notre tableau html. En effet le chemin des fichiers est errroné; par conséquent il ne débouche sur rien. 
  
  06/12/2022 : 
  
  Nous avons complété les URLs anglais (pour atteindre environ 40 URL pour chaque mot).
+ Nous avons également complété les URL pour l'allemand. 
+ 
+ 07/12/2022:
+ Nous avons crée et commenté le script itrameur. 
