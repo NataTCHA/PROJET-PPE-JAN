@@ -31,3 +31,4 @@ Nous avons élaboré le script pour le TD 2: scriptaspi.sh. Cependant un problè
 14/12/2022:
 Pendant le cours nous avons vu comment faire un nuage de mots.  Pour cela il faut installer wordcloud sur la base anaconda. Voici la commande que j'ai lancé depuis Spider avec la commande suivante: conda install -c conda-forge wordcloud. 
 Nous attendons cependant d'avoir une connexion autre que celle de l'université qui met à mal cette installation.
+Nous avons complété les URLs Français ( pour atteindre 50 URL pour le mot étranger )
