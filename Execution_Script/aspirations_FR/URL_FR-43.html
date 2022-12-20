@@ -1,0 +1,1223 @@
+	<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr-FR"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="fr-FR"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="fr-FR"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr-FR"> <!--<![endif]-->    <head>
+    	
+        
+        <meta charset="utf-8">
+                <title>Fiche de synthèse : L'activité internationale de l'Assemblée - Europe et international - Assemblée nationale</title>
+        
+        
+        
+        
+                    <meta name="Content-Type" content="text/html; charset=utf-8">
+                    <meta name="Content-language" content="fr-FR">
+        
+                                    <meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+                                                <meta name="viewport" content="width=954">
+                                                <meta name="author" content="Assemblée Nationale">
+                                                <meta name="copyright" content="Assemblée Nationale">
+                                                <meta name="description" content="Presentation de l'Assemblee nationale, du palais Bourbon, de ses membres (deputes), de son fonctionnement et de son actualite : agenda, travaux en cours (amendements, rapports, commissions, lois), textes et dossiers (legislatifs ou d'actualite)...">
+                                                <meta name="keywords" content="député, hémicycle, Palais Bourbon, Assemblée nationale, parlementaire">
+                    		
+        
+        <link rel="shortcut icon" href="/extension/common/design/an/images/favicon.ico" type="image/x-ico">
+
+		
+		
+
+											
+									
+	
+		<script type="text/javascript" src="/extension/common/design/an/javascript/jquery-1.8.3.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+
+(function($) {
+    var _rootUrl = '/', _serverUrl = _rootUrl + 'ezjscore/', _seperator = '@SEPERATOR$',
+        _prefUrl = _rootUrl + 'user/preferences';
+
+    // FIX: Ajax is broken on IE8 / IE7 on jQuery 1.4.x as it's trying to use the broken window.XMLHttpRequest object
+    if ( window.XMLHttpRequest && window.ActiveXObject )
+        $.ajaxSettings.xhr = function() { try { return new window.ActiveXObject('Microsoft.XMLHTTP'); } catch(e) {} };
+
+    // (static) jQuery.ez() uses jQuery.post() (Or jQuery.get() if post paramer is false)
+    //
+    // @param string callArgs
+    // @param object|array|string|false post Optional post values, uses get request if false or undefined
+    // @param function Optional callBack
+    function _ez( callArgs, post, callBack )
+    {
+        callArgs = callArgs.join !== undefined ? callArgs.join( _seperator ) : callArgs;
+        var url = _serverUrl + 'call/';
+        if ( post )
+        {
+            var _token = '', _tokenNode = document.getElementById('ezxform_token_js');
+            if ( _tokenNode ) _token = _tokenNode.getAttribute('title');
+            if ( post.join !== undefined )// support serializeArray() format
+            {
+                post.push( { 'name': 'ezjscServer_function_arguments', 'value': callArgs } );
+                post.push( { 'name': 'ezxform_token', 'value': _token } );
+            }
+            else if ( typeof(post) === 'string' )// string
+            {
+                post += ( post ? '&' : '' ) + 'ezjscServer_function_arguments=' + callArgs + '&ezxform_token=' + _token;
+            }
+            else // object
+            {
+                post['ezjscServer_function_arguments'] = callArgs;
+                post['ezxform_token'] = _token;
+            }
+            return $.post( url, post, callBack, 'json' );
+        }
+        return $.get( url + encodeURIComponent( callArgs ), {}, callBack, 'json' );
+    };
+    _ez.url = _serverUrl;
+    _ez.root_url = _rootUrl;
+    _ez.seperator = _seperator;
+    $.ez = _ez;
+
+    $.ez.setPreference = function( name, value )
+    {
+        var param = {'Function': 'set_and_exit', 'Key': name, 'Value': value};
+            _tokenNode = document.getElementById( 'ezxform_token_js' );
+        if ( _tokenNode )
+            param.ezxform_token = _tokenNode.getAttribute( 'title' );
+
+        return $.post( _prefUrl, param );
+    };
+
+    // Method version, for loading response into elements
+    // NB: Does not use json (not possible with .load), so ezjscore/call will return string
+    function _ezLoad( callArgs, post, selector, callBack )
+    {
+        callArgs = callArgs.join !== undefined ? callArgs.join( _seperator ) : callArgs;
+        var url = _serverUrl + 'call/';
+        if ( post )
+        {
+            post['ezjscServer_function_arguments'] = callArgs;
+            post['ezxform_token'] = jQuery('#ezxform_token_js').attr('title');
+        }
+        else
+            url += encodeURIComponent( callArgs );
+
+        return this.load( url + ( selector ? ' ' + selector : '' ), post, callBack );
+    };
+    $.fn.ez = _ezLoad;
+})(jQuery);
+        
+</script>
+
+        
+<script type="text/javascript" src="/dyn/es6/getvariable.js"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/hack-jquery1.8.3.js"></script>
+        
+
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/bootstrap-2.1.1.min.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/jquery-ui-1.8.21.custom.css" />
+<link rel="stylesheet" type="text/css" href="/extension/ezswidl-dashboard/design/standard/stylesheets/datatable_page.css" />
+<link rel="stylesheet" type="text/css" href="/extension/ezswidl-dashboard/design/standard/stylesheets/datatable_table_jui.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/chosen-0.9.12.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/perfect-scrollbar-0.4.5.min.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/font-awesome-4.5.0.min.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/debug.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/cookies-cnil-banner.css" />
+<link rel="stylesheet" type="text/css" href="/extension/common/design/an/stylesheets/prettyPhoto.1.3.5.min.css" />
+
+
+
+            
+
+
+
+<link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/12e0dca5447a40fc011322623c7267e1.css" />
+<link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/83efbdb56796b5e0e25730c70ce307e2.css" />
+<link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/404bf5edd852f2d16feb733d2a6f5ce5.css" />
+<link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/164e68ee2993d40bc00e9f41319cedd4.css" />
+<link rel="stylesheet" type="text/css" href="/var/ezflow_site/cache/public/stylesheets/2c55ebd26d0714626c035c9ffcd1c2a4.css" />
+
+    
+    
+    <script src="/extension/common/design/an/javascript/modernizr-2.6.2.min.js"></script>
+<link rel="stylesheet" href="/extension/common/design/an/stylesheets/print.css" media="print">
+
+<link rel="stylesheet" href="/dyn/css/compiled/main_shared.css">
+    </head>
+    <body data-legacy-url="https://www2.assemblee-nationale.fr" data-root-url="https://www.assemblee-nationale.fr/">
+    <div class="page">
+        <div class="new-style-ezpublish">
+    <header class="site-header _coloration-primary">
+
+    <div class="site-header--top-wrapper">
+        <div class="container _medium">
+
+            <span class="site-header--top-wrapper--title">Assemblée nationale</span>
+
+            <div class="site-header--top-wrapper--left">
+                <ul class="squared-button-list">
+                    <li>
+                        <a href="https://www.acce-o.fr/client/assemblee-nationale"
+                           target="_blank"
+                           class="inner"
+                           title="Malentendants ? Sourds ? Contactez-nous avec ACCEO"
+                           style="background-image: url('/dyn/assets/images/icons/acceo.jpg');"></a>
+                    </li>
+                </ul>
+
+                                                                    
+                <div class="lang-selector _ml-medium">
+                    <div class="lang-selector-current">
+                        <div class="flag-item" flag-name="fr"></div>
+                        <i class="an-icons-chevron-bottom"></i>
+                    </div>
+                    <div class="new-style-ezpublish lang-selector-list">
+                        <div class="lang-selector-list--items">
+                            <div class="flag-item" flag-name="gb">
+                                <a href="/langues/welcome-to-the-english-website-of-the-french-national-assembly" class="inner"></a>
+                            </div>
+                            <div class="flag-item" flag-name="de">
+                                <a href="/langues/willkommen-auf-der-deutschsprachigen-webseite-der-franzoesischen-nationalversammlung" class="inner"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-header--top-wrapper--right">
+                <ul class="squared-button-list">
+                    <li>
+                        <i class="an-icons-twitter"></i>
+                        <a href="https://twitter.com/AssembleeNat" target="_blank" class="inner" title="Accéder à la page Twitter de l'Assemblée nationale"></a>
+                    </li>
+                    <li>
+                        <i class="an-icons-facebook"></i>
+                        <a href="https://fr-fr.facebook.com/AssembleeNationale" target="_blank" class="inner" title="Accéder à la page Facebook de l'Assemblée nationale"></a>
+                    </li>
+                    <li>
+                        <i class="an-icons-instagram"></i>
+                        <a href="https://www.instagram.com/assembleenationale" target="_blank" class="inner" title="Accéder à la page Instagram de l'Assemblée nationale"></a>
+                    </li>
+                    <li>
+                        <i class="an-icons-linkedin2"></i>
+                        <a href="https://fr.linkedin.com/company/assemblee-nationale" target="_blank" class="inner" title="Accéder à la page LinkedIn de l'Assemblée nationale"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="hr-flag-large"></div>
+
+    <div class="site-header--logo-wrapper _colored"  data-nosnippet>
+        <video autoplay muted loop class="site-header--logo-wrapper--video">
+            <source src="/dyn/assets/videos/BackgroundVideo.mp4" type="video/mp4">
+        </video>
+        <div class="site-header--logo-wrapper--logo">
+            <a href="https://www.assemblee-nationale.fr/" class="inner"></a>
+        </div>
+    </div>
+
+</header>
+
+    <nav id="header-navigation">
+        <div id="header-navigation--links">
+            <div class="container">
+                <ul id="header-main-navigation">
+                    <li class="">
+                        <span>Accueil</span>
+                        <a href="https://www.assemblee-nationale.fr/" class="inner">Accueil</a>
+                    </li>
+                    <li class="" data-tab-index="1">
+                        <span>Vos députés</span>
+                    </li>
+                    <li class="" data-tab-index="2">
+                        <span>Travaux parlementaires</span>
+                    </li>
+                    <li data-tab-index="3" data-on="open-general-search">
+                        <span>
+                            <img src="/dyn/assets/images/icons/icon_search.png" alt="recherche">
+                        </span>
+                    </li>
+                    <li class="" data-tab-index="4">
+                        <span>Connaître l'Assemblée</span>
+                    </li>
+                    <li class="" data-tab-index="5">
+                        <span>Découvrir les lieux</span>
+                    </li>
+                    <li class="" data-tab-index="6">
+                        <span><i class="an-icons-user"></i>Mon compte</span>
+                    </li>
+                </ul>
+                <div id="header-navigation--logo">
+                    <a href="https://www.assemblee-nationale.fr/" class="inner">Accueil</a>
+                </div>
+                            </div>
+        </div>
+
+        <div id="header-navigation--tabs">
+
+            
+            <div class="header-navigation--tab _colored-deputes">
+                <div class="container">
+                    <div class="ha-grid with-divider">
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--info-box">
+                                <div class="header-navigation--tab--info-box--title">Vos députés</div>
+                                <div class="header-navigation--tab--info-box--content">
+                                    <img src="/dyn/assets/images/icons/icon_deputes.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://presidence.assemblee-nationale.fr/">Présidence</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/vos-deputes">577 députés</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/les-groupes-politiques">Groupes politiques</a>
+                                    <a href="https://www.elections-legislatives.fr">Élections législatives</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="header-navigation--tab _colored-travaux">
+                <div class="container">
+                    <div class="ha-grid with-divider">
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--info-box">
+                                <div class="header-navigation--tab--info-box--title">Travaux parlementaires</div>
+                                <div class="header-navigation--tab--info-box--content">
+                                    <img src="/dyn/assets/images/icons/icon_travaux.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="title">
+                                    <a href="https://www.assemblee-nationale.fr/dyn/seance-publique">Séance publique</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/commissions-et-autres-organes">Commissions et autres organes</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/europe-et-international">Europe et International</a>
+                                    <a href="https://www2.assemblee-nationale.fr">Contrôle et évaluation</a>
+                                    <a href="https://www2.assemblee-nationale.fr/le-congres-du-parlement">Congrès</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/petitions">Pétitions</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-2">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="title">
+                                    <a href="https://www.assemblee-nationale.fr/dyn/documents-parlementaires">Documents parlementaires</a>
+                                </div>
+                                <div class="content">
+                                    <div class="ha-grid">
+                                        <div class="ha-grid-item size-full">
+                                            <ul>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/projets-loi">Projets de loi</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/propositions-loi">Propositions de loi</a></li>
+                                                <li><a id="a-recherche-amendement" href="https://www.assemblee-nationale.fr/dyn/16/amendements">Amendements</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/ta">Textes adoptés</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="ha-grid-item size-full">
+                                            <ul>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/rapports-information/(legis)/16">Rapports d'information</a></li>
+                                                <li><a href="/16/autres-commissions/commissions-d-enquete">Rapports d'enquête</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/rapports-application-loi/(legis)/16">Rapports sur l'application des lois</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/documents/liste/(type)/rapports">Rapports législatifs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="ha-grid-item size-full">
+                                            <ul>
+                                                <li><a href="https://www.assemblee-nationale.fr/dyn/16/dossiers">Dossiers législatifs</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/dans-l-hemicycle/budget-et-securite-sociale">Budget et sécurité sociale</a></li>
+                                                <li><a href="https://www2.assemblee-nationale.fr/recherche/questions">Questions écrites et orales</a></li>
+                                                <li><a href="https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance">Comptes rendus des débats</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="header-navigation--tab">
+                <div class="header-navigation--search-container">
+                    <div class="container _small">
+                        
+                                                <div class="search-input general-search-input">
+
+            <div class="search-input--filter">
+            <div class="search-input--filter-current _colored-grey">
+                <span></span>
+            </div>
+            <div class="search-input--filter-selection _colored-grey"></div>
+        </div>
+    
+    <div class="search-input--input">
+        <input type="text" placeholder="Recherche général" alt="Recherche général">
+        <div class="search-input--result-lists"></div>
+    </div>
+
+    <div class="search-input--submit _colored-grey">
+        <i class="an-icons-search2"></i>
+    </div>
+</div>                    </div>
+                </div>
+            </div>
+
+            
+            <div class="header-navigation--tab _colored-connaissance">
+                <div class="container">
+                    <div class="ha-grid with-divider">
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--info-box">
+                                <div class="header-navigation--tab--info-box--title">Connaître l'Assemblée</div>
+                                <div class="header-navigation--tab--info-box--content">
+                                    <img src="/dyn/assets/images/icons/icon_connaissance.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://www.assemblee-nationale.fr/dyn/role-et-pouvoir-de-assemblee">Rôle et pouvoirs de l'Assemblée</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/organisation-de-assemblee">Organisation de l'Assemblée</a>
+                                    <div class="header-navigation--tab--list-box--sublinks">
+                                        <ul>
+                                            <li><a href="https://presidence.assemblee-nationale.fr/">Présidence</a></li>
+                                            <li><a href="https://www2.assemblee-nationale.fr/16/la-conference-des-presidents">Conférence des Présidents</a></li>
+                                            <li><a href="https://www2.assemblee-nationale.fr/16/le-bureau-de-l-assemblee-nationale">Bureau</a></li>
+                                            <li><a href="https://www2.assemblee-nationale.fr/16/le-college-des-questeurs">Collège des Questeurs</a></li>
+                                            <li><a href="https://www.assemblee-nationale.fr/infos/services.asp">Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://www2.assemblee-nationale.fr/16/statistiques-de-l-activite-parlementaire">Statistiques et chiffres clés</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/transparence-et-deontologie">Transparence et déontologie</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/documents-de-reference">
+                                        Documents de référence<span>( Constitution | Règlement de l'Assemblée | Règlement du Congrès ... )</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://www.assemblee-nationale.fr/dyn/histoire">Histoire</a>
+                                    <a href="https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/juniors">Juniors</a>
+                                    <a href="http://archives.assemblee-nationale.fr/">Anciennes législatures</a>
+                                    <a href="https://www.assemblee-nationale.fr/liens.asp">Liens vers les sites publics</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="header-navigation--tab _colored-patrimoine">
+                <div class="container">
+                    <div class="ha-grid with-divider">
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--info-box">
+                                <div class="header-navigation--tab--info-box--title">Découvrir les lieux</div>
+                                <div class="header-navigation--tab--info-box--content">
+                                    <img src="/dyn/assets/images/icons/icon_connaissance.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/visiter-l-assemblee-nationale">Visiter l'Assemblée</a>
+                                    <a href="https://www.assemblee-nationale.fr/dyn/visite-virtuelle">Visite virtuelle du palais Bourbon</a>
+                                    <a href="https://www2.assemblee-nationale.fr/informations-pratiques/assister-a-une-seance-publique">Assister à une séance</a>
+                                    <a href="https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/ouverture-de-l-assemblee-aux-chercheurs2">Accès des chercheurs à l’Assemblée</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ha-grid-item size-1">
+                            <div class="header-navigation--tab--list-box">
+                                <div class="content">
+                                    <a href="https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/patrimoine">Patrimoine</a>
+                                    <a href="https://www2.assemblee-nationale.fr/informations-pratiques/bibliotheque-et-archives">Bibliothèque et archives</a>
+                                    <a href="https://www2.assemblee-nationale.fr/informations-pratiques/contacts-et-plan-d-acces">Contacts et plan d'accès</a>
+                                    <a href="https://www.assemblee-nationale.fr/presse/photos.asp">Photos libres de droit </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="header-navigation--tab _colored-primary">
+                <div class="container">
+                    <div class="ha-grid with-divider">
+                        
+                         
+                            <div class="ha-grid-item size-1">
+                                <div class="header-navigation--tab--info-box">
+                                    <div class="header-navigation--tab--info-box--title">Connexion &amp; inscription</div>
+                                    <div class="header-navigation--tab--info-box--content">
+                                        <img src="/dyn/assets/images/icons/icon_account.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ha-grid-item size-2">
+                                <div class="header-navigation--tab--center-box">
+                                    <div class="ha-grid _centered">
+                                        <div class="ha-grid-item size-1-2">
+                                            <div class="form-actions">
+                                                <div class="form-action">
+                                                    <div class="button">
+                                                        <i class="an-icons-unlock"></i>S'identifier
+                                                        <a class="inner" href="https://secure2.assemblee-nationale.fr/extuser/login">S'identifier</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-action">
+                                                    <a href="https://secure2.assemblee-nationale.fr/extuser/forgotpassword">
+                                                        Mot de passe oublié <i class="an-icons-chevron-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ha-grid-item size-1">
+                                <div class="header-navigation--tab--center-box">
+                                    <div class="registration-link">
+                                        <i class="an-icons-user"></i>
+                                        <span>Vous n'avez pas encore de compte ?</span>
+                                        <br>
+                                        <b><i class="an-icons-chevron-right"></i> Enregistrez-vous</b>
+                                        <a href="https://secure2.assemblee-nationale.fr/extuser/register/2" class="inner">Enregistrez-vous</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="header-navigation--spacer"></div>
+
+    <div id="site-mask"></div>
+</div>
+
+        <div id="page-fond" class="clearfix">
+			<div id="page" class="clearfix section_1">
+				<div class="clearfix">
+								
+																																																																																																																																																																																											
+	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  	 	  
+	
+	
+											
+											
+											
+				
+						
+
+					
+	
+
+
+
+
+<section>
+	<div id="haut-contenu-page" class="clearfix">
+							
+						
+															
+						
+															
+						
+										<div class="interieur-contenu-principal clearfix">
+	<ol class="breadcrumb">
+		<li class="sr-only">Vous êtes ici :</li>
+		<li><a href="https://www.assemblee-nationale.fr/">Accueil</a></li>
+									<li><a href="/decouvrir-l-assemblee/folder/europe-et-international" title="Europe et international">Europe et...</a></li>
+												<li class="active">L'activité internationale de l'Assemblée</li>
+						</ol>
+</div>			<div class="titre-bandeau-bleu">
+			<h1>Fiche de synthèse n°55 : L'activité internationale de l'Assemblée</h1>
+		</div>
+		
+		<article>
+			<div class="contenu-principal clearfix">
+				<div class="interieur-contenu-principal clearfix">
+					<div class="fiche-synthese-haut clearfix">
+																	</div>
+
+
+
+
+
+				</div>
+				<div class="interieur-contenu-principal clearfix">
+					<div class="interieur-entiere-colonne clearfix">
+													<h2 class="hide">Point clé : résumé de la fiche de synthèse</h2>
+							
+
+
+
+									<p>Les assemblées développent sur la scène internationale des actions diversifiées reposant sur des moyens qui leurs sont propres (accueil de délégations officielles, déplacements à l’étranger de délégations parlementaires, appui aux parlements étrangers, contacts directs entre députés…). Ces actions tendent, comme notre réseau diplomatique, à favoriser le rayonnement de la France à l’étranger. L’activité internationale des parlements intervient donc en complément de la diplomatie d’Etat.</p>
+											</div>
+				</div>
+				<span class="ligne-ombre-pied"></span>
+			</div>
+		</article>
+		<aside>
+			<div class="contenu-secondaire clearfix">
+				
+	
+	
+						
+	
+						
+	
+						
+	
+						
+	
+						
+	
+						
+	
+	
+	
+				
+						
+				
+	
+				
+						
+				
+	
+				
+						
+				
+	
+				
+						
+				
+	
+				
+						
+				
+	
+				
+						
+				
+		
+	
+	<nav>
+
+					
+				<h2 class="sr-only">Navigation interne de la page</h2>
+				
+					
+		<div class="carrousel-auto-false" style="margin-top:0px;">
+		
+			
+
+<p class="controle-pagination clearfix pagination-menu" style="display:block">
+			<a href="#precedent" title="Retour au début du menu" class="bouton-pagination precedent ">‹</a>
+		<span class="page-pagination "></span>
+		<a href="#suivant" title="Suite du menu" class="bouton-pagination suivant ">›</a>
+	</p>						
+			<ul class="menu-secondaire">
+			
+							
+					<li>
+					
+						<ul>
+						
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60834">Le rôle international du Président de l’Assemblée nationale													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60835">La Commission des affaires étrangères													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60836">Les débats en séance publique relatifs à la politique étr...													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60837">La participation de l’Assemblée nationale à des assemblée...													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60838">Les commissions parlementaires bilatérales													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+																	
+																				
+											<li>
+											
+																								
+													<a  href="#node_60839">L’Assemblée parlementaire franco-allemande													</a>
+																								
+											</li>
+											
+										 										
+																	
+														
+						</ul>
+						
+					</li>
+				
+								
+			</ul>
+			
+		</div>
+		
+	</nav>
+	
+	 
+				</div>
+		</aside>
+		<span class="haut-contenu-page-fond-pied"></span>
+	</div>
+</section>
+<!-- /#haut-contenu-page -->
+<section>
+	<div id="contenu-page" class="clearfix">
+		<article>
+			<div class="contenu-principal clearfix">
+				<div class="interieur-contenu-principal clearfix">
+																<a name="node_60834"></a>
+						<div class="titre-contenu clearfix">
+							<h2>Le rôle international du Président de l’Assemblée nationale</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>Quatrième personnage de l’État, le Président de l’Assemblée nationale a un rôle international considérable. Il peut se déplacer en visite officielle auprès d’autres présidents d’assemblées. Il a de nombreux entretiens avec des chefs d’État ou de gouvernement en visite officielle en France (9 en 2018). Il rencontre également les ambassadeurs en poste à Paris (9&nbsp;entretiens en 2018), ses homologues présidents d’assemblées parlementaires (26&nbsp;entretiens en 2018), des dirigeants d’organisations internationales (au total 52&nbsp;entretiens avec des personnalités étrangères en 2018 à l’Hôtel de Lassay).</p></p>
+
+		
+</div>
+											<a name="node_60835"></a>
+						<div class="titre-contenu clearfix">
+							<h2>La Commission des affaires étrangères</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>La commission des affaires étrangères constitue l’élément central de l’activité internationale de l’Assemblée. Elle examine les projets de loi autorisant la ratification de traités et d’accords internationaux, auditionne des personnalités françaises et étrangères et crée des missions d’information sur des questions relevant des relations internationales ou de la politique extérieure de la France.</p></p>
+
+		
+</div>
+											<a name="node_60836"></a>
+						<div class="titre-contenu clearfix">
+							<h2>Les débats en séance publique relatifs à la politique étrangère</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>L’Assemblée nationale vote les lois autorisant la ratification des traités, adopte les crédits relatifs à la politique étrangère de l’État et contrôle l’action du pouvoir exécutif en matière internationale. Les questions au Gouvernement peuvent être l’occasion pour les députés d’interpeller les ministres, et notamment celui en charge des affaires étrangères, sur des sujets internationaux. Le Gouvernement peut également décider de faire une déclaration devant le Parlement sur des thèmes de politique étrangère.</p><p>Par ailleurs, depuis la révision constitutionnelle de 2008, le Parlement doit donner son autorisation à toute prolongation au-delà de quatre mois d’une intervention des forces armées françaises à l’étranger.</p></p>
+
+		
+</div>
+											<a name="node_60837"></a>
+						<div class="titre-contenu clearfix">
+							<h2>La participation de l’Assemblée nationale à des assemblées parlementaires internationales</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>L’Assemblée nationale participe régulièrement aux travaux d’assemblées parlementaires internationales. Ces enceintes parlementaires permettent aux députés français d’avoir des échanges nourris avec leurs homologues de pays étrangers sur les grandes thématiques internationales. Elles sont aussi un moyen de faire connaître les positions et les initiatives de la France par des contacts directs et réguliers. Le Parlement français a institué, en son sein, des délégations rassemblant des députés et des sénateurs chargés de participer aux sessions ou réunions de commissions de ces assemblées.</p><p>&nbsp;<b>Deux assemblées ont une vocation mondiale&nbsp;:</b></p><p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Union interparlementaire (UIP) est l'organisation des Parlements dans le monde. Elle a été créée à Paris en 1889 et rassemble aujourd’hui 179&nbsp;parlements nationaux.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée parlementaire de la francophonie (APF) est le vecteur parlementaire du rayonnement de la langue française dans le monde : créée en 1967 à Luxembourg, elle réunit les parlementaires issus de plus de quatre-vingts Parlements membres ou observateurs.</p><p>&nbsp;<b>D’autres assemblées ont plutôt une vocation régionale&nbsp;: </b></p><p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Créée en 1954, l’Assemblée parlementaire du Conseil de l’Europe (APCE) est la première assemblée européenne dans l’histoire de notre continent.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée parlementaire de l’OTAN (AP-OTAN) réunit des délégations de parlementaires des pays membres de l’Alliance atlantique pour débattre des orientations et des politiques de sécurité et de coopération mises en œuvre dans le cadre de cette alliance.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée parlementaire de l’Organisation pour la sécurité et la coopération en Europe (OSCE) est le lieu d’échanges réguliers entre parlementaires du continent européen et d’Amérique du Nord sur les questions de prévention et de règlement des conflits, de consolidation des institutions démocratiques en Europe&nbsp;; elle assure notamment le suivi du bons déroulement des opérations électorales de ses 56&nbsp;pays membres.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée parlementaire de la Méditerranée (APM), créée en 2005, rassemble 29&nbsp;pays du bassin méditerranéen sur la base d’un équilibre entre les rives Nord et sud de la Méditerranée.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée parlementaire de l'Union pour la Méditerranée (APEM) réunit les délégations des parlements des pays membres du partenariat euro-méditerranéen.</p><p>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L’Assemblée nationale participe aussi aux travaux de l’Assemblée parlementaire de la coopération économique de la mer Noire en qualité d’observateur.</p></p>
+
+		
+</div>
+											<a name="node_60838"></a>
+						<div class="titre-contenu clearfix">
+							<h2>Les commissions parlementaires bilatérales</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>Des commissions parlementaires bilatérales ont été créées entre l’Assemblée nationale et ses homologues d’Etats avec lesquels la France entretient des relations étroites (Algérie, Canada, Chine, Maroc, Québec, Russie). Ces commissions, présidées par les présidents d’assemblée, se réunissent alternativement en France ou dans le pays partenaire.</p></p>
+
+		
+</div>
+											<a name="node_60839"></a>
+						<div class="titre-contenu clearfix">
+							<h2>L’Assemblée parlementaire franco-allemande</h2>
+								</div>
+								
+		
+	 
+	
+
+	 
+
+		
+
+
+
+		
+<div class="interieur">
+
+	
+		<p><p>Une assemblée commune a été instituée par l’accord parlementaire franco-allemand approuvé le 11 mars 2019 par l’Assemblée nationale. Il s’agit d’une structure inédite et unique en son genre qui traduit concrètement&nbsp; la volonté de l’Assemblée nationale et du Bundestag d’approfondir leur coopération.&nbsp;</p><p>Composée de cinquante membres de l’Assemblée nationale et de cinquante membres du Bundestag, l’Assemblée parlementaire franco-allemande se réunira au moins deux fois par an. Ses compétences sont de veiller à l’application des traités de l’Élysée et d’Aix-la-Chapelle, de suivre les activités des Conseils des ministres franco-allemands et du Conseil franco-allemand de défense et de sécurité ainsi que les affaires internationales et européennes présentant un intérêt commun et de formuler des propositions sur toutes questions intéressant les relations franco-allemand. Elle a tenu sa première réunion le 25 mars 2019</p></p>
+
+		
+</div>
+														</div>
+			</div>
+		</article>
+		<aside>
+			<div class="contenu-secondaire clearfix">
+			
+				<div class="interieur-contenu-secondaire clearfix">
+				
+					<h2 class="sr-only">Contenus annexes liés à cette page</h2>
+					
+										
+																																																																																																																						
+						
+					
+																																							
+	
+		<div class="bloc-standard plusieurs-element-slide">
+			<div class="titre-contenu titre-simple clearfix">
+				<span>Toutes les autres fiches concernant « Europe et international »</span>
+			</div>
+			<div class="corps-contenu carrousel-auto-false clearfix">
+				
+
+<p class="controle-pagination clearfix" style="display:block">
+			<a href="#precedent" title="précédents" class="bouton-pagination precedent ">‹</a>
+		<span class="page-pagination "></span>
+		<a href="#suivant" title="suivants" class="bouton-pagination suivant ">›</a>
+	</p>				<ul>
+											<li>
+							<ul>
+																	
+<li>
+
+		
+	<span class="titre-element">La commission des affaires européennes</span>
+	
+		
+		<p><p>En application des traités européens et de la Constitution, l’Assemblée nationale et le Sénat ont mis en place des mécanismes spécifiques d’exam...</p></p>
+		
+		
+	<a href="/decouvrir-l-assemblee/folder/europe-et-international/la-commission-des-affaires-europeennes">Lire la suite</a>
+	
+</li>
+																	
+<li>
+
+		
+	<span class="titre-element">La coopération entre parlements nationaux sur les affaires européennes</span>
+	
+		
+		<p><p>La coopération entre les parlements des Etats membres de l’Union européenne sur les sujets européens se décline dans plusieurs instances qui ser...</p></p>
+		
+		
+	<a href="/decouvrir-l-assemblee/folder/europe-et-international/la-cooperation-entre-parlements-nationaux-sur-les-affaires-europeennes">Lire la suite</a>
+	
+</li>
+																	
+<li>
+
+		
+	<span class="titre-element">La coopération avec les parlements de pays tiers</span>
+	
+		
+		<p><p>L’Assemblée nationale coopère avec d’autres parlements dans le monde parce que des parlements de pays récemment revenus à la démocratie ou manqu...</p></p>
+		
+		
+	<a href="/decouvrir-l-assemblee/folder/europe-et-international/la-cooperation-avec-les-parlements-de-pays-tiers">Lire la suite</a>
+	
+</li>
+															</ul>
+						</li>
+											<li>
+							<ul>
+																	
+<li>
+
+		
+	<span class="titre-element">Les groupes d'amitié</span>
+	
+		
+		<p><p>Un groupe d’amitié est un groupe de députés, agréé par le Bureau de l’Assemblée nationale, dont les membres ont un intérêt particulier pour un p...</p></p>
+		
+		
+	<a href="/decouvrir-l-assemblee/folder/europe-et-international/les-groupes-d-amitie">Lire la suite</a>
+	
+</li>
+															</ul>
+						</li>
+									</ul>
+			</div>
+		</div>					
+									</div>
+			</div>
+		</aside>
+		
+	</div>
+</section>
+
+		
+	
+				</div>
+			</div>
+		</div>
+
+        <div class="new-style-ezpublish">
+  <footer class="site-footer">
+    <div class="site-footer--top">
+      <div class="site-footer--top-logo"></div>
+      <div class="hr-flag-large"></div>
+    </div>
+    <div class="site-footer--content">
+      <div class="container _small">
+        <div class="ha-grid with-divider bloc-first">
+          <div class="ha-grid-item size-1-2 bloc-lcp">
+            <div class="block-footer-image">
+              <div class="">
+                <img src="/dyn/assets/images/logos/LCP.png" alt="Logo LCP Assemblée nationale"/>
+              </div>
+              <div>
+                LCP<br/><span>Accédez à toute<br/>l'actualité de<br/>la Chaine Parlementaire</span>
+              </div>
+              <a href="http://www.lcp.fr/" class="inner"
+                 title="Site web LCP Assemblée nationale"></a>
+            </div>
+          </div>
+          <div class="ha-grid-item size-1-2 bloc-opendata">
+            <div class="block-footer-image">
+              <div class="">
+                OPEN DATA<br/><span>Accédez à toutes<br/>les données de<br/>l'Assemblée nationale</span>
+              </div>
+              <a href="https://data.assemblee-nationale.fr/" class="inner"
+                 title="Site web de l'open data"></a>
+              <div class="">
+                <span class="an-icons-logo-opendata"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloc-second">
+          <div class="flexrow _gutter-xs _wrap">
+            <div class="flex0">
+              <ul class="squared-button-list">
+                <li class="_mr-medium">
+                  <a href="https://www.acce-o.fr/client/assemblee-nationale"
+                     target="_blank"
+                     class="inner"
+                     title="Malentendants ? Sourds ? Contactez-nous avec ACCEO"
+                     style="background-image: url('/dyn/assets/images/icons/acceo.jpg');"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex0">
+              <ul class="squared-button-list">
+                <li>
+                  <i class="an-icons-twitter"></i>
+                  <a href="https://twitter.com/AssembleeNat" target="_blank" class="inner" title="Accéder à la page Twitter de l'Assemblée nationale"></a>
+                </li>
+                <li>
+                  <i class="an-icons-facebook"></i>
+                  <a href="https://fr-fr.facebook.com/AssembleeNationale" target="_blank" class="inner" title="Accéder à la page Facebook de l'Assemblée nationale"></a>
+                </li>
+                <li>
+                  <i class="an-icons-instagram"></i>
+                  <a href="https://www.instagram.com/assembleenationale" target="_blank" class="inner" title="Accéder à la page Instagram de l'Assemblée nationale"></a>
+                </li>
+                <li>
+                  <i class="an-icons-linkedin2"></i>
+                  <a href="https://fr.linkedin.com/company/assemblee-nationale" target="_blank" class="inner" title="Accéder à la page LinkedIn de l'Assemblée nationale"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="bloc-third">
+          <div class="bloc-third-item">
+            <div><a href="https://boutique.assemblee-nationale.fr/"
+                    title="Accéder au site boutique de l'Assemblée nationale">BOUTIQUE DE L'ASSEMBLEE</a></div>
+            <div class="an-icons-chevron-right"></div>
+          </div>
+          <div class="bloc-third-item link-abonnements-action custom-tippy-theme-abonnements">
+            <div>UNE SEMAINE À L'ASSEMBLÉE</div>
+            <div class="an-icons-chevron-right"></div>
+          </div>
+          <div id="template-tippy-abonnements" style="display: none;">
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup abonnements-container">
+              <div class="abonnements-container--header">Une semaine à l'Assemblée</div>
+              <div class="abonnements-container--description">
+                <p>
+                  Inscrivez-vous à notre lettre <span>Une semaine à l'Assemblée</span> et recevez tous
+                  les vendredis dans votre messagerie les temps forts de l'actualité de la semaine à venir !
+                </p>
+
+                <p>
+                  Votre adresse de messagerie est uniquement utilisée pour vous envoyer les lettres de l'Assemblée
+                  nationale.
+                  Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la lettre.
+                  <a href="https://www.assemblee-nationale.fr/faq.asp">En savoir plus sur la
+                    gestion de vos données et de vos droits</a>
+                </p>
+              </div>
+              <form
+                      action="https://assemblee-nationale.us19.list-manage.com/subscribe/post?u=faad0c0d61d56141e601169c5&amp;id=aa7e617bea"
+                      method="post"
+                      id="mc-embedded-subscribe-form"
+                      name="mc-embedded-subscribe-form"
+                      class="validate abonnements-container--form"
+                      target="_blank"
+                      novalidate>
+                <div id="mc_embed_signup_scroll" class="abonnements-container--form-container">
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Adresse e-mail"
+                         required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                            name="b_faad0c0d61d56141e601169c5_aa7e617bea"
+                                                                                            tabindex="-1" value="">
+                  </div>
+                  <div class="clear"><input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe"
+                                            class="button"></div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+          <div class="bloc-third-item">
+            <div><a href="https://www.assemblee-nationale.fr/abonnement.asp"
+                    title="S'abonner aux services en ligne">S'ABONNER À UN SERVICE</a></div>
+            <div class="an-icons-chevron-right"></div>
+          </div>
+          <div class="bloc-third-item">
+            <div><a href="https://leximpact.an.fr"
+                    title="Accéder à l'outil d'évaluation Leximpact">OUTIL D'ÉVALUATION LEXIMPACT</a></div>
+            <div class="an-icons-chevron-right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container _small">
+
+        <div class="bloc-fourth">
+          &copy;Tous droits réservés Assemblée nationale 2019 |
+          <a href="https://www.assemblee-nationale.fr/faq.asp"
+             title="Accéder aux mentions légales de l'Assemblée nationale">Mentions légales</a> | <a
+                  href="https://www2.assemblee-nationale.fr/static/accessibilite/declaration_accessibilite_assemblee-final.pdf"
+                  title="Accessibilité : non-conforme" target="_blank">Accessibilité : non-conforme</a> | <a
+                  href="https://www.assemblee-nationale.fr/faq.asp" title="Contacter le webmestre">Contacter
+            le webmestre</a> | <a href="https://www.assemblee-nationale.fr/rss/"
+                                  title="Accéder aux fils RSS">Fils RSS</a>
+          <div>Assemblée nationale - 126 Rue de l'Université, 75355 Paris 07 SP - Standard 01 40 63 60 00</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+            
+<script type="text/javascript" src="/extension/common/design/an/javascript/superfish-1.5.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jwplayer-6.12/jwplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/chosen.jquery-0.9.12.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/perfect-scrollbar-0.4.5.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.dataTables.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.dataTables.pagination.bstrap.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-pskn/design/ezswidl-pskn/javascript/an-front-loader.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-users/design/standard/javascript/ezswidl-users.userregister.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-users/design/standard/javascript/ezswidl-users.ezhumancaptcha.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ansearch/design/an/javascript/recherche.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/bootstrap-2.1.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-anobjects/design/an/javascript/bootstrap-accessibility.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.easing.1.3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.mousewheel.3.1.6.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.jscrollpane.2.0.0beta11.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.bxSlider.4.1.2.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery-ui-1.8.21.custom.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-pskn/design/ezswidl-pskn/javascript/libs/jquery.ui.datepicker-fr.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-pskn/design/ezswidl-pskn/javascript/an-front-main.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-anobjects/design/ezflow/javascript/ezswidl-anobjects.deputes.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/ezswidl-anobjects/design/an/javascript/ezswidl-anobjects.dossiers.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/common.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/captcha.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/jquery.prettyPhoto.1.3.5.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/an/design/an/javascript/masonry.pkgd.min.3.1.5.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/an/design/an/javascript/photo.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/an/design/an/javascript/mur.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/randomColor.js" charset="utf-8"></script>
+<script type="text/javascript" src="/extension/common/design/an/javascript/colorfinder.1.1.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+    $matomoSiteId2 = '5';
+    $matomoDomain2 = 'assemblee-nationale.fr';
+</script>
+
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
+        _paq.push(['setCookieDomain', '*.' + $matomoDomain2]);
+        _paq.push(["setDomains", ['*.' + $matomoDomain2]]);
+        _paq.push(["setDoNotTrack", true]);
+        // Call disableCookies before calling trackPageView
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://assembleenationale.matomo.cloud/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', $matomoSiteId2]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/assembleenationale.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+<!-- End Matomo Code -->
+
+<script src="/dyn/assets/js/libs/jquery.nicescroll.min.js"></script>
+<script src="/dyn/assets/js/libs/jquery.mark.min.js"></script>
+<script src="/dyn/js/compiled/main_shared.js"></script>
+    </div>
+    </body>
+</html>
