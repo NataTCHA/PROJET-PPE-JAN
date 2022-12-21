@@ -1,0 +1,521 @@
+   #Blog
+
+   [ ]
+
+     * Start
+     * Stadt-/Stadtteil-Daten
+     * Wohnungsmarkt-Daten
+     * -> Angebotsseite
+     * -> Nachfrageseite
+     * -> Miet-/Kaufpreise
+     * Stadtteil-Profile
+     * Sport
+
+     * Start
+          + Ziel & Vorteile
+          + Datenübersicht
+          + Einsatzbereiche
+          + Neuigkeiten
+          + Fragen & Hilfe
+          + Blog
+          + Shop
+          + CHEMNITZ in ZAHLEN+
+               o CiZ+ Zugang kaufen
+               o Wohnungsmarkt-Report Chemnitz
+               o Stadtteil-Profile Chemnitz
+               o Spezialthemen / weitere Veröffentlichungen
+               o Grafik-Download
+     * Stadt-/Stadtteil-Daten
+          + Schnellüberblick
+          + Gesamtstadt Chemnitz
+          + Einwohnerzahlen und -entwicklung
+          + Geburten & Sterbefälle
+          + Zuzüge & Wegzüge
+          + Altersstruktur
+          + Sozioökonomie
+          + Mobilität
+          + Wahlergebnisse
+               o Stadtratswahlen 2019
+               o Europawahlen 2019
+               o Landtagswahlen 2019
+               o Oberbürgermeisterwahl 2020
+               o Bundestagswahl 2021
+               o Politische Landkarte
+               o Oberbürgermeisterwahl Limbach-Oberfrohna 2022
+               o Landratswahl Erzgebirgskreis 2022
+               o Landratswahl Mittelsachsen 2022
+               o Landratswahl Zwickau 2022
+               o Stadtratswahlen 2024
+               o Europawahlen 2024
+               o Landtagswahlen 2024
+          + Flächennutzung
+          + Corona
+               o 2022
+               o 2021
+               o 2020
+               o Corona-Folgen
+          + Stadtteilkarten
+          + Kulturhauptstadt 2025
+          + Ukraine-Krieg
+          + Weiterführende Links
+     * Wohnungsmarkt-Daten
+     * -> Angebotsseite
+          + Wohnungsmarkt-Stichprobe
+          + Wohnungen & Wohngebäude
+          + Leerstand
+          + Stadtstruktur & Wohngebiete
+          + Bauen
+          + Segregation
+     * -> Nachfrageseite
+          + Haushalte
+          + Familienstrukturen
+          + Umzugsverhalten
+          + Eigentumsverhältnisse
+          + Spezielle Zielgruppen
+          + Urbanisierung
+     * -> Miet-/Kaufpreise
+          + Mietpreise
+          + Angebotsmieten
+          + Kaufpreise
+     * Stadtteil-Profile
+          + Adelsberg
+          + Altchemnitz
+          + Altendorf
+          + Bernsdorf
+          + Borna-Heinersdorf
+          + Ebersdorf
+          + Einsiedel
+          + Erfenschlag
+          + Harthau
+          + Euba
+          + Furth
+          + Gablenz
+          + Glösa-Draisdorf
+          + Grüna
+          + Helbersdorf
+          + Hilbersdorf
+          + Hutholz
+          + Kapellenberg
+          + Kappel
+          + Kaßberg
+          + Klaffenbach
+          + Kleinolbersdorf-Altenhain
+          + Lutherviertel
+          + Markersdorf
+          + Mittelbach
+          + Morgenleite
+          + Rabenstein
+          + Reichenbrand
+          + Reichenhain
+          + Röhrsdorf
+          + Rottluff
+          + Siegmar
+          + Schloßchemnitz
+          + Schönau
+          + Sonnenberg
+          + Stelzendorf
+          + Wittgensdorf
+          + Yorckgebiet
+          + Zentrum
+     * Sport
+          + Fußball
+          + Basketball
+          + Handball
+          + Eishockey
+          + Volleyball
+          + Floorball
+          + American Football
+          + Wasserball
+          + Tischtennis
+          + Boxen
+          + Baseball
+
+   CHEMNITZ in ZAHLEN -
+   Das Wohnungsmarkt- und Stadtteildatenportal Chemnitz
+
+   22. Januar 2022
+
+Die ausländische Bevölkerung in Chemnitz und seinen Stadtteilen - ein
+Überblick
+     __________________________________________________________________
+
+   Hinweis: Der Blog-Artikel ist durch die Entwicklungen des russischen
+   Überfalls auf die Ukraine und den daraus resultierenden
+   Flüchtlingsbewegungen veraltet bzw. nicht mehr aktuell. Daten zur
+   Situation der ukrainischen Flüchtlinge in Chemnitz finden sich hier -
+   unterjährige Daten zur Zahl der ausländischen Bevölkerung in Chemnitz
+   sind hier (Abschnitt AUSLÄNDISCHE BEWOHNERSCHAFT) zu finden.
+     __________________________________________________________________
+
+Stand und Entwicklung in Chemnitz
+
+   22.930 Ausländer (Menschen mit nicht-deutscher Staatsbürgerschaft)
+   wohnten am 30.12.2021 in Chemnitz. Der Ausländeranteil an der
+   Bevölkerung in Chemnitz lag somit bei 9,4 Prozent.
+
+
+   Sowohl Zahl als auch Anteil der ausländischen Bewohnerschaft sind in
+   den letzten Jahren deutlich gestiegen. Verzeichnete Chemnitz im Jahr
+   2000 einen Ausländeranteil von 2,2 % und 2010 einen Wert von 3,0 %, so
+   stieg dieser Wert in den Jahren 2014 bis 2017 von 4 % auf 7,6 % an.
+   Seitdem hat sich das Wachstum wieder abgeschwächt. Die starke
+   Zuwanderung im Zuge der Asyl- und Flüchtlingskrise 2015/2016 hat in
+   Chemnitz – grob berechnet – zu einer Erhöhung des Ausländeranteils um
+   ca. 2 Prozent-Punkte geführt. In absoluten Zahlen gesprochen: 2011
+   lebten in Chemnitz 7.357, fünf Jahre später (Ende 2016) waren es
+   16.847, Ende 2021 lag die Zahl der ausländischen Bevölkerung bei
+   inzwischen knapp 23.000. Im Jahr 2021 erhöhte sich der Wert um 1.274
+   Personen.
+
+   Hinweis: Bei der groben Differenzierung der Bewohnerschaft in
+   "Deutsche" und "Ausländer" wird die Gruppe der Personen mit mehreren
+   Staatsbürgerschaften nur unzureichend beleuchtet.
+
+
+   Am 31.12.2019 wies Chemnitz (damals 246.908 Einwohner; aktuellere Daten
+   mit diesem Differenzierungsgrad liegen nicht vor)
+     * 221.998 Einwohner mit ausschließlich der deutschen
+       Staatsbürgerschaft (89,9 % der Chemnitzer Gesamtbevölkerung)
+     * 21.401 Einwohner ohne deutsche Staatbürgerschaft (sog. „Ausländer“;
+       8,7 % der Chemnitzer Gesamtbevölkerung)
+     * 3.509 Personen mit mehreren Staatsbürgerschaften (darunter der
+       deutschen Staatsbürgerschaft; 1,4 %) auf.
+
+   Personen mit mehreren Staatsbürgerschaften, darunter der deutschen,
+   werden nicht als „Ausländer“, sondern als Deutsche gezählt. Sie fließen
+   somit nicht in die Berechnung des Ausländeranteils mit ein.
+     __________________________________________________________________
+
+Zusammensetzung der ausländischen Bevölkerung in Chemnitz
+
+   Die Herkunftsländer der ausländischen Bevölkerung in Chemnitz sind so
+   vielfältig wie das Leben. Die Statistik der ausländischen
+   Bewohnerschaft zählte Ende 2019 29 Länder mit einer mindestens
+   dreistelligen Zahl an Menschen, die in Chemnitz leben (insgesamt 50
+   Länder mit mindestens einer zweistelligen Zahl an in Chemnitz wohnenden
+   Menschen).
+
+
+   Die TOP 15 Herkunftsländer (im Sinne der Staatsangehörigkeit) in
+   Chemnitz waren Ende 2019 (Stand 31.12.2019):
+
+    1. Syrien (2.790)
+    2. Afghanistan (1.404)
+    3. Rumänien (1.271)
+    4. China (1.116)
+    5. Indien (1.110)
+    6. Russland (1.100)
+    7. Tschechische Republik (876)
+    8. Ukraine (876)
+    9. Ungarn (863)
+   10. Vietnam (745)
+   11. Polen (712)
+   12. Irak (643)
+   13. Pakistan (457)
+   14. Bulgarien (414)
+   15. Türkei (384)
+
+   Menschen aus Syrien (Ende 2019: 2.790) sind die größte Ausländergruppe
+   in Chemnitz. Mit vierstelligen Zahlen (in der Spanne von 1.100 bis
+   1.400) folgen Menschen aus Afghanistan, Rumänien, China, Indien und
+   Russland. Alle weiteren Nationalitäten sind in Chemnitz nur im maximal
+   dreistelligen Bereich zu finden, darunter Menschen der Tschechischen
+   Republik, der Ukraine, aus Ungarn, Vietnam, Polen und dem Irak
+   (allesamt in der Spanne von 640 bis 880 Menschen).
+
+   [Hinweis: die aufgeführte Liste (Zahlen) ist nicht vollständig bzw.
+   nicht abschließend; die Auswahl der Länder wurde mit Jahrbuch der Stadt
+   Chemnitz entnommen. Eine sortierbare Tabelle dieser Grafik finden Sie
+   im Bereich GESAMTSTADT -> AUSLÄNDISCHE BEVÖLERUNG]
+
+   Weitere prominente bzw. bevölkerungsstarke Länder weisen teilweise
+   verblüffend geringe Einwohnerzahlen in Chemnitz auf (Auswahl, Stand
+   jeweils 31.12.2019):
+     * Rang 16: Italien (317 Menschen mit italienischer Nationalität, die
+       in Chemnitz wohnen)
+     * Rang 25: Griechenland (160)
+     * Rang 26: Spanien (138)
+     * Rang 29: Österreich (116)
+     * Rang 32: Vereinigte Staaten (90)
+     * Rang 36: Brasilien (74)
+     * Rang 37: Frankreich (67)
+     * Rang 40: Nigeria (62)
+     * Rang 42: Vereinigtes Königreich (52)
+     * Rang 43: Niederlande (43)
+     * Rang 44: Portugal (43)
+     * Rang 46: Schweiz (31)
+     * Rang 48: Kanada (15)
+
+   Was gerne und oft bei der Herkunftsbeschreibung von Ausländern (im
+   Sinne von nicht-deutscher Staatsbürgerschaft) vergessen wird: nicht
+   wenige „Ausländer“ sind in Chemnitz geboren. Im Jahr 2020 bspw. hatten
+   308 Neu-Chemnitzer:innen (bei 2.183 Geburten) keine deutsche
+   Staatsbürgerschaft (14 %).
+
+   13 % aller in Chemnitz lebenden Ausländer hatten Stand 31.12.2019 eine
+   syrische Staatsbürgerschaft. Jeweils gerundet 6 % der Ausländer in der
+   Stadt kamen aus Afghanistan bzw. aus Rumänien. Mit Ausländern aus
+   China, Indien und Russland (jeweils 5 %) kann rechnerisch gesagt
+   werden, dass Menschen aus nur 6 Ländern (Syrien, Afghanistan, Rumänien,
+   China, Indien, Russland) 41 % der in Chemnitz wohnhaften ausländischen
+   Bevölkerung bilden. Weitere signifikante Anteile an der Gesamtheit der
+   Ausländer in Chemnitz (jeweils zwischen 3 % und 4 %) bilden Menschen
+   mit Staatsbürgerschaften aus der Tschechischen Republik, Ukraine,
+   Ungarn, Vietnam, Polen und Irak. Somit zeichnen 12 Länder für 63 % der
+   in Chemnitz lebenden Ausländern verantwortlich. Alle weiteren Länder
+   und Nationen bilden dann noch einmal weitere 27 % - angefangen von
+   Pakistan (2,1 %) bis hin zu Ländern, die teilweise nur eine einstellige
+   Zahl von Bewohnern in Chemnitz aufweisen (z. B. Irland mit 4).
+     __________________________________________________________________
+
+Entwicklung in den letzten Jahren 2015-2020
+
+   Im 5-Jahres-Beobachtungszeitraum 2015 bis 2020 (gemessen über die Werte
+   vom 31.12.2014 und 31.12.2019) stieg die Zahl der in Chemnitz lebenden
+   Ausländer um 86 % (von 11.494 auf 21.401). Von den 30 meist vertretenen
+   Nationalitäten in Chemnitz lebten in 29 Fällen zum Zeitpunkt Ende 2019
+   mehr Menschen in Chemnitz als 2014. Besonders starke Zuwächse in
+   Chemnitz wurden von Menschen aus den folgenden Ländern registriert:
+     * Syrien +693 % (von 352 auf 2.790)
+     * Afghanistan +575% (von 208 auf 1.404)
+     * Kroatien +385% (von 46 auf 223)
+     * Bosnien-Herzegowina +350 % (von 30 auf 135)
+     * Litauen +240 % (von 52 auf 177)
+     * Irak +226 % (von 197 auf 643)
+     * Rumänien 212 % (von 408 auf 1.271)
+
+   Insgesamt nur Menschen aus zwei Nationalitäten, die Ende 2014
+   mindestens dreistellige Zahlen in Chemnitz aufwiesen, verringerten im
+   Zeitraum 2015-2020 ihre Bewohnerzahl in Chemnitz (Ukraine: von 978 auf
+   876; entspricht -10 %, Tunesien: von 300 auf 179; entspricht -40%).
+     __________________________________________________________________
+
+Die ausländische Bevölkerung in den Stadtteilen von Chemnitz
+
+   Blick man auf die 39 Stadtteile, so fällt auf, dass die ausländische
+   Bevölkerung stark ungleich verteilt auf dem Stadtgebiet wohnt und vor
+   allem innerstädtisch bzw. in den zentrumsnahen Stadtteilen zu finden
+   ist. Die meisten Nicht-Deutschen leben im Stadtteil Zentrum (4.463;
+   Stand 31.12.2019), in Bernsdorf (3.161) und auf dem Sonnenberg (2.597).
+   Addiert man die ausländische Bevölkerung vom Kaßberg und Schloßchemnitz
+   hinzu, so wohnen 60 % aller Nicht-Deutschen in Chemnitz in diesen fünf
+   Stadtteilen. Die höchsten Ausländeranteile an der Stadtteilbevölkerung
+   sind im Zentrum (30 %), in Furth (26 %), Bernsdorf (22 %) und dem
+   Sonnenberg (17 %) zu finden - „ausländisches Wohnen“ in Chemnitz
+   beschränkt sich in den allermeisten Fällen auf Stadtteile mit hohen
+   Mietwohnungsbeständen. In den Stadtrand-Stadtteilen mit hohen
+   Eigentümeranteilen liegen die Werte bei 1 bis 2 %.
+
+   Beim ausländischen Wohnen in Chemnitz und beim Blick auf die Stadtteile
+   muss man die unterschiedlichen Lebenswirklichkeiten der Menschen
+   berücksichtigen. Am TU Chemnitz-Standort Bernsdorf bspw. wohnen viele
+   ausländische Studierende (die TU Chemnitz hat einen Anteil von mehr als
+   30 % ausländische Studenten); im Stadtteil Zentrum, aber auch in Furth
+   und auf dem Sonnenberg wohnen vielen Personen mit "asylbezogenem
+   Zuwanderungshintergrund" (offizieller Wortlaut der Stadt Chemnitz).
+   Dazu kommt im Stadtteil Ebersdorf die
+   Asylbewerber-Erstaufnahme-Einrichtung des Freistaates Sachsen
+   (Adalbert-Stifter-Weg), die dort - sofern die Wohnheime dort stark
+   ausgelastet sind - für einen relativ hohen Ausländeranteil sorgt. Grob
+   lässt sich sagen, dass viele Asylbewerber und Flüchtlinge, die 2015 und
+   2016 nach Chemnitz gekommen sind, in Wohnungen der kommunalen
+   Wohnungsgesellschaft "Grundstücks- und Gebäudewirtschafts-Gesellschaft
+   m.b.H." (GGG) eingezogen sind. Chemnitzer Wohnungsgenossenschaften
+   waren hier deutlich zurückhaltender. Entsprechend unterschiedlich
+   gestalten sich die Ausländeranteile selbst in innerstädtischen
+   Stadtteilen.
+     __________________________________________________________________
+
+Die Teilgruppe der Asylbewerber und Flüchtlinge
+
+   Am 31.12.2020 lebten in Chemnitz 5.792 Personen mit „asylbezogenem
+   Zuwanderungsgrund“ (dazu kommen 605 Menschen, die der Rubrik „Sonstige“
+   zugeordnet werden). Diesen beiden Gruppen (zusammen 6.397) bildeten
+   somit Ende 2020 bei einer Gesamtzahl von 21.656 knapp 30 % der in
+   Chemnitz lebenden Ausländer. Die Gruppe „Menschen mit asylbezogenem
+   Hintergrund“ umfasst in Chemnitz eine Reihe von verschiedenen Status
+   (sämtliche Wortlaute entstammen der „Stadt Chemnitz – Asylstatistik“)
+     * Asylbewerber (Stand 31.12.2020: 688)
+     * Asylberechtigte (79)
+     * Flüchtlinge, die unter internationalen Schutzstatus fallen (2.624)
+     * Subsidärer Schutz (961)
+     * Abschiebeverbot (780)
+     * Abgelehnte Asylbewerber (660)
+     * Resettlement/ AO (167)
+     * Familiennachzug (412)
+     * Sonstige (26)
+
+   Die meisten Ausländer der Gruppe „Menschen mit asylbezogenem
+   Hintergrund“ (knapp 61 % Männer, 39 % weiblich/unbekannt) kamen aus
+   (Achtung: anderer Stand 31.12.2021)
+     * Syrien (2.543)
+     * Afghanistan (1.320)
+     * Irak (446)
+     * Russische Föderation (215)
+     * Libyen (173)
+     * Iran (269)
+     * Eritrea (256)
+     * Libanon (154)
+     * Pakistan (188)
+
+   2.081 Menschen dieser Gruppe (d. h. mehr als 30 % aller in Chemnitz
+   wohnhaften Asylbewerber und Flüchtlinge) wohnten am 31.12.2021 im
+   Zentrum, weitere 884 auf dem Sonnenberg, 428 in Bernsdorf. In der
+   Größenordnung „200 bis 300 Personen“ finden sich Menschen mit
+   „asylbezogenem Hintergrund“ in den Stadtteilen Schloßchemnitz,
+   Yorckgebiet, Gablenz, Altchemnitz, Helbersdorf, Markersdorf, Kappel,
+   Kaßberg.
+
+
+   Weitere detaillierte Statistiken zur Personengruppe der Menschen mit
+   asylbezogenem Zuwanderungsgünden (z. B. Altersstruktur, Verteilung auf
+   die Stadtteile) finden auf der Webseite der Stadt Chemnitz im Bereich
+   der Statistik "Flüchtlinge und Asyl: Zahlen und Fakten". Diese wird
+   regelmäßig aktualisiert.
+     __________________________________________________________________
+
+   Quellen:
+     * Stadt Chemnitz - Amt für Informationsverarbeitung: "Jahrbuch der
+       Stadt Chemnitz 2019/2020"
+     * Stadt Chemnitz - Amt für Informationsverarbeitung: "Stadtteile
+       2019" (und ältere Versionen)
+     * Stadt Chemnitz - Amt für Informationsverarbeitung:
+       "Quartalsberichte der Stadt Chemnitz" (verschiedene Ausgaben aus
+       den Jahren 2021)
+     * Stadt Chemnitz: "Flüchtlinge und Asyl - Zahlen und Fakten",
+       abrufbar hier, abgerufen am 24.01.2022
+     * TU Chemnitz: "Fakten und Zahlen", abrufbar hier, abgerufen am
+       24.01.2022
+     * Stadt Chemnitz: Pressemitteilung "Einwohnerstatistik", abrufbar
+       hier, abgerufen am 17.02.2022
+
+   tagPlaceholderTags:
+
+Betreiber von "CHEMNITZ in ZAHLEN"
+
+Über "Chemnitz in Zahlen"
+
+   CHEMNITZ in ZAHLEN+
+
+   Nutzen und Vorteile
+
+   Einsatzbereiche & Anwendung
+
+   Neuigkeiten / Zahl der Woche
+
+   Fragen und Hilfe
+
+   Shop
+
+ReChtliches
+
+   Impressum
+
+   Datenschutz
+
+   Quellen
+
+   Icons: www.flaticon.com
+
+   Foto: Romāns Kolduns
+
+Social media
+
+   Twitter | Mastodon
+
+   Facebook
+
+Stadt- und STadtteilDaten Chemnitz
+
+   Überblick
+
+   Schnellüberblick Chemnitz
+
+   Gesamtstadt Chemnitz
+
+   Einwohnerzahlen
+
+   Geburten und Sterbefälle
+
+   Zuzüge und Fortzüge
+
+   Altersstruktur
+
+   Wahlergebnisse
+
+   Sozialdaten
+
+   Mobilität
+
+   Flächennutzung
+
+   Corona-Statistiken
+
+   Effekte der Kulturhauptstadt 2025
+
+   Stadtteil-Karten
+
+   Weiterführende Links
+
+Wohnungsmarkt Chemnitz
+
+   Überblick
+
+   Wohnungsmarkt-Stichprobe
+
+   Stadtstruktur und Wohngebiete
+
+   Wohnungen und Wohngebäude
+
+   Baugenehmigungen und -fertigstellungen
+
+   Leerstand
+
+   Sozialräumliche Segregation
+
+   Haushalte
+
+   Familienstrukturen
+
+   Umzugsverhalten
+
+   Spezielle Zielgruppen
+
+   Mieter vs. Eigentümer
+
+   Urbanisierung
+
+   Mietpreise
+
+   Angebotsmieten
+
+   Kaufpreise
+
+Stadtteil-profile Chemnitz
+
+   Adelsberg | Altchemnitz | Altendorf | Bernsdorf | Borna-Heinersdorf |
+   Ebersdorf | Einsiedel | Erfenschlag | Harthau | Euba | Furth | Gablenz
+   | Glösa-Draisdorf | Grüna | Helbersdorf | Hilbersdorf | Hutholz |
+   Kapellenberg | Kappel | Kaßberg | Klaffenbach |
+   Kleinolbersdorf-Altenhain | Lutherviertel | Markersdorf | Mittelbach |
+   Morgenleite | Rabenstein | Reichenbrand | Reichenhain | Röhrsdorf |
+   Rottluff | Siegmar | Schloßchemnitz | Schönau | Sonnenberg |
+   Stelzendorf | Wittgensdorf | Yorckgebiet | Zentrum
+
+Sport in Chemnitz
+
+   Übersicht und Ergebnisdienst
+
+   American Football | Baseball | Basketball | Boxen | Eishockey |
+   Floorball | Fußball | Handball | Tischtennis | Volleyball | Wasserball
+
+   ^1 Gilt für Lieferungen in folgendes Land: Deutschland. Lieferzeiten
+   für andere Länder und Informationen zur Berechnung des Liefertermins
+   siehe hier: Liefer- und Zahlungsbedingungen
+   ^2 inkl. MwSt.
+   Impressum | AGB | Widerrufsbelehrung | Datenschutz | Cookie-Richtlinie
+   CHEMNITZ in ZAHLEN / FOG-Institut für Markt- und Sozialforschung
+   Chemnitz 2020-2022
+   Abmelden | Bearbeiten
+
+     * Nach oben scrollen
