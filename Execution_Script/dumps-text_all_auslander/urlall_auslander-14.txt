@@ -1,0 +1,418 @@
+
+   (BUTTON)
+     * Ticker
+     * (BUTTON) Suche
+     * (BUTTON) Anmelden Meine Welt
+     * Abo Abonnement
+     * (BUTTON)
+
+   Mehr Zurück
+   Ressorts
+   Produkte
+     * Home
+       (BUTTON)
+          + Apps
+          + Autoren
+          + Podcasts
+          + Themen
+          + Veranstaltungen
+          + Wetter
+          + Newsletter
+          + Kreuzworträtsel
+          + Sudoku
+          + Wordle
+          + Schlagzeilen-Archiv
+     * Live-TV
+       (BUTTON)
+          + WELT Live
+          + N24 Doku
+     * Mediathek
+       (BUTTON)
+          + Dokumentationen
+          + WELT Talk
+          + Magazine
+          + Sendungen A-Z
+          + Videos
+          + Programm & Livestream
+          + Moderatoren
+          + TV-Empfang
+          + TV-App
+     * WELTPLUS
+       (BUTTON)
+          + Politik
+          + Wirtschaft
+          + Finanzen
+          + Sport
+          + Panorama
+          + Wissen
+          + Gesundheit
+          + Kultur
+          + Meinung
+          + Geschichte
+          + Reise
+          + ICONIST
+     * Bundesliga
+       (BUTTON)
+          + 1. Bundesliga
+          + 2. Bundesliga
+          + Alle Highlight-Videos
+     * Club
+       (BUTTON)
+          + Events
+          + WELT Gespräch
+          + Backstage
+          + Frag die WELT
+          + Vorteile
+          + Über den WELT Club
+     * Next
+       (BUTTON)
+          + Autoren
+     * Politik
+       (BUTTON)
+          + Deutschland
+          + Ausland
+     * Wirtschaft
+       (BUTTON)
+          + Stellenmarkt
+          + Beruf & Karriere
+          + Geld
+          + Digital
+          + Börse
+          + Motor-News
+          + Mittelstand
+          + Deutscher KI-Preis
+          + Better Future
+          + Messewirtschaft
+          + Anzeigen
+          + WELT Premiere EQS SUV
+          + 50 German Leaders
+          + Thought Leaders
+          + Innovation Deutschland
+          + Service Value
+          + Geld-Check
+          + Assekurata
+          + GFC 2022
+          + Hamburger Elbtower
+     * Sport
+       (BUTTON)
+          + Fifa Fußball-WM 2022
+          + Fußball
+          + Bundesliga
+          + Bundesliga-Video-Highlights
+          + DFB-Pokal
+          + Live-Ticker
+          + Ergebnisse & Tabellen
+          + Formel 1
+          + Darts
+          + Golf
+          + Fitness
+     * Panorama
+       (BUTTON)
+          + kmpkt
+          + Kaufberatung
+     * Wissen
+       (BUTTON)
+          + Gesundheit
+          + Natur & Umwelt
+          + Weltraum
+          + Psychologie
+          + Anzeigen
+          + Einzigartiger Planet
+     * Kultur
+       (BUTTON)
+          + Stützen der Gesellschaft
+          + Deus Ex Machina
+          + Literarische Welt
+          + Film
+          + Pop
+          + Kunst
+          + Theater
+          + Architektur
+          + Klassik
+          + Medien
+          + BLAU
+     * Meinung
+       (BUTTON)
+          + Kommentare
+          + Kolumnen
+          + Satire
+     * ICONIST
+       (BUTTON)
+          + Mode
+          + Gesellschaft
+          + Design
+          + Service
+          + Beauty
+          + Fitness
+          + Zu Tisch
+          + Unterwegs
+          + Schmuck
+          + Uhren
+          + Iconista
+     * Geschichte
+       (BUTTON)
+          + Erster Weltkrieg
+          + Zweiter Weltkrieg
+          + Kalter Krieg
+          + Mittelalter
+          + Archäologie
+          + Attentäter – Podcast
+     * Reise
+       (BUTTON)
+          + Europa
+          + Fernreise
+          + Deutschland
+          + Städtereise
+          + Reisewetter
+          + Nordsee
+          + Ostsee
+          + Kreuzfahrt
+          + Winterurlaub
+          + Genuss Rheinland-Pfalz
+          + Anzeigen
+          + WELT am Sonntag Leserreisen
+          + Südtirols Sterneküche
+          + A-Rosa Flusskreuzfahrten
+     * Food
+       (BUTTON)
+          + Essen
+          + Trinken
+          + Entdecken
+     * Regional
+       (BUTTON)
+          + Hamburg & Schleswig-Holstein
+          + Berlin & Brandenburg
+          + Nordrhein-Westfalen
+          + Bayern
+          + Baden-Württemberg
+          + Niedersachsen & Bremen
+          + Hessen
+          + Rheinland-Pfalz & Saarland
+          + Sachsen
+          + Sachsen-Anhalt
+          + Thüringen
+          + Mecklenburg-Vorpommern
+     * Sonderthemen
+       (BUTTON)
+          + Future Pioneers Summit
+          + Medizin der Zukunft
+          + Reiseland Dubai
+          + Mode & Lifestyle
+          + Genussland Spanien
+          + Elektromobilität
+          + Bierreport
+          + Weinland Frankreich
+          + Beethoven
+          + WELT-Transformationsgipfel
+          + Anzeigen
+          + Handel im Wandel
+          + Sonderveröffentlichungen
+
+     * Kontakt
+     * Impressum
+     * Mediadaten
+     * Schlagzeilen
+
+   Produkte
+     * Unsere Produkte
+     * Digital
+     * TV
+     * Podcasts
+     * Zeitung
+     * WELT Club
+     * WELT ePaper
+     * WELT NEWS-APP
+     * WELT Edition-App
+     * WELT Gespräch
+     * Newsletter
+     * Gutscheine (Anzeige)
+     * Alle WELT-Gutscheine
+     * h&m-Rabattcodes
+     * Asos-Gutscheine
+     * Toom-Gutscheine
+     * SHEIN-Rabattcodes
+     * Ikea-Rabattcodes
+     * NA-KD-Codes
+     * JD Sports-Gutscheine
+     * o2-Gutscheine
+     * Douglas-Rabattcodes
+     * Vergleich
+     * Alle Vergleiche
+     * Miele-Waschmaschinen-Vergleich
+     * Dyson-Staubsauger-Vergleich
+     * Indoor-Bike-Vergleich
+     * Kooperationen
+     * Kunst & Design
+     * Unternehmen
+
+   Anmelden
+   Meine Welt
+   Guten Tag
+     * (BUTTON) Login Login
+     * (BUTTON) Registrieren
+       Registrieren Sie sich kostenlos und erhalten Sie auf Ihre
+       Interessen abgestimmte Inhalte sowie unsere vielseitigen
+       Newsletter.
+       Registrieren
+       Registrieren Sie sich kostenlos und erhalten Sie auf Ihre
+       Interessen abgestimmte Inhalte sowie unsere vielseitigen
+       Newsletter.
+
+     * Übersicht
+     * Abo & Profil
+     * Newsletter
+     * WELT Club
+     * Meine Community
+     * Meine Vorteile
+     * Meine Zeitung
+     * Kontakt | FAQ
+     * (BUTTON) Abmelden Abmelden
+
+   Die Nachrichten heute:
+   Newsticker
+   Schlagzeilen, Meldungen und alles Wichtige
+   Die Nachrichten heute: Newsticker, Schlagzeilen und alles, was heute
+   wichtig ist, im Überblick.
+   Zum Newsticker
+    1. Home
+
+     DIE WELT
+
+
+
+                  "Ausländer bereichern unsere Gesellschaft"
+
+   DIE WELT
+
+   [6b16f74ba2934e638b9e1abcd916d334]
+
+   0  Kommentare
+   (BUTTON)
+   DIE WELT
+
+"Ausländer bereichern unsere Gesellschaft"
+
+   Veröffentlicht am 16.10.2000 | Lesedauer: 3 Minuten
+   Von Lutz Ruminski
+   Freundschaftstreffen der Freimaurer im Rathaus: Für
+   Volkerverständigung, gegen Rassismus
+   Anzeige
+   0  Kommentare
+   (BUTTON)
+   Anzeige
+
+   Toleranz- bei den Freimaurern in aller Welt steht diese Tugend im
+   Vordergrund ihres Handelns. Wachsende Ausländerfeindlichkeit auf
+   Deutschlands Straßen brachte die sonst im Verborgenen agierende
+   Bruderschaft denn auch dazu, in Bremen erstmals in großem Rahmen
+   öffentlich aufzutreten: Mit dem ersten internationalen
+   Freundschaftstreffen im Rathaus.
+   Anzeige
+
+   Die Idee: Je ein Freimaurer- bei der Veranstaltung Sonntag-mittag waren
+   es insgesamt 70- lädt einen ihm bekannten, ausländischen Mitbürger zum
+   Meinungsaustausch ein. Das Spektrum reichte vom Arbeiter bis zum
+   Akademiker, die Auswahl war willkürlich. "Seit jeher fühlen wir
+   Freimaurer uns aufgerufen, Brücken zu bauen zwischen Religionen und
+   Konfessionen, seit jeher sind wir gegen nationale Überheblichkeit,
+   gegen Rassen- und Klassendünkel angegangen", begründete
+   Freimaurer-Vertreter Helmut Lübben die Aktion. An die Adresse der
+   ausländischen Gäste gerichtet, sagte Lübben weiter: "Sie alle bringen
+   aus Ihrer Heimat Kultur, Erfahrungen und Lebensart mit, die wir als
+   Bereicherung empfinden."
+
+   Zum Beispiel: Prince Nyarko aus Ghana. Vor sechs Jahren kam der
+   40-Jährige nach Deutschland, im Bremer Daimler-Chrysler-Werk arbeitet
+   er als Lackierer. Mit einer Deutschen verheiratet, hatte er ob seiner
+   dunklen Hautfarbe selbst schon Erfahrungen mit Ausländerfeindlichkeit.
+   Allerdings sagt Nyarko: "Ich glaube, viele Menschen in Deutschland
+   wissen nicht, wie sie mit ausländischen Mitbürgern umgehen sollen. Da
+   gibt es noch viel zu lernen, vor allem Toleranz." Aus seiner eigenen
+   Heimat sind ihm solche Verhältnisse unbekannt: "Wir gehen ganz offen um
+   mit allen Menschen. Hautfarbe oder Sprache spielen für uns keine Rolle,
+   Rassismus ist uns fremd." Der Bremer Pädagoge und Freimaurer Rolf
+   Fraedrich, der Nyarko zum Freundschaftstreffen eingeladen hat, ergänzt:
+   "Genau so geht es auch in den Logen zu: Auch wenn wir mal
+   unterschiedlicher Meinung sind, akzeptieren wir dies, ohne den anderen
+   zu verletzten. Über unsere Familien und unseren Bekanntenkreis
+   versuchen wir zudem, solch tolerantes Verhalten weiter zu verbreiten."
+   Anzeige
+
+   Samba Camara aus dem Senegal erlebt in Bremen beinahe jeden Tag die
+   Grenzen der von den Freimaurern hoch gehaltenen Toleranz: Der
+   44-Jährige handelt in der Hansestadt mit afrikanischem Kunsthandwerk,
+   nebenbei arbeitet er als Taxifahrer: "Mit vielen Fahrgästen komme ich
+   ins Gespräch, da gibt es großes Interesse, etwas über mich und mein
+   Land zu erfahren." Andererseits hat er es aber auch mit "unangenehmen
+   Leuten" zu tun: "Zum Glück ist mir noch niemand begegnet, der aggressiv
+   geworden ist, doch eine gewisse Sorge ist immer da." Seine These: "Wer
+   sich ausländerfeindlich verhält, hat wahrscheinlich außerhalb seiner
+   eigenen Nationalität noch nie jemanden kennen gelernt." Das
+   Freundschaftstreffen der Freimaurer hält Camara für einen Schritt in
+   die richtige Richtung: "An einem Tisch sitzen, miteinander reden -
+   solche Gelegenheiten sollte es viel häufiger als bisher geben."
+
+   Bürgermeister Henning Scherf nutzte die Gelegenheit der
+   Freimaurer-Aktion, über seine ersten Erfahrungen mit Menschen anderer
+   Nationalität zu berichten: "Als Kind habe ich in den Nachkriegsjahren
+   mit den amerikanischen Soldaten zum erstenmal überhaupt Menschen mit
+   dunkler Hautfarbe gesehen. Und die waren am kinderfreundlichsten: Sie
+   gaben uns Schokolade, streichten uns durchs Haar - mit denen war es
+   echt gut." Heute lebt Scherf in seiner privaten Wohngemeinschaft unter
+   anderen mit einem Araber zusammen: "Der bringt mir so viel über die
+   Kultur seiner Heimat bei, wie ich es aus Büchern nie erfahren könnte."
+
+   Nach dem Bremer Treffen waren sich alle Beteiligten einig: Eine gute
+   Aktion, die bald fortgesetzt werden soll.
+
+   Mehr aus dem Web
+     *
+     *
+     *
+
+   Neues aus der Redaktion
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Auch interessant
+     *
+     *
+     *
+
+   KOMMENTARE WERDEN GELADEN
+
+     * Impressum
+     * Datenschutz
+     * AGB
+     * Kontakt
+     * Feedback
+
+     * Privatsphäre
+     * Widerruf Tracking
+     * Widerruf Nutzerkennungen
+     * Karriere
+     * Jugendschutz
+
+     * WELTplus
+     * Abo kündigen
+     * Newsletter
+     * FAQ
+     * WELT-photo Syndication
+
+     * WIR IM NETZ
+          + Facebook
+          + Twitter
+          + Instagram
+     * UNSERE APPS
+          + WELT News
+          + WELT Edition
+
+   Die WELT als ePaper: Die vollständige Ausgabe steht Ihnen bereits am
+   Vorabend zur Verfügung – so sind Sie immer hochaktuell informiert.
+   Weitere Informationen: http://epaper.welt.de
+
+   Der Kurz-Link dieses Artikels lautet: https://www.welt.de/103655762
