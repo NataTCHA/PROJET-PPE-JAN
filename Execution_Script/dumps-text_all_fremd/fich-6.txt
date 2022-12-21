@@ -1,0 +1,617 @@
+
+   (BUTTON)
+     * Ticker
+     * (BUTTON) Suche
+     * (BUTTON) Anmelden Meine Welt
+     * Abo Abonnement
+     * (BUTTON)
+
+   Mehr Zurück
+   Ressorts
+   Produkte
+     * Home
+       (BUTTON)
+          + Apps
+          + Autoren
+          + Podcasts
+          + Themen
+          + Veranstaltungen
+          + Wetter
+          + Newsletter
+          + Kreuzworträtsel
+          + Sudoku
+          + Wordle
+          + Schlagzeilen-Archiv
+     * Live-TV
+       (BUTTON)
+          + WELT Live
+          + N24 Doku
+     * Mediathek
+       (BUTTON)
+          + Dokumentationen
+          + WELT Talk
+          + Magazine
+          + Sendungen A-Z
+          + Videos
+          + Programm & Livestream
+          + Moderatoren
+          + TV-Empfang
+          + TV-App
+     * WELTPLUS
+       (BUTTON)
+          + Politik
+          + Wirtschaft
+          + Finanzen
+          + Sport
+          + Panorama
+          + Wissen
+          + Gesundheit
+          + Kultur
+          + Meinung
+          + Geschichte
+          + Reise
+          + ICONIST
+     * Bundesliga
+       (BUTTON)
+          + 1. Bundesliga
+          + 2. Bundesliga
+          + Alle Highlight-Videos
+     * Club
+       (BUTTON)
+          + Events
+          + WELT Gespräch
+          + Backstage
+          + Frag die WELT
+          + Vorteile
+          + Über den WELT Club
+     * Next
+       (BUTTON)
+          + Autoren
+     * Politik
+       (BUTTON)
+          + Deutschland
+          + Ausland
+     * Wirtschaft
+       (BUTTON)
+          + Stellenmarkt
+          + Beruf & Karriere
+          + Geld
+          + Digital
+          + Börse
+          + Motor-News
+          + Mittelstand
+          + Deutscher KI-Preis
+          + Better Future
+          + Messewirtschaft
+          + Anzeigen
+          + WELT Premiere EQS SUV
+          + 50 German Leaders
+          + Thought Leaders
+          + Innovation Deutschland
+          + Service Value
+          + Geld-Check
+          + Assekurata
+          + GFC 2022
+          + Hamburger Elbtower
+     * Sport
+       (BUTTON)
+          + Fifa Fußball-WM 2022
+          + Fußball
+          + Bundesliga
+          + Bundesliga-Video-Highlights
+          + DFB-Pokal
+          + Live-Ticker
+          + Ergebnisse & Tabellen
+          + Formel 1
+          + Darts
+          + Golf
+          + Fitness
+     * Panorama
+       (BUTTON)
+          + kmpkt
+          + Kaufberatung
+     * Wissen
+       (BUTTON)
+          + Gesundheit
+          + Natur & Umwelt
+          + Weltraum
+          + Psychologie
+          + Anzeigen
+          + Einzigartiger Planet
+     * Kultur
+       (BUTTON)
+          + Stützen der Gesellschaft
+          + Deus Ex Machina
+          + Literarische Welt
+          + Film
+          + Pop
+          + Kunst
+          + Theater
+          + Architektur
+          + Klassik
+          + Medien
+          + BLAU
+     * Meinung
+       (BUTTON)
+          + Kommentare
+          + Kolumnen
+          + Satire
+     * ICONIST
+       (BUTTON)
+          + Mode
+          + Gesellschaft
+          + Design
+          + Service
+          + Beauty
+          + Fitness
+          + Zu Tisch
+          + Unterwegs
+          + Schmuck
+          + Uhren
+          + Iconista
+     * Geschichte
+       (BUTTON)
+          + Erster Weltkrieg
+          + Zweiter Weltkrieg
+          + Kalter Krieg
+          + Mittelalter
+          + Archäologie
+          + Attentäter – Podcast
+     * Reise
+       (BUTTON)
+          + Europa
+          + Fernreise
+          + Deutschland
+          + Städtereise
+          + Reisewetter
+          + Nordsee
+          + Ostsee
+          + Kreuzfahrt
+          + Winterurlaub
+          + Genuss Rheinland-Pfalz
+          + Anzeigen
+          + WELT am Sonntag Leserreisen
+          + Südtirols Sterneküche
+          + A-Rosa Flusskreuzfahrten
+     * Food
+       (BUTTON)
+          + Essen
+          + Trinken
+          + Entdecken
+     * Regional
+       (BUTTON)
+          + Hamburg & Schleswig-Holstein
+          + Berlin & Brandenburg
+          + Nordrhein-Westfalen
+          + Bayern
+          + Baden-Württemberg
+          + Niedersachsen & Bremen
+          + Hessen
+          + Rheinland-Pfalz & Saarland
+          + Sachsen
+          + Sachsen-Anhalt
+          + Thüringen
+          + Mecklenburg-Vorpommern
+     * Sonderthemen
+       (BUTTON)
+          + Future Pioneers Summit
+          + Medizin der Zukunft
+          + Reiseland Dubai
+          + Mode & Lifestyle
+          + Genussland Spanien
+          + Elektromobilität
+          + Bierreport
+          + Weinland Frankreich
+          + Beethoven
+          + WELT-Transformationsgipfel
+          + Anzeigen
+          + Handel im Wandel
+          + Sonderveröffentlichungen
+
+     * Kontakt
+     * Impressum
+     * Mediadaten
+     * Schlagzeilen
+
+   Produkte
+     * Unsere Produkte
+     * Digital
+     * TV
+     * Podcasts
+     * Zeitung
+     * WELT Club
+     * WELT ePaper
+     * WELT NEWS-APP
+     * WELT Edition-App
+     * WELT Gespräch
+     * Newsletter
+     * Gutscheine (Anzeige)
+     * Alle WELT-Gutscheine
+     * h&m-Rabattcodes
+     * Asos-Gutscheine
+     * Toom-Gutscheine
+     * SHEIN-Rabattcodes
+     * Ikea-Rabattcodes
+     * NA-KD-Codes
+     * JD Sports-Gutscheine
+     * o2-Gutscheine
+     * Douglas-Rabattcodes
+     * Vergleich
+     * Alle Vergleiche
+     * Miele-Waschmaschinen-Vergleich
+     * Dyson-Staubsauger-Vergleich
+     * Indoor-Bike-Vergleich
+     * Kooperationen
+     * Kunst & Design
+     * Unternehmen
+
+   Anmelden
+   Meine Welt
+   Guten Tag
+     * (BUTTON) Login Login
+     * (BUTTON) Registrieren
+       Registrieren Sie sich kostenlos und erhalten Sie auf Ihre
+       Interessen abgestimmte Inhalte sowie unsere vielseitigen
+       Newsletter.
+       Registrieren
+       Registrieren Sie sich kostenlos und erhalten Sie auf Ihre
+       Interessen abgestimmte Inhalte sowie unsere vielseitigen
+       Newsletter.
+
+     * Übersicht
+     * Abo & Profil
+     * Newsletter
+     * WELT Club
+     * Meine Community
+     * Meine Vorteile
+     * Meine Zeitung
+     * Kontakt | FAQ
+     * (BUTTON) Abmelden Abmelden
+
+   Die Nachrichten heute:
+   Newsticker
+   Schlagzeilen, Meldungen und alles Wichtige
+   Die Nachrichten heute: Newsticker, Schlagzeilen und alles, was heute
+   wichtig ist, im Überblick.
+   Zum Newsticker
+    1. Home
+
+     Debatte
+
+     Kommentare
+
+
+
+              Gesellschaft: Gut, dass wir uns fremd geworden sind!
+
+   Meinung
+
+   Kommentare Kolumnen Satire Henryk M. Broder
+
+   [5dddef9af20c40af93eccc0257e2a606]
+
+   0  Kommentare
+   (BUTTON)
+   Meinung Gesellschaft
+
+Gut, dass wir uns fremd geworden sind!
+
+   Veröffentlicht am 21.02.2010 | Lesedauer: 9 Minuten
+   Von Armin Nassehi
+   Armin Nassehi Armin Nassehi
+   Armin Nassehi bei einer Vorlesung
+   Quelle: picture-alliance
+   Distanz ist in unserer urbanen Welt eine wichtige Ressource geworden,
+   weil wir den ganzen Tag mit Fremden zu tun haben. Gemeinsam einsam zu
+   sein ist keine Bedrohung, sondern Voraussetzung für das Zusammenleben
+   in der modernen Gesellschaft. Denn darauf gründet sich unsere
+   Vorstellung von Solidarität.
+   Anzeige
+   0  Kommentare
+   (BUTTON)
+   Anzeige
+
+   Ich war froh, den ICE nach Frankfurt noch bekommen zu haben – meine
+   S-Bahn von zu Hause hatte Verspätung, der Münchner Hauptbahnhof war
+   voller Leute, zwischen denen ich mich durchschlängeln musste, und mein
+   Sitzplatz befand sich in einem der vorderen Wagen des Doppelzuges. Ich
+   musste fast ans Ende des Bahnsteigs laufen, bis ich den passenden Wagen
+   fand, meinen Sitzplatz einnehmen und mich nach dieser hektischen Reise
+   vor der Reise endlich für die nächsten Stunden häuslich niederlassen
+   konnte. Bevor ich meine Tasche in der Gepäckablage verstaute, nahm ich
+   noch einige Unterlagen heraus. Denn ich war auf dem Weg zu einer
+   größeren Veranstaltung, bei der ich über die Bedeutung des sozialen
+   Gedächtnisses sprechen sollte.
+   Anzeige
+
+   Der Vortrag war noch nicht ganz fertig, und ich wollte noch an meinen
+   Karteikarten feilen, auf denen ich Stichpunkte festhalte, um mich
+   selbst durch die Rede zu führen. Von dem, was um mich herum geschah,
+   nahm ich praktisch keine Notiz. Die Arbeit ging gut von der Hand, und
+   ich kam schneller voran, als ich dachte. Das ist meist so, weil ich
+   doch besser vorbereitet bin, als ich es mir selbst eingestehe.
+   Vielleicht hat die Arbeit an den Karten auch nur eine Art
+   Alibifunktion, vielleicht braucht mein Gehirn die Gewissheit, dass ich
+   mich noch einmal mit den Dingen beschäftigt habe, um mich dann mit den
+   Gedanken zu überraschen, die ich für den Vortrag brauche.
+
+   „Können Sie bitte kurz auf meine Tasche aufpassen, junger Mann? Ich
+   muss kurz verschwinden.“ Dieser Satz riss mich aus meinen Gedanken. Ich
+   hatte die ältere Dame neben mir noch gar nicht bewusst wahrgenommen.
+   Sie schälte sich umständlich aus dem Sitz und verschwand in Richtung
+   Zugtoilette. Jetzt erst bemerkte ich auch den gestresst wirkenden Mann,
+   der an unserem Vierertisch mir gegenüber, ebenfalls am Fenster, saß und
+   offenbar unter großem Zeitdruck Daten in seinen Laptop eingab, sowie
+   neben ihm eine junge Frau, die eine Textkopie mit einem Textmarker
+   traktierte. Auch diese beiden schienen durch die Bitte der älteren Dame
+   auf die Mitreisenden aufmerksam geworden zu sein. Der arbeitende Mann
+   blickte nur kurz auf, seine Augen signalisierten „Alles okay!“ und
+   wendeten sich wieder dem Bildschirm zu. Die junge Frau schaute sehr
+   genau hin, mit wem sie da am Tisch saß, vermied aber jeglichen
+   Blickkontakt. Auch ich hatte keine Lust auf Kommunikation, setzte ein
+   neutrales Gesicht auf und kümmerte mich aktiv darum, möglichst passiv
+   zu wirken.
+
+Vertraute Anonymität
+
+   Anzeige
+
+   Man kann in solchen Situationen am eigenen Verhalten ablesen, dass es
+   tatsächlich eine Aktivität ist, die anderen wahrzunehmen, aber nicht an
+   diese Wahrnehmung anzuschließen. Wir saßen also da als Fremde und
+   blieben es auch, nicht weil wir uns ignorierten, sondern gerade weil
+   wir uns nicht ignorierten. Die ältere Dame kam wieder zurück zu ihrem
+   Platz und bedankte sich sehr freundlich. Auch hier reichte mein ebenso
+   freundlicher wie unverbindlicher Blick, um einerseits den Takt zu
+   wahren, andererseits zu zeigen, dass der Dank nicht unbedingt der
+   Beginn eines Gesprächs sein musste. Der Blick der jungen Frau – ich
+   nehme an, sie war eine Studentin – traf kurz den meinen, nun etwas
+   freundlicher als zuvor, wohl um zu signalisieren, dass sie es sehr
+   schätzte, dass es nicht zu einem Gespräch kommen würde. Der arbeitende
+   Mann hatte sehr wohl gehört, aber so deutlich nicht reagiert, dass dies
+   deutlicher war als jedes ausgesprochene Wort.
+
+   In der Folgezeit kam es immer wieder zu kleinen Blickkontakten zwischen
+   uns vier Personen am Tisch, aber nicht zu mehr. Irgendwie hatte sich
+   eine Art gegenseitigen Einverständnisses etabliert, dass man einander
+   in Ruhe ließ, ohne dass dies gesagt werden musste. Dieses
+   Einverständnis ermöglichte dann mit der Zeit freundliche Blicke und
+   recht risikofreie Formen des Umgangs miteinander. Ich gewann das
+   Gefühl, letztlich nicht mehr auf die anderen achten zu müssen, weil das
+   irgendwie von selbst ging. Fast entstand so etwas wie Vertrauen – das
+   aber vermutlich sofort verschwunden wäre, wenn man es hätte benennen
+   müssen.
+
+   Warum lohnt es sich, diese Alltagssituation zu erzählen, die letztlich
+   jeder kennt? Weil wir viel zu wenig zu schätzen wissen, dass man in
+   dieser Gesellschaft ohne großes Misstrauen fremd bleiben kann.
+   Fremdheit wird landläufig zunächst mit Bedrohlichem assoziiert, mit
+   etwas, das wir nicht kalkulieren können, weshalb wir möglichst genau
+   hinsehen müssen, so, wie man sich die biologische und evolutionäre
+   Funktion von Angst vorstellt: als besonderes Aufmerksamkeitsmanagement
+   Unbekanntem, Unkalkulierbarem, also potenziell Bedrohlichem gegenüber.
+   Exakt das Gegenteil freilich ist in der geschilderten Situation der
+   Fall: Wir vier sehr unterschiedlichen Leute am Tisch eines
+   ICE-Großraumwagens waren uns zwar fremd, aber es bestand kein Grund für
+   Angst, weil diese Fremden zwar fremd waren, aber überhaupt nicht
+   unkalkulierbar. Deshalb war es möglich, sie eben nicht mit dem
+   natürlichen Reflex des genauen Abscannens ihrer Bewegungen auf
+   unterstellte Absichten oder gar Drohgebärden zu taxieren. Sie konnten
+   sogar geradezu unsichtbar bleiben, bis die ältere Dame darum bat, auf
+   ihre Sachen aufzupassen.
+
+Den ganzen Tag mit Fremden zu tun
+
+   Anzeige
+
+   Das ist genau besehen ein unnatürliches Verhalten, wenn man die
+   evolutionäre Funktion von Angst und Bedrohtheitsgefühl ins Kalkül
+   zieht. In der Tat ist es das Ergebnis eines zivilisatorischen
+   Standards, den man kaum hoch genug schätzen kann: dass wir vielen
+   Menschen begegnen, die wir nicht kennen, auch nicht kennen müssen oder
+   wollen, deren Handlungen aber gerade deswegen koordinierbar
+   beziehungsweise koordiniert sind. Dass wir vier auf Kommunikation
+   verzichteten, ist keineswegs ein Zeichen mangelnder sozialer
+   Beziehungen, sondern Ausdruck jener starken sozialen Beziehung, die in
+   Zügen und anderen öffentlichen Verkehrsmitteln, auf öffentlichen
+   Plätzen, auf der Straße, in Parks oder an anderen allgemein
+   zugänglichen Orten die vorherrschende ist: Indifferenz.
+
+   Wer hier auf den ersten Blick einen Mangel an menschlicher Nähe und
+   Interesse der Menschen untereinander assoziiert – so die gängige Kritik
+   am großstädtischen, modernen Leben, das die angebliche soziale Nähe der
+   alten Welt verloren habe –, sollte einen zweiten Blick wagen! Geht man
+   mit offenen Augen durch den normalen Alltag, wird man feststellen, dass
+   man es quantitativ gesehen hauptsächlich mit Fremden zu tun bekommt –
+   in der U-Bahn, auf dem Gehweg, im Aufzug, in Geschäften, auf Ämtern und
+   an Arbeitsplätzen mit Kundenverkehr. Aber nicht der quantitative Befund
+   ist das Entscheidende, sondern die Tatsache, dass wir uns daran gewöhnt
+   haben, es gewissermaßen den ganzen Tag über mit Personenschablonen zu
+   tun zu haben, die nicht als konkrete Personen erscheinen, sondern
+   entweder nur als Körper, an denen man vorbeikommen muss, oder als
+   Träger von Rollen, auf die man verwiesen ist, ohne aus der Anonymität
+   des konkreten Rollenaspekts heraustreten zu müssen. Wir halten das für
+   selbstverständlich, weil Fremdheit und Indifferenz eine wesentliche
+   Ressource für unser Zusammenleben in Ballungsräumen bilden. Wir
+   schätzen es, dass wir den Lokführer und den Flugkapitän, unseren
+   Postboten oder Müllmann und die Apothekerin nicht näher kennen müssen.
+   Wir nehmen letztlich das Privileg in Anspruch, in Ruhe gelassen werden
+   zu können. Und es ist vermutlich eine der größten Errungenschaften des
+   modernen, vor allem des städtischen Alltags, auf unmittelbare soziale
+   Kontrolle weitgehend verzichten und stattdessen auf Fremdheit setzen zu
+   können.
+
+Anonymität der Großstadt als bürgerliches Privileg
+
+   Das heißt übrigens nicht, vertraute Beziehungen abzuwerten – ganz im
+   Gegenteil. Vertrautheit und Nähe haben erst in einer Gesellschaft
+   Informationswert, in der die meisten Beziehungen eher anonymer Natur
+   sind. Im Gegenzug zur stärkeren Anonymisierung der Gesellschaft
+   bekommen nahe Beziehungen eine erheblich größere Bedeutung – man denke
+   etwa an die emotionalen Erwartungen an Liebes- und Ehepartner, die es
+   so in früheren Gesellschaften nicht gegeben hat. An die wenigen im
+   Nahbereich werden die emotionalen Erwartungen größer – so wie sie an
+   alle anderen eher kleiner werden.
+   Anzeige
+   Anzeige
+
+   Die Urbanität der Städte lebt vom bürgerlichen Privileg, in Ruhe
+   gelassen werden zu können. Nur in Städten kann es gelingen, Hunderten
+   von Fremden zu begegnen und niemanden von ihnen bedrohlich zu finden.
+   Nur in Städten kann man wirklich allein sein – weil so viele andere da
+   sind. Nur in Städten bleibt man unbeobachtet – weil der andere eben ein
+   Fremder ist. Wie weit eine Gesellschaft das Privileg zulässt, in Ruhe
+   gelassen zu werden, kann letztlich als Maß für Modernität herangezogen
+   werden. Merkwürdig ist deshalb, dass Fremdheit und Distanz, Indifferenz
+   und emotionale Neutralität in dem angedeuteten Sinne eine traditionell
+   schlechte Presse haben. Die Geschichte der modernen Sozialutopien ist
+   voll von Erzählungen, die das Gegenteil von Fremdheit und Indifferenz
+   postulieren– und zwar von rechts wie von links. Die
+   Verbrüderungsforderung der Nation will aus Unbekannten Volksgenossen
+   oder wenigstens Landsleute machen.
+
+Distanz als Ressource
+
+   Tatsächlich setzen die meisten Formen organisierter Solidarität in
+   modernen Gesellschaften die Ressource Fremdheit nicht außer Kraft,
+   sondern zehren von ihr. So unterstützt der Sozialstaat nicht konkrete
+   Menschen, die er kennt und schätzt, sondern Anspruchsberechtigte, deren
+   Anspruch ohne Ansehen der Person gilt. Wessen Haus abbrennt, der
+   bekommt seine Hilfe nicht von den Genossen aus der Nachbarschaft, mit
+   denen er zuvor eine enge symbiotische Lebensform ohne
+   Abweichungsmöglichkeit pflegen muss, sondern zunächst durch die
+   Feuerwehr und dann durch seine Versicherungsgesellschaft. Von den
+   Instanzen des Staates wie administrativen Bürokratien,
+   Polizeidienststellen oder Sozial-, Jugend- und Versorgungsämtern
+   erwarten wir als Bürger ein Verhalten, das auf „moralischer Anonymität“
+   beruht. Das Fazit lautet also: Solidarität in unserer Gesellschaft ist
+   gegründet auf Fremdheit – und deshalb ist Fremdheit als kulturelles Gut
+   zu schützen!
+
+   Unsere Vierertisch-Begegnung war eine wirklich banale Konstellation –
+   sie findet täglich hunderttausendfach statt. Dass wir vier so geübt
+   indifferent miteinander umgegangen sind, lag schlicht daran, dass es in
+   einer Gesellschaft stattfand, die sich an solche Formen der Distanz
+   nicht nur gewöhnt hat, sondern sie als Ressource verwendet – auch wenn
+   wir liebevoll das Pathos von Solidarität, gemeinsamer Betroffenheit und
+   Gemeinwohl pflegen. Gelungen sind Lebensformen wie die unsere freilich
+   erst dann, wenn es gelingt, dies in der Realität umzusetzen als
+   Solidarität unter Fremden, als eine Betroffenengemeinschaft von
+   Fremden, als Gemeinwohl für Fremde.
+
+   Der Autor, geboren 1960 in Tübingen, ist Professor für Soziologie an
+   der Ludwig-Maximilians-Universität in München. Der vorliegende Text ist
+   ein Auszug aus seinem neuen Buch. Armin Nassehi: „Mit dem Taxi durch
+   die Gesellschaft. Soziologische Storys“; Murmann-Verlag Hamburg, 220
+   Seiten, 19,90 Euro
+
+   Mehr aus dem Web
+     *
+     *
+     *
+
+   Neues aus der Redaktion
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Auch interessant
+     *
+     *
+     *
+
+   Mehr zum Thema
+     * Skat in der Projektwoche (Archivfoto und Text 1995)
+       Skat in der Projektwoche (Archivfoto und Text 1995)
+
+Meinung Kommentar
+
+Kulturelle Vereinsmeierei in der digitalen Welt
+          + Michael Miersch
+     * BGH prueft Zulaessigkeit von Noten fuer Lehrer im Internet
+       BGH prueft Zulaessigkeit von Noten fuer Lehrer im Internet
+
+Politik Bewertungsportale
+
+Anonymität im Internet entwertet das freie Wort
+          + Ulrich Clauß
+     *
+
+Meinung Kommentar
+
+Ein Lob auf die Stadt!
+          + Gerd Held
+     *
+
+Hamburg Telefonseelsorge
+
+Vertrauliche Gespräche im Schutz der Anonymität
+     * Pensionierte Lehrer helfen Flüchtlingen
+       Pensionierte Lehrer helfen Flüchtlingen
+
+Neue Rentnergeneration
+
+Die Republik der fitten Alten
+          + Freia Peters
+     * Welt CR Ulf Poschardt am 30.09.2016 Foto: Claudius Pflug / Berlin
+       Autorenfoto
+       Welt CR Ulf Poschardt am 30.09.2016 Foto: Claudius Pflug / Berlin
+       Autorenfoto
+
+Demokratie-Skepsis
+
+Deutschland, von sich selbst erschöpft
+          + Ulf Poschardt
+     * Nach einer langen Karriere endlich ein Star: Die Schauspielerin
+       Jennifer Coolidge
+       Nach einer langen Karriere endlich ein Star: Die Schauspielerin
+       Jennifer Coolidge
+
+„The White Lotus“-Schauspielerin
+
+Jennifer Coolidge gelingt der langersehnte Triumph
+          + Silvia Ihring
+     * Mit 75 Jahren fühlt Sky du Mont sich fit ohne Ende
+       Mit 75 Jahren fühlt Sky du Mont sich fit ohne Ende
+
+Sky du Mont
+
+„Ich hoffe, dass ich noch 25 Jahre habe“
+          + Gunnar Meinhardt
+
+   KOMMENTARE WERDEN GELADEN
+
+     * Impressum
+     * Datenschutz
+     * AGB
+     * Kontakt
+     * Feedback
+
+     * Privatsphäre
+     * Widerruf Tracking
+     * Widerruf Nutzerkennungen
+     * Karriere
+     * Jugendschutz
+
+     * WELTplus
+     * Abo kündigen
+     * Newsletter
+     * FAQ
+     * WELT-photo Syndication
+
+     * WIR IM NETZ
+          + Facebook
+          + Twitter
+          + Instagram
+     * UNSERE APPS
+          + WELT News
+          + WELT Edition
+
+   Die WELT als ePaper: Die vollständige Ausgabe steht Ihnen bereits am
+   Vorabend zur Verfügung – so sind Sie immer hochaktuell informiert.
+   Weitere Informationen: http://epaper.welt.de
+
+   Der Kurz-Link dieses Artikels lautet: https://www.welt.de/102484820

@@ -1,0 +1,3508 @@
+                                                                   logoneu
+
+   pangloss.de
+   (BUTTON)
+     * pangloss
+          + Aktuelles
+          + Gästebuch
+          + Impressum
+          + FAQ
+          + Kontakt
+     * Germanistik
+          + Allgemeines
+               o Literaturwissenschaft
+               o Mediävistik
+               o Linguistik
+               o Literaturgeschichte
+                    # Interkulturelle Literatur
+                    # Lateinische Literatur: Antike
+                    # Erotische Literatur
+                    # Geschichte der Rhetorik
+                    # Gewalt gegen Bücher
+                    # Afrikanisches Theater
+                    # Leseliste: Weltliteratur
+                    # Leseliste: Weltliteratur für Jüngere
+               o Grundlagen
+               o Essays
+          + Küche & Kultur
+               o Märchen
+               o Schwank
+               o Sage
+               o Pastorale
+               o Legende
+               o Chronologie
+               o Krimi
+               o Schulgeschichte
+               o Ballade
+               o Kultur
+               o Liebeslyrik
+               o Trinken
+          + Tiere & Kultur
+          + Pflanzen & Kultur
+               o Lippenblütler
+                    # Basilikum
+               o Hahnenfußgewächse
+                    # Akelei
+               o Asfodillgewächse
+                    # Affodill
+               o Veilchengewächse
+                    # Veilchen (Viola ssp.)
+               o Kalmusgewächse
+                    # Kalmus (Acorus calamus)
+          + Kulturbeziehungen
+               o Europa
+                    # Russland
+                    # Spanien
+                    # Italien
+                    # Frankreich
+                    # Niederlande
+                    # England
+                    # Nordeuropa (Allg.)
+                    # Dänemark
+                    # Schweden
+                    # Irland
+                    # Albanien
+                    # Malta
+                    # Scotland
+                    # Moldau
+               o Süd-, Südost- und Ostasien
+                    # Indien
+                    # Malediven
+                    # Brunei
+                    # Singapur
+                    # Timor-Leste
+                    # Myanmar
+                    # Bhutan
+                    # Laos
+                    # Kambodscha
+                    # Nordkorea
+                    # Korea (Südkorea)
+                    # Uiguren (Ostturkestan, Xinjiang)
+                    # Bangladesch
+                    # Sri Lanka
+               o Südamerika
+                    # Argentinien
+                    # Suriname
+                    # Französisch-Guyana
+                    # Guyana
+                    # Venezuela
+                    # Bolivien
+                    # Ecuador
+                    # Galápagos-Archipel (Ecuador)
+                    # Kolumbien
+                    # Paraguay
+                    # Uruguay
+                    # Peru
+                    # Chile
+                    # Brasilien
+                    # Inseln im Südatlantik
+               o Ozeanien
+                    # Australien
+                    # Fidschi
+                    # Hawai'i
+                    # Kiribati
+                    # Marshallinseln
+                    # Mikronesien
+                    # Nauru
+                    # Neuseeland
+                    # Neukaledonien
+                    # Rapa Nui (Osterinsel)
+                    # Palau
+                    # Papua-Neuguinea
+                    # Pitcairn und Norfolk
+                    # Polynesien
+                    # Salomonen
+                    # Samoa
+                    # Tonga
+                    # Tuvalu
+                    # Vanuatu
+               o Polarregionen
+                    # Antarktis
+               o Afrika
+                    # Äquatorialguinea
+                    # Angola
+                    # Benin
+                    # Botswana
+                    # Burkina Faso
+                    # Burundi
+                    # Dschibuti
+                    # Eritrea
+                    # Elfenbeinküste
+                    # Gabun
+                    # Gambia
+                    # Ghana
+                    # Guinea
+                    # Guinea-Bissau
+                    # Kamerun
+                    # Kapverden
+                    # Komoren und Mayotte
+                    # Lesotho
+                    # Liberia
+                    # Libyen
+                    # Madagaskar
+                    # Mali
+                    # Marokko
+                    # Mauretanien
+                    # Mauritius und Réunion
+                    # Mosambik
+                    # Namibia
+                    # Niger
+                    # Ruanda
+                    # Sambia
+                    # Senegal
+                    # Seychellen
+                    # Sierra Leone
+                    # Simbabwe
+                    # Somalia
+                    # Sudan
+                    # Südsudan
+                    # Swasiland
+                    # Tansania
+                    # Togo
+                    # Tschad
+                    # Tunesien
+                    # Uganda
+                    # Westsahara
+                    # Zentralafrikanische Republik
+                    # Nigeria
+                    # Kenia
+                    # Algerien
+                    # Äthiopien
+                    # Kongo, DR
+                    # Kongo, Rep.
+                    # Malawi
+                    # Südafrika
+                    # Ägypten
+               o Mittelamerika und Karibik
+                    # Belize
+                    # Honduras
+                    # Guatemala
+                    # El Salvador
+                    # Panama
+                    # Costa Rica
+                    # Nicaragua
+                    # Haiti
+                    # Dominikanische Republik
+                    # Jamaika
+                    # Grenada
+                    # Niederländische Antillen
+                    # Barbados
+                    # Weitere Karibikstaaten
+                    # Puerto Rico
+                    # Trinidad und Tobago
+                    # Martinique und Guadeloupe
+                    # Bermuda
+                    # Kuba
+               o Vorder-, Mittel- und Zentralasien
+                    # Kirgisistan
+                    # Tadschikistan
+                    # Turkmenistan
+                    # Katar
+                    # Bahrain
+                    # Vereinigte Arabische Emirate
+                    # Usbekistan
+                    # Kuwait
+                    # Kasachstan
+                    # Oman
+                    # Jemen
+                    # Saudi-Arabien
+                    # Mongolei
+                    # Aserbaidschan
+                    # Armenien
+                    # Georgien
+               o Kolonien und Kolonialismus
+                    # Kolonialismus vor 1871
+                    # Kolonialzeit und Deutsches Reich
+                    # Weimarer Republik und Drittes Reich
+                    # Nachwirkungen der Kolonialzeit nach 1945
+          + Reiseliteratur
+               o Fragemuster
+               o Kulturgeschichte
+               o Poetik
+               o Glossar
+               o Orte
+               o Bibliographie
+               o Links
+          + Schreiben
+               o Schreibtechnik
+                    # Kurzgeschichten schreiben
+               o Eigene Gedichte
+               o Lyrische Spielformen
+               o Guter Stil
+          + Schwaben
+               o Chronik Württembergs
+                    # Kultur und Migration in Baden-Württemberg
+                    # Württemberg und Nationalsozialismus
+               o Stadtgeschichte
+                    # Chronik Stuttgarts
+                    # Chronik Magstadts
+               o Schwäbisches im Netz
+               o Buchbesprechungen
+               o Autoren in Stuttgart
+               o Grammatik
+               o Schwäbische Sagen
+               o Dialektologie
+               o Literaturchronik
+               o Schwäbische Literatur
+               o Gedichte
+               o Lernen
+          + Rede & Schrift
+               o Mündlichkeit
+               o Schriftlichkeit
+               o Geschichte der Schrift
+          + Vormärz
+               o Charakteristik
+               o Forschung
+               o Autoren
+                    # Willibald Alexis
+                    # Ernst Moritz Arndt
+                    # Berthold Auerbach
+                    # Gustav Bacherer
+                    # Ludwig Börne
+                    # Georg Büchner
+                    # Ernst Dronke
+                    # Annette von Droste-Hülshoff
+                    # Ferdinand Freiligrath
+                    # Franz August Gathy
+                    # Adolf Glaßbrenner
+                    # Christian Dietrich Grabbe
+                    # Karl Gutzkow
+                    # Moritz Hartmann
+                    # Heinrich Heine
+                    # Georg Herwegh
+                    # August Heinrich Hoffmann von Fallersleben
+                    # Karl Lebrecht Immermann
+                    # Gottfried Kinkel
+                    # Franz Kottenkamp
+                    # Ferdinand Gustav Kühne
+                    # Heinrich Laube
+                    # Wolfgang Menzel
+                    # Theodor Mundt
+                    # Johann Nepomuk Nestroy
+                    # August Graf von Platen-Hallermünde
+                    # Robert Prutz
+                    # Scherenberg, Christian Friedrich
+                    # Johannes Scherr
+                    # Levin Schücking
+                    # Georg Weerth
+                    # Wilhelm Weitling
+                    # Ludolf Wienbarg
+                    # Ernst Willkomm
+                    # Wilhelm Wolff
+               o Zeitschriften
+               o Glossar
+               o Chronik
+               o Bibliographie
+               o Links
+               o Ausland
+               o Topographie
+          + Exotismus
+               o Begriff
+               o Gründe
+               o Literatur
+               o Kunst
+               o Kontexte
+               o Geschichte
+               o Bibliographie
+               o Links
+               o Glossar
+          + Ekphrasis
+               o Forschung
+               o Begriff
+               o Grundfunktionen
+               o Literarische Funktionen
+               o Literarische Technik
+               o Sonderthemen
+               o Geschichte
+               o Glossar
+               o Links
+     * Kunst und Kunstgeschichte
+          + Chronologien
+               o Gartenbau
+               o Landschaftsmalerei
+               o Geschichte der Kunstgeschichte
+               o Kulturgeschichte des Wahnsinns
+     * Schule und Unterricht
+          + Lehrer
+               o Schule
+                    # Umgang mit Kollegen
+                    # Hospitieren
+                    # Umgang mit Mentoren
+                    # Lampenfieber (Lehrkräfte)
+                    # Nein sagen
+                    # Schummeln verhindern
+                    # Austattung / Material
+                    # Klassenlehrergeschäfte
+                    # Datenschutz
+                    # Forschungsergebnisse
+                    # Umfragen durchführen
+                    # Selbstmanagement
+                    # Schulrecht (Lehrer)
+                    # Elternabende
+                    # Interkulturalität
+                    # Klassensprecher
+               o Didaktik
+                    # Fragetechnik
+                    # Sprechen im Unterricht
+                    # Unterrichtsgespräche führen
+                    # Arbeitsaufträge
+                    # Lernziele
+                    # Projektionsmedien
+                    # Umgang mit Tafeln
+                    # Wettbewerbe
+                    # Kunstausstellungen besuchen
+               o Pädagogik
+                    # Pädagogische Sonderfälle
+                         @ Angststörungen
+                         @ Chronische Erkrankungen
+                         @ Essstörungen
+                         @ Homosexualität
+                         @ Migrationshintergrund
+                         @ Adipositas
+                         @ Mobbing
+                         @ Schlafstörungen
+                         @ Aggression und dissoziales Verhalten
+                         @ Autismus
+                         @ Depressionen
+                         @ Epilepsie
+                         @ Mediensucht
+                         @ Zwangsstörungen
+                         @ LRS
+                         @ Missbrauch
+                         @ Suizidalität
+                         @ Trennung der Eltern
+                         @ Schulverweigerung
+                         @ Autoaggression / SSV
+                         @ ADHS
+                         @ Stottern
+                         @ Sucht
+                         @ Tics
+                    # Blick
+                    # Umweltbildung
+                    # Klassenfahrten: Fair & Öko
+                    # Faire Schule
+                    # Soziales Lernen: Ideen
+                    # Streuobstwiesen und Schule
+                    # Erlebnispädagogik
+                    # Entspannungstechniken
+               o Fachdidaktik Deutsch
+                    # Bildmaterial im Deutschunterricht
+                    # Korrekturzeichen
+                    # Buchkunst
+                    # Lesevarianten
+                    # Das Deutschabitur vorbereiten
+               o Fachdidaktik Englisch
+                    # Topics
+                         @ Shakespeare
+                         @ Crooked Letter
+                         @ Gran Torino
+                    # Bilder einsetzen
+                    # Bilingualer Unterricht
+                    # Schreibformen
+                    # Songs in the classroom
+                    # Films in the classroom
+                    # Class Tests
+                    # Free speaking
+                    # Freiarbeit
+                    # Reading skills
+               o Theaterpädagogik
+                    # Planung
+                    # Aberglaube
+                    # Schauspielfehler
+                    # Beleuchtung
+                    # Stimme
+                    # Atmung
+                    # Blick
+                    # Emotion und Ausdruck
+                    # Chöre
+                    # Schauspielfähigkeiten
+                    # Status
+                    # Lesungen durchführen
+                    # Masken
+                    # Kostüm
+                    # Spiel mit der Kamera
+                    # Sprechen
+                    # Requisiten
+                    # Theater als Medium
+                    # Akustische Elemente
+                    # Bühnenbild
+                    # Bühne
+                    # Film und Theater
+                    # Theatertheorie
+                    # Ein Stück entwickeln und inszenieren
+                    # Improvisationstheater
+                    # Übungen
+                    # Applaus
+                    # Dadaistisches Theater
+                    # Clown und Narr
+                    # Komik
+                    # Totentanz
+                    # Gehen im Theater
+                    # Weihnachten und Theater
+                    # Zeit und Bühne
+                    # Jerzy Grotowski
+                    # Theater im Siglo de Oro
+                    # Commedia dell'arte
+                    # Gestik
+                    # Artaud und das Theater der Grausamkeit
+                    # Japanisches Theater
+                    # Performance
+                    # Körper
+                    # Chinesisches Theater
+                    # Indisches Theater
+                    # Mimik
+                    # Proxemik und Raum
+                    # Ensemble
+                    # Auftritt und Abgang
+                    # Dramaturgie
+                    # Rolle
+                    # Bühnenjargon
+               o Fächerverbindender Unterricht
+                    # Deutsch und Kunst
+                    # Deutsch und Musik
+                    # Deutsch und Chemie
+                    # Deutsch und Mathematik
+                    # Deutsch und Latein
+                    # Deutsch und Sport
+                    # Deutsch und Geschichte
+                    # Deutsch und Spanisch
+                    # Deutsch und Französisch
+               o Medienpädagogik
+                    # Digitalisierung: Themen
+                    # Tablets im Unterricht: Diskussion
+                    # Apps für den Unterricht
+                    # Handschrift vs. Typoskript
+                    # Medienpädagogisches Glossar
+                    # Nutzungsvertrag
+          + Schüler
+               o Lernen und Arbeiten
+                    # Kritisches Denken: Statistik
+                    # Argumente finden
+                    # Klassenarbeiten
+                    # Zuhören im Unterricht
+               o Deutschunterricht
+                    # Reden und Vortragen
+                         @ Formen von Argumenten
+                         @ Vorlesen (Unterstufe)
+                    # Schreiben
+                         @ Bildbeschreibung
+                         @ Deutungshypothesen entwickeln
+                         @ Umgang mit Zeitnot
+                         @ Gedichtinterpretationen schreiben
+                         @ Texterörtung
+                         @ Werkvergleich mit Außentext
+                         @ Kurzprosa interpretieren
+                         @ Lineare Erörterung
+                         @ Dialektische Erörterung
+                         @ Gruselgeschichten verfassen
+                         @ Gedichte vergleichen
+                         @ Literarische Erörterung
+                         @ Analyse von Sachtexten
+                         @ Erörtern von Meinungstexten
+                         @ Charakterisierung
+                         @ Aufätze schreiben
+                         @ Vergleichende literarische Erörterung
+                         @ Redeanalyse
+                         @ Sachtextanalyse
+                         @ Materialgestütztes Schreiben: Kommentar
+                         @ Bildgeschichten schreiben
+                         @ Vorgangsbeschreibung
+                         @ Wegbescheibung
+                         @ Personenbeschreibung
+                    # Umgang mit Medien
+                         @ Wahlwerbespots
+                    # Lesen und Textarbeit
+                         @ Parabeln
+                         @ Interpretieren
+                         @ Gedichte analysieren
+                         @ Grundlagen des Belegens
+                         @ Ironie erkennen
+                         @ Stilmittel
+                         @ Außentexte
+                         @ Fachwissen Kurzprosa
+                    # Abitur
+                         @ Steppenwolf
+                         @ Faust
+                         @ Der goldene Topf
+                         @ Naturlyrik
+                         @ Der Verlorene
+                         @ Reiselyrik
+                              - Reiselyrik: Interpretationen
+                         @ Kurswahl Deutsch
+                         @ Textvergleich „Steppenwolf“ und „Der goldne
+                           Topf“
+                         @ Probleme im Deutschabitur
+                         @ Felix Krull
+                         @ Corpus Delicti
+                         @ Der Verschollene / Amerika
+                         @ Woyzeck
+                         @ Kurzprosa
+                         @ Texterörterung im Abitur
+                         @ Werkvergleich: "Felix Krull" / "Der
+                           Verschollene"
+                    # Sprachkompetenz
+                         @ Wortschatzfehler
+                         @ Extremdiktate
+                         @ Feinheiten der Kommasetzung
+                         @ Satzbau verbessern
+                         @ Stil und Ausdruck
+                         @ Ausdrucks- und Stilfehler
+                         @ Corona-Rede: Stilprobleme
+                         @ Sprache und Inklusion
+                         @ Pluralformen
+                         @ Sprachästhetik
+                    # Lektüren
+                         @ Horváth, Ödön von
+                              - Der jüngste Tag (1937)
+                              - Glaube Liebe Hoffnung (1932)
+                    # Wortschatz
+                         @ Schwierige Einwohnerbezeichnungen
+                         @ Österreichisch in der Küche
+                         @ Klassische Wendungen
+                         @ Mythischer Wortschatz
+                         @ DDR-Wortschatz
+                         @ Antike Begriffe
+                         @ Herkunft von Fremdwörtern
+                         @ Biblische Wendungen
+                         @ Literarische und historische Redewendungen
+                         @ Leicht zu verwechselnde Wörter
+                         @ Jägersprache
+                         @ Druckerjargon
+               o Englischunterricht
+                    # Skills
+                         @ Guessing new words
+                         @ Drama analysis
+                         @ Prose analysis (phrases)
+                         @ Good style
+                         @ Online Dictionaries
+                         @ Oral Exams: Criteria
+                         @ Mediation
+                         @ Listening Comprehension
+                         @ Reading Comprehension
+                         @ Interpreting
+                         @ Translation
+                         @ Multiple Choice
+                         @ Vocabulary
+                         @ Exam Tasks
+                         @ Paragraphs
+                         @ Capitalization
+                         @ Exams
+                         @ Spelling
+                         @ Literary theory
+                         @ Reading for class
+                         @ Proofreading and editing
+                         @ Punctuation
+                         @ Grammar
+                         @ Cartoons
+                         @ Task descriptions for texts
+                         @ Writing about texts
+                         @ Comment and discussion
+                         @ Passing the final exams
+                         @ Comments based on quotations
+                         @ Communication exam
+               o Schülerzeitung
+               o Leben und Überleben
+                    # E-Mails an Lehrer
+                    # Gutes Benehmen (Schüler)
+                    # Notenverhandlungen
+                    # Sich richtig melden
+                    # Sich konzentrieren
+               o Debating
+                    # Rebuttal
+                    # Using Bias in a Debate
+                    # Writing Speeches: Style
+                    # Writing Speeches
+                    # Criteria for Judging a Debate
+                    # Points of Information
+                    # Why debate?
+                    # Definitions
+                    # Golden Rules
+                    # Hosting
+                    # Time management
+                    # Credibility
+                    # Ethos in debate
+                    # Research in debating
+                    # Notes in school debating
+                    # Introducing a speech
+               o Essays für Schüler
+                    # Lieblingsschüler
+                    # Freundlichkeit
+                    # Deutschunterricht
+                    # Lehrer und Politik
+                    # Geschlechterfragen
+                    # Psychische Krankheit
+                    # Religion und Schule
+                    # Lehrer mit Hut
+                    # Französisch
+                    # Schüler und Klimaschutz
+                    # Rassismus
+                    # Korrigieren
+                    # Mathematik
+                    # Ordnung
+                    # Abschied
+                    # Warum ich Lehrer geworden bin
+                    # Reichtum und Armut
+                    # Steuererklärung
+                    # Was wäre wenn?
+                    # Korruption
+                    # Homophobie
+                    # Deutschabitur
+                    # Gendern
+                    # Instagram
+                    # Sommerferien
+                    # Literatur und Theater
+                    # Kafka in der Schule
+                    # Mein Lehrer digitalisiert sich
+                    # Handys in der Schule
+                    # Lehrer als Ressourcen
+                    # Schulzeit, Zeit der Schule
+               o Literatur und Theater
+                    # Gründe für Literatur und Theater
+                    # Praktische Prüfung
+                    # Inszenieren für die Prüfung
+          + Eltern
+               o Kinderfilme
+               o Umgang mit Lehrern
+               o Datenschutz für Eltern
+               o Leseförderung
+               o Schulkinder unterstützen
+               o Ankommen am Gymnasium
+               o Schulischer Erfolg
+          + Allgemeines
+               o Geschichte
+               o German Schools under Corona
+     * Winnenden
+          + Literatur
+               o Projektbeschreibung
+               o Mittelalter, Frühe Neuzeit, Barock
+                    # Stephan Fridolin
+                    # Gottfried von Neuffen
+                    # David Pistorius
+                    # Erasmus Grüninger
+                    # Jakob Frischlin
+                    # Johann Georg Sigwart
+                    # Ägidius Hunnius
+                    # Polykarp Leyser der Ältere
+                    # Albrecht Bengel
+                    # Winnender Mops (Epitaph)
+                    # Hans Jacob Breuning
+               o 1750-1870
+                    # Karl Mayer
+                    # Karl Simrock
+                    # Ludwig Uhland
+                    # Anastasius Grün
+                    # Eduard von Bauernfeld
+                    # Nikolaus Lenau
+                    # Justinus Kerner
+                    # Jakob Friedrich Saalfeld
+                    # Christian Friedrich Sattler
+                    # Rudolf Magenau
+                    # Wilhelm Waiblinger
+                    # Hermann Lingg
+                    # Hermann Kurz
+                    # Johann Urich Wirth
+                    # Christian Palmer
+                    # Albert Zeller
+                    # Friedrich Schiller
+                    # Friedrich Fischer
+                    # Friedrich Kurz
+               o 1871-1945
+                    # Ernst August Wagner
+                    # Robert Boehringer
+                    # Hermann Hesse
+                    # Gerhard Rühle
+                    # Immanuel Beck
+                    # Gotthold Börner
+                    # Alwine Wuthenow
+                    # Karl Philipp Fischer
+                    # Otto Umfrid
+                    # Paul Dorsch
+                    # Adolf Schiel
+                    # Ernst Huber
+                    # Cornelie Lechler
+                    # Mina Volz-Greiner
+                    # Karl Christian Planck
+                    # Joseph Gauger
+                    # Anna Schieber
+               o Nach 1945
+                    # Martin Kirstein
+                    # Karl Mast
+                    # Ulrike Mischkolin
+                    # Ingo Mayer
+                    # Gert Schlüter
+                    # Christa Schlüter
+                    # Walter Lachenmaier
+                    # Magdalene Fromme
+                    # Willi Pfisterer
+                    # Günther Weber
+                    # Con Berner
+                    # Rudolf Nissler
+                    # George Pantow
+                    # Martin Lenz
+                    # Friedhelm Bütow
+                    # Werner Holzwarth
+                    # Thomas Hauck
+                    # Simone Gertz
+                    # Lorenz Obleser
+                    # Horst Obleser
+                    # Christoph Lippelt
+                    # Uwe Neumahr
+                    # Gunter Haug
+                    # Sissi Flegel
+                    # Joachim Bodamer
+                    # Winfried Maier-Revoredo
+                    # Guillermo Aparicio
+                    # Jochen Kalka
+                    # Rolf Walder
+               o Literaturkarte
+               o Lesekultur
+               o Danksagung
+          + Diskussion
+               o Winnendens Ortsname
+               o Das Winnender Mädle
+               o Adam Müller-Guttenbrunn
+               o Winnender Geschichte: Offene Fragen
+               o Stadtwappen
+               o Archive
+               o Die Reichsgründung feiern?
+               o Schulnamen in Winnenden
+          + Geschichte
+               o Winnenden History
+               o Chronik Winnendens
+                    # Winnender Frühgeschichte
+                    # Winnenden im Mittelalter
+                    # Winnenden als Teil der Grafschaft Wirtemberg
+                    # Winnenden im 16. Jahrhundert
+                    # Winnenden im 17. Jahrhundert
+                    # Winnenden im 18. Jahrhundert
+                    # Winnenden im Königreich Württemberg
+                    # Winnenden im Kaiserreich
+                    # Winnenden im Ersten Weltkrieg
+                    # Winnenden im Volkstaat Württemberg (1919-1932)
+                    # Winnenden im Dritten Reich (1933-1945)
+                    # Winnenden nach dem Zweiten Weltkrieg
+                    # Winnenden seit der Wiedervereinigung
+               o Flurnamen
+          + Winnender Bibliographie
+          + Chronik
+               o 1850
+               o 1851
+               o 1853
+               o 1854
+               o 1855
+               o 1856
+               o 1857
+               o 1858
+               o 1859
+               o 1860
+               o 1861
+               o 1862
+               o 1863
+               o 1864
+               o 1866
+               o 1867
+               o 1869
+               o 1870
+               o 1872
+               o 1873
+               o 1874
+               o 1875
+               o 1876
+               o 1877
+               o 1878
+               o 1879
+               o 1880
+               o 1881
+               o 1882
+               o 1883
+               o 1884
+               o 1885
+               o 1886
+               o 1887
+               o 1888
+               o 1889
+               o 1890
+               o 1891
+               o 1892
+               o 1893
+               o 1894
+               o 1895
+               o 1896
+               o 1897
+               o 1898
+               o 1899
+               o 1900
+          + Methodisches
+               o Literaturführung
+               o Probleme der Ortsgeschichte
+
+   Pfad: pangloss  » Schule und Unterricht  » Schüler  » Deutschunterricht
+    » Abitur  » Reiselyrik
+
+Reiselyrik
+
+Zur Einführung
+
+   Wenn einer eine Reise tut – dann gehört es fast schon zum guten Ton,
+   davon zu erzählen. Vorbei sind zwar die Tage nicht enden wollender
+   Diaabende, aber Reiseberichte und Reiseromane werden nach wie vor
+   geschrieben. Es ist verständlich: Wer aus der Ferne zurückkehrt, legt
+   Rechenschaft ab für die Daheimgebliebenen. Der Entdeckungsreisende
+   schildert seine Entdeckungen. Der Wallfahrer bekundet, welche
+   Heiligtümer dem Seelenheil besonders zuträglich sind. Der Auswanderer
+   verrät anderen, wie man sich anstellen soll in der Fremde. Der Tourist
+   beruhigt Oma, das Wetter sei gut gewesen und das Essen auch. Aber
+   Gedichte schreiben - wozu? Für praktische Erläuterungen sind sie zu
+   kurz. Unterhaltsam sind sie in aller Regel auch nicht.
+
+   Wer immer nur ans Publikum denkt, wird Mühe haben, dieses Rätsel
+   aufzuklären. Reisen führt zu neuen Erfahrungen, zu Gefühlen: zu Glück,
+   Wut und Trauer; zu überschäumender Freude und tiefer Melancholie. Um
+   diese Erfahrungen nachvollziehbar zu machen, schreibt man Gedichte. Für
+   sich und andere. Natürlich wird es auch genug Lyriker geben, denen zu
+   Hause nichts einfällt, die aber dennoch ihren nächsten Lyrikband füllen
+   mögen – geschenkt! Gedichte haben unschätzbare Vorteile, wenn es darum
+   geht, Reiseerfahrungen festzuhalten. Erstens: Gedichte lassen sich so
+   rasch aufsetzen, dass sie gewissermaßen Fotos nach innen sind – sie
+   halten eine flüchtige Erfahrung fest. Zweitens: Gedichte sind so dicht,
+   dass sie auf engstem Raum eine Vielzahl von Erfahrungen festhalten
+   können. Drittens: Gedichte bieten uns die Freiheit, für das Fremde
+   unsere eigene Sprache zu finden. Viertens: von Gedichten will niemand
+   wissen, ob das Essen gut war und die Hotelbetten bequem. Denn,
+   fünftens: das Sprechen in Versen verleiht unserer Reise würde. Es ist,
+   sechstens, sogar völlig gleichgültig, ob die Reise jemals stattgefunden
+   hat. Reisegedichte erinnern uns an die Tatsache, dass wir allesamt
+   Reisende sind, Fahrgäste im selben Zug, wenn auch nicht im selben
+   Coupé.
+
+   Warum eigentlich Reiselyrik lesen? Dafür kann es auch im Zeitalter des
+   Selbstreisens viele Gründe geben.
+     * Zum einen, um sich zu erinnern, was Heimat bedeuten kann und Fremde
+       – und vor allem: Heimatlosigkeit. Insofern kann das Lesen von
+       Reisegedichten dabei helfen, Mitgefühl für die Flüchtigen,
+       Vertriebenen und Unbehausten dieser Welt zu gewinnen, aber auch für
+       die Zurückgelassenen und Zurückbleibenden – für Fernweh, Heimweh,
+       Sehnsucht.
+     * Zum anderen schulen Reisegedichte den Blick und das
+       Reflexionsvermögen: Was sehe ich, wenn ich reise – und aus welcher
+       Sicht? Worauf hoffe ich beim Reisen? Warum bin ich enttäuscht?
+     * Reisegedichte schulen die Stimme für das Sagbare und manches
+       Unsagbare: Wie spricht man über das Erfahrene? Welche Möglichkeiten
+       bieten sich?
+     * Reiselyrik schult ferner das kritische Denken und die
+       Widerständigkeit gegen Stereotype: Welche Bilder werden uns
+       verkauft? Wie können wir eigene Ansichten gewinnen?
+     * Reisegedichte sind Dokumente der Verkehrsgeschichte: Sie belegen
+       den Wandel der Einstellungen zu Eisenbahn, Automobil oder Flugzeug.
+     * Reisegedichte sind überdies gute Reisegefährten und vertreiben die
+       Einsamkeit, die sich auf Reisen zuweilen einstellt: Sie erinnern
+       uns daran, dass Reisende vor uns ähnliche Erfahrungen gemacht
+       haben.
+     * Reisegedichte sind Denkmäler, die uns als Reisende an die Würde des
+       Augenblicks erinnern und an dessen Einzigartigkeit, die
+       unwiederbringliche sinnliche Erfahrung.
+
+Unterrichtsideen: Kreativer Umgang mit Reiselyrik
+
+     * Phantasiereise: Die SuS gestalten eine lyrische Phantasiereise, die
+       dann in Partnerarbeit präsentiert wird.
+     * Postkarten-Gedicht: Die SuS schreiben aus der Studienfahrt ein
+       Reisgedicht zu vorgegebenen Augenblicken der Reise.
+     * Lyrische Wanderung: Die SuS erhalten je ein Wandergedicht, das sie
+       im Laufe der Wanderung vortragen. Auch Wanderlieder wären möglich!
+     * Höhenblick: Der Kurs besteigt einen Berg oder Hügel (andernfalls:
+       ein höheres Gebäude) und beschreibt die Besteigung in einem
+       Gedicht.
+     * Reisestationen: Die SuS besuchen einen Bahnhof (Flughafen) und
+       halten in kurzen lyrischen Skizzen ihre Beobachtungen zu den
+       Reisenden fest.
+     * Abschied: Die SuS schreiben ein Abschiedsgedicht, mit dem sie sich
+       von ihrer Schule (dem Ort) verabschieden.
+     * Urian: Die SuS inszenieren in Sechser-Gruppen „Urians Reise um die
+       Welt“ von Matthias Claudius.
+     * Migrationsgedicht: Die SuS finden eine Person mit aktuellem
+       Migrationshintergrund (oder eine geflüchtete oder vertriebene
+       Person) und schreiben ein Gedicht über a) das Ankommen in
+       Deutschland, b) den Abschied aus der Heimat.
+     * Souvenir: Die SuS bringen ein Reiseandenken mit und verfassen dazu
+       ein Dingegedicht.
+     * Lyrischer Spaziergang: Die SuS begeben sich zu zweit auf dem
+       Schulgelände auf einen Spaziergang, auf dem sie reimend eine
+       Unterhaltung führen.
+     * Reisekatalog: Die SuS besorgen sich Reisekataloge und stellen aus
+       dem sprachlichen Material ein Gedicht her.
+     * Auftragsgedicht: Die SuS verfassen im Auftrag eines Reisebüros ein
+       Gedicht zum Thema „Einladung zum Reisen“. Das beste Gedicht wird
+       prämiert!
+     * Bahn-Fahrt: Die SuS bekommen in der S-Bahn so lange Zeit, ein
+       Gedicht zu verfassen, bis die Fahrt beendet ist.
+     * Reise nach Jerusalem: Die SuS spielen Reise nach Jerusalem, solange
+       ein Reisegedicht rezitiert wird; alle ausgeschiedenen SuS stimmen
+       in das Gedicht ein.
+     * Insta-Gedicht: Die SuS greifen ein Reisemotiv aus Instagram auf und
+       verfassen dazu ein kommemtierendes Gedicht.
+     * Autogedicht: Die SuS verfassen Autogedichte und klemmen sie den
+       Lehrkräften hinter den Scheibenwischer (mit Bitte um Rückmeldung).
+     * Reisekritik: Die SuS sehen sich eine Tourismuswerbung auf YouTube
+       an und verfassen dazu ein Gedicht.
+
+Erschließungsfragen zur Reiselyrik
+
+   Reisegedichte lassen sich behandeln wie Gedichte aus anderen
+   Themenkreisen. Als Hilfestellung zur genaueren Analyse des jeweiligen
+   Motivs sind folgende Fragen gedacht:
+     * Fiktionalität: Ist die geschilderte Reise eine zielgerichtete Reise
+       mit festem Ausgangspunkt? Oder handelt es sich um eine imaginäre
+       Reise, eine Traum-, Gedanken- oder Seelenreise?
+     * Reisezweck: Welchem Zweck dient die Reise? Der Erholung? Der
+       Befreiung? Der Erkundung? Der Selbsterkundung? Der Flucht? Wird der
+       Zweck erreicht?
+     * Sprechsituation: An wen wendet sich der Sprecher? An sich selbst?
+       An einen Reisegefährten? An ein unbestimmtes Du? An ein konkretes
+       Gegenüber? Welches Ziel verfolgt der Sprecher?
+     * Form: Inwiefern färbt der Reiseverlauf auf die formale Gestaltung
+       des Texts ab? Welche sprachlichen Mittel wurden gewählt?
+     * Haltung zum Reisen: Wie stellt sich der Sprecher zum Reisen:
+       Begrüßt er das Reisen oder verurteilt er es? Aus welchen Gründen?
+       Verändert sich die Haltung im Verlauf des Texts?
+     * Zeit: Welchen Standpunkt wählt der Sprecher: Schaut er voraus auf
+       die erst beginnende Reise, spricht er während des Reisens oder
+       blickt er auf eine Reise zurück?
+     * Geschichte, Geschlecht, Kultur: Auf welche historischen
+       Gegebenheiten bezieht sich der Text? Inwiefern ist der Text aus
+       seiner Zeit heraus (anders) zu verstehen? Sind Geschlechtsrollen
+       von Bedeutung? Wird die kulturelle Prägung des Texts deutlich?
+     * Fortbewegung: Welche Fortbewegungsart wählt der Sprecher? Wandert
+       er? Fährt er? Fliegt er? Inwiefern hat die Fortbewegungsart
+       Einfluss auf die Form des Texts?
+     * Perspektive: Welchen Blickwinkel nimmt der Sprecher ein? Was lässt
+       sich über seine Blicklenkung sagen? Inwiefern ist der Blick vom
+       Reisemittel beeinflusst?
+     * Raum: In welchen Gegenden ist der Sprecher unterwegs? Was sagt die
+       Wahrnehmung der Umgebung über den Sprecher aus?
+
+Reiselyrik: Chronologie
+
+   -750c
+
+   Homer: Odyssee: Der von Poseidon an der Heimkehr nach Ithaka gehinderte
+   Odysseus wird zum Symbol des Irrfahrers. An sie (und die Ilias) lehnt
+   sich Vergils Aeneis an. Die Figur des Odysseus wird insbesondere in der
+   Exilliteratur aufgegriffen, etwa in Johannes R. Bechers Sonett Odysseus
+   (1938) und seinem Langgedicht Ithaka (1944). Auch Ernst Ahrendts Sonett
+   Ulysses' weite Fahrt (1950) greift auf den Mythos der Odyssee zurück.
+
+   -250c
+
+   Apollonios von Rhodos: Argonautika: Die Meerfahrt der Argos unter Jason
+   ist das Urbild der Heldenfahrt, die zur Erlangung eines kostbaren Guts
+   führt (in diesem Fall: des goldenen Vlieses).
+
+   830c
+
+   Santiago da Compostela wird zum Wallfahrtsort. Allerdings wird erst im
+   11. Jahrhundert die Pilgerfahrt (auch nach Rom und ins Heilige Land) in
+   der Christenheit üblich. Die Attribute der Pilgerschaft (Jakobsmuschel,
+   breitkrempiger Hut, Pilgermantel, Beutel und Flasche sowie der
+   Pilgerstab) werden bis in die Gegenwart zitiert.
+
+   1095
+
+   Urban II. ruft zum ersten Kreuzzug auf: Die Lyrik des Mittelalters
+   behandelt oft das Motiv des Ritters, der sich auf einen Kreuzzug begibt
+   und die Minneherrin zurücklässt.
+
+   1204
+
+   Venedigs Macht hat mit der Plünderung Konstantinopels im IV. Kreuzzug
+   ihren Höhepunkt erreicht. Die Adelsrepublik beherrscht als bedeutende
+   Handelsmacht die Handelsströme im Mittelmeer. Als Modell des Verfalls
+   wird die Serenissima für die deutsche Lyrik des ausgehenden 19.
+   Jahrhunderts interessant.
+
+   1336
+
+   Der italienische Humanist Francesco Petrarca besteigt den Mont Ventoux
+   in der Provence: Die rhetorische Ausarbeitung dieser Bergbesteigung,
+   die in einer Augustinus-Lektüre gipfelt, macht Petrarca zum geistigen
+   Begründer des Alpinismus, der sich als Bewegung erst um 1850 herum
+   konstituiert. Mit dem Augustinus-Zitat aus den Confessiones wird er
+   zudem zum Begründer der Reisekritik: „Und es gehen die Menschen hin, zu
+   bestaunen die Höhen der Berge, die ungeheuren Fluten des Meeres, die
+   breit dahinfließenden Ströme, die Weite des Ozeans und die Bahnen der
+   Gestirne und vergessen darüber sich selbst.“
+
+   1440c
+
+   Die Roma erreichen Mitteleuropa: Auch vorher schon gab es wandernde
+   Händler und Handwerker, doch keine andere Gruppe der Fahrenden wird in
+   Gedichten so verklärt wie die „Zigeuner“ – im Widerspruch zur realen
+   Diskriminierung, der sie vielfach bis heute ausgesetzt sind.
+
+   1492
+
+   Nach den Entdeckungsfahren Portugal entdeckt der Genueser Columbus für
+   die vereinigten Kronen Spaniens Amerika und wird damit für spätere
+   Lyriker zum Sinnbild des Entdeckers, der Wege ins Ungewisse
+   beschreitet. Über den Weltumsegler Magellan und den Afrika-Umrunder
+   Vasco da Gama gibt es dagegen kaum Gedichte.
+
+   1618-1648
+
+   Der Dreißigjährige Krieg führt zu ungeheurem Leid, zu Flucht und
+   Vertreibung: In der barocken Reiselyrik werden Reisen werden oft
+   allegorisch als Lebensreisen gedeutet, die den Sprecher aus dem
+   unerträglichen Diesseits retten. Häufig ist die rhetorisch geformte
+   Reiselyrik des Barocks auch an die jeweilige Mission der zumeist
+   adeligen Verfasser gebunden. --- Nach dem Krieg nimmt die Zahl der
+   jungen Adeligen zu, die sich auf eine Kavaliersreise begeben – auch in
+   England endet der Bürgerkrieg und junge Gentlemen begeben sich auf die
+   Grand Tour.
+
+   1729
+
+   Albrecht von Hallers Die Alpen verändert den Blick auf das Hochgebirge,
+   das wegen seiner dramatischen Naturschönheit im 18. Jahrhundert auch
+   vermehrt zum Reiseziel mit Eigenwert wird.
+
+   1731
+
+   Die vom Kaiser ratifizierte Reichshandwerksordnung modernisiert das
+   Handwerk und führt in vielen Gewerben dazu, dass die Walz zunehmend an
+   Bedeutung verliert. Zahlreiche Volkslieder geben Einblick in die
+   Umstände der später verklärten Gesellenwanderung, die etwa bei
+   Zimmerleuten auch heute noch praktiziert wird. --- Etwa 20.000
+   Salzburger werden des Landes verwiesen und infolgedessen heimatlose
+   Exulanten.
+
+   1750c
+
+   Mit dem Ausbau des Postkutschennetzes und technischen Verbesserungen an
+   den Kutschen selbst werden Postkutschen zur echten Alternative zum
+   Pferd. Gleichzeitig wird mit dem Aufkommen des Spaziergangs (zum
+   Beispiel im neu angelegten englischen Landschaftsgarten) eine neue
+   Langsamkeit gepflegt.
+
+   1775
+
+   Johann Gottfried Herder sammelt und veröffentlicht Volkslieder. Die von
+   ihm angeregte Beschäftigung mit Volksüberlieferungen, unter anderem mit
+   der Ossian-Dichtung Macphersons, beeinflussen sowohl die Lyrik des
+   Sturm und Drang als auch ab 1798 die Romantiker.
+
+   1778
+
+   Die deutsche Fassung von Georg Forsters A Voyage Round The World wird
+   in Berlin veröffentlicht. Forsters Weltreise mit James Cook hinterlässt
+   Spuren auch in der Literatur.
+
+   1786
+
+   Johann Wolfgang von Goethe erreicht Italien und bleibt bis Mai 1788.
+   Seine Reisetagebücher werden in den Jahren 1813-17 zur Italienischen
+   Reise verarbeitet, auf die sich viele spätere Italienreisende beziehen.
+   Seit Winckelmanns Rom-Aufenthalt im Jahr 1755 entwickelt sich eine
+   Begeisterung für die griechische Antike, die im Klassizismus mündet
+   (und in der literarischen Klassik).
+
+   1804
+
+   Alexander von Humboldt und sein französischer Reisegefährte Bonpland
+   betreten in Bordeaux wieder europäischen Boden. Mit seinem
+   dreißigbändigen Reisewerk wird Humboldt zum bedeutendsten deutschen
+   Forschungsreisenden. --- In Heidelberg greifen Achim von Arnim und
+   Clemens Brentano (ab 1796) Anregungen der Jenaer Frühromantik auf und
+   entwickeln mit Joseph von Eichendorff den Ton der Hochromantik, spürbar
+   in einer Fülle von Wanderliedern und lyrischen Traum- und
+   Gedankenreisen.
+
+   1827
+
+   Karl Baedeker gründet den ersten deutschen Verlag für Reisehandbücher.
+   Der „Baedeker“ gilt seitdem als Reiseführer schlechthin. Erstmals
+   verfügen Reisende über systematisch zusammengestellte Informationen zum
+   Reiseziel – und über Wissen darüber, was als sehenswert gilt.
+
+   1831
+
+   Heinrich Heine lässt sich als Emigrant in Paris nieder und wird zum
+   Dichter der Heimatlosigkeit. Viele politische Reisegedichte beziehen
+   sich direkt oder indirekt auf Heine, der die Sehnsuchtsmotivik der
+   Romantiker aufgreift und mit ironischem Weltschmerz bricht.
+
+   1835
+
+   Die Inbetriebnahme der Ludwigsbahn zwischen Nürnberg und Fürth eröffnet
+   das Eisenbahnzeitalter. Erstmals sind Massenreisen mit hohen
+   Geschwindigkeiten möglich, die allerdings mit ganz gehörigem Lärm
+   einhergehen. Damit ist der Untergang der vorindustriellen Reisekultur
+   zum Gegenstand der Lyrik des Biedermeier geworden.
+
+   1841
+
+   Thomas Cook veranstaltet die mutmaßlich erste touristische
+   Pauschalreise. Damit entsteht eine touristische Infrastruktur, die sich
+   bald nach Kontinentaleuropa ausdehnt.
+
+   1848
+
+   Die gescheiterte Märzrevolution und eine Verschärfung der
+   Zensurbestimmungen führen zu einer Zunahme der Auswanderung in die USA,
+   nach Brasilien und Australien. Schon vorher entstehen Auswandererlieder
+   („Heil dir Columbus, sey gepriesen“).
+
+   1851
+
+   Zwischen Berlin und Deutz am Rhein verkehrt der erste Schnellzug, wenig
+   später folgt der erste Nachtzug von Berlin nach Bromberg.
+
+   1863
+
+   Carl und Louis Stangen eröffnen ihr Breslauer Reisebüro und importieren
+   damit den Gruppentourismus nach Deutschland. In der Lyrik werden bald
+   erste Bedenken gegen den massenhaften Fremdenverkehr laut.
+
+   1884
+
+   Mit der Inbesitznahme der Lüderitzbucht im heutigen Namibia beginnt für
+   das Deutsche Reich das Kolonialzeitalter. Die Tropen sind erstmals
+   greifbar nah und werden zum Gegenstand exotistischer Lyrik,
+   beispielsweise bei Max Dauthendey.
+
+   1886
+
+   Die Erfindung des Automobils durch Gottlieb Daimler und Carl Benz führt
+   zu neue Reisemöglichkeiten im Individualverkehr. Die Verbesserung der
+   Verkehrsnetze und der Beförderungsmittel durch industriell gefertigte
+   Technik macht das Reisen technischer, massenkompatibler und schneller,
+   was sich in der Lyrik des Naturalismus und besonders des
+   Expressionismus bemerkbar macht.
+
+   1891
+
+   Albert Ballin entsendet die Augusta Victoria zu einer Vergnügungsreise
+   ins Mittelmeer – und erfindet damit gewissermaßen die touristische
+   Kreuzfahrt.
+
+   1896
+
+   Angeregt durch Ideale der Romantik gründet sich in Steglitz die
+   Wandervogel-Bewegung. Um die Jahrhundertwende wird auch FKK populär,
+   die Freikörperkultur. Die Sehnsucht nach Naturerlebnissen jenseits
+   elektrifizierter Großstädte wirkt sich auf die Neuromantik aus.
+
+   1909
+
+   Mit der Deutschen Luftschiffahrts-Aktiengesellschaft (DELAG) wird die
+   erste Fluggesellschaft der Welt gegründet – das kurze Zeitalter der
+   Zeppeline beginnt. --- Hans Breuer veröffentlicht 1909 die
+   Volksliedsammlung Der Zupfgeigenhansl, die zum musikalischen
+   Begleitbuch der Wanderbewegung wird.
+
+   1919
+
+   Mit der Gründung der Deutschen Luft-Reederei setzt in Deutschland ein
+   regulärer ziviler Luftverkehr ein.
+
+   1929
+
+   Werner Helwig, Mitglied des Nerother Wandervogels, komponiert das Lied
+   Trampen wir durch Land. In den Zwanzigern wird das Trampen zur
+   beliebten Fortbewegungsart.
+
+   1933
+
+   Mit Hitlers Machtergreifung nimmt für viele Deutsche die Notwendigkeit
+   der Emigration zu – erst nach dem Ende des Zweiten Weltkriegs ist eine
+   Rückkehr aus dem Exil möglich. Die für viele traumatische Erfahrung des
+   Exils wird von zahlreichen Emigranten in Gedichten bearbeitet.
+
+   1945
+
+   Mit der Flucht und Vertreibung verlieren etwa zehn Millionen Deutschen
+   aus den Ostgebieten ihre Heimat. Zahlreiche Lyriker mit Wurzeln in
+   Schlesien, Ostpreußen und Pommern verfassen Gedichte über ihre
+   Entwurzelung.
+
+   1950
+
+   Der belgische Unternehmer Gérard Blitz richtet auf Mallorca ein
+   Zeltdorf am Strand von Alcúdia ein und begründet damit den Club-Urlaub.
+
+   1955
+
+   Die Bundesrepublik wird souverän: Das Wirtschaftswunder ermöglicht
+   erstmals auch der Mittelschicht Reisen ins europäische Ausland, vor
+   allem nach Italien.
+
+   1961
+
+   Mit dem Bau der Berliner Mauer wird vollendet, was die DDR mit der
+   Abriegelung der Grenze zur BRD 1952 begonnen hat: die Reisefreiheit
+   wird abgeschafft.
+
+   1963
+
+   Der Jahresurlaub wird rechtsverbindlich. --- Josef Neckermann erweitert
+   die Angebotspalette seines Versandhauses um „Urlaubsreisen für
+   Jedermann“ und veröffentlicht 1963 den ersten Reisekatalog.
+
+   1968
+
+   Unter dem Eindruck der Studentenproteste verändert sich Deutschland:
+   Hippie-Reisende brechen in bewohnbaren VW-Bussen nach Indien auf.
+
+   1972
+
+   Mehrere europäische Eisenbahngesellschaften führen das Interrail-Ticket
+   ein. Bahnreisen ins europäische Ausland werden auch für Jugendliche und
+   junge Erwachsene bezahlbar.
+
+   1973
+
+   Tony und Maureen Wheeler veröffentlichen den ersten Reiseführer von
+   Lonely Planet. Der Backpacker wird zur Galionsfigur des
+   Individualtourismus. Gleichzeitig werden Flugtickets für die breite
+   Masse erschwinglich.
+
+   1991
+
+   Ryanair übernimmt das Konzept der Billigfluggesellschaft aus den USA
+   und macht das Fliegen zum selbstverständlichen Fortbewegungsmittel.
+
+Zur Entwicklung der Reiselyrik
+
+Die Reiselyrik des Mittelalters und der Frühen Neuzeit (800-1580)
+
+   780-1050: Frühmittelalter, 1050-1250: Hochmittelalter, 1250-1450:
+   Spätmittealter, 1450-1580: Frühe Neuzeit
+
+   Wohin reist man?
+     * Als fahrender Sänger in Mitteleuropa (deutschsprachige Länder,
+       Frankreich, Oberitalien,
+     * als geachteter Troubadour im Reich von Hof zu Hof oder – später –
+       von Stadt zu Stadt;
+     * als Kleriker und mittelloser Vagant von Universität zu Universität,
+       wie der lateinisch dichtende Archipoeta, die französischen
+       Goliarden oder François Villon;
+     * als Kreuzfahrer oder Pilger ins Heilige Land;
+     * als Gesandter und Diplomat im Dienst des Lehensherrn (Oswald von
+       Wolkenstein).
+
+   Wie reist man?
+     * Zu Fuß;
+     * zu Pferde;
+     * ins Heilige Land in der Regel mit dem Schiff.
+
+   Warum reist man?
+     * Um auf dem Kreuzzug Seligkeit oder Vergebung zu erlangen;
+     * um Frau Welt zu dienen und sich auf der Fahrt (aventiure) als
+       Ritter zu bewähren;
+     * um seine höfische Erziehung zu vervollkommnen;
+     * um in den Dienst einer hochgestellten Dame (frouwe) zu treten und
+       ihr Minnedienste zu leisten.
+
+   Welcher Dichter reist?
+     * Im Hochmittelalter: Walther von der Vogelweide, Konrad von Landeck,
+       Süßkind von Trimberg, Friedrich von Leiningen, Oswald von
+       Wolkenstein; als Kreuzzugslyriker: Friedrich von Hausen, Walther
+       von der Vogelweide, Albrecht von Johansdorf, Hartmann von Aue und
+       Reinmar der Alte;
+     * im Spätmittealter: Hans Sachs und die Meistersinger.
+
+   Wie dichtet man darüber?
+     * Im Hochmittelalter: auf Mittelhochdeutsch; streng formalisiert, mit
+       der höfischen Konvention spielend;
+     * in der Sangspruchdichtung oft in reimenden Viertaktern mit
+       klingenden Kadenzen;
+     * in der Minnelyrik oft in der Kanzonenform (zwei Stollen und ein
+       Abgesang);
+     * im Spätmittelalter: auf Frühneuhochdeutsch; als Meistersang, in der
+       Barform: Stollen-Stollen-Abgesang;
+     * in der Frühen Neuzeit: auf Frühneuhochdeutsch, im Mittellatein der
+       Humanisten (dann oft antike Formen aufgreifend).
+
+Die Reiselyrik des Barock (1600-1740)
+
+   1600-1650: Frühbarock, 1650–1700: Hochbarock, 1700–1740: Spätbarock,
+   1730–1760/70: Rokoko
+
+   Wohin reist man?
+     * Im Rahmen einer Gesandtschaftsreise von Hof zu Hof, auch in den
+       Osten (Baltikum, Polen, Russland);
+     * als Adeliger im Rahmen der Grand Tour oder Kavaliersreise nach
+       Venedig, Rom, Paris, Leiden oder London;
+     * aus dem Jammertal der Erde zu Gott.
+
+   Wie reist man?
+     * Mit dem Boot oder Schiff, zu Fuß und zu Pferde;
+     * in geselliger Herrenrunde;
+     * eingedenk des Todes (memento mori) und mit dem Bewusstsein der
+       eigenen Vergänglichkeit (vanitas), als mögliche Konsequenz: um den
+       Augenblick zu genießen (carpe diem).
+
+   Warum reist man?
+     * Zur Abrundung der höfischen Erziehung;
+     * im Auftrag des Fürsten an fremde Höfe;
+     * um den Folgen des Dreißigjährigen Krieges (1618-1648) zu entgehen.
+
+   Welcher Dichter reist?
+     * Andreas Gryphius, Georg Rudolf Weckherlin, Martin Opitz, Christian
+       Hofmann von Hoffmanswaldau, Paul Fleming, Philipp von Zesen.
+
+   Wie dichtet man darüber?
+     * Oft allegorisch, als von Stürmen gefährdete Lebensreise; in
+       Madrigalversen; oft auch in Form des Petrarca-Sonetts, dann oft in
+       Alexandrinern;
+     * eloquent und mit rhetorischem Raffinesse, mit Antithese, Oxymoron,
+       Accumulatio, Parallelismus.
+
+Reiselyrik von der Aufklärung zur Kunstepoche (1740-1832)
+
+   1740-1790: Empfindsamkeit, 1765-1785: Sturm und Drang, 1785-1832, Tod
+   Goethes: (Weimarer) Klassik
+
+   Wohin reist man?
+     * In die Schweiz, zum Genfer See oder zum Zürichsee;
+     * auf den Spuren Albrecht von Hallers über die Alpen, die in ihrer
+       gewaltigen Schönheit und Schroffheit wahrgenommen werden;
+     * nach Italien – ins gelobte Land der klassischen Kunst!
+
+   Wie reist man?
+     * Kurze Strecken zu Pferd; ansonsten zu Fuß (Johann Gottfried Seume:
+       Spaziergang nach Syrakus), die Vermögenden mit der Chaise, der
+       Kutsche (Goethe);
+     * in Gesellschaft gleichgesinnter Freunde – dann auch in milder
+       Stimmung zur Bootspartie
+
+   Warum reist man?
+     * Um in Italien auf die Spuren der Antike zu treffen, die
+       vermeintliche Freiheit des sinnlichen Südens zu erleben;
+     * um in klassischen Gefilden neu und besser dichten zu können!
+
+   Welcher Dichter reist?
+     * Empfindsamkeit: Goethe, die Grafen Stolberg, Friedrich von
+       Matthisson, Leopold Friedrich Günther von Goeckingk, Klopstock,
+       Ewald von Kleist
+     * Sturm und Drang: Goethe, Schiller, Christian Friedrich Daniel
+       Schubart, Gottfried August Bürger, Wilhelm Waiblinger;
+     * Klassik: Goethe, Schiller, Hölderlin;
+
+   Wie dichtet man darüber?
+     * Beliebte Formen sind Lied, Ode (sapphische, asklepiadische,
+       alkäische), in der Klassik auch die Elegie – jedenfalls oft antike
+       Versmaße ;
+     * die Gedichte wirken oft erhaben und raffiniert komponiert, weisen
+       mythologische Bezüge auf, machen dichterische Begeisterung zum
+       Thema!
+
+Die Reiselyrik der Romantik (1795-1848)
+
+   1795-1804: Frühromantik, 1804-1815: Hochromantik, 1815-1848:
+   Spätromantik
+
+   Wohin reist man?
+     * In die Ferne, nach der man sich in Sehnsucht verzehrt, wo man
+       endlich Ruhe finden will;
+     * in die Fremde, wo man allerdings anstatt der erhofften Freiheit vor
+       allem Heimweh verspürt;
+     * in deutschen Landen, zum Liebchen hin oder vom Liebchen weg;
+     * zuweilen auch in einen unbestimmten Süden.
+
+   Wie reist man?
+     * Man wandert (wie Gesellen auf der Walz oder wandernde Spielleute im
+       Mittelalter), im Waldesdunkel und auf Bergeshöhen, am Morgen und am
+       Abend, denn: „Das Wandern ist des …“;
+     * man fliegt, des Nachts (aber nur auf den Flügeln des Gesanges, in
+       Gedanken, im Traum);
+     * mit der Kutsche, vor allem nachts, vor allem schnell!
+
+   Warum reist man?
+     * Weil man muss (aus innerem Drang heraus, aus Wanderlust);
+     * um einem tiefen Schmerzen zu entfliehen;
+     * um sich zu befreien – von Zwang und Nöten;
+     * um seinem ersehnten Ziel nahezukommen.
+
+   Welcher Dichter reist?
+     * Wilhelm Müller, der Verfasser des zum Volkslied gewordenen „Der
+       Lindenbaum“
+     * Joseph von Eichendorff, der zahlreiche Wanderlieder schrieb –
+       andere Wanderlieder finden sich in „Des Knaben Wunderhorn“ von
+       Clemens Brentano und Achim von Arnim;
+     * Ludwig Uhland und die Dichter der Schwäbischen Romantik;
+     * Heinrich Heine, aber oft genug in ironischer Distanz zu den
+       eigentlichen Romantikern.
+
+   Wie dichtet man darüber?
+     * Vor allem in der Volksliedstrophe: Kreuzreim oder halber Kreuzreim,
+       dreihebige oder vierhebige Jamben, Quartette, oft mit
+       Füllungsfreiheit und deswegen nicht streng alternierend.
+
+Reiselyrik im langen 19. Jahrhundert: Vom Vormärz bis zum Realismus
+(1815-1890)
+
+   1815-1848: Biedermeier, 1830-1849: Vormärz, 1830-1835: Junges
+   Deutschland, 1850-1890: Bürgerlicher Realismus
+
+   Wohin reist man?
+     * Im Biedermeier: ins nächste Städtchen, in die Heimat – in Gedanken
+       – oder gar nicht;
+     * als Lyriker des Vormärz und des Jungen Deutschland: ins Exil, die
+       Schweiz (Herwegh), nach Frankreich (Hoffmann von Fallersleben) oder
+       nach England (Freiligrath), wo man festsitzt, von Heimweh geplagt
+       und voller Sehnsucht nach dem Vaterland, das seine Dichter
+       verfolgt; gedanklich auch in die Vereinigten Staaten von Amerika;
+     * im Realismus mit besonderer Vorliebe in das wirkliche
+       (zeitgenössische) Italien (Heyse, Meyer) und nach England
+       (Fontane);
+
+   Wie reist man?
+     * Zu Fuß oder zu Pferde, teilweise auch schon mit dem Dampfschiff
+       oder der Eisenbahn;
+     * als politischer Lyriker: mit geringem Gepäck und in Gesellschaft
+       Gleichgesinnter.
+
+   Warum reist man?
+     * Im Vormärz: der Freiheit willen, um der Verhaftung durch die
+       Reaktion und den Zensurbestimmungen des Fürsten Metternich zu
+       entgehen;
+     * im Realismus: der Erfahrung willen, um einen leisen Schmerz zu
+       lindern, um milde Schönheit zu finden.
+
+   Welcher Dichter reist?
+     * Bürgerlicher Realismus: Theodor Storm, Friedrich Hebbel, Conrad
+       Ferdinand Meyer, Paul Heyse, Theodor Fontane;
+     * Biedermeier: Annette von Droste-Hülshoff, Franz Grillparzer,
+       Nikolaus Lenau, Eduard Mörike, Wilhelm Müller (der
+       „Griechen-Müller“), Friedrich Rückert, August von Platen;
+     * Junges Deutschland und Vormärz: Georg Herwegh, Ferdinand von
+       Freiligrath, Georg Weerth, Heinrich Heine, August Heinrich Hoffmann
+       von Fallersleben.
+
+   Wie dichtet man darüber?
+     * Oft in traditionellen Formen, deren Repertoire durch italienische
+       und französische Formen, gelegentlich sogar durch persische
+       Einflüsse bereichert wird; Heine im unverkennbar ironischen
+       Heine-Ton, oft im (halben) Kreuzreim und mit Füllungsfreiheit.
+
+Reiselyrik der Jahrhundertwende und der ausgehenden Kaiserzeit (1890-1914)
+
+   Impressionismus, Décadence und Fin de Siècle, Symbolismus,
+   Naturalismus, Expressionismus
+
+   Wohin reist man?
+     * In der Dekadenzliteratur und im Symbolismus: in fantastische Räume,
+       vor allem: in die künstlichen, zeit- und ortlosen Räume ästhetisch
+       gestalteter Dichtung, in einen mythischen Süden oder ins Jenseits,
+       wo Zeit und Raum aufgehoben sind;
+     * im Expressionismus: Im industriell geprägten, großstädtischen Raum,
+       wo Dampfmaschine und Elektrizität den Takt vorgeben, dann aber
+       flugs in unbestimmte Weiten, in den Himmel, ins All;
+     * im Naturalismus und im Impressionismus: in den städtischen Nahraum,
+       in den außerstädtischen Erholungsraum, aufs Wasser.
+
+   Wie reist man?
+     * In der Dekadenzlliteratur, im Naturalismus und im Symbolismus: Im
+       Geiste – oder: als Dandy schlendernd und betrachtend;
+     * im Expressionismus: schnell bis rasend, mit moderner Technik: mit
+       dem Automobil, mit der Bahn.
+
+   Warum reist man?
+     * In der Dekadenzliteratur und im Symbolismus: um dem Lebensüberdruss
+       (taedium vitae) zu besiegen, um die reine Dichtung (poésie pure) zu
+       entdecken, um der Kunst willen (l’art pur l’art), um der technisch
+       gewordenen Welt zu entfliehen;
+     * im Expressionismus: eins zu werden mit der Maschine, den Rausch der
+       Geschwindigkeit zu erleben.
+
+   Welcher Dichter reist?
+     * Symbolismus / Décadence: Hugo von Hofmannsthal, Rainer Maria Rilke,
+       Stefan George, Josef Weinheber;
+     * Naturalismus / Impressionismus: Otto Julius Bierbaum, Arno Holz,
+       August Stramm;
+     * Expressionismus: Georg Heym, Georg Trakl, Ernst Stadler, Gottfried
+       Benn, Alfred Wolfenstein, Max Dauthendey, Richard Dehmel, Jakob von
+       Hoddis, Klabund, Alfred Lichtenstein, Else Lasker-Schüler.
+
+   Wie dichtet man darüber?
+     * In der Dekadenzliteratur, im Symbolismus, Impressionismus: erhaben
+       im Ausdruck, klanglich ausgefeilt, ästhetisch wohlgefällig,
+       manchmal in freien Rhythmen (Rilke), dabei aber geplant und
+       erlesen, beschwörend;
+     * im Naturalismus und im Expressionismus: oft in freien Rhythmen, mit
+       kühnen, assoziativ zusammengestellten Sprungtropen (Metapher,
+       Personifikation), mit Freude an Hyperbel, Neologismus und
+       Superlativ, kontrastreich, ekstatisch im Ton (Emphase, Exclamatio).
+
+Reiselyrik von der Weimarer bis zur Bonner Republik (1919-1960)
+
+   1910-1933: Neue Sachlichkeit, 1933-1945: Lyrik des Exils, 1933-1945:
+   Lyrik des Dritten Reichs, 1945-1949: Trümmerliteratur, 1949-1960: Lyrik
+   der Wirtschaftswunderzeit
+
+   Wohin reist man?
+     * Bis 1933: durch die Welt, mit den nun entstehenden Reisebüros als
+       Tourist, den Baedeker in der Hand; aber auch in die Umgebung der
+       Großstädte, bei Landpartien und in der Sommerfrische, erstmals auch
+       im Urlaub;
+     * ab 1933 vor allem ins Exil – in die USA (Zuckmayer, Kaléko,
+       Brecht), nach Neuseeland (Wolfskehl), nach Moskau (Becher);
+     * ab 1945: Gar nicht, es sei denn, man kommt aus dem Exil zurück…!
+     * Ab 1949: Währungsreform, Wirtschaftswunder – Italien lockt nun auch
+       den kleinen Mann!
+
+   Wie reist man?
+     * In den Zwanzigern: selten mit dem Auto, öfter mit dem Zug;
+     * die Exilanten: mit dem Zug und mit dem Schiff, in Einzelfällen
+       bereits mit dem Flugzeug;
+     * in den Fünfzigern: Mit dem Volkswagen, auch noch mit dem Zug.
+
+   Warum reist man?
+     * In den Zwanzigern: um die Welt zu entdecken, um sich neu zu
+       erfinden;
+     * 1933-1945: Um zu überleben, aus Erschütterung über den Aufstieg der
+       Nationalsozialisten;
+     * ab 1949: Um zu vergessen, um das Leben zu genießen, um Fremdheit
+       touristisch zu konsumieren;
+
+   Welcher Dichter reist?
+     * In den Zwanzigern und Dreißigern: Benn, Tucholsky, Kästner, Hermann
+       Hesse;
+     * als Exilanten: Brecht, Berthold Viertel, Mascha Kaléko, Carl
+       Zuckmayer, Rose Ausländer, Hilde Domin;
+     * nach 1950: Ingeborg Bachmann, Ilse Aichinger, Günter Eich, Hans
+       Magnus Enzensberger;
+
+   Wie dichtet man darüber?
+     * In den Zwanzigern: ironisch, im Ton von Chanson und Kabarett, im
+       Zwiegespräch mit der Tradition;
+     * 1933-1945: Anklagend und wehmütig, in der Fremde heimwehkrank,
+       schonungslos offen;
+     * 1950: Skeptisch gegenüber dem Reise-Unwesen und dem reisenden Ich,
+       teils die Tradition aufgreifend, teils in völlig neuem Dichten
+       zerstörend (freier Vers, Montage, Chiffren).
+
+Reiselyrik der Postmoderne und der Berliner Republik (1960-Gegenwart)
+
+   1949-1990: Lyrik der Bonner Republik, 1949-1989: Lyrik der DDR,
+   1990-Gegenwart: Gegenwartslyrik
+
+   Wohin reist man?
+     * Eigentlich überall hin (außer DDR-Lyriker, die gedanklich in
+       innerer Freiheit reisen); der Lyriker begibt sich in verschiedene
+       Rollen, wird Tourist, Flugreisender, Autofahrer, ICE-Passagier;
+     * nach wie vor beliebte Ziele sind Griechenland und Italien, wo sich
+       nun Alltag und Mythos vermischen.
+
+   Wie reist man?
+     * Mit allen zur Verfügung stehenden Mitteln der modernen
+       Infrastruktur;
+     * schreibend, beobachtend, protokollierend, fotografierend, mit neuen
+       Medien dokumentierend;
+     * sich selbst als Reisender reflektierend und die Reiseindustrie
+       kritisierend;
+
+   Warum reist man?
+     * Um sich selbst zu finden oder zu verlieren;
+     * um auf den Spuren der Tradition Neues zu entdecken;
+     * um der Fremde zu begegnen und das Eigene neu zu definieren.
+
+   Welcher Dichter reist?
+     * Fünfziger und sechziger Jahre: Wilhelm Lehmann, Johannes Bobrowski,
+       Werner Bergengruen, Paul Celan, Ingeborg Bachmann;
+     * Siebziger und achtziger Jahre: Günter Kunert, Rolf Dieter
+       Brinkmann, Erich Fried, Rudolf Hagelstange, Karl Krolow;
+     * Neunziger und Zweitausender: Volker Braun, Walter Helmut Fritz,
+       Hilde Domin, Durs Grünbein, Ulla Hahn, Jan Wagner, Kerstin Hensel
+       u. a.
+
+   Wie dichtet man darüber?
+     * In freien Formen („Anything goes“): freier Vers, Montage,
+       assoziative Verbindung von Bildreihen, kühne Metaphern und
+       Chiffren, privatsprachliche Elemente, Zitate und versteckte
+       Traditionsbezüge, Einbeziehung typographischer Möglichkeiten,
+       zuweilen konsequente Kleinschreibung und Verzicht auf Satzzeichen.
+
+Glossar zur Reiselyrik
+
+   Das folgende Glossar geht von den Erschließungsfragen zur Reiselyrik
+   aus und ist nach Motivgruppen gegliedert. Jeder Eintrag versucht
+   (allerdings nicht in aller Konsequenz) weitere Einzelmotive zu
+   unterscheiden und mit Auszügen zu belegen. Wo nötig, sind
+   kulturhistorische Erläuterungen eingestreut.
+
+Abschiedslyrik: Gedichte von Abschied und Aufbruch
+
+   Der Abschied von Geliebten gehört zu den häufigsten Motiven der
+   Liebeslyrik seit dem mittelalterlichen Taglied. Auch in der Reiselyrik
+   sind Abschiedsgedichte nicht selten – sie widmen sich dem Abschied von
+   der Heimat, dem Dorf, dem Elternhaus, der Familie oder einem geliebten
+   Menschen. Verabschieden kann man sich außerdem – wie im Volkslied
+   Innsbruck, ich muss dich lassen aus der Mitte des 16. Jahrhunderts –
+   von einer Stadt: „Innsbruck, ich muss dich lassen, / ich fahr dahin
+   mein’ Straßen, / in fremde Land’ dahin.“ Paul Flemings 1635-1636 in
+   Reval entstandenes Gedicht Als einer von seiner Liebsten verreisete
+   weist typische Elemente eines Abschiedsgedichts auf. Auf Hinweise zu
+   den Gründen des Abschieds folgen Klagen, die sich aus der Trennung
+   ergeben; das Übergeben eines Erinnerungsstücks oder Pfands schließt die
+   Hoffnung auf baldiges Wiedersehen ein. Nicht selten beschwören
+   Abschiedsgedichte auch die fortdauernde Gegenwart des Verlassenen, so
+   etwa in Eichendorffs Abschied von 1810, wo die Erfahrung des Waldes
+   nachwirkt, wenn der Wanderer in die die Zivilisation zurückkehrt: „Bald
+   werd ich dich verlassen, / Fremd in der Fremde gehn, / Auf buntbewegten
+   Gassen / Des Lebens Schauspiel sehn.“ Auch in Eichendorffs Der Jäger
+   Abschied sagt das lyrische Ich dem Wald Lebewohl: „Lebe wohl, / Lebe
+   wohl, du schöner Wald!“. Ganz anders verhält es sich mit dem lyrischen
+   Ich in Wilhelm Müllers Gute Nacht (1823), das bereits in den ersten
+   beiden Zeilen das Verweilen zur bloßen Station erklärt: „Fremd bin ich
+   eingezogen, / Fremd zieh’ ich wieder aus.“ Ein „Tüchlein“ winkt in
+   Luise Hensels Scheidegruß dem Wandernden einen Abschiedsgruß zu, dem
+   daraufhin der Abschied erst recht schwer wird: „Oh, wie bitter ist das
+   Wandern, / Wenn eine Seele rückwärts zieht, / Und ein liebes Auge lange
+   / Weinend noch herüber sieht.“ Theodor Kramer beschreibt in Abschied
+   von einem ausreisenden Freund die Gefühlslage des Dableibenden: Der
+   Sprecher hat Hände „wie aus Watte“, er ist „stumm“, „wie erschlagen“
+   und „wie betäubt“, die Gedanken kreisen um den Fehlenden, der Appetit
+   bleibt aus. Anderen Abreisenden vergeht der Trennungsschmerz jedoch
+   rasch, zukünftiges Ankommen überstrahlt das Leiden am Abschied. Stefan
+   George eröffnet sein Gedicht Verjährte Fahrten (1891) mit einer solchen
+   Überwindung des Abschiedswehs: „Wir jagen über weisse steppen / Der
+   trennung weh verschwand im nu / die raschen räder die uns schleppen /
+   Führen ja dem frühling zu.“ Ein mögliches Thema der Abschiedslyrik sind
+   auch Reisevorbereitungen. Selten handelt es sich dabei um praktische
+   Hinweise, was mitzunehmen und was dazulassen ist. Meist sind es
+   Hinweise, die sich auf die Haltung zum Abschied auswirken. Dazu gehört
+   der Katalog von Anweisungen, den Ingeborg Bachmann in einem ihrer
+   Lieder von einer Insel (1956) formuliert: den Hut mit den eben
+   gesammelten Muscheln, den für die Liebe gedeckten Tisch und die Neige
+   des Weins sollen ins Meer geworfen werden, ehe man „mit wehendem Haar“
+   abreist. In Vorbereitung einer Reise (1956) empfiehlt Karl Krolow, sich
+   seinen eigenen Abschied zu bereiten, indem man „das Gesicht des
+   Kalenders verhängt“ und sich von einem Handschuh zuwinken lässt. Anders
+   als der freiwillig Abschied Nehmende wird der Exilant zur Flucht
+   genötigt und verliert sein Heimatland – selbst dann, wenn eine Rückkehr
+   wahrscheinlich ist. Der Auswanderer in Nikolaus Lenaus Abschied mit dem
+   Untertitel Lied eines Auswandernden (1832) verbindet die Kritik am
+   Untertanengeist der verlassenen Heimat mit der Hoffnung, am
+   „blütenreichen Strand“ der neuen Heimat die „Götterflamme“ der Freiheit
+   zu finden. In Eichendorffs 1850 entstandenem Fragment Der Auswanderer
+   ist es ein letzter Stoß ins Waldhorn, des Leitinstruments der Romantik,
+   der den Abschiedsschmerz auslöst: „Und als die alte Welt versank, /
+   nahm ich mein Waldhorn und blies Ade, / Das gab einmal einen prächtigen
+   Klang, / Mir aber tats doch im Herzen weh.“
+
+Lyrische Autoreisen
+
+   Die Erfindung des Automobils durch Gottlieb Daimler und Carl Benz
+   (Benz’ „Patent-Motorwagen Nummer 1“, 1886) ermöglicht dem
+   Individualreisenden eine betrachtende Reisetätigkeit im Sitzen. Otto
+   Julius Bierbaum verfasst 1903 Eine empfindsame Reise im Automobil, in
+   dem er seine Autofahrt von Prag über Wien nach Italien schildert.
+   Häufig fahren die Autos in den Zehnerjahren noch auf holprigen
+   Landstraßen und mit offenem Verdeck, was naturgemäß gewisse
+   Vorkehrungen mit sich bringt. Nicht ohne Spott schildert Detlev von
+   Liliencron in Ihre Exzellenz die alte Gräfin oben auf der Freitreppe
+   (1909), wie die jungen Komtessen ein Automobil besteigen: „Das
+   Automobil ist vorgefahren. / Und in den geschmacklosen, schrecklichen
+   Schrein / Steigen vier junge Komtessen hinein. / Alle vermummt wie beim
+   Femgericht. / Und gegen Insekten, Staub, Regen und Licht / Tragen sie
+   schwarze Brillen sogar, / Und sind jetzt all ihrer Schönheit bar.“
+   Geschwindigkeit ist in der Frühzeit des Automobils noch unmittelbar
+   erlebbar, was Oskar Kanehls Auto (1914) mit seinen expressionistisch
+   überspitzten Bildern und Lautmalereien deutlich macht: „Wir fressen das
+   Land. Wie Windswut / fliegt es durch unsern Rachen. / Unsre Köpfe
+   reißen vom Leib. / Uiii uiii / bellt die Sirene.“ Auch das lyrische Ich
+   in Martina Wieds Bewegung (1919) erlebt den Rausch der Geschwindigkeit
+   im scheinbaren Vorbeigleiten der Landschaft: „im Stechschritt schreiten
+   Telegraphenstangen“; im Kontrast dazu steht die Geruhsamkeit eines
+   Schäfers mit seiner Herde, den die Sprecherin als Folge einer Panne
+   länger betrachtet. Die Autofahrt erlaubt es jedoch auch, ungehörige
+   Gedanken zuzulassen, während das betrachtende Schauen an Gewicht
+   verliert. In Ausflug von Joachim Ringelnatz (1928) heißt es: „Im
+   Achtzigkilometertempo prickelten / Uns Phantasien über Tod und Glück, /
+   Und in dem Staub, den wir dabei entwickelten, / Blieb rein Geschautes
+   jämmerlich zurück.“ Bis zur massenhaften Produktion von Autos,
+   begünstigt durch die von Ford ab 1913 eingesetzte Fließbandfertigung,
+   bleibt der eigene Kraftwagen als exklusives Beförderungsmittel höheren
+   sozialen Schichten vorbehalten, ein Umstand, den Bertolt Brecht in
+   Fahrend in einem bequemen Wagen (1937) reflektiert: den „zerlumpten
+   Menschen“ will die Fahrgemeinschaft nicht mitnehmen. Seit den
+   Wohlstandsjahren der Fünfziger gehören Autos zum Straßenbild, Gedichte
+   über Autofahrten werden häufiger. Das Auto wird insbesondere im
+   automobilbegeisterten Deutschland zum Symbol des Wohlstands und der
+   persönlichen Freiheit – erstmals sind Familienausflüge in die weitere
+   Umgebung möglich: Während in ganzen Jahrhunderten vorher Reisegedichte
+   emphatisch aufgeladen werden, entzaubert Erich Kästners Im Auto über
+   Land (1958) den automobilen Familienausflug als Verlagerung
+   alltäglicher Geschäfte in die freie Natur, „[d]ividiert durch viel
+   Benzin“. Das Auto behält jedoch die dominierende Stellung im
+   Individualverkehr, so sehr, dass sich in den Siebzigern auch Sub- und
+   Gegenkulturen des Autos bedienen, um der Enge der Republik in den Süden
+   oder Osten zu entfliehen. Dies belegt Wolf Wondratscheks In den Autos
+   (1976): „Wir waren ruhig, / hockten in den alten Autos, / drehten am
+   Radio / und suchten die Straße / nach Süden“. Nun wird es auch möglich,
+   sich beim Reisen musikalisch begleiten zu lassen, wie das lyrische Ich
+   aus dem anspielungsreichen Gedicht Lieder eines fahrenden Gesellen
+   (1977) von Friedrich Christian Delius zeigt: „Wir fahren Im Radio
+   Lieder / Von Mahler Nach Braunschweig“. Ähnlich wie im Zug ist auch im
+   eigenen Wagen die Umwelt ausgeschlossen, wandelt sich zum Stummfilm,
+   der aus der schützenden Hülle des Automobils heraus wahrgenommen wird.
+   Dieses Motiv greift Nora BossongsAußerhalb (2014) auf: „Zurückgekrümmt
+   in meinem Sitz, leg ich / das Ohr ans Fensterglas: kein Umland hörbar.“
+   In Günter Kunerts Unterwegs mit M. schafft die Schutzhülle des Wagens
+   einen Raum für Geborgenheit und Sorglosigkeit: Auch „geborstene Wespen
+   am Glas“ und „platzender Regen“ können dem Reisepaar nichts anhaben. Im
+   Gegensatz zur Geschwindigkeitsbegeisterung, die Gedichte aus der
+   Frühzeit des Automobils prägt, ist es gerade das lange und langsame
+   Fahren durch monotone Landschaften, das den Blick trübt und Melancholie
+   heraufbeschwört. Geradezu klaustrophobisch wirkt Jan Wagners
+   Reiseerlebnis in Unterwegs im Nebel (2001): Nebel schränkt den Blick
+   ein, der sich nun ganz auf das Straßengeschehen verengt. Ähnlich zäh
+   wirkt die Fahrt zum Flughafen in Marion Poschmanns der Weg zum
+   Flughafen (2010): „Vorübergezogen // über die Frontscheiben mühen sich
+   / Wälder.“ In Frank Schmitters gegen abend gerieten wir (2013) löst ein
+   Stau eine Rückbesinnung auf die „karawane“ und die ursprünglichen
+   Wanderbewegungen der Siedler aus. Das Gedankenexperiment einer
+   Autofahrt mit Goethe vollzieht Jürgen Theobaldy in Abenteuer mit
+   Dichtung (1973): Der Dichterfürst wird zum Reisegefährten im Geist des
+   Sturm und Drang, trommelt „auf das Armaturenbrett“ und bricht „den
+   Scheibenwischer ab“.
+
+Bootspartien: Vom Zürchersee zu Charons Nachen
+
+   Im Gegensatz zu Gedichten über ausgedehnte Meerfahrten befassen sich
+   lyrische Bootsfahrten oft eher mit dem Verweilen auf dem See als mit
+   der Reise an sich. Insbesondere in der Empfindsamkeit wird die im
+   Freundeskreis durchgeführte Bootspartie zur Feier des
+   Freundschaftsbundes in der Natur. Das bekannteste Beispiel ist
+   Friedrich Gottlieb Klopstocks Der Zürchersee (1750), der die gesellige
+   Bootspartie junger Zürcher auf dem Zürichsee schildert. In einer auf
+   den „15. Junius 1775“ datierten Bootsfahrt auf dem Zürchersee fasst
+   Goethe beliebte Motive der lyrischen Bootsfahrt zusammen: Den mit dem
+   Wellengang zusammenfallenden „Rudertakt“, der auch das Metrum
+   beherrscht, und das Motiv der Spiegelung der Welt im Wasser: „Auf der
+   Welle blinken / Tausend schwebende Sterne.“ Friedrich Leopold Graf zu
+   Stolberg nimmt in seinem von Schubert vertonten Lied auf dem Wasser zu
+   singen eine Bootsfahrt zum Anlass, in der Landschaft des Sees seine
+   Meditation über die Vergänglichkeit auszuführen: „Ach, es entschwindet
+   mit thauigem Flügel / Mir auf den wiegenden Wellen die Zeit. / Morgen
+   entschwinde mit schimmerndem Flügel / Wieder wie gestern und heute die
+   Zeit, / Bis ich auf höherem strahlenden Flügel / Selber entschwinde der
+   wechselnden Zeit.“ Zuweilen wird aus der heiteren Bootspartie eine
+   Fahrt in Charons Nachen: Bootsfahrten, die den Sprecher in der
+   Dunkelheit auf einen See hinausführen, lassen Todesgedanken aufkommen.
+   In Conrad Ferdinand Meyers melancholischem Gedicht Im Spätboot (1882)
+   sind die Anspielungen auf den Charon-Mythos kaum zu überlesen: „Nur der
+   Steurer noch, der wacht und steht! / Nur der Wind, der mir im Haare
+   weht!“. Die einsame Bootsfahrt zeigt die Ferne aller Gewissheiten
+   ebenso auf die die Unentrinnbarkeit des Todes, ein Hintreiben auf das
+   unbekannte Ziel – wie in Christian Morgensterns Auf dem Strome (1897):
+   „Ja, ich reise, ich reise, / weiß selbst nicht, wohin…“. Unverkennbar
+   ist das Charon-Motiv auch in Günter Eichs Im Nebel ertastet der
+   Uferrand (1950), wo der Sprecher sich an Charons „Schattenhand“ in den
+   „Nachen“ führen und zum „Nebelland“ übersetzen lässt. Auch Günter
+   Kunert lässt das lyrische Ich in Unterwegs mit Charon (1990) in
+   „immerhin / unbestimmter Gegend“ ankommen, nachdem er die Reise nicht
+   im Nachen, sondern „in stinkender Kiste“ vollzieht, die er bis zuletzt
+   nicht verlässt: im Sarg?
+
+Erlesene Reisen: Bildungsreisen
+
+   Die Bildungsreise beginnt als Kavaliersreise und soll dem Nachwuchs des
+   europäischen Adels die Weltläufigkeit verschaffen, die er auf dem
+   schlüpfrigen Parkett der Höfe benötigt. Im Gefolge des Adels macht sich
+   gegen Ende des 18. Jahrhundert auch der bürgerliche Geldadel auf, die
+   Grand Tour zu absolvieren. Es geht auch um Distinktion: Wer reist, gilt
+   etwas. Dabei reist der Bildungsreisende selten unvorbereitet, hat
+   bereits etwas gelesen, weiß, was sehenswürdig ist und was nicht. Er
+   kennt die Texte anderer Reisender, forscht vor Ort ihren Spuren nach.
+   Er kennt die Geschichte des Orts, kennt ihre literarische Bedeutung.
+   Das Reisegedicht des Bildungsreisenden bietet, teils unverhüllt, teils
+   versteckt, kanonisches Bildungswissen aus. Der Leser vollzieht dieses
+   Spiel mit Anspielungen und Verweisen nach und macht sich zum Komplizen
+   im gelehrten Reisespiel, bei dem Erwartungen bedient werden. August von
+   Platen muss in Venedig „Palladios Tempel“ ebenso erwähnen wie „Venedigs
+   Löwen“, den Dogenpalast mit der Seufzerbrücke und schließlich den
+   Markusplatz, damit der reiseliteraturkundige Leser sich an Canalettos
+   Veduten und ihre Reproduktionen erinnert. Wer nicht über derlei
+   visuelle Erfahrung verfügt und zudem kein einschlägiges
+   Hintergrundwissen vorweisen kann, also kein Mitwissender ist, dem
+   verschließt sich der Text. Auch fremdsprachige Zitate sind in
+   Verbindung mit historischen Anspielungen geeignete Pathosformeln. In
+   Amsterdam (1844) zitiert Louise von Plönnies sowohl die Rolle
+   Amsterdams im Ostindienhandel als auch den französischen Wahlspruch des
+   Hauses Oranien: „Je maintiendrai.“ In der postmodernen Lyrik, die das
+   Verweisspiel mit Zitaten auf den Gipfel treibt, trifft dies ebenso zu.
+   Ingeborg Bachmanns Böhmen liegt am Meer bedient sich ausführlicher
+   Shakespeare-Assoziationen; allein der Titel ruft Shakespeare’s A
+   Winter’s Tale auf: „Bohemia. A desert country near the sea.“ Die
+   Fußnoten sind überflüssig, weil Shakespeare beim gebildeten Publikum in
+   Gänze vorausgesetzt wird. Ein Beispiel ist der folgende Vers: „Wollt
+   ihr nicht böhmisch sein, Illyrer, Veroneser, und Venezianer alle.“
+   Illyrien ist Schauplatz von Twelfth Night, or What You Will; in Verona
+   spielt Romeo and Juliet; in Venedig The Tragedy of Othello, the Moor of
+   Venice. Zuweilen dienen historische und mythologische Kontexte auch als
+   Folie, durch die man die Gegenwart anders wahrzunehmen vermag. Heiner
+   Müllers Fahrt nach Plovdiv bemüht den thrakischen Urpoeten Orpheus und
+   Makedonen Alexander dem Großen, um das kommunistische Bulgarien der
+   Gegenwart auszuleuchten. Ein ähnliches Verfahren wählt Uta Regoli in
+   Über die Alpen: Die problemlose Alpenpassage „im Michelangelo-Express /
+   mit Lufthansa und Orion“ wird mit „Ötzi“, „Hannibal“ und „Goethe“ in
+   eine Reihe bedeutender Alpenwanderer gestellt; der Vergleich ist
+   allerdings nur über Kontexte möglich. Im Gegensatz zum emphatischen
+   Aufrufen des Bildungswissens, das im 19. Jahrhundert noch
+   Gemeinsamkeiten mit dem Leser stiftet, wird der bekannte Name in der
+   Lyrik des neuen Jahrtausends oft in seiner Bedeutungslosigkeit
+   vorgeführt. In Dieter Hofmanns Paris-Gedicht Auf dem Eiffelturm werden
+   „Invalidendom, / Montmarte, Sacre Coeur, / Arc de Triomphe“ mit reinen
+   Zweckbauten als „graues Knöchenspiel“ zusammengefasst. In Zeiten des
+   Kanonverfalls funktioniert das Spiel mit Referenzen ohnehin nicht mehr.
+   Das Bildungsspiel verlagert sich deswegen: Nun werden Bilder
+   aufgerufen, die in den Leitmedien dominieren, um sie als Bilder zu
+   entlarven – oder die Anspielungen werden so abwegig, dass der Leser
+   auch vermeintliches Bildungswissen als bloße Faktenhuberei begreift.
+   Ein Beispiel für das erste Verfahren ist Rike Schefflers
+   kolibri/hamburg (2013), wo bekannte Ansichten Hamburgs aufgerufen
+   werden, um darzulegen, dass Bilder nicht ausreichen („schick mir ein
+   stück von den landungsbrücken, / einen fingerabdruck von den gelben
+   containern“). Das zweite Verfahren illustriert bildungsreise von Hans
+   Magnus Enzensberger (1957). Hier werden Kuriositäten zusammengestellt,
+   bis der Sprecher die Welt mit einem ironischen Ausruf anspricht: „wie
+   belehrend belehrend dich zu durcheilen“. Deutlich wird schon vorher,
+   dass keiner der genannten Sachverhalte zur Bildung beiträgt.
+
+Reisen in vollen Zügen: Eisenbahngedichte
+
+   Mit der Inbetriebnahme der Ludwigseisenbahn zwischen Nürnberg und Führt
+   am 7. Dezember 1835 beginnt in Deutschland das Eisenbahnzeitalter.
+   Diese neue Möglichkeit des Reisens findet auch in der Lyrik einen
+   lebendigen Nachhall. Louise von Plönnies schildert in Auf der Eisenbahn
+   (1844) die Begeisterung, die das neuartige Gefährt auszulösen vermag:
+   „Rascher Blitz, der mich trägt / Pfeilschnell, von der Glut bewegt, /
+   Sausend durch des Tages Pracht, / Brausend durch die dunkle Nacht“.
+   Allerdings stößt die Eisenbahn jedoch auf erheblichen Widerstand.
+   Justinus Kerner beschreibt in seinem Gedicht Im Eisenbahnhofe (1852)
+   die Lokomotive zunächst mit apokalyptischer Metaphorik als
+   „[d]ampfschnaubend Tier“, eher er prophetisch den Untergang der
+   herkömmlichen Reisewelt beschwört. Noch in Detlev von Liliencrons Der
+   Blitzzug (1903) sind die Zweifel am Geschwindigkeitswahn der Eisenbahn
+   spürbar: Er führt dort zu einem Eisenbahnunglück, das durch eine
+   lautmalerische Wiedergabe der Signaltöne vorbereitet wird. In den
+   Trümmern findet sich (und so endet der Text), „ein Püppchen, im
+   Bettchen verbrannt, / Dem war ein Eselchen vorgespannt.“ Die Wirkungen
+   des Eisenbahnfahrens reichen bis in die Poetik. Dem zum Volkslied
+   gewordenen Wandergedicht sagt 1871 August Heinrich Hoffmann von
+   Fallerslebenin Die Wanderlieder voraus, es werde an der Eisenbahn
+   zugrunde gehen: „Es hat die Allgewalt der Eisenbahn / Zerstört auch
+   dieses Stück der Poesie.“ Sobald Lyriker selbst mit der Eisenbahn
+   fahren, ergeben sich zwei Perspektiven: der Blick aus dem Fenster und
+   das Studium der Mitreisenden. Ein Beispiel für ersteres ist Ernst
+   Stadlers expressionistisches Gedicht Fahrt über die Kölner Rheinbrücke
+   bei Nacht (1913), das neben dem Rattern der Räder auf der Rheinbrücke
+   auch die Bilderflut beim Blick aus dem fahrenden Zug thematisiert. Auch
+   in Hans Carossas Der Eisenbahnwagen rollt (1912) fällt der Blick aus
+   dem Guckloch im „weißen Reif des Fensters“ auf den Fluss, in dem ein
+   Fährmann wie der antike Totenschiffer Charon sein Boot lenkt. Der Blick
+   ins Innere der Bahn findet sich in Gottfried Benns D-Zug (1912): Eine
+   von der Ostsee zurückkehrende Frau wird vom Sprecher exotisch
+   aufgeladen („Malaiengelb“) und erotisiert („Eine Frau ist etwas für
+   eine Nacht.“) Im Expressionismus sind die Zweifel vorheriger Epochen an
+   der Technik längst im Rausch der Geschwindigkeit untergegangen. Das
+   Motiv der Geschwindigkeit des Zuges, die sich auf die Verrichtungen im
+   Zuginneren ausdehnt, findet sich in Lutz Rathenows Deutschland im ICE
+   (1998): „Ein Blitz. / Blitzschnell Sonne. Deutschland im ICE. / Eine
+   Sorte Bier ging schon aus, das Eis / Wärmt die Zunge. Die Servierer
+   eilen. / Bewegung ist alles.“ In Georg Heyms Vorortbahnhof (1910) wird
+   Ankunft und Abfahrt eines Zugs als geradezu technischer Vorgang im
+   Massenzeitalter geschildert, zugleich aber ins Mythische überhöht: „Der
+   Zug fährt aus, im Bauch die Legionen“. Auch in Ernst Stadlers Bahnhöfe
+   wird der Bahnhof mit dem in ihm haltenden Zug ins Gigantische
+   gesteigert, die Bahn wird zum vorsintflutlichen Raubtier: „Wie
+   Lichtoasen ruhen in der stählernen Hut die geschwungenen Hallen / Und
+   warten. Und dann sind sie mit einem Mal von Abenteuer überfallen, / Und
+   alle erzne Kraft ist in ihren riesigen Leib verstaut, / Und der wilde
+   Atem der Maschine, die wie ein Tier auf der Flucht stille steht und um
+   sich schaut“. Im rasenden Zug ist die die dichterische Erregung
+   möglich, die der Rhapsode braucht, um intensiv zu schreiben.
+   Geschwindigkeit befreit, so wie in Alfred Wolfensteins Fahrt (1914):
+   „Wie gutes Blut zerschmilzt der Zug was uns umstellt, / Gebirge gleiten
+   / in Seen… ins Meer der Schnelligkeiten.“ Zuletzt wird aus der Fahrt im
+   D-Zug eine kosmische Reise, die lange nach dem Halt nicht abklingt und
+   in der Seele der Passagiere nachwirkt. Nicht selten spiegelt sich die
+   Geschwindigkeit der Eisenbahnfahrt in der assoziativen Reihung des
+   sprachlichen Materials, so zum Beispiel in Günter Kunerts Lass uns
+   reisen (1965): „Berg und Seen. Vergangenheit / Und Gegenwart. Wald und
+   Sumpf. / Träume und Leben. Unaufhaltsam / Ziehen Sie vorbei.“ Dasselbe
+   Verfahren wendet Nicolas Born in Im Zug Athen – Patras (1978) an:
+   „Kahle Felsschädel, helle Augen / hell der Mund. / Alter Wortboden,
+   wilder Rhododendron / auf der Höhe / fruchtbar fruchtbar das Meer, / –
+   Licht / scharfe elektrische Küsten.“ In Wulf Kirstens vorübergefahren
+   (2001) erscheint die Landschaft wie „auf eine Filmrolle gezogen“, die
+   Einzelbilder verlieren beim Blick aus dem Zugfenster an Bedeutung. Die
+   Rhythmisierung der Bahnreise durch Ansage, Halt und Wiederanfahrt ist
+   ein oft gebrauchtes Strukturmittel, ebenso wie das Einbeziehen von
+   Stationen auf der Strecke. Die Verankerung im Hier und Jetzt der
+   Bahnpläne ermöglicht Gedankenflüge, das Zeitraster öffnet Räume für
+   Poesie, etwa in Günter Eichs D-Zug München-Frankfurt (1955): „Zwischen
+   den Ziffern der Abfahrtszeiten / breiten sich die Besitztümer unserer
+   Liebe aus.“ In Sarah Kirschs Fahrt II (1967) wird die Fahrt mit der
+   Eisenbahn zu einer Bestandsaufnahme der DDR, des „kleine[n] wärmende[n]
+   Land[es]“; selbst die „blaue Diesellok“ aber kann den trennenden Draht
+   zwischen Ost und West nicht durchstoßen. Die Eisenbahnreise mit ihrer
+   festgelegten Route auf eisernen Gleisen wird häufig zum Symbol des
+   festgefahrenen, unabänderlichen Lebens, bei dem ein Abzweigen unmöglich
+   geworden ist. In Günter Kunerts Wir sind unterwegs (1950) sind „die
+   Weichen gestellt“ und „das Ankunftsziel bestimmt“, die „Reise ins
+   Morgen“ ist also „nicht mehr aufzuhalten“. Eine humoristische Variante
+   der Lebensreise im Zug bietet Robert Gernhardts Gedicht Rheinfahrt im
+   Winter (2002), in dem der Sprecher einen Bahnbeamten im Zug nach Köln
+   um einen Lebenssinn bittet: „Ach bringse mir doch bitte einen Sinn, /
+   worin / ich mich sowie mein Fahrziel finden kann“. Mit einem verwandten
+   Gedanken schließt Kafkas Tunnel-Gleichnis aus den nachgelassenen
+   Schriften (1917), das den Reisenden in der dunklen Ungewissheit des
+   Tunnels festhält, in der „Verwirrung der Sinne“, und ein Ausweichen
+   ausschließt: „Was soll ich tun? oder: Wozu soll ich es tun? sind keine
+   Fragen in diesen Gegenden.“ Auch in Schnellzug (1920) von Karl Kraus
+   wird die Bahnfahrt zur Lebensreise, was schon die ersten Zeilen
+   verraten: „Auf dieser Lebensbahn / rattert es drauf und dran / in
+   schnellem Zug.“ Im Verlauf des fünfstrophigen Gedichts macht Kraus auch
+   die scheinbare Rückwärtsbewegung der Landschaft zum Motiv, wie sie
+   viele Bahnreisende erleben: „[ich] wollte die Landschaft sein, / die
+   rückwärts rennt“. Ähnliches findet sich in Erich Kästners
+   Eisenbahnfenster (1924): „Felder fliehen / in tanzenden Kreisen.“
+   Während der Zugreisende die eigene Bewegung durch die Größe der Waggons
+   und deren ruhiges Anrollen übersieht, scheint die Umgebung (etwa die
+   häufig personifizierten Bäume) vorbeizutanzen. Dass Landschaft
+   durchwandert werden sollte, um sie zu verstehen, ist die Prämisse des
+   epigrammatischen Gedichts Schwer zu verstehen von W. G. Sebald, das das
+   Motiv der stummen Landschaft mit einer Umkehrung der Perspektive
+   verbindet: „Schwer zu verstehen / ist nämlich die Landschaft, / wenn du
+   im D-Zug von dahin / nach dorthin vorbeifährst, / während sie stumm /
+   dein Verschwinden betrachtet“. Wenn auch nach dem Aufstieg des Autos
+   noch Eisenbahngedichte entstehen, so ändert sich doch die Sichtweise –
+   der einstige Drache wird zum Dinosaurier, zum Fossil des
+   Industriezeitalters. Einen solchen Rückblick unternimmt Günter Kunert
+   in Gewesene Größe der Eisenbahn (1966), wo es heißt: „Ungeschlachte
+   Gefährte / Tonnenförmige Wagen hinter sich schleppend / Unter Klirren
+   Poltern Pfeifen / Voll lebendiger Ware und toter / Auf endlosen
+   Stahlbändern.“ Gerade Bahnhöfe sind in der Gegenwartslyrik Orte, die
+   jegliche Eisenbahnromantik eingebüßt haben, was Robert Gernhardts
+   Duisburg Hbf (1997) zeigt: „Grau aus dem Grau / Schlurft ein Mann /
+   Schnippt sein Stock / Kippe für Kippe vom / Bahnsteig aufs Gleis: / Wie
+   schaurig ist hier alles.“ Ähnlich trist wirkt der Bahnhof von
+   Wolfenbüttel in W. G. Sebalds An einem Herbstsonntag 94 (2001), das
+   typische Versatzstücke eines deutschen Provinzbahnhofs aufreiht: den
+   Kiosk, ein Kebabstand, Trinker. Dass Bahnhöfe auch Orte des Abschieds,
+   insbesondere des Liebesabschieds sein können, zeigt Uljana Wolfs
+   Gedicht reisende (2003), in dem Liebesritual und Bahnhofsszene
+   sprachbildlich verschmelzen: „an den weichen / geschiente küsse //
+   gegen das fortklopfen / der züge“. Auch der Sprecher in Rolf Haufs Auf
+   den Bahnhöfen (2002) bemerkt auf Bahnhöfen „[ü]berall Abschiede letzte
+   Umarmungen“, sieht im Fortfahren jedoch eine Befreiung: „Alles lassen
+   wir zurück / Falsche Wörter / Halbe Nächte / Das Gewesene flattert
+   davon“. Bahnhöfe emotionalisieren, wecken Sehnsüchte. Der Sprecher in
+   Mascha Kalékos Schienen-Sehnsucht (1956) sagt von sich: „Ich kann auf
+   keinem Bahnsteig der Welt / Mit kühlen Gefühlen stehen“; fünfzig Jahre
+   später phantasiert Hans-Ulrich Treichels Sprecher in Alter Bahnhof
+   (2009): „Was für Abschiede / gäbe es hier und was für / Umarmungen.“
+   Der monotone Wechsel der Bahnansagen gibt regio (2013) von Gerhard
+   Ruiss das Gerüst; von Ortsnamen leitet der Sprecher zum
+   Carpe-diem-Motiv über. Der Reisende kann auch selbst zum Element des
+   Zuges werden, wie in Wolfgang Heidenreichs Blues II (2007): „Ich kreise
+   strecklings in der Nabe / Das Schwungrad hämmert seinen Takt / Ich
+   schlenze blaue Fetzen aus der Seele / Und pfeife schmutzige Synkopen
+   obendrein.“
+
+Heil dir, Columbus: Entdeckungsreisen
+
+   Entdeckungsreisen in den Osten, nach Ostindien und China, nach Amerika,
+   ins Herz Afrikas und zuletzt in den Pazifikraum haben die Literatur von
+   Anfang an beschäftigt – doch schon die mittelalterlichen Nachdichtungen
+   des Alexanderzugs durch Persien nach Indien erfüllt alle Kriterien
+   einer Entdeckungsfahrt. Wenn Alexander an die Pforte des Paradieses
+   vorstößt oder in einer Taucherglocke vorstößt, zeigt dies einerseits
+   seine Vermessenheit (hybris), andererseits seine Neugier (curiositas).
+   In der Lyrik hat insbesondere die Reise Georg Forsters mit James Cook
+   nachgewirkt, was sich beispielsweise in Matthias Claudius’ Urians Reise
+   um die Welt aus der Sammlung Asmus omnia sua secum portans zeigen
+   lässt, der die Hauptfigur unter anderem nach Tahiti („Otahait“)
+   gelangen lässt. Auch als Vorbildfigur eignet sich der wagemutig ins
+   Unbekannte vorstoßende Entdecker, wie etwa der Kolumbus in Schillers
+   gleichnamigem Epigramm von 1795. Insbesondere Columbus, der mutig ins
+   Ungewisse aufbricht und die alte Welt hinter sich lässt, wird zur
+   übermannsgroßen Heldengestalt des Fernwehs. Friedrich Nietzsche lässt
+   Columbus in Der neue Columbus (1882) einer Freundin zuraunen, in der
+   Ferne liege eine besondere Verheißung: „Ein Tod, Ein Ruhm, Ein Glück!“.
+   Den Augenblick vor der Entdeckung Salvadors und die Vorzeichen der
+   Ankunft in exotischer Fremde schildert Georg Heym in Columbus (1911).
+   Auch wer tatsächlich auswandert, orientiert sich an jenem Genueser
+   Abenteurer, der gegen alle Denkgewohnheiten eine neue Welt findet. Ein
+   am 23.1.1833 in Baltimore gedrucktes Auswandererlied hebt an: „Heil dir
+   Columbus, sey gepriesen, / Sey hoch geehrt in Ewigkeit, / Du hast uns
+   einen Weg gewiesen / Der uns aus harter Dienstbarkeit / Erretten kann,
+   wenn man es wagt, / Und seinem Vaterland entsagt.“ Noch im Sommer wird
+   die „Schmähschrift“ von den Polizeibehörden im Osnabrücker Land
+   konfisziert. Überraschend früh wird auch die Schattenseite der
+   europäischen Entdeckungsfahrten thematisiert, etwa in Johann Gottfried
+   Herders Kolumbus (1770c.). Während der erste Vierzeiler noch den
+   „Schöpfer Kolon“ preist, übt das baugleiche zweite Quartett ätzende
+   Kritik: „Ach Mörder Kolon! ach und wie denn unsere Welt / und alles,
+   was sie Schönes hält, / Reiz, Sitte, Leben, Jugendkraft, / Mit deinem
+   Gift verheeret!“ Noch 1982 lässt Erich Fried in Glückhafte
+   Deckungsreise Nachbauten der Schiffe aus Columbus’ Entdeckerflottille
+   anfertigen. Sie sollen die „Entdeckung Amerikas rückgängig machen“.
+   Dass der Ruhm selbst der kühnsten Entdecker verblasst, konstatiert Hans
+   Magnus Enzensberger in Entdecker (1999). Der Sprecher stellt lakonisch
+   fest, die Entdecker verschwänden rasch und würden vergessen, nur deren
+   „Namen wuchern fort, […] bis sie verschwinden wie alle andern, / die
+   vor ihnen kamen / und nichts zurückließen.“ Das Neugiermotiv greift
+   Sarah Kirsch in Kleine Adresse (1965) auf und verbindet es mit einer
+   Bestandsaufnahme der Moderne und ihrer Zeitprobleme: „[B]esichtigen
+   möchte ich den Umbruch der Welt. / Wo ist die Praxis hinter der Grenze?
+   Wo / Steppenkombinate? Slums? Streiks? / Weizen im Meer? Segen und
+   Fluch der / Zivilisation?“. Eine schonungslose Abrechnung mit dem
+   Entdeckungsdrang liefert Dieter Kühn in Humboldt, eine Episode:
+   Alexander von Humboldts Entdeckungsfahrten werden mit einem Katalog
+   ökologischer Katastrophen kombiniert, bevor der Sprecher sein
+   beklemmendes Fazit formuliert: „Ballade von der großen Weltzerstörung
+   fortgesetzt / Mit neuen Wörtern, Namen, Daten, Fakten –“.
+
+Reisen aus der Vogelperspektive: Fluggedichte
+
+   „Über den Wolken / Muss die Freiheit wohl grenzenlos sein“ (Reinhard
+   Mey): Luftreisen haben die Menschheit lange vor dem Aufstieg des ersten
+   Fesselballons am 4.6.1783 fasziniert. Nach diesem Experiment der Brüder
+   Joseph Michel Montgolfier und Jacques Étienne Montgolfier folgt am
+   2.7.1900 der erste Motorflug, als das Luftschiff LZ 1 von Ferdinand
+   Graf von Zeppelin erfolgreich startet. Bereits in den Jahren 1802 bis
+   1804 befasst sich Karoline von Günderode in Der Luftschiffer mit einer
+   Flugreise, die letztlich am „Gesetz der Schwere“ scheitert.
+   Ballonreisen sind verhältnismäßig rar; die wenigen Beispiele sind oft
+   Allegorien. Symbolisch zu verstehen ist Hilde Domins Fesselballon
+   (1962), der die Verlorenheit des Exilanten dem Forttreiben eines
+   Fesselballons vergleicht. In Terminal B, Abflughalle (1999)
+   thematisiert Hans Magnus Enzensberger, wie plump sich Flugtechnik gegen
+   Flugwerke der Natur ausnimmt: Ein Flugreisender versäumt seinen
+   „Jumbojet“, weil er in die Betrachtung einer Feder versinkt: „Doch
+   soviel siehst du mit bloßem Auge, / dass sie vollkommener ist, / die
+   verlorene Feder, / als der hinter dem Isolierglas / auf Position 36
+   lautlos dröhnende / Jumbojet, den du versäumt hast.“ Gegen die
+   Vollendung der Vogelfeder erscheint selbst das Flugzeug, ein
+   Meisterwerk der Ingenieurskunst, als bloßes Machwerk. Gedichte über
+   Flugreisen bedienen sich aus einem Fundus von Motiven, der den Götter-
+   und Vogelblick auf die Landschaft ebenso einschließt wie das Gefühl
+   unbedingter Freiheit. Flugreisen ermöglichen einen neuen Blick auf die
+   Erde, wo das Flugzeug als Schatten mitfliegt – so etwa in Köln –
+   Brüssel – London (1929) von Joachim Ringelnatz, der auch zahlreiche
+   weitere Fluggedichte verfasst hat. Die große Reisehöhe lässt das
+   Darunterliegende gewissermaßen erstarren: „Zwei Dampfer sah ich, die
+   mit ihren Wellen / Scheinbar ganz still, wie starrgefroren standen“.
+   Der Blick aus der Höhe reduziert und abstrahiert die Landschaft, etwa
+   in Emma Kanns Mittagessen im Flugzeug: „Das Flugzeug rast durch den
+   Äther. / Die Erde dreht sich dahin. / Das weite Meer ist glatt / Wie
+   sein Abdruck im Kinderatlas.“ Im Grunde bleibt der Fluggast ein
+   Fremdling in der Luft, ein Frevler und Emporkömmling im Reich der
+   Götter. Noch 1914 schreibt Alfred Wolfenstein in Luftschiff über der
+   Stadt (1914) über den prometheischen Frevel des Menschen, der sich in
+   den Himmel erhebt: „In des Himmels leuchtendere Geberde, / Greifen wir
+   ein mit neuen Händen!“. Diesem Gedanken setzt Dieter Mucke in
+   Reiseeindruck (1977) ein überwältigendes Flugerlebnis entgegen, das
+   bestaunt werden darf: „Du traust fast deinen eignen Augen nicht“. Als
+   Kritik an der protzigen Selbstverständlichkeit, mit der ein „rastloser
+   Krisenmanager“ die Welt umrundet, lässt sich Wolfgang Opplers Miles &
+   More (2013) lesen. Bezeichnenderweise scheitert der buchstäblich
+   abgehobene Vielflieger zuletzt „am Gebührensystem / des regionalen
+   Verkehrsverbunds“. Mit der Nutzung und Übernutzung von Zeit im Flugzeug
+   befasst sich Kathrin Niemala in ihrem Gedicht zwischenortzeit (2017),
+   das sie durch die englischsprachigen Ansagen im Bordfunk gliedert: „now
+   all / electronic devices must be turned off / the road treiben wir
+   zwischenzeitort / ost west ost digitaler entzug illusion /
+   gestohlengeschenkter stunden slow / motion gummibandzeit“.
+
+Reisen im Fluss der Zeit: Flüsse und Wasserfälle
+
+   Gedichte über Flüsse sind oft in paradoxer Weise Reisegedichte: Während
+   der Fluss die Gedanken des Sprechers ins Weite trägt, bleibt dieser
+   zurück. Als sichere Verkehrswege in unwegsamer Landschaft bieten sie
+   andererseits Gelegenheiten für den betrachtenden Blick zum Ufer, laden
+   aber auch zu Meditationen über das Dahinfließen der Lebenszeit ein und
+   zur Reflexion über das Mitgerissenwerden in der Zeit. Dann mag man an
+   Heraklits Fluss-Fragmente denken und an die Formel des Panta rhei
+   („Alles fließt.“): „Man kann nicht zweimal in denselben Fluss steigen.“
+   Das Bild des Flusses verwendet Joseph von Eichendorff in Frische Fahrt
+   (1810), dem die Wirklichkeit als „magisch wilder Fluss“ erscheint. Sich
+   dem Fluss hinzugeben und einem unbekannten Ziel zuzutreiben ist ein
+   häufiges Motiv in der Reiselyrik: Es findet sich beispielsweise in
+   Schillers Der Pilgrim von 1803: „Und zu eines Stroms Gestaden / Kam
+   ich, der nach Morgen floss, / Froh vertrauend seinem Faden, / Werf ich
+   mich in seinen Schoß.“ In ähnlicher Form lässt sich das lyrische Ich in
+   Friedrich Hölderlins alkäischer Ode Der Nekar (1792): „Der Berge
+   Quellen eilten hinab zu dir, / Mit ihnen auch mein Herz und du nahmst
+   uns mit, / Zum stillerhabnen Rhein, zu seinen / Städten hinunter und
+   lustgen Inseln.“ Bei Hölderlin wird der Neckar zum Träger der
+   Sehnsucht, die das lyrische Ich schließlich die „schönen / Inseln
+   Ioniens“ und ein idealisiertes Griechenland erblicken lässt. Auch im
+   37. Stück der Romanzen und Jugendlieder (1823) August von Platens
+   vertieft sich der Sprecher in die Vorstellung, sich in einem Kahn, dem
+   er „nie entsteigen“ will, dem Fluss hinzugeben, der ihn an den
+   paradiesischen Vergnügungen des Lebens vorbeiträgt. Auch die Moderne
+   behält die Vorstellung, sich dem Fluss zu überantworten bei. In Otto
+   Julius Bierbaums Flussfahrt im Frühling empfiehlt der Sprecher: „Welle
+   mag den Weg uns zeigen, / Führerin und Trägerin.“ Man solle dem Fluss
+   „[t]räumend folgen und ihn lieben“.
+
+Fremde, Heimat und Exil.
+
+   Die Erfahrung, als Fremder in der Fremde fremd zu sein, beschäftigt
+   Lyriker seid Ovids Tristia aus Tomys am Schwarzen Meer. Wer fremd ist,
+   nimmt sich selbst als andersartig wahr und als getrennt von der ihn
+   umgebenden Welt. Seine Sprache wird zur Fremdsprache, fremde Sitten und
+   fremde Bräuche machen den Reisenden zum Außenseiter. Dieses Gefühl ist
+   die Voraussetzung dafür, Heimatgefühle zu empfinden – wer nie die
+   Heimat verlassen hat, kann sie nicht als solche wahrnehmen. Allerdings
+   kann ein Hinausgehen in die Fremde, beispielsweise in Clemens Brentanos
+   In der Fremde (1810), auch ein gegenteiliges Bestreben auslösen: Wer
+   seine Heimat verlässt, ist aufgerufen, sich zu beheimaten. Bei Brentano
+   erkennt das lyrische Ich, dass auch in der Fremde „dieselben Klagen“
+   und „dieselbe Lust“ laut werden; daraus folgt: „Und so bin ich hier
+   zuhaus.“ In Georg Brittings Bei den Tempeln von Paestum (1937 / 1938)
+   ist es ausgerechnet der Löwenzahn, der die Erkenntnis fördert, dass
+   auch Salerno und Bayern nicht weit auseinanderliegen: „Mein Schatten
+   wirft sich schwarz. Und Schatten, Himmel und Löwenzahn / Sind wie bei
+   uns.“ Auch im Reisegeldgedicht von Joachim Ringelnatz steht am Ende der
+   Reise, dass im Grunde die Fremde sich wenig von der Heimat
+   unterscheidet: „Auf Wiedersehn! Ich reise fort. / Mein Reisegeld sucht
+   andres, andre. / Bis ich erkenne: Hier ist dort / Und neu vergnügt nach
+   Hause wandre.“ Im Gegensatz zu Ringelnatz, dessen Sprecher die
+   Übereinstimmung von Fremde und Heimat offenbar vergnüglich findet,
+   erkennt der Sprecher in Berthold Viertels Gekritzel auf der Rückseite
+   eines Reisepasses, dass die Parallelen erschauern lassen: „Das sind die
+   Völker und die Reiche. / Man wandert aus und wandert ein. / Doch
+   überall ist es das gleiche: / Die Hirne Wachs, die Herzen Stein.“ Diese
+   bittere Einsicht setzt jedoch das Dritte Reich und den zögerlichen
+   Empfang im Exil voraus. Bei Hölderlin verspricht die Heimat noch von
+   seelischen Leiden. Der Sprecher in Die Heimat (1804) ersucht die Heimat
+   am Neckar um Trost „Ihr teuern Ufer, die mich erzogen einst, / Stillt
+   ihr der Liebe Leiden, versprecht ihr mir, / Ihr Wälder meiner Jugend,
+   wenn ich / Komme, die Ruhe noch einmal wieder?“. In Justinus Kerners
+   Wanderlied (1809) macht sich die Heimat noch in der Fremde bemerkbar:
+   den Ferngereisten grüßen schließlich die Vögel („die kennen sein
+   väterlich Haus“), und der vom Wind ihm zugetriebene Blumenduft erinnert
+   ihn an die zurückgelassene Liebe („Die Blumen einst pflanzt’ er der
+   Liebe zum Strauß.“ Sowohl der Wind als auch das Blätterrauschen des
+   heimatlichen Lindenbaums klingen dem Sprecher von Wilhelm Müllers Der
+   Lindenbaum (1824) nach: „Nun bin ich manche Stunde / Entfernt von jenem
+   Ort, / Und immer hör' ich’s rauschen: / Du fändest Ruhe dort!“. „Auch
+   in Drei kleine Straßenvon Arno Holz (1899) verfügt das Heimatliche über
+   eine hohe Bindekraft – hier sind es Brunnenrauschen und Lindenduft, die
+   der Wanderer als Antwort verstehen kann auf die Frage: „Soll ich
+   bleiben? Soll ich weiterziehn?“. Der Sprecher in Max Dauthendeys Zur
+   Heimat fort (1914) spürt den Wind im Haar und sucht daraufhin „im Wind
+   einen Heimatlaut“. Die Fremde verändert den Blick auf das
+   Zurückgelassene, das nun erst recht wertgeschätzt werden kann – und das
+   lyrische Ich „neu vergnügt“ sein lässt. Anders geht es dem Exilanten:
+   Die erzwungene Trennung von Heimat und Vaterland im Exil verlangt nach
+   Zugehörigkeit und Trost. Wenn die Heimat verloren ist, und erst recht,
+   wenn sie den Exilanten verstoßen hat, bedarf er einer neuen Heimat. Das
+   kann die dichterische Sphäre sein, die Welt der Phantasie oder der
+   größere Rahmen des Kosmos. Im Traum kann das Vaterland wie bei Heine
+   (1831) zur Geliebten werden, die in der Heimatsprache zum Heimatlosen
+   spricht: „Ich liebe dich!“. Befreit von den engen Grenzen der
+   politisch-geographischen Zugehörigkeit schreibt der Pariser Exilant
+   Heinrich Heine gut zehn Jahre später: „Mich wird umgeben /
+   Gotteshimmel, dort wie hier, / Und als Totenlampen schweben / Nachts
+   die Sterne über mir.“ Ähnliches formuliert Hilde Domin, die aus der
+   Erfahrung des Exils heraus dazu auffordert, „wie ein Baum“ Wurzeln zu
+   schlagen und sich zu beheimaten, sodass „wir zuhause sind / wo es auch
+   sei, / und niedersitzen können und uns anlehnen, / als sei es das Grab
+   / unserer Mutter“. Domins Bild hat ein Vorbild in Joseph von
+   Eichendorffs Heimweh (1841), das er seinem Bruder Wilhelm zueignet.
+   Angesichts des Grauens „im fremden Land“ bietet er dem Bruder Geleit
+   bis ans väterliche Grab: „Wir wollen zusammen ziehen, / Bis dass wir
+   wandermüd / Auf des Vaters Grabe knien / Bei dem alten Zauberlied.“ Für
+   Lyriker ist auch die Sprache eine Heimat – eine, die man zwar nicht
+   gänzlich verliert, die aber gefährdet ist: „Gewiss“, heißt es in Mascha
+   Kalékos Der kleine Unterschied (1977), „ich bin sehr happy: / Doch
+   glücklich bin ich nicht.“ Erich Fried schreibt in Exil (1946): „Sechs
+   Jahre Fremde bleichen jedes Wort.“ Hannah Arendt schildert in Dies war
+   der Abschied (1947), wie die Ankunft in einer neuen Sprache die
+   Selbstverständlichkeiten zertrümmert: „Brot heißt Brot nicht mehr / und
+   Wein in fremder Sprache ändert die Gespräche.“ Es ist besser, sich in
+   der Sprache des Exils nicht einzurichten, die Rückkehr nicht
+   aufzugeben. Bertolt Brecht schreibt 1949 in Gedanken über die Dauer des
+   Exils: „Wozu in einer fremden Grammatik blättern? / Die Nachricht, die
+   dich heimruft / Ist in bekannter Sprache geschrieben.“ Wer reist oder
+   reisen muss, läuft Gefahr, seine Heimat einzubüßen ohne eine neue
+   Heimat zu gewinnen. In Franz Grillparzers In der Fremde wird diese
+   Möglichkeit deutlich: Der Reisende, der reisemüde ist und gleichzeitig
+   das „Einerlei“ der Heimat fürchtet, beklagt: „O Mensch, der nur zwei
+   Fremden / Und keine Heimat hat.“ Grillparzers Verse werden in Stefan
+   Zweigs Fahrten als Motto zitiert. Derselbe Gedanke liegt auch Bertolt
+   Brechts kurzem Gedicht Der Radwechsel (1953) zugrunde: „Ich bin nicht
+   gern, wo ich herkomme. / Ich bin nicht gern, wo ich hinfahre.“
+   Inhaltlich nah verwandt ist die paradoxe Pointe von Wolf Biermanns Und
+   als wir ans Ufer kamen (1976): „Ich möchte am liebsten weg sein / Und
+   bleibe am liebsten hier / - am liebsten hier“. Auch Volker Brauns
+   Tagtraum bezieht sich beim Besuch „im Niemandsland zwischen den
+   Grenzen“ auf Brecht: „kein / Rad war zu wechseln hier ungeduldig“. In
+   Hilde Domins Herbstzeitlosen (1955) macht die Entwurzelung, der Verlust
+   der Heimat, aus dem Lebenslauf eine „lebenslängliche Reise, / wie
+   zwischen Planeten“, wenngleich ein Neubeginn zumindest als möglich
+   erscheint. In der Fremde wird man sich selbst fremd, wird sprach- und
+   spurlos. Diese Folgerung stellt Günter Kunert in Reiseresümee (1987)
+   an: „Du wirst dir selber fremder / an einem fremden Ort. / Verschlossen
+   Tür und Tore: / Dir fehlt das Losungswort.“ Die kurz gefühlte Freiheit
+   des Exils verwandelt sich bald in Haltlosigkeit. Der aus Kolumbien
+   stammende Erik Arellana Bautista schreibt in Ich atme (2017): „Ich
+   besinne mich auf den Wert der Freiheit, / das gibt mir Hoffnung und
+   rettet mich, / wie einen Schiffbrüchigen auf hoher See. / Nach der Flut
+   kommt die Windstille.“ Das Motiv der Windstille betont dabei die
+   Bewegungslosigkeit des gestrandeten Asylsuchenden, dessen Bewegung ins
+   Exil zum Stillstand gekommen ist – ein Stillstand, der nun erdrückend
+   wirkt. Der Wind, in der Reiselyrik ein wichtiges Symbol des Aufbruchs
+   und der Veränderung, kann aber auch schmerzen, weil er das Bleiben
+   unmöglich macht. Bei Guido Zernatto, ehemals österreichischer
+   Arbeitsminister und dann Emigrant in den USA, heißt es in Dieser Wind
+   der fremden Kontinente (1943): „Dieser Wind der fremden Kontinente /
+   Bläst mir noch die Seele aus dem Leib.“ Bei Max Herrmann-Neiße, der
+   1936 zunächst über die Schweiz und Paris nach London gelangt, ist die
+   Fremde in Heimatlos (1946) ein Labyrinth, in dem man sich nicht
+   zurechtfindet: „Wir ohne Heimat irren so verloren / und sinnlos durch
+   der Fremde Labyrinth.“ Dasselbe Motiv findet sich bereits in
+   Hermann-Neißes Ich gehe, wie ich kam (1919). Der Sprecher macht
+   deutlich, dass es menschliche Bindungen sind, die das Gefühl von Heimat
+   erzeugen: „Ich gehe, wie ich kam: arm und verachtet. / Keinen lernte
+   ich lieben, keiner lernte mich lieben.“ Die existenzielle
+   Unbehaustheit, die der Text offenbart, hat eine Entsprechung in der
+   Biographie des Verfassers: Der Krieg hatte die Familie ruiniert, der
+   Vater starb 1916, die Mutter ertränkte sich ein Jahr darauf. Der
+   Emigrant, sprachlos und hilfsbedürftig, fühlt sich in der Fremde wie
+   ein Kind. Dieses Motiv greift Johannes R. Becher in seinem Abendlied
+   nach Matthias Claudius (1942) auf: „Wir haben uns verlaufen. / Wie ein
+   verlorener Haufen / Stehn wir in fremdem Land. / Wer, der kein Heimweh
+   spürte! / Oh, käme wer und führte / Uns heim wie Kinder an der Hand!“.
+   Nicht nur der Emigrant ist fremd, auch der Einwanderer bleibt ein
+   Fremder, und auch ein Zugehörigkeitsnachweis ändert nichts an der
+   gefühlten Fremdheit der neuen Heimat. In SAIDs II. Empfang (1987) hält
+   der Sprecher einer Passkontrolle skeptisch fest: „Das Dröhnen des
+   Stempels / Behauptet: / Ich bin kein Fremder mehr.“ Im Grunde flieht
+   der Exilant nicht nur aus der Heimat, sondern auch vor ihr. Diesen
+   Gedanken formuliert Ludwig Greve in Linie 10. Das postum veröffentliche
+   Gedicht spiegelt das verlorene Urvertrauen des Flüchtigen: „Wohin kann
+   man entfliehen, / in welche Länder noch vor diesem Land, / das Heimat
+   war, nun Fremde ist, doch Fremde / so fremd wie Kindheit, Todesleid und
+   Schlaf!“ Für den Flüchtigen ist nicht nur die Abkehr von der Heimat
+   eine prägende Erfahrung, sondern auch die Ungewissheit der Flucht, die
+   gedehnte Zeit auf dem Weg. Peter Huchel beschreibt in Chausseen (1963)
+   die Flucht am Beispiel ihrer Spuren: „Chausseen. Chausseen. / Kreuzwege
+   der Flucht. / Wagenspuren über den Acker, / Der mit den Augen /
+   Erschlagener Pferde / Den brennenden Himmel sah.“ Eine mögliche Folge
+   ist der Verlust der Standfestigkeit in der Welt; wenn die eigene
+   Position erschüttert ist, gerät die Welt ins Schwanken. Bei Dagmar Nick
+   kommt in Flucht (1945) der Wind als Symbol des Wandels hinzu und das
+   Kulissenhafte einer als vorübergehend erfahrenen Welt, die keine Bleibe
+   bietet: „Häuser schwanken müde wie Kulissen / durch den Wind.“ Einen
+   bedeutenden Beitrag zur Reiselyrik leisten seit den Sechzigern Autoren,
+   die ursprünglich als Arbeitsmigranten in die BRD eingereist sind.
+   Zunächst von der deutschen Wohnbevölkerung segregiert und als billige
+   Arbeitskräfte ausgebeutet, finden sie bald ihre eigene Sprache und
+   formulieren ähnliche Erfahrungen wie deutsche Emigranten und Exilanten
+   in ihren jeweiligen Gastländern. Dazu gehört das Gefühl der
+   Zerrissenheit zwischen alter und neuer Heimat. Alev Tekinay hält in
+   Dazwischen (2001) fest: „Jeden Tag ist das Heimweh / unwiderstehlicher
+   / aber die neue Heimat hält mich fest / Tag für Tag noch stärker.“
+   Insbesondere nach der sogenannten „Asylkrise“ von 2015 verändert sich
+   auch der Blick auf die Flucht aus Krisenländern nach Europa. Aus
+   Flüchtlingen werden Geflüchtete. Björn Kuhligk, erinnert sich in Die
+   Sprache von Gibraltar (2016) an einen Besuch in der spanischen Exklave
+   Melilla und den Unterschied zwischen denen, die flüchten, und denen,
+   die diese Flucht – wie er selbst aus „fünfzig Metern Höhe“ – lediglich
+   betrachten.
+
+Höhepunkte: Lyrik über Gebirgswanderungen
+
+   Spätestens seit der Besteigung des Mont Ventoux durch Francesco
+   Petrarca ist der weltumfassende Höhenblick in die Reiselyrik
+   eingeführt. Allerdings bleibt das Gebirgsgedicht lange allegorisch.
+   Eine naturwissenschaftliche Betrachtungsweise, die zugleich die karge
+   Schönheit des Hochgebirges preist, entwickelt der Schweizer
+   Frühaufklärers Albrecht von Haller in seinem Langgedicht Die Alpen.
+   Ausgangspunkt dieses 1729 gedruckten Alexandrinergedichts in 49 Stanzen
+   ist eine Alpenreise mit dem Naturforscher Johannes Gessner im Jahr
+   1728. Hallers Text ist zugleich Naturaufnahme als auch anakreontische
+   Idylle. Der Weg in die Einöde der Berge ist oft ein Abschied von der
+   Zivilisation, von Stadt und Hof, etwa im Prolog von Heines Die
+   Harzreise (1827): „Lebet wohl, ihr glatten Säle, / Glatte Herren!
+   Glatte Frauen! / Auf die Berge will ich steigen, / Lachend auf euch
+   niederschaun.“ Wie wirkmächtig Hallers Alpengedicht für die Wahrnehmung
+   der Alpen war, verrät ein Naturbild in Friedrich Matthissons Der
+   Alpenwanderer (1790): „Verklärt vom Sonnenstral, / Gränzt an beschneite
+   Gipfel / Ein grünes Zauberthal. / Hier bliebe, wonnebebend, / Selbst
+   Hallers Muse stumm. / Wie groß, wie seelenhebend!“.
+
+Hoch auf dem gelben Wagen: Lyrische Kutschfahrten
+
+   Insbesondere seit der Aufnahme eines geregelten Postverkehrs durch
+   privilegierte Postunternehmen wird die Reise in der Kutsche zum
+   Reisestandard zumindest des gehobenen Publikums. Das einfache Volk geht
+   weiterhin zu Fuß. Der Zustand der Straßen und Wege verbessert sich
+   zunehmend – zunächst aber bleibt eine Kutschfahrt ein holpriges
+   Unterfangen. Das spiegelt auch Goethes in der „Postchaise den 10.
+   Oktober 1774“ entstandene Hymne An Schwager Kronos wider, die schon im
+   Formalen durchgeschüttelt wirkt: „Frisch den holpernden / Stock Wurzeln
+   Steine den Trott / Rasch ins Leben hinein!“. Neben dem Rumpeln der
+   unruhigen Fahrt gehört das geräuschvolle Rasseln der Räder und der
+   Hornstoß des Schwagers, des Kutschlenkers, zu den Motiven eines
+   Kutschgedichts, beispielsweise in Eduard Mörikes Auf der Reise (1826):
+   „Ich wiege mich in bunten Träumen, / Das muntre Posthorn klingt
+   darein“.
+
+Two roads diverged in a yellow wood: Gedichte über Lebensreisen
+
+   Es liegt nahe, das Reisen als Allegorie des Lebens zu verstehen: Man
+   bricht auf, kommt an Scheidewege, durchläuft Täler und erklimmt
+   Höhenzüge, um schließlich am Endpunkt der Reise anzukommen und zu
+   ruhen. Für den Sprecher von Andreas Gryphius’ barockem Sonett Abend
+   (1650) erscheint das Leben allegorisch als „Rennebahn“. Er bittet Gott
+   um Beistand, des Lebens Lauf ohne Fehltritt zu bewältigen: „Lass,
+   höchster Gott! mich doch nicht auf dem Laufplatz gleiten.“ Joseph von
+   Eichendorff vergleicht in Die zwei Gesellen (1818) zwei Lebenswege:
+   Zwar brechen beide „rüst’ge Gesellen“ gleichzeitig auf, der eine lässt
+   sich jedoch in „Hof und Haus“ nieder, während der andere den
+   Verlockungen von „tausend Stimmen“ folgt und sein Leben am Ende vertan
+   findet. In Nacht-Wanderer (1758) schlägt Barthold Heinrich Brockes eine
+   andere Typologie der Lebensreisenden vor, die dem Sprecher allesamt wie
+   „mondsücht’g[e] Wandrer“ vorkommen: Die einen streben auf ihrer
+   Lebensreise nach Ehre, die anderen nach Geld und die dritten nach Lust.
+   In Heines Stammbuchblatt Lebensgruß für Prinz Alexander (1817-21) wird
+   das Leben zur Landstraße, auf der wir alle unterwegs sind und einander
+   nur flüchtig begegnen: „Eine große Landstraß ist unsere Erd, / Wir
+   Menschen sind Passagiere; […] Kaum treffen wir uns auf derselben
+   Station, […], Da bläst schon zum Abschied der Postillon, / Und bläst
+   uns auseinander.“ Bedrückend nimmt sich Clemens Brentanos Ich bin durch
+   die Wüste gegangen (1816): Die entbehrungsreiche Lebensreise führt
+   durch die Wüste der Welt, Erlösung verspricht nur der Tod. Ähnlich
+   trostlos erscheint die Lebensreise des Sprechers in Mein Pfad geht über
+   dürre Heide (1786): „Mein Pfad geht über dürre Heide, / Hier flieht
+   mich höhnend jede Freude / Und lässt nur Ekel mir zurück.“ Dass das
+   Leben zwecklos sei, folgert der Sprecher in Friedrich Rückerts
+   Reiseziel (1822), das im Schlussquartett die Anfangsverse
+   wiederaufnimmt: „Nun ist das Leben an seinem Ziel, / Und ohne Zweck war
+   die Reise.“ Mitunter wird die Lebensreise von der Symbolik der
+   Jahreszeiten begleitet. Unter dem Eindruck einer Herbstwanderung
+   bedauert der Sprecher in Theodor Storms Über die Heide (1875), seine
+   Zeit nicht besser genutzt zu haben: „Wär’ ich hier nur nicht gegangen
+   im Mai! / Leben und Liebe – wie flog es vorbei!“ Aus der Metapher der
+   Lebensreise kann sich allerdings auch die Folgerung ergeben, selbst zu
+   reisen: Nur wer reist, kann sich vervollkommnen, ein gelungenes Leben
+   führen. In Wilhelm Buschs Reisegedanken (1877) wird angesichts des
+   Todes die Notwendigkeit des Reisens deutlich: „Darum, Mensch, sei
+   zeitig weise! / Höchste Zeit ist’s! Reise, reise!“. Gedichte über die
+   Lebensreise können entweder den Aufbruch oder die Ankunft in den Blick
+   nehmen, Rückblick oder Vorausschau sein. In Gottfried Benns Wenn dir am
+   Ende – (1939) erscheint beides gleichermaßen „die nämliche Qual zu
+   bieten: „die Blicke nach oben“ und die „Blicke zu Tal“; eine Situation,
+   die an Henry Wadsworth Longfellows Mezzo Cammin (1886) erinnert, in dem
+   sich der Sprecher auf halber Bergeshöhe befindet („half-way up the
+   hill“) und die verlorene Vergangenheit ebenso wahrnimmt („A city in the
+   twilight dim and vast“) wie den Wasserfall des Todes („The cataract of
+   Death far thundering from the heights“). Die Heimatlosigkeit im stetig
+   dahinfließenden Leben ist ein Dauermotiv romantischer Lyrik, das mit
+   dem Fließen des „leise[n] Brunnen[s]“ noch in Hermann Hesses
+   neuromantischem Gedicht Landstreicherherberge (1901) anklingt: „Wie
+   Heimatahnung glänzt es her / Und war doch nur zu kurzer Rast / Ein
+   fremdes Dach dem fremden Gast, / Er weiß nicht Stadt, nicht Namen
+   mehr.“ Dass man auf der Lebensreise im Grunde nur wenig Gepäck
+   mitführen kann, ist ein weiterer Gemeinplatz der allegorischen
+   Reiselyrik. So heißt es in Dagmar Nicks Kein Zweifel (2016), die
+   Sprecherin führe „geborgt[e] Tage“ mit, „im Rucksack, / der stündlich
+   gewichtloser wird“. Am Ende der Lebensreise steht der Tod, wie in Rose
+   Ausländers Wanderschaft (1979), wo dem wandernden Sprecher zuletzt die
+   Zeit selbst begegnet: „Du wanderst / durch die Zeit / sie winkt dir zu
+   / drei Buchstaben / liegen auf ihren Lippen / kannst du sie lesen“. Die
+   Lebensreise vollzieht sich in Atemzügen; solange man atmet, reist man -
+   das ist der Grundgedanke des Gedicht Atemzüge (1993) von Mario Wirz.
+   Diese Lebensreise ist mit jedem Atemzug auszukosten: „[A]uch auf den
+   letzten Atemzug werde ich springen, / gläubig, / ein Reisender, /
+   immer.“
+
+Frische Fahrt: Lyrische Meerfahrten
+
+   Spätestens seit Homers Odyssee und Senecas Briefen Ad Lucilium lässt
+   sich die Meerfahrt als Sinnbild des menschlichen Lebens begreifen, das
+   den sicheren Hafen verlässt, in der Weglosigkeit des Ozeans sein Ziel
+   sucht und mit etwas Glück den Stürmen des Schicksals entgeht, um
+   irgendwo den Anker zu werfen. Das Bild eines von Stürmen bedrohten
+   Schiffs entwirft Andreas Gryphius in seinem allegorischen Sonett An die
+   Welt (1658): Die Seele (das „oft bestürmte Schiff“) wird auf dem Weg
+   zum Tod vom Schicksal hin- und hergeworfen. Auch Gryphius‘ Zeitgenosse
+   Johann Matthias Schneuber spielt in Gesang von der gefährlichen Fahrt
+   menschlichen Lebens (1644) mit dem Bild der Seefahrt als Symbol
+   menschlichen Strebens: „Wir streben, wo wir es nur glauben, / Auf einem
+   ungestümen Meer“. In der Kreuzstab-Kantate (1726) von Christoph
+   Birkmann, von Bach vertont (BWV 56), wird die Allegorie der Meerfahrt
+   aufgelöst: „Mein Wandel auf der Welt / Ist einer Schifffahrt gleich“.
+   Die Wellen sind „Betrübnis, Kreuz und Not“, der Anker dagegen Gottes
+   Barmherzigkeit. Dieses Schreibmuster scheint noch in Goethes 1777
+   entstandener Hymne Seefahrt durch, wo der Protagonist kühn dem Sturm
+   die Stirn bietet: „Doch er stehet männlich an dem Steuer, / Mit dem
+   Schiffe spielen Wind und Wellen“. Auch in Goethes Spruchgedicht mit dem
+   Behelfstitel Sei du im Leben wie im Wissen (1827) wird die Seefahrt
+   allegorisch auf das Leben angewendet. Auch hier widersteht der Segler
+   „Sturm und Strömung“, um am Ende den Hafen zu erreichen, „wo er
+   ausgeschifft“. Heine verknüpft in Lebensfahrt (1843) eine bereits
+   gescheiterte Kahnfahrt mit einer Meerfahrt, die „[m]it neuen Genossen“
+   durch fremde Fluten“ führt. Selbst in der Moderne wird das Bild der
+   Seefahrt als Lebensreise nicht selten eingesetzt. In Oskar Loerkes
+   Hinter dem Horizont (1926) hat sich das Lebensschiff des lyrischen Ichs
+   festgesetzt, bewachsen mit „Algen, Muscheln, Moos“. In Bertolt Brechts
+   Das Schiff (1927) ist der Sprecher selbst ein Schiff, das langsam
+   verfällt und zuletzt als Geisterschiff „schimmernd von Möwenkoten“
+   gesichtet wird. In Schiff 1931 (1931) von Joachim Ringelnatz befindet
+   sich der Sprecher auf einem Schiff, das als Sinnbild des Lebens von
+   höheren Mächten gesteuert wird: „Das Schiff, auf dem ich heute bin, /
+   Treibt jetzt in die uferlose, / In die offene See. – Fragt ihr:
+   ‚Wohin?‘ / Ich bin nur ein Matrose.“ Ein weiteres Motiv, das sich in
+   vielen Meeresgedichten findet, ist das gedankliche Durchdringen der
+   Meeresfläche, um den Meeresgrund mit Phantasiegestalten zu besiedeln,
+   was sich beispielsweise in Eichendorffs Meeresstille (1837) vollzieht:
+   Das lyrische Ich erblickt in der Tiefe, die sich „wie eine prächtige
+   Nacht“ darstellt, „Seekönig auf seiner Warte“.
+
+Kampagne und Feldzug: Gedichte über militärische Reisen
+
+   Die bis 1945 mit großem Abstand häufigste Reiseform war, so zynisch das
+   klingen mag, der Feldzug, die Kampagne. Für viele junge Soldaten war
+   die Einberufung zum Heer oder zur Marine der erste Ausblick auf einen
+   Auslandsaufenthalt. Während im Vorfeld Glanz und Gloria die Rekruten
+   begleiten, Bilder von Ruhm, Ehre und Lebensgenuss dominieren, wird dem
+   reisenden Soldaten rasch klar, worauf er sich eingelassen hat. Er
+   friert, stöhnt unter erbarmungsloser Hitze oder dem Drill der
+   Feldwebel, erträgt Wochen der Langeweile, gerät an die Grenzen seiner
+   Belastbarkeit und darüber hinaus, erlebt das Töten und tötet selbst. Im
+   19. Jahrhundert ist das Verhältnis zum Soldatenleben noch unbefangener;
+   es geht weniger um die Militärmaschinerie, sondern um das individuelle
+   Schicksal. In August Heinrich von Fallerslebens Der schwere Abschied
+   sagt ein Gefreiter zum anderen: „Morgen gibt’s ein ander Städtchen, /
+   Morgen weht ein andrer Wind. / Unser Leben, unsre Mädchen, / Beides
+   ändert sich geschwind“. Der solchermaßen Angesprochene jedoch fällt in
+   der nächsten Schlacht. Der Schmerz des Abschieds und die Sehnsucht nach
+   der Familie wird allerdings auch in Norbert Hummels Gedicht
+   feldpostkarte (2011) deutlich, in dem ein Sohn der Mutter neben
+   Alltäglichem mitteilt: „ich bin / so voll leid. Mir träumte heut nacht,
+   du tätest sterben.“ Die Verse erinnern an Heines gänzlich
+   unmilitärisches und unpatriotisches Exilgedicht Nachtgedanken (1844):
+   „Nach Deutschland lechzt' ich nicht so sehr, / Wenn nicht die Mutter
+   dorten wär; / Das Vaterland wird nie verderben, / Jedoch die alte Frau
+   kann sterben.“
+
+Muschel, Hut und Pilgerstab: Lyrische Pilgerreisen
+
+   Die Pilgerreise (oder Wallfahrt) hat spirituelle und therapeutische
+   Ziele: Sie bezweckt die Aufhebung eines Leidens, die Wiederherstellung
+   des persönlichen Heils oder gar die vollkommene Erlösung. Während die
+   tatsächliche Pilgerreise, wie sie in Christentum und Islam, aber auch
+   im Hinduismus üblich ist, oft über festgelegte Stationen zu einer
+   Heilsstätte führt, kann der lyrische Pilger sein Seelenheil auch an
+   unbestimmtem Ort finden, wie der Pilger in Schillers Der Pilgrim
+   (1803), der sich von einem Fluss ans Meer treiben lässt und dort die
+   Unerreichbarkeit des Himmels (und der Erlösung) erkennt. Pilgerreisen
+   verlangen häufig eine auf das spirituelle Ziel eingestellte Haltung,
+   die sich in geeigneter Ausstattung beweist: Der christliche Pilger
+   verschreibt sich absoluter Bedürfnislosigkeit und verzichtet auf seiner
+   Reise auf alle Annehmlichkeiten, die über einen Pilgerbeutel, einen
+   Wanderstab und die Jakobsmuschel am Pilgerhut hinausgehen. In der
+   Reiselyrik lassen sich diese Attribute auch im Rollenspiel einsetzen.
+   In Nikolaus Lenaus Der Maskenball hofft der Pilger „im härenen Gewande,
+   / Mit Sandal und Muschelhut“ auf eine Heilung seines Kummers „im
+   Niagararauschen“. Das Bild des Pilgers spielt auch Hans Magnus
+   Enzensberger in seinem tourismuskritischen Gedicht Paxe (2003) durch:
+   „Wallfahrer sind es, / wenngleich von andrer Art, / ohne Muschel,
+   Pilgerhut, Stab und Kutte, / und ohne Hoffnung auf Gnade.“ Im Grunde
+   sind allerdings die wenigsten Pilger auf der Suche nach spirituellem
+   Heil. Ernst Moritz Arndt beschreibt in einem Geleitgedicht die
+   Weltreise eines abreisenden Freundes (1849) als Pilgerfahrt: „Glück auf
+   die Reise! Pilgre fort!“
+
+Gedichte über Reisefreiheit und Grenzschutz
+
+   Artikel 11 des deutschen Grundgesetzes gewährt, zumindest für das
+   Bundesgebiet, Freizügigkeit. Darüber hinaus können sich Bürger der
+   Bundesrepublik Deutschland eines Reisepasses bedienen, der ihnen fast
+   überall die Möglichkeit zur Einreise verschafft. Im Vormärz war schon
+   der innerdeutsche Grenzübertritt erschwert durch streng überwachte
+   Binnengrenzen. Mit sehnsüchtigem Blick hinauf zu den Wildgänsen beklagt
+   der Sprecher von August Heinrich Hoffmann von Fallerslebens Die wilden
+   Gänse (1840): „Kaum sind wir aber fort von Haus, / So muss auch schon
+   der Pass heraus. / Wir werden niemals sorgenfrei / Vor lauter Maut und
+   Polizei.“ Andere Bestimmungen als heute galten auch bis 1989 in der
+   DDR. Das Strafgesetzbuch der DDR vom 1. Juli 1968 kennzeichnet in §213
+   den illiegalen Grenzübertritt als strafbare Handlung, als
+   „Republikflucht“. Diese Einschränkung wird naturgemäß auch von
+   oppositionellen Lyrikern aufgegriffen. In Am Abend verwandeln (1973)
+   von Richard Piernass lässt sich die Mauer nur in der Phantasie
+   überwinden: „Am Abend verwandeln wir uns und werden Vögel, Mauersegler,
+   die mit schrillen / Schreien den ungeteilten Himmel befliegen“. Heinz
+   Kalau schreibt in Elementares Bedürfnis (1978): „Ich will gar nicht /
+   immerfort / woandershin. – // Aber es / können dürfen.“ Kurt Drawert
+   persifliert in Gedicht, als Brief angekommen, 15. 7. 1981 (1981) die
+   etwas hemdsärmelige Sprache der DDR-Behörden, die einen Ausreiseantrag
+   mit einem hanebüchenen Ablehnungsbescheid versehen: „Leider / ist es
+   nicht möglich, Deinen Antrag / zu realisieren, da alle Reisen /
+   vergeben sind.“ Auch nach der Wende wirkt das Reiseverbot im anderen
+   Deutschland nach: Die reale Grenze ist noch immer da, in der
+   Vorstellung der ehemals Eingesperrten. In verlassener grenzübergang
+   (1997) schreibt Thomas Spaniel: am schlafenden schlagbaum vorüber / wie
+   über einen meridian / keine unsichtbare wand / kein widerstand“. Aus
+   westdeutscher Sicht ist die DDR das „dämmernde Land“, die Diktatur des
+   Volks legt sich wie Äther auf das Land. Eine solchermaßen politisierte
+   Landschaft durchfährt Richard Wagners Sprecher in Die Reise (1988).
+   Selbst die Menschen wirken abweisend: „Manchmal Gesichter, / kleine,
+   verschlossene, in denen keiner las.“
+
+Reisegefährten: Vom Reisen in Gesellschaft
+
+   Eine Reise ist ein sozialer Vorgang – auch und gerade dann, wenn Reisen
+   eher wie eine Flucht vor der Gesellschaft wirken. Man verlässt
+   Menschen, nimmt andere mit, begegnet dritten, um schließlich wieder
+   zurückzukehren – und wieder anderen vom Reisen zu berichten: „Wenn
+   jemand eine Reise tut, so kann er was erzählen.“ Mitreisende, oft eine
+   Bereicherung der Reise, genauso oft Reisemangel, dienen oft als
+   Spiegelbild oder als Zerrbild des eigenen Befindens. Als Wandergenossen
+   und Reisegefährten im Individualverkehr sind sie selbst gewählt, im
+   öffentlichen Verkehr ist die Begegnung oft durch die Notwendigkeit der
+   Transportbedingungen aufgezwungen. Das Ich wird dann zum Wir, erst
+   recht, wenn das Transportmittel so umfassend ist wie in Rose Ausländers
+   Gemeinsam (1984), nämlich „diese zerrissene / ungeteilte Erde / auf der
+   wir / gemeinsam reisen.“ Aber viel unmittelbarer ist Reisegesellschaft
+   nötig: um das Heimweh zu dämpfen und die Einsamkeit in der Fremde nicht
+   spüren zu müssen. In Eichendorffs Heimweh (1841) ist der Reisegefährte
+   der Bruder des Sprechers: „Wir wollen zusammen wandern, / Reich
+   treulich mir die Hand!“. Dasselbe Motiv wird der Heimatlosigkeit in
+   Theodor Storms Gedenkst du noch? (1857) entgegengesetzt: „Wer in der
+   Heimst erst sein Haus gebaut, / Der sollte nicht mehr in die Fremde
+   gehen! / Nach drüben ist sein Auge stets gewandt; / Doch eines blieb, –
+   wir gehen Hand in Hand.“
+
+Reisegepäck: Gegenstände in der Reiselyrik
+
+   Jeder Reisende verreist mit Gepäck – mit realem oder imaginärem,
+   buchstäblich oder metaphorisch. Auch in der Lyrik begleiten Gegenstände
+   die Reise oder lassen ans Reisen denken. In Conrad Ferdinand Meyers Der
+   Reisebecher (1874) findet das lyrische Ich den Reisebecher des
+   verstorbenen Vaters und erinnert sich an eine lange zurückliegende
+   Wanderung: „Gestern fand ich, räumend eines langvergeßnen Schrankes
+   Fächer, / Den vom Vater mir vererbten, meinen ersten Reisebecher. /
+   Währenddes ich, leise singend, reinigt ihn vom Staub der Jahre, /
+   War’s, als höbe mir ein Bergwind aus der Stirn die grauen Haare, /
+   War's, als dufteten die Matten, drein ich schlummernd lag versunken, /
+   War's, als rauschten alle Quelle, draus ich wandernd einst getrunken.“
+   Der Wind als Symbol des Aufbruchs und mit ihm „das gefühl einer langen
+   reise“ zur Reise weht auch aus der Flasche in Peter Neumanns
+   buddelschiff (2014): „durch die schmale öffnung / im flaschenhals /
+   flaut ab, ein helles pfeifen“. Eine imaginäre Reise, die im Koffer
+   vollzogen wird, erlebt das lyrische Ich in Johannes Schenks
+   Überseekoffer (2000): „Morgen begeh ich mit Fernrohr unterm Arm / bei
+   gutem Wetter den Kofferdeckel / und bestaune das letzte Meer.“ In
+   Günter Kunerts Urlaubsfoto (1987) ist es eine Aufnahme „tote[r] Boote
+   auf den Stränden“ mit leeren Fischernetzen, die als Mahnung den
+   Aufbruch begleiten: „Noch ein Blick: Das Bild erfassen. / Dann mache
+   dich zur Abfahrt bereit.“ Eine andere Funktion haben die Postkarten in
+   Peter Salomons Vorübergehende Entfernung (1983): „Fotos von schönen
+   Landschaften“ und konventionelle Grüße erinnern an die
+   Ausnahmesituation der Urlauber, die mit der Rückkehr in den Alltag
+   abrupt endet.
+
+Reisegründe: Warum verreist man?
+
+   Die Gründe, weshalb man sich zu einer Reise aufmacht, sind so
+   vielfältig wie die möglichen Ziele einer Reise. Jeder Grund wiederum
+   unterliegt der Beurteilung durch die Daheimbleibenden. Warum reist
+   jemand? Aus Neugier (curiositas) oder aus Lebensüberdruss (taedium
+   vitae); um einer wie auch immer gearteten Not zu entfliehen; um sich
+   oder die Welt zu entdecken; um sein Seelenheil zu finden oder ein
+   Abenteuer; um der Heimat den Rücken zu kehren oder um sie
+   wiederzufinden; um Geschäfte zu machen oder Kriege zu führen. Zu den
+   bestehenden Gründen kommen in der Moderne neue Gründe, die sich aus dem
+   gesellschaftlichen Wandel ergeben: Urlaubs- und Erholungsreisen,
+   Vergnügungsreisen, Studienreisen. Ludwig Fels formuliert in Fluchtweg
+   (1984) einen ökologischen Grund zu reisen: „Man muss erfahren haben /
+   welche Welt vergeht.“ In Heines Wandere! (1844) empfiehlt der Sprecher
+   dem Adressaten, dem Liebesverrat ins Wandern zu entfliehen: „Schnüre
+   den Ranzen und wandre!“. Auch der Sprecher bei Joseph von Eichendorff
+   sich enttäuscht auf den Weg, als er feststellt, dass die Geliebte einen
+   anderen gefunden hat: „Ich aber wandt mich fort ins Feld, / Nun wandr
+   ich bis ans End der Welt!“. Ähnliches ergibt sich in Wilhelm Buschs
+   Reisegedanken (1877) aus der Tatsache, dass man erbarmungslos älter
+   wird: Die Forderung, die „versäumten Lebensziele“ zu begreifen. Die
+   sinnige Verbindung dieser Ziele („Freunde, Schönheit der Natur, /
+   Gesundheit, Reisen und Kultur“ ist naturgemäß das Reisen, und so mahnt
+   der Sprecher: „Darum, Mensch, sei zeitig weise! / Höchste Zeit ist’s!
+   Reise, reise!“. Als Grundmotiv des Reisens gilt auch das
+   ethnographische Interesse am Anderen; das Reisen verspricht Aufschlüsse
+   über die Eigenart anderer Nationen oder Kulturen. Bei Mascha Kaléko
+   erscheint dieses Motiv in ironischer Brechung, wenn sie ihre
+   Sehensnichtwürdigkeiten (1958) mit folgendem Hinweis eröffnet: „Wenn
+   man so durch die Länder reist, / Kommt man durch viele Zeiten / Und
+   erkennt der Nationen, sagen wir, ‚Geist‘ / An den
+   Sehensnichtwürdigkeiten.“ Die Reise kann auch der Überwindung der
+   Zivilisation dienen, ein Versuch sein, die brutale Ursprünglichkeit
+   eines einfachen Lebens zurückzugewinnen. Aus dieser Sicht erscheint
+   Europa, wie in Gottfried Benns Alaska (1913) als „Nasenpopel / Aus
+   einer Konfirmandennase“, während die ungezügelte Wildnis Alaskas dem
+   Mann allerlei Bewährungsproben bietet. Verwandt ist Wolfgang Hilbigs
+   „laßt mich doch“ (1965), in dem der Sprecher dem „warmen klebrigen
+   brei“ seines Zuhauses in „kalte fremden“ entfliehen muss. Reisen kann,
+   wie oben angedeutet, eine Flucht zum Ziel haben – durchaus auch eine
+   mehrfache Flucht, wie in Otto Julius Bierbaums Sentimentale Reise
+   (1905), der mit dem Vorsatz verreist, nicht nur vor sich selbst und dem
+   Adressaten zu fliehen, sondern vor allem, was ihn „täglich quält und
+   treibt und freudlos macht“. Seinem Vorsatz, er wolle „frei sein und
+   Zuschauer sein“, wird er nicht gerecht, und so endet er als „Maulwurf
+   …, [der] nur die engen Gänge sieht, die er durchwühlt.“
+
+Endlich da: Gedichte und überwältigendes Reiseglück
+
+   Wenn Reisende in Jerusalem in religiösen Wahn verfallen
+   (Jerusalem-Syndrom), in Florenz dem Zauber der Kunststadt nicht
+   standhalten (Stendhal-Syndrom) oder in Paris halluzinieren
+   (Paris.-Syndrom) – dann hat der Reiseeindruck das Fassungsvermögen der
+   Reisenden überfordert. Es erscheint im Zeitalter medialer
+   Dauerüberflutung kaum vorstellbar, dass ein Reiseziel den Reisenden so
+   in seinen Bann schlägt, dass er ihm nicht mehr gewachsen ist.
+   Reisegedichte können ein Versuch sein, die betäubende Vielfalt und
+   verstörende Fremdheit in den Griff zu bekommen. Das geschieht
+   beispielsweise durch Bezüge zum Mythos, passend zur Landschaft.
+   Friedrich von Matthison belebt in Abendlandschaft (1787-1794) das
+   Seeufer mit magischen Naturwesen: „Schleierlos / Tanzt auf Moos / Gnom
+   und Elfe, dort wo Rüstern / Am Druidenaltar flüstern“. In Joseph von
+   Eichendorffs Schöne Fremde (1834) machen „[u]m die halbversunkenen
+   Mauern / Die alten Götter ihre Rund’.“ Ein ebenso übliches Verfahren
+   ist es, sich eigene Mythen zu schaffen und das ersehnte Ziel zu
+   personifizieren. Zuweilen muss der überwältigende Eindruck sich eine
+   neue Sprache schaffen, sich in kühnen Metaphern und raunenden
+   Neologismen ausprägen, umso mehr, wenn sie ohnehin zum poetischen
+   Programm gehören. Dies geschieht beispielsweise in Georg Heyms
+   Ostseegedicht Gegen Norden (1911): „Es zittert Goldgewölke in den
+   Weiten / Vom Glanz der Bernsteinwaldung“.
+
+Reisezweifel und Reisekritik
+
+   Obgleich das Reisen an sich schon früh kritisiert wird, insbesondere,
+   wenn es eine Hingabe an Welt und Sinnenlust bedeutet, kann von einer
+   eigentlichen Reisekritik erst in der Moderne gesprochen werden: Erst
+   dann wird das Reisen um seiner selbst willen betrieben, um der
+   Bedeutungslosigkeit des eigenen Ichs zu entfliehen. Darauf nimmt etwa
+   Gottfried Benn in Reisen (1950) Bezug: „Ach, vergeblich das Fahren! /
+   Spät erst erfahren Sie sich: / bleiben und stille bewahren / das sich
+   umgrenzende Ich.“ Das Aufkommen von Fernreisen, die keine spirituellen
+   Ziele mehr verfolgen (wie Kreuzzug und Pilgerreise), sondern wie die
+   Grand Tour und die Entdeckungsreise nur der Selbst- und Welterkundung
+   dienen, erzeugt Druck auf die Sesshaften und fördert gleichzeitig deren
+   Reiseskepsis. Insbesondere seit dem Aufkommen der Eisenbahn gilt die
+   Kritik am Reisen besonders dem allzu schnellen Reisen, etwa in
+   Friedrich Rückerts Eilfahrt (1833): „Du hast, was Monde sonst getrennt,
+   / Wie Sonn’ in Einem Tag durchrennt. / Wie ein Spaziergang durch den
+   Garten, / Geht eine Fahrt durch Länderkarten“. In Theodor Fontanes
+   später Gedichtfolge Unterwegs und wieder daheim (1895) blickt ein
+   gealterter Sprecher kritisch auf sein Leben und das Reisen zurück. Der
+   Text lässt sich lesen als Absage an das Reisen und bietet einen Katalog
+   grundsätzlicher Einwände gegen das Reisen: Es sei kein „echtes Leben“,
+   es „wärm[e]“ nicht, es schaffe weder Glück noch Geselligkeit. Deshalb
+   folgert das lyrische Ich zuletzt: „Die Welt, die fremde, lohnt mit
+   Kränkung, / Was sich, umwerbend, ihr gesellt; / Das Haus, die Heimat,
+   die Beschränkung, / Die sind das Glück und sind die Welt.“ Noch
+   deutlicher wird Fontane in Welches von beiden, das die Mark Brandenburg
+   dem Latium gegenüberstellt, um dann zu folgern: „Lockt auch Fremde,
+   Schönheit, Pracht, - / Glücklicher hat mich die Heimat gemacht.“ Zu
+   einem ähnlichen Schluss kommt der Sprecher in Hans Magnus Enzensbergers
+   Kleiner Abgesang auf die Mobilität (2003). Nachdem alle denkbaren
+   Reiseziele von Bogotá bis Bujumbura mit Schwierigkeiten behaftet sind,
+   formuliert der Sprecher das nun wenig überraschende Fazit: „Noch am
+   ehesten auszuhalten / war es unter dem Birnbaum / zu Hause.“ Auch der
+   Reisende kann seinem Ich und den damit verbundenen Belastungen nicht
+   entkommen, sie nicht zurücklassen. Das konstatiert Kurt Tucholsky in
+   Luftveränderung (1924). Am Ende einer gedanklichen Weltreise wird der
+   Angesprochene desillusioniert: „Wie du auch die Welt durchflitzt ohne
+   Rast und Ruh – : / Hinten auf dem Puffer sitzt / du.“ Auch die
+   Sprecherin von Sarah Kirschs Unterwegs (1989) kann sich selbst nicht
+   entkommen, weder ihrem Körper, noch dessen Schatten: „Mein Körper der
+   mich begleitet / Lebenslänglich verfolgt / Von einem dunklen Schatten /
+   Geformt wie ein Hund versessen / Um mich zu sein.“ Matthias Politycki
+   deutet in Goldener Oktober (2005) ein verwandtes Problem an. Der
+   Sprecher sitzt in New Yorks Central Park, „inmitten bunter Blätter /
+   und jeder Menge Wolkenkratzer“ und meditiert darüber, was alles zu
+   unternehmen oder zu unterlassen sei, um im Schluss den Anfang
+   wiederaufzugreifen. Was immer man tut, man bleibt auch auf Reisen
+   derselbe: „Der solcherart säße / erlöst von all den Blättern, Enten,
+   Wolkenkratzern, / das wäre noch immer / kein anderer als ich.“ Manchmal
+   ist die Last, die das leichtfertige Reisen so schwer macht, dem
+   Reisenden nicht nur auf den Leib geschrieben, sondern unter die Haut.
+   Volker Braun schreibt in Bestimmung (2016): „Und so gern ich mich
+   erhebe / Zieht mich eine Last nach unten / Eingenäht in mein Gewebe /
+   Hat sie ihren Ort gefunden.“ Hermann Hesse verwendet das Bild des
+   inneren Kompasses, um in Resignation (1915) deutlich zu machen, dass
+   das Reisen ihn nicht „in der Erfüllung Reich“ führe: „Er weiß, der
+   Zeiger in der eignen Brust, / Weist stets denselben steilen Berg hinan
+   / Zu neuem Leid und keiner neuen Lust.“ Vergleichbares gilt für das
+   lyrische Ich in Mascha Kalékos Auf Reisen (c1968), das die Einsamkeit
+   zur Reisegefährtin erhebt, um am Ende festzustellen: „Die Fremde ist
+   Tröstung und Trauer / Und Täuschung wie alles. Von Dauer / Scheint
+   Traum nur und Einsamkeit.“ In Die Seßhaften (1976) formuliert Wolfgang
+   Bächler Zweifel daran, dass Reisen die geistig Verhockten noch
+   verändern kann: „Sie träumen von fernen Ländern / und hoffen, in
+   anderen Räumen / verändert zu erwachen“. Auch die romantische
+   Wanderung, längst volkstümlich geworden, zieht in der Moderne Kritik
+   auf sich. Wulf Kirsten lässt in ausflug (1969) Wanderer in Tirolerhüten
+   auf dem Weg „zum nächsten waldlokal“ das zum Volkslied gewordene
+   Eichendorff-Gedicht Der Jäger Abschied schmettern: „Wer hat dich…“.
+   Selbst der einstmals so tröstliche Gedanke, dass sich die Heimat auch
+   in der Fremde auffinden lasse, wird im Zeitalter reproduzierbarer,
+   eintöniger Urlaubserlebnisse fragwürdig. In Sarah Kirschs Fluchtpunkt
+   (1982) verschwindet schon der Weg selbst, weil „[d]ie eignen Maschinen
+   [uns zwingen,] / Ohne Verweilen weiterzurasen“. Letztlich lohnt sich
+   der Weg ohnehin nicht mehr, weil es die Fremde im Zeitalter ihrer
+   medialen Verfügbarkeit ohnehin nicht mehr gibt. Ähnliches stellt Günter
+   Kunert in Genug gereist (2011): „Ich bin kein Columbus. / Benötigte
+   Gewürze gibt’s / hinter der nächsten Ecke.“ Die Globalisierung lässt
+   eine Straße wie die nächste aussehen: „Alles ist austauschbar wo wir
+   auch sind“. Mit dem Massentourismus, dessen Vorboten die im Baedeker
+   schmökernden Bildungsbürger des 19. Jahrhunderts sind, findet die
+   Reisekritik ein neues Ziel: den Pauschalreisenden. In Paxe (2003)
+   karikiert Hans Magnus Enzensberger „[d]iese Leute mit ihren
+   Sonnenbrillen, / ihren Cremes, ihren komischen Mützen“, die von
+   Werbeprospekten in die Fremde gelockt und von Fremdenführern vor
+   „Trümmerfelder und Tempel“ genötigt werden, die sie nicht verstehen.
+   Schon Fallersleben beanstandet den Italien-Tourismus seiner
+   Zeitgenossen: Was ein „deutscher Philister“ sei, scheue sich nicht vor
+   Reisestrapazen, um nach der Besichtigung zahlreicher Sehenswürdigkeiten
+   sagen zu können: „Italien ist doch schön!“. Ein ähnlich dürftiges
+   Resumé bleibt dem Reisenden in Eugen Roths Nach der Reise (1973): „Da
+   war ich auch – vor dreißig Jahren!“. Weder das Aufschreiben noch das
+   Bildermachen verhelfen dem Reisenden dazu, die Reiseerinnerungen
+   festzuhalten. In beiden Fällen gilt die Kritik der fehlenden Intensität
+   des Erlebens, wenn nur Punkte auf einer Landkarte abgehakt werden.
+   Idealtypisch erfüllt Roths Reisender damit Ilja Trojanows Beschreibung
+   des Homo viator, des immerzu Reisenden: „Der Homo viator kommt
+   eigentlich nie wirklich an, er kehrt zurück und plant schon seine
+   nächste Reise, während er noch den Koffer der letzten Reise entleert.“
+   Als solcher kann sich der Homo viator kaum den Verlockungen der
+   Reiseindustrie entziehen, die mit geschönten Bildern um Kunden wirbt.
+   Jan Volker Röhnert beschreibt in Wahre Wunder (2014) die Überflutung
+   mit touristischen Werbemitteln: „Das Material, uns darauf einzustimmen,
+   / lag überall aus. Auf Monitoren, / Matratzen, Fellsesseln und
+   Fensterläden verstreut - / Bunte Prospekte, Wettersegel, Fesselballons,
+   Drachenkitsch.“ Dass die Tourismusindustrie dabei ihren Gewinn im Blick
+   behält, stellt Wilhelm Riedel in seinem Reisebüro-Gedicht xenophil
+   (2015) heraus: „Fernweh schweift über Berge, / um das geheimnisvoll
+   Fremde zu erreichen – / und den Umsatz zu steigern.“ Das Geschwätz
+   geistloser Pauschaltouristen imitiert Ralf Thenior in Gran Canaria
+   (1977). Ihre kulturelle Einsicht beschränkt sich auf die Einstellung,
+   es sei doch wirklich sauber auf den Kanaren, nur seien die Bewohner „so
+   arm“. Eine beißende Abrechnung mit Salzburg ist Erich Frieds Salzburg?
+   Der Sprecher gewährt der touristisch verhunzten Mozartstadt lediglich
+   die Aussicht, später zu einer Schönheit werden zu können, wenn „keine
+   Broschüren sie mehr anbieten und vermarkten.“ Einen „Vorgeschmack auf
+   die Hölle“ nennt das Reisen Durs Grünbein in Kosmopolit. Neben der
+   Eintönigkeit der Erlebnisse beanstandet er: „Dem Körper wird Zeit
+   gestohlen, den Augen Ruhe. / Das genaue Wort verliert seinen Wert.“
+
+Gedichte zum Geleit: Reisesegen und Reiselehre
+
+   Die beschwerlichen und nicht selten auch gefährlichen Reisebedingungen
+   bis zum Aufkommen des Komfortreisens in der Moderne machen den
+   Reisesegen zu einer der wichtigsten Gedichtformen. Dabei kann der
+   Reisesegen, wie etwa Goethes Reise-Segen für Gräfin Julie von
+   Egloffstein (1819), auch eine Einweisung ins rechte Reisen sein: „Sei
+   die Zierde des Geschlechts! / Blicke weder links noch rechts; / Schaue
+   von den Gegenständen / In dein Innerstes zurück; / Sicher traue deinen
+   Händen, / Eignes fördre, Freundes Glück.“ Ein weiterer Reisesegen
+   leitet den Roman Wilhelm Meisters Wanderjahre oder die Entsagenden
+   (1821) ein. Er fordert indirekt dazu auf, ins „eigne Herz und das der
+   Lieben“ zu sehen, sobald der Pfad „verfänglich“ wird. Auch in längere
+   Texte können Reisesegen eingestreut sein, wie jener Segensspruch, der
+   Ferdinand Freiligraths Die Auswanderer (1832) abschließt: „Der
+   Bootsmann winkt! – Zieht hin in Frieden: / Gott schütz’ euch, Mann und
+   Weib und Greis! / Sei Freude eurer Brust beschieden, / Und euren
+   Feldern Reis und Mais!“. Auch Ulla Hahns Reisesegen (2013), der das
+   Versprechen zum Ausdruck bringt, „niemals ans Ziel“ zu kommen, enthält
+   reisedidaktische Züge – jedoch weniger konkrete Handreichungen als
+   reisephilosophische Hinweise. Der Reisespruch (als weltliche Form des
+   Reisesegens) versucht den Reisenden über richtiges Reisen zu belehren.
+   Michael Moscherosch etwa schlägt in seinem Reisespruch (1640) vor, man
+   solle schweigend reisen, „steten Schritt[es]“ und mit leichtem Gepäck.
+   Otto Julius Bierbaum rät in Glück auf die Reise! (1897), sich von den
+   „kreischenden Zwergen“ in der Heimat lachend zu verabschieden: „Lach
+   ihnen Abschied! Fahr über das Meer! / Steig über die Berge!“.
+
+Kennst du das Land? Rom und Venedig in der Reiselyrik
+
+   Als Nabel der antiken Welt und Machtzentrum der katholischen
+   Christenheit fasziniert Rom deutsche Lyriker vom Humanismus bis zur
+   Gegenwart. Schon Andreas Gryphius nennt Rom in seinem Sonett Als Er aus
+   Rom geschidn (1646) eine „Stadt der nichts gleich gewesen“, deren
+   Reichtum an Altertümern und Kunstwerken das Auge überwältigt: „Man kann
+   euch nicht satt mit zwei Augen schauen.“ Romgedichte wie Ludwig Tiecks
+   Erster Anblick von Rom (1805/1806) bedienen sich aus einer Motivreihe,
+   die beim ersten Anblick der Ewigen Stadt beginnt, die Größe der Bauten
+   der eigenen Geringfügigkeit gegenüberstellt um endlich in der
+   Wirklichkeit der italienischen Gegenwart anzukommen. Auch verbindet
+   Goethe in seinen Römischen Elegien (1788 / 1790) die klassische
+   Schönheit mit der sinnlichen Grazie des Roms seiner Zeitgenossen,
+   bietet Reiseerlebnis im antiken Distichon dar. Die Begeisterung der
+   deutschen Klassiker glüht noch in Stefan Georges Rom-Fahrer (1899)
+   nach, der den Lesern Roms historische Größe ins Gedächtnis ruft: „Dort
+   gaukelt vor euch ein erhabnes ziel / Durch duft und rausch in marmor
+   und paneelen / Dort lasset ihr vom besten blute viel / Und ewig fesselt
+   eure trunknen seelen“. In Konstantin Weckers Rom (1978) bedarf es eines
+   ganzen Tageslaufs, ehe der Betrachter im nächtlichen Rom das Erlebnis
+   vieler Rombesucher sei Goethe wiederholt: „[D]u willst die ganze Stadt
+   umfassen – / Rom hat dich endlich. Nie mehr bist du frei.“ Ganz der
+   satirischen Desillusionierung des Rombegeisterten dient Robert
+   Gernhardts in ROMA AETERNA (1987), der einem an Rilke geschulten Sonett
+   über Roms Altertümer eine lakonische Pointe anhängt: „Rom hat viel alte
+   Bausubstanz.“ Letztlich verschwindet Rom ganz, zumindest als emphatisch
+   gefeierter Ort der Wiedergeburt antiker Größe. Durs Grünbein eröffnet
+   FORMA URBIS ROMAE (2010) mit einer lyrischen Verlustanzeige: „Alles da
+   ist verschwunden / Nichts mehr da von der Pracht, / Die der Grundriss
+   uns glauben macht.“ Besonders in der Klassik, als die deutsche Gemeinde
+   in Rom deutsche Dichter und Künstler anzieht und begeistert, wird die
+   Italienreise zum Gegenstand der Lyrik. Das sicher bekannteste Stück ist
+   das Lied der Mignon aus Goethes Roman Wilhelm Meisters Lehrjahre (1795
+   / 1796). Das oft parodierte Stück, das Goethe ohne unmittelbare
+   Anschauung Italiens verfasste, vereint typische Versatzstücke des
+   klassizistischen Italienbilds: die idyllischen Züge eines sorglosen
+   Südens und die Allgegenwart der idealisierten Antike, die erst nach der
+   Übersteigung der Alpen fühlbar werden: „Kennst du das Land? wo die
+   Citronen blühn, / Im dunkeln Laub die Gold-Orangen glühn, / Ein sanfter
+   Wind vom blauen Himmel weht, / Die Myrte still und hoch der Lorbeer
+   steht, / Kennst du es wohl? / Dahin! Dahin / Möcht’ ich mit dir, o mein
+   Geliebter, ziehn.“ Viele der Motive Goethes, etwa die Myrte, finden
+   sich auch bei Friederike Brun, die in der Ode Rückkehr auf sich
+   (1801-1810) resigniert berichtet, wie wenig Italiens Reiz bei der seit
+   über zehn Jahren gehörlosen Lyrikerin verfängt: „Meer, das hell den
+   schimmernden Aether spiegelt / Sanft die Wälder röthlicher Küsten
+   gürtend, / Mich vergebens lockst du mit deinen süßen / Schmeichelnden
+   Tönen!“. Die Süße Italiens ist aber nur um den Preis einer Reise vorbei
+   an schroffen Alpengipfeln zu kosten. Das Hochgebirge gibt erst
+   allmählich den Blick auf Italien frei, wo alles anders ist. In Conrad
+   Ferdinand Meyers La Röse (1873), der seinen Sprecher in der Poststation
+   La Röse auf der Südseite des Berninapasses rasten lässt, tost sogar das
+   Wasser „in weichern Lauten“. Bei aller Bezauberung durch Italiens
+   Schönheit kehren zahlreiche Autoren zurück, um die herbe Schönheit des
+   Nordens neu zu entdecken. In Joseph von Eichendorffs Rückkehr (1834)
+   spricht das lyrische Ich zunächst schwärmerisch vom „Berg Vesuv und
+   Romas Stern“, eher es zu der Überzeugung gelangt, es gefalle ihm „doch
+   nichts so sehr / Als das deutsche Waldesrauschen.“ Kein gutes Haar an
+   Italien lässt vollends August Heinrich Hoffmann von Fallersleben in
+   Addio! (1844). Sein auf den „28. September 1844“ datiertes Gedicht
+   liest sich wie eine Litanei eines von Italien durchweg Enttäuschten: Er
+   findet dort neben „Schmutz und Dürftigkeit“ ein „Volk der Wichte / Das
+   vom Ruhm der Vorwelt zehrt“, stört sich am, „ew’gen Sonnenschein“ und
+   an den italienischen Bettwanzen. Ein nostalgischer Rückblick auf
+   Italiens gesunkenen Stern dominiert in Italien von Isolde Kurz (1925):
+   „Hingestreckt zwischen beiden Meeren / Liegst du und träumst in
+   Mittagsruh’, / Götterliebling!“ Das personifizierte Italien genießt,
+   des „schwere[n] Lorbeer[s] ledig, einen „heiteren Abend“. Dass sich der
+   Reisende beim Weg nach Italien wandelt, ist das Ergebnis von Walter
+   Höllerers Jetzt geht’s nach Süden zu (1952): „Jetzt geht’s nach Süden
+   zu. / Von Eseln klipp und klapp. / Und endlich fällt von deinem Schuh /
+   Der Nordbär ab.“ In den Jahrzehnten nach dem Krieg wird die deutsche
+   Beziehung zu Italien wieder inniger, die zwischenzeitlich verschüttete
+   Liebe wird wieder ausgegraben und gedeiht bis zum Klischee. In Italien
+   (1982) rühmt die Sprecherin Italiens Gastfreundschaft: „Die Menschen
+   verstehen mich / antworten mir / mit gütigen Gesten / jeder Blick ein /
+   Willkomm-Gruß // Italien / mein Immerland.“ Auch in Rainer Malkowskis
+   Zu Gast bei Emilio (1983) heißt es zuletzt: „Wirklich, ich fühle mich /
+   hier deutlicher zu Hause.“ Eine Sonderstellung für deutsche Lyriker hat
+   (neben Rom) zweifellos Venedig, die verfallende Lagunenstadt, wo sich
+   Dekadenz und der Zauber untergegangener Größe treffen. Schon Goethe
+   setzt in den Venezianischen Epigrammen (1790) eine nächtliche
+   Gondelfahrt dem Leben gleich: „Zwischen der Wieg’ und dem Sarg wir
+   schwanken und schweben / Auf dem Großen Kanal sorglos durchs Leben
+   dahin.“ Die Klage um den Verfall der Adelsrepublik findet sich
+   beispielsweise bei August von Platen, der im 12. seiner 1824
+   entstandenen Sonette aus Venedig festhält: „Venedig liegt nur noch im
+   Land der Träume, / Und wirft nur Schatten her aus alten Tagen“. Das
+   Motiv der geheimnisvoll umschatteten Stadt, die im Dunkel der Lagune
+   versinkt, greift auch Conrad Ferdinand Meyer bekanntes Gedicht Auf dem
+   Canal grande (1889) auf: „Auf dem Canal grande betten / Tief sich ein
+   die Abendschatten, / Hundert dunkle Gondeln gleiten / Als ein
+   flüsterndes Geheimnis.“ Das Bild des Traums greift auch Friedrich
+   Hebbels Epigramm Venedig (1845) auf: „Wie ein verwirklichter Traum
+   begrüßt dich das bunte Venedig, / Wenn du es flüchtig durchschiffst“.
+   Der Traum, „das phantastische Bild“, löst sich jedoch auf, wenn der
+   Reiseführer von der Entstehung der Stadt berichtet. Als Überrest einer
+   glorreichen Vergangenheit, als Museum seiner eigenen Herrlichkeit,
+   erscheint die Serenissima in Hermann Hesses Ankunft in Venedig (1903):
+   „Von tiefem Traum besiegt, / Vom Tode eingewiegt, / Schläft hier die
+   Zeit“. Als eigentümlich zeitloses Wesen erscheint die Lagunenstadt auch
+   in Rainer Maria Rilkes Venezanischer Morgen (1908). Der Sprecher
+   beschreibt Venedig als „die Stadt, die immer wieder, wo ein Schimmer /
+   von Himmel trifft auf ein Gefühl von Flut, // sich bildet ohne
+   irgendwann zu sein“. Voller Todesahnungen ist auch Trakls In Venedig
+   (1913): Reglos nachtet das Meer. / Stern und schwärzliche Fahrt /
+   Entschwand am Kanal.“ Den Rang der Ewigkeit verleiht auch Stefan Zweig
+   der von der Morgensonne erleuchteten Stadt in Sonnenaufgang in Venedig
+   (1917). Der Zauber Venedigs überwältigt selbst die Skeptiker; die bloße
+   Erwähnung des Stadtnamens lässt die Umstehenden, wie in Friederike
+   Roths Sag Venedig (1985) in Verzückung geraten: „Sag Venedig. / Jeder
+   dreht / blödsinnig geworden die Augen nach innen“. Venedig ist kein
+   „zynischer Trick“. Venedig kann nicht verstanden werden, es wird
+   gefühlt, „von Welle zu Welle / von Brücke zu Brücke“. Solcherart
+   angeeignet ist Venedig eben doch unvergänglich. In Mein Venedig (1982)
+   von Rose Ausländer lautet die Schlussstrophe: „Mein Venedig / versinkt
+   nicht.“ In der Lyrik des neuen Jahrtausends wird allerdings auch
+   Venedig entzaubert: In EvaChristina Zellers canale grande (centro
+   tedesco) von 2007 scheint sich zunächst eine traditionsbewusste
+   Verbeugung vor Venedig anzubahnen, bis in der Beschreibung des
+   folgenden Morgens aller Zauber weicht: „am morgen die gondoliere das
+   handy am ohr / eine schwarze müllfrau wirft / schwarze säcke ins boot
+   der müllmann krault sich / die hand in der hose“. Ähnlich kritisch
+   äußert sich der Sprecher in Durs Grünbeins Venezianische Sarkasmen
+   (2007). Insbesondere der Ausverkauf Venedigs in Namen des
+   Denkmalschutzes beanstandet er, klagt über den Tourismus in elegischen
+   Distichen: „Er spült das Geld in die Kassen, zahlt für Müllabfuhr,
+   Feuerwehr, / Die Restaurierung der Kirchen im Tausch für Plunder und
+   Prunk.“
+
+Rückkehrgedichte
+
+   Jedes Abreisen schließt die Möglichkeit einer Rückkehr ein, die den
+   innerlich veränderten Reisenden an den Ausgangspunkt seiner Reise
+   zurückführt – der sich möglicherweise selbst verändert hat. Es bieten
+   sich zwei Möglichkeiten: die Rückkehr als Heimkehr in eine vertraute
+   Heimat, die das Subjekt schützend aufnimmt, zum anderen die Rückkehr in
+   eine Heimat, die dem Rückkehrer fremd geworden ist. In Adelbert
+   Chamissos Bei der Rückkehr (1818, zuvor mit „An die Heimat übertitelt“)
+   bittet der heimgekehrte Fernreisende, von seinen Gefühlen überwältigt,
+   um ein Grab in der Heimaterde: „O deutsche Heimat! – Woll ihm nicht
+   versagen / Für viele Liebe nur die eine Bitte: / Wann müd am Abend
+   seine Augen sinken, / Auf deinem Grunde laß den Stein ihn finden, /
+   Darunter er zum Schlaf sein Haupt verberge.“ Die andere Form der
+   Rückkehr führt Joseph von Eichendorff in Rückkehr vor. Das lyrische Ich
+   ist nach langem Aufenthalt in der Fremde selbst zum Fremden geworden:
+   „Am Brunnen steh ich lange, / Der rauscht fort wie vorher, / Kommt
+   mancher wohl gegangen, / Es kennt mich keiner mehr.“ Auch Eva Christina
+   Zellers Sprecher aus hälfte (im zug zürich – horb – tübingen) (2003)
+   erkennt nach der Rückkehr von einer Reise, dass das Zuhause fremd
+   geworden ist: „verluste häufen sich in den ecken / es riecht nach
+   katzen / und am ende wohnst du / in der fremde“. Besonders schmerzlich
+   ist die Rückkehr für den Exilanten. In Hans Sahls Charterflug in die
+   Vergangenheit (2009, postum) wird die Ankunft der Exilanten auf dem
+   Berliner Flughafen Tempelhof geschildert: „Die Nachgeborenen begrüßten
+   die / Überlebenden. / Schuldlose entschuldigten sich für / die Schuld
+   ihrer Väter.“ Das Gefühl ihres Verlusts ereilt die Exilanten aber erst,
+   als sie in die USA zurückgekehrt sind: „Als sie sich der Küste von /
+   Long Island näherten, / sahen sie die Schwäne auf der Havel / an sich
+   vorbeiziehen, / und sie weinten.“ Auch für den Exilanten in Carl
+   Zuckmayers Elegie von Abschied und Wiederkehr (1939) ist die Heimat
+   verloren, in die der Sprecher eines Tages zurückkehren wird: „Ich werde
+   durch erloschne Städte gehen, / Darin kein Stein mehr auf dem andern
+   Stein. […] Ich weiß, ich werde alles wiedersehen / Und nichts mehr
+   finden, was ich eins verlassen.“ Ganz ähnliche Mutmaßungen stellt das
+   lyrische Ich in Bertolt Brechts Rückkehr (1943) an: „Die Vaterstadt,
+   wie find ich sie doch? […] / Wo denn liegt sie? Wo die ungeheuren /
+   Gebirge von Rauch stehn.“ Den Verlust der Heimat prophezeit auch
+   Klabund dem Polarforscher in Abschiedsworte an einen Nordpolarfahrer
+   (1927): „Kehrst nach manchen Jahren dann zurück du – / Liegt Europa
+   brach von Menschen leer. / Bleib in deinem weißen Nordpolglück – / Du
+   findest eine goldne Welt nicht mehr.“
+
+Imaginäre Reisen: Seelenreise, Gedankenreise, Traumreise
+
+   Wer nicht reisen will und kann, verreist als Lyriker dennoch: auf den
+   Schwingen der Phantasie oder – wie Heinrich Heine im 10. Stück des
+   Lyrischen Intermezzos von 1823) – „[a]uf den Flügeln des Gesanges“. Der
+   poetische Entwurf liefert dazu wie in Friedrich Schillers Sehnsucht
+   (1801) das Panorama, in dem sich die Sehnsucht beheimaten kann. Das
+   Gedicht, das im Konjunktiv die Fluchtgedanken des noch Verharrenden
+   schildert, endet mit der Aufforderung, die innere Reise zu wagen: „Nur
+   ein Wunder kann dich tragen / In das schöne Wunderland.“ Die
+   Möglichkeit eines Reisens in der Phantasie kann auch zur Verweigerung
+   führen, wirklich zu reisen – dann wird, wie in Ludwig Uhlands Reisen
+   (1834), die Heimat mit ihren Gedächtnisspuren zu einem weitaus besseren
+   Reiseort: „Alt’ und neue Jugendträume, / Zukunft und Vergangenheit, /
+   Uferlose Himmelsräume / Sind mir stündlich hier bereit.“ Bei Uhland
+   führt die Intensität dieser Seelenreise letztlich zur Flucht: „Darum,
+   Freunde! will ich reisen; / Weiset Straße mir und Ziel! / In der Heimat
+   stillen Kreisen / Schwärmt das Herz doch allzuviel.“ Oft sind es Vögel,
+   an die sich die Gedanken heften, wenn eine Seelenreise beginnt,
+   beispielsweise in Friedrich Nietzsches Im Süden, wo das lyrische Ich
+   sich von Vögeln das leichte Schweben abschaut: „Ich hieß den Wind mich
+   aufwärts heben, / Ich lernte mit den Vögeln schweben, — / Nach Süden
+   flog ich über’s Meer.“ Verwandt ist Bertolt Brechts Lied der
+   Starenschwärme (1932), in der sich der Sprecher als Mitfliegender in
+   einen „in südlicher Richtung“ fliegenden Starenschwarms inszeniert. In
+   Hugo von Hofmannsthals Reiselied (1908) wird das lyrische Ich von
+   Vögeln in ein utopisches Land entführt: „Kommen schon auf starken
+   Schwingen / Vögel her, uns fortzutragen.“ In Stefan Zweigs Hymnus an
+   die Reise (1924) ist das Fliegen die einzige Möglichkeit, sich von der
+   Melancholie zu lösen und sich selbst zu finden: „Im Flug nur entfliehst
+   du der eigenen Schwere, / Die dir dein Wesen umschränkt und erdrückt. /
+   Wirf dich ins Weite, wirf dich ins Leere, / Nur Ferne gewinnt dich dir
+   selber zurück!“. Auch Konstantin Wecker greift das Vogelmotiv auf, mit
+   dem er in Ich fliege (1986) das in diesem Fall an den Ikarus-Sturz
+   erinnert: „Ich fliege übers / Ach-ich-kann-nicht-Meer. / Die Wolken
+   prasseln meine Flügel nass.“ Traumreisen können willkürlich
+   durchgeführt werden oder sich unwillkürlich vollziehen. Letzteres
+   geschieht in Eva M. SirowatkasLautlose Reise (1976), deren Sprecherin
+   im Traum „in lautlosen Zügen / ostwärts“ fährt. Die Lautlosigkeit der
+   Landschaft ergibt sich zum einen aus der Zugfahrt, die den Reisenden
+   von der Landschaft isoliert, zum anderen ist sie wie
+   Bewegungsunfähigkeit und Sprechversagen ein Anzeichen für den Zustand
+   des Träumens. Einen traumhaften Ritt „auf einem schwarzen Pferde“
+   beschreibt Franzisca Stoecklin in ihrem Gedicht Im Traum. Der Sprecher,
+   im Traum „ein junger Edelmann“, reitet ziel- und orientierungslos durch
+   die Nacht: „Ich wusste nicht, woher ich kam. / Ich wusste nicht, wohin
+   ich ritt.“ In Kerstin Hensels auf Shakespeare anspielende
+   Hochsommernachtstraumreise (1988) zieht das lyrische Ich nachts durch
+   einen mythischen Wald von Arden, in dem Boviste rauchen und Puck
+   herumtollt. Traumreisen enden naturgemäß damit, dass der Träumende
+   seine Augen öffnet. In Peter Beitlichs Sehnsucht (1971) nähert sich das
+   lyrische Ich im Traum zunächst „fernen Ländern / weiten Sternen /
+   fremden Welten“, ehe ihn ein Blinzeln mit der Welt konfrontiert, die
+   „freudlos hässlich kalt“ ist. Die Gedankenreise (ganz im Sinne des
+   Volkslieds Die Gedanken sind frei) beschreibt Joachim Ringelnatz in
+   seinem humoristischen Gedicht Zu Dir. Die Gedanken sind Reisende, die
+   man nicht aufhalten kann: „Sie schritten durch eine steinerne Wand, /
+   Durch Stacheldrähte und Wüstenbrand, / Durch Grenzverbote und
+   Schranken, / Und durch ein vorgehaltenes Gewehr.“ Eine Reise des
+   Herzens in „silberne Ferne“ entwirft Louis Fürnberg in Der neue
+   Odysseus (1948). Die homerische Odyssee wird zur sinnlosen Suche nach
+   dem Rätsel der Existenz: „Wohin? Um der Fahrten willen, des steten
+   Entdeckens, / um der unersättlichen Neugier planlosen Suchens, / nimmer
+   innezuhalten und hinzutreiben“. Das reisende Wort ist eine weitere
+   Variante der Gedankenreise – ob es als Schall oder Brief reist, es
+   lässt seinen Urheber zurück und nimmt ihn zugleich mit. Dieses Paradox
+   ist in Eveline Haslers Auf Wörtern reisen (1993) angelegt: „Im Zimmer
+   sitzen / und auf Wörtern reisen // Auf Sätzen durch verschlossene Türen
+   fliegen / Herzen / aufschliessen mit dem / Schlüssel Wort“. Wie Wörter
+   können auch Bilder Reisen ermöglichen, Reisen in den fiktiven Raum des
+   Bildes. In diesem Sinne bereist die Sprecherin in Friedrich Mayröckers
+   lieber in Gedanken reisen, Hokusai (1994) den Bildraum des Fuji-Bilds
+   des im Titel genannten Farbholzschneiders: „Wie, frage ich, Erkundungen
+   einer Ferne / mit den eigenen Füßen, wie, frage ich, Erfahrungen einer
+   Ferne, / mit den eigenen Augen. Wie Sehnsucht nach Ferne / mit
+   Sesshaftigkeit vereinen.“ Wenn schon das Bild eine Reise ermöglicht, um
+   wieviel mehr dann das Fernsehen? In Liegewagen (1998) von Richard
+   Pietrass reist der Sprecher klimafreundlich auf dem, Sofa („Mein Fahren
+   tut dem Wald nicht weh“) durch eine „stummverfilmte Frühlingswelt“.
+   Lange vor der Erfindung des Fernsehers war die gebräuchlichste Form des
+   Reisens das Reisen mit der Lektüre. In Theodor Fontanes Meine Reiselust
+   wird eine Reihe exotischer Reiseziele genannt. Spätestens die Erwähnung
+   der einsam Insel Salas y Gomez macht deutlich, dass die Reise nur eine
+   erlese ist: „Nach Salas y Gomez wurde ich getrieben, / Wo der Mann die
+   drei Schiefertafeln geschrieben“. Es handelt sich um sekundäre
+   Reiselyrik, die Anspielung gilt Adalbert von Chamissos Salas y Gomez
+   (1830): „Salas y Gomez raget aus den Fluten / Des stillen Meers, ein
+   Felsen kahl und bloß“. In Paul Boldts Gedicht In der Welt (1914) ist es
+   das Ich, das die physisch erfahrbare Welt verlässt, um sich auf die
+   „Sternenreise“ zu begeben: „Mein Ich ist fort. Es macht die
+   Sternenreise.“ Solcherart ist auch Nadja Küchenmeisters reise zum mond
+   (2014), die keine Weltraumreise im eigentlichen Sinne ist, sondern eine
+   Reise ins Nirgendwo, wo sich Phantasie und sinnliche Erfahrung
+   vermischen. Eine Sonderform der Seelenreise ist die Reise in die eigene
+   Seele – als Entdeckungsfahrt ins Selbst wie in Der Abenteurer (1932)
+   von Joachim Ringelnatz, der beim Reisen durch seine „eigene Brust“ die
+   Weiten auszumessen hofft: „Ich will mich treiben lassen / In Welten,
+   die nur ein Fremder sieht.“
+
+Sehnsüchte: Sehnsucht, Fernweh und Heimweh
+
+   Kein Wort bringt die Grundhaltung romantischer Lyriker so deutlich zum
+   Begriff wie „Sehnsucht“: das Gefühl der inneren Trennung vom Hier und
+   Jetzt. Sehnsucht ist das Gefühl, hinausgezogen zu werden in die Ferne,
+   nicht bleiben zu wollen, wo man ist. Auslöser der Sehnsucht kann der
+   ungehemmte Vogelflug sein – etwa in dem bekannten Volkslied Der Flug
+   der Liebe aus Herders Stimmen der Völker in Liedern (1778): „Wenn ich
+   ein Vöglein wär’ / Und auch zwei Flüglein hätt’, / Flög’ ich zu dir.“
+   Der Modus der Sehnsucht ist der Konjunktiv der Unmöglichkeit – Flügel
+   mag man sich wünschen, erlangen wird man sie nicht. In Friedrich
+   Schillers Sehnsucht (1802) malt sich der Sprecher aus, er könnte
+   fliegen: „Hätt ich Schwingen, hätt ich Flügel, / Nach den Hügeln zög
+   ich hin.“ Ihm ist jedoch klar: „Nur ein Wunder kann dich tragen / In
+   das schöne Wunderland.“ Ihm Ein anderes Motiv, das Sehnsucht auszulösen
+   vermag, ist der entfernte Mond. In Eichendorffs Sehnsucht (1834) sind
+   es die bekannten Sehnsuchtssignale, die man auch aus anderen Texten der
+   Romantik kennt: das „Posthorn im stillen Lande“, das Wanderlied der
+   Gesellen und das Rauschen entfernter Brunnen. Das romantische Sinnbild
+   der Sehnsucht schlechthin ist jedoch die blaue Blume aus Novalis’ Roman
+   Heinrich von Ofterdingen – sie ist jedoch, wie in Eichendorffs Die
+   blaue Blume, auch nach langer Suche nicht auffindbar: „Ich wandre schon
+   seit lange, / Hab lang gehofft, vertraut, / Doch ach, noch nirgends hab
+   ich / Die blaue Blume geschaut.“ Die zunehmende Vorfreude auf eine
+   Wiedervereinigung mit dem Vertrauten lässt die Reisezeit
+   zusammenschmelzen. In Erich Frieds Rückfahrt nach Bremen (1983) lässt
+   die Erwartung der Geliebten die Strapazen der Rückreise vergessen:
+   „Dann im Morgengrauen / die Bahn / monoton / ermüdend / aber zu dir
+   hin.“ In Mascha Kalékos Sehnsucht nach dem Anderswo wird jegliches
+   Mittel verworfen, wie der Sehnsucht zu entkommen sei, das einerseits
+   das heimische Herdfeuer, andererseits der pfeifende „Vagabundenwind“
+   auslösen: „Der Sehnsucht nach dem Anderswo / Kannst du wohl nie
+   entrinnen: / Nach Drinnen, wenn du draußen bist, / Nach Draußen, bist
+   du drinnen.“ Das naheliegendste und zugleich schleierhafteste
+   Reisemotiv ist eine Sonderform der Sehnsucht: das Fernweh, die
+   unbestimmte Ahnung, dass es woanders besser sei. In Charlotte von
+   Ahlefelds Sonett Streben in die Ferne (1808) lautet die Antwort auf die
+   Frage, was die Sprecherin „in’s Weite“ rufe: „Es ist der Hoffnung
+   wunderbares Wehen / Das weit entlegne Länder mir verklärt“. Ähnliches
+   formuliert Ludwig Tieck in Sehnsucht (1797): „Ach! ach! wie sehnt sich
+   für und für / O fremdes Land, mein Herz nach dir.“ Das Gegenstück zum
+   Fernweh ist das Heimweh, das den Reisenden oft unvermittelt in der
+   Fremde anfällt und die Reisefreuden trübt. In August Heinrich Hoffmann
+   von Fallerslebens Heimweh in Frankreich (1839) wünscht sich der
+   Sprecher zwischen Saône und Rhône zurück nach Deutschland: „Die Fremde
+   macht mich still und ernst und traurig; / Verkümmern muss mein frisches
+   junges Herz. / Das Leben hier, wie ist es bang und schaurig, / Und was
+   es beut, ist nur der Sehnsucht Schmerz.“
+
+Gemächliches Betrachten: Lyrische Spaziergänge
+
+   Der Spaziergang, der keiner Vorbereitungen bedarf und sich von der
+   Wanderung durch seine Kürze, Ziellosigkeit und Gemächlichkeit
+   unterscheidet, ist ein kulturhistorisches Phänomen der Muße. Nur wer
+   nicht arbeiten muss, kann sich zu einem Spaziergang aufmachen, der
+   seinerseits Zeit und Anregungen für das Philosophieren bietet. Ein
+   Beispiel für philosophische Spazierlyrik ist Friedrich Schillers
+   umfangreiches Reflexionsgedicht Der Spaziergang, 1795 unter dem Titel
+   Elegie veröffentlicht. Spaziergedichte wie Friedrich Hölderlins Der
+   Spaziergang aus seiner Zeit im Tübinger Turm (1807-43) vereinen daher
+   oft Landschaftsblick und Innenschau. Das Lustwandeln und Ambulieren
+   rettet sich als Flanieren und Promenieren aus den Adelsgärten des
+   Barocks auf die Boulevards des Bürgertums, wo man während des
+   gemächlichen Gehens auch Kontakte pflegen kann. Einen Höhepunkt
+   erreicht die lyrische Beschäftigung mit Spaziergängen zur Zeit der
+   Jahrhundertwende. Das ostentativ langsame Gehen gibt dem Dandy, dem
+   Flaneur, Gelegenheit zum Weltgenuss und zur Zurschaustellung seiner
+   Unangestrengtheit. Der Ästhetizist findet reichlich Material für Lyrik,
+   die in kostbaren Bildern schwelt. Spaziergedichte gibt es sowohl von
+   Hugo von Hofmannsthal, von Clara Müller-Jahnke, aber auch an Kafkas
+   Prosaskizze Der plötzliche Spaziergang wäre zu denken. An der
+   Universität Kassel wird das abgesunkene Kulturgut des Spaziergangs von
+   der Promenadologie (Spaziergangswissenschaft) untersucht, um das
+   langsame Wahrnehmen für die Nachwelt aufzubewahren. Lyrische
+   Spaziergänge können von einer Beobachtung oder einem Erlebnis in die
+   Reflexion ausschweifen – in Klabunds Spaziergang (1927) ist es
+   Vogelkot, der ein Räsonieren über die Ungerechtigkeit der Natur
+   anstößt. Andererseits ermöglicht der Spaziergang im Gegensatz zur
+   kraftraubenden Wanderung auch Gespräche zu zweit, die in Gedichten auch
+   von Naturbeobachtungen ausgehen können. In Hedwig Lachmanns Spaziergang
+   (1919) legt das Naturbild ein Liebesgeständnis nahe, das aber
+   unterbleibt: „Zwei helle Birken an der Waldeswand. / Ein Spinngewebe
+   zwischen beiden, sieh! / Wie ist es zart von Stamm zu Stamm gespannt! /
+   Was uns zu tiefst bewegt, wir sagen’s nie.“ Gegenstand des
+   Spazierganggedichts kann auch das langsame Vergehen der Zeit sein, die
+   Gelegenheit gibt, im Traum zu versinken wie in Georg Trakls
+   Spaziergang: „Du träumst: die Schwester kämmt ihr blondes Haar, / Auch
+   schreibt ein ferner Freund dir einen Brief. / Ein Schober flieht durchs
+   Grau vergilbt und schief / Und manchmal schwebst du leicht und
+   wunderbar.“ Im Gegensatz zum Wanderer, der sein Ziel erreichen möchte,
+   hat der Spaziergänger Muße, stehenzubleiben – wie Hugo von
+   Hofmannsthals Sprecher in Spaziergang (1893), der an einen Bretterzaun
+   gelangt und über die Welt dahinter spekuliert. Das ruhige
+   Durchschreiten der Natur kann allerdings auch heilsam sein- Aus einem
+   längeren Spaziergang bringt der Sprecher in Der Spaziergang von (1785)
+   Johann Gaudenz von Salis-Seewis folgende Erkenntnis mit: „Wenn euch die
+   Sorgen drücken, / Geht in das weite Feld hinaus; / Trost wird euch da
+   erquicken. / Im Leiden Mut und Labung nur / Gewährt die heilige Natur!“
+
+Gedichte über Städtereisen
+
+   Die Anzahl der seit dem Barock entstandenen Städtegedichte ist
+   unübersehbar. Für die Reiselyrik relevant sind insbesondere Texte, die
+   sich a) dem Abschied aus einer Stadt, b) dem Herannahen und der Ankunft
+   und c) der Beschreibung eines Reiseziels widmen. Eine Sonderform ist
+   das vom Reisenden zum Ausdruck gebrachte Städtepreis, eine Lobpreisung
+   einer Reisestation. Ein barockes Beispiel ist Paul Flemings Er redet
+   die Stadt Moskau an (1636), in dem er Russlands Hauptstadt als „edle
+   Kaiserin der Städte der Ruthenen“ preist. Das Städtelob verkehrt sich
+   in der Moderne zur Zivilisationsklage. In Rolf Dieter Brinkmanns
+   Gedicht (1975) entsteigt der desillusionierte Reisende dem Zug, um eine
+   von Unrat und Enttäuschung entstellte Stadtlandschaft zu beschreiben:
+   „Zerstörte Landschaft mit / Konservendosen, / die Hauseingänge / leer,
+   was ist darin? Hier kam ich // mit dem Zug nachmittags an“.
+
+Gedichte über Sommerfrische und Urlaub
+
+   Das Urlaubsgedicht ist eine kulturgeschichtlich relevante Sonderform
+   des Reisegedichts. Zwar gibt es bereits in der Minnelyrik das
+   mittelhochdeutsche „urloup“ als Erlaubnis des Dienstherrn, wegzugehen.
+   Seine arbeitsrechtliche Bedeutung erhält der Urlaub erst im
+   Kaiserreich: 1903 werden erste tarifliche Vereinbarungen zum
+   Jahresurlaub getroffen. Erst das Bundesurlaubsgesetz (BUrlG) vom
+   8.1.1963 regelt die Mindesturlaubsdauer für Arbeitnehmer und gewährt 24
+   Tage Jahresurlaub zur Wiederherstellung der Arbeitskraft. Damit wird
+   deutlich: Urlaubsreisen sind Reisen von Arbeitnehmern, ihr Zweck ist
+   die Erholung, wie auch immer sie ausfallen möge. Schon in Oskar Kanehls
+   Am Strande (1913) klingen typische Motive des Urlaubsthemas an,
+   zeitgemäß verknüpft mit der seit der Jahrhundertwende populären
+   Freikörperkultur, dem Naturismus: „Wir liegen nackt und lassen uns
+   besonnen.“ Es gehört zu den Eigenheiten des Urlaubs, eben nichts zu tun
+   – den Nietzscheband „ungelesen“ liegen zu lassen, nichts zu denken, mit
+   der Natur zu verschmelzen. Eine Kulturstudie der bürgerlichen
+   Sommerfrische ist Ludwig Thomas Sommer-Idylle (1901): „Berge und Täler
+   sind jetzt voll von Menschen / Welche sich Urlaub genommen haben / Und
+   an der reinen Luft der Kurorte / Sowohl sich als ihre Angehörigen
+   laben“. Der Text versammelt das typische Personal der Sommerfrische:
+   ahnungslose Städter, höhere Töchter bei der Balz, Damen beim
+   Kaffeklatsch, Skat klopfende Ehemänner. Ein modernes Sittenbild des
+   Urlaubs in der Fremde liefert Hans Magnus Enzensberger in Der Urlaub
+   (1980). Zu den Gemeinplätzen des Urlaubserlebnisses gehört die schwüle
+   Erotik des Fremden genauso wie das Zusammentreffen mit Bekannten aus
+   der Heimat; die koloniale Abwertung des Gastgeberlandes und die zäh
+   sich ausdehnende Langeweile am Strand, wo Kreuzworträtsel gelöst
+   werden.
+
+Reisedrang: Vagabunden und Vaganten
+
+   Die seit dem Frühmittelalter bezeugte lateinische Vagantenlyrik
+   entfaltet sich zu einer reichen volkssprachlichen Tradition, die nicht
+   nur die Fahrenden, sondern auch temporär Wandernde einschließt. Zu
+   denen, für die das Wandern eine soziale Notwendigkeit darstellt,
+   gehören Tagelöhner, Hausierer, Spielleute, Schausteller, Handwerker und
+   Handwerksburschen. Noch 1945 reflektiert Mascha Kaléko im
+   Vagabundenspruch (1945) die Heimatlosigkeit des vom Schicksal
+   Umhergetriebenen. Die Verlockung des Abenteuers treibt auch die
+   Sprecherin in Kalékos Sehnsucht nach dem Anderswo (1977) an: Sobald der
+   Vagabundenwind pfeift, entbrennt die „Sehnsucht nach dem Anderswo“. Das
+   Vagabundieren stand jahrhundertelang unter Strafe oder zumindest im
+   Verdacht, sozialschädliches Verhalten zu begünstigen; eine Studie des
+   Forensikers Ludwig Mayer aus dem Jahre 1899 postulierte einen
+   „Wandertrieb“ als Hauptursache für Landstreicherei, um die
+   Strafverfolgung Wohnsitzloser zumindest einzuschränken. Gleichzeitig
+   erscheinen „Zigeuner“ in mythischer Verklärung; mit dem Leben der Sinti
+   und Roma hat diese romantisierte Vorstellung kaum etwas zu tun: Sie
+   liefert dem Sesshaften die Verheißung des freizügigen, selbstbestimmten
+   und lustbetonten Lebens, fernab von bürgerlicher Sittenstrenge und
+   staatlicher Kontrolle. Der Vagabund ist im regellosen Draußen ganz auf
+   sich gestellt, und mag er auch alles verloren haben (wie der Sprecher
+   in Klabunds Vagabundenlied von 1919), so bleibt ihm doch „die Seele,
+   welche fühlt.“ Wer nichts hat und sich niemandem verbunden fühlt,
+   „tiefer wissend, dass man nirgends bleibt“, der mag wie ein
+   hinduistischer Wandermönch, nichts mehr begehren. In Rainer Maria
+   Rilkes Der Fremde verzichtet der Wandernde auf „Lust, Besitz und Ruhm“,
+   streift also alles Diesseitige ab. Der vogelfreie Vagabund orientiert
+   sich nicht an Gartenzäunen und festen Häusern, sondern an den
+   Zugvögeln. Auch wenn der Sprecher in Rüdiger Posths Zu Hause ist
+   nirgendwo (2007) eine andere Zugrichtung wählt als die zum Äquator,
+   weiß er sich den Zugvögeln verwandt: „[I]ch küsse die vielen Schnäbel
+   bis / meine Lippen bluten zu Hause ist nirgendwo.“ Auch für Musiker,
+   deren Handwerk die Notwendigkeit des Fahrens oft einschließt, kann es
+   naheliegend sein, sich als Vagabund zu begreifen. Hannes Wader etwa
+   eröffnet Heute hier, morgen dort (1972) mit einer Vagabundenlosung, die
+   das Unstete des reisenden Liedermachers zum Ausdruck bringt: „Heute
+   hier, morgen dort / Bin kaum da, muss ich fort / Hab’ mich niemals
+   deswegen beklagt.“ Der Vagabund scheint von einem inneren Drang
+   erfüllt, reisen zu müssen – er reist nicht auf ein Ziel hin, sondern
+   wird von Station zu Station weitergetrieben. In Conrad Ferdinand Meyers
+   Wanderfüße (1882) wird der Wanderdrang in den Füßen verortet. Während
+   der Sprecher sein fortschreitendes Alter nicht leugnen kann, scheinen
+   die Füße unweigerlich jung: „Durch das leichte Paar, das stets
+   entflammte, / Bin ich der zum Reiseschritt verdammte.“ In Robert
+   Walsers Weiter (1909) beendet der Kehrreim „es trieb mich weiter“
+   jeglichen Aufenthalt, das unbestimmte „Es“ macht jedes Bleibenwollen
+   zunichte. Der solchermaßen Getriebene fühlt sich dem Fernweh auf Gedeih
+   und Verderb ausgeliefert. In Christian Morgensterns Wohin? (1894-1898)
+   wendet sich das lyrische Ich, eingespannt zwischen „dunkle[m]
+   Vergessen“ und „der Zukunft / dunklere[m] Pfad“ an das Fernweh selbst:
+   „Wohin noch / wirst du mich reißen, / ruhlose Sehnsucht – / wohin?
+   wohin?“. Der Ort, auf dem sich der Vagabund zu Hause fühlt, ist die
+   Landstraße, dort trifft er die Heimatlosen. In Rose Ausländers
+   Landstraße (1984) heißt es: „Auf der Landstraße / treffen wir uns /
+   Weggefährten // Auf der Landstraße / westlich östlich / im Süden und
+   Norden.“ In Albert Ostermaiers the motel chronicles (2007) schlägt der
+   Sprecher vor: „lass uns einfach aufbrechen / überleg nicht lang & von /
+   motel zu motel ziehen es / müssen die einsamsten / sein die irgendwo
+   auf einer / landstraße ins nirgends“.
+
+Auf Schusters Rappen: Lyrische Wanderungen
+
+   Die Wanderung zu Fuß, langsam und mühselig im Vergleich zu Kutschfahrt
+   und Ritt, ermöglicht ein genaueres Betrachten der Umgebung.
+   Gleichzeitig lädt sie dazu ein, diese ursprünglichste aller Reiseformen
+   von der Reise hoch zu Ross abzugrenzen. Dies tut beispielsweise Leopold
+   Friedrich Günther von Goeckingk in Erkannte Wohltat (1780): „Ich danke
+   Gott, dass ich zu Fuß muss gehen, / Nicht fahren und nicht reiten
+   kann!“. Wer auf Schusters Rappen unterwegs ist, sieht nicht unbedingt
+   mehr, aber anderes als der Kutschenreisende – das spiegelt sich in der
+   Reiseliteratur, man vergleiche Seumes Spaziergang nach Syrakus etwa mit
+   Goethes Italienischer Reise. In Texten des neuen Jahrtausends
+   dominieren nostalgische Rückverweise an Fußreisen, die den zeitgemäßen
+   oder zumindest gerade modernen Reisemöglichkeiten gegenübergestellt
+   werden. In Jan Wagners trapper (2010) schlägt sich ein Trapper durch
+   eine feindliche Umwelt, um dann am Rand einer Straße zu verenden,
+   während das lyrische Ich und seine Begleitung „im mazda /
+   vorüberfahren“. In Uta Regolis Über die Alpen (2013) wird die
+   Beschwerlichkeit der fußläufigen Alpenüberquerung in grauer Vorzeit
+   („Passlos / rastlos / ratlos / treulos / über die Alpen“) der
+   Mühelosigkeit einer modernen Alpenfahrt und der poetischen
+   Alpenüberwindung gegenübergestellt. Wanderungen gibt es in der Lyrik
+   seit der Antike, dominant wird das Motiv allerdings in der Romantik.
+   Der isolierte Wanderer der Romantik schwankt zwischen Fremdheitsgefühl
+   und Allverbundenheit, Herumirren und Aufgehobensein. Er bewegt sich
+   durch eine poetisierte Natur, die seinen Seelenzustand spiegelt und die
+   Möglichkeit zur Selbstreflexion spiegelt. Der Wanderer entsagt der
+   philiströsen Sesshaftigkeit, um sich von der Sehnsucht sorglos in die
+   Ferne treiben zu lassen, wie in Joseph von Eichendorffs Der frohe
+   Wandersmann (1817): „Die Trägen, die zu Hause liegen, / Erquicket nicht
+   das Morgenrot, / Sie wissen nur vom Kinderwiegen, / Von Sorgen, Last
+   und Not um Brot“. Zum Motivschatz des Wandergedichts in Romantik und
+   Biedermeier gehören außerdem die Trennung von der Geliebten und der
+   Höhenblick in die Vergangenheit; die Begleitmusik liefert der singende
+   Wanderer selbst oder die Wappenvögel der Romantik: Lerche und
+   Nachtigall. Die Nähe der Romantiker zum idealisierten Handwerk zeigt
+   sich auch im Thema der Gesellenwanderung. Die Walz verschafft schon im
+   Volkslied Es, es ist ein harter Schluss (19. Jh.) Entlastungen von den
+   Bedrückungen der Lehrzeit und den Liebeshändeln: „Ich will mein Glück
+   probieren, / Marschieren!“. Die Walz liefert die Grundlage zu Wilhelm
+   Müllers bekanntem Lied Wanderschaft (1818), das den geradezu
+   sprichwörtlichen Müller auf Reisen schickt – das Modell seines Wanderns
+   entnimmt er dem Handwerk: dem Wasser, das „stets auf Wanderschaft
+   bedacht“ und den Mühlrädern, die „gar nicht stille stehn“. Wer wandert,
+   entzieht sich gesellschaftlichen Zwängen und folgt seiner Wanderlust
+   (die als Germanismus ins Englische übernommen wurde); er lässt zurück,
+   was ihn niederdrückt und hemmt: „Wo wir uns der Sonne freuen, / Sind
+   wir jede Sorge los; / Dass wir uns in ihr zerstreuen, / Darum ist die
+   Welt so groß“ (Johann Wolfgang Goethe: Wanderlied, 1821 / 1829). Damit
+   ist die Lust am Wandern eben kein Herumirren (im Sinne einer
+   Poriomanie), sondern ein bewusstes Erleben seiner selbst in Bewegung.
+   Im Gegensatz zur Kutschfahrt und selbst zum Ritt wendet sich der
+   Wanderer wohin er will – die Wanderung ist ein Ausdruck von Freiheit,
+   von selbstbestimmter Bewegung. Joseph Victor Scheffels Wanderlied
+   Ausfahrt endet mit solch einer Freiheitsbekundung: „Mag lauern und
+   trauern, / Wer will, hinter Mauern, / Ich fahr‘ in die Welt.“ Die
+   Sternwanderungen der Lehrlinge und Studenten des Vormärz zum
+   Wartburgfest (1817) und zum Hambacher Fest (1832), oft von Liedern
+   untermalt, schaffen Gemeinsamkeit, aber in Freiheit, ohne die
+   Bedrückungen eines autoritären Staats. Vor diesem Hintergrund lässt
+   sich Emanuel Geibels Wanderlied (1848) verstehen: „O Wandern, o
+   wandern, du freie Burschenlust! / Da weht Gottes Odem so frisch in die
+   Brust, / da singet und jauchzet das Herz zum Himmelszelt: / wie bist du
+   doch so schön, du weite, weite Welt!“ Auch die Umgebung und die
+   Beziehung des Ichs zur langsam erschlossenen Landschaft wird erst durch
+   das Wandern möglich, wie beispielsweise Georg Trakls Am Moor (1915)
+   zeigt, wo der „Wanderer im schwarzen Wind“ seine seelische Deformation
+   in eine Sumpflandschaft spiegelt. Während AugustHeinrich Hoffmann von
+   Fallersleben die gesellige Wanderung schon 1871 in Die Wanderlieder für
+   tot erklärt hatte, trägt die 1896 in Steglitz entstandene
+   Wandervogel-Bewegung dazu bei, dass wieder gewandert wird – und beim
+   Wandern gesungen. Ein Beispiel für den Zeitgeist ist Hjalmar Kutzlebs
+   neuromantisches Wir wollen zu Land ausfahren (1911), dass die
+   zauberhaften Erfahrungen benennt, die man als Wanderer macht: „Es
+   rauschen die Bäume, es murmelt der Fluss, / Und wer die blaue Blume
+   finden will, der muss / ein Wandervogel sein, / ein Wandervogel sein.“
+
+Melancholische Wanderungen: Herbst- und Winterreise
+
+   Der Gang oder Ritt durch die herbstliche Landschaft ist eine überaus
+   passende Gelegenheit, sich und den Leser in Melancholie versinken zu
+   lassen. In Nikolaus Lenaus Herbstgefühl (1831) empfängt eine abweisende
+   Herbstlandschaft das reisende Ich: „Mürrisch braust der Eichenwald, /
+   Aller Himmel ist umzogen, / Und dem Wandrer, rauh und kalt, / Kommt der
+   Herbstwind nachgeflogen.“ Dieselbe Verdrießlichkeit beim Reisen gibt
+   Heinrich Heine in einem Stück aus den Neuen Gedichten (1827) wieder:
+   „Verdroßnen Sinn im kalten Herzen hegend, / Reis ich verdrießlich durch
+   die kalte Welt, / Zu Ende geht der Herbst, ein Nebel hält /
+   Feuchteingehüllt die abgestorbne Gegend.“ Nicht erst seit Schuberts
+   Liederzyklus Winterreise nach Texten Wilhelm Müllers (1827) sind
+   Winterreisen in der Lyrik etabliert. Die stille, einsame, manchmal
+   tödliche Winterwelt mit ihrer abweisenden Kälte verleitet zu
+   Meditationen über Sterblichkeit und Lebenssinn. Ein bekanntes Beispiel
+   für eine lyrische Winterreise ist Goethes Hymne Harzreise im Winter,
+   die auf eine Brockenbesteigung im November 1777 zurückgeht. Das
+   vermutlich bekannteste Gedicht, das eine Winterwanderung beschreibt,
+   ist neben Fontanes Alles still!Friedrich Nietzsches Vereinsamt (1884),
+   das von der Betrachtung des winterlichen Krähenzugs ausgehend die
+   existenzielle Heimatlosigkeit des lyrischen Ichs in einer abweisenden
+   Welt darstellt: „Nun stehst du bleich, / Zur Winter-Wanderschaft
+   verflucht, / Dem Rauche gleich, / Der stets nach kältern Himmeln
+   sucht.“ Nietzsches Text wird in Ulla Hahns lakonischem Gedicht Auf
+   Erden (1985) aufgegriffen: „Die Krähen schrein. Natürlich ziehn / sie
+   schwirren Flugs zur Stadt. Wer / keine Heimat hat schaut sich / den
+   Himmel an.“ Befreit-beschwingte Winderfahrten sind eher selten, man
+   findet sie allerdings auch. In Richard Dehmels Novemberfahrt (1926)
+   wagen sich die „jungen Dreistewichte“ hinaus in den
+   „Novembersonnentag“, während sich das „Zimperpack“ den Hintern am
+   Herdfeuer wärmt.
+
+Zeitreisen
+
+   Nicht nur der Raum lässt sich im Gedicht durchreisen, auch die Zeit. Es
+   bedarf dann aber meist des Orts, um an seiner Veränderung
+   festzustellen, dass sich eine Zeitreise vollzogen hat. Physikalisch
+   sind Zeitreisen bis auf Weiteres nicht möglich, poetisch aber durchaus.
+   Typische Elemente der Zeitreise kennt man aus ihrer Behandlung in Roman
+   und Film: Zunächst wird ein Portal durchschritten, der Zeitreisende
+   taumelt ins Nichts, wirbelt durch die Zeit wie durch einen
+   Aufzugsschacht, ehe er sich im Nu der Zukunft oder der Vergangenheit
+   gegenübersieht. Die Notwendigkeiten eines Zeitreisegedichts, die
+   Konfrontation mit dem Gewesenen, bringt es mit sich, dass Zeitreisen
+   oft in Rückkehrgedichte verflochten sind. Das in Washington Irvings Rip
+   van Winkle (1819) aufscheinende Motiv der im Jenseits verspielten Zeit
+   erinnert daran, dass im Raum des Fiktiven die physikalische Zeit
+   aufgehoben ist. Die Zugfahrt in Robert Gernhardts Fahrt in die Nacht
+   des Landes der Kindheit (2002) regen Erinnerungen die Illusion einer
+   Zeitreise an, die das lyrischen Ich in Verbindung mit dem Hell und
+   Dunkel der Strecke zurückschickt in eine von Rudyard Kiplings Jungle
+   Book geprägte Kindheit: „Nun aber Herbst und ich / im Zug nach Norden
+   quer durch Zeit und Raum, / durch dunklen Raum und lichte Zeit.“ Der
+   Wechsel von Hell und Dunkel eröffnet auch in Christian Morgensterns
+   Nächtliche Bahnfahrt im Winter (1894-1898) den Blick in die
+   Vergangenheit. Der Rhythmus der Bahnfahrt („Hier ein Licht und dort ein
+   Schatten / aus durchdröhnten Finsternissen“) lenkt zuerst die Gedanken
+   in die Winterlandschaft, dann in den Kosmos, bis zuletzt ein vertrauter
+   Ruf an das „alte Städtchen“ der Heimat erinnert.
+
+Ressourcen
+
+Literatur
+
+     * Bernhardt, Rüdiger: Reisen - Unterwegs sein. Hollfeld: Bange, 2019
+       [Königs Erläuterungen]
+     * Lindenhahn, Reinhard und Peter Merkel: Lyrik. Reisen von Sturm und
+       Drang bis zur Gegenwart. Berlin: Cornelsen, 2018 [Kursthemen
+       Deutsch]
+     * Nachreiner, Arnhild (Hg.): unterwegs sein. Lyrik vom Barock bis zur
+       Gegenwart. Stuttgart: Klett, 2018 [Editionen für den
+       Literaturunterricht]
+     * Nutz, Maximilian (Hg.): Vom Sturm und Drang bis zur Gegenwart.
+       Stuttgart: Klett, 2018 [Editionen für den Literaturunterricht]
+     * Vormbaum, Ulrich: Module und Materialien für den
+       Literaturunterricht. Westermann: 2019
+     * Vormbaum, Ulrich: Gedichtsammlung. Hallbergmoos: Stark, 2018
+     * Crossley-Holland, Kevin (Hg.): The Oxford Book of Travel Verse.
+       Oxford: Oxford University Press, 1986
+     * Stempel, Hans / Ripkens, Martin (Hgg.): Sehnsucht nach dem
+       Anderswo. Reisegedichte. Hamburg: Arche-Verlag, 2004
+
+Kontext
+
+     * Steppenwolf
+     * Faust
+     * Der goldene Topf
+     * Naturlyrik
+     * Der Verlorene
+     * Reiselyrik
+          + Reiselyrik: Interpretationen
+     * Kurswahl Deutsch
+     * Textvergleich „Steppenwolf“ und „Der goldne Topf“
+     * Probleme im Deutschabitur
+     * Felix Krull
+     * Corpus Delicti
+     * Der Verschollene / Amerika
+     * Woyzeck
+     * Kurzprosa
+     * Texterörterung im Abitur
+     * Werkvergleich: "Felix Krull" / "Der Verschollene"
+
+Unterpunkte
+
+     * Reiselyrik: Interpretationen
+
+      email    searchsite
+
+   © Copyright by Martin Baier, Layout by Daniel Baier - powered by
+   CMSMadeSimple
+   pangloss.de - Ein Seitenweg zu Kulturgeschichte, Germanistik, Deutsch
+   und Englisch

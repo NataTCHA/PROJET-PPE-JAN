@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:my="mynames" lang="de"><!-- DEBUG start 21:36:50+01:00 page_id=4633 :: Lesestück Meinung und Analyse--><!--
+		Content Management: openNewspaper www.opennewspaper.org based on TYPO3 www.typo3.org
+		Community Platform: Invsision Power Board www.invisionpower.com via ipbwi.com + manufactured PHP
+		Presentation Layer: XML, XSL, HTML, CSS, JS (+ toil, tears and sweat) webmaster@taz.de
+	--><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--
+			page_id :: 4633--><meta http-equiv="Content-Script-Type" content="text/javascript"></meta><meta name="robots" content="index,follow,noarchive,max-image-preview:large "></meta><meta name="language" content="de"></meta><meta name="copyright" content="TAZ Verlags- und Vertriebs GmbH"></meta><title>Debatte Flüchtlingspolitik: Dämonisierte Fremde - taz.de</title><meta name="author" content="Gereon Asmuth"></meta><meta name="description" content="Politik gegen Flüchtlinge ist ein politischer Renner. Was aber bleibt von unserer Gesellschaft, wenn immer mehr Gruppen als fremd markiert werden?"></meta><meta name="keywords" content="AfD, Rassismus, Xenophobie, Rechtsruck, Lesestück Meinung und Analyse, Debatte, Gesellschaft, Lesestück, taz, tageszeitung "></meta><meta name="taz:title" data-id="5515694" content="Debatte Flüchtlingspolitik: Dämonisierte Fremde"></meta><meta name="taz:tag" content="Lesestück Meinung und Analyse" data-tag-id="5303174" data-tag-category="Lesestück"></meta><meta name="taz:tag" content="Schwerpunkt Flucht" data-tag-id="5201005" data-tag-category="Schwerpunkt"></meta><meta name="taz:tag" content="AfD" data-tag-id="5008033"></meta><meta name="taz:tag" content="Rassismus" data-tag-id="5007524"></meta><meta name="taz:tag" content="Xenophobie" data-tag-id="5011547"></meta><meta name="taz:tag" content="Rechtsruck" data-tag-id="5021689"></meta><meta name="generator" content="tazxslt, 0.55; "></meta><meta property="fb:pages" content="171844246207985,162775943776229,136860635948,337939896245563,185657208283671,1141409319297464,255160261177600,1252816681448318,240508363106685,669240916596907"></meta><meta property="og:url" content="https://taz.de/!5515694/"></meta><meta property="og:locale" content="de_DE"></meta><meta property="og:type" content="article"></meta><meta name="twitter:card" content="summary_large_image"></meta><meta name="twitter:site" content="@tazgezwitscher"></meta><meta property="og:title" content="Debatte Flüchtlingspolitik: Dämonisierte Fremde"></meta><meta property="fb:app_id" content="817458245779898"></meta><meta property="article:opinion" content="true"></meta><meta property="article:content_tier" content="free"></meta><meta name="twitter:title" content="Debatte Flüchtlingspolitik: Dämonisierte Fremde"></meta><meta property="og:description" content="Politik gegen Flüchtlinge ist ein politischer Renner. Was aber bleibt von unserer Gesellschaft, wenn immer mehr Gruppen als fremd markiert werden?"></meta><meta name="twitter:description" content=" Politik gegen Flüchtlinge ist ein politischer Renner. Was aber bleibt von unserer Gesellschaft, wenn immer mehr Gruppen als fremd markiert werden?"></meta><meta property="og:image" content="https://taz.de/picture/2821578/948/OpenArms.jpeg"></meta><meta name="twitter:image" content="https://taz.de/picture/2821578/948/OpenArms.jpeg"></meta><meta property="article:published_time" content="2018-07-04T18:54:00+01:00"></meta><meta property="article:modified_time" content="2018-07-05T08:13:57+01:00"></meta>
+<!-- piwik/matomo (0.6) --><script id="piwik-init" type="text/javascript">
+
+// ====================================================== taz piwik library === //
+window.patOtaz_de = window.patOtaz_de || new Object;
+window.patOtaz_de.piwik = window.patOtaz_de.piwik || new (function (debug) {
+    
+    // for a better readability
+    Array.prototype.clone = Array.prototype.slice;
+
+    // ES6 features
+    var hasHistoryApi = function() {
+        if ( history && history.replaceState instanceof Function )  return true;
+        return false;
+    };
+    
+    // === private static members
+    var version = "patOtaz_de.piwik-0.6",
+        debug   =  debug || false;
+    
+    // === logging in debug mode or from outside
+    var log = function(args) {
+        if ( debug && arguments.length ) {
+            var items = [];
+            Array.prototype.push.apply( items, arguments );
+            console.log( "PIWIK-LOG:", items );
+        }
+        return true;
+    };
+    
+    // === clean up strings with a whitelist
+    var removeCharsWithWhitelist = function(validChars, inputString) {
+        var regex = new RegExp( '[^'+ validChars +']', 'g' );
+        return inputString.replace( regex, '' );
+    };
+
+    // === clean up #matomo url fragment and return matomo part
+    var removeHashParam = function(fragment_key) {
+        if ( fragment_key === undefined )  return '';
+        var href          = location.href;
+        var href_base     = href.split('#')[0];
+        var fragment_pos  = href.indexOf('#');
+        var fragment_full = href.substring( fragment_pos +1 );
+        if ( fragment_pos >0  &&  fragment_key.length >0 ) {
+            var fragment_regex = new RegExp( '(.*?)#?'+ fragment_key +':([^#]+)#?(.*)' );
+            var fragment_match = fragment_full.match( fragment_regex );
+            if ( fragment_match ) {  
+                var fragment_this    = fragment_match[2];
+                var fragment_lhs     = fragment_match[1];
+                var fragment_rhs     = fragment_match[3];
+                var fragment_cleaned = ( fragment_lhs ? fragment_lhs : '' )+( fragment_lhs && fragment_rhs ? '#' : '' )+( fragment_rhs ? fragment_rhs : '' );
+                if ( fragment_this.length >0 ) {
+                    var new_href = href_base +( !fragment_lhs && !fragment_rhs ? '' : '#' )+ fragment_cleaned;
+                    if ( hasHistoryApi )  history.replaceState( {}, document.title, new_href );
+                    return fragment_this;
+                }
+            }
+        }
+        return '';
+    };
+    
+    // === track search results list page
+    var trackSiteSearch = function(keyword, category, count) {
+        var tmp = Array.prototype.clone.call( arguments );
+        tmp.unshift("trackSiteSearch");
+        _paq.push( tmp );
+        log( "search result", { keyword:keyword, category:category, count:count } );
+        return true;
+    };
+    
+    // === track funnels
+    var trackFunnel = function(funnel, category) {
+        if ( funnel.length ) {
+            _paq.push([ 'trackEvent', category, 'Funnel', funnel ]);
+            log( "goal event", { funnel:funnel, category:category } );
+        }
+        return true;
+    };
+    
+    // === track events
+    var trackEvent = function(category, action, name, value) {
+        var tmp = Array.prototype.clone.call( arguments );
+        tmp.unshift("trackEvent");
+        _paq.push( tmp );
+        log( "event", { category:category, action:action, name:name, value:value } );
+        return true;
+    }
+
+    // === debugging
+    log( version );
+    
+    // === public interface
+    this.log              =log;
+    this.removeHashParam  =removeHashParam;
+    this.trackSiteSearch  =trackSiteSearch;
+    this.trackFunnel      =trackFunnel;
+    this.trackEvent       =trackEvent;
+    // this.trackPageType    =trackPageType;
+
+})(false); // patOtaz_de.piwik
+
+
+// ====================================================== piwik bucket === //
+window._paq = window._paq || [];
+
+
+// ====================================================== piwik setup === //
+(function(){
+
+    // === private members
+    var p = patOtaz_de.piwik,
+        o = {
+            version               :"0.6" // String
+            , piwik_script        :"https://taz.de/stats/piwik.php" // String
+            , page_id_enc         :"5515694" // String
+            , page_title_enc      :"5515694: Debatte Flüchtlingspolitik: Dämonisierte Fremde" // String
+            , custom_url_enc      :"/!5515694" // String
+            , channel             :"web" // String
+            , area                :"Redaktion" // String
+            , department          :"p4633" // String
+            , piwik_site_id       : 1  // Number
+            , is_tag              : false  // Boolean
+            , is_article          : true  // Boolean
+            , has_tags            : true  // Boolean
+    };
+    
+    // === url decode strings
+    o.page_id         =decodeURIComponent( o.page_id_enc    );
+    o.page_title      =decodeURIComponent( o.page_title_enc );
+    o.custom_url      =decodeURIComponent( o.custom_url_enc );
+    
+    // === page title
+    !function( node ) {
+        try {
+            var id    = node.getAttribute('data-id').toString()
+                , title = node.getAttribute('content').toString()
+                ;
+            o.title = ( id.length >0 && title.length >0 ) ? id +": "+ title : "ZOMBIE";
+        } catch (err) {
+            o.title = "ZOMBIE";
+            console.log("ERROR-piwik: page title");
+        }
+    } ( document.head.querySelector( 'meta[ name="taz:title" ]' ) );
+
+    // === page url
+    o.url = location.href;
+    
+    // === process and clean #matomo fragment, if present
+    o.url_fragment = decodeURIComponent( p.removeHashParam('matomo') );
+    if ( o.url_fragment.length >0 )  o.custom_url += '#'+ o.url_fragment;
+    
+    // === track tags
+    if ( o.is_article && o.has_tags ) {
+        o.tag_list=[];
+        o.tag_list.toString = function() {
+            var string="";
+            // Get tag title and concat. So that no permutations are stored for the same set of tags, pull tag titles sorted by their id.
+            this.sort( function(a,b){ return ( parseInt(a.id) - parseInt(b.id) ) } ).forEach( function(tag){ string += tag.title +";" });
+            return string;
+        };
+        !function( tag_list ) {
+            var count=0;
+            try {
+				tag_list.forEach( function(tag) {
+					o.tag_list.push({
+						title     :tag.getAttribute('content')
+						,id       :tag.getAttribute('data-tag-id')
+						,category :tag.getAttribute('data-tag-category')? tag.getAttribute('data-tag-category'): "PLAIN-VANILLA"
+					});
+					count++;
+				});
+                if (count===0)  o.tag_list.push({ title:'ZOMBIE', id:0, category:'ZOMBIE' });
+                o.tag_list.string = o.tag_list.toString();
+            } catch(err) {
+                o.tag_list.push({ title:'ZOMBIE', id:0, category:'ZOMBIE' });
+                console.log("ERROR-piwik: tag_list");
+            }
+        }( document.head.querySelectorAll("meta[name='taz:tag']") );
+    }
+    
+    // === setup piwik bucket
+    _paq.push([ "setCustomUrl"       ,o.custom_url ]);
+    _paq.push([ "setDocumentTitle"   ,o.page_title ]);
+    _paq.push([ "setCustomVariable"  ,1 ,"channel"    ,o.channel    ,"page" ]);
+    _paq.push([ "setCustomVariable"  ,2 ,"area"       ,o.area       ,"page" ]);
+    _paq.push([ "setCustomVariable"  ,3 ,"department" ,o.department ,"page" ]);
+    if ( o.is_article && o.has_tags )  _paq.push([ "setCustomVariable", 4, "tag", o.tag_list.toString(), "page" ]);
+    _paq.push([ "trackPageView"      ]);
+    _paq.push([ "enableLinkTracking" ]);
+    
+    // === load and setup piwik tracking
+    (function() {
+        var d=document
+          , g=d.createElement("script")
+          , s=d.getElementById("piwik-init")
+          ;
+        _paq.push([ "setTrackerUrl" ,o.piwik_script  ]);
+        _paq.push([ "setSiteId"     ,o.piwik_site_id ]);
+        g.type   = "text/javascript";
+        g.id     = "piwik-loaded";
+        g.async  = true;
+        g.defer  = true;
+        g.src    = "https://taz.de/lib/share/js/piwik.js";
+        g.onload = function() { p.log( 'setup', o ) }
+        s.parentNode.insertBefore( g, s );
+    })();
+    
+    // === tag tracking
+    if ( o.is_article && o.has_tags ) {
+        o.tag_list.forEach( function(tag) {    p.trackEvent( "TAG", "TAG-ARTICLE-"+ tag.category, "TAG - t"+ tag.id +": "+ tag.title ) });
+    }
+    if ( o.is_tag ) {
+        p.trackEvent( "TAG", "TAG-LANDINGPAGE", "TAG - "+ o.title );
+    }
+    
+    // === debugging
+    //p.log( _paq );
+
+})(); // piwik setup
+
+    </script><!-- end: piwik/matomo (0.6) -->
+<script type="text/javascript">
+
+(function(){
+
+
+	// # fil 2021-09-16 # Intention? sieht aus, als würde es die Redirect-URL matchen, die kann ja aber nicht location.href sein?
+	if ( ((location.href.match(/goMobile/g) || []).length) > 1 ) {
+		console.log( 'prevent loop' );
+		return
+	}
+
+
+	if ( readCookie('ratioURL_channel') == 'web' ){
+ 		return;
+		// web view was selected explicitly
+	}
+
+	// var getWidth = (screen.width > screen.height) ? screen.height : screen.width;	// # fil 2021-09-16 # klarer?
+	var getWidth;
+	if (screen.width > screen.height){
+		   getWidth = screen.height;
+		} else {
+		   getWidth = screen.width;
+	}
+
+
+	if (getWidth < 551) {
+		//mobile
+		var goto = location.pathname;
+		if (  (/;web/).test( location.href ) ){
+			//prevent loop. stay desktop
+			return false;
+
+		}
+
+		// to do: look if this is running	# fil 2021-09-16 # versteh ich nicht.
+		// # fil 2021-09-16 # Intention? sieht aus, als würde es die Redirect-URL matchen, die kann ja aber nicht location.href etc sein?
+		if ( (/goMobile/).test( location.search ) && (/count/).test( location.href ) || ( location.search.indexOf('goMobile') > 1 ) ){	// back here despite cache-killer: give up.
+
+				if ((/;web/).test( location.pathname )) {
+					location.href = goto
+					// # fil 2021-09-16 # setzt location.href=location.pathname - wozu??? Loop-Gefahr!
+
+				};
+				return false;
+			}
+
+		if( (/moby/).test( readCookie('ratioURL_channel') ) ) { // back here despite cookie: reload w/ cache-killer to prevent loop
+		// Google-Bot needs this to see mobile (https://search.google.com/search-console/inspect fil 2018-12-03)
+		location.href = '/count/redirect/go-mobile-nocache'+ goto
+			+( location.search ? location.search +'&' : '?' ) +'goMobile2='+ (new Date()).getTime()
+			+location.hash;
+
+			// # fil 2021-09-16 # wird serverseitig nach goto+location.search umgeleitet, ?goMobile2=… wird dabei entfernt. Sinnvoll?
+			return;
+			}
+
+		// try to set channel cookie …
+		document.cookie = 'ratioURL_channel=moby; domain=taz.de; path=/';
+
+		if( (/moby/).test( readCookie('ratioURL_channel') ) ) {	// … cookie was successfully set: reload …
+			if (location.search.indexOf('nocache') != -1) return;	// old cache killer for transition period
+			location.reload( true );
+			return;
+			}
+		else {						// … setting cookie failed: load explicit channel url …
+			// # fil 2021-09-16 # besser?: Cookie bei redirect serverseitig setzen?
+			if (location.search.indexOf('nocache') != -1) return;	// old cache killer for transition period
+			if( goto =='/' )
+				goto = '/!p4608;moby/';
+			else	goto = goto.replace(/[/]$/,';moby/');
+			location.href = '/count/redirect/go-mobile-nocookie'+ goto
+				+location.search
+				+location.hash;
+			return;
+			}
+
+		} else {
+		//desktop
+		}
+
+		// vanilla js cookie reader
+		function readCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+
+
+	})();
+
+		</script><link rel="preload" href="//data-2d3a3249cd.taz.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle"></link><link rel="preload" href="//data-2d3a3249cd.taz.de/iomm/latest/bootstrap/loader.js" as="script"></link><script type="text/javascript" src="//data-2d3a3249cd.taz.de/iomm/latest/bootstrap/loader.js"></script><link rel="preload" href="/lib/share/fonts/DroidSerif-Regular-webfont.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/fontawesome-reduced.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/AktivGroteskBold/AktivGrotesk_W_Bd_only_taz.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_5_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_6_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_7_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_8_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_4_italic.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_4_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz-Bold_tazze_private_only.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Quodana.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/ch/moby/pix/tazze46.png" as="image" media="(min-width: 81px)"></link><link rel="preload" href="/lib/ch/web/pix/tazze46.png" as="image" media="(min-width: 81px)"></link><link rel="preload" href="/lib/ch/web/pix/tzi_logo_120px.png" as="image" media="(min-width: 120px)"></link><link rel="preload" href="/lib/ch/web/pix/tazze_30_d50d2e.png" as="image" media="(min-width: 20px)"></link><link rel="canonical" href="https://taz.de/Debatte-Fluechtlingspolitik/!5515694/"></link><link rel="alternate" type="application/rss+xml" title="taz.de - Debatte" href="/!p4633/rss.xml"></link><link rel="alternate" type="application/rss+xml" title="taz.de - Schlagzeilen" href="/rss.xml"></link><link rel="home" type="text/html" title="taz.de - Schlagzeilen" href="/"></link><link rel="copyright" type="text/html" title="Impressum" href="/6/impressum/"></link><link rel="stylesheet" type="text/css" media="screen, print" href="/lib/ch/web/css/news2020-12-08_99.css"></link><link href="/lib/ch/web/css/local/print.css" type="text/css" rel="stylesheet" media="print"></link><!--[if lte IE 8]><style type="text/css">
+			p.article,
+			.sect_article >.sectbody >h6,
+			p.caption,
+			.price-tag >.info,
+			.ad_badge,
+			li.tag >a,
+			.secthead > ul.toolbar,
+			.sect_meta,
+			.sect_service >.sectbody,
+			.head >.search >.frame >input,
+			.person >h5 {
+  			font-family: Verdana, DejaVu Sans, Bitstream Vera Sans, Helvetica, sans-serif;
+  		}
+		</style><![endif]--><script type="text/javascript" src="/lib/ch/moby/js/local/cmp_6_09-14-2022.js"></script><script>
+
+			if(! HTMLCollection.prototype.last ) HTMLCollection.prototype.last = function(){ return this[ this.length -1 ]; };
+			if(! document.getLatestElement ) document.getLatestElement = function(){
+				var scripts = document.getElementsByTagName("script"); var thisScript = scripts[scripts.length - 1];
+				return ( this.currentScript || thisScript ).previousSibling;
+				};
+    
+		</script><script type="text/javascript" src="/lib/ch/web/js/2020-12-08_99.js"></script><!-- piwik/matomo (custom-0.2) --><script class="piwik-custom" type="text/javascript">
+
+// ====================================================== piwik customizing === //
+(function(){
+
+    // === private members
+    var p = patOtaz_de.piwik,
+        o = {
+            version           :"custom-0.2" // String
+            , page_id_enc     :"5515694" // String
+            , form_funnel     :"" // String
+            , search_term     :"" // String
+            , rootline        :"/Gesellschaft/Debatte" // String
+            , is_article      : true  // Boolean
+            , is_corp         : false  // Boolean
+            , is_searchresult : false  // Boolean
+            , is_form         : false  // Boolean
+            , search_count    : NaN  // Number
+    };
+    
+    // === url decode strings
+    o.page_id = decodeURIComponent( o.page_id_enc );
+    
+    // === track search results
+    if ( o.is_searchresult )  p.trackSiteSearch( o.search_term, false, o.search_count );
+
+    // === track events
+    if ( window.jQuery ) {
+        $(document).ready(function(){
+
+            if ( $("#pages.news >.article").length ) { p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF') };
+            if ( $("#pages.news >.article.longread").length ) { p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF-LONGREAD') };
+
+            if ( $("#pages .body article form").length ) { 
+                p.trackEvent( 'Verlag', 'displayed', normalizePath(location.pathname.split(';')[0]) ) ;
+
+                };
+
+
+            // lookup for whole href because of other url scheme when reload with hints after form submit
+            if ( (/172913/).test( location.href ) ) { 
+
+                var formPath = 172913;
+                var withHints =  $('.form .sectbody .error').length ? 'withHints ' : 'new ';
+  
+                console.log(formPath + ': ' + withHints );
+                p.trackEvent( 'Verlag', 'displayed', formPath + ': ' + withHints ) ;
+
+                let checkList = {};
+                checkList.keyup = ['#from', '#abo_name','#abo_vorname','#abo_land','#abo_name1','#abo_plz','#abo_ort','#abo_strasse','#abo_tel',
+                                   '#rg_vorname','#rg_name','#rg_strasse','#rg_land','#rg_plz','#rg_ort','#rg_tel',
+                                   '#iban','#bic', '#ktoinh', 'textarea[name="bem"]' ];
+                checkList.focus = ['#from', '#abo_name','#abo_vorname','#abo_land','#abo_name1','#abo_plz','#abo_ort','#abo_strasse','#abo_tel',
+                                   '#rg_vorname','#rg_name','#rg_strasse','#rg_land','#rg_plz','#rg_ort','#rg_tel',
+                                   '#iban','#bic', '#ktoinh', 'textarea[name="bem"]' ];
+
+                checkList.mousedown = [ '#nutzungsbedingungen', '#datenschutz', 'select[name="zahlungsart"]', 'input[type="submit"]' ];
+
+                checkList.keyup.forEach(function(item){
+                    $( item ).one('keyup ', function(){  
+                        console.log( formPath + ': ' + item + ' keyup ' + withHints  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup ' + withHints    ) ;
+
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( item ).one('focus ', function(){  
+                        console.log( formPath + ': ' + item + ' focus ' + withHints  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus ' + withHints    ) ;  
+  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( item ).one('mousedown ', function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' + withHints  );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown ' + withHints    ) ;
+
+                    } );
+                });
+
+                };
+
+            if ( (/115932/).test( location.href ) ) { 
+
+                var formPath = 115932;
+                console.log(formPath  );
+                p.trackEvent( 'Verlag', 'displayed', formPath  ) ;
+
+                let checkList = {};
+                checkList.keyup = ["input.euro", "input.email", "input.IBAN", "input.fullName" ];
+                checkList.focus = ["input.euro", "input.email", "input.IBAN", "input.fullName" ];
+                checkList.mousedown = [ "select[name='tzi-praemie[enrol][interval]']", "select[name='tzi-praemie[enrol][start]']",
+                                        "fieldset#tzi-praemie_step:nth(0) button.default.submit", "fieldset#tzi-praemie_step:nth(1) button.default.submit", "fieldset#tzi-praemie_step:nth(2) button.default.submit", 
+                                        "fieldset#tzi-praemie_step:nth(0) button.alt.submit", "fieldset#tzi-praemie_step:nth(1) button.alt.submit", "fieldset#tzi-praemie_step:nth(2) button.alt.submit" ];
+       
+                checkList.keyup.forEach(function(item){
+                    $( document ).one('keyup ', item, function(){  
+                        console.log( formPath + ': ' + item + ' keyup '  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup '   ) ;
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( document ).one('focus ', item, function(){  
+                        console.log( formPath + ': ' + item + ' focus '  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus '    ) ;  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( document ).one('mousedown ', item, function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown '    ) ;
+                    } );
+                });
+            };
+
+            if ( (/170378/).test( location.href ) ) { 
+
+                var formPath = 170378;
+                console.log(formPath  );
+                p.trackEvent( 'Verlag', 'displayed', formPath  ) ;
+
+                let checkList = {};
+                checkList.keyup = ["input.euro", "input.email", "input[name='tzi-aufstocker[Eingabe_Aufstocken][TziNr]']" ];
+                checkList.focus = ["input.euro", "input.email", "input[name='tzi-aufstocker[Eingabe_Aufstocken][TziNr]']" ];
+                checkList.mousedown = [ "select[name='tzi-aufstocker[Eingabe_Aufstocken][Intervall]']", "select[name='tzi-aufstocker[Eingabe_Aufstocken][Start]']", "input.submit" ];
+       
+                checkList.keyup.forEach(function(item){
+                    $( document ).one('keyup ', item, function(){  
+                        console.log( formPath + ': ' + item + ' keyup '  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup '   ) ;
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( document ).one('focus ', item, function(){  
+                        console.log( formPath + ': ' + item + ' focus '  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus '    ) ;  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( document ).one('mousedown ', item, function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown '    ) ;
+                    } );
+                });
+            };
+
+            if ( $("body.homepage .sect_number-teaser2").length ) {  p.trackEvent( 'TZI', 'displayed', 'COUNTER-HOMEPAGE') };
+            if ( $("body.isdir:not(.homepage) #pages.news .sect_number-teaser2").length ) { p.trackEvent( 'TZI', 'displayed', 'COUNTER-RESSORTSEITE') };
+            if ( $("#pages.corp .sect_number-teaser2").length ) {  p.trackEvent( 'TZI', 'displayed', 'COUNTER-VERLAGSSEITE') };
+
+            $(document).on("click", "body.homepage .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-HOMEPAGE'  ) });
+            $(document).on("click", "body.isdir:not(.homepage) #pages.news .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-RESSORTSEITE'  ) });
+            $(document).on("click", "#pages.corp .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-VERLAGSSEITE'  ) });
+
+            if ( $("#pages.news >.article").length && $("#tzi-paywahl-fg").length ) { 
+            p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF_mit_Layer') };
+            if ( $("#pages.news >.article").length && !$("#tzi-paywahl-fg").length ) { 
+            p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF_ohne_Layer') };
+
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__yes"        ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-JA'            ) });
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__close"      ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-GERADE-NICHT'  ) });
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__subscriber" ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-SCHON-DABEI'   ) });
+            $(document).on("click", "#tzi-shackle    .tzi-shackle__yes"        ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LASCHE-JA'           ) });
+
+            $(document).on("click", ".sect_end a"                         ,function(event){ p.trackEvent( 'Element', 'clicked', 'ABBINDER'             ) });
+            $(document).on("click", "#mainFlyout a"                       ,function(event){ p.trackEvent( 'Element', 'clicked', 'FLYOUT'               ) });
+            $(document).on("click", "ul.navbar >li >a"                    ,function(event){ p.trackEvent( 'Element', 'clicked', 'NAVBAR'               ) });
+
+                 
+            $(document).on("click", "ul.navbar.news.newsnavigation a "    ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_MenuImHeader', $(this).find("span").text() ) });
+            $(document).on("click", "#mainFlyout .navigation.news a"      ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_Flyout', $(this).find("span").text() )       });
+            $(document).on("click", "ul.navbar.corp.newsnavigation a "    ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_MenuImHeader', $(".head >h1 a").text() + ' > ' + $(this).find("span").text() ) });
+            $(document).on("click", "#globalnavigation a"                 ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Schwarze_Navi', $(this).find("span").text() )});
+            $(document).on("click", "#mainFlyout .navigation.corp a"      ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Flyout_tazze', $(this).find("span").text() ) });
+            $(document).on("click", "#footer .sitemap > .news a"          ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_Footer', $(this).find("span").text() ) });
+            $(document).on("click", "#footer .sitemap > .corp a"          ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Footer', $(this).find("span").text() ) });
+         
+            $(document).on("click", "ul.navbar >li.more ul.flyout >li >a" ,function(event){ p.trackEvent( 'Element', 'clicked', 'NAVBARMORE'           ) });
+            $(document).on("click", ".insert.dep4534"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB1'            ) });
+            $(document).on("click", ".insert.dep4536"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'TRENNER'              ) });
+            $(document).on("click", ".insert.dep4777"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB2'            ) });
+            $(document).on("click", ".insert.dep4219"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB3'            ) });
+            $(document).on("click", ".insert.dep5178"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB1'         ) });
+            $(document).on("click", ".insert.dep5179"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB2'         ) });
+            $(document).on("click", ".insert.dep5180"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB3'         ) });
+            $(document).on("click", ".insert.dep5181"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB4'         ) });
+            $(document).on("click", ".insert.dep4755"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBNORD'         ) });
+            $(document).on("click", ".insert.dep4828"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBOEKE'         ) });
+            $(document).on("click", ".insert.dep4832"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBPOLITIK'      ) });
+            $(document).on("click", ".insert.dep5013"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBSPORT'        ) });
+            $(document).on("click", ".insert.dep5020"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBGESELLSCHAFT' ) });
+            $(document).on("click", ".insert.dep4956"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBKULTUR'       ) });
+            $(document).on("click", ".insert.dep4939"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBPAYWAHL'      ) });
+            $(document).on("click", ".insert.dep4704"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBBERLIN'       ) });
+            $(document).on("click", ".sect_seealso a"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'COMBOLINKBOX'         ) });
+
+
+// home page all news teaser
+
+// mar: tracking aller Startseiten-Teaser am 04.12. deaktiviert
+
+/* 
+
+            $(document).on("click", ".sect_tdt >ul >li > a" ,function(event){ 
+                p.trackEvent( 'Element', 'clicked', 'THEMEN DES TAGES ' + parseInt( $(this).parent().index() + 1 )  ); 
+            });
+
+            $(document).on("click", "#pages.news.home >.news.page a.nolead.objlink" ,function(event){ 
+                var teaserNr = parseInt(   $(this).parents( 'li.brief' ).index(  'li.brief'  ) + 1  );
+                p.trackEvent( 'Element', 'clicked', 'Home > Ressort: Newskamin Miniteaser Nr: ' + teaserNr  ); 
+            });
+	    */
+	    // mar teilreaktivierung Startseitenteaser - nur Newskamin
+            $(document).on("click", "#pages.news.home >.news.page.first_page a.article.objlink" ,function(event){ 
+                // newskamin or not
+                var ressortName = $(this).parents('.news.page').find(' .nose > h2 > a > span ').text() == '' ? 'Newskamin' : $(this).parents('.news.page').find(' .nose > h2 > a > span ').text();
+                var teaserNr = ressortName == 'Newskamin' ?  parseInt(   $(this).parents( 'li.article:not(.brief)' ).index(  'li.article:not(.brief)'  ) + 1 ) : parseInt(   $(this).parents( 'li.article' ).index() + 1 );
+                var schwerpName = $(this).parents('.sect_spb').find('.secthead > h2 > a > span ').text();
+                p.trackEvent( 'Element', 'clicked', 'Home > Ressort: ' +  ressortName + ' ' + schwerpName +  ', Nr: ' + teaserNr  ); 
+            });
+
+
+            $(document).on("click", ".article .tail .sect_related a"  ,function(event){ p.trackEvent( 'Element', 'clicked', 'WEITERE-ARTIKEL' );  });
+            $(document).on("click", ".news.article.page .tail .sect_adr a"  ,function(event){p.trackEvent( 'Element', 'clicked', 'Verlagsplatz im Artikel' ) });
+            $(document).on("click", ".news.article.page ~ div[class*='thema_clip'] a"  ,function(event){ p.trackEvent( 'Element', 'clicked', 'Schwerpunkt-Clip Artikelebene ' )  });
+            $(document).on("click", ".news.page .abtest.testshow a"  ,function(event){ p.trackEvent( 'Element', 'clicked', $( this ).closest(".abtest.testshow" ).attr("class").replace("testshow","").replace("rack","").replace("first_rack","") ) });
+
+            $(document).on("click", ".sect_service a", function(event){
+                p.trackEvent( 'Element', 'clicked', 'SERVICEBOX: ' + $(this).attr('href') ) });
+            $(document).on("click", ".shariff-button", function(event){
+                p.trackEvent( 'Element', 'clicked', 'SOCIAL-MEDIA-BUTTON: ' + $(this).attr('class').split(" ")[1]  ) 
+                });  
+
+            // mar: scroll detection: Add elem to "detectElement" and text to "trackingActionText" arrays
+            var detectElement = [ $('.shariff'), $('.article:not(.longread) .sect_related:visible'), $('.news.article.page:not(.longread) .tail .sect_adr:visible'), $('.news.article.page:not(.longread) ~ div[class*="thema_clip"]'), $( 'link + form[action*="172913"] input[type="submit"]' ), $( 'link + form[action*="172913"] input' ).first(), $( 'link + form[action*="172913"] input#iban' ).first(), $(' .body #tzi-praemie '), $(' .body #tzi-aufstocker ')   ];
+            var scrollToDetected = []; // detect each only once
+            var trackingActionText = [ 'zu Social Media Buttons gescrollt', 'zu weitere Artikel gescrollt', 'zum Verlagsplatz (Artikel) gescrollt', 'zum Schwerpunkt-Clip gescrollt', '172913: Zum Submit-Button gescrollt', '172913: Zum ersten Input-Feld gescrollt', '172913: Zu IBAN gescrollt', '115932: tzi Unterstützer werden Main', '170378: Aufstocker Form Main' ];
+
+            $(window).on('scroll', function() {
+               for (var i = 0; i < detectElement.length; i++) {
+                var scrElem = detectElement[i];
+                if ( scrollToDetected[i] === undefined && scrElem.length && (elemReached(scrElem)) ) {
+                    _paq.push([ 'trackEvent', 'Element', 'scrolled', trackingActionText[i] ]);       
+                    console.log( 'Element', 'scrolled', trackingActionText[i] );       
+                    scrollToDetected[i] = true;
+                }
+              }
+
+            $( ".abtest.testshow" ).each(function( i ) {
+                var scrElem = $( this );
+
+                if ( scrollToDetected[i + 1000] === undefined && scrElem.length && (elemReached(scrElem)) ) {
+                    _paq.push([ 'trackEvent', 'Element', 'scrolled', $( this ).attr('class').replace('testshow','').replace('rack','').replace('first_rack','') ]);       
+                    scrollToDetected[i + 1000] = true;
+                }
+
+                });
+            });
+    
+            function elemReached(scrElem) {
+                    var docViewTop = $(window).scrollTop(); var docViewBottom = docViewTop + $(window).height();
+                    var elemTop = $(scrElem).offset().top + 40; return ((elemTop <= docViewBottom) && (elemTop >= docViewTop))
+                }
+
+
+            function normalizePath( str ){
+              return isNaN(str.slice(-1)) ? str : str + '/' ;
+            }
+
+        }); // $(document).ready()
+    } // track events
+
+    // === debugging
+    p.log( 'custom', o );
+    //console.log( "output _paq: ", _paq );
+
+})(); // piwik customizing
+
+    </script><!--IVW--><script> 
+        var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+
+        function loadgptScript(){
+
+          $.getScript("https://www.googletagservices.com/tag/js/gpt.js");
+
+          (function(){
+                var adArea = 'Gesellschaft';      
+                var page_id = '5515694';     
+                
+                
+                googletag.cmd.push( function() {
+                    var pa = googletag.pubads();
+                    pa.setForceSafeFrame(true);
+                    pa.collapseEmptyDivs();
+                    pa.setTargeting('position', [ adArea ]);
+                    //pa.setTargeting('test', ['fireplace']); //       * * * test only ! * * *
+                    //pa.setTargeting('test', ['wallpaper']);   //       * * * test only ! * * *
+                    pa.setTargeting('page_id', ['5515694']);
+                    if( location.protocol =='https' )
+                            pa.setTargeting('ssl', ['ja']);
+                    googletag.enableServices();
+                  });
+            })();
+      }
+  // mar: start googletagservices AFTER consent
+  // mar 05/2022: cookies changed. changed cookie name for  condition    
+
+
+      if ( $.cookie('_sp_v1_opt') !== '1:' || $.cookie('euconsent-v2') !== null ){
+ 
+           loadgptScript()
+      } else {
+        __tcfapi('addEventListener', 2, function(tcData,success){
+          if(success && tcData.eventStatus === 'useractioncomplete') {
+            if ( $.cookie('_sp_v1_opt') !== '1:' || $.cookie('euconsent-v2') !== null ){
+ 
+                loadgptScript()
+              }
+          } 
+        });
+      }
+
+        </script><script>
+		// expect jQuery already to be loaded
+	(function() {
+		if( !window.filOtaz_de )		window.filOtaz_de		= Object;
+		if( !window.filOtaz_de.ads )		window.filOtaz_de.ads		= Object;
+		if( !window.filOtaz_de.ads.gpt )	window.filOtaz_de.ads.gpt	= Object;
+
+        var sizes = {
+             'artikel_medrec-1'    :[300,250]
+            ,'artikel_medrec-2'    :[300,250]
+            ,'artikel_medrec_mitte' :[300,250]
+            ,'ros_sidebar-1'       :[300,250]
+            ,'ros_sidebar-2'       :[300,100]
+            ,'uebersicht_medrec-1' :[300,250]
+            ,'uebersicht_medrec-2' :[300,250]
+            ,'uebersicht_medrec-3' :[300,250]
+            ,'uebersicht_medrec-4' :[300,250]
+            ,'uebersicht_medrec-5' :[300,250]
+            ,'uebersicht_board-1'  :[624,150]
+            ,'ros_billboard-1'     :[870,250]
+            ,'mobile_banner-1'     :[[300,250],[320,50],[320,100]]
+            ,'mobile_banner-2'     :[[300,250],[320,50],[320,100]]
+            ,'mobile_banner-3'     :[[300,250],[320,50],[320,100]]
+            ,'mobile_banner-4'     :[[300,250],[320,50],[320,100]]
+            ,'ros_top-links'       :[[120,600],[160,600],[300,600]]
+            ,'ros_top-mitte'       :[[728,90],[970,90]]
+            ,'ros_top-rechts'      :[[120,600],[160,600],[300,600]]
+            ,'ros_leaderboard-1'   :[728,90]
+            ,'fireplace-mitte'     :[[970,90],[728,90]]
+            ,'fireplace-links'     :[160,601]
+            ,'fireplace-rechts'    :[160,600]
+            ,'fireplace_bg'        :[1,1]
+            };
+        var roadblocks = {};
+  
+  
+      roadblocks = {
+         'ros_top-mitte'   :['fireplace_mitte']
+        ,'ros_top-rechts'  :['fireplace_mitte'] 
+      };
+    
+    
+		// general ad handling
+
+		// --> to be triggered for ad_zone if ad is (to be) delivered
+		filOtaz_de.ads.fitIn = function( container ) {	// make space for ad in layout
+			var container = $( container );
+//console.log('fit '+ container.attr('id') );
+			if( !container.is('.ad_zone') ) return;
+			var packing = container.parent('.ad_bin');
+			packing.addClass('shown');
+			container.addClass('ad_zone_shown');
+			if( container.hasClass('ad_zone_contentad') ) {
+				packing.prev('.sect_leads').addClass('aded_'+( container.height() >120 ?'big' :'small' ) );
+				var badge = container.hasClass('ad_zone_sold') ? 'Anzeige' : 'taz-Angebot';
+				container.before('<div class="ad_badge">'+ badge +'</div>');
+				}
+			container.trigger('TAZadInserted').trigger('TAZboxChange');
+			};
+
+		// --> to be triggered for ad_zone if no ad is (to be) delivered
+		// redundant?
+		filOtaz_de.ads.reclaim = function( container ) {	// remove whitespace from non-delivered ad
+			var container = $( container );
+//console.log('reclaim '+ container.attr('id') );
+			if( !container.is('.ad_zone') ) return;
+			var packing = container.parent('.ad_bin');
+			packing.removeClass('shown');
+			container.removeClass('ad_zone_shown');
+			if( container.hasClass('ad_zone_contentad') ) {
+				packing.prev('.sect_leads').removeClass('aded_big aded_small');
+				}
+			container.trigger('TAZadRemoved').trigger('TAZboxChange');
+			};
+    
+    
+
+		var fuzeAdFrame = function( frame ) {	// register frame for messages, fire if one is from our content
+console.log('legacy fuzeAdFrame', frame  );
+			};
+    
+    
+    // Hintergrund per Message
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+    window[eventMethod](messageEvent, function(e) {
+      if (e.data.toString().indexOf("color") != -1) {
+        $("#background").css("background-color", e.data.split(" ")[1]);
+        }
+      }, false);
+    
+    
+		// activate ad frame
+		var adZoneHandled = {};
+    
+    var get_id = function( name ) {
+      return $('div[name=' + name + ']').attr('id');
+      };
+    
+    var get_name = function( id ) {
+      return $('#'+ id ).attr('name');
+      };
+    
+    unblock = function( id, rb_id ) {
+      var name = get_name(id);
+      var index = roadblocks[name].indexOf(rb_id);
+      if ( index > -1 ) {
+        roadblocks[name].splice(index, 1);
+        }
+      if ( !roadblocks[name].length ) {
+        googletag.defineSlot( '/53015287,118803185/' + name, sizes[name], id ).addService( googletag.pubads() );
+        googletag.display( id );
+        }
+      };
+    
+    filOtaz_de.ads.gpt.activateAdFrame = function( id ) {  
+			if( !id ) return;
+			if( adZoneHandled[id] ) return; adZoneHandled[id] = true; // only one active zone per id
+ 
+			var packing   = $('#ad_bin_'+ id );
+			id = 'ad_zone_'+ id;
+			var container = packing.find('>#'+ id );
+  
+			var name = container.attr('name');
+			if( !name || !sizes[name] ) return;
+   
+			// handle custom ad load events
+			container.on('filOtaz_de.ads.gpt.noBanner',   function(){  return false;  });
+			container.on('filOtaz_de.ads.gpt.preBanner',  function(){
+				filOtaz_de.ads.fitIn( container );
+				return false;
+				});
+			container.on('filOtaz_de.ads.gpt.postBanner', function(){  return false;  });
+
+
+			// define content
+			googletag.cmd.push( function() {
+				var pa = googletag.pubads();
+        if ( roadblocks[name] ) {
+          pa.addEventListener('slotRenderEnded', function (e) {
+            for (var i=0; i<roadblocks[name].length; i++) {
+              if ( e.slot.getSlotElementId() == 'ad_zone_' + roadblocks[name][i] ) {
+
+		    if ( e.isEmpty ) {
+                  unblock(id, roadblocks[name][i]);
+                  }
+                else {
+                  document.getElementById(id).style.display = 'none';
+                  for (var key in roadblocks) {
+                    if ( !roadblocks.hasOwnProperty(key) ) continue;
+                    for ( var j=0; j<roadblocks[key].length; j++ )
+                    if ( id == 'ad_zone_' + roadblocks[key][j] ) {
+                      unblock(get_id(key), roadblocks[key][j]);
+                      break;
+                      }
+                    }
+                  }
+                }
+              }
+			    }); // pa.addEventListener
+			    //	    console.log('roadblocks' + id);
+          googletag.display(id);
+          }
+        else {
+          pa.display( '/53015287,118803185/'+ name, sizes[name], id );
+			    // console.log( 'asked for', '/53015287,118803185/'+ name, sizes[name], id );
+          }
+				pa.addEventListener('slotRenderEnded', function(e) {
+			    if( e.slot.getSlotElementId() != id )  return;	// not our slot
+			    container.trigger( e.isEmpty ? 'filOtaz_de.ads.gpt.noBanner' : 'filOtaz_de.ads.gpt.preBanner' );
+			    //console.log( name +( e.isEmpty ? ' isEmpty' : '' ) );
+					});
+        });
+      }; //filOtaz_de.ads.gpt.activateAdFrame
+
+		// activate wallpaper combo add frame
+/*
+		filOtaz_de.ads.gpt.wallpaper = function() {
+			console.log('filOtaz_de.ads.gpt.wallpaper not yet supported');
+			};
+*/
+
+		})();
+	</script><link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"></link><link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"></link><link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"></link><link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"></link><link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"></link><link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"></link><link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"></link><link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"></link><link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"></link><link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"></link><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"></link><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"></link><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link><link rel="manifest" href="/manifest.json"></link><meta name="msapplication-TileColor" content="#ffffff"></meta><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"></meta><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d50d2e"></link><meta name="theme-color" content="#ffffff"></meta></head><body class=""><noscript><img src="https://taz.de/stats/piwik.php?idsite=1&amp;rec=1&amp;action_name=NOSCRIPT" style="border:0" alt=""></img></noscript><script type="text/javascript">(function(){
+	var body = $(document.body);
+	body.addClass('js');
+	if( screen.width >=640 )	body.addClass('vga');	else body.addClass('novga');
+	if( screen.width >=800 )	body.addClass('svga');	else body.addClass('nosvga');
+	if( screen.width >=1024 )	body.addClass('xga');	else body.addClass('noxga');
+	if( screen.width >=1280 )	body.addClass('sxga');	else body.addClass('nosxga');
+	})();
+
+
+			</script><div class="topo_wit" id="counter"><!-- ================ begin: ivw (szm 2.0) ================ --><script xmlns="" type="text/javascript">
+        IOMm('configure', { 
+            st: "taz", 
+	    dn: 'data-2d3a3249cd.taz.de',
+	    mh: 5
+            });
+        </script><script xmlns="" type="text/javascript">
+        IOMm('pageview', { cp: "Redaktion/Gesellschaft/Debatte,Artikel" });
+        </script><script xmlns="" type="text/javascript">
+  	   IOMm('3p', 'qds', 'in');
+	</script><!-- ================ end: ivw (szm 2.0) ================ --></div><div id="adOverlay" class="topo_lay"></div><div id="fake" class="topo_wit"></div><div id="background" class="topo_bin"><div id="skirt"></div><div id="centered"><script type="text/javascript">	// to be called inline early in #centered
+//console.log( $('#background') );
+//console.log( $('#centered') );
+//console.log( $('#pages') );
+		var checkHash = function() {
+			var hashURL = window.location.hash.slice(1);
+			if( hashURL.indexOf('!tom=')         ==0 ) new filOtaz_de.TomOL( hashURL.substr(5) );
+			if( hashURL.indexOf('!g')            ==0 ) new filOtaz_de.Gallery('/'+ hashURL );
+			if( hashURL.indexOf('!vimeo=')       ==0 ) new filOtaz_de.VimeoVideo('/'+ hashURL );
+			if( hashURL.indexOf('!track=')        ==0 ) {
+				var tracking_key = hashURL.substr(7);
+				console.log( "DEBUG TRACKURL tracking_key="+ tracking_key );
+				window.location.hash = '';
+				
+				if ( tracking_key =="TZISOCIALMEDIA" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZISOCIALMEDIA' ]);
+					console.log("DEBUG-piwik TZISOCIALMEDIA");
+				}
+				if ( tracking_key =="TZIANZEIGE1" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIANZEIGE1' ]);
+					console.log("DEBUG-piwik TZIANZEIGE1");
+				}
+				if ( tracking_key =="TZIANZEIGE2" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIANZEIGE2' ]);
+					console.log("DEBUG-piwik TZIANZEIGE2");
+				}
+				if ( tracking_key =="TZIEPAPER" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIEPAPER' ]);
+					console.log("DEBUG-piwik TZIEPAPER");
+				}
+			}
+			//if( hashURL.search(/^![0-9]/) ==0 )	new filOtaz_de.Wtf('/'+ hashURL );
+			};
+		checkHash();
+		$(window).hashchange( checkHash );
+	</script><span id="ad_bin_fireplace_bg" class="ad_bin"><div id="ad_zone_fireplace_bg" name="fireplace_bg" class="ad_zone"></div></span><span id="ad_bin_fireplace_mitte" class="ad_bin"><div id="ad_zone_fireplace_mitte" name="fireplace-mitte" class="ad_zone"></div></span><span id="ad_bin_fireplace_links" class="ad_bin"><div id="ad_zone_fireplace_links" name="fireplace-links" class="ad_zone"></div></span><span id="ad_bin_fireplace_rechts" class="ad_bin"><div id="ad_zone_fireplace_rechts" name="fireplace-rechts" class="ad_zone"></div></span><span id="ad_bin_fireplace_script" class="ad_bin"><div id="ad_zone_fireplace_script" name="fireplace-script" class="ad_zone"></div></span><script type="text/javascript">
+(function(){
+  var parent = $('#ad_bin_fireplace_rechts').parent();
+  if( !parent.is('.wing') || parent.is('.floating.wing') )  // for wings only run when already floating
+    filOtaz_de.ads.gpt.activateAdFrame('fireplace_rechts');
+  })();
+(function(){
+  var parent = $('#ad_bin_fireplace_bg').parent();
+  if( !parent.is('.wing') || parent.is('.floating.wing') )  // for wings only run when already floating
+    filOtaz_de.ads.gpt.activateAdFrame('fireplace_bg');
+  })();
+(function(){
+  var parent = $('#ad_bin_fireplace_mitte').parent();
+  if( !parent.is('.wing') || parent.is('.floating.wing') )  // for wings only run when already floating
+    filOtaz_de.ads.gpt.activateAdFrame('fireplace_mitte');
+  })();
+(function(){
+  var parent = $('#ad_bin_fireplace_links').parent();
+  if( !parent.is('.wing') || parent.is('.floating.wing') )  // for wings only run when already floating
+    filOtaz_de.ads.gpt.activateAdFrame('fireplace_links');
+  })();
+              </script><div id="adzone_wall" class=""><span id="ad_bin_ros_top_rechts" class="ad_bin"><div id="ad_zone_ros_top_rechts" name="ros_top-rechts" class="ad_zone"></div></span><script type="text/javascript"> (function(){
+		var domId = 'ros_top_rechts';
+		var parent = $( '#ad_bin_'+ domId ).parent();
+		if ( parent.is('.wing') ) {
+			filOtaz_de_float.promise.promise().done(function(){
+				filOtaz_de.ads.gpt.activateAdFrame( domId );
+			});
+		} else {
+			filOtaz_de.ads.gpt.activateAdFrame( domId );
+		}
+	})(); 
+	</script><span id="ad_bin_ros_top_mitte" class="ad_bin"><div id="ad_zone_ros_top_mitte" name="ros_top-mitte" class="ad_zone"></div></span><script type="text/javascript"> (function(){
+		var domId = 'ros_top_mitte';
+		var parent = $( '#ad_bin_'+ domId ).parent();
+		if ( parent.is('.wing') ) {
+			filOtaz_de_float.promise.promise().done(function(){
+				filOtaz_de.ads.gpt.activateAdFrame( domId );
+			});
+		} else {
+			filOtaz_de.ads.gpt.activateAdFrame( domId );
+		}
+	})(); 
+	</script></div><div id="pages" class="news"><ul role="navigation" id="globalnavigation" class="navbar"><li class="first odd trodd"><a href="/wochentaz/!p5386/" id="menu_p5386"><span>wochentaz</span></a></li><li class="even trodd"><a href="/Abo/!p4209/" id="menu_p4209"><span>Abo</span></a></li><li class="odd treven"><a href="/Genossenschaft/!p4271/" id="menu_p4271"><span>Genossenschaft</span></a></li><li class="even trodd"><a href="https://taz.de/!p4697/#matomo:pk_campaign" id="menu_p5149"><span>taz zahl ich</span></a></li><li class="odd trodd"><a href="/!p4233/" id="menu_p5311"><span>Veranstaltungen</span></a></li><li class="even treven"><a href="/Info/!p4206/" id="menu_p4206"><span>Info</span></a></li><li class="odd trodd"><a href="https://shop.taz.de/#pk_campaign" target="_blank" id="menu_p4378"><span>Shop</span></a></li><li class="even trodd"><a href="/Anzeigen/!p4288/" id="menu_p4288"><span>Anzeigen</span></a></li><li class="odd treven"><a href="https://taz.de/!p5099/" id="menu_p5284"><span>taz FUTURZWEI</span></a></li><li class="even trodd"><a href="https://taz.de/!p4905/" id="menu_p5357"><span>taz lab 2023</span></a></li><li class="odd trodd"><a href="/!p5298/" id="menu_p5319"><span>taz Talk</span></a></li><li class="even treven"><a href="/Queer-Talks/!p5378/" id="menu_p5378"><span>Queer Talks</span></a></li><li class="odd trodd"><a href="https://taz.de/!p5122/" id="menu_p5344"><span>taz wird neu</span></a></li><li class="even trodd"><a href="/!p5297/" id="menu_p4955"><span>taz in der Kritik</span></a></li><li class="odd treven"><a href="//blogs.taz.de/" id="menu_p4366"><span>Blogs &amp; Hausblog</span></a></li><li class="even trodd"><a href="//monde-diplomatique.de/" id="menu_p4387"><span>LE MONDE diplomatique</span></a></li><li class="odd trodd"><a href="/neu/!p5122/" id="menu_p5122"><span>neu</span></a></li><li class="even treven"><a href="/Thema/!p4786/" id="menu_p4786"><span>Thema</span></a></li><li class="odd trodd"><a href="/Panter-Stiftung/!p4258/" id="menu_p4258"><span>Panter Stiftung</span></a></li><li class="even trodd"><a href="/Panter-Preis/!p4207/" id="menu_p4207"><span>Panter Preis</span></a></li><li class="odd treven"><a href="/Recherchefonds-Ausland/!p5062/" id="menu_p5062"><span>Recherchefonds Ausland</span></a></li><li class="even trodd"><a href="/Reisen-in-die-Zivilgesellschaft/!p4310/" id="menu_p4310"><span>Reisen in die Zivilgesellschaft</span></a></li><li class="odd trodd"><a href="/!p5044/" id="menu_p5123"><span>Christian Specht</span></a></li><li class="even treven"><a href="https://shop.taz.de/ekiosk.php" target="_blank" id="menu_p4357"><span>e-Kiosk</span></a></li><li class="odd trodd"><a href="/Salon/!p5021/" id="menu_p5021"><span>Salon</span></a></li><li class="even trodd"><a href="/Kantine/!p4237/" id="menu_p4237"><span>Kantine</span></a></li><li class="odd treven"><a href="/Archiv/!p4311/" id="menu_p4311"><span>Archiv</span></a></li><li class="last even trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li></ul><div class="full news subjective commentary article page first odd first_page n1" itemscope="" itemtype="http://schema.org/NewsArticle"><div class="head" role="head"><ul role="navigation" class="news navbar newsnavigation"><li class="first odd trodd home selected"><a href="/" id="menu_p4608"><span>taz</span><div class="tazze logo"></div></a></li><li class="even trodd"><a href="/Themen/!p5360/" id="menu_p5360"><span>Themen</span></a></li><li class="odd treven"><a href="/Politik/!p4615/" id="menu_p4615"><span>Politik</span></a></li><li class="even trodd"><a href="/Oeko/!p4610/" id="menu_p4610"><span>Öko</span></a></li><li class="odd trodd selected"><a href="/Gesellschaft/!p4611/" id="menu_p4611"><span>Gesellschaft</span></a></li><li class="even treven"><a href="/Kultur/!p4639/" id="menu_p4639"><span>Kultur</span></a></li><li class="odd trodd"><a href="/Sport/!p4646/" id="menu_p4646"><span>Sport</span></a></li><li class="even trodd"><a href="/Berlin/!p4649/" id="menu_p4649"><span>Berlin</span></a></li><li class="odd treven"><a href="/Nord/!p4650/" id="menu_p4650"><span>Nord</span></a></li><li class="last even trodd"><a href="/Wahrheit/!p4644/" id="menu_p4644"><span>Wahrheit</span></a></li></ul><script>
+		var liSelected = $(document.getLatestElement()).find('li.selected');
+		if ( liSelected.length > 1 ){ liSelected.first().removeClass('selected')};
+	</script><form class="search" role="search" action="/!s=/" method="POST"><div class="frame"><input type="text" minlength="2" required="required" placeholder="suchen ..." class="text preset" name="s"></input><input type="image" class="send" title="suche senden" alt="suche senden" name="ignore" src="/lib/ch/web/pix/redArrowsRight_d50d2e.png"></input></div></form></div><span class="body" role="main"><div class="main rack" id="xid819017">
+    
+	<div xmlns="" class="metadata" itemscope="">
+<a id="articleURL" href="/!5515694"></a><a id="speakingURL" href="/Debatte-Fluechtlingspolitik/!5515694"></a><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="cms-article-ID" content="5515694"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="url-ID" content="5515694"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="cms-obj-ID" content="2821578"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="vgwort-counter-ID" content="0711d00ce69f4108add696ae6bc07d2f"></meta><span id="articleID"></span><span id="cmsArticleID">5515694</span><img src="//taz.met.vgwort.de/na/0711d00ce69f4108add696ae6bc07d2f" width="1" height="1" alt=""><img src="/count/vgwort/0711d00ce69f4108add696ae6bc07d2f.gif" width="1" height="1" alt="">
+</div>
+<div role="region" id="" class="odd sect sect_article news subjective commentary"><article class="sectbody" itemprop="articleBody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Debatte Flüchtlingspolitik</span><span class="hide">: </span><span>Dämonisierte Fremde</span>
+</h1>
+<p xmlns="" itemprop="description" class="intro ">Politik gegen Flüchtlinge ist ein politischer Renner. Was aber bleibt von unserer Gesellschaft, wenn immer mehr Gruppen als fremd markiert werden?</p>
+      
+      <a xmlns="" class="full picture" href="/picture/2821578/948/OpenArms.jpeg" target="fullImage" onclick="
+		var href = this.href;
+		vHWin=window.open( href , 'fullImage' , 'width=948,height=474' );
+		vHWin.focus();
+		return false;
+	" itemprop="image"><img src="/picture/2821578/624/OpenArms.jpeg" alt="Auf einem Schiff steht eine winkende Personengruppe" title="Auf einem Schiff steht eine winkende Personengruppe"></a><p xmlns="" class="caption">Flüchtende, wie auf dem Boot „Open Arms“, werden in Europa oft nicht mit offenen Armen empfangen <span class="credit"> Foto: dpa</span></p>
+    
+      <p xmlns="" class="article first odd">Nein, die wichtigste Frage dieser Woche war nicht, ob Horst Seehofer Bundesinnenminister bleibt. Oder Vorsitzender der CSU. Es war auch nicht die wichtigste Frage, ob Angela Merkel stürzt oder ob die Kanzlerin von Europa gerettet wird. Und ob der SPD noch einfallen könnte, wann genau sie zu dem Ganzen eine Haltung bezieht, die sie mehr als 48 Stunden bewahren kann. All das sind sicher interessante Aspekte, doch sind sie kaum mehr als Polittheater – fast so spannend wie Fußball, aber letztlich kaum mehr als der übliche Gossip, der eine gut funktionierende Demokratie so unterhaltsam macht.</p>
+      <p xmlns="" class="article even">Es wurde auch, dummerweise ganz en passant, eine Frage verhandelt, die viel weiter reicht. So weit, dass sie die Amtszeiten von Merkel und Seehofer nicht nur überschatten, sondern überdauern wird: Kann auch in Deutschland wieder eine Politik Erfolg haben, wie sie bereits in vielen Nachbarstaaten reüssiert? Die nur mit einem Argument operiert: der Angst vor dem Fremden?</p>
+      
+      <span id="ad_bin_artikel_medrec_1" class="ad_bin sold contentad"><div id="ad_zone_artikel_medrec_1" name="artikel_medrec-1" class="ad_zone ad_zone_contentad ad_zone_badged ad_zone_sold"></div></span><script type="text/javascript"> (function(){
+		var domId = 'artikel_medrec_1';
+		var parent = $( '#ad_bin_'+ domId ).parent();
+		if ( parent.is('.wing') ) {
+			filOtaz_de_float.promise.promise().done(function(){
+				filOtaz_de.ads.gpt.activateAdFrame( domId );
+			});
+		} else {
+			filOtaz_de.ads.gpt.activateAdFrame( domId );
+		}
+	})(); 
+	</script>
+    
+      <p xmlns="" class="article odd">Angesichts der Faktenlage ist dies eine völlig irrationale Angst. Und es spielt auch keine Rolle, ob sie überhaupt in irgendeiner Weise begründet ist. Zurzeit zählt nur, wer lauter schreit, wer am aufsehenerregendsten wie Rumpelstilzchen durch die Gegend springt. Mit anderen Worten: Es ging in dieser Woche vor allem um die Frage, ob die AfD mit dem einzigen Trumpf, den sie hat, eine gesellschaftliche Veränderung durchsetzen kann. Und die Antwort lautet: Ja, kann sie. Sie muss dafür nicht mal in einer Regierung sitzen.</p>
+      <p xmlns="" class="article even">Jahrelang haben die Rechtspopulisten immer extremer herumkrakeelt. Einen Teil der Gesellschaft haben sie damit auf ihre Seite ziehen können, aber er ist immer noch klein. Doch der Rest ist mittlerweile so genervt, dass er sich in seiner Ruhe gestört fühlt. Die einen gehen deshalb ­gegen die AfD auf die Straße, um ihr etwas entgegenzusetzen. Die anderen machen sich Sorgen um die gewohnte Kuscheligkeit der Bundesrepublik – und gehen auf die AfD zu, um den Laden wieder unter Kontrolle zu kriegen.</p>
+      <h6 xmlns="">Restliberalität steht auf dem Spiel</h6>
+      <p xmlns="" class="article odd">Da ist zum Beispiel Giovanni di Lorenzo, Chefredakteur des Wochenblattes <em>Zeit,</em> das man eigentlich immer noch gern als liberales Flaggschiff bezeichnen würde. Di Lorenzo <a target="_blank" href="https://www.zeit.de/2018/26/bundesregierung-grosse-koalition-cdu-csu-asylpolitik">befürchtete kürzlich in einem Kommentar</a>, dass die aktuelle Auseinandersetzung um die Flüchtlingspolitik nicht nur die Kanzlerin demontieren könne, sondern dass am Ende eine andere Republik stehe. Er forderte daher eine Politik, die die Gesellschaft befriede. Damit Deutschland als zivilisierter Staat erhalten bleibe, so sein Argument, sei es vernünftig, die Zuwanderung schnell zu begrenzen.</p>
+      <p xmlns="" class="article even">Ja, das klingt verlockend. So verlockend, dass keineswegs nur die CSU, sondern auch Teile aller anderen Parteien im Bundestag mehr oder weniger offen mit dem Gedanken spielen, die Sorgen der berühmten besorgten Bürger ernst zu nehmen. Abschottung vor den dämonisierten Fremden als Tranquilizer für die Aufgeregten. Immer mit dem Ziel: Ruhe im Karton.</p>
+      <p xmlns="" class="article odd">Die Zahl der Flüchtlinge wird dadurch zwar nicht sinken. Aber sie bleiben – im Wortsinne – auf der Strecke. Wenn es „gut“ läuft für die ruhebedürftige Bundesrepublik, versanden sie irgendwo weit weg in der Sahara. Und wenn es schlecht läuft? Dann ertrinken sie wieder zu Tausenden im Mittelmeer. Oder ersticken in einem luftdichten Lkw auf der Autobahn. <a target="_blank" href="/Urteil-nach-dem-Tod-von-71-Fluechtlingen/!5513306/">Genau solche Bilder führten 2015 zu einer radikal humanen Flüchtlingspolitik.</a></p>
+      <p xmlns="" class="article even">Es mag sein, dass die vor dem TV hockende Gesellschaft solche Bilder diesmal ertragen mag – aus Angst vor den Rechtspopulisten. Aber sie wird noch viel mehr aushalten müssen. Denn es ist ein fataler Irrglaube, dass mit einer harten Linie gegen Flüchtlinge die Restliberalität der Republik gerettet werden kann. Genau das Gegenteil ist der Fall: Sie steht nun komplett auf dem Spiel.</p>
+      <h6 xmlns="">Rechtsnationale Front</h6>
+      <p xmlns="" class="article odd">Die letzten drei Jahre haben gezeigt, dass selbst ein immenser Rückgang der Flüchtlingszahlen keinerlei Beruhigung an der rechts­natio­nalen Front zur Folge hatte. Wieso also sollten diese Leute gerade jetzt von ihrem xenophoben Wahn abrücken, wenn sie von höchster Stelle die Bestätigung bekommen haben, dass Flüchtlinge ein zu bekämpfendes Phänomen sind? Und warum sollten sie von ihrem Trumpf lassen, der soeben als politikfähig zertifiziert wurde: der Angst vor dem Fremden? Wehe dem, der irgendwie unter dieses Label gerät.</p>
+      <p xmlns="" class="article even">Schon jetzt werden nicht mehr nur Flüchtlinge dämonisiert, sondern viele, die keine durch und durch deutschen Urgroßeltern haben. Das ist „nur“ Rassismus. Bald werden vielleicht auch die Homosexuellen als „fremd“ abgestempelt. Die Regenbogenfamilien. Die Andersdenkenden. Die Journalisten. Die Linksgrünversifften. Die Europafreunde. Die Klimaschützer. Und noch viele weitere Teile der bundesrepublikanischen Gesellschaft, die, um ihre Liberalität zu retten, ihre Seele an die Rechtspopulisten verkauft hat.</p>
+      <div xmlns="" class="article rack no12">
+      <div xmlns="http://www.w3.org/1999/xhtml" role="region" id="" class="first last odd sect sect_quote "><div class="sectbody quote obj"><p>Wie viel Inhumanität nimmt die Gesellschaft in Kauf, um Humanität zu retten? Bis nichts mehr da ist</p></div></div>
+    </div>
+      <p xmlns="" class="article odd">Bei jedem neuen Gezeter wird diese Gesellschaft wieder vor der Frage stehen: Wie viel Inhumanität nimmt sie in Kauf, um Humanität zu retten? Bis nichts mehr da ist.</p>
+      <p xmlns="" class="article even">Klingt das alarmistisch? Mag sein. Tatsächlich stehen wir weder vor der unmittelbaren Rückkehr des Nationalsozialismus, noch wird Europa gleich morgen in seine Nationalstaaten zerbrechen und auf einen Zustand wie anno 1930 zurückfallen. Oder 1910. Aber wer bis dahin warten will, um Alarm zu schlagen, sollte sich im Klaren sein, dass es dann zu spät ist.</p>
+      <p xmlns="" class="article last odd">Zudem sind alle sich bereits abzeichnenden Zwischenschritte Grund genug, das Fürchten zu lernen. Und anders als die Angst vor dem Fremden ist diese Angst sehr begründet. In Italien ist bereits ein Rechtsradikaler Innenminister, den einige nicht ohne Grund Faschist nennen. In Ungarn steht Pressefreiheit nur noch auf dem Papier. In Österreich sind die Attacken auf den öffentlich-rechtlichen Rundfunk Alltag. <a target="_blank" href="/Proteste-gegen-die-Justizreform-in-Polen/!5518939/">In Polen wird die Unabhängigkeit der Justiz ausgehöhlt.</a> In den USA regiert Donald Trump.</p>
+    </article></div>
+
+    
+  
+
+    
+  <div role="region" id="" class="odd sect "><div class="sectbody"><a xmlns="" id="reward" shape="rect">Einmal zahlen</a><script> filOtaz_de.flattr();</script></div></div>
+
+    
+	<div class="shariff">.</div>
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script><script class="tziArticle" type="text/html"><article href="/Headlinesxmas22/!173478/" ratioURL-ressource="173478" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Headlinesxmas22</span><span class="hide">: </span><span>Ihr Kinderlein leset</span>
+</h1>
+  		<p xmlns="" class="article first odd">Bei uns können alle so viel lesen, wie sie möchten. Guter Journalismus muss sich jedoch, auch und  gerade im Digitalen, finanzieren. Am   besten freiwillig und  solidarisch. Das ist die Idee, und schon <strong>über 35.000</strong>   Menschen machen mit.                 
+</p>
+  		<p xmlns="" class="article even"><strong>Fördern auch Sie jetzt die taz. </strong></p>
+  
+  		<p xmlns="" class="article last odd"></p>
+      	</div></div></article></script><script class="tziArticle" type="text/html"><article href="/Headlinesxmas22/!173477/" ratioURL-ressource="173477" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Headlinesxmas22</span><span class="hide">: </span><span>All I Read For Christmas Is taz.de</span>
+</h1>
+  		<p xmlns="" class="article first odd">Unser Geschenk: Alle Artikel auf taz.de – ohne Paywall. Wir möchten uns nicht über Bezahlschranken finanzieren. Doch guter Journalismus will bezahlt werden. Schon über 35.000 Unterstützer:innen honorieren  den taz-Journalismus im Netz – und zwar freiwillig.       
+</p>
+  		<p xmlns="" class="article even"><strong>Jetzt die taz unterstützen?     </strong></p>
+  
+  		<p xmlns="" class="article last odd"></p>
+      	</div></div></article></script><script class="tziArticle" type="text/html"><article href="/Headlinesxmas22/!173476/" ratioURL-ressource="173476" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Headlinesxmas22</span><span class="hide">: </span><span>Kling, Kässchen, klingelingeling</span>
+</h1>
+  		<p xmlns="" class="article first odd">Helfen Sie uns mit einem  kleinen Beitrag. So sorgen Sie dafür, dass die taz auch in Zukunft eine wichtige,  kritische Stimme bleibt. Jeder Beitrag – ob 5,- Euro im Monat oder 10,- Euro im Jahr – hilft unserem Journalismus in die Zukunft. 
+</p>
+  		<p xmlns="" class="article even"><strong>Unterstützen Sie jetzt die taz. </strong></p>
+  
+  		<p xmlns="" class="article last odd"></p>
+      	</div></div></article></script><script class="tziArticle" type="text/html"><article href="/Headlinesxmas22/!173475/" ratioURL-ressource="173475" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Headlinesxmas22</span><span class="hide">: </span><span>Es ist ein Text entsprungen</span>
+</h1>
+  		<p xmlns="" class="article first odd">Unsere Artikel entstehen nicht aus dem Nichts, dahinter steckt viel Arbeit. Als unabhängiges und frei zugängliches Medium sind  wir auf  Ihre Unterstützung angewiesen. Nur so können wir unseren  Journalismus machen und erhalten.         
+</p>
+  		<p xmlns="" class="article even"><strong>Unterstützen Sie jetzt die taz.</strong></p>
+  
+  		<p xmlns="" class="article last odd"></p>
+      	</div></div></article></script><!--custom layer design--><script type="text/javascript" xml:space="preserve">
+          (function () {
+    	      var cookieName = '2019-5-27';
+            patOtaz_de.layer_tzi_paywahl({'campaign': cookieName, 
+            'relationDachzeile': 'Headlinesxmas22',
+            'background': '#d50d2e',
+            'color': 'white',
+            'h1Color': 'white',
+            'yesButtonBackground': 'white',
+            'yesButtonColor': '#d50d2e',
+            'yesButton': '',
+            'laterButton': '',
+            'contributorButton': '',
+            'src': '/uploads/images/624/taz-zahl-ich_weiss-rot.png'
+            });
+          })();
+        </script><script class="tziBottomArticle" type="text/html"><article href="/BottomabTest17lang/!155790/" ratioURL-ressource="155790" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Bottom,abTest17,lang</span><span class="hide">: </span><span>Ohne Ihre Unterstützung geht es nicht</span>
+</h1>
+  		<p xmlns="" class="article first odd">Unsere Community ermöglicht den freien Zugang für alle. Dies unterscheidet uns von anderen Nachrichtenseiten. Wir begreifen Journalismus nicht nur als Produkt, sondern auch als öffentliches Gut. Unsere Artikel sollen möglichst vielen Menschen zugutekommen. Mit unserer Berichterstattung versuchen wir das zu tun, was wir können: guten, engagierten Journalismus. Alle Schwerpunkte, Berichte und Hintergründe stellen wir dabei frei zur Verfügung, ohne Paywall. Gerade jetzt müssen Einordnungen und Informationen allen zugänglich sein.                              
+</p>
+  		<p xmlns="" class="article even">Was uns noch unterscheidet: Unsere Leser:innen. Sie müssen nichts bezahlen, wissen aber, dass guter Journalismus nicht aus dem Nichts entsteht. Dafür sind wir sehr dankbar. Mittlerweile sind 35.000 Menschen dabei und ermöglichen damit den taz-Blick aufs Weltgeschehen, jeden Tag hier auf taz.de. Damit wir auch morgen noch unseren Journalismus machen können, brauchen wir mehr Unterstützung. Unser nächstes Ziel: 40.000 – und mit Ihrer Beteiligung können wir es schaffen. Es wäre ein schönes Zeichen für die taz und für die Zukunft unseres Journalismus. Mit nur 5,- Euro sind Sie dabei!</p>
+  
+  		<p xmlns="" class="article last odd"></p>
+      	</div></div></article></script><script class="tziBottomArticle" type="text/html"><article href="/BottomabTest17kurz/!155427/" ratioURL-ressource="155427" class="objlink nolead" role="link"><div role="region" id="" class="odd sect sect_article news subjective commentary"><div class="sectbody"><h1 xmlns="" itemprop="headline">
+<span class="kicker">Bottom,abTest17,kurz</span><span class="hide">: </span><span>Öfter hier? Dann unterstützen Sie uns!</span>
+</h1>
+  		<p xmlns="" class="article first odd">Hinter jedem Artikel steckt eine Menge Arbeit. Von Journalist:innen, Redakteur:innen und vielen andere Mitarbeiter:innen. Wir setzen – schon seit der Gründung der taz und auch im Digitalen – auf Freiwilligkeit und Solidarität. Ihnen ist der taz-Journalismus im Netz wichtig? Sie lesen öfter und gerne unsere Recherchen und Reportagen? Dann unterstützen Sie uns! Mit einem kleinen Beitrag von 5,- Euro im Monat unterstützen Sie nicht nur unseren Journalismus, sondern auch eine kritische Stimme im Netz. Über 35.000 Menschen sind schon dabei – weil guter Journalismus nicht umsonst zu haben ist.</p>
+  
+  		<p xmlns="" class="article last even"></p>
+      	</div></div></article></script><div role="region" id="" class="odd sect sect_text "><div class="sectbody"><p>
+
+	Fehler auf taz.de entdeckt?
+	    </p><p>
+        Wir freuen uns über eine
+	<a href="mailto:fehlerhinweis@taz.de?subject=Fehlerhinweis%20zu%20https://taz.de/Debatte-Fluechtlingspolitik/!5515694/&amp;body=Zu%20%22Debatte Flüchtlingspolitik: Dämonisierte Fremde%22%0D%0Ahttps://taz.de/Debatte-Fluechtlingspolitik/!5515694/%0D%0A%0D%0ABitte%20beschreiben%20Sie%20uns%20den%20Fehler.%20Sie%20können%20gern%20einen%20Screenshot%20anhängen.%20Wir%20danken%20für%20Ihre%20Hilfe%21%20
+					%0D%0A%0D%0A
+					Inhaltliches%20Feedback%20geben%20Sie%20uns%20gerne%20in%20der%20Kommentarspalte%20oder%20richten%20es%20an%20briefe@taz.de.%20Dort%20leiten%20wir%20ihr%20Feedback%20auch%20an%20die%20Redaktion%20weiter.%20Über%20diese%20Mailadresse%20nehmen%20wir%20nur%20Rechtschreib-%20und%20Faktenkorrekturen%20vor.				">Mail an fehlerhinweis@taz.de</a>!</p><p>
+	Inhaltliches Feedback?
+	</p><p>
+
+	Gerne als Leser*innenkommentar unter dem Text auf taz.de oder über das
+	<a href="/!112355/"> Kontaktformular</a>.
+		</p></div></div><!-- DEBUG belly: 3 extras here, 0 from directory Lesestück Meinung und Analyse, thats 3 merged--><!--do not show webelement - belly / stopper only for first tag--><!--do not show webelement - belly / stopper only for first tag--><!--do not show webelement - belly / stopper only for first tag--></span><span class="wing" role="contentinfo"><div class="rack first_rack" id="xid459821">
+    
+	<!--template mode="layout" match="display[ @obj='descr' ]":start-->
+
+    
+	<div role="region" id="" class="even sect sect_meta "><div class="sectbody"><ul role="navigation" class="left rootline toolbar" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li class="first odd trodd selected" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><meta itemprop="position" content="1"></meta><a itemprop="item" href="/Gesellschaft/!p4611/" id="menu_p4611"><span itemprop="name">Gesellschaft</span></a></li><li class="last even trodd selected" itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><meta itemprop="position" content="2"></meta><a itemprop="item" href="/Gesellschaft/Debatte/!p4633/" id="menu_p4633"><span itemprop="name">Debatte</span></a></li></ul><ul role="navigation" class="right toolbar"><li class="date" itemprop="datePublished" content="2018-07-04T18:54:00+01:00">4. 7. 2018<span>, 18:54 Uhr</span></li><li itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization " style=" display:none; "><span itemprop="url" content="https://taz.de"></span><span itemprop="name" content="TAZ Verlags- und Vertriebs GmbH"></span><span itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url" alt="taz logo" src="https://taz.de/lib/ch/web/pix/taz_logo_web.jpg"></img></span><span content="https://www.facebook.com/taz.kommune/" itemprop="sameAs"></span><span content="https://twitter.com/tazgezwitscher" itemprop="sameAs"></span><span content="https://www.instagram.com/taz.die_tageszeitung" itemprop="sameAs"></span><span content="https://flipboard.com/@taz_de" itemprop="sameAs"></span><span content="https://www.reddit.com/user/dietageszeitung" itemprop="sameAs"></span><span content="https://pod.geraspora.de/u/taz" itemprop="sameAs"></span></li><meta itemprop="dateModified" content="2018-07-05T08:13:57+01:00"></meta></ul></div></div>
+
+    
+	<div role="region" id="" class="odd sect sect_profile big pictured "><div class="secthead" role="heading"><h2><a name="Kommentar von"><span>Kommentar von</span></a></h2></div><div class="sectbody" itemscope="itemscope" itemtype="http://schema.org/Person" itemprop="author"><a rel="author" class="big pictured 
+        
+	
+        
+
+		
+			
+	        
+	
+			author 
+		
+		community 
+		
+        
+                
+		        
+		                
+		
+	        
+	        
+                
+
+				
+		
+
+        person objlink" itemprop="url" href="https://taz.de/Gereon-Asmuth/!a111/"><h4 itemprop="name">Gereon Asmuth</h4><h5 itemprop="jobTitle">Ressortleiter taz-Regie</h5><img itemprop="image" src="/kommune/files/images/profile/138x138/111.png" alt="Gereon Asmuth" title="Gereon Asmuth"></img></a><ul class="contact"><li><a itemprop="email" class="email" href="mailto:Gereon Asmuth &lt;asmuth@taz.de&gt;"><img src="/lib/ch/web/pix/icons/email.png" class="icon"></img></a></li><li><a itemprop="sameAs" class="remote mastodon" href="https://social.anoxinon.de/@gereonas" content=""><img src="/lib/ch/web/pix/icons/mastodon.png" class="icon" alt="mastodon" title="Gereon Asmuth via mastodon"></img></a></li><li><a itemprop="sameAs" class="remote website" target="_blank" href="http://gereonasmuth.de"><img src="/lib/ch/web/pix/icons/website.png" class="icon" alt="website" title="Gereon Asmuth's website"></img></a></li><li><a itemprop="sameAs" class="remote microblog" target="_blank" href="https://twitter.com/@gereonas"><img src="/lib/ch/web/pix/icons/microblog.png" class="icon" alt="microblog" title="Gereon Asmuth's microblog"></img></a></li></ul></div></div><div role="region" id="" class="odd sect sect_profile-descr "><p class="sectbody"><!--0-->Leiter des Regie-Ressorts, das die zentrale Planung der taz-Themen für Online und Print koordiniert. Seit 1995 bei der taz als Autor, CvD und ab 2005 Leiter der Berlin-Redaktion. 2012 bis 2019 Leiter der taz.eins-Redaktion, die die ersten fünf Seiten der gedruckten taz produziert. 
+Twittert zurzeit vor allem Analysen der Corona-Zahlen. 
+Hat in Bochum, Berlin und Barcelona Wirtschaft, Gesellschafts- und Wirtschaftskommunikation und ein wenig Kunst studiert. 
+Mehr unter gereonasmuth.de. 
+Twitter: @gereonas
+Mastodon: @gereonas@social.anoxinon.de
+</p></div>
+
+    
+	<div role="region" id="" class="even sect sect_tags "><div class="secthead" role="heading"><h2><a name="Themen"><span>Themen</span></a></h2></div><ul role="directory" class="news directory sectbody"><li class="even trodd tag"><a role="link" href="https://taz.de/Schwerpunkt-Flucht/!t5201005/" class="tag dirlink"><span>Schwerpunkt Flucht</span></a></li><li class="odd treven tag"><a role="link" href="https://taz.de/AfD/!t5008033/" class="tag dirlink"><span>AfD</span></a></li><li class="even trodd tag"><a role="link" href="https://taz.de/Rassismus/!t5007524/" class="tag dirlink"><span>Rassismus</span></a></li><li class="odd trodd tag"><a role="link" href="https://taz.de/Xenophobie/!t5011547/" class="tag dirlink"><span>Xenophobie</span></a></li><li class="last even treven tag"><a role="link" href="https://taz.de/Rechtsruck/!t5021689/" class="tag dirlink"><span>Rechtsruck</span></a></li></ul></div>
+
+    
+	
+
+    
+	<!-- DEBUG label: 0 extras here, 0 from directory Lesestück Meinung und Analyse, thats 0 merged-->
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script><span id="ad_bin_ros_sidebar_1" class="ad_bin sold contentad"><div id="ad_zone_ros_sidebar_1" name="ros_sidebar-1" class="ad_zone ad_zone_contentad ad_zone_badged ad_zone_sold"></div></span><script type="text/javascript"> (function(){
+		var domId = 'ros_sidebar_1';
+		var parent = $( '#ad_bin_'+ domId ).parent();
+		if ( parent.is('.wing') ) {
+			filOtaz_de_float.promise.promise().done(function(){
+				filOtaz_de.ads.gpt.activateAdFrame( domId );
+			});
+		} else {
+			filOtaz_de.ads.gpt.activateAdFrame( domId );
+		}
+	})(); 
+	</script><!-- DEBUG wing: 0 extras here, 0 from directory Lesestück Meinung und Analyse, thats 0 merged--></span><script> $(document.getLatestElement()).filter('.wing').on( 'TAZdomChange', function(){
+					$(this).find('.rack').removeClass('first first_rack').first().addClass('first first_rack');
+					}); //</script><span class="tail" role="complementary"><!-- DEBUG tail: 0 extras here, 0 from directory Lesestück Meinung und Analyse, thats 0 merged--><div role="region" id="xid864204" class="last even sect sect_adr style_adr "><ul role="directory" class="sectbody corp  directory"><li class=" first last odd trodd online   remote story leaded pictured"><a class="dept" href="//www.kontextwochenzeitung.de/">KONTEXT: Wochenzeitung</a><a href="https://www.kontextwochenzeitung.de/ueberm-kesselrand/612/ein-schmetterling-richtung-sueden-8594.html" target="_blank" class="objlink remote story leaded pictured noavatar" role="link"><h4>Kontext über Schwarze Akademie</h4><h3>Ein Schmetterling Richtung Süden</h3><p class="brief">Black-Academy-Leiterin Amoussou über die mangelnde Aufarbeitung des Kolonialismus und Erinnerungskultur.</p><img class="lozad" src="/picture/5989466/14/21_12_22_Bild_1.jpg" data-src="/picture/5989466/300/21_12_22_Bild_1.jpg" alt="" title=""></img><noscript><img src="/picture/5989466/300/21_12_22_Bild_1.jpg" alt="" title=""></img></noscript></a></li></ul></div></span><meta itemprop="isAccessibleForFree" content="true"></meta><a itemprop="mainEntityOfPage" href="https://taz.de/Debatte-Fluechtlingspolitik/!5515694"></a></div><script type="text/javascript">(function () {	// align skirt top with first page's bottom asap
+$( document ).ready(function() {
+  var skirt_top = $('.sect_tdt >.sectbody').length ? $('.sect_tdt >.sectbody').first().offset().top -4 : 1500;
+  $('#skirt').css({'top': ''+ skirt_top +'px'});
+});
+	})();	</script><div class="full no_rightbar below news page even n2"><div class="head" role="head"><div class="nose" role="heading" id="pg_hd"><h2><a name="Volle Spalte unterm Artikel" href="/Volle-Spalte-unterm-Artikel/!p5315//"><span>Volle Spalte unterm Artikel</span></a></h2></div><ul role="navigation" class="news navbar newsnavigation"></ul><script>
+		var liSelected = $(document.getLatestElement()).find('li.selected');
+		if ( liSelected.length > 1 ){ liSelected.first().removeClass('selected')};
+	</script></div><span class="body" role="main"><div class="rack first_rack" id="xid841997">
+    
+	<div role="region" id="" class="first last odd sect sect_thema clip_small plain style_clip_small plain "><div class="secthead" role="heading"><h2><a name="Mehr zum Thema"><span>Mehr zum Thema</span></a></h2><ul class="toolbar" role="toolbar"></ul></div><ul role="directory" class="sectbody news  directory"><li class=" first odd trodd    report article leaded pictured"><a href="/EuGH-Urteil-zum-Fluechtlingsschutz/!5535550/" ratioURL-ressource="5535550" class="objlink report article leaded pictured noavatar" role="link"><h4>EuGH-Urteil zum Flüchtlingsschutz</h4><h3>Straftaten kein Ausschlussgrund</h3><p>Einem Asylbewerber, der eine „schwere Straftat“ begangen hat, darf nicht wegen der Höhe des Strafmaßes internationaler Schutz verweigert werden.  </p><img class="lozad" src="/picture/2954407/14/OrbanAsylpolitikEuGH.jpeg" data-src="/picture/2954407/300/OrbanAsylpolitikEuGH.jpeg" alt="Viktor Orbán blickt skeptisch zur Seite" title="Viktor Orbán blickt skeptisch zur Seite"></img><noscript><img src="/picture/2954407/300/OrbanAsylpolitikEuGH.jpeg" alt="Viktor Orbán blickt skeptisch zur Seite" title="Viktor Orbán blickt skeptisch zur Seite"></img></noscript></a></li><li class=" even trodd    report article leaded pictured"><a href="/Schulunterricht-fuer-Fluechtlinge-in-Polen/!5518038/" ratioURL-ressource="5518038" class="objlink report article leaded pictured noavatar" role="link"><h4>Schulunterricht für Flüchtlinge in Polen</h4><h3>Nicht mit polnischen Kindern!</h3><p>Die polnische Regierung will Flüchtlingskinder nicht mehr auf öffentliche Schulen schicken. Stattdessen sollen sie in ihrer Asylunterkunft lernen.  <span class="author">Gabriele Lesser</span></p><img class="lozad" src="/picture/2849475/14/malendeskind.jpeg" data-src="/picture/2849475/300/malendeskind.jpeg" alt="Ein Kind malt das Bild eines Malbuchbildes in bunten Farben aus. Man sieht nur die Hände des Kindes" title="Ein Kind malt das Bild eines Malbuchbildes in bunten Farben aus. Man sieht nur die Hände des Kindes"></img><noscript><img src="/picture/2849475/300/malendeskind.jpeg" alt="Ein Kind malt das Bild eines Malbuchbildes in bunten Farben aus. Man sieht nur die Hände des Kindes" title="Ein Kind malt das Bild eines Malbuchbildes in bunten Farben aus. Man sieht nur die Hände des Kindes"></img></noscript></a></li><li class=" last odd treven    subjective commentary article leaded pictured"><a href="/Kommentar-Umfragewerte-der-Parteien/!5515993/" ratioURL-ressource="5515993" class="objlink subjective commentary article leaded pictured noavatar" role="link"><h4>Umfragewerte der Parteien</h4><h3>Im Unterbietungswettbewerb</h3><span class="category_and_name"><div><span>Kommentar </span><span class="author"><p>von <b>Anja Maier</b> </p></span></div></span><p>Die Union verliert an Zustimmung, die AfD zieht mit der SPD gleich. Das passiert, wenn man glaubt, die Parolen der AfD kopieren zu müssen.  </p><img class="lozad" src="/picture/2828338/14/augs.jpeg" data-src="/picture/2828338/300/augs.jpeg" alt="Ein Logo der AfD in einem Flur beim Parteitag am 1. Juli in Augsburg" title="Ein Logo der AfD in einem Flur beim Parteitag am 1. Juli in Augsburg"></img><noscript><img src="/picture/2828338/300/augs.jpeg" alt="Ein Logo der AfD in einem Flur beim Parteitag am 1. Juli in Augsburg" title="Ein Logo der AfD in einem Flur beim Parteitag am 1. Juli in Augsburg"></img></noscript></a></li><a class="button cta">Alle Artikel zum Thema</a></ul></div>
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script></span><span class="headed wing" role="complementary"></span><script> $(document.getLatestElement()).filter('.wing').on( 'TAZdomChange', function(){
+					$(this).find('.rack').removeClass('first first_rack').first().addClass('first first_rack');
+					}); //</script><meta itemprop="isAccessibleForFree" content="true"></meta><a itemprop="mainEntityOfPage" href="https://taz.de/Debatte-Fluechtlingspolitik/!5515694"></a></div><div class="full community page last odd n3"><div class="head" role="head"><ul role="navigation" class=" navbar newsnavigation"></ul><script>
+		var liSelected = $(document.getLatestElement()).find('li.selected');
+		if ( liSelected.length > 1 ){ liSelected.first().removeClass('selected')};
+	</script></div><span class="body" role="main"><div role="region" id="xid461804" class="even sect sect_Die Kommentarfunktion unter diesem Artikel ist geschlossen. closed no_body"><div class="secthead" role="heading"><h2><a name="Die Kommentarfunktion unter diesem Artikel ist geschlossen."><span>Die Kommentarfunktion unter diesem Artikel ist geschlossen.</span></a></h2></div><div class="sectbody"></div></div><div class="rack first_rack" id="xid495498">
+    
+
+	<div role="region" id="" class="first last odd sect sect_text "><div class="secthead" role="heading"><h2><a name="So können Sie kommentieren:"><span>So können Sie kommentieren:</span></a></h2></div><div class="sectbody"><p>       Bitte <a href="https://www.taz.de/kommune/post.php?a=registration" target="_blank">registrieren Sie sich</a> und halten Sie sich an unsere <a href="http://taz.de/netiquette" target="_blank">Netiquette</a>.     
+</p><p>      Haben Sie Probleme beim Kommentieren oder Registrieren?   
+</p><p>  Dann mailen Sie uns bitte an <a href="mailto:kommune@taz.de" target="_blank">kommune@taz.de</a>   </p></div></div>
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script><div role="region" id="" class="even sect sect_commentlinks style_commentlinks "><div class="secthead" role="heading"><h2><a name="Leser*innenkommentare"><span>Leser*innenkommentare</span></a></h2><ul class="toolbar" role="toolbar"></ul></div><ul role="directory" class="sectbody   directory"><li class="member " id="bb_message_3655550"><a class="author person" href="/!ku26767/"><h4>Smaragd</h4></a><time datetime="2018-07-05T09:17:48+02:00"><meta value="1530775068"></meta>05. 07. 2018, 
+		09:17</time><div class="objlink nolead" role="link"><p xmlns="" class="first odd">Unser Problem sind nicht die Flüchtlinge, sondern die Konzentration des Reichtums bei einigen Wenigen. Es IST genug für alle da - der Wohlstand kommt nur nicht bei denen an, die ihn brauchen. Und auf der anderen Seite stehen die, die im Champagner baden können.</p>
+<p xmlns="" class="last even">Wenn diejenigen, die im Geld schwimmen, durch Steuern ihren angemessenen Beitrag zu den gesellschaftlichen Aufgaben leisten würden, hätten wir keine solch toleranzgefährdende Konkurrenzsituation zwischen Flüchtlingen und Deutschen, die Hilfe benötigen. Es ist durchaus genug für alle da, wir müssen nur das Teilen (wieder?) lernen.</p></div></li><li class="member " id="bb_message_3655526"><a class="author person" href="/!ku39307/"><h4>Sven Günther</h4><img class="lozad" src="" data-src="/kommune/files/images/profile/70x70/39307.png" alt="" title=""></img><noscript><img src="/kommune/files/images/profile/70x70/39307.png" alt="" title=""></img></noscript></a><time datetime="2018-07-05T07:57:37+02:00"><meta value="1530770257"></meta>05. 07. 2018, 
+		07:57</time><div class="objlink nolead" role="link"><p xmlns="" class="first odd">Auch "westliche" Gesellschaften sind in der Lage, praktisch alles in Kauf zu nehmen, man schaue sich nur mal die Politik Australiens dazu an.</p>
+<p xmlns="" class="even">Und von der sind wir Lichtjahre entfernt.</p>
+<p xmlns="" class="odd">Vielleicht sollte man mal Anfangen ehrlich zu sein, wir sind ein Einwanderungsland und brauchen darum ein Einwanderungsgesetz, damit Personen legal hier einreisen können, getrennt vom Asylsystem.</p>
+<p xmlns="" class="even">Und man sollte aufhören den Leuten zu erzählen, man könne Fluchtursachen wirksam in den Herkunftsländern bekämpfen, das ist Blödsinn. Das sind entweder Kriegs-, Bürgerkriegsgebiete oder Diktaturen. Man muss sich einfach mal anschauen, was die Hauptherkunftsländer sind, Syrien, Afghanistan, Irak, Pakistan, Nigeria, Iran und Eritrea.</p>
+<p xmlns="" class="last odd">Da ist mein Beispiel immer Afghanistan, da hat man Milliarden ausgegeben und als Entwicklungshilfe hingeschickt, Hunderttausende Soldaten entsand, die Armee aufgerüstet, die Entwicklungsgesellschaften praktisch jedes westlichen Landes sind oder waren da. Ergebnis, es hat sich praktisch nichts verbessert, vieles verschlechtert und die Leute fliehen immer noch.</p></div></li><li class="member " id="bb_message_3655502"><a class="author person" href="/!ku41486/"><h4>What If</h4></a><time datetime="2018-07-05T01:28:11+02:00"><meta value="1530746891"></meta>05. 07. 2018, 
+		01:28</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Wer ist denn eigentlich fremd? Mit seinesgleichen diskutiert man auf Augenhöhe und kritisiert einander gegebenenfalls. Ist Islamkritik automatisch Fremdenhass? Oder ist es nicht eher ein Zeichen von Integration, wenn man mit Menschen, die teilweise schon fünfzig Jahre hier sind, auf Augenhöhe über Religionen diskutiert und ggf. auch kritisiert? Wer aber Islamkritik pauschal als Fremdenhass brandmarkt, zementiert er dadurch nicht den Status der Muslime als "Fremde" viel mehr als der fundierte Kritiker, der sie gar nicht wie Fremde behandelt?</p></div></li><li class="member " id="bb_message_3655492"><a class="author person" href="/!ku388/"><h4>vergessene Liebe</h4></a><time datetime="2018-07-04T23:36:35+02:00"><meta value="1530740195"></meta>04. 07. 2018, 
+		23:36</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Danke Herr Asmuth ! Ein `grausam ehrlicher´und objektiver Kommentar !</p></div></li><li class="member " id="bb_message_3655490"><a class="author person" href="/!ku34841/"><h4>Tino Trivino</h4></a><time datetime="2018-07-04T23:27:38+02:00"><meta value="1530739658"></meta>04. 07. 2018, 
+		23:27</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Deutschland=USA...<br xmlns="http://www.w3.org/1999/xhtml"></br>
+tja, soweit ist man gekommen!<br xmlns="http://www.w3.org/1999/xhtml"></br>
+da helfen auch die ein paar tausend "gutmenschen" nicht, die Kälte in Eure Herzen hat die übermacht genommen.</p></div></li><li class="member " id="bb_message_3655474"><a class="author person" href="/!ku42821/"><h4>WoogsRenegat</h4></a><time datetime="2018-07-04T22:19:25+02:00"><meta value="1530735565"></meta>04. 07. 2018, 
+		22:19</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Ein weiterer Wettbewerbsbeitrag in der Disziplin "Pappkameraden aufstellen und abschießen". Man kann sich durchaus für die vernünftige Regulierung von Einwanderung inkl. Obergrenzen einsetzen ohne Fremde zu dämonisieren.</p></div></li><li class="member " id="bb_message_3655451"><a class="author person" href="/!ku44932/"><h4>Faktenliebhaber</h4></a><time datetime="2018-07-04T21:01:53+02:00"><meta value="1530730913"></meta>04. 07. 2018, 
+		21:01</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Zitat aus dem Artikel:<br xmlns="http://www.w3.org/1999/xhtml"></br>
+"Die letzten drei Jahre haben gezeigt, dass selbst ein immenser Rückgang der Flüchtlingszahlen keinerlei Beruhigung an der rechts­natio­nalen Front zur Folge hatte."<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Zitatende.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Es gibt m.E. keinen Rückgang der absoluten Flüchtlingszahlen. Derzeit kommen mehr Flüchtlinge in Deutschland an, als zurückgeführt werden.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Die tatsächliche Zahl der Flüchtlinge, die sich in Deutschland aufhalten, steigt nach wie vor. Deshalb ist es nicht korrekt von einem Rückgang zu sprechen.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Zudem müsste die Bezeichnung Flüchtling sicherlich genauer betrachtet werden.</p></div><ul class="thread"><li class="guest " id="bb_message_3655575"><a class="author person"><h4>80336 (Profil gelöscht)</h4><h5>Gast</h5></a><time datetime="2018-07-05T10:04:53+02:00"><meta value="1530777893"></meta>05. 07. 2018, 
+		10:04</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd"><span xmlns="http://www.w3.org/1999/xhtml" class="reference person member">@Faktenliebhaber </span>Die Vermutung des Autors, dass selbst ein immenser Rückgang der Flüchtlingszahlen zu keinerlei Beruhigung an der rechtsnationalen Front führen werde, wird durch Ihren Kommentar eindrucksvoll  bestätigt.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Der Umfang Ihrer "Faktenliebe" ist an dem Wort "absolut" in Ihrer Replik feststellbar: Sie jubelten darüber dem Autor wider besseren Wissens, mit voller Absicht, und anhand des Zitats für jeden Leser auch nachvollziehbar, eine Aussage unter, die er nachweisbar gar nicht gemacht hatte. Womit alles über die Qualität Ihres "m. E." ausgesagt: achtlos (= blind, flüchtig, schusselig, unaufmerksam, ohne Sorgfalt), womit die Bezeichnung "Faktenliebhaber" hinreichend genauer betrachtet.</p></div></li><li class="guest " id="bb_message_3655535"><a class="author person"><h4>80336 (Profil gelöscht)</h4><h5>Gast</h5></a><time datetime="2018-07-05T08:33:41+02:00"><meta value="1530772421"></meta>05. 07. 2018, 
+		08:33</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd"><span xmlns="http://www.w3.org/1999/xhtml" class="reference person member">@Faktenliebhaber </span>Die Vermutung des Autors, dass selbst ein immenser Rückgang der Flüchtlingszahlen zu keinerlei Beruhigung an der rechtsnationalen Front führen werde, wird durch Ihren Kommentar eindrucksvoll  bestätigt.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Der Umfang Ihrer "Faktenliebe" ist an dem Wort "absolut" in Ihrer Replik feststellbar: Sie jubelten darüber dem Autor wider besseren Wissens, mit voller Absicht, und anhand des Zitats für jeden Leser auch nachvollziehbar, eine Aussage unter, die er definitiv gar nicht gemacht hatte. Womit alles über die Qualität Ihres "m. E." ausgesagt: achtlos (= blind, flüchtig, schusselig, unaufmerksam, ohne Sorgfalt) . Womit die Bezeichnung "Faktenliebhaber" hinreichend genauer betrachtet.</p></div></li><li class="member " id="bb_message_3655529"><a class="author person" href="/!ku19653/"><h4>Thomas Dreher</h4></a><time datetime="2018-07-05T08:09:53+02:00"><meta value="1530770993"></meta>05. 07. 2018, 
+		08:09</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd"><span xmlns="http://www.w3.org/1999/xhtml" class="reference person member">@Faktenliebhaber </span>Lieber Faktenliebhaber, <br xmlns="http://www.w3.org/1999/xhtml"></br>
+wenn ein Mensch hier frisch ankommt ist er vielleicht zunächst fremder und Flüchtling, vergeht dann aber die Zeit wird er erst zum Einwohner und bei weiteren verstreichen der Zeit werden er/sie und ihre  Nachkommen zu Mitbürgern.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+Wollen Sie das dieser Prozess schneller läuft um die "Fluchtlingszahlen" zu senken, müssen Sie die Integration durch eigenes Tun und die Unterstützung einer integrativen Politik fördern.<br xmlns="http://www.w3.org/1999/xhtml"></br>
+In meiner Familie gibt es 2 Fluchterfahrungen: Salzburg -&gt; Ostpreußen und Ostpreußen -&gt; Hessen. Aus der familiären Überlieferung weiß ich, daß es bei jedem ankommen Zoff mit den "Einheimischen " gab, die Flüchtlinge  haben sich aber jedes mal den Status respektierter  Mitbürger erarbeitet, die Stützen der jeweiligen neuen Gemeinschaft wurden.</p></div></li></ul></li><li class="member " id="bb_message_3655421"><a class="author person" href="/!ku39717/"><h4>Klartexter</h4></a><time datetime="2018-07-04T19:50:43+02:00"><meta value="1530726643"></meta>04. 07. 2018, 
+		19:50</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Da ist es wieder das Schwarz Weiß denken. Entweder ist man in unserem Land ein Rechtsradikaler Ausländer raus gröler oder man ist der Linksversiffte Naive ”kommet alle nach Deutschland und bettet euch im Paradies”. Ich möchte wetten das 90 % der Deutschen aber anders denken, nur ist es nicht „in“ über diese Mehrheit zu reden. Die meisten Menschen mit auch nur etwas Hirn müssten doch einsehen das wir natürlich Flüchlinge aus Kriegsgebieten aufnehmen müssen solange diese Schutz brauchen. Genauso muss es doch jedem klar sein das wir unsere Grenzen nicht endlos für jeden öffnen können um ein wirtschaftlich besseres Leben zu führen. Wo bleibt die Mitte die etwas Hirn walten lässt?</p></div></li><li class="member " id="bb_message_3655419"><a class="author person" href="/!ku24574/"><h4>Bernhard Hellweg</h4></a><time datetime="2018-07-04T19:49:09+02:00"><meta value="1530726549"></meta>04. 07. 2018, 
+		19:49</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">lasst uns eine Koalition der Anständigen bilden, ihr die ihr die Linken, die Grünen, die SPD, die CDU, und ja auch die CSU gewählt habt, kämpfen wir gegen die Dunkelheit, gegen gestern, und für eine neue Zeit, für Toleranz, für das Verstehen anderer Kulturen und für die Toleranz eines friedlichen Zusammenlebens.</p></div><ul class="thread"><li class="member " id="bb_message_3655698"><a class="author person" href="/!ku40064/"><h4>Gerhard Krause</h4></a><time datetime="2018-07-05T18:25:20+02:00"><meta value="1530807920"></meta>05. 07. 2018, 
+		18:25</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd"><span xmlns="http://www.w3.org/1999/xhtml" class="reference person member">@Bernhard Hellweg </span>Ich bin dabei; dann aber auch überall auf der Welt. :-)</p></div></li></ul></li><li class="member " id="bb_message_3655414"><a class="author person" href="/!ku32396/"><h4>Ansgar Reb</h4><img class="lozad" src="" data-src="/kommune/files/images/profile/70x70/32396.png" alt="" title=""></img><noscript><img src="/kommune/files/images/profile/70x70/32396.png" alt="" title=""></img></noscript></a><time datetime="2018-07-04T19:26:06+02:00"><meta value="1530725166"></meta>04. 07. 2018, 
+		19:26</time><div class="objlink nolead" role="link"><p xmlns="" class="first last odd">Das Problem ist ja, dass derzeit von meinem Lager die Begriffe verunklart wurden. Wir reden von Flücht und Asyl aber die große Mehrzahl der unberechtigten Personen darf ja auch bleiben. Das Sterben im Mittelmeer geht munter weiter, weil wir den Überlebenden starke Anreize bieten. Richtiger wäre eine kontrollierte, offene Einwanderungspolitik. Es fehlt ein kategorischer Imperativ, so dass man ohne Heuchelei für Einwanderer sein kann.</p></div></li></ul></div><span id="ad_bin_uebersicht_medrec_4" class="ad_bin sold contentad"><div id="ad_zone_uebersicht_medrec_4" name="uebersicht_medrec-4" class="ad_zone ad_zone_contentad ad_zone_badged ad_zone_sold"></div></span><script type="text/javascript"> (function(){
+		var domId = 'uebersicht_medrec_4';
+		var parent = $( '#ad_bin_'+ domId ).parent();
+		if ( parent.is('.wing') ) {
+			filOtaz_de_float.promise.promise().done(function(){
+				filOtaz_de.ads.gpt.activateAdFrame( domId );
+			});
+		} else {
+			filOtaz_de.ads.gpt.activateAdFrame( domId );
+		}
+	})(); 
+	</script></span><span class="wing" role="complementary"><div class="rack first_rack" id="xid476383">
+    
+
+
+
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script><form name="form" method="post" enctype="application/x-www-form-urlencoded" id="bb-login" class="even sect sect_bb-login_form style_kommune " action="https://taz.de/kommune/post.php" target="_blank"><div role="heading" class="secthead"><ul role="toolbar" class="toolbar"><li class="login"><a href="" target="_blank">Login</a></li><li class="settings"><a href="https://taz.de/kommune/post.php?a=registration" target="_blank">Registrieren</a></li><li class="newpass"><a shape="rect" target="_blank" href="https://portal.taz.de/?a=nopw">Passwort vergessen?</a></li></ul></div><div class="sectbody"><input type="hidden" name="a" class="constant" id="form_a" value="login"></input><span class="field"><p class="label">E-Mail</p><input type="text" name="email" class="line" id="form_email"></input></span><span class="field"><p class="label">Passwort</p><input type="password" name="password" class="secret" id="form_password"></input></span><input type="submit" class="submit" name="ignore" value="einloggen"></input></div></form><script> filOtaz_de.Form( 'bb-login' ); </script><script type="text/javascript"> (function(){
+	if( filOtaz_de.ajaxifyForm ) return;
+
+	if ('withCredentials' in new XMLHttpRequest() )
+		var haveCORS = true;
+	if( typeof XDomainRequest !== "undefined" )
+		var haveXDR = true;
+//console.log('haveCORS: '+ haveCORS );
+
+	filOtaz_de.ajaxifyForm = function( id, options ){
+		/*	options : {
+				option : choice, …,
+				handlername : function(){…}, …
+				}
+			options:
+				mirrorInput	true/false, default false
+			implemented handlers:
+				handle200	handle OK Server response instead of default
+				on Success	done first in default 200 handler
+			to implement:
+				handle4xx	handle specific 4xx response from Server
+				onReset		done before resetting form to start
+				onError		done first in 4xx handlers
+		*/
+		var formID = id;
+		var form1N = $('#'+ id );
+		if( !form1N.length ) return;
+		if( form1N[0].submit_via_ajax ) return; form1N[0].submit_via_ajax = true;
+
+		var mirror = {  node : options.mirrorInput ? form1N : $()  };
+		mirror.toShow = mirror.node.find('input, textarea');
+		mirror.toHide = mirror.node.find('input:submit');
+
+		if( !( location.protocol=='https:' || haveCORS ) )
+			return $('<div class="warning">Um sichere und dennoch bequeme Kommunikation mit unseren Servern zu erlauben, '
+					+'sollten sie zu einem aktuelleren Browser wechseln '
+					+'oder diese Seite <a href="https:.#'+ formID +'">per HTTPS aufrufen</a></div>'
+				);
+
+//		var callback = callback;
+
+		var altFormNs = $();	// keep track of form nodes we may insert from server responses
+		var clear4reset = function(){
+			altFormNs.slideUp( function(){
+				altFormNs.remove(); altFormNs = $();
+				});
+			};
+		var back2start = function( val ){
+			if( typeof val == 'string' ) {
+				form1N.find('>.sectbody >span >textarea')
+					.val( val )
+					.trigger('blur')
+					;
+				}
+			// ToDo: show hint -> change filOtaz_de.Form first
+			mirror.toShow.prop('disabled', false);
+			mirror.toHide.slideDown();
+			form1N.slideDown();
+			};
+		var reset = function( val ){
+			clear4reset();
+			back2start( val );
+			};
+		var handle200 = ( options.handle200 instanceof Function )? options.handle200 : function( data, status, req ){
+//console.log( data.documentElement.outerHTML );
+			if( options.onSuccess instanceof Function ) options.onSuccess();
+			clear4reset();	// hide follow-up forms
+
+			var message = $(data).filter('.message');
+			if( message.length && message.text() >'' ) {	// show success message
+				var messageN = $('<form id="successMessage" class="sect" />').append( message.addClass('sectbody') );
+				$('<input class="submit" type="submit" value="OK" />').appendTo( message ).click( function(){
+					messageN.slideUp( function(){  messageN.remove();  });
+					back2start('');	// reset to original form
+					return false;
+					});
+				messageN.hide().prependTo( form1N.parent() ).slideDown();
+				form1N.slideUp();
+				}
+			}
+
+
+		var asySubmit = function( formN ){
+			var formN = formN;
+			var action;
+			var clickLock = false;
+			formN.find('>.sectbody >input:submit').click( function(){
+				if( clickLock ) return false; clickLock = true;
+				action = formN.attr('action'); if( !action ) return;	// ToDo: handle missing action
+				action = action.replace(/^http:/,'https:');		// ToDo: handle relative action URL
+
+				var handle422 = function( data ) { // we sent incomplete Data. Show forms from response body!
+//console.log( data[0].documentElement.outerHTML );
+								var formNs = data.find('form');
+								if( !formNs.length ) {
+									alert('error: server response fails expectations: no form found.');
+									return false;
+									}
+
+								var anchor = $('<a />').hide()[ mirror.node.length ?'insertAfter' :'insertBefore' ]( formN );
+
+								formN.not( mirror.node ).slideUp( function(){
+									formN.not( form1N ).remove();
+									});
+								mirror.toShow.attr({ disabled : true });
+								mirror.toHide.slideUp();
+
+								var last = anchor;
+								formNs.each( function(i,e){ var n = $(e);
+
+									var have = $('#'+ n.attr('id') );
+									if(! n.children('.secthead').length )
+										have.children('.secthead').first().clone(true).prependTo( n );
+									var have = have.not( form1N );
+									have.slideUp( function(){
+										altFormNs = altFormNs.not( have );
+										have.remove();					// remove old incarnation
+										});
+
+									n.find('script').remove();	// don't import scripts
+
+									n.hide().insertAfter( last );
+									anchor.remove();
+									last = n;
+									altFormNs = altFormNs.add( n );
+
+									/*
+									*/
+									var ccN = n.find('#captcha-code');
+									var captchaCode = ccN.attr('name');
+									if( ccN.length && captchaCode )	// this form needs a captcha, make one!
+										Recaptcha.create( captchaCode, 'captcha-code', {
+											theme: 'red'
+											} );
+									(new filOtaz_de.Form( n )).cancel( function(){
+										 reset();
+										});
+									asySubmit( n );
+									n.slideDown();
+									});
+//console.log( altFormNs.length +' forms found' );
+
+					} //handle422
+
+
+				var post = {};
+				formN.find('input,textarea').each( function(i,n){ var N = $(n);
+					post[N.attr('name')] = N.val();
+					});
+
+				$.ajax({
+					type		: 'POST',
+					url		: action,
+					cache		: false,
+					data		: post,
+					dataType 	: 'html', // 'xml',
+					xhrFields: {
+					    withCredentials: true
+					},
+
+// chrisso: Disabled beforeSend manipulation because first parameter ("req") is now jqXHR and not original XMLHttpRequest object. (see above "xhrFields")
+//
+//					beforeSend	: function( req, settings ){
+//						req.responseType = 'document';
+//						req.withCredentials = true;
+//						//req.overrideMimeType('text/xml');
+//						},
+
+					success		: function( data, status, req ){	// our post was accepted, show response message!
+						handle200( data, status, req );
+						},
+
+					error		: function( req, status, message ){
+
+//console.log('status: '+ status +' :: '+ message );
+						var data = $( req.response );
+						if( !data.length ) {	// data is not document
+							var text;
+							try{	text = req.responseText;
+								if( text ) text = text.replace(/http:/g, "");	// have src'es protocol relative
+								data = $('<div />').html( text );
+//console.log('response text: '+ text );
+								} catch(e) {
+//console.log('error reading responseText: '+ e );
+								}
+							}
+						if( !data.length ) {
+							try{
+//console.log( req.response.head.parentElement.outerHTML );
+								} catch(e) {
+//console.log('error reading response.head: '+ e );
+								}
+							}
+
+
+
+						({	0   : function() {
+								alert('Error: Can not see server answer. CORS missing?');	// seems a Cross-Origin problem
+//console.log( data );
+								},
+							200 : function() {	// 200 but error, IE9 ends up here
+								handle200( data, status, req );
+								},
+							422 : function() {  handle422( data );  }
+							})[ req.status ]();
+						}, //error
+
+					/* not available befor jQ 1.5
+					statusCode : {
+						422	: function( req, status, message ){}
+						},
+					*/
+
+					complete	: function( req, status ){
+//try{ console.log('response headers:\n'+ req.getAllResponseHeaders() ); } catch(e){ console.log('getAllResponseHeaders() failed'); }
+//console.log('responseXML: '+ req.responseXML );
+//if( req.response ) console.log( req.response.head.parentElement.outerHTML )
+//else console.log('no data');
+						clickLock = false;
+						}
+
+					}); //ajax
+
+				return false;
+				}); //click
+			}; //asySubmit
+		asySubmit( form1N );
+		}; //filOtaz_de.ajaxifyForm
+	})(); </script><script type="text/javascript"> (function(){
+
+		var formID = 'bb-login';
+		var form = $('#bb-login');
+
+		if( !form.length ) return;
+		if( form[0].filOtaz_de_form_handled ) return; form[0].filOtaz_de_form_handled = true;
+
+		var nodes, org, firstrun = true;
+		if( !filOtaz_de.kommune ) filOtaz_de.kommune = {};
+		if( !filOtaz_de.kommune.updateLogin ) filOtaz_de.kommune.updateLogin = function(){
+			if( !nodes ) nodes = {	// parse DOM lazily
+				head	: form.find('>.secthead'),
+				body	: form.find('>.sectbody').hide(),
+				a	: form.find('input[name="a"]'),
+				inputs	: form.find('span').has('input[name="email"],input[name="password"]'),
+				submit	: form.find('input.submit'),
+				links	: {
+					all		: form.find('ul.toolbar'),
+					login		: form.find('ul>li.login').click(function(){
+								var me = $(this);
+//								nodes.body
+								me.closest('.secthead').nextAll('.sectbody')	// we might be dynamically inserted, so parse DOM here
+								.slideToggle(function(){
+									me.toggleClass('active');
+									});
+								return false;
+								}),
+					settings	: form.find('ul>li.settings'),
+					newpass		: form.find('ul>li.newpass')
+					}
+				};
+			var duration = firstrun ? 0 : $.fx.speeds._default;
+			var tazsid = $.cookie('tazsid');
+			if(! tazsid ){  // not logged in
+					$('#send-comment .submit').val('Einloggen und Senden');
+					};
+
+			if( tazsid ) {	// already logged in
+					$('#send-comment .submit').val('Abschicken');
+
+				// mar: refresh after login error and then successful login
+				if ( $('#bb-login >.sectbody >p.error').length ){
+
+
+					$('.sect_bb-login').fadeOut().remove();
+					$('.sect_bb-login_form').fadeIn();
+					};
+
+
+				var tazid = $.cookie('tazid');
+//console.log('	now logged in as '+ tazid );
+				if( !org ) org = {	// store original values lazily
+					action	: form.attr('action'),
+					a	: nodes.a.attr('value'),
+					submit	: nodes.submit.attr('value'),
+					links	: {
+						login		: nodes.links.login,
+						settings	: {
+							text	: nodes.links.settings.children('a').text()
+							},
+						newpass		: nodes.links.newpass
+						}
+					};
+				form.attr({ action: 'https://taz.de/kommune/post.php?a=logout' });
+//console.log( tazsid );
+
+				nodes.body.slideUp( duration, function(){
+					form.addClass('session');
+					nodes.a.attr({ value: 'logout' });
+					nodes.inputs.hide();
+					nodes.submit.attr({ value: 'ausloggen' });
+					nodes.body.fadeIn( duration/3 );
+					});
+				if( tazid ) var profileURL = '/!ku'+ tazid +'/';
+				nodes.links.all.fadeTo( duration/2, 0, function(){
+					if( nodes.links.login    )  nodes.links.login.detach();
+					if( profileURL ) {
+						if( !nodes.links.profile ) {
+							nodes.links.profile = $('<li><a href="'+ profileURL +'">mein Profil</a></li>');
+							nodes.links.settings.before( nodes.links.profile );
+							}
+						}
+					if( nodes.links.settings )  nodes.links.settings.children('a').text('Einstellungen');
+					if( nodes.links.newpass  )  nodes.links.newpass.detach();
+					nodes.links.all.fadeTo( duration/2, 1 );
+					});
+				if( profileURL ) {	// tell user their name
+					if( !nodes.salute ) {
+						nodes.salute = $();
+//console.log('go, get profile '+ profileURL );
+						$.ajax({
+							type		: 'GET',
+							url		: profileURL +'c.xml',
+							dataType	: 'xml',
+							success		: function( data, status, xhr ){
+								if( !nodes.salute ) return;	// we're too late
+								var name = $('content >item[type="person"] >name', data ).text();
+//console.log('	found '+ name );
+								nodes.salute = $('<h2><a>'+ name +'</a></h2>').hide().prependTo( nodes.head );
+								nodes.salute.slideDown( duration );
+								},
+							error		: function( req, status, message ){
+//console.log( req.status +' '+ status +' :: '+ message );
+								},
+							complete	: function( req, status ){
+								}
+							});
+						}
+					}
+				} //tazsid
+			else if( org )	(function(){	// reset logged out state
+				var orgwas = org; org = null;
+				nodes.body.fadeOut( duration/2, function(){
+					nodes.a.attr({		value	: orgwas.a		});
+					nodes.inputs.show();
+					nodes.submit.attr({	value	: orgwas.submit	});
+					form.removeClass('session');
+					});
+				if( nodes.salute )  nodes.salute.slideUp( duration, function(){
+					nodes.salute.remove(); nodes.salute = null;
+					});
+				if( nodes.links.all ) nodes.links.all.fadeTo( duration/2, 0, function(){
+					if( nodes.links.profile ) nodes.links.profile.remove(); nodes.links.profile = null;
+					nodes.links.settings.before( orgwas.links.login.removeClass('active') );
+					nodes.links.settings.children('a').text( orgwas.links.settings.text );
+					nodes.links.settings.after(  orgwas.links.newpass );
+					nodes.links.all.fadeTo( duration/2, 1 );
+					});
+
+				form.attr({		action	: orgwas.action	});
+				})();
+			firstrun = false;
+			};
+		filOtaz_de.kommune.updateLogin();
+
+		var message = filOtaz_de.ajaxifyForm('bb-login', { handle200 : filOtaz_de.kommune.updateLogin } );
+
+		if( message && message.length )	// secure ajax not supported
+			form.after( message );
+
+		})();
+	</script><div class="rack" id="xid524032">
+    
+
+<div role="region" id="" class="first last odd sect sect_shop style_shop "><div class="secthead" role="heading"><h2><a name="meistkommentiert"><span>meistkommentiert</span></a></h2><ul class="toolbar" role="toolbar"></ul></div><ul role="directory" class="sectbody news  directory"><li class=" first odd trodd    leaded picture-missing"><a href="/Aktion-der-Letzten-Generation/!5904198/" class="objlink brief leaded noavatar" role="link"><h4>Aktion der Letzten Generation</h4><h3>Mehr Störung ist besser</h3><p>Die Letzte Generation hat in Berlin die Spitze des Weihnachtsbaumes am Brandenburger Tor abgesägt. Eine wirkliche Störung des fossilen Alltags ist das nicht.  </p></a></li><li class=" even trodd   "><a href="/Rueckgabe-der-Benin-Bronzen/!5900716/" class="objlink noavatar" role="link"><h4>Rückgabe der Benin-Bronzen</h4><h3>Geklärte Besitzlage</h3></a></li><li class=" odd treven   "><a href="/Neue-Aktienrente/!5900638/" class="objlink noavatar" role="link"><h4>Neue Aktienrente</h4><h3>Kapitalgedeckte Pleite</h3></a></li><li class=" even trodd   "><a href="/Neue-Sonderbeauftragter-fuer-Migration/!5900750/" class="objlink noavatar" role="link"><h4>Neue Sonderbeauftragter für Migration</h4><h3>Neokoloniale Rosinenpickerei</h3></a></li><li class=" last odd trodd   "><a href="/-Nachrichten-im-Ukraine-Krieg-/!5903363/" class="objlink noavatar" role="link"><h4>+++ Nachrichten im Ukraine-Krieg +++</h4><h3>Selenski warnt russische Soldaten</h3></a></li></ul></div>
+
+
+	</div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script></span><script> $(document.getLatestElement()).filter('.wing').on( 'TAZdomChange', function(){
+					$(this).find('.rack').removeClass('first first_rack').first().addClass('first first_rack');
+					}); //</script><meta itemprop="isAccessibleForFree" content="true"></meta><a itemprop="mainEntityOfPage" href="https://taz.de/Debatte-Fluechtlingspolitik/!5515694"></a></div><div id="footer"><ul role="navigation" class="sitemap"><li class="news"><span><a href="/"><span>taz</span></a></span><ul><li class="first odd trodd"><a href="/Themen/!p5360/" id="menu_p5360"><span>Themen</span></a><ul></ul></li><li class="even trodd"><a href="/Politik/!p4615/" id="menu_p4615"><span>Politik</span></a><ul><li class="first odd trodd"><a href="/Politik/Deutschland/!p4616/" id="menu_p4616"><span>Deutschland</span></a></li><li class="even trodd"><a href="/Politik/Europa/!p4617/" id="menu_p4617"><span>Europa</span></a></li><li class="odd treven"><a href="/Politik/Amerika/!p4618/" id="menu_p4618"><span>Amerika</span></a></li><li class="even trodd"><a href="/Politik/Afrika/!p4621/" id="menu_p4621"><span>Afrika</span></a></li><li class="odd trodd"><a href="/Politik/Asien/!p4619/" id="menu_p4619"><span>Asien</span></a></li><li class="even treven"><a href="/Politik/Nahost/!p4620/" id="menu_p4620"><span>Nahost</span></a></li><li class="last odd trodd"><a href="/Politik/Netzpolitik/!p4622/" id="menu_p4622"><span>Netzpolitik</span></a></li></ul></li><li class="odd treven"><a href="/Oeko/!p4610/" id="menu_p4610"><span>Öko</span></a><ul><li class="first odd trodd"><a href="/Oeko/Oekonomie/!p4623/" id="menu_p4623"><span>Ökonomie</span></a></li><li class="even trodd"><a href="/Oeko/Oekologie/!p4624/" id="menu_p4624"><span>Ökologie</span></a></li><li class="odd treven"><a href="/Oeko/Arbeit/!p4629/" id="menu_p4629"><span>Arbeit</span></a></li><li class="even trodd"><a href="/Oeko/Konsum/!p4625/" id="menu_p4625"><span>Konsum</span></a></li><li class="odd trodd"><a href="/Oeko/Verkehr/!p4628/" id="menu_p4628"><span>Verkehr</span></a></li><li class="even treven"><a href="/Oeko/Wissenschaft/!p4636/" id="menu_p4636"><span>Wissenschaft</span></a></li><li class="last odd trodd"><a href="/Oeko/Netzoekonomie/!p4627/" id="menu_p4627"><span>Netzökonomie</span></a></li></ul></li><li class="even trodd selected"><a href="/Gesellschaft/!p4611/" id="menu_p4611"><span>Gesellschaft</span></a><ul><li class="first odd trodd"><a href="/Gesellschaft/Alltag/!p4632/" id="menu_p4632"><span>Alltag</span></a></li><li class="even trodd"><a href="/Gesellschaft/Reportage-und-Recherche/!p5265/" id="menu_p5265"><span>Reportage und Recherche</span></a></li><li class="odd treven selected"><a href="/Gesellschaft/Debatte/!p4633/" id="menu_p4633"><span>Debatte</span></a></li><li class="even trodd"><a href="/Gesellschaft/Kolumnen/!p4634/" id="menu_p4634"><span>Kolumnen</span></a></li><li class="odd trodd"><a href="/Gesellschaft/Medien/!p4630/" id="menu_p4630"><span>Medien</span></a></li><li class="even treven"><a href="/Gesellschaft/Bildung/!p4635/" id="menu_p4635"><span>Bildung</span></a></li><li class="odd trodd"><a href="/Gesellschaft/Gesundheit/!p4637/" id="menu_p4637"><span>Gesundheit</span></a></li><li class="even trodd"><a href="/Gesellschaft/Reise/!p4638/" id="menu_p4638"><span>Reise</span></a></li><li class="last odd treven"><a href="/Gesellschaft/Podcast/!p5334/" id="menu_p5318"><span>Podcasts</span></a></li></ul></li><li class="odd trodd"><a href="/Kultur/!p4639/" id="menu_p4639"><span>Kultur</span></a><ul><li class="first odd trodd"><a href="/Kultur/Musik/!p4640/" id="menu_p4640"><span>Musik</span></a></li><li class="even trodd"><a href="/Kultur/Film/!p4641/" id="menu_p4641"><span>Film</span></a></li><li class="odd treven"><a href="/Kultur/Kuenste/!p4642/" id="menu_p4642"><span>Künste</span></a></li><li class="even trodd"><a href="/Kultur/Buch/!p4643/" id="menu_p4643"><span>Buch</span></a></li><li class="last odd trodd"><a href="/Kultur/Netzkultur/!p4631/" id="menu_p4631"><span>Netzkultur</span></a></li></ul></li><li class="even treven"><a href="/Sport/!p4646/" id="menu_p4646"><span>Sport</span></a><ul><li class="first last odd trodd"><a href="/Sport/Kolumnen/!p4648/" id="menu_p4648"><span>Kolumnen</span></a></li></ul></li><li class="odd trodd"><a href="/Berlin/!p4649/" id="menu_p4649"><span>Berlin</span></a><ul></ul></li><li class="even trodd"><a href="/Nord/!p4650/" id="menu_p4650"><span>Nord</span></a><ul><li class="first odd trodd"><a href="/Nord/Hamburg/!p4651/" id="menu_p4651"><span>Hamburg</span></a></li><li class="even trodd"><a href="/Nord/Bremen/!p4652/" id="menu_p4652"><span>Bremen</span></a></li><li class="last odd treven"><a href="/Nord/Kultur/!p4653/" id="menu_p4653"><span>Kultur</span></a></li></ul></li><li class="last odd treven"><a href="/Wahrheit/!p4644/" id="menu_p4644"><span>Wahrheit</span></a><ul><li class="first odd trodd"><a href="/bei-Tom/!t5180734/" id="menu_p4685"><span>bei Tom</span></a></li><li class="last even trodd"><a href="/Ueber-die-Wahrheit/!5068762/" id="menu_p4684"><span>über die Wahrheit</span></a></li></ul></li></ul></li><li class="corp"><ul><li class="first odd trodd"><a href="/wochentaz/!p5386/" id="menu_p5386"><span>wochentaz</span></a></li><li class="even trodd"><a href="/Abo/!p4209/" id="menu_p4209"><span>Abo</span></a></li><li class="odd treven"><a href="/Genossenschaft/!p4271/" id="menu_p4271"><span>Genossenschaft</span></a></li><li class="even trodd"><a href="https://taz.de/!p4697/#matomo:pk_campaign" id="menu_p5149"><span>taz zahl ich</span></a></li><li class="odd trodd"><a href="/!p4233/" id="menu_p5311"><span>Veranstaltungen</span></a></li><li class="even treven"><a href="/Info/!p4206/" id="menu_p4206"><span>Info</span></a></li><li class="odd trodd"><a href="https://shop.taz.de/#pk_campaign" target="_blank" id="menu_p4378"><span>Shop</span></a></li><li class="even trodd"><a href="/Anzeigen/!p4288/" id="menu_p4288"><span>Anzeigen</span></a></li><li class="odd treven"><a href="https://taz.de/!p5099/" id="menu_p5284"><span>taz FUTURZWEI</span></a></li><li class="even trodd"><a href="https://taz.de/!p4905/" id="menu_p5357"><span>taz lab 2023</span></a></li><li class="odd trodd"><a href="/!p5298/" id="menu_p5319"><span>taz Talk</span></a></li><li class="even treven"><a href="/Queer-Talks/!p5378/" id="menu_p5378"><span>Queer Talks</span></a></li><li class="odd trodd"><a href="https://taz.de/!p5122/" id="menu_p5344"><span>taz wird neu</span></a></li><li class="even trodd"><a href="/!p5297/" id="menu_p4955"><span>taz in der Kritik</span></a></li><li class="odd treven"><a href="//blogs.taz.de/" id="menu_p4366"><span>Blogs &amp; Hausblog</span></a></li><li class="even trodd"><a href="//monde-diplomatique.de/" id="menu_p4387"><span>LE MONDE diplomatique</span></a></li><li class="odd trodd"><a href="/neu/!p5122/" id="menu_p5122"><span>neu</span></a></li><li class="even treven"><a href="/Thema/!p4786/" id="menu_p4786"><span>Thema</span></a></li><li class="odd trodd"><a href="/Panter-Stiftung/!p4258/" id="menu_p4258"><span>Panter Stiftung</span></a></li><li class="even trodd"><a href="/Panter-Preis/!p4207/" id="menu_p4207"><span>Panter Preis</span></a></li><li class="odd treven"><a href="/Recherchefonds-Ausland/!p5062/" id="menu_p5062"><span>Recherchefonds Ausland</span></a></li><li class="even trodd"><a href="/Reisen-in-die-Zivilgesellschaft/!p4310/" id="menu_p4310"><span>Reisen in die Zivilgesellschaft</span></a></li><li class="odd trodd"><a href="/!p5044/" id="menu_p5123"><span>Christian Specht</span></a></li><li class="even treven"><a href="https://shop.taz.de/ekiosk.php" target="_blank" id="menu_p4357"><span>e-Kiosk</span></a></li><li class="odd trodd"><a href="/Salon/!p5021/" id="menu_p5021"><span>Salon</span></a></li><li class="even trodd"><a href="/Kantine/!p4237/" id="menu_p4237"><span>Kantine</span></a></li><li class="odd treven"><a href="/Archiv/!p4311/" id="menu_p4311"><span>Archiv</span></a></li><li class="last even trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li></ul></li><li class="help"><ul id="legal"><li><a rel="me" target="_blank" href="https://mastodon.social/@tazgetroete">Mastodon</a></li><li class="first odd trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li><li class="even trodd"><a href="https://taz.de/!p4591/" id="menu_p4682"><span>Kontakt</span></a></li><li class="odd treven"><a href="https://taz.de/!112354/" id="menu_p4679"><span>Impressum</span></a></li><li class="even trodd"><a href="https://taz.de/!114802/" id="menu_p4965"><span>Redaktionsstatut</span></a></li><li class="odd trodd"><a href="https://taz.de/!166598/" id="menu_p4681"><span>Datenschutz</span></a></li><li class="even treven"><a href="https://taz.de/!114191/" id="menu_p4680"><span>RSS</span></a></li><li class="odd trodd"><a href="https://taz.de/!p4283/" id="menu_p4827"><span>Newsletter</span></a></li><li class="last even trodd"><a href="https://taz.de/!p4858/" id="menu_p4859"><span>Informant</span></a></li></ul></li><li class="search"><form class="search" role="search" action="/!s=/" method="POST"><div class="frame"><input type="text" minlength="2" required="required" placeholder="suchen ..." class="text preset" name="s"></input><input type="image" class="send" title="suche senden" alt="suche senden" name="ignore" src="/lib/ch/web/pix/redArrowsRight_d50d2e.png"></input></div></form></li></ul><div class="copyright">Alle Rechte vorbehalten. Für Fragen zu Rechten oder Genehmigungen wenden Sie sich bitte an lizenzen@taz.de<a id="mobileswitcher" href="#" onclick="
+					event.preventDefault();
+					var currentDate = new Date();
+					var expDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate()+1, 3, 59, 59);
+					$.cookie.raw = true;
+					$.cookie('ratioURL_channel', 'moby/force', { expires: expDate, domain:'taz.de', path:'/', secure: false } ); 
+
+					if( (/moby/).test($.cookie('ratioURL_channel') ) ) {
+
+						location.search = ( location.search ? location.search +'&amp;' : '?' ) +'nocache='+ (new Date()).getTime();
+						}
+					else alert('Cookie konnte nicht gesetzt werden');
+					
+				"><span>zur mobilen Ansicht wechseln</span></a></div></div></div></div></div><script type="text/javascript">
+			const lazyObserver = lozad('.lozad', {
+				rootMargin: '1050px', // syntax similar to that of CSS Margin
+				threshold: 0.1, // ratio of element convergence
+				enableAutoReload: true // it will reload the new image when validating attributes changes
+			});
+			lazyObserver.observe();
+
+		</script></body><!-- DEBUG end 21:36:50+01:00--></html>

@@ -1,0 +1,864 @@
+<!DOCTYPE html><html lang="de-DE" dir="ltr" data-config="{&#34;twitter&#34;:0,&#34;plusone&#34;:0,&#34;facebook&#34;:0,&#34;style&#34;:&#34;default&#34;}"><head><meta charset="UTF-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=function(){var e=0,i=0,t=[],n=!1,s=[],r=[],o=!0,a=function(e,i,n,s,r,o,a){var l=this;this.name=e,this.funcName=i,this.parameters=null===n?null:n instanceof Array?n:[n],this.isBlock=s,this.blockedBy=r,this.deleteWhenComplete=o,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.isTimeDelay=!1,this.process=function(){u("... func = "+e),l.isInitialized=!0,l.isComplete=!0,u("... func.apply: "+e);var i=l.funcName.split("."),n=null;i.length>3||(n=3===i.length?window[i[0]][i[1]][i[2]]:2===i.length?window[i[0]][i[1]]:window[l.funcName]),null!=n&&n.apply(null,this.parameters),!0===l.deleteWhenComplete&&delete t[e],!0===l.isBlock&&(u("----- F'D: "+l.name),f())}},l=function(e,i,t,n,s,r,o){var a=this;this.name=e,this.path=i,this.async=s,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=o,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){a.isInitialized=!0,u("... file = "+e);var i=document.createElement("script");i.src=this.getSrc(this.path),!0===s?i.async=!0:!0===r&&(i.defer=!0),i.onerror=function(){u("----- ERR'D: "+a.name),a.isError=!0,!0===a.isBlock&&f()},i.onreadystatechange=i.onload=function(){var e=i.readyState;u("----- F'D: "+a.name),e&&!/loaded|complete/.test(e)||(a.isComplete=!0,!0===a.isBlock&&f())},document.getElementsByTagName("head")[0].appendChild(i)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=o&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return u(e.name+" blocked = TIME DELAY!"),!0;if(e.blockedBy instanceof Array)for(var i=0;i<e.blockedBy.length;i++){var s=e.blockedBy[i];if(!1===t.hasOwnProperty(s))return u(e.name+" blocked = "+s),!0;if(!0===e.proceedIfError&&!0===t[s].isError)return!1;if(!1===t[s].isComplete)return u(e.name+" blocked = "+s),!0}return!1}function u(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function f(){++e>200||(u("let's go"),m(s),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?u(t.name+": error"):!0===t.isComplete?u(t.name+": complete already"):!0===t.isInitialized&&u(t.name+": initialized already"):t.process()}}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,u("TDELAY -----"),f()}),5e3)}),!1),{addFile:function(e,i,n,o,a,c,h,u){var f=new l(e,i,n,o,a,c,h);!0===u?s[e]=f:r[e]=f,t[e]=f,d(f)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,u(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,d(n)},addFunc:function(e,n,o,l,c,h,u,f,m){!0===h&&(e=e+"_"+i++);var p=new a(e,n,o,l,c,u,f);!0===m?s[e]=p:r[e]=p,t[e]=p,d(p)},addDelayFunc:function(e,i,n){var s=new a(e,i,n,!1,[],!0,!0);s.isTimeDelay=!0,u(e+" ...  FUNCTION! TDELAY"),r[e]=s,t[e]=s,d(s)},items:t,processAll:f,setallowLoad:function(e){o=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?u(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new c(e,!0);u("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};</script>
+<script data-ezscrex="false" data-pagespeed-no-defer data-cfasync="false" type="text/javascript">__ez.queue.addFile('fads.js', '/porpoiseant/fads.js?gcb=195-0&cb=6', true, [], true, false, false, true);</script>
+<script>window.ezslots_raw=[];var __sellerid='f5f2a329ef7fcd22a8481b9e2a73f984';var __schain_domain='expat-news.com';var __ez_nid ='1254144';__advertiserRule=[''];var ezasVars = {'cid':'','pid':'','ssid':44};window.google_reactive_ads_global_state = {
+                adCount: {},
+                floatingAdsStacking: { maxZIndexListeners: [], maxZIndexRestrictions: {}, nextRestrictionId: 0 },
+                messageValidationEnabled: false,
+                reactiveTypeDisabledByPublisher: {},
+                reactiveTypeEnabledInAsfe: {},
+                sideRailAvailableSpace: [],
+                sideRailOverlappableElements: [],
+                stateForType: {},
+                tagSpecificState: {},
+                wasPlaTagProcessed: true,
+                wasReactiveAdConfigReceived: { 1: true, 2: true, 8: true },
+                wasReactiveAdVisible: {},
+                wasReactiveTagRequestSent: true,
+                description: "Can't disable auto ads programmatically on the page, so here we are!"
+            };!function(){window.ezasvEvent=function(e,t){if(!0===e[0].isIntersecting){var i=e[0].target.attributes[0].value.substr(0,e[0].target.attributes[0].value.length-9);window.ezoSTPixelAdd(i,"viewed",1),t.disconnect()}},window.ezaslEvent=function(e,t){if(void 0!==e[0].target.attributes["data-ad-status"]){var i=e[0].target.attributes["data-ad-status"].value,o=e[0].target.attributes[0].value.substr(0,e[0].target.attributes[0].value.length-9);"filled"==i&&(window.ezoSTPixelAdd(o,"loaded",1),new IntersectionObserver(window.ezasvEvent,{threshold:[1]}).observe(document.getElementById(o+"-asloaded"))),"unfilled"==i&&setTimeout((function(){window.ezoAdBackFill(e)}),2e3),t.disconnect()}},window.ezoAdBackFill=function(e){var t=e[0].target,i=t.parentElement;t.style.display="none !important";var o,d=ezoGetSlotNum(i.id);if(o=void 0!==__ez.fads?__ez.fads.initslots[i.id]:__ez_fad_initslot[i.id],void 0===d&&"function"==typeof o&&(d=o(6)),void 0!==d)var n=window[d];if(void 0!==n){n.setTargeting("compid","0"),n.setTargeting("bkfl","1"),n.setTargeting("reft","t");var a=n.getTargeting("br2")[0];void 0!==window.ezoibfh&&void 0!==window.ezoibfh[a]&&(n.setTargeting("br1",a),n.setTargeting("eb_br",window.ezoibfh[a])),googletag.display(n),setTimeout((function(){googletag.pubads().refresh([n])}),500)}},window.ezoSTPixels=[];var e=setInterval((function(){"undefined"!=typeof __ez&&"undefined"!=typeof __ezDotData&&"undefined"!=typeof ezslots&&window.ezslots_raw.length>0&&(window.ezoSTPixelFire(),clearInterval(e))}),250);window.ezoSTPixelAdd=function(e,t,i){window.ezoSTPixels.push({id:e,name:t,value:i}),window.ezoSTPixelFire()},window.ezoGetSlotById=function(e){var t=e.split("div-gpt-ad-")[1].split("-",3).join("-");for(s in window.ezslots_raw)if(window.ezslots_raw[s].tap.includes(t))return window.ezslots_raw[s]},window.ezoGetSlotNum=function(e){if(void 0!==window.ezslots&&0!=window.ezslots)for(var t=0;t<window.ezslots.length;t++){var i=window[ezslots[t]];if(void 0!==i){var o=i.getSlotElementId();if(void 0!==o&&o==e)return ezslots[t]}}},window.ezoSTPixelFire=function(){if("undefined"!=typeof __ez&&"undefined"!=typeof __ezDotData&&"undefined"!=typeof ezslots)for(;window.ezoSTPixels.length>0;){var e=window.ezoSTPixels.shift(),t=window.ezoGetSlotById(e.id);if(void 0===t){var i;if(i=void 0!==__ez.fads?__ez.fads.initslots[e.id]:__ez_fad_initslot[e.id],void 0===googletag.defineSlot)return void window.ezoSTPixels.push(e);if(i(1),void 0===(t=window.ezoGetSlotById(e.id)))return void window.ezoSTPixels.push(e)}var o=[{type:"impression",impression_id:t.eid,domain_id:window.did.toString(),unit:e.id,t_epoch:__ez.dot.getEpoch(0),ad_position:parseInt(t.ap),country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:1,data:__ez.dot.dataToStr([new __ezDotData(e.name,e.value.toString())]),is_orig:0}],d=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig=0&sts="+btoa(JSON.stringify(o));__ez.dot.Fire(d)}}}();</script>
+<script>!function(){var e=setInterval((function(){var t=document.querySelectorAll('[id^="outbrain_widget_"]');0!==t.length&&(function(e){e.forEach((function(e){if(e.parentElement.hasAttribute("data-ez-name")){var t=e.parentElement.attributes["data-ez-name"].value;new IntersectionObserver((function(e,i){e[0].isIntersecting&&(n({unit:t,name:"viewed"}),i.disconnect())}),{threshold:[1]}).observe(e);var i=e.attributes["data-widget-id"].value;window.OBREvents=window.OBREvents||[],OBREvents.push({event:"widgetDataReturned",widgetId:i,func:function(){n({unit:t,name:"loaded"})}})}}))}(t),clearInterval(e))}),250),t=[],i=setInterval((function(){"undefined"!=typeof __ez&&"undefined"!=typeof _ezim_d&&"undefined"!=typeof __ezDotData&&(d(),clearInterval(i))}),2500);function n(e){t.push(e),d()}function d(){var e,i;if(0!==t.length&&"undefined"!=typeof __ez&&"undefined"!=typeof _ezim_d&&"undefined"!=typeof __ezDotData)for(;t.length>0;){var n=t.shift(),d=(e=n.unit,i=n.name,[{type:"impression",impression_id:_ezim_d[e].full_id.split("/")[2],domain_id:window.did.toString(),unit:e,t_epoch:__ez.dot.getEpoch(0),ad_position:_ezim_d[e].position_id,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:2,data:__ez.dot.dataToStr([new __ezDotData(i,"1")]),is_orig:0}]),o=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&sts="+btoa(JSON.stringify(d));void 0!==window.ezWp&&ezWp&&void 0!==window._ezaq&&_ezaq.hasOwnProperty("visit_uuid")&&(o+="&visit_uuid="+window.visit_uuid),__ez.dot.Fire(o)}}}();</script>
+<script>window.ezhbopt=true;</script>
+<script>window.ezpbCache=true;</script>
+<link href="//ad.doubleclick.net" rel="dns-prefetch">
+<link href="//pagead2.googlesyndication.com" rel="dns-prefetch">
+<link href="//googleads.g.doubleclick.net" rel="dns-prefetch">
+<link href="//tpc.googlesyndication.com" rel="dns-prefetch">
+<link href="//adservice.google.com" rel="dns-prefetch">
+<link href="//secureads.g.doubleclick.net" rel="dns-prefetch">
+<link href="//www.googletagservices.com" rel="dns-prefetch">
+<link rel='preload' as='script' href='//securepubads.g.doubleclick.net/tag/js/gpt.js'>
+<link rel='preload' as='script' href='//go.ezodn.com/hb/dall.js?b=amx,onemobile,onetag,pubmatic,yieldmo&cb=195-0-50' onerror="window.ezDallErr=true">
+<link rel='preload' as='script' href='/porpoiseant/fads.js?gcb=195-0&cb=6'>
+<script type="text/javascript">
+	var __banger_pmp_deals=function(){var d={17:{"DealId":17,"Floor":160},18:{"DealId":18,"Floor":25},19:{"DealId":19,"Floor":100},20:{"DealId":20,"Floor":300},1428:{"DealId":1428,"Floor":25},2310:{"DealId":2310,"Floor":400},2351:{"DealId":2351,"Floor":155},2526:{"DealId":2526,"Floor":300},2527:{"DealId":2527,"Floor":300},2610:{"DealId":2610,"Floor":125},2688:{"DealId":2688,"Floor":100},2693:{"DealId":2693,"Floor":50},2761:{"DealId":2761,"Floor":200},2763:{"DealId":2763,"Floor":250},2764:{"DealId":2764,"Floor":325},2765:{"DealId":2765,"Floor":400},3044:{"DealId":3044,"Floor":175},3045:{"DealId":3045,"Floor":75},3052:{"DealId":3052,"Floor":20},3053:{"DealId":3053,"Floor":37},3154:{"DealId":3154,"Floor":275},3684:{"DealId":3684,"Floor":375},3856:{"DealId":3856,"Floor":15},4184:{"DealId":4184,"Floor":425},4276:{"DealId":4276,"Floor":65},873:{"DealId":873,"Floor":80},3455:{"DealId":3455,"Floor":475}};return[{"SlotName":"/1254144,22754742962/expat_news_com-box-1","Deals":[d[17],d[18],d[19],d[20],d[1428],d[2310],d[2351],d[2526],d[2527],d[2610],d[2688],d[2693],d[2761],d[2763],d[2764],d[2765],d[3044],d[3045],d[3052],d[3053],d[3154],d[3684],d[3856],d[4184],d[4276],d[873]]},{"SlotName":"/1254144,22754742962/expat_news_com-medrectangle-2","Deals":[d[17],d[18],d[19],d[20],d[1428],d[2310],d[2351],d[2526],d[2527],d[2610],d[2688],d[2693],d[2761],d[2763],d[2764],d[2765],d[3044],d[3045],d[3052],d[3053],d[3154],d[3684],d[3856],d[4276],d[873]]},{"SlotName":"/1254144,22754742962/expat_news_com-box-2","Deals":[d[17],d[18],d[19],d[20],d[1428],d[2351],d[2526],d[2527],d[2610],d[2688],d[2693],d[2761],d[2763],d[3044],d[3045],d[3052],d[3053],d[3154],d[3856],d[4276],d[873]]},{"SlotName":"/1254144,22754742962/expat_news_com-banner-2","Deals":[d[17],d[18],d[19],d[20],d[1428],d[2310],d[2351],d[2526],d[2527],d[2610],d[2688],d[2693],d[2761],d[2763],d[2764],d[2765],d[3044],d[3045],d[3052],d[3053],d[3154],d[3455],d[3684],d[3856],d[4184],d[4276],d[873]]},{"SlotName":"/1254144,22754742962/expat_news_com-box-3","Deals":[d[17],d[18],d[19],d[20],d[1428],d[2351],d[2526],d[2527],d[2610],d[2688],d[2693],d[2761],d[2763],d[3044],d[3045],d[3052],d[3053],d[3154],d[3856],d[4276],d[873]]}]}();
+</script>
+<script type='text/javascript'>_ebcids=[138231308856,138231308940,138231308949,138231387842,138231421744,138231421759,138231421774,138231421783,138231421789,138231421792,138242067587,138242067590,138242067602,138242067605,138242067608,138242067614,138242229406,138242229415,138242229421,138242229430];</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>ezobv=169;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>__ez.fads=window.__ez.fads||{cmd:[],initslots:{},kvStore:{},divs:[[],[],[],[],[],[],[]],divsd:[],fadcount:0};var ez_ad_units=[];var ezslots=[];var ezrpos=[];var ezsrqt={};var __ez_fad_haspo=false;var __ez_fad_hascp=false;if(typeof PerformanceObserver!='undefined'&&typeof PerformanceObserver.supportedEntryTypes!='undefined'){if(PerformanceObserver.supportedEntryTypes.indexOf('largest-contentful-paint')>-1){__ez_fad_haspo=true;}}
+try{var __ez_fad_po=new PerformanceObserver((entryList)=>{window.__ez_fad_hascp=true;__ez.fads.cmd.push(function(){__ez.fads.__ez_fad_hascp=true;});});__ez_fad_po.observe({type:'largest-contentful-paint',buffered:true});}catch(e){}
+var __ez_fad_floatshowd=false;__ez.fads.__ez_fad_floatshow=function(d){if(__ez_fad_floatshowd===true||typeof __ez_fad_floating==='undefined'){return;}
+__ez_fad_floatshowd=true;var e=document.getElementById('ezmobfooter');if(e!=null){e.classList.add('ezmobtrans');}else{head=document.head||document.getElementsByTagName('head')[0],style=document.createElement('style');head.appendChild(style);var css="body > #ezmobfooter{bottom:0px;visibility:visible;}";style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=css;}else{style.appendChild(document.createTextNode(css));}}
+googletag.cmd.push(function(){for(var i=0;i<__ez_fad_floating.length;i++){var s=__ez.fads.initslots[__ez_fad_floating[i]](null);googletag.display(__ez_fad_floating[i]);if(typeof window.adjustHbValues==='function'){window.adjustHbValues(window[s]);}
+googletag.pubads().refresh([window[s]]);}});};function __ez_fad_csnt(){return document.cookie.indexOf('ezCMPCookieConsent')!==-1||typeof __ez_conestreq=='undefined';}
+function __ez_fad_rdy(){var h=document.documentElement.scrollHeight;var vh=window.innerHeight||Math.max(document.documentElement.clientHeight,document.body.clientHeight);if(document.body!==null&&(__ez_fad_haspo===false&&h>vh||__ez_fad_hascp||document.readyState==='complete')){return true;}}
+function __ez_fad_position(id){if(__ez.fads.loaded){__ez.fads.cmd.push(function(){__ez.fads.__ez_fad_position(id);});return;}
+__ez.fads.fadcount++;var did=document.getElementById(id);if(did===null){return;}
+var rect=did.getBoundingClientRect();var vs=window.scrollY||document.body.scrollTop||document.documentElement.scrollTop;var vh=vs+window.screen.height;var vw=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;var vh=window.innerHeight||Math.max(document.documentElement.clientHeight,document.body.clientHeight);if(rect.top>=vh){__ez.fads.cmd.push(function(){__ez.fads.__ez_fad_position(id);});return;}
+__ez.fads.divs[0].push(id);__ez.fads.divsd.push(id);if(!__ez_fad_csnt()||!__ez_fad_rdy()){setTimeout(function(){__ez_fad_display(id);},50);return;}
+__ez_fad_display(id);}
+function __ez_fad_display(id){if(!__ez_fad_csnt()||!__ez_fad_rdy()){setTimeout(function(){__ez_fad_display(id);},50);return;}
+__ez_fad_gpt();if(__ez_fad_floating.indexOf(id)!==-1){setTimeout(__ez.fads.__ez_fad_floatshow,0);return;}
+googletag.cmd.push(function(){var sn=__ez.fads.initslots[id](0);if(!sn){return;}
+var s=window[sn];googletag.display(id);if(typeof window.ezasBuild==='function'){if(window.ezasBuild(s)){return;}}
+if(typeof window.adjustHbValues==='function'){window.adjustHbValues(s);}
+googletag.pubads().refresh([s]);});}
+function ezSetTargetingFromMap(slot,obj){if(typeof slot==='undefined'){return;}
+for(var key in obj){if(!obj.hasOwnProperty(key)){continue;}
+slot.setTargeting(key,obj[key]);}}
+function ezSetSlotTargeting(divid,key,value){var slot=ezGetSlotById(divid);if(slot){slot.setTargeting(key,value);}else{if(typeof __ez.fads.kvStore[divid]=='undefined'){__ez.fads.kvStore[divid]={};}
+__ez.fads.kvStore[divid][key]=value;}}
+function ezGetSlotById(id){if(typeof window.ezslots==='undefined'||window.ezslots==0){return;}
+for(var i=0;i<window.ezslots.length;i++){var slot=window[ezslots[i]];if(typeof slot==='undefined'){continue;}
+var slotId=slot.getSlotElementId();if(typeof slotId!=='undefined'&&slotId==id){return slot;}}}
+function __ez_close_anchor(){googletag.cmd.push(function(slot){for(var i=0;i<window.ezslots.length;i++){var slot=window[ezslots[i]];if(typeof slot==='undefined'){continue;}
+var alS=slot.getTargeting('al')[0]%1000;if(alS==5){googletag.destroySlots([slot]);}}
+if(typeof window.ezdomain!=='undefined'){var d=new Date();d.setTime(d.getTime()+(2*60*60*1000));var expires="expires="+d.toGMTString();let cookie="ez_anchor_closed=true;domain=."+ezdomain+';'+expires+"; path=/";document.cookie=cookie;}
+if(typeof(__ez_set_outstream_floor)!=='undefined'){__ez_set_outstream_floor(0);}
+var anchor=document.getElementById('ezmobfooter');if(!anchor){return;}
+anchor.innerHTML='';var styleElement=document.getElementById('ezoicCSS');if(!styleElement){return;}
+var cert=document.getElementById('ezoic-certification-fixed');if(cert){cert.style.bottom='15px';}
+var styles=styleElement.sheet?styleElement.sheet:styleElement.styleSheet;for(var i=0;i<styles.cssRules.length;i++){var rules=styles.cssRules[i];if(rules.selectorText==='body'&&rules.style.height==='auto'&&(rules.style.paddingTop!==''||rules.style.paddingBottom!=='')){styles.deleteRule(i);}}});}</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.isEZABL=false;window.ezmadspc=300;window.ezoViewCheck=false;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.ezDisableInitialLoad=false;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.googletag=window.googletag||{};googletag.cmd=googletag.cmd||[];</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.ezogetbrkey = function(s){ var k = 'br1';var k2 = 'eb_br';if(window.ezogtk == ""){k='br1u';k2='eb_bru';}else if(window.ezogtk != "NT"){k='br1t';k2='eb_brt';} s.setTargeting('br1', s.getTargeting(k));s.setTargeting('eb_br', s.getTargeting(k2));};googletag.cmd.push(function() {googletag.pubads().enableSingleRequest();googletag.pubads().addEventListener('slotRenderEnded', function(event) { __ez.queue.addFunc("ezbanger", "ezbanger", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('impressionViewable', function(event) { __ez.queue.addFunc("ezvb", "ezvb", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('slotResponseReceived', function(event) { __ez.queue.addFunc("ezsr", "ezsr", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('slotRequested', function(e) { window.ezsrqt[e.slot.getSlotElementId()] = Date.now();});googletag.pubads().disableInitialLoad();googletag.pubads().disableInitialLoad();googletag.pubads().enableLazyLoad({fetchMarginPercent: 400, renderMarginPercent: 100, mobileScaling: 2.0});googletag.enableServices();});window.ezoll = false;window.ezoadxnc = '1254144';window.ezoadhb = '500';var ezaxmns={};var ezaucmns={};
+
+		var __ez_fad_floating = ['div-gpt-ad-expat_news_com-medrectangle-2-0'];
+		var __ez_fad_gptd = __ez_fad_gptd || false;var __ez_fad_ezpbinitd = false;var __ez_fad_pbt = setTimeout(function(){__ez_fad_pb();},5000);function __ez_fad_gpt(){if(__ez_fad_gptd == false){__ez_fad_gptd=true;!function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//securepubads.g.doubleclick.net/tag/js/gpt.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(t,c)}();}}function __ez_fad_pb(){if(__ez_fad_ezpbinitd==false && typeof __ez_fad_ezpbinit == 'function'){__ez_fad_ezpbinitd = true;__ez_fad_ezpbinit()}};
+		
+	function __ez_init_slot(bvr, did, slotNum, defineFunc) {
+		googletag.cmd.push(function() {
+			defineFunc();
+			ezrpos[slotNum]=slotNum;
+			ezslots.push("ezslot_" + slotNum);
+			if(__ez.fads.kvStore[did] !== 'undefined') {
+				for (var name in __ez.fads.kvStore[did]) {
+					if (!__ez.fads.kvStore.hasOwnProperty(name)) {
+						ezSetSlotTargeting(did, name, __ez.fads.kvStore[did][name]);
+					}
+				}
+				__ez.fads.kvStore[did] = {};
+			}
+		});return "ezslot_" + slotNum;
+	}
+__ez.fads.initslots['div-gpt-ad-expat_news_com-box-1-0'] = function(bvr){
+				var defScript = function() {ezslot_4 = googletag.defineSlot('/1254144,22754742962/expat_news_com-box-1',[250,250],'div-gpt-ad-expat_news_com-box-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_4_raw = {'a':'1','iid1':'6867912147225832','eid':'6867912147225832','t':'134','d':'348305','t1':'134','pvc':'0','ap':'1102','sap':'1102','a':'|0|','as':'revenue','plat':'1','bra':'mod100','ic':'1','at':'mbf','adr':'399','ezosn':'4','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'0','al':'1000','compid':'0','tap':'expat_news_com-box-1-6867912147225832','eb_br':'6e85b37de1b1ffc2593baa5d6e4b02fc','eba':'1','ebss':'10061','bv':'-1','bvm':'-1','bvr':'-1','shp':'2','ftsn':'12','ftsng':'12','acptad':'1','br1':'450','br2':'240','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[21,22,23,24,25,26,27,28,29,760,761,815,816,817,899,919,1794,2339,3054,3430,3455,3456,3457,3458,3460,3682,3683,4185,4186]}; window.ezslots_raw.push( ezslot_4_raw);ezSetTargetingFromMap(ezslot_4,ezslot_4_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-expat_news_com-box-1-0',4, defScript);
+			};__ez.fads.initslots['div-gpt-ad-expat_news_com-box-3-0'] = function(bvr){
+				var defScript = function() {ezslot_3 = googletag.defineSlot('/1254144,22754742962/expat_news_com-box-3',[468,60],'div-gpt-ad-expat_news_com-box-3-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_3_raw = {'a':'1','iid1':'4210184407228431','eid':'4210184407228431','t':'134','d':'348305','t1':'134','pvc':'0','ap':'1105','sap':'1105','a':'|0|','as':'revenue','plat':'1','bra':'mod100','ic':'1','at':'mbf','adr':'399','ezosn':'3','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'2','al':'1002','compid':'0','tap':'expat_news_com-box-3-4210184407228431','eb_br':'90c3c48d0172916d27c102ea4aa9d49c','eba':'1','ebss':'10061','bv':'28','bvm':'2','bvr':'5','shp':'1','ftsn':'12','ftsng':'12','br1':'300','br2':'140','ezoic':'1','nmau':'0','mau':'0','stl':[77,168,0,4,0,168,132,0,26,209,187,0,901,182,901,902,903],'deal1':[21,22,23,24,25,26,27,28,29,760,761,815,816,817,899,919,1794,2310,2339,2764,2765,3054,3430,3455,3456,3457,3458,3460,3682,3683,3684,3933,4184,4185,4186]}; window.ezslots_raw.push( ezslot_3_raw);ezSetTargetingFromMap(ezslot_3,ezslot_3_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-expat_news_com-box-3-0',3, defScript);
+			};__ez.fads.initslots['div-gpt-ad-expat_news_com-medrectangle-2-0'] = function(bvr){
+				var defScript = function() {ezslot_1 = googletag.defineSlot('/1254144,22754742962/expat_news_com-medrectangle-2',[970,90],'div-gpt-ad-expat_news_com-medrectangle-2-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_1_raw = {'a':'1','iid1':'4334097333172538','eid':'4334097333172538','t':'134','d':'348305','t1':'134','pvc':'0','ap':'1100','sap':'1100','a':'|0|','as':'revenue','plat':'1','bra':'mod100','ic':'1','at':'mbf','adr':'399','ezosn':'1','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'5','al':'1005','compid':'0','tap':'expat_news_com-medrectangle-2-4334097333172538','eb_br':'76163170a8636ae5b88417f095893e08','eba':'1','ebss':'10061','bv':'13','bvm':'0','bvr':'3','shp':'1','ftsn':'12','ftsng':'12','br1':'400','br2':'200','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[21,22,23,24,25,26,27,28,29,30,760,761,813,814,815,816,817,818,819,893,899,903,917,918,919,1794,2339,3054,3430,3455,3456,3457,3458,3460,3682,3683,3915,3919,3933,4184,4185,4186]}; window.ezslots_raw.push( ezslot_1_raw);ezSetTargetingFromMap(ezslot_1,ezslot_1_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-expat_news_com-medrectangle-2-0',1, defScript);
+			};__ez.fads.initslots['div-gpt-ad-expat_news_com-banner-2-0'] = function(bvr){
+				var defScript = function() {ezslot_0 = googletag.defineSlot('/1254144,22754742962/expat_news_com-banner-2',[[336,280],[320,100],[120,240],[234,60],[300,250],[320,50],[250,250],[200,200],[180,150],[125,125],['fluid']],'div-gpt-ad-expat_news_com-banner-2-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_0_raw = {'a':'1','iid1':'5356538441233328','eid':'5356538441233328','t':'134','d':'348305','t1':'134','pvc':'0','ap':'1136','sap':'1136','a':'|0|','as':'revenue','plat':'1','bra':'mod100','ic':'1','at':'mbf','adr':'399','ezosn':'0','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'31','al':'1031','compid':'0','tap':'expat_news_com-banner-2-5356538441233328','eb_br':'5f2b94bb26a5aa9b1a00e66d30cfd5ec','eba':'1','ebss':'10061','bv':'19','bvm':'0','bvr':'9','shp':'2','ftsn':'12','ftsng':'12','br1':'500','br2':'240','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[21,22,23,24,25,26,27,28,29,30,760,761,813,815,816,817,818,819,899,917,918,919,1794,2339,3054,3430,3456,3457,3458,3460,3682,3683,3933,4185,4186]}; window.ezslots_raw.push( ezslot_0_raw);ezSetTargetingFromMap(ezslot_0,ezslot_0_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-expat_news_com-banner-2-0',0, defScript);
+			};__ez.fads.initslots['div-gpt-ad-expat_news_com-box-2-0'] = function(bvr){
+				var defScript = function() {ezslot_2 = googletag.defineSlot('/1254144,22754742962/expat_news_com-box-2',[300,250],'div-gpt-ad-expat_news_com-box-2-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_2_raw = {'a':'1','iid1':'5016686217227273','eid':'5016686217227273','t':'134','d':'348305','t1':'134','pvc':'0','ap':'1146','sap':'1146','a':'|0|','as':'revenue','plat':'1','bra':'mod100','ic':'1','at':'mbf','adr':'399','ezosn':'2','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'1','al':'1001','compid':'0','tap':'expat_news_com-box-2-5016686217227273','eb_br':'90c3c48d0172916d27c102ea4aa9d49c','eba':'1','ebss':'10061','bv':'17','bvm':'0','bvr':'7','shp':'1','ftsn':'12','ftsng':'12','acptad':'1','br1':'300','br2':'140','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[21,22,23,24,25,26,919,1794,2310,2339,2764,2765,3054,3430,3455,3456,3457,3458,3460,3682,3683,3684,4184,4185,4186]}; window.ezslots_raw.push( ezslot_2_raw);ezSetTargetingFromMap(ezslot_2,ezslot_2_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-expat_news_com-box-2-0',2, defScript);
+			};</script>
+<script type="text/javascript">(function(){function storageAvailable(type){var storage;try{storage=window[type];var x='__storage_test__';storage.setItem(x,x);storage.removeItem(x);return true;}
+catch(e){return e instanceof DOMException&&(e.code===22||e.code===1014||e.name==='QuotaExceededError'||e.name==='NS_ERROR_DOM_QUOTA_REACHED')&&(storage&&storage.length!==0);}}
+function remove_ama_config(){if(storageAvailable('localStorage')){localStorage.removeItem("google_ama_config");}}
+remove_ama_config()})()</script>
+<script type="text/javascript">var ezoicTestActive = true</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":1,"ad_count_adjustment":0,"ad_lazyload_version":105,"ad_load_version":1,"ad_location_ids":"31,5,1,2,0","ad_transform_level":0,"adx_ad_count":5,"bidder_method":1,"bidder_version":4,"city":"","country":"FR","days_since_last_visit":-1,"display_ad_count":4,"domain_id":348305,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":4,"metro_code":0,"optimization_version":1,"page_ad_positions":"1100,1102,1105,1136,1146","page_view_count":0,"page_view_id":"78fc2a67-46ed-4ef8-4530-25bed6f4e2c1","position_selection_id":46,"postal_code":"","pv_event_count":0,"response_size_orig":57630,"response_time_orig":271,"serverid":"15.237.119.72:30416","state":"IDF","sub_page_ad_positions":"1100,1102,1105,1136,1146","t_epoch":1671655024,"template_id":134,"time_on_site_visit":0,"url":"https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679","user_id":0,"weather_precipitation":0,"weather_summary":"","weather_temperature":0,"word_count":1576,"worst_bad_word_level":0};var _ezim_d = {"expat_news_com-banner-2":{"adsense_stat_source_id":5,"adx_ad_count":5,"adx_stat_source_id":35,"full_id":"expat_news_com-banner-2/2022-12-21/5356538441233328","height":"280","position_id":1136,"sub_position_id":1136,"width":"336"},"expat_news_com-box-1":{"adsense_stat_source_id":5,"adx_ad_count":5,"adx_stat_source_id":35,"full_id":"expat_news_com-box-1/2022-12-21/6867912147225832","height":"250","position_id":1102,"sub_position_id":1102,"width":"250"},"expat_news_com-box-2":{"adsense_stat_source_id":5,"adx_ad_count":5,"adx_stat_source_id":35,"full_id":"expat_news_com-box-2/2022-12-21/5016686217227273","height":"250","position_id":1146,"sub_position_id":1146,"width":"300"},"expat_news_com-box-3":{"adsense_stat_source_id":5,"adx_ad_count":5,"adx_stat_source_id":35,"full_id":"expat_news_com-box-3/2022-12-21/4210184407228431","height":"60","position_id":1105,"sub_position_id":1105,"width":"468"},"expat_news_com-medrectangle-2":{"adsense_stat_source_id":5,"adx_ad_count":5,"adx_stat_source_id":35,"full_id":"expat_news_com-medrectangle-2/2022-12-21/4334097333172538","height":"90","position_id":1100,"sub_position_id":1100,"width":"970"}};var _ezat = {"domain_id":348305,"form_factor_id":1,"framework_id":1,"pageview_date":"2022-12-21","pageview_id":"78fc2a67-46ed-4ef8-4530-25bed6f4e2c1","template_id":134,"url":"https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679","visit_uuid":"3360a070-e33a-49ff-4282-9027c2fc39a9"};</script><script data-ezscrex="false" data-pagespeed-no-defer data-cfasync="false" type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=195-0&bv=169&v=70&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer></script>
+	<link rel="preconnect" href="//app.usercentrics.eu"/>
+    <link rel="preconnect" href="//api.usercentrics.eu"/>
+    <link rel="preload" href="//app.usercentrics.eu/browser-ui/latest/loader.js" as="script"/>
+		<script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="IhLGJdHrm" data-tcf-enabled=""></script>
+		
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script type="text/plain" data-usercentrics="Google Analytics" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-475293-5"></script>
+	<script type="text/plain" data-usercentrics="Google Analytics">
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+		gtag('config', 'UA-475293-5',{"anonymize_ip":true});
+	</script>
+	
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Das Leben in der Fremde: Alles, was ihr als Expats darüber wissen müsst - Expat News</title>
+<link rel="shortcut icon" href="/wp-content/themes/expat_news/favicon.ico"/>
+<link rel="apple-touch-icon-precomposed" href="/wp-content/themes/expat_news/apple_touch_icon.png"/>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Was Fremdheit und Fremdsein für Expats in der Fremde bedeuten und wie man diese beiden Gefühle positiv auflösen kann, erläutert Constance Grunewald-Petschke"/>
+	<link rel="canonical" href="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679"/>
+	<meta property="og:locale" content="de_DE"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="Das Leben in der Fremde: Alles, was ihr als Expats darüber wissen müsst - Expat News"/>
+	<meta property="og:description" content="Was Fremdheit und Fremdsein für Expats in der Fremde bedeuten und wie man diese beiden Gefühle positiv auflösen kann, erläutert Constance Grunewald-Petschke"/>
+	<meta property="og:url" content="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679"/>
+	<meta property="og:site_name" content="Expat News"/>
+	<meta property="article:published_time" content="2014-08-14T11:51:36+00:00"/>
+	<meta property="article:modified_time" content="2014-08-14T13:22:28+00:00"/>
+	<meta property="og:image" content="https://www.expat-news.com/wp-content/uploads/2014/08/Fremdheit.jpg"/>
+	<meta property="og:image:width" content="368"/>
+	<meta property="og:image:height" content="326"/>
+	<meta property="og:image:type" content="image/jpeg"/>
+	<meta name="author" content="Anne-Katrin Schwanitz"/>
+	<meta name="twitter:label1" content="Verfasst von"/>
+	<meta name="twitter:data1" content="Anne-Katrin Schwanitz"/>
+	<meta name="twitter:label2" content="Geschätzte Lesezeit"/>
+	<meta name="twitter:data2" content="7 Minuten"/>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//s.w.org"/>
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.expat-news.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://www.expat-news.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-components-css" href="https://www.expat-news.com/wp-includes/css/dist/components/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-block-editor-css" href="https://www.expat-news.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-nux-css" href="https://www.expat-news.com/wp-includes/css/dist/nux/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-reusable-blocks-css" href="https://www.expat-news.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-editor-css" href="https://www.expat-news.com/wp-includes/css/dist/editor/style.min.css?ver=6.0.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="drop_shadow_block-style-css-css" href="https://www.expat-news.com/wp-content/plugins/drop-shadow-boxes/block/blocks.style.build.css?ver=1.7.10" type="text/css" media="all"/>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="wordpress-popular-posts-css-css" href="https://www.expat-news.com/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=6.1.1" type="text/css" media="all"/>
+<script type="text/javascript" src="https://www.expat-news.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.expat-news.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jshowoff-adrotate-js-extra">
+/* <![CDATA[ */
+var impression_object = {"ajax_url":"https:\/\/www.expat-news.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.expat-news.com/wp-content/plugins/adrotate/library/jquery.adrotate.dyngroup.js" id="jshowoff-adrotate-js"></script>
+<script type="text/javascript" id="clicktrack-adrotate-js-extra">
+/* <![CDATA[ */
+var click_object = {"ajax_url":"https:\/\/www.expat-news.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.expat-news.com/wp-content/plugins/adrotate/library/jquery.adrotate.clicktracker.js" id="clicktrack-adrotate-js"></script>
+<script type="application/json" id="wpp-json">
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/www.expat-news.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/www.expat-news.com\/wp-json\/wordpress-popular-posts","ID":17679,"token":"b08dc0b551","lang":0,"debug":0}
+</script>
+<script type="text/javascript" src="https://www.expat-news.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=6.1.1" id="wpp-js-js"></script>
+<link rel="https://api.w.org/" href="https://www.expat-news.com/wp-json/"/><link rel="alternate" type="application/json" href="https://www.expat-news.com/wp-json/wp/v2/posts/17679"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.expat-news.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.expat-news.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="shortlink" href="https://www.expat-news.com/?p=17679"/>
+<link rel="alternate" type="application/json+oembed" href="https://www.expat-news.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679"/>
+<link rel="alternate" type="text/xml+oembed" href="https://www.expat-news.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679&amp;format=xml"/>
+<meta name="generator" content="MYOB"/>
+<!-- This site is using AdRotate v5.9.1.1 to display their advertisements - https://ajdg.solutions/ -->
+<!-- AdRotate CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.g-1 { margin:1px 1px 1px 1px; }
+	.g-2 { margin:1px 1px 1px 1px; }
+	.g-3 { margin:1px 1px 1px 1px; }
+	.g-4 { margin:1px 1px 1px 1px; }
+	.g-5 { margin:1px 1px 1px 1px; }
+	.g-6 { margin:1px 1px 1px 1px; }
+	.g-7 { margin:1px 1px 1px 1px; }
+	.g-8 { margin:1px 1px 1px 1px; }
+	.g-9 { margin:1px 1px 1px 1px; }
+	.g-10 { margin:1px 1px 1px 1px; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+</style>
+<!-- /AdRotate CSS -->
+
+            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-placeholder,.wpp-widget-block-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+            <link rel="stylesheet" href="/wp-content/themes/expat_news/css/theme.css?v=1"/>
+<link rel="stylesheet" href="/wp-content/themes/expat_news/css/custom.css"/>
+<link rel="stylesheet" href="/wp-content/themes/expat_news/css/print.css"/>
+<script src="/wp-content/themes/expat_news/warp/vendor/uikit/js/uikit.js"></script>
+<script src="/wp-content/themes/expat_news/warp/vendor/uikit/js/components/autocomplete.js"></script>
+<script src="/wp-content/themes/expat_news/warp/vendor/uikit/js/components/search.js"></script>
+<script src="/wp-content/themes/expat_news/warp/vendor/uikit/js/components/tooltip.js"></script>
+<script src="/wp-content/themes/expat_news/warp/js/social.js"></script>
+<script src="/wp-content/themes/expat_news/js/theme.js?v=18"></script>
+<script src="/wp-content/themes/expat_news/warp/vendor/uikit/js/components/sticky.js"></script>
+	<style id='ezoicCSS'>.ezoic-at-0{margin-right:auto !important;min-height:250px;line-height:0px;display:block !important;margin-left:auto !important;margin-bottom:15px !important;padding:0;float:none !important;margin-top:15px !important;text-align:center !important;max-width:100% !important;}
+.ezoic-ad.box-3105{min-width:468px;min-height:60px;}
+.ezoic-ad.box-2146{min-width:300px;}
+.ezoic-ad.box-1102{min-width:250px;}
+.ezoic-ad.banner-2136{min-width:300px;}
+.ezoic-ad.medrectangle-2100{float:none !important;display:inline-block;min-width:970px;min-height:90px;max-width:100% !important;line-height:0px;padding:0;}
+.ezoic-ad{display:inline-block;border:0px;}.ezoic-ad>div>iframe{margin:0px!important;padding:0px!important;}
+.ezmob-footer{position:fixed;left:0;bottom:0;width:100%;background:#fff;z-index:100000;line-height:0}.ezmob-footer-desktop{background-color:#fffc;border-top:1px solid #d3d3d3;padding-top:5px}.ezmob-footer-close{cursor:pointer;color:#b2b2b2;border:1px solid #b2b2b2;border-radius:20px;background:#fff;line-height:20px;display:inline-block;font-size:20px;font-family:arial,sans-serif;padding:0 5px;position:absolute;top:5px;right:5px;height:24px;width:21px;text-align:center}body {
+					padding-bottom: 100px !important;
+					height: auto;
+				}
+				
+	.ezmob-footer { 
+		background-color: transparent;
+		border-top: none;
+		bottom: 0px !important;
+		width: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.ezmob-footer-close {
+		color: #b2b2b2;
+		border: 1px solid #b2b2b2;
+		border-bottom: 1px #fff;
+		border-radius: 2px 2px 0px 0px;
+		background: #fff;
+		line-height: 17px;
+		display: inline-block;
+		font-size: 20px;
+		font-family: arial,sans-serif;
+		position: absolute;
+		top: -15px;
+		height: 20px;
+		right: 0px;
+		width: 20px;
+		text-align: center;
+		visibility: hidden;
+	}
+	
+
+		@media (min-width: 900px) {
+			.ez-sticky {
+				position: sticky;
+				position: -webkit-sticky;
+				top: 80px;
+				z-index:10;
+			}
+		}
+	</style><script type="text/javascript">
+			 (adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;var __ez_conestreq=true;</script>
+<script type="text/javascript">var ezouid = "1";</script><base href="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679"><script type='text/javascript'>
+var ezoTemplate = 'pub_site';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 348305;
+var ezdomain = 'expat-news.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_348305=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["78fc2a67-46ed-4ef8-4530-25bed6f4e2c1", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script>
+<script type="text/javascript">__ez.queue.addFile('/detroitchicago/cmbv2.js', '/detroitchicago/cmbv2.js?gcb=195-0&cb=04-3y02-8y06-13y07-2y0b-6y0d-21y13-4y17-5y1c-y22-3y23-4y24-6y30-4y5e-22y65-1y62-28&cmbcb=117&sj=x04x02x06x07x0bx0dx13x17x1cx22x23x24x30x5ex65x62&abt=UseNewTheme', true, [], true, false, true, false);</script>
+<script type="text/javascript" defer>__ez.queue.addFile('/detroitchicago/cmbdv2.js', '/detroitchicago/cmbdv2.js?gcb=195-0&cb=03-8y0c-6y18-5y5f-22y63-28&cmbcb=117&sj=x03x0cx18x5fx63&abt=UseNewTheme', true, ['/detroitchicago/cmbv2.js'], true, false, true, false);</script>
+<script>
+    (function(window, document) {
+        if (typeof window.__cmp !== "undefined") {
+            window.__cmp('getVendorConsents', null, function(result) {
+				ezConsentCategories.preference = !!(result.purposeConsents[4]&1);
+				ezConsentCategories.statistics = !!(result.purposeConsents[5]&1);
+				ezConsentCategories.marketing = !!(result.purposeConsents[2]&result.purposeConsents[3]&1);
+				__ezconsent.setEzoicConsentSettings(ezConsentCategories);
+            });
+        }
+    })(window, document);
+</script>
+
+<script>
+    (function(window, document) {
+		if (typeof window.__tcfapi !== "undefined") {
+			var amazonHasRun = false;
+			function _ezAllowed(tcdata, purpose) {
+				return tcdata.purpose.consents[purpose] || tcdata.purpose.legitimateInterests[purpose];
+			};
+			function _reloadAds() {
+				if (typeof window.ezorefgsl === "function" && typeof window.ezslots === "object") {
+					if(typeof __ezapsFetchBids == "function" && amazonHasRun === false){
+						ezapsFetchBids(__ezaps);
+						if(typeof __ezapsVideo != 'undefined') {
+							ezapsFetchBids(__ezapsVideo, 'video')
+						}
+						amazonHasRun = true;
+					}
+					var slots = [];
+					for (var i=0;i<window.ezslots.length;i++) {
+						if (window[window.ezslots[i]] && typeof window[window.ezslots[i]] === "object") {
+							slots.push(window[window.ezslots[i]])
+						}
+						else {
+							setTimeout(_reloadAds, 50);
+							return false;
+						}
+					}
+					for (var i=0;i<slots.length;i++) {
+						window.ezorefgsl(slots[i]);
+					}
+				}
+				else {
+					setTimeout(_reloadAds, 50);
+				}
+			};
+			function _clearEzConsentCookie() {
+				document.cookie = 'ezCMPCookieConsent=tcf2;Domain=.expat-news.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT';
+			};
+			__tcfapi('addEventListener', 2, function(tcdata, success){
+				if (success) {
+					if (tcdata.eventStatus === "useractioncomplete" || tcdata.eventStatus === "tcloaded") {
+						var ezConsentCategories = window.ezConsentCategories ? window.ezConsentCategories : {};
+						ezConsentCategories.preferences = false;
+						ezConsentCategories.statistics = false;
+						ezConsentCategories.marketing = false;
+						if ((tcdata.vendor.consents["347"] !== false) || (tcdata.vendor.legitimateInterests["347"] !== false)) {
+							if (tcdata.purpose.consents["1"] === true) {
+								ezConsentCategories.preferences = true;
+							}
+							if ((tcdata.purpose.consents["1"] === true) && _ezAllowed(tcdata, "10") && _ezAllowed(tcdata, "7") && _ezAllowed(tcdata, "8")) {
+								ezConsentCategories.statistics = true;
+							}
+							if ((tcdata.purpose.consents["1"] === true) && _ezAllowed(tcdata, "2") && _ezAllowed(tcdata, "3") && _ezAllowed(tcdata, "4")) {
+								ezConsentCategories.marketing = true;
+							}
+						}
+						if ((tcdata.purpose.consents["1"] === true) && (tcdata.vendor.consents["755"] !== false)) {
+							
+							_reloadAds();
+						}
+						if (window.__ezconsent) {
+							__ezconsent.setEzoicConsentSettings(ezConsentCategories);
+						}
+						window.addEventListener("beforeunload", _clearEzConsentCookie);
+						__tcfapi("removeEventListener", 2, function(success){return null;}, tcdata.listenerId);
+						if (!((tcdata.purpose.consents["1"] === true) && _ezAllowed(tcdata, "2") && _ezAllowed(tcdata, "3") && _ezAllowed(tcdata, "4"))) {
+							if(typeof __ez == 'object' && typeof __ez.bit == 'object' && typeof window["_ezaq"] == 'object' && typeof window["_ezaq"]["page_view_id"] == 'string') {
+								__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"], [(new __ezDotData('non_personalized_ads', true))]);
+							}
+						}
+					}
+				}
+			});
+		}
+	})(window, document);
+</script>
+<script type="text/javascript">var cmpIsOn = true;</script>
+<script type="text/javascript" src="https://ezodn.com/detroitchicago/consentsettings.js?cb=2"></script></head>
+
+<body class="post-template-default single single-post postid-17679 single-format-standard tm-sidebar-a-right tm-sidebars-1 tm-isblog wp-single interkulturelle-kompetenzen-ausland">
+
+	<div class="tm-page-header">
+
+		<div class="uk-container uk-container-center">
+
+			
+						<div class="tm-headerbar uk-clearfix uk-hidden-small">
+
+								<a class="tm-logo uk-clearfix" href="https://www.expat-news.com"><img alt="Expat News Logo" width="250" height="37" src="/wp-content/themes/expat_news/images/logo.svg"/><span>Nachrichten- und Serviceportal<br/> für Reisende, Expats und Auswanderer</span></a>
+				
+								<div class="uk-navbar-flip">
+					<div class="uk-hidden-small"><form class="uk-search" id="search-3" action="https://www.expat-news.com/" method="get" role="search" data-uk-search="{&#39;source&#39;: &#39;https://www.expat-news.com/wp-admin/admin-ajax.php?action=warp_search&#39;, &#39;param&#39;: &#39;s&#39;, &#39;msgResultsHeader&#39;: &#39;Suchergebnisse&#39;, &#39;msgMoreResults&#39;: &#39;Mehr Ergebnisse&#39;, &#39;msgNoResults&#39;: &#39;Keine Ergebnisse gefunden&#39;, flipDropdown: 1}">
+    <input class="uk-search-field" type="text" value="" name="s" placeholder="suchen..."/>
+</form>
+</div>
+				</div>
+				
+				
+			</div>
+			
+
+
+
+		</div>
+
+				<nav class="tm-navbar uk-navbar" data-uk-sticky="">
+
+			<div class="uk-container uk-container-center tm-menubar">
+
+				<a class="tm-homelink" href="/"><i class="uk-icon-home"></i></a>
+
+								<ul class="uk-navbar-nav uk-hidden-small uk-hidden-medium"><li><a href="https://www.expat-news.com/category/recht-steuern-im-ausland" class="cat-runds">Recht &amp; Steuern im Ausland</a></li><li><a href="https://www.expat-news.com/category/panorama_auswandern_expatriates" class="">Panorama</a></li><li><a href="https://www.expat-news.com/category/life-style" class="">Lifestyle</a></li><li><a href="https://www.expat-news.com/category/markteintritt-ausland" class="">Markteintritt Ausland</a></li><li><a href="https://www.expat-news.com/category/interkulturelle-kompetenzen-ausland" class="">Interkulturelles</a></li><li><a href="https://www.expat-news.com/category/events-fuer-expats-auswanderer" class="">Events</a></li><li><a href="https://www.expat-news.com/category/interview-leben-arbeiten-ausland" class="">Interview</a></li><li><a href="https://www.expat-news.com/category/publikationen-ausland" class="">Publikationen</a></li></ul>				
+								<a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas=""></a>
+				
+								<div class="uk-navbar-content uk-navbar-center uk-visible-small"><a class="tm-logo-small" href="https://www.expat-news.com"><img alt="Expat News Logo" width="162" height="24" src="/wp-content/themes/expat_news/images/logo.svg"/></a></div>
+				
+			</div>
+
+		</nav>
+		
+	</div>
+
+	<div class="tm-page-body">
+
+		<div class="uk-container uk-container-center">
+
+			
+			
+						<div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+
+								<div class="tm-main uk-width-medium-2-3">
+
+					
+										<div class="tm-ad-maincolumn-top">
+					<div class="uk-panel uk-panel-anzeige adrotate_widgets"><span class="tm-advert-title">Anzeige</span><div class="a-single a-91"><a data-track="OTEsMCwxLDEw" class="tm-ad-corona gofollow" href="https://www.bdae.com/corona?utm_source=expat_news&amp;utm_medium=banner&amp;utm_campaign=expat_news_banner&amp;utm_content=banner_leaderboard_wir_lassen_sie_nicht_im_regen_stehen" target="_blank"><img src="https://www.expat-news.com/wp-content/uploads/2020/05/Expat-News_956x200.gif"/></a></div></div>					</div>
+					
+										<main id="tm-content" class="tm-content">
+
+						
+						    
+    
+    <article class="uk-article tm-news-article-single" data-permalink="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" itemscope="" itemtype="http://schema.org/Article">
+
+        
+                                <img width="368" height="326" src="https://www.expat-news.com/wp-content/uploads/2014/08/Fremdheit.jpg" class=" wp-post-image" alt="" itemprop="image" srcset="https://www.expat-news.com/wp-content/uploads/2014/08/Fremdheit.jpg 368w, https://www.expat-news.com/wp-content/uploads/2014/08/Fremdheit-300x265.jpg 300w" sizes="(max-width: 368px) 100vw, 368px"/>                        <div class="tm-news-article-image-credit uk-text-right uk-text-muted tm-text-verysmall"></div>
+                <div class="tm-news-article-content">
+
+            <div>
+
+                <p class="uk-article-meta">
+                    <span class="tm-category-tag tm-category-tag-date">
+                    <time datetime="2014-08-14"><meta itemprop="datePublished" content="2014-08-14T11:51:36+02:00"/> 14. August 2014</time>                    </span>  |  
+                                        <span class="tm-category-tag tm-category-tag-interkulturelle-kompetenzen-ausland"><a href="https://www.expat-news.com/category/interkulturelle-kompetenzen-ausland" rel="category tag">Interkulturelles</a></span>
+                </p>
+
+                <h1 class="uk-article-title" itemprop="headline">Das Leben in der Fremde: Alles, was ihr als Expats darüber wissen müsst</h1>
+
+                <div class="uk-margin-bottom tm-share-icons">
+                    <div class="shariff" data-services="facebook%7Ctwitter" data-url="https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" data-timestamp="1408022548" data-backendurl="https://www.expat-news.com/wp-json/shariff/v1/share_counts?"><ul class="shariff-buttons theme-default orientation-horizontal buttonsize-medium"><li class="shariff-button facebook shariff-nocustomcolor" style="background-color:#4273c8"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" title="Bei Facebook teilen" aria-label="Bei Facebook teilen" role="button" rel="nofollow" class="shariff-link" style="; background-color:#3b5998; color:#fff" target="_blank"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 32"><path fill="#3b5998" d="M17.1 0.2v4.7h-2.8q-1.5 0-2.1 0.6t-0.5 1.9v3.4h5.2l-0.7 5.3h-4.5v13.6h-5.5v-13.6h-4.5v-5.3h4.5v-3.9q0-3.3 1.9-5.2t5-1.8q2.6 0 4.1 0.2z"></path></svg></span><span class="shariff-text">teilen</span> </a></li><li class="shariff-button twitter shariff-nocustomcolor" style="background-color:#32bbf5"><a href="https://twitter.com/share?url=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679&amp;text=Das%20Leben%20in%20der%20Fremde%3A%20Alles%2C%20was%20ihr%20als%20Expats%20dar%C3%BCber%20wissen%20m%C3%BCsst&amp;via=EXPAT_NEWS_Com" title="Bei Twitter teilen" aria-label="Bei Twitter teilen" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#55acee; color:#fff" target="_blank"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path fill="#55acee" d="M29.7 6.8q-1.2 1.8-3 3.1 0 0.3 0 0.8 0 2.5-0.7 4.9t-2.2 4.7-3.5 4-4.9 2.8-6.1 1q-5.1 0-9.3-2.7 0.6 0.1 1.5 0.1 4.3 0 7.6-2.6-2-0.1-3.5-1.2t-2.2-3q0.6 0.1 1.1 0.1 0.8 0 1.6-0.2-2.1-0.4-3.5-2.1t-1.4-3.9v-0.1q1.3 0.7 2.8 0.8-1.2-0.8-2-2.2t-0.7-2.9q0-1.7 0.8-3.1 2.3 2.8 5.5 4.5t7 1.9q-0.2-0.7-0.2-1.4 0-2.5 1.8-4.3t4.3-1.8q2.7 0 4.5 1.9 2.1-0.4 3.9-1.5-0.7 2.2-2.7 3.4 1.8-0.2 3.5-0.9z"></path></svg></span><span class="shariff-text">twittern</span> </a></li><li class="shariff-button whatsapp shariff-nocustomcolor" style="background-color:#5cbe4a"><a href="https://api.whatsapp.com/send?text=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679%20Das%20Leben%20in%20der%20Fremde%3A%20Alles%2C%20was%20ihr%20als%20Expats%20dar%C3%BCber%20wissen%20m%C3%BCsst" title="Bei Whatsapp teilen" aria-label="Bei Whatsapp teilen" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#34af23; color:#fff" target="_blank"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#34af23" d="M17.6 17.4q0.2 0 1.7 0.8t1.6 0.9q0 0.1 0 0.3 0 0.6-0.3 1.4-0.3 0.7-1.3 1.2t-1.8 0.5q-1 0-3.4-1.1-1.7-0.8-3-2.1t-2.6-3.3q-1.3-1.9-1.3-3.5v-0.1q0.1-1.6 1.3-2.8 0.4-0.4 0.9-0.4 0.1 0 0.3 0t0.3 0q0.3 0 0.5 0.1t0.3 0.5q0.1 0.4 0.6 1.6t0.4 1.3q0 0.4-0.6 1t-0.6 0.8q0 0.1 0.1 0.3 0.6 1.3 1.8 2.4 1 0.9 2.7 1.8 0.2 0.1 0.4 0.1 0.3 0 1-0.9t0.9-0.9zM14 26.9q2.3 0 4.3-0.9t3.6-2.4 2.4-3.6 0.9-4.3-0.9-4.3-2.4-3.6-3.6-2.4-4.3-0.9-4.3 0.9-3.6 2.4-2.4 3.6-0.9 4.3q0 3.6 2.1 6.6l-1.4 4.2 4.3-1.4q2.8 1.9 6.2 1.9zM14 2.2q2.7 0 5.2 1.1t4.3 2.9 2.9 4.3 1.1 5.2-1.1 5.2-2.9 4.3-4.3 2.9-5.2 1.1q-3.5 0-6.5-1.7l-7.4 2.4 2.4-7.2q-1.9-3.2-1.9-6.9 0-2.7 1.1-5.2t2.9-4.3 4.3-2.9 5.2-1.1z"></path></svg></span><span class="shariff-text">teilen</span> </a></li><li class="shariff-button xing shariff-nocustomcolor" style="background-color:#29888a"><a href="https://www.xing.com/spi/shares/new?url=https%3A%2F%2Fwww.expat-news.com%2Finterkulturelle-kompetenzen-ausland%2Fdas-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" title="Bei XING teilen" aria-label="Bei XING teilen" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#126567; color:#fff" target="_blank"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 32"><path fill="#126567" d="M10.7 11.9q-0.2 0.3-4.6 8.2-0.5 0.8-1.2 0.8h-4.3q-0.4 0-0.5-0.3t0-0.6l4.5-8q0 0 0 0l-2.9-5q-0.2-0.4 0-0.7 0.2-0.3 0.5-0.3h4.3q0.7 0 1.2 0.8zM25.1 0.4q0.2 0.3 0 0.7l-9.4 16.7 6 11q0.2 0.4 0 0.6-0.2 0.3-0.6 0.3h-4.3q-0.7 0-1.2-0.8l-6-11.1q0.3-0.6 9.5-16.8 0.4-0.8 1.2-0.8h4.3q0.4 0 0.5 0.3z"></path></svg></span><span class="shariff-text">teilen</span> </a></li><li class="shariff-button mailto shariff-nocustomcolor" style="background-color:#a8a8a8"><a href="/cdn-cgi/l/email-protection#f5ca979a918cc89d81818586d0c6b4d0c7b3d0c7b3828282db908d859481d89b908286db969a98d0c7b39c9b8190879e809981808790999990d89e9a98859081909b8f909bd894808699949b91d0c7b3919486d8999097909bd8919087d8938790989190d89499999086d89c9d87d8949986d8908d85948186d89194878090979087d8829c8686909bd8988090868681d8c4c2c3c2ccd3949885ce8680979f909681c8b19486d0c7c5b99097909bd0c7c59c9bd0c7c5919087d0c7c5b38790989190d0c6b4d0c7c5b499999086d0c7b6d0c7c5829486d0c7c59c9d87d0c7c5949986d0c7c5b08d85948186d0c7c5919487d0b6c6d0b7b6979087d0c7c5829c8686909bd0c7c598d0b6c6d0b7b6868681" title="Per E-Mail versenden" aria-label="Per E-Mail versenden" role="button" rel="noopener nofollow" class="shariff-link" style="; background-color:#999; color:#fff"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#999" d="M32 12.7v14.2q0 1.2-0.8 2t-2 0.9h-26.3q-1.2 0-2-0.9t-0.8-2v-14.2q0.8 0.9 1.8 1.6 6.5 4.4 8.9 6.1 1 0.8 1.6 1.2t1.7 0.9 2 0.4h0.1q0.9 0 2-0.4t1.7-0.9 1.6-1.2q3-2.2 8.9-6.1 1-0.7 1.8-1.6zM32 7.4q0 1.4-0.9 2.7t-2.2 2.2q-6.7 4.7-8.4 5.8-0.2 0.1-0.7 0.5t-1 0.7-0.9 0.6-1.1 0.5-0.9 0.2h-0.1q-0.4 0-0.9-0.2t-1.1-0.5-0.9-0.6-1-0.7-0.7-0.5q-1.6-1.1-4.7-3.2t-3.6-2.6q-1.1-0.7-2.1-2t-1-2.5q0-1.4 0.7-2.3t2.1-0.9h26.3q1.2 0 2 0.8t0.9 2z"></path></svg></span><span class="shariff-text">E-Mail</span> </a></li><li class="shariff-button info shariff-nocustomcolor" style="background-color:#eee"><a href="https://ct.de/-2467514" title="Weitere Informationen" aria-label="Weitere Informationen" role="button" rel="noopener " class="shariff-link" style="; background-color:#fff; color:#fff" target="_blank"><span class="shariff-icon" style=""><svg width="32px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 32"><path fill="#999" d="M11.4 24v2.3q0 0.5-0.3 0.8t-0.8 0.4h-9.1q-0.5 0-0.8-0.4t-0.4-0.8v-2.3q0-0.5 0.4-0.8t0.8-0.4h1.1v-6.8h-1.1q-0.5 0-0.8-0.4t-0.4-0.8v-2.3q0-0.5 0.4-0.8t0.8-0.4h6.8q0.5 0 0.8 0.4t0.4 0.8v10.3h1.1q0.5 0 0.8 0.4t0.3 0.8zM9.2 3.4v3.4q0 0.5-0.4 0.8t-0.8 0.4h-4.6q-0.4 0-0.8-0.4t-0.4-0.8v-3.4q0-0.4 0.4-0.8t0.8-0.4h4.6q0.5 0 0.8 0.4t0.4 0.8z"></path></svg></span></a></li></ul></div>                <span id="ezoic-pub-ad-placeholder-105" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 box-3 box-3105 adtester-container adtester-container-105" data-ez-name="expat_news_com-box-3"><span id="div-gpt-ad-expat_news_com-box-3-0" ezaw="468" ezah="60" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:60px;min-width:468px;" class="ezoic-ad"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[468,60],'expat_news_com-box-3','ezslot_3',105,'0','0'])};__ez_fad_position('div-gpt-ad-expat_news_com-box-3-0');</script></span></span></div>
+
+                <p>Eigentlich sollte der 1. Mai dieses Jahres ein relaxter Barbecue-Tag unter Freunden werden. Wurde es aber nicht. Stattdessen gab mir dieser Tag einen triftigen Grund über das Leben in der Fremde, Zugehörigkeit und Ankommen nachzudenken. <span id="more-17679"></span>An jenem Morgen machte ich mich auf den Weg in Richtung Migros – meinem mittlerweile liebgewonnenen Supermarkt in meinem Viertel Besiktas/Istanbul. Während ich noch darüber nachdachte, welcher Fisch sich am besten auf dem Grill machen würde, stolperte ich geradewegs in die traditionellen Kundgebungen zum Tag der Arbeit. Eigentlich nichts Besonderes. Nur, dass diese eigentlich ganz friedliche Veranstaltung in diesem Jahr eine fragwürdige Nummer aus Demonstranten, Polizei und Wasserwerfern zu werden schien. Und das während am Rand dutzende von Passanten bei einem heißen Çay (schwarzer Tee) und Simit (Sesamkringel) entspannt ihr Frühstück genossen.</p>
+<p>„Irgendwie befremdlich“ dachte ich mir zuerst, mischte mich aber trotzdem neugierig unter die beobachtende Menge. Anfangs war es komisch, als Fremde in einem fremden Land an etwas teilzuhaben, das mich eigentlich nicht viel angeht. Aber dann passierte etwas Interessantes: Nach nur ganz kurzer Zeit der Fremdheit entstand plötzlich Nähe und Vertrautheit zu meinem Umfeld. Ich fühlte mich zugehörig. Als Teil von etwas und es fühlte sich gut an!</p>
+<h1><span style="color: #008080;">Über das Leben in der Fremde, Zugehörigkeit und Ankommen</span></h1>
+<p>Zugegeben, das Beispiel mag für die meisten eher eine Ausnahmesituation sein. Aber ist nicht Fremdheit seit Urzeiten für den Menschen ohnehin eine eher suboptimale Situation? Ein Moment der Ungewissheit und ein Mangel an Zugehörigkeit, den es zu überwinden gilt? Und ist es für uns moderne Abenteurer nicht auch Ziel, das Ungewisse zu „bezwingen“? Um es uns letztlich zu eigen zu machen? Ist Zugehörigkeit das Ziel, und es unsere Aufgabe, als Expats dort hin zu kommen?</p>
+<p>Klar ist: gerade als Expats müsst ihr mit Fremdheit und Unsicherheit klarkommen. Und zwar täglich! Ihr begebt euch in ein ungewisses Umfeld, in dem ihr erst einmal herausfinden müsst, wo der nächste Supermarkt ist und welche Produkte ihr überhaupt essen könnt. Wie ihr an Strom und Internet kommt. Warum ihr nicht in die weißen Taxen steigen solltet. Ihr interagiert ständig mit fremden Menschen, die nicht eure Sprache sprechen und deren Denk- und Verhaltensweisen euch bestenfalls aus einem interkulturellen Vorbereitungsseminar bekannt sind. Das ist anstrengend! Doch wenn ihr’s richtig anpackt, wird nach ein paar Monaten aus der Fremde irgendwann ein neues Heim. Ein neues Leben. Neue Vertrautheit. Und vielleicht sogar ein gewisses Gefühl der Zugehörigkeit!</p>
+<h2><span style="color: #ff6600;">Fremd ist Fremd. Oder nicht?</span></h2>
+<p>Der Duden definiert FREMDHEIT so: „Substantiv, feminin – das Fremdsein; Unvertrautheit; kühle Distanz“. Meines Erachtens ist das nicht ganz korrekt, zumindest nicht im Kontext des Expat-Lebens. Denn wer im Ausland wirklich ankommen möchte, sollte vor dem Hintergrund des Fremdheitsbegriffes unbedingt eine sehr klare Unterscheidung zwischen der externen und der internen Ebene treffen.</p>
+<p><span style="color: #ff6600;"><b>Fremdheit</b>:</span> Der Begriff beschreibt die Beziehung, in der Menschen oder Dinge zueinander stehen. Anders gesagt: Fremdheit drückt aus, wie unser Umfeld im Vergleich zu uns „aussieht“, es sagt etwas über die faktische Distanz aus, in der sich zum Beispiel eine andere Kultur im Vergleich zu unserer Kultur befindet. Beispielsweise ist die chinesische Kultur im Vergleich zur deutschen Kultur fremder als die französische Kultur.</p>
+<p><span style="color: #ff6600;"><b>Fremdsein</b>:</span> Im Gegensatz zur Fremdheit drückt der Begriff Fremdsein ein subjektives Gefühl, ein Empfinden aus. Nämlich das, was wir empfinden, wenn wir in diesem fremden Umfeld leben. Je größer die oben genannte kulturelle, soziale, religiöse, sprachliche (…) Distanz, desto fremder mögen wir uns in diesem Umfeld vorkommen. Zum Beispiel fühlen sich die meisten deutschen Expats in Frankreich sicherlich weniger fremd, als in China.</p>
+<p>Während also Fremdheit in diesem Kontext eher die externe, die äußere Distanz zwischen verschiedenen Kulturen beschreibt, fokussiert Fremdsein auf die innere Distanz, die wir empfinden, wenn wir diese Fremdheit erleben.</p>
+<h2><span style="color: #ff6600;">Überwindet das Fremde!</span></h2>
+<p>Der Mensch ist ein Gewohnheitstier! Und er scheut sich fast immer auch vor <a title="CHANGE MANAGEMENT FÜR EXPATPARTNER" href="http://www.what-about-my-pencilskirt.com/change-management-fuer-expatpartner/" target="_blank"><em>Veränderungen</em></a>. Weil Veränderungen Fremdes mit sich bringen. Unsicherheit. Verlust. Ein Auslandsaufenthalt aber ist eine Riesen-Veränderung. Es ist praktisch ein Tête à Tête mit der Fremde – der Fremdheit und dem Fremdsein. Dem Erleben und dem Empfinden. Und so sehr uns dieses Fremde als Expats reizt, genauso sehr streben wir als Menschen nach verlässlichen Routinen, nach Bekanntem, nach Vertrautheit. Und nach Zugehörigkeit. Der Mensch ist nämlich auch ein Herdentier!</p>
+<h1><span style="color: #008080;">1. Kümmert euch um die Basics!</span></h1>
+<p>Es ist keine sonderliche Überraschung, dass es einfach ein paar Dinge gibt, um die ihr euch bemühen solltet, wenn ihr euch in das Abenteuer Fremde stürzt. Fremdheit drückt sich als erstes in eurem direkten Umfeld aus, also in dem, was ihr um euch herum als andersartig wahrnehmt. Das kann das Klima sein, die Architektur, kulinarische Besonderheiten, Infrastruktur, Kleidung, Dos &amp; Dont’s und natürlich die Sprache. Nicht schwer zu erraten, dass – wenn ihr euch ein wenig mit all diesen (kulturellen, sprachlichen, religiösen usw.) Besonderheiten beschäftigt – es euch leichter fallen sollte, diese Fremdheit, in der ihr euch bewegt, ein wenig mehr zu verstehen. Und den Dingen etwas näher zu kommen. Um eure Gewohnheiten und Routinen zu entwickeln. Und euch sicher und aufgehoben zu fühlen. Um anzukommen!</p>
+<p>Übrigens: Wie viel ihr davon braucht um euch weniger – fremd – zu fühlen, entscheidet ihr ganz allein. Schließlich hat nicht jeder die Zeit, jeden Tag drei Stunden Vokabeln zu pauken, und perfektes Hoch-Mandarin ist zwar großartig, aber eben nur die halbe Miete.</p>
+<h1><span style="color: #008080;">2. Findet eure Herde!</span></h1>
+<p>Zu Hause ist, wo Menschen sind, die euch etwas bedeuten. Dort, wo es Menschen gibt, denen ihr auch etwas bedeutet. Eure „Herde“. Und genau die entscheidet darüber, ob ihr ein paar nette Momente in einem fremden Land verbringt oder ob diese Erfahrung eine der besten Momente eures Lebens wird</p>
+<p>In einem <a title="EIN PENCILSKIRT IM EXPATBLUES" href="http://www.what-about-my-pencilskirt.com/pencilskirt-im-expatblues/" target="_blank"><em>früheren Artikel</em></a> hatte ich schon mal diskutiert, ob wir als Expats jemals ganz „dazu gehören“ können – zu einer Kultur, die von Geburt an nicht unsere ist. Diese Frage muss jeder für sich selbst beantworten. Ich denke jedenfalls, es müssen nicht immer zwangsweise die Aboregenees sein nur weil ich gerade in Australien lebe… Es geht nämlich nicht darum, auf Biegen und Brechen best friend mit allen Locals zu werden. Es geht darum, Menschen zu finden, die euch das Gefühl der Zugehörigkeit geben. Menschen, die etwas teilen möchten, die euren Horizont erweitern. Die euch das Gefühl verschaffen, ein neues Zuhause gefunden zu haben. Und dieses Gefühl hängt nicht davon ab, mit WEM in anbandelt! Stattdessen nutzt einfach die vielen <a title="SETTLE IN &amp; KEEP COOL – Teil II" href="http://www.what-about-my-pencilskirt.com/settle-keep-cool-teil-ii/" target="_blank"><em>Möglichkeiten, die euch ein Auslandsaufenthalt bietet, eure Herde zu finden</em></a>.</p>
+<h2><span style="color: #ff6600;">Was ich gelernt habe?</span></h2>
+<p>Rückblickend hat mir mein Erlebnis am 01. Mai gezeigt, wie stark unser menschliches Bestreben nach Vertrautheit und Zugehörigkeit ist. Ich habe an diesem Tag versucht, ein kleines Stückchen mehr von meinem Gastland zu entdecken und zu verstehen. Ja! Vor allem aber wollte ich – und das ist der Punkt – dazugehören! Ich wollte Teil von etwas werden, um mich hier ein kleines bisschen mehr angekommen zu fühlen.</p>
+<p>Hat der Mensch keine Herde, wird er sich immer fremdfühlen. Völlig egal, wie gut er die Sprache spricht, wie ausgiebig er kulturelle Besonderheiten studiert oder sich durch dicke Geschichtsbücher seines Gastland gequält hat. Ohne Menschen, die euch etwas bedeuten, werdet ihr überall einsam sein! Wenn ihr also während eures Auslandsaufenthaltes ein neues Zuhause finden und nicht permanent auf der Durchreise sein möchtet, müsst ihr beides überwinden: die FremdHEIT und das FremdSEIN. Das ist nicht immer easy, aber es lohnt sich. Denn ihr bekommt es tausendmal zurück. Von den Menschen, denen IHR etwas bedeuten werdet.</p>
+<p>[symple_box color=“gray“ text_align=“left“ width=“100%“ float=“none“]</p>
+<div>
+<p><b>Autoreninfo:</b></p>
+<p><a href="https://www.expat-news.com/wp-content/uploads/2013/12/C.Grunewald.jpg"><img class="wp-image-14623 alignleft" style="margin-left: 10px; margin-right: 10px;" alt="C.Grunewald" src="https://www.expat-news.com/wp-content/uploads/2013/12/C.Grunewald.jpg" width="128" height="171"/></a>Constance Grunewald-Petschke betreibt den Blog <a href="http://www.what-about-my-pencilskirt.com">www.what-about-my-pencilskirt.com</a>, auf dem sie regelmäßig über ihr neues Leben als Expat-Frau in Istanbul berichtet. Sie ist außerdem Inhaberin der Agentur „Abroad [relocation.interculture.language]“, die Expats und ihre Familien berät und hat das erste deutschsprachige <a title="Expat-Coaching-Programm" href="http://www.how-to-create-my-life-abroad.com/">E-Coachingprogramm speziell für ExpatPartner</a> entwickelt.</p>
+<p>E-Mail: <a href="/cdn-cgi/l/email-protection#b7d499d0c5c2d9d2c0d6dbd3f7cfc7d6c39ad6d5c5d8d6d399d4d8da"><span class="__cf_email__" data-cfemail="45266b2237302b2032242921053d352431682427372a24216b262a28">[email&#160;protected]</span></a></p>
+<p>[/symple_box]</p>
+</div>
+<p><a href="https://www.expat-news.com/wp-content/uploads/2014/02/Logo-Programm.png"><img alt="Logo Programm" src="https://www.expat-news.com/wp-content/uploads/2014/02/Logo-Programm-300x61.png" width="300" height="61"/></a></p>
+<p>[symple_box color=“green“ text_align=“left“ width=“100%“ float=“none“]</p>
+<p><strong>Mehr zum Thema:</strong></p>
+<p><a href="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif"><img class="alignnone size-full wp-image-647" alt="Expats in der Fremde" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Tipps gegen Vorurteile im Ausland" href="https://www.expat-news.com/15056/interkulturelle-kompetenzen-ausland/ankunft-im-ausland-tipps-gegen-vorurteile/" target="_blank">Ankunft im Ausland: Tipps gegen Vorurteile</a></p>
+<p><a href="https://www.expat-news.com/auslandsjobs/attachment/pfeil/" rel="attachment wp-att-647"><img alt="Pfeil Vorurteile" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Kultur als Autopilot der Wahrnehmung" href="https://www.expat-news.com/14672/interkulturelle-kompetenzen-ausland/warum-kultur-der-autopilot-der-menschlichen-wahrnehmung-ist/" target="_blank">Warum Kultur der Autopilot der menschlichen Wahrnehmung ist</a></p>
+<p><a href="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif"><img alt="Expats in der Fremde" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Entsendung mit Expat-Partner" href="https://www.expat-news.com/15234/interkulturelle-kompetenzen-ausland/auslandsentsendung-expat-partner-muessen-ebenfalls-ueberzeugt-werden/" target="_blank">Auslandsentsendung: Expat-Partner müssen ebenfalls überzeugt werden</a></p>
+<p><a href="https://www.expat-news.com/auslandsjobs/attachment/pfeil/" rel="attachment wp-att-647"><img alt="Expat-Partner" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Kulturschock vermeiden" href="https://www.expat-news.com/11905/panorama_auswandern_expatriates/wie-man-den-kulturschock-vermeidet/" target="_blank">Wie man den Kulturschock vermeidet</a></p>
+<p><a href="https://www.expat-news.com/auslandsjobs/attachment/pfeil/" rel="attachment wp-att-647"><img alt="Expat-Blues" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Roadmap für Onboarding" href="https://www.expat-news.com/13344/interkulturelle-kompetenzen-ausland/expat-bericht-mit-der-roadmap-fuer-onboarding-im-ausland-ankommen/" target="_blank">Mit der Roadmap für Onboarding im Ausland ankommen</a></p>
+<p><a href="https://www.expat-news.com/auslandsjobs/attachment/pfeil/" rel="attachment wp-att-647"><img alt="Expat-Blues" src="https://www.expat-news.com/wp-content/uploads/2011/04/Pfeil.gif" width="10" height="10"/></a> <a title="Was es heißt, eine Expat-Frau zu werden" href="https://www.expat-news.com/13234/interkulturelle-kompetenzen-ausland/was-es-heisst-eine-expat-frau-zu-werden/" target="_blank">Was es heißt, eine Expat-Frau zu werden</a></p>
+<p>[/symple_box]</p>
+<p><span style="color: #808080;"><em>Foto: © RFsole – Fotolia.com</em></span></p>
+<p> </p>
+
+                
+                <div class="uk-panel uk-panel-box tm-authorbox" itemprop="author" itemscope="" itemtype="http://schema.org/Organization">
+                    <div class="uk-grid">
+                                                <div class="uk-width-small-1-4 tm-author-image">
+                            <img class="tm-portrait" itemprop="logo" alt="Über Expat News" src="https://www.expat-news.com/wp-content/uploads/2020/02/logo-expat-news-verlauf-1-150x150.png"/>
+                        </div>
+                        <div class="uk-width-small-3-4">
+                                                                                    <h3 class="uk-margin-top-remove uk-h2">Über Expat News</h3>
+                                <meta itemprop="legalName" content="Expat News GmbH"/> 
+                                <meta itemprop="name" content="Expat News GmbH"/> 
+                                                        <div class="tm-infotext uk-margin" itemprop="description"><p>Expat News ist ein deutschsprachiges Service- und Nachrichtenportal, das Leser rund um das Thema Leben und Arbeiten im Ausland informiert.</p>
+<p>Bei Fragen/Anregungen oder bei Interesse als Gastautor Beiträge zu schreiben, können sich Interessierte gerne an Chefredakteurin Anne-Katrin Schwanitz wenden.</p>
+</div>
+                            <div class="tm-author-links">
+                                <a href="/cdn-cgi/l/email-protection#55343e26363d22343b3c212f15302d253421783b3022267b363a38"><span class="uk-icon-envelope"></span> <span itemprop="email"><span class="__cf_email__" data-cfemail="41202a32222936202f28353b0124393120356c2f2436326f222e2c">[email&#160;protected]</span></span></a>
+                                                                                                                                <a href="https://www.expat-news.com/ueber-expat-news"><span class="uk-icon-info"></span> über Expat News</a>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                <div class="tm-news-article-tags"><h3>Tags:</h3><a href="https://www.expat-news.com/tag/als-expat-in-der-fremde" rel="tag">als Expat in der Fremde</a>, <a href="https://www.expat-news.com/tag/interkulturelle-kompetenz" rel="tag">Interkulturelle Kompetenz</a>, <a href="https://www.expat-news.com/tag/interkulturelle-vorbereitung" rel="tag">interkulturelle Vorbereitung</a>, <a href="https://www.expat-news.com/tag/interkulturelles-training" rel="tag">Interkulturelles Training</a>, <a href="https://www.expat-news.com/tag/kultur-und-wahrnehmung" rel="tag">Kultur und Wahrnehmung</a>, <a href="https://www.expat-news.com/tag/kulturelle-praegung-und-wahrnehmung" rel="tag">kulturelle Prägung und Wahrnehmung</a>, <a href="https://www.expat-news.com/tag/kulturschock" rel="tag">Kulturschock</a>, <a href="https://www.expat-news.com/tag/kulturschock-vermeiden" rel="tag">Kulturschock vermeiden</a>, <a href="https://www.expat-news.com/tag/mittel-gegen-kulturschock" rel="tag">Mittel gegen Kulturschock</a>, <a href="https://www.expat-news.com/tag/vorurteile-gegenueber-fremden-kulturen" rel="tag">Vorurteile gegenüber fremden Kulturen</a></div>
+                                
+                
+                
+            </div>
+
+        </div>
+        
+                    <meta itemprop="datePublished" content="2014-08-14T11:51:36+02:00"/> 
+                <meta itemprop="dateModified" content="2014-08-14T11:51:36+02:00"/> 
+                <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+            <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://www.expat-news.com/wp-content/themes/expat_news/images/expat-news-logo.png"/>
+            <meta itemprop="width" content="250"/>
+            <meta itemprop="height" content="37"/>
+            </div>
+            <meta itemprop="name" content="Expat News GmbH"/>
+        </div>
+
+
+    </article>
+
+      
+					</main>
+					
+					
+				</div>
+				
+	            	            	            	            	            <aside class="tm-sidebar-a uk-width-medium-1-3"><div class="uk-panel uk-panel-box uk-panel-box-secondary widget_nav_menu"><ul class="uk-nav uk-nav-parent-icon uk-nav-side" data-uk-nav="{}"><li><a href="https://www.expat-news.com/auslandsjobs" class=""><i class="uk-icon-briefcase"></i> Jobs im Ausland</a></li><li><a href="https://www.expat-news.com/auslandsversicherungen" class=""><i class="uk-icon-plus"></i> Auslandsversicherungen</a></li><li><a href="https://www.expat-news.com/studien_umfragen" class=""><i class="uk-icon-bookmark"></i> Studien</a></li><li><a href="https://www.expat-news.com/ueber-expat-news" class=""><i class="uk-icon-paper-plane"></i> Über Expat News</a></li></ul></div><span id="ezoic-pub-ad-placeholder-146" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 box-2 box-2146 adtester-container adtester-container-146" data-ez-name="expat_news_com-box-2"><span id="div-gpt-ad-expat_news_com-box-2-0" ezaw="300" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'expat_news_com-box-2','ezslot_2',146,'0','0'])};__ez_fad_position('div-gpt-ad-expat_news_com-box-2-0');</script></span></span>
+<div class="uk-panel uk-panel-box tm-panel-box-blue popular-posts"><h3 class="uk-panel-title">Meistgelesene Artikel</h3>
+
+
+
+
+<ol class="tm-list-popular-posts">
+<li> <a href="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/world-happiness-report-wo-es-die-gluecklichsten-nationen-gibt-50692" class="wpp-post-title" target="_self">World Happiness Report: Wo es die glücklichsten Nationen gibt</a> <span class="wpp-meta post-stats"></span></li>
+<li> <a href="https://www.expat-news.com/panorama_auswandern_expatriates/winter-wonderland-weihnachtsmarkt-in-london-ist-der-beliebteste-in-europa-52137" class="wpp-post-title" target="_self">Winter Wonderland Weihnachtsmarkt in London ist der beliebteste in Europa</a> <span class="wpp-meta post-stats"></span></li>
+<li> <a href="https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-sind-die-besten-staedte-fuer-auswandernde-52144" class="wpp-post-title" target="_self">Das sind die besten Städte für Auswandernde</a> <span class="wpp-meta post-stats"></span></li>
+<li> <a href="https://www.expat-news.com/markteintritt-ausland/risk-map-2023-listet-nun-auch-psychischen-gesundheitsprobleme-52163" class="wpp-post-title" target="_self">Risk Map 2023 listet nun auch psychische Gesundheitsprobleme</a> <span class="wpp-meta post-stats"></span></li>
+<li> <a href="https://www.expat-news.com/life-style/single-all-the-way-solo-reisen-ueber-weihnachten-sind-beliebt-52168" class="wpp-post-title" target="_self">„Single all the way“: Solo-Reisen über Weihnachten sind beliebt</a> <span class="wpp-meta post-stats"></span></li>
+
+</ol>
+
+</div><span id="ezoic-pub-ad-placeholder-102" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 box-1 box-1102 adtester-container adtester-container-102" data-ez-name="expat_news_com-box-1"><span id="div-gpt-ad-expat_news_com-box-1-0" ezaw="250" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:250px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[250,250],'expat_news_com-box-1','ezslot_4',102,'0','0'])};__ez_fad_position('div-gpt-ad-expat_news_com-box-1-0');</script></span><span style="width:250px;display:block;height:14px;margin:auto" class="reportline"><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:left;line-height:normal;"><a href="https://www.ezoic.com/what-is-ezoic/" target="_blank" rel="noopener noreferrer nofollow" style="cursor:pointer"><img src="https://go.ezoic.net/utilcave_com/img/ezoic.png" alt="Ezoic" loading="lazy" style="height:12px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 58px !important; margin:0 !important; box-sizing: content-box !important;"/></a></span><span class="ez-report-ad-button" name="?pageview_id=78fc2a67-46ed-4ef8-4530-25bed6f4e2c1&amp;ad_position_id=102&amp;impression_group_id=expat_news_com-box-1/2022-12-21/6867912147225832&amp;ad_size=250x250&amp;domain_id=348305&amp;url=https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;">report this ad</span></span></span>
+<div class="uk-panel uk-panel-anzeige adrotate_widgets"><span class="tm-advert-title">Anzeige</span>
+<div class="a-single a-88"><a href="https://www.bdae.com/auslands-krankenversicherungen/expat-infinity" target="_blank" "=""><img src="https://www.expat-news.com/Werbung/BDAE_Expat_infinity_400x350.gif" width="400" height="300" alt=""/></a></div></div>
+<div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><div class="tm-socialicons">
+	<div class="uk-grid-width-1-2 uk-grid uk-grid-match uk-text-left " data-uk-grid-match="{target:&#39;&gt; div &gt; .uk-panel &gt; div &#39;, row:true}" data-uk-grid-margin="">
+
+
+	<div class="uk-row-first">
+	<div class="uk-panel uk-overlay-hover">
+	<a class="uk-position-cover uk-position-z-index" href="https://twitter.com/EXPAT_NEWS_Com" target="_blank" rel="noopener"></a>
+	<div class="tm-socialicon-box">
+	<div class="tm-socialicon-media ">
+	<div class="uk-overlay "><img src="/wp-content/uploads/2016/02/twitter.svg" class=" uk-overlay-scale" alt="Twitter" width="28" height="28"/></div></div>
+	<div class="tm-socialicon-text"><div class="uk-panel"><div class="uk-margin"><div class="pf-content"><p>Expat News bei <strong>twitter</strong></p>
+	</div></div></div>
+	</div>
+	</div></div>
+	</div>
+		<div>
+		<div class="uk-panel uk-overlay-hover">
+		<a class="uk-position-cover uk-position-z-index" href="https://www.xing.com/communities/groups/expat-news-1000917" target="_blank" rel="noopener"></a><div class="tm-socialicon-box "><div class="tm-socialicon-media ">
+		<div class="uk-overlay "><img src="/wp-content/uploads/2016/02/xing.svg" class=" uk-overlay-scale" alt="Xing" width="28" height="28"/></div></div>
+		<div class="tm-socialicon-text">
+			<div class="uk-panel">
+				<div class="uk-margin">
+					<div class="pf-content">
+						<p>Expat News bei <strong>xing</strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div></div></div><span id="ezoic-pub-ad-placeholder-136" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 banner-2 banner-2136 adtester-container adtester-container-136 ez-sticky" data-ez-name="expat_news_com-banner-2"><span id="div-gpt-ad-expat_news_com-banner-2-0" ezaw="336" ezah="280" style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto !important;margin-right:auto !important;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[336,280],'expat_news_com-banner-2','ezslot_0',136,'0','0'])};__ez_fad_position('div-gpt-ad-expat_news_com-banner-2-0');</script></span><span style="width:336px;display:block;height:14px;margin:auto" class="reportline"><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:left;line-height:normal;"><a href="https://www.ezoic.com/what-is-ezoic/" target="_blank" rel="noopener noreferrer nofollow" style="cursor:pointer"><img src="https://go.ezoic.net/utilcave_com/img/ezoic.png" alt="Ezoic" loading="lazy" style="height:12px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 58px !important; margin:0 !important; box-sizing: content-box !important;"/></a></span><span class="ez-report-ad-button" name="?pageview_id=78fc2a67-46ed-4ef8-4530-25bed6f4e2c1&amp;ad_position_id=136&amp;impression_group_id=expat_news_com-banner-2/2022-12-21/5356538441233328&amp;ad_size=336x280&amp;domain_id=348305&amp;url=https://www.expat-news.com/interkulturelle-kompetenzen-ausland/das-leben-der-fremde-alles-ihr-als-expats-darueber-wissen-muesst-17679" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;">report this ad</span></span></span></aside>
+	            	            
+			</div>
+			
+			
+		</div>
+
+	</div>
+
+	<div class="tm-page-footer">
+
+		<div class="uk-container uk-container-center">
+
+			
+			
+						<section id="tm-footer-a" class="tm-footer-a uk-grid" data-uk-grid-match="{target:&#39;&gt; div &gt; .uk-panel&#39;}" data-uk-grid-margin="">
+<div class="uk-width-1-1 uk-width-large-1-2"><div class="uk-panel widget_custom_html"><div class="textwidget custom-html-widget"><div id="wk-gridafa" class="uk-grid-width-1-1 uk-grid-width-medium-1-2 uk-grid uk-grid-match uk-text-left" data-uk-grid-match="{target:&#39;&gt; div &gt; .uk-panel&#39;, row:true}" data-uk-grid-margin="">
+			<div class="uk-row-first">
+					<div class="uk-panel">
+<div class="uk-margin">
+<div class="pf-content">
+<p>EXPAT NEWS GmbH<br/>
+Kühnehöfe<br/>
+22761 Hamburg
+</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="uk-panel">
+	<div class="uk-margin">
+		<div class="pf-content">
+			<p>
+				<span class="tm-footer-label">Tel.:</span> +49 [0] 40 30 68 74 – 0<br/>
+				<span class="tm-footer-label">Fax:</span> +49 [0] 40 30 68 74 – 91<br/>
+				<span class="tm-footer-label">E-Mail:</span> <a href="/cdn-cgi/l/email-protection#5d34333b321d38252d3c297033382a2e733e3230"><span class="__cf_email__" data-cfemail="5f363139301f3a272f3e2b72313a282c713c3032">[email&#160;protected]</span></a>
+			</p>
+		</div>
+	</div>
+</div>
+</div>
+</div></div></div></div>
+
+<div class="uk-width-1-1 uk-width-large-1-2"><div class="uk-panel widget_nav_menu"><ul class="uk-subnav uk-subnav-line uk-flex-center"><li><a href="https://www.expat-news.com/impressum" class="">Impressum</a></li><li><a href="https://www.expat-news.com/datenschutzerklarung" class="">Datenschutzerklärung</a></li><li><a href="https://www.expat-news.com/ueber-expat-news" class="">Über Expat News</a></li><li><a href="#uc-corner-modal-show" class="tm-show-cookiesettings">Cookie-Einstellungen</a></li></ul></div></div>
+</section>
+			
+			
+		</div>
+
+	<span id="ezoic-pub-ad-placeholder-104" class="ezoic-adpicker-ad"></span></div>
+
+	<link rel="stylesheet" id="shariffcss-css" href="https://www.expat-news.com/wp-content/plugins/shariff/css/shariff.min.css?ver=4.6.7" type="text/css" media="all"/>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://www.expat-news.com/wp-content/plugins/shariff/js/shariff.min.js?ver=4.6.7" id="shariffjs-js"></script>
+
+		<div id="offcanvas" class="uk-offcanvas">
+		<div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><div class="uk-panel widget_search"><form class="uk-search" id="search-4" action="https://www.expat-news.com/" method="get" role="search">
+    <input class="uk-search-field" type="text" value="" name="s" placeholder="suchen..."/>
+</form>
+</div>
+<ul class="uk-nav uk-nav-offcanvas"><li><a href="https://www.expat-news.com/category/recht-steuern-im-ausland" class="cat-runds">Recht &amp; Steuern im Ausland</a></li><li><a href="https://www.expat-news.com/category/panorama_auswandern_expatriates" class="">Panorama</a></li><li><a href="https://www.expat-news.com/category/life-style" class="">Lifestyle</a></li><li><a href="https://www.expat-news.com/category/markteintritt-ausland" class="">Markteintritt Ausland</a></li><li><a href="https://www.expat-news.com/category/interkulturelle-kompetenzen-ausland" class="">Interkulturelles</a></li><li><a href="https://www.expat-news.com/category/events-fuer-expats-auswanderer" class="">Events</a></li><li><a href="https://www.expat-news.com/category/interview-leben-arbeiten-ausland" class="">Interview</a></li><li><a href="https://www.expat-news.com/category/publikationen-ausland" class="">Publikationen</a></li></ul></div>
+	</div>
+	
+
+<!--[selectrongo:done]--><div class="ezmob-footer ezoic-floating-bottom ezo_ad ezmob-footer-desktop" id="ezmobfooter"><center><span id="ezoic-pub-ad-placeholder-100"></span><div class="ezmob-footer ezoic-floating-bottom ezo_ad ezmob-footer-desktop" id="ezmobfooter"><center><span class="ezoic-ad ezoic-at-4 medrectangle-2 medrectangle-2100 adtester-container adtester-container-100" data-ez-name="expat_news_com-medrectangle-2"><span id="div-gpt-ad-expat_news_com-medrectangle-2-0" ezaw="970" ezah="90" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:90px;min-width:970px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[970,90],'expat_news_com-medrectangle-2','ezslot_1',100,'0','0'])};__ez_fad_position('div-gpt-ad-expat_news_com-medrectangle-2-0');</script></span></span></center><span class="ezmob-footer-close" id="ezmob-footer-close" onclick="__ez_close_anchor()">x</span></div></center></div><script type="text/javascript">
+				var __inScopeForCCPA = false;
+		function __uspapi(command, version, callback) {
+			var response = null;
+			var successs = false;
+			if (command === "getUSPData" && version === 1) {
+				var uspString = "1"; // Version
+				if (__inScopeForCCPA) {
+					uspString += "N"; // Has Explicit Notice for Opt Out been provided (ex footer or minor consent modal)
+					var result;
+					var consentCookie = (result = new RegExp('(?:^|; )ezoccpaconsent=([^;]*)').exec(document.cookie)) ? (result[1]) : null;
+					if (consentCookie === "nonconsent") {
+						uspString += "Y";
+					}
+					else {
+						uspString += "N";
+					}
+					uspString += "N" // Is pub a signatory to the IAB Limited Service Provider Agreement (http://www.iabprivacy.com/)
+				}
+				else {
+					uspString += "---";
+				}
+				response = {
+					uspString: uspString,
+					version: 1
+				};
+				success = true;
+			}
+			return callback(response, success);
+		};
+		function __receiveUspapiMessage(event) {
+			if (event.data.hasOwnProperty('__uspapiCall')) {
+				__uspapi('getUSPData', 1, function(uspData, success) {
+					event.source.postMessage({
+						__uspapiReturn: {
+							returnValue: uspData,
+							success: success,
+							callId: event.data.__uspapiCall.callId
+						}
+					},
+					event.origin);
+				});
+			}
+			return null;
+		};
+		window.addEventListener("message", __receiveUspapiMessage, false);
+</script>
+<script>function __ez_fad_ezpbinit(){var s = document.createElement( 'script' );
+	s.setAttribute( 'src', '//go.ezodn.com/hb/dall.js?b=amx,onemobile,onetag,pubmatic,yieldmo&cb=195-0-50' );
+	s.onerror = function () {window.ezDallErr = true};
+	document.body.appendChild( s );}var ezYieldmo={bidder:'yieldmo',params:{placementId:'2834942196124164132'}};var ezAMX={bidder:'amx',params:{tagId:'ZXpvaWMuY29t'}};var ezOneTag={bidder:'onetag',params:{pubId:'62499636face9dc'}};var ezjsps=function(obj){return JSON.parse(JSON.stringify(obj));};var epbjs=epbjs||{};epbjs.que=epbjs.que||[];epbjs.bidderTimeout=2500;epbjs.useAdj=true;epbjs.SS={"amx":11290,"onemobile":11293,"onetag":11291,"pubmatic":10061,"yieldmo":11315};epbjs.bidders=['amx,onemobile,onetag,pubmatic,yieldmo'];epbjs.que.push(function(){});epbjs.bidderSettings={};epbjs.gadj=1.000000;var __enableAnalytics=false;
+var __s2sbidders=['pubmatic','amx','onetag'];
+var __s2sinstreambidders=['ix','medianet','pubmatic','rubicon','smartadserver','vidoomy','viewdeosDX'];
+var __allBidders=['onemobile','yieldmo','pubmatic','amx','onetag'];
+__ez.queue.addFile('/detroitchicago/houston.js', '/detroitchicago/houston.js?gcb=0&cb=33', false, [], true, false, true, false);
+__ez.queue.addFile('/detroitchicago/tuscon.js', '/detroitchicago/tuscon.js?gcb=0&cb=2', false, [], true, false, true, false);__ez.queue.addFunc("epbjsRequestAdUnits", "epbjsRequestAdUnits", [[{code: 'div-gpt-ad-expat_news_com-banner-2-0', mediaTypes: {banner: { sizes:[[336,280],[300,250]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114530' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-medrectangle-2-0', mediaTypes: {banner: { sizes:[[970,90],[728,90]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114533' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-2-0', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114530' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-3-0', mediaTypes: {banner: { sizes:[[468,60]] }}, bids: [ezjsps(ezYieldmo),ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-1-0', mediaTypes: {banner: { sizes:[[250,250]] }}, bids: [ezjsps(ezYieldmo),ezjsps(ezAMX),ezjsps(ezOneTag)] }]], false, ['/detroitchicago/houston.js'], true, true, true, true);__ez.queue.addFunc("epbjsRequestAdUnits", "epbjsRequestAdUnits", [[{code: 'div-gpt-ad-expat_news_com-banner-2-0', mediaTypes: {banner: { sizes:[[336,280],[300,250]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114530' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-medrectangle-2-0', mediaTypes: {banner: { sizes:[[970,90],[728,90]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114533' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-2-0', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [ezjsps(ezYieldmo),{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: '4114530' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-3-0', mediaTypes: {banner: { sizes:[[468,60]] }}, bids: [ezjsps(ezYieldmo),ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-expat_news_com-box-1-0', mediaTypes: {banner: { sizes:[[250,250]] }}, bids: [ezjsps(ezYieldmo),ezjsps(ezAMX),ezjsps(ezOneTag)] }]], false, ['/detroitchicago/tuscon.js'], true, true, true, true);var __id5pd = 'MTE9Zjg2ZTA2MjMzZjA0MTA0MWUwYmIzNzIzMWEwYjkyNWUzNmE0MWNkNGY4OWMxZjA2NTVkNGJlYjA1NTcwMDliNyYxMj1jdXJsJTJGNy43OC4w';var __uIdHash = '50c5cd7b5386d5bcc9026ede576d63df4f2af4c61c3e6d2156575c3ba82be20f';var __sspDomain = 'www.expat-news.com';</script>
+<script>var __ez_tkn_evnt = function() { if(typeof(_ezaq) != 'undefined'){if(typeof window.ezogtk !== "undefined" && window.ezogtk !== "") {__ez.bit.AddAndFire(_ezaq.page_view_id,[new __ezDotData("ext_user_hash",window.ezogtk)]);}}};document.addEventListener("DOMContentLoaded", __ez.queue.addFunc("__ez_tkn_evnt", "__ez_tkn_evnt", event, false, ['/detroitchicago/minneapolis.js','/detroitchicago/memphis.js'], true, true, false, true));</script>
+<script src="/detroitchicago/augusta.js?cb=24" async data-ezscrex="false"></script>
+<script async data-ezscrex="false">__ez.fads.cmd.push(function(){__ez.fads.__ez_fad_load(0,0);__ez.fads.__ez_fad_scrollmon();});</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript' id=a6aa3ffb1f4e4ac9bf95518384b0e2f3>__cnxiid = 4300365337019710;
+	__cnxau = 'expat_news_com-cnx-1';
+	setTimeout(function(){
+		!function(e) {
+			if (typeof(window.cnx) === 'undefined' || !window.cnx) {
+				window.cnx = {}, window.cnx.cmd = [];
+				var n = e.createElement('iframe');
+				n.src = 'javascript:false';
+				n.display = 'none', n.onload = function () {
+					if (typeof(ezVideo) === 'undefined' || !ezVideo) {
+						var e = n.contentWindow.document,
+							t = e.createElement('script');
+						t.src = 'https://cd.connatix.com/connatix.player.js?cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+						t.setAttribute('async', '1');
+						t.setAttribute('type', 'text/javascript');
+						e.body.appendChild(t);
+					}
+				};
+				e.head.appendChild(n);
+			}
+		}(document);
+		(new Image).src = '//capi.connatix.com/tr/si?token=dceed97a-951e-4c47-b565-c2794ffae817&cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+		cnx.cmd.push(function () {
+			if (typeof(__ezcnxPlayer) === 'undefined' || !__ezcnxPlayer) {
+				cnx({
+					playerId: 'dceed97a-951e-4c47-b565-c2794ffae817',
+				}).render('a6aa3ffb1f4e4ac9bf95518384b0e2f3', (e, n) => {
+					__ezcnxPlayer = n;
+					if (typeof(__ez_auto_adjust_outstream_float) === 'undefined') {
+						__ezcnxPlayerDelay = [];
+						__ezcnxPlayerDelay.push('outstreamFloatDestroy');
+					} else {
+						__ez_outstream_float_destroy && __ez_outstream_float_destroy();
+					}
+					if (typeof(__ez_outstream_player_tracking) === 'undefined') {
+						if (typeof(__ezcnxPlayerDelay) === 'undefined') {
+							__ezcnxPlayerDelay = [];
+						}
+						__ezcnxPlayerDelay.push('outstreamtracking');
+					} else {
+						__ez_outstream_player_tracking();
+					}
+				});
+			}
+		});
+	}, 3000);</script>
+<script type="text/javascript">
+						var rFunc = function() {
+							if (typeof googletag === 'undefined') return;
+							var runNonPersonalized = 1;
+							if (__ez.ck.get("ezCMPCookieConsent",null).indexOf("4=1") !== -1) {runNonPersonalized=0;}
+							if (runNonPersonalized === 1) {
+								if(typeof __ez == 'object' && typeof __ez.bit == 'object' && typeof window["_ezaq"] == 'object' && typeof window["_ezaq"]["page_view_id"] == 'string') {
+									__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"], [(new __ezDotData('non_personalized_ads', true))]);
+								}
+							}
+							(adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=runNonPersonalized;
+							(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;
+							googletag.cmd.push(function() {
+							googletag.pubads().setRequestNonPersonalizedAds(runNonPersonalized);
+							googletag.pubads().refresh();
+							});
+							};
+					if(document.body.addEventListener) {document.body.addEventListener("ezCMPComplete",rFunc,false);}else{document.body.attachEvent("on"+ezCMPComplete,rFunc);}
+					</script>
+<script type="text/javascript" data-cfasync="false"></script>
+<script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+</script>
+<script type="text/javascript"  async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body></html>

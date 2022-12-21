@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:my="mynames" lang=""><!-- DEBUG start 21:38:12+01:00 page_id=5034 :: Archiv--><!--
+		Content Management: openNewspaper www.opennewspaper.org based on TYPO3 www.typo3.org
+		Community Platform: Invsision Power Board www.invisionpower.com via ipbwi.com + manufactured PHP
+		Presentation Layer: XML, XSL, HTML, CSS, JS (+ toil, tears and sweat) webmaster@taz.de
+	--><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--
+			page_id :: 5034--><meta http-equiv="Content-Script-Type" content="text/javascript"></meta><meta name="robots" content="index,follow,noarchive,max-image-preview:large "></meta><meta name="language" content="de"></meta><meta name="copyright" content="TAZ Verlags- und Vertriebs GmbH"></meta><title>Fremd vertraut - taz.de</title><meta name="author" content="Hans Hütt"></meta><meta name="description" content="Gegensatz Ein Gespräch"></meta><meta name="keywords" content="Archiv, Archiv, Nachrichten, News, taz, tageszeitung "></meta><meta name="taz:title" data-id="5280145" content="Fremd vertraut"></meta><meta name="generator" content="tazxslt, 0.55; "></meta><meta property="fb:pages" content="171844246207985,162775943776229,136860635948,337939896245563,185657208283671,1141409319297464,255160261177600,1252816681448318,240508363106685,669240916596907"></meta><meta property="og:url" content="https://taz.de/!5280145/"></meta><meta property="og:locale" content="de_DE"></meta><meta property="og:type" content="article"></meta><meta name="twitter:card" content="summary_large_image"></meta><meta name="twitter:site" content="@tazgezwitscher"></meta><meta property="og:title" content="Fremd vertraut"></meta><meta property="fb:app_id" content="817458245779898"></meta><meta property="article:opinion" content="false"></meta><meta property="article:content_tier" content="free"></meta><meta name="twitter:title" content="Fremd vertraut"></meta><meta property="og:description" content="Gegensatz Ein Gespräch"></meta><meta name="twitter:description" content=" Gegensatz Ein Gespräch"></meta><meta property="og:image" content="https://taz.de/private/picture/5280145/948/179176.jpg"></meta><meta name="twitter:image" content="https://taz.de/private/picture/5280145/948/179176.jpg"></meta><meta property="article:published_time" content="2016-02-27T00:00:00+01:00"></meta><meta property="article:modified_time" content="2016-02-25T16:14:48+01:00"></meta>
+<!-- piwik/matomo (0.6) --><script id="piwik-init" type="text/javascript">
+
+// ====================================================== taz piwik library === //
+window.patOtaz_de = window.patOtaz_de || new Object;
+window.patOtaz_de.piwik = window.patOtaz_de.piwik || new (function (debug) {
+    
+    // for a better readability
+    Array.prototype.clone = Array.prototype.slice;
+
+    // ES6 features
+    var hasHistoryApi = function() {
+        if ( history && history.replaceState instanceof Function )  return true;
+        return false;
+    };
+    
+    // === private static members
+    var version = "patOtaz_de.piwik-0.6",
+        debug   =  debug || false;
+    
+    // === logging in debug mode or from outside
+    var log = function(args) {
+        if ( debug && arguments.length ) {
+            var items = [];
+            Array.prototype.push.apply( items, arguments );
+            console.log( "PIWIK-LOG:", items );
+        }
+        return true;
+    };
+    
+    // === clean up strings with a whitelist
+    var removeCharsWithWhitelist = function(validChars, inputString) {
+        var regex = new RegExp( '[^'+ validChars +']', 'g' );
+        return inputString.replace( regex, '' );
+    };
+
+    // === clean up #matomo url fragment and return matomo part
+    var removeHashParam = function(fragment_key) {
+        if ( fragment_key === undefined )  return '';
+        var href          = location.href;
+        var href_base     = href.split('#')[0];
+        var fragment_pos  = href.indexOf('#');
+        var fragment_full = href.substring( fragment_pos +1 );
+        if ( fragment_pos >0  &&  fragment_key.length >0 ) {
+            var fragment_regex = new RegExp( '(.*?)#?'+ fragment_key +':([^#]+)#?(.*)' );
+            var fragment_match = fragment_full.match( fragment_regex );
+            if ( fragment_match ) {  
+                var fragment_this    = fragment_match[2];
+                var fragment_lhs     = fragment_match[1];
+                var fragment_rhs     = fragment_match[3];
+                var fragment_cleaned = ( fragment_lhs ? fragment_lhs : '' )+( fragment_lhs && fragment_rhs ? '#' : '' )+( fragment_rhs ? fragment_rhs : '' );
+                if ( fragment_this.length >0 ) {
+                    var new_href = href_base +( !fragment_lhs && !fragment_rhs ? '' : '#' )+ fragment_cleaned;
+                    if ( hasHistoryApi )  history.replaceState( {}, document.title, new_href );
+                    return fragment_this;
+                }
+            }
+        }
+        return '';
+    };
+    
+    // === track search results list page
+    var trackSiteSearch = function(keyword, category, count) {
+        var tmp = Array.prototype.clone.call( arguments );
+        tmp.unshift("trackSiteSearch");
+        _paq.push( tmp );
+        log( "search result", { keyword:keyword, category:category, count:count } );
+        return true;
+    };
+    
+    // === track funnels
+    var trackFunnel = function(funnel, category) {
+        if ( funnel.length ) {
+            _paq.push([ 'trackEvent', category, 'Funnel', funnel ]);
+            log( "goal event", { funnel:funnel, category:category } );
+        }
+        return true;
+    };
+    
+    // === track events
+    var trackEvent = function(category, action, name, value) {
+        var tmp = Array.prototype.clone.call( arguments );
+        tmp.unshift("trackEvent");
+        _paq.push( tmp );
+        log( "event", { category:category, action:action, name:name, value:value } );
+        return true;
+    }
+
+    // === debugging
+    log( version );
+    
+    // === public interface
+    this.log              =log;
+    this.removeHashParam  =removeHashParam;
+    this.trackSiteSearch  =trackSiteSearch;
+    this.trackFunnel      =trackFunnel;
+    this.trackEvent       =trackEvent;
+    // this.trackPageType    =trackPageType;
+
+})(false); // patOtaz_de.piwik
+
+
+// ====================================================== piwik bucket === //
+window._paq = window._paq || [];
+
+
+// ====================================================== piwik setup === //
+(function(){
+
+    // === private members
+    var p = patOtaz_de.piwik,
+        o = {
+            version               :"0.6" // String
+            , piwik_script        :"https://taz.de/stats/piwik.php" // String
+            , page_id_enc         :"5280145" // String
+            , page_title_enc      :"5280145: Fremd vertraut" // String
+            , custom_url_enc      :"/!5280145" // String
+            , channel             :"web" // String
+            , area                :"Archiv" // String
+            , department          :"ARCHIV" // String
+            , piwik_site_id       : 1  // Number
+            , is_tag              : false  // Boolean
+            , is_article          : true  // Boolean
+            , has_tags            : false  // Boolean
+    };
+    
+    // === url decode strings
+    o.page_id         =decodeURIComponent( o.page_id_enc    );
+    o.page_title      =decodeURIComponent( o.page_title_enc );
+    o.custom_url      =decodeURIComponent( o.custom_url_enc );
+    
+    // === page title
+    !function( node ) {
+        try {
+            var id    = node.getAttribute('data-id').toString()
+                , title = node.getAttribute('content').toString()
+                ;
+            o.title = ( id.length >0 && title.length >0 ) ? id +": "+ title : "ZOMBIE";
+        } catch (err) {
+            o.title = "ZOMBIE";
+            console.log("ERROR-piwik: page title");
+        }
+    } ( document.head.querySelector( 'meta[ name="taz:title" ]' ) );
+
+    // === page url
+    o.url = location.href;
+    
+    // === process and clean #matomo fragment, if present
+    o.url_fragment = decodeURIComponent( p.removeHashParam('matomo') );
+    if ( o.url_fragment.length >0 )  o.custom_url += '#'+ o.url_fragment;
+    
+    // === track tags
+    if ( o.is_article && o.has_tags ) {
+        o.tag_list=[];
+        o.tag_list.toString = function() {
+            var string="";
+            // Get tag title and concat. So that no permutations are stored for the same set of tags, pull tag titles sorted by their id.
+            this.sort( function(a,b){ return ( parseInt(a.id) - parseInt(b.id) ) } ).forEach( function(tag){ string += tag.title +";" });
+            return string;
+        };
+        !function( tag_list ) {
+            var count=0;
+            try {
+				tag_list.forEach( function(tag) {
+					o.tag_list.push({
+						title     :tag.getAttribute('content')
+						,id       :tag.getAttribute('data-tag-id')
+						,category :tag.getAttribute('data-tag-category')? tag.getAttribute('data-tag-category'): "PLAIN-VANILLA"
+					});
+					count++;
+				});
+                if (count===0)  o.tag_list.push({ title:'ZOMBIE', id:0, category:'ZOMBIE' });
+                o.tag_list.string = o.tag_list.toString();
+            } catch(err) {
+                o.tag_list.push({ title:'ZOMBIE', id:0, category:'ZOMBIE' });
+                console.log("ERROR-piwik: tag_list");
+            }
+        }( document.head.querySelectorAll("meta[name='taz:tag']") );
+    }
+    
+    // === setup piwik bucket
+    _paq.push([ "setCustomUrl"       ,o.custom_url ]);
+    _paq.push([ "setDocumentTitle"   ,o.page_title ]);
+    _paq.push([ "setCustomVariable"  ,1 ,"channel"    ,o.channel    ,"page" ]);
+    _paq.push([ "setCustomVariable"  ,2 ,"area"       ,o.area       ,"page" ]);
+    _paq.push([ "setCustomVariable"  ,3 ,"department" ,o.department ,"page" ]);
+    if ( o.is_article && o.has_tags )  _paq.push([ "setCustomVariable", 4, "tag", o.tag_list.toString(), "page" ]);
+    _paq.push([ "trackPageView"      ]);
+    _paq.push([ "enableLinkTracking" ]);
+    
+    // === load and setup piwik tracking
+    (function() {
+        var d=document
+          , g=d.createElement("script")
+          , s=d.getElementById("piwik-init")
+          ;
+        _paq.push([ "setTrackerUrl" ,o.piwik_script  ]);
+        _paq.push([ "setSiteId"     ,o.piwik_site_id ]);
+        g.type   = "text/javascript";
+        g.id     = "piwik-loaded";
+        g.async  = true;
+        g.defer  = true;
+        g.src    = "https://taz.de/lib/share/js/piwik.js";
+        g.onload = function() { p.log( 'setup', o ) }
+        s.parentNode.insertBefore( g, s );
+    })();
+    
+    // === tag tracking
+    if ( o.is_article && o.has_tags ) {
+        o.tag_list.forEach( function(tag) {    p.trackEvent( "TAG", "TAG-ARTICLE-"+ tag.category, "TAG - t"+ tag.id +": "+ tag.title ) });
+    }
+    if ( o.is_tag ) {
+        p.trackEvent( "TAG", "TAG-LANDINGPAGE", "TAG - "+ o.title );
+    }
+    
+    // === debugging
+    //p.log( _paq );
+
+})(); // piwik setup
+
+    </script><!-- end: piwik/matomo (0.6) -->
+<script type="text/javascript">
+
+(function(){
+
+
+	// # fil 2021-09-16 # Intention? sieht aus, als würde es die Redirect-URL matchen, die kann ja aber nicht location.href sein?
+	if ( ((location.href.match(/goMobile/g) || []).length) > 1 ) {
+		console.log( 'prevent loop' );
+		return
+	}
+
+
+	if ( readCookie('ratioURL_channel') == 'web' ){
+ 		return;
+		// web view was selected explicitly
+	}
+
+	// var getWidth = (screen.width > screen.height) ? screen.height : screen.width;	// # fil 2021-09-16 # klarer?
+	var getWidth;
+	if (screen.width > screen.height){
+		   getWidth = screen.height;
+		} else {
+		   getWidth = screen.width;
+	}
+
+
+	if (getWidth < 551) {
+		//mobile
+		var goto = location.pathname;
+		if (  (/;web/).test( location.href ) ){
+			//prevent loop. stay desktop
+			return false;
+
+		}
+
+		// to do: look if this is running	# fil 2021-09-16 # versteh ich nicht.
+		// # fil 2021-09-16 # Intention? sieht aus, als würde es die Redirect-URL matchen, die kann ja aber nicht location.href etc sein?
+		if ( (/goMobile/).test( location.search ) && (/count/).test( location.href ) || ( location.search.indexOf('goMobile') > 1 ) ){	// back here despite cache-killer: give up.
+
+				if ((/;web/).test( location.pathname )) {
+					location.href = goto
+					// # fil 2021-09-16 # setzt location.href=location.pathname - wozu??? Loop-Gefahr!
+
+				};
+				return false;
+			}
+
+		if( (/moby/).test( readCookie('ratioURL_channel') ) ) { // back here despite cookie: reload w/ cache-killer to prevent loop
+		// Google-Bot needs this to see mobile (https://search.google.com/search-console/inspect fil 2018-12-03)
+		location.href = '/count/redirect/go-mobile-nocache'+ goto
+			+( location.search ? location.search +'&' : '?' ) +'goMobile2='+ (new Date()).getTime()
+			+location.hash;
+
+			// # fil 2021-09-16 # wird serverseitig nach goto+location.search umgeleitet, ?goMobile2=… wird dabei entfernt. Sinnvoll?
+			return;
+			}
+
+		// try to set channel cookie …
+		document.cookie = 'ratioURL_channel=moby; domain=taz.de; path=/';
+
+		if( (/moby/).test( readCookie('ratioURL_channel') ) ) {	// … cookie was successfully set: reload …
+			if (location.search.indexOf('nocache') != -1) return;	// old cache killer for transition period
+			location.reload( true );
+			return;
+			}
+		else {						// … setting cookie failed: load explicit channel url …
+			// # fil 2021-09-16 # besser?: Cookie bei redirect serverseitig setzen?
+			if (location.search.indexOf('nocache') != -1) return;	// old cache killer for transition period
+			if( goto =='/' )
+				goto = '/!p4608;moby/';
+			else	goto = goto.replace(/[/]$/,';moby/');
+			location.href = '/count/redirect/go-mobile-nocookie'+ goto
+				+location.search
+				+location.hash;
+			return;
+			}
+
+		} else {
+		//desktop
+		}
+
+		// vanilla js cookie reader
+		function readCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+
+
+	})();
+
+		</script><link rel="preload" href="//data-2d3a3249cd.taz.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle"></link><link rel="preload" href="//data-2d3a3249cd.taz.de/iomm/latest/bootstrap/loader.js" as="script"></link><script type="text/javascript" src="//data-2d3a3249cd.taz.de/iomm/latest/bootstrap/loader.js"></script><link rel="preload" href="/lib/share/fonts/DroidSerif-Regular-webfont.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/fontawesome-reduced.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/AktivGroteskBold/AktivGrotesk_W_Bd_only_taz.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_5_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_6_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_7_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_8_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_4_italic.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz_4_.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Taz-Bold_tazze_private_only.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/share/fonts/Quodana.woff2" type="font/woff2" crossorigin="anonymous" as="font"></link><link rel="preload" href="/lib/ch/moby/pix/tazze46.png" as="image" media="(min-width: 81px)"></link><link rel="preload" href="/lib/ch/web/pix/tazze46.png" as="image" media="(min-width: 81px)"></link><link rel="preload" href="/lib/ch/web/pix/tzi_logo_120px.png" as="image" media="(min-width: 120px)"></link><link rel="preload" href="/lib/ch/web/pix/tazze_30_d50d2e.png" as="image" media="(min-width: 20px)"></link><link rel="alternate" type="application/rss+xml" title="taz.de - Archiv" href="/!p5034/rss.xml"></link><link rel="alternate" type="application/rss+xml" title="taz.de - Schlagzeilen" href="/rss.xml"></link><link rel="home" type="text/html" title="taz.de - Schlagzeilen" href="/"></link><link rel="copyright" type="text/html" title="Impressum" href="/6/impressum/"></link><link rel="stylesheet" type="text/css" media="screen, print" href="/lib/ch/web/css/arch2020-12-08_99.css"></link><link href="/lib/ch/web/css/local/print.css" type="text/css" rel="stylesheet" media="print"></link><!--[if lte IE 8]><style type="text/css">
+			p.article,
+			.sect_article >.sectbody >h6,
+			p.caption,
+			.price-tag >.info,
+			.ad_badge,
+			li.tag >a,
+			.secthead > ul.toolbar,
+			.sect_meta,
+			.sect_service >.sectbody,
+			.head >.search >.frame >input,
+			.person >h5 {
+  			font-family: Verdana, DejaVu Sans, Bitstream Vera Sans, Helvetica, sans-serif;
+  		}
+		</style><![endif]--><script type="text/javascript" src="/lib/ch/moby/js/local/cmp_6_09-14-2022.js"></script><script>
+
+			if(! HTMLCollection.prototype.last ) HTMLCollection.prototype.last = function(){ return this[ this.length -1 ]; };
+			if(! document.getLatestElement ) document.getLatestElement = function(){
+				var scripts = document.getElementsByTagName("script"); var thisScript = scripts[scripts.length - 1];
+				return ( this.currentScript || thisScript ).previousSibling;
+				};
+    
+		</script><script type="text/javascript" src="/lib/ch/web/js/2020-12-08_99.js"></script><!-- piwik/matomo (custom-0.2) --><script class="piwik-custom" type="text/javascript">
+
+// ====================================================== piwik customizing === //
+(function(){
+
+    // === private members
+    var p = patOtaz_de.piwik,
+        o = {
+            version           :"custom-0.2" // String
+            , page_id_enc     :"5280145" // String
+            , form_funnel     :"" // String
+            , search_term     :"" // String
+            , rootline        :"/Archiv/Archiv" // String
+            , is_article      : true  // Boolean
+            , is_corp         : true  // Boolean
+            , is_searchresult : false  // Boolean
+            , is_form         : false  // Boolean
+            , search_count    : NaN  // Number
+    };
+    
+    // === url decode strings
+    o.page_id = decodeURIComponent( o.page_id_enc );
+    
+    // === track search results
+    if ( o.is_searchresult )  p.trackSiteSearch( o.search_term, false, o.search_count );
+
+    // === track events
+    if ( window.jQuery ) {
+        $(document).ready(function(){
+
+            if ( $("#pages.news >.article").length ) { p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF') };
+            if ( $("#pages.news >.article.longread").length ) { p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF-LONGREAD') };
+
+            if ( $("#pages .body article form").length ) { 
+                p.trackEvent( 'Verlag', 'displayed', normalizePath(location.pathname.split(';')[0]) ) ;
+
+                };
+
+
+            // lookup for whole href because of other url scheme when reload with hints after form submit
+            if ( (/172913/).test( location.href ) ) { 
+
+                var formPath = 172913;
+                var withHints =  $('.form .sectbody .error').length ? 'withHints ' : 'new ';
+  
+                console.log(formPath + ': ' + withHints );
+                p.trackEvent( 'Verlag', 'displayed', formPath + ': ' + withHints ) ;
+
+                let checkList = {};
+                checkList.keyup = ['#from', '#abo_name','#abo_vorname','#abo_land','#abo_name1','#abo_plz','#abo_ort','#abo_strasse','#abo_tel',
+                                   '#rg_vorname','#rg_name','#rg_strasse','#rg_land','#rg_plz','#rg_ort','#rg_tel',
+                                   '#iban','#bic', '#ktoinh', 'textarea[name="bem"]' ];
+                checkList.focus = ['#from', '#abo_name','#abo_vorname','#abo_land','#abo_name1','#abo_plz','#abo_ort','#abo_strasse','#abo_tel',
+                                   '#rg_vorname','#rg_name','#rg_strasse','#rg_land','#rg_plz','#rg_ort','#rg_tel',
+                                   '#iban','#bic', '#ktoinh', 'textarea[name="bem"]' ];
+
+                checkList.mousedown = [ '#nutzungsbedingungen', '#datenschutz', 'select[name="zahlungsart"]', 'input[type="submit"]' ];
+
+                checkList.keyup.forEach(function(item){
+                    $( item ).one('keyup ', function(){  
+                        console.log( formPath + ': ' + item + ' keyup ' + withHints  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup ' + withHints    ) ;
+
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( item ).one('focus ', function(){  
+                        console.log( formPath + ': ' + item + ' focus ' + withHints  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus ' + withHints    ) ;  
+  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( item ).one('mousedown ', function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' + withHints  );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown ' + withHints    ) ;
+
+                    } );
+                });
+
+                };
+
+            if ( (/115932/).test( location.href ) ) { 
+
+                var formPath = 115932;
+                console.log(formPath  );
+                p.trackEvent( 'Verlag', 'displayed', formPath  ) ;
+
+                let checkList = {};
+                checkList.keyup = ["input.euro", "input.email", "input.IBAN", "input.fullName" ];
+                checkList.focus = ["input.euro", "input.email", "input.IBAN", "input.fullName" ];
+                checkList.mousedown = [ "select[name='tzi-praemie[enrol][interval]']", "select[name='tzi-praemie[enrol][start]']",
+                                        "fieldset#tzi-praemie_step:nth(0) button.default.submit", "fieldset#tzi-praemie_step:nth(1) button.default.submit", "fieldset#tzi-praemie_step:nth(2) button.default.submit", 
+                                        "fieldset#tzi-praemie_step:nth(0) button.alt.submit", "fieldset#tzi-praemie_step:nth(1) button.alt.submit", "fieldset#tzi-praemie_step:nth(2) button.alt.submit" ];
+       
+                checkList.keyup.forEach(function(item){
+                    $( document ).one('keyup ', item, function(){  
+                        console.log( formPath + ': ' + item + ' keyup '  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup '   ) ;
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( document ).one('focus ', item, function(){  
+                        console.log( formPath + ': ' + item + ' focus '  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus '    ) ;  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( document ).one('mousedown ', item, function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown '    ) ;
+                    } );
+                });
+            };
+
+            if ( (/170378/).test( location.href ) ) { 
+
+                var formPath = 170378;
+                console.log(formPath  );
+                p.trackEvent( 'Verlag', 'displayed', formPath  ) ;
+
+                let checkList = {};
+                checkList.keyup = ["input.euro", "input.email", "input[name='tzi-aufstocker[Eingabe_Aufstocken][TziNr]']" ];
+                checkList.focus = ["input.euro", "input.email", "input[name='tzi-aufstocker[Eingabe_Aufstocken][TziNr]']" ];
+                checkList.mousedown = [ "select[name='tzi-aufstocker[Eingabe_Aufstocken][Intervall]']", "select[name='tzi-aufstocker[Eingabe_Aufstocken][Start]']", "input.submit" ];
+       
+                checkList.keyup.forEach(function(item){
+                    $( document ).one('keyup ', item, function(){  
+                        console.log( formPath + ': ' + item + ' keyup '  );
+                        p.trackEvent( 'Verlag', 'keyup', formPath + ': ' + item + ' keyup '   ) ;
+                    } );
+                });
+                checkList.focus.forEach(function(item){
+                    $( document ).one('focus ', item, function(){  
+                        console.log( formPath + ': ' + item + ' focus '  );
+                        p.trackEvent( 'Verlag', 'focus', formPath + ': ' + item + ' focus '    ) ;  
+                    } );
+                });
+                // use this for checkboxes, select options and submit-Button
+                checkList.mousedown.forEach(function(item){
+                    $( document ).one('mousedown ', item, function(){  
+                        console.log( formPath + ': ' + item + ' mousedown ' );
+                        p.trackEvent( 'Verlag', 'mousedown', formPath + ': ' + item + ' mousedown '    ) ;
+                    } );
+                });
+            };
+
+            if ( $("body.homepage .sect_number-teaser2").length ) {  p.trackEvent( 'TZI', 'displayed', 'COUNTER-HOMEPAGE') };
+            if ( $("body.isdir:not(.homepage) #pages.news .sect_number-teaser2").length ) { p.trackEvent( 'TZI', 'displayed', 'COUNTER-RESSORTSEITE') };
+            if ( $("#pages.corp .sect_number-teaser2").length ) {  p.trackEvent( 'TZI', 'displayed', 'COUNTER-VERLAGSSEITE') };
+
+            $(document).on("click", "body.homepage .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-HOMEPAGE'  ) });
+            $(document).on("click", "body.isdir:not(.homepage) #pages.news .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-RESSORTSEITE'  ) });
+            $(document).on("click", "#pages.corp .sect_number-teaser2",function(event){ p.trackEvent( 'TZI', 'clicked', 'COUNTER-VERLAGSSEITE'  ) });
+
+            if ( $("#pages.news >.article").length && $("#tzi-paywahl-fg").length ) { 
+            p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF_mit_Layer') };
+            if ( $("#pages.news >.article").length && !$("#tzi-paywahl-fg").length ) { 
+            p.trackEvent( 'TZI', 'displayed', 'ARTIKELAUFRUF_ohne_Layer') };
+
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__yes"        ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-JA'            ) });
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__close"      ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-GERADE-NICHT'  ) });
+            $(document).on("click", "#tzi-paywahl-fg .tzi-paywahl__subscriber" ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LAYER-SCHON-DABEI'   ) });
+            $(document).on("click", "#tzi-shackle    .tzi-shackle__yes"        ,function(event){ p.trackEvent( 'TZI', 'clicked', 'LASCHE-JA'           ) });
+
+            $(document).on("click", ".sect_end a"                         ,function(event){ p.trackEvent( 'Element', 'clicked', 'ABBINDER'             ) });
+            $(document).on("click", "#mainFlyout a"                       ,function(event){ p.trackEvent( 'Element', 'clicked', 'FLYOUT'               ) });
+            $(document).on("click", "ul.navbar >li >a"                    ,function(event){ p.trackEvent( 'Element', 'clicked', 'NAVBAR'               ) });
+
+                 
+            $(document).on("click", "ul.navbar.news.newsnavigation a "    ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_MenuImHeader', $(this).find("span").text() ) });
+            $(document).on("click", "#mainFlyout .navigation.news a"      ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_Flyout', $(this).find("span").text() )       });
+            $(document).on("click", "ul.navbar.corp.newsnavigation a "    ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_MenuImHeader', $(".head >h1 a").text() + ' > ' + $(this).find("span").text() ) });
+            $(document).on("click", "#globalnavigation a"                 ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Schwarze_Navi', $(this).find("span").text() )});
+            $(document).on("click", "#mainFlyout .navigation.corp a"      ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Flyout_tazze', $(this).find("span").text() ) });
+            $(document).on("click", "#footer .sitemap > .news a"          ,function(event){ p.trackEvent( 'Navi', 'R_Desktop_Footer', $(this).find("span").text() ) });
+            $(document).on("click", "#footer .sitemap > .corp a"          ,function(event){ p.trackEvent( 'Navi', 'V_Desktop_Footer', $(this).find("span").text() ) });
+         
+            $(document).on("click", "ul.navbar >li.more ul.flyout >li >a" ,function(event){ p.trackEvent( 'Element', 'clicked', 'NAVBARMORE'           ) });
+            $(document).on("click", ".insert.dep4534"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB1'            ) });
+            $(document).on("click", ".insert.dep4536"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'TRENNER'              ) });
+            $(document).on("click", ".insert.dep4777"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB2'            ) });
+            $(document).on("click", ".insert.dep4219"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUB3'            ) });
+            $(document).on("click", ".insert.dep5178"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB1'         ) });
+            $(document).on("click", ".insert.dep5179"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB2'         ) });
+            $(document).on("click", ".insert.dep5180"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB3'         ) });
+            $(document).on("click", ".insert.dep5181"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'MOBEINSCHUB4'         ) });
+            $(document).on("click", ".insert.dep4755"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBNORD'         ) });
+            $(document).on("click", ".insert.dep4828"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBOEKE'         ) });
+            $(document).on("click", ".insert.dep4832"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBPOLITIK'      ) });
+            $(document).on("click", ".insert.dep5013"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBSPORT'        ) });
+            $(document).on("click", ".insert.dep5020"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBGESELLSCHAFT' ) });
+            $(document).on("click", ".insert.dep4956"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBKULTUR'       ) });
+            $(document).on("click", ".insert.dep4939"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBPAYWAHL'      ) });
+            $(document).on("click", ".insert.dep4704"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'EINSCHUBBERLIN'       ) });
+            $(document).on("click", ".sect_seealso a"                     ,function(event){ p.trackEvent( 'Element', 'clicked', 'COMBOLINKBOX'         ) });
+
+
+// home page all news teaser
+
+// mar: tracking aller Startseiten-Teaser am 04.12. deaktiviert
+
+/* 
+
+            $(document).on("click", ".sect_tdt >ul >li > a" ,function(event){ 
+                p.trackEvent( 'Element', 'clicked', 'THEMEN DES TAGES ' + parseInt( $(this).parent().index() + 1 )  ); 
+            });
+
+            $(document).on("click", "#pages.news.home >.news.page a.nolead.objlink" ,function(event){ 
+                var teaserNr = parseInt(   $(this).parents( 'li.brief' ).index(  'li.brief'  ) + 1  );
+                p.trackEvent( 'Element', 'clicked', 'Home > Ressort: Newskamin Miniteaser Nr: ' + teaserNr  ); 
+            });
+	    */
+	    // mar teilreaktivierung Startseitenteaser - nur Newskamin
+            $(document).on("click", "#pages.news.home >.news.page.first_page a.article.objlink" ,function(event){ 
+                // newskamin or not
+                var ressortName = $(this).parents('.news.page').find(' .nose > h2 > a > span ').text() == '' ? 'Newskamin' : $(this).parents('.news.page').find(' .nose > h2 > a > span ').text();
+                var teaserNr = ressortName == 'Newskamin' ?  parseInt(   $(this).parents( 'li.article:not(.brief)' ).index(  'li.article:not(.brief)'  ) + 1 ) : parseInt(   $(this).parents( 'li.article' ).index() + 1 );
+                var schwerpName = $(this).parents('.sect_spb').find('.secthead > h2 > a > span ').text();
+                p.trackEvent( 'Element', 'clicked', 'Home > Ressort: ' +  ressortName + ' ' + schwerpName +  ', Nr: ' + teaserNr  ); 
+            });
+
+
+            $(document).on("click", ".article .tail .sect_related a"  ,function(event){ p.trackEvent( 'Element', 'clicked', 'WEITERE-ARTIKEL' );  });
+            $(document).on("click", ".news.article.page .tail .sect_adr a"  ,function(event){p.trackEvent( 'Element', 'clicked', 'Verlagsplatz im Artikel' ) });
+            $(document).on("click", ".news.article.page ~ div[class*='thema_clip'] a"  ,function(event){ p.trackEvent( 'Element', 'clicked', 'Schwerpunkt-Clip Artikelebene ' )  });
+            $(document).on("click", ".news.page .abtest.testshow a"  ,function(event){ p.trackEvent( 'Element', 'clicked', $( this ).closest(".abtest.testshow" ).attr("class").replace("testshow","").replace("rack","").replace("first_rack","") ) });
+
+            $(document).on("click", ".sect_service a", function(event){
+                p.trackEvent( 'Element', 'clicked', 'SERVICEBOX: ' + $(this).attr('href') ) });
+            $(document).on("click", ".shariff-button", function(event){
+                p.trackEvent( 'Element', 'clicked', 'SOCIAL-MEDIA-BUTTON: ' + $(this).attr('class').split(" ")[1]  ) 
+                });  
+
+            // mar: scroll detection: Add elem to "detectElement" and text to "trackingActionText" arrays
+            var detectElement = [ $('.shariff'), $('.article:not(.longread) .sect_related:visible'), $('.news.article.page:not(.longread) .tail .sect_adr:visible'), $('.news.article.page:not(.longread) ~ div[class*="thema_clip"]'), $( 'link + form[action*="172913"] input[type="submit"]' ), $( 'link + form[action*="172913"] input' ).first(), $( 'link + form[action*="172913"] input#iban' ).first(), $(' .body #tzi-praemie '), $(' .body #tzi-aufstocker ')   ];
+            var scrollToDetected = []; // detect each only once
+            var trackingActionText = [ 'zu Social Media Buttons gescrollt', 'zu weitere Artikel gescrollt', 'zum Verlagsplatz (Artikel) gescrollt', 'zum Schwerpunkt-Clip gescrollt', '172913: Zum Submit-Button gescrollt', '172913: Zum ersten Input-Feld gescrollt', '172913: Zu IBAN gescrollt', '115932: tzi Unterstützer werden Main', '170378: Aufstocker Form Main' ];
+
+            $(window).on('scroll', function() {
+               for (var i = 0; i < detectElement.length; i++) {
+                var scrElem = detectElement[i];
+                if ( scrollToDetected[i] === undefined && scrElem.length && (elemReached(scrElem)) ) {
+                    _paq.push([ 'trackEvent', 'Element', 'scrolled', trackingActionText[i] ]);       
+                    console.log( 'Element', 'scrolled', trackingActionText[i] );       
+                    scrollToDetected[i] = true;
+                }
+              }
+
+            $( ".abtest.testshow" ).each(function( i ) {
+                var scrElem = $( this );
+
+                if ( scrollToDetected[i + 1000] === undefined && scrElem.length && (elemReached(scrElem)) ) {
+                    _paq.push([ 'trackEvent', 'Element', 'scrolled', $( this ).attr('class').replace('testshow','').replace('rack','').replace('first_rack','') ]);       
+                    scrollToDetected[i + 1000] = true;
+                }
+
+                });
+            });
+    
+            function elemReached(scrElem) {
+                    var docViewTop = $(window).scrollTop(); var docViewBottom = docViewTop + $(window).height();
+                    var elemTop = $(scrElem).offset().top + 40; return ((elemTop <= docViewBottom) && (elemTop >= docViewTop))
+                }
+
+
+            function normalizePath( str ){
+              return isNaN(str.slice(-1)) ? str : str + '/' ;
+            }
+
+        }); // $(document).ready()
+    } // track events
+
+    // === debugging
+    p.log( 'custom', o );
+    //console.log( "output _paq: ", _paq );
+
+})(); // piwik customizing
+
+    </script><!--IVW--><link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"></link><link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"></link><link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"></link><link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"></link><link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"></link><link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"></link><link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"></link><link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"></link><link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"></link><link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"></link><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"></link><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"></link><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link><link rel="manifest" href="/manifest.json"></link><meta name="msapplication-TileColor" content="#ffffff"></meta><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"></meta><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d50d2e"></link><meta name="theme-color" content="#ffffff"></meta></head><body class=""><noscript><img src="https://taz.de/stats/piwik.php?idsite=1&amp;rec=1&amp;action_name=NOSCRIPT" style="border:0" alt=""></img></noscript><ul style="display: none" itemscope="" itemtype="http://schema.org/Webpage"><li itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization " style=" display:none; "><span itemprop="url" content="https://taz.de"></span><span itemprop="name" content="TAZ Verlags- und Vertriebs GmbH"></span><span itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url" alt="taz logo" src="https://taz.de/lib/ch/web/pix/taz_logo_web.jpg"></img></span><span content="https://www.facebook.com/taz.kommune/" itemprop="sameAs"></span><span content="https://twitter.com/tazgezwitscher" itemprop="sameAs"></span><span content="https://www.instagram.com/taz.die_tageszeitung" itemprop="sameAs"></span><span content="https://flipboard.com/@taz_de" itemprop="sameAs"></span><span content="https://www.reddit.com/user/dietageszeitung" itemprop="sameAs"></span><span content="https://pod.geraspora.de/u/taz" itemprop="sameAs"></span></li></ul><script type="text/javascript">(function(){
+	var body = $(document.body);
+	body.addClass('js');
+	if( screen.width >=640 )	body.addClass('vga');	else body.addClass('novga');
+	if( screen.width >=800 )	body.addClass('svga');	else body.addClass('nosvga');
+	if( screen.width >=1024 )	body.addClass('xga');	else body.addClass('noxga');
+	if( screen.width >=1280 )	body.addClass('sxga');	else body.addClass('nosxga');
+	})();
+
+
+			</script><div class="topo_wit" id="counter"><!-- ================ begin: ivw (szm 2.0) ================ --><script xmlns="" type="text/javascript">
+        IOMm('configure', { 
+            st: "taz", 
+	    dn: 'data-2d3a3249cd.taz.de',
+	    mh: 5
+            });
+        </script><script xmlns="" type="text/javascript">
+        IOMm('pageview', { cp: "Archiv,Artikel" });
+        </script><script xmlns="" type="text/javascript">
+  	   IOMm('3p', 'qds', 'in');
+	</script><!-- ================ end: ivw (szm 2.0) ================ --></div><div id="adOverlay" class="topo_lay"></div><div id="fake" class="topo_wit"></div><div id="background" class="topo_bin"><div id="skirt"></div><div id="centered"><script type="text/javascript">	// to be called inline early in #centered
+//console.log( $('#background') );
+//console.log( $('#centered') );
+//console.log( $('#pages') );
+		var checkHash = function() {
+			var hashURL = window.location.hash.slice(1);
+			if( hashURL.indexOf('!tom=')         ==0 ) new filOtaz_de.TomOL( hashURL.substr(5) );
+			if( hashURL.indexOf('!g')            ==0 ) new filOtaz_de.Gallery('/'+ hashURL );
+			if( hashURL.indexOf('!vimeo=')       ==0 ) new filOtaz_de.VimeoVideo('/'+ hashURL );
+			if( hashURL.indexOf('!track=')        ==0 ) {
+				var tracking_key = hashURL.substr(7);
+				console.log( "DEBUG TRACKURL tracking_key="+ tracking_key );
+				window.location.hash = '';
+				
+				if ( tracking_key =="TZISOCIALMEDIA" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZISOCIALMEDIA' ]);
+					console.log("DEBUG-piwik TZISOCIALMEDIA");
+				}
+				if ( tracking_key =="TZIANZEIGE1" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIANZEIGE1' ]);
+					console.log("DEBUG-piwik TZIANZEIGE1");
+				}
+				if ( tracking_key =="TZIANZEIGE2" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIANZEIGE2' ]);
+					console.log("DEBUG-piwik TZIANZEIGE2");
+				}
+				if ( tracking_key =="TZIEPAPER" ) {
+					_paq.push([ 'trackEvent', 'Verlag', 'Funnel', 'TZIEPAPER' ]);
+					console.log("DEBUG-piwik TZIEPAPER");
+				}
+			}
+			//if( hashURL.search(/^![0-9]/) ==0 )	new filOtaz_de.Wtf('/'+ hashURL );
+			};
+		checkHash();
+		$(window).hashchange( checkHash );
+	</script><div id="pages" class="corp"><ul role="navigation" id="globalnavigation" class="navbar"><li class="first odd trodd"><a href="/wochentaz/!p5386/" id="menu_p5386"><span>wochentaz</span></a></li><li class="even trodd"><a href="/Abo/!p4209/" id="menu_p4209"><span>Abo</span></a></li><li class="odd treven"><a href="/Genossenschaft/!p4271/" id="menu_p4271"><span>Genossenschaft</span></a></li><li class="even trodd"><a href="https://taz.de/!p4697/#matomo:pk_campaign" id="menu_p5149"><span>taz zahl ich</span></a></li><li class="odd trodd"><a href="/!p4233/" id="menu_p5311"><span>Veranstaltungen</span></a></li><li class="even treven"><a href="/Info/!p4206/" id="menu_p4206"><span>Info</span></a></li><li class="odd trodd"><a href="https://shop.taz.de/#pk_campaign" target="_blank" id="menu_p4378"><span>Shop</span></a></li><li class="even trodd"><a href="/Anzeigen/!p4288/" id="menu_p4288"><span>Anzeigen</span></a></li><li class="odd treven"><a href="https://taz.de/!p5099/" id="menu_p5284"><span>taz FUTURZWEI</span></a></li><li class="even trodd"><a href="https://taz.de/!p4905/" id="menu_p5357"><span>taz lab 2023</span></a></li><li class="odd trodd"><a href="/!p5298/" id="menu_p5319"><span>taz Talk</span></a></li><li class="even treven"><a href="/Queer-Talks/!p5378/" id="menu_p5378"><span>Queer Talks</span></a></li><li class="odd trodd"><a href="https://taz.de/!p5122/" id="menu_p5344"><span>taz wird neu</span></a></li><li class="even trodd"><a href="/!p5297/" id="menu_p4955"><span>taz in der Kritik</span></a></li><li class="odd treven"><a href="//blogs.taz.de/" id="menu_p4366"><span>Blogs &amp; Hausblog</span></a></li><li class="even trodd"><a href="//monde-diplomatique.de/" id="menu_p4387"><span>LE MONDE diplomatique</span></a></li><li class="odd trodd"><a href="/neu/!p5122/" id="menu_p5122"><span>neu</span></a></li><li class="even treven"><a href="/Thema/!p4786/" id="menu_p4786"><span>Thema</span></a></li><li class="odd trodd"><a href="/Panter-Stiftung/!p4258/" id="menu_p4258"><span>Panter Stiftung</span></a></li><li class="even trodd"><a href="/Panter-Preis/!p4207/" id="menu_p4207"><span>Panter Preis</span></a></li><li class="odd treven"><a href="/Recherchefonds-Ausland/!p5062/" id="menu_p5062"><span>Recherchefonds Ausland</span></a></li><li class="even trodd"><a href="/Reisen-in-die-Zivilgesellschaft/!p4310/" id="menu_p4310"><span>Reisen in die Zivilgesellschaft</span></a></li><li class="odd trodd"><a href="/!p5044/" id="menu_p5123"><span>Christian Specht</span></a></li><li class="even treven"><a href="https://shop.taz.de/ekiosk.php" target="_blank" id="menu_p4357"><span>e-Kiosk</span></a></li><li class="odd trodd"><a href="/Salon/!p5021/" id="menu_p5021"><span>Salon</span></a></li><li class="even trodd"><a href="/Kantine/!p4237/" id="menu_p4237"><span>Kantine</span></a></li><li class="odd treven selected"><a id="menu_p4311"><span>Archiv</span></a></li><li class="last even trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li></ul><div class="full corp legacy article style_print archive page first last odd first_page n1"><div class="head" role="head"><h1 class="title"><ul class="newsnavigation"><li><a itemprop="url" id="4311" href="/!p4311/">Archiv</a></li></ul></h1><ul role="navigation" class="corp navbar newsnavigation"><li class="first odd trodd home selected"><a href="/!p4608/" id="menu_p4608"><span>taz</span><div class="tazze logo"></div></a></li></ul><script>
+		var liSelected = $(document.getLatestElement()).find('li.selected');
+		if ( liSelected.length > 1 ){ liSelected.first().removeClass('selected')};
+	</script><form class="search" role="search" action="/!s=/" method="POST"><div class="frame"><input type="text" minlength="2" required="required" placeholder="suchen ..." class="text preset" name="s"></input><input type="image" class="send" title="suche senden" alt="suche senden" name="ignore" src="/lib/ch/web/pix/redArrowsRight_d50d2e.png"></input></div></form></div><span class="body" role="main"><div xmlns="" class="metadata" itemscope="">
+<a id="articleURL" href="/!5280145"></a><a id="speakingURL" href="/Archiv-Suche/!5280145&amp;s=&amp;SuchRahmen=Print"></a><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="cms-obj-ID" content="1016814"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="cms-article-ID" content="5280145"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="url-ID" content="5280145"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="archiv-id-ID" content="784944"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="archiv-obj-ID" content="784944"></meta><meta xmlns="http://www.w3.org/1999/xhtml" itemprop="taz-archive-ID" content="/736418/a0041"></meta><span id="articleID"></span><span id="cmsArticleID">5280145</span>
+</div>
+<div role="region" id="" class="last odd sect sect_article corp archive  style_print style-dtp-A4"><article class="sectbody" itemprop="articleBody"><h1 xmlns="" itemprop="headline"><span class="Titel">Fremd vertraut<br></span></h1>
+<p xmlns="" itemprop="description" class="intro  Unterzeile"><strong class="Spitzmarke">Gegensatz</strong> Ein Gespräch<br></p>
+<a xmlns="" class="half picture" href="/private/picture/5280145/948/179176.jpg" target="fullImage" onclick="
+		var href = this.href;
+		vHWin=window.open( href , 'fullImage' , 'width=948,height=474' );
+		vHWin.focus();
+		return false;
+	" itemprop="image"><img src="/private/picture/5280145/246/179176.jpg" alt="" title="" width="246" height="247" style="height:247px;"></a><p xmlns="" class="caption lastInCol"> <span class="credit"> Foto: privat</span></p>
+<p xmlns="" class="article first odd Initial">Das Fremde ist vertraut, das Vertraute fremd. Die Vorstellung, das Begriffspaar deute einen Gegensatz an, ist weltfremd. Jeder Traum eine Reise ins Fremde. Alles Vertraute wird bei näherer Betrachtung fremd. Nur ein Zehntel des menschlichen Körpers ist tatsächlich menschlich. Der Rest illustriert gesundes Zusammenleben mit Fremden im eigenen Leib.</p>
+<p xmlns="" class="article even Brot lastInCol">Es fängt schon damit an, dass das Fremde angeblich von da draußen kommt: extraneus, étranger, stranger. Politisch ist der peregrinus ein Nichtbürger, von den Aliens zu schweigen, die von ganz weit da draußen gelegentlich vorbeischauen.</p>
+<div xmlns="" class="article rack no2"><div xmlns="http://www.w3.org/1999/xhtml" role="region" id="" class="first last odd sect sect_quote style_print "><div class="sectbody quote obj"><p>„Die Anthropologie des Alltags zeigt, dass die Fremden gar nicht so fremd sind“</p></div></div></div>
+<p xmlns="" class="article odd Brot">Altertümliche Schreibweisen fügten ein ploppendes blobbendes b ins Frembde, was dazu beitragen kann, labiale Distanz zu markieren. Schon früh verlockt und vergrämt so das Frembde. Die Anthropologie des Alltags zeigt, dass die Fremden gar nicht so fremd sind. Anders ist das mit frembden Göttern und frembdem Joch. Nicht zu vergessen die Lust, auch die Angstlust, die mit dem Fleisch ins Spiel kommt. Weil uns im Grunde alles fremd ist (oder nichts?), lassen wir uns von Biologie und Psychoanalyse, von Theologie, Politik und Literatur inspirieren. Wohin das führt? Wer weiß! <span class="Autor">Hans Hütt</span></p>
+<p xmlns="" class="article last even Hinweis"><strong>Fremd vertraut?</strong> Ein taz.lab-Gespräch mit Hans Hütt (Foto) und Cord Riechelmann im HKW.</p></article></div></span><span class="wing" role="contentinfo"><div class="rack first_rack" id="xid728598">
+    
+	<div role="region" id="" class="odd sect sect_meta style_print "><div class="sectbody"><ul role="navigation" class="left print toolbar"><li class="print issue">taz.am Wochenende</li></ul><ul role="navigation" class="right print toolbar"><li class="print date">vom <a href="">27. 2. 2016</a></li></ul></div></div><div role="region" id="" class="first odd sect sect_meta print-page "><div class="sectbody"><ul role="navigation" class="left print toolbar"><li class="print page">taz.lab</li></ul><ul role="navigation" class="right print toolbar"><li class="print page">S. 23 ePaper,Alle,Berlin 25 Nord</li><li class="ondemand"><a class="tazPDF" data-permission="abo" target="_blank" title="PDF nur mit Login verfügbar">PDF</a></li></ul></div></div>
+
+    
+	<div role="region" id="" class="even sect sect_profile "><div class="sectbody" itemscope="itemscope" itemtype="http://schema.org/Person" itemprop="author"><a rel="author" class="
+        
+	
+        
+
+		
+			
+	
+			author 
+		community 
+		
+        
+                
+		        
+		
+	        
+                
+
+		
+
+        person objlink" itemprop="url" href="https://taz.de/Hans-Huett/!a40501/"><h4 itemprop="name">Hans Hütt</h4><h5 itemprop="jobTitle">
+		AutorIn
+	</h5></a></div></div>
+
+    
+	<div role="region" id="" class="odd sect sect_tags "><div class="secthead" role="heading"><h2><a name="Themen"><span>Themen</span></a></h2></div><ul role="directory" class="corp directory sectbody"><li class="first odd trodd thesaurus"><a role="link" href="/Archiv/!s=&amp;Thesaurus=BW0201/" class="thesaurus dirlink" title="Philosophie / Geisteswissenschaften = BW0201"><span>Philosophie / Geisteswissenschaften</span> <span>BW0201</span></a></li><li class="last even trodd thesaurus"><a role="link" href="/Archiv/!s=&amp;Thesaurus=KO0103/" class="thesaurus dirlink" title="die tageszeitung (taz) = KO0103"><span>die tageszeitung (taz)</span> <span>KO0103</span></a> <a role="link" href="/Archiv/!s=&amp;Thesaurus=KO0103+ZZB/" class="thesaurus location dirlink" title="die tageszeitung (taz) - in Berlin = KO0103+ZZB"><span>ZZB</span></a></li></ul></div>
+
+    
+	
+
+	<div role="region" id="xid728598" class="first odd sect sect_meta print-length "><div class="sectbody"><ul role="navigation" class="left toolbar"><li>1255 Zeichen ~ ca. 42 Zeilen</li></ul><ul role="navigation" class="right toolbar"><li class=""><a class="tazPDF" data-permission="abo" target="_blank" title="PDF nur mit Login verfügbar">PDF</a></li></ul></div></div><div role="region" id="xid728598" class="first odd sect sect_meta print-issue "><div class="sectbody"><ul role="navigation" class="print toolbar"><li>Ausgabe 10955</li></ul></div></div></div><script> $(document.getLatestElement()).filter('.rack').trigger('TAZdomChange'); //
+			</script><a id="arc-search" class="sectbody">Suchformular lädt …</a><a id="arc-worklist"></a><a id="arc-login"></a><script type="text/javascript"> (function(){
+
+filOtaz_de ||( filOtaz_de ={} ); if( filOtaz_de.ajaxify ) return;	// don't interfere!
+//filOtaz_de.ajaxify ={};
+
+
+// === public interface
+
+// turn a part of dom to asynchronously (re)loadable
+filOtaz_de.ajaxify = function( element, opt ) {
+	// set (custom) handler to …
+	// … fetch and replace w/ (identified) fragment(s)
+
+	var asyncLoadable = new AsyncLoadable( element, opt );
+	if( asyncLoadable instanceof AsyncLoadable )  return true;
+
+	// optionally trigger
+	};
+
+// turn a form to asynchronous
+/* no different
+filOtaz_de.ajaxify.form = function( form, opt ) {
+
+	var asynchForm = new AsyncLoadable( form, opt );
+	if( asynchForm instanceof AsyncLoadable )  return true;
+
+	}; //filOtaz_de.ajaxify.form
+*/
+
+//todo directly get content to mount
+filOtaz_de.ajaxify.get = function( url, opt ) {
+	// … fetch and replace respective element(s) w/ (identified) fragment(s)
+	};
+
+
+// === private "class" data, initialized
+
+var env = {
+	haveSSL		: location.protocol =='https:',
+	haveCORS	: 'withCredentials' in new XMLHttpRequest(),
+	haveXDR		: typeof XDomainRequest !== "undefined"
+	};
+
+// register AsyncLoadable instances
+var allAsyncLoadables =[];
+
+// have only one form sent at any given time. Set before send, unset when done.
+var sentForm = false;
+
+
+var fallback = function( opt ) {
+	if(!( opt instanceof Object )) return null;
+	var args = ( opt.fallback instanceof Array )? opt.fallback.slice() :[];
+	args.push( {} ); args.reverse();
+	args.push( opt );
+	return $.extend.apply( $, args );
+	}
+
+// === private AsyncLoadable constructor - turns a subtree to asynchronous
+
+var AsyncLoadable = function( treatee, opt ) {
+
+	// validate / normalize options object
+	var opt = ensureObjType( opt   , Object ); if(! opt    ) return undefined;
+	opt.on  = ensureObjType( opt.on, Object ); if(! opt.on ) return undefined;
+	if( treatee ) opt.treatee = treatee;
+	//var opt = this.opt;
+	this.opt = opt;
+
+	// find element to mod in DOM, verify
+	var treatee = fallback(opt).treatee;
+	this.jQ	    = $( treatee ); if(! this.jQ.length ) return undefined;
+	this.domEl  = this.jQ[0];
+	this.isForm = this.domEl instanceof HTMLFormElement;
+
+	// register or leave it, if already so
+	var registerID = this.domEl.filOtaz_de_asynchLoadable;
+	if( typeof registerID =='undefined' )
+		this.domEl.filOtaz_de_asynchLoadable = allAsyncLoadables.push( this ) -1;
+	else if(( typeof registerID =='number' )&&( allAsyncLoadables[ registerID ] instanceof AsyncLoadable ))
+		return allAsyncLoadables[ registerID ];
+	else {	alert(	'filOtaz_de.ajaxify:AsyncLoadable cries: '
+			+ 'Something alien registered in our name.'
+			);
+		return undefined;
+		}
+	//console.log( '+'+ allAsyncLoadables );	//DEBUG
+
+	// find our purpose
+	this.url = opt.url = opt.url || this.jQ.attr('action') || fallback(opt).url || undefined;
+	//this.url = '/404';	//DEBUG
+	if( typeof this.url =='undefined' ) {
+		alert(	'filOtaz_de.ajaxify:AsyncLoadable cries: There\'s no action.');
+		return undefined;
+		}
+
+	// make url complex
+	this.url = new filOtaz_de.Href( this.url );
+
+	// define if we need https for transport
+	this.needSSL = opt.needSSL; // todo analyze form for https need
+	if( this.needSSL ) {
+		//this.url = new filOtaz_de.Href( this.url );
+		this.url.protocol = 'https';
+		//this.url +='';	// don't carry obj
+		}
+
+	// if we needed CORS but have none, demand reloading page w/ https
+	//env.haveSSL =false; env.haveCORS =false; //DEBUG
+	this.needCORS = this.needSSL && !env.haveSSL;
+	if( this.needCORS && !env.haveCORS ) {
+		this.demandPageReload();
+		return;
+		};
+
+	// rededicate submit event
+	var me = this;
+	this.jQ.on( this.isForm ? 'submit' : 'TAZloadAsync', function(){
+		me.submitAsync();
+		return false;
+		});
+
+	// save activated submit's identity for async form transmission
+	//	as it is not accessible from submit event in a xbrowser way
+	if( this.isForm ) this.jQ.find(':submit[name]').click( function(){
+		me.jQ.find('>input[name="'+ this.name +'"]').remove();	// just in case
+		me.jQ.append('<input type="hidden" name="'+ this.name +'" value="'+ this.value +'" />');
+		} );
+
+	// handler functions
+	var on = this.on = { loadable : this };
+	$.each( handlers, function( k, v ){  on[k] = v;  } );
+
+
+	// error messages in processed subtree
+	var error = this.jQ.find('.error').detach(), i =0;
+	if( error.length ) me.block(); else return;
+		
+	var showErrors = function(){
+		var e = error.eq(i); i++;
+		if( e.length )  me.showMessage( e.text(), {  onConfirm : showErrors  } )
+		else {	error.remove();
+			me.unblock();
+			}
+		};
+	showErrors();
+
+
+	}; //AsyncLoadable
+
+
+// handler functions
+var handlers = {
+	0   : function( data, status, xhr, message ) {
+		//console.log( xhr );
+		//console.log( (new XMLSerializer).serializeToString( xhr.response ) );
+		var loadable = this.loadable;
+		if( loadable.opt.on.error instanceof Function ) //loadable.opt.on.error( data, status, xhr, message );
+		if( message ) {
+			console.log('xhr error ('+ xhr.status +'), message:');
+			console.log( message );
+			}
+		loadable.showMessage(
+/*			'Error: '+ ( xhr.status >200
+			?( 'Got status code '+ xhr.status +' from server' )
+			:( 'Can not see server answer. CORS missing?' )
+			),
+*/
+			xhr.status +' '+( xhr.statusText || message ),
+			{	title		: 'Übertragungsfehler',
+				slide		: true,
+				onConfirm	: function(){ 
+					loadable.flying =false;
+					if( loadable.isForm ) sentForm = false; 
+					if( loadable.opt.on.errAck instanceof Function ) loadable.opt.on.errAck( loadable.jQ );
+					}
+				} 
+			);
+		//todo prepare report to send via mail
+		},
+
+	201 : function( data, status, xhr ) {
+		if( this.loadable.opt.on.receipt instanceof Function ) this.loadable.opt.on.receipt( data, status, xhr );
+		// …
+		},
+
+	200 : function( data, status, xhr ) {
+		var type = xhr.getResponseHeader('content-type') || '';
+		if(-1 < type.indexOf('html')) {
+			data = $('<div></div>').append($(xhr.responseText));
+		}
+		if( this.loadable.opt.on.receipt instanceof Function ){
+			this.loadable.opt.on.receipt( data, status, xhr );			
+
+		}
+		this.loadable.mount( data );
+		}
+
+	}; // proto.on
+
+
+// === AsyncLoadable prototype
+(function(){
+
+var proto = AsyncLoadable.prototype = new Object;
+
+proto.submitAsync = function(){
+	if( this.flying ) return false; this.flying =true;
+
+	if( this.isForm ) {
+		if( sentForm ) return false;
+		sentForm = this;
+		}
+
+	// collect form data
+	var post = this.jQ.serialize();
+
+	// deactivate (form?) during transfer
+this.jQ.attr({ debug:'001' });
+	this.block();
+
+	// mark request as xhr, then flatten url to dump complexity
+	this.url.setParams({ xhr:true });
+	//this.url +='';
+
+	// send data, normalize and deligate response
+	var on = this.on;
+	$.ajax({
+		type		: this.isForm ? 'POST' : 'GET',
+		url		: ''+ this.url,
+		cache		: false,
+		data		: post,
+		dataType	: 'html', // 'xml',
+		xhrFields	: {    
+				       withCredentials: true  // ! JQ3Mig --> request with cookies
+				    },
+
+
+		// have response preparsed to DOM
+		beforeSend	: function( xhr, settings ){
+			xhr.responseType = 'document';
+		
+			},
+
+		// data was accepted
+		success		: function( data, status, xhr ){
+			on[200]( $(data), status, xhr );
+			},
+
+		// apparent error
+		error		: function( xhr, status, message ){
+			//console.log('status: '+ status +' :: '+ message );
+			//console.log( xhr );
+			var data = $( xhr.response );
+
+			// normalize payload to DOM fragment
+			if( !data.length ) {
+				// data is not document
+				var text;
+				try {
+					text = xhr.responseText;
+					if( text ) text = text.replace(/http:/g, "");
+					//console.log('response text: '+ text );
+					data = $('<div />').html( text );
+					}
+				catch(e) {
+					//console.log('error reading responseText: '+ e );
+					}
+				}
+			if( !data.length ) {
+				try {
+					//console.log( xhr.response.head.parentElement.outerHTML );
+					}
+				catch(e) {
+					//console.log('error reading response.head: '+ e );
+					}
+				}
+
+			// deligate handling according to response status code
+			// * IE9 will end up here w/ code 200
+			on[ xhr.status && on[ xhr.status ]
+				? xhr.status 
+				: 0
+				]( data, status, xhr, message );
+
+			},
+
+		// finalize transfer
+		complete	: function( xhr, status ){
+			//sentForm = false;
+			}
+
+		}); //ajax
+
+	}; //proto.submitAsync
+
+
+// make myself garbage
+proto.remove = function(){
+	var registerID = this.domEl.filOtaz_de_asynchLoadable;
+	this.jQ.remove();
+	// unregister
+	allAsyncLoadables[ registerID ] = null;
+	//console.log( '-'+ allAsyncLoadables );	//DEBUG
+	};
+
+// mount new subtree from response payload replacing original
+proto.mount = function( data ){
+	// show replacement(s) from response body
+	var opt = this.opt;
+	//alert( data[0].documentElement.outerHTML );
+
+/*
+	// find my package in payload
+	//var pkg = data.find('fragment#'+ opt.fragmentID );
+	var pkg = data.find( opt.package || 'body' );
+	if(! pkg.length )  pkg = data.find('body');
+*/
+	var pkg = ( data[0] instanceof HTMLDivElement )? data : data.find('body');
+	if(! pkg.length )  pkg = $( data[0].documentElement );
+	if(! pkg.length )  alert('this should not happen ', data[0] );
+
+	// take from package …
+	var pick = pkg.find( opt.pick );	//|| 'form');
+/*
+	if( !pick.length ) {
+//		alert('server response fails expectations: respective content not found.');
+		this.unblock();
+		return false;
+		}
+*/
+
+	var me = this;
+
+	var replace = [ { treatee: me.jQ, pick: pick, ajaxify: true } ];
+	if( opt.replace instanceof Array )  replace = replace.concat( opt.replace );
+
+
+	$.each( replace, function(i,r){
+
+		var i = i, old = $( r.treatee ), nju = $( r.pick, data );	
+		if( !old.length ) return;
+		var isPrimary = i ==0;	// or old == me.jQ
+		if( !nju.length && !r.remove ) {
+			if( isPrimary ) {
+				me.unblock();
+				me.flying =false;	// seem to loose submit handler here?
+				if( me.isForm ) sentForm = false; 
+				}
+			return;
+			}
+
+		//var o = $.extend({ a_DEBUG:true }, r, opt );	// first wins
+
+		var anchor = $('<a />').hide().insertBefore( old );
+		var id = old.attr('id');
+		if( id )  ( nju.length ? nju : anchor ).not('script').attr({ id: id });
+		
+		old.slideUp( function(){ 
+			old.remove();
+			if( isPrimary ) {
+				me.remove();
+				if( me.isForm ) sentForm = false;
+				}
+			});
+
+		var last = anchor;
+		nju.each( function(i,e){
+			var jQ = $(e);
+			var scripts = false; // Script tags are not ignored anymore on DOM manipulation
+			
+			if(jQ.is('script')) { // Following animation stuff will set script tags style to 'display: block'
+				$('body').append(jQ);
+				return;
+			}
+			
+			if(0 < jQ.find('script').length) { // original position of script tags might break stylesheet (e. g. :last-child)
+				scripts = jQ.find('script');
+				jQ.find('script').remove();
+			}
+			
+//			jQ.find('script').remove();      // don't import any scripts
+
+			var next = { isForm :false };
+			if( typeof r.ajaxify =='undefined' || r.ajaxify ===true ) {
+				next = new AsyncLoadable( jQ, opt );
+				jQ = next.jQ;
+				}
+			else if(!( r.ajaxify instanceof Array ))  r.ajaxify = [ r.ajaxify ];
+			if( r.ajaxify instanceof Array )  $.each( r.ajaxify, function(i,ax){
+				var o = $.extend({ fallback: [ r, opt ] }, ax );
+				new AsyncLoadable( jQ.find( fallback(o).treatee ), o );
+				});
+
+/* TODO new AsyncLoadable(…) extrahiert Fehler und zeigt sie modal an. Dabei wird das Form kopiert und nach Bestätigung wieder eingestzt. Mitgeliefertes JS ist hier aber noch nicht gelaufen, geschieht erst beim einsetzen in den DOM … 
+*/
+
+			jQ.hide().removeClass('first last even odd').insertAfter( last );    // add this new el			… <--hier
+
+			(function(){	// set positional classes according where we are mounted
+				var prev = jQ.prevAll(':visible');
+				var next = jQ.nextAll(':visible');
+				var pos = ''; // prev %2 ? 'even' : 'odd';	// bad result in Archiv w/ two forms mounted from one source
+				if( prev.length ==0 )  pos +=' first';
+				if( next.length ==0 )  pos +=' last';
+				jQ.addClass( pos );
+				next.removeClass('even odd');			// … so remove uncertain positional attributes
+				})();
+
+			if(false !== scripts) {
+				$('body').append(scripts);
+			}
+			
+			jQ.trigger('TAZdomChange');
+			last = jQ; anchor.remove();
+
+			//mountedForms = mountedForms.add( jQ );
+
+			
+			jQ.slideDown( function(){
+				jQ.trigger('TAZboxChange');
+				( me.opt.on.mounted instanceof Function ) && me.opt.on.mounted( jQ );
+				});
+
+
+			// friendly focus
+			if( next.isForm ) {
+				var ctrls = next.jQ.find(':input:visible');
+				if( opt.tabindex >0 )	ctrls.attr('tabindex', opt.tabindex );
+				if( opt.focus >0 )	ctrls.first().focus();
+				}
+
+			});
+
+		}); //each replace
+	
+	}; //mount
+
+
+// demand reload of page w/ https before allowing access to form
+proto.demandPageReload = function() {
+
+	this.showMessage( '', {
+		block	: true,
+		onConfirm : function(){
+			location.protocol ='https';
+			return false;
+			},
+		html	: '<p>Um Formular-Inhalte <a href="//de.wikipedia.org/wiki/Hypertext_Transfer_'
+			+'Protocol_Secure" target="_blank">gesichert übertragen</a> zu können, muß bereits '
+			+'diese Seite per HTTPS geladen werden, da Ihr Browser <a href="//de.wiki'
+			+'pedia.org/wiki/Cross-Origin_Resource_Sharing" target="_blank">neuere Technologie'
+			+'</a> nicht unterstützt.</p>'
+			+'<p>Vielleicht sollten Sie einen <a href="//de.wikipedia.org/wiki/Cross-Origin_'
+			+'Resource_Sharing#Browser-Unterst.C3.BCtzung" target="_blank">moderneren Browser'
+			+'</a> verwenden.</p>',
+		hint	: 'mit https neu laden'
+		} );
+	};
+
+
+proto.showMessage = function( message, opt ) {
+	var opt = ensureObjType( opt, Object );
+	
+	if( opt.block ) this.block();
+		
+
+	var form = this;
+	var me = $('<form class="sect" />')
+	.on ('submit', function(){
+		var blockOn = opt.onConfirm instanceof Function && opt.onConfirm() ==false;
+		me.slideUp(function(){ 
+			form.jQ = form.jQ.not( me );
+			me.remove();
+			});
+		if( !blockOn )  form.unblock( opt.replacement );
+		return false;
+		})
+	.html(	( opt.title ?('<div class="secthead"><h2><a><span>'+ opt.title +'</span></a></h2></div>') :'' )
+		+'<div class="sectbody">'
+		+( message ?('<p>'+ message +'</p>' ) :'')
+		+( opt.html || '' )
+		+'<input type="submit" value="'+( opt.hint || 'ok' )+'" class="submit" />'
+		+'</div>'
+		)
+	.hide().insertAfter( this.jQ );
+	if( opt.slide ) me.slideDown( function(){
+		me.trigger('TAZboxChange');
+		}); 
+	else me.show();
+	form.jQ = form.jQ.add( me );
+	};
+
+
+proto.block = function() {
+	var form = this.jQ;
+	this.restore = form.clone(true);
+	form.submit( function(){return false;} );
+	form.find('.sectbody').css({ opacity: 0.3 });
+	form.find('input, textarea').attr({ disabled : true });
+	form.find('input:submit').fadeOut();
+	return this.restore;
+	};
+
+proto.unblock = function( replacement ) {
+	var replacement = replacement || this.restore;  if( !replacement ) return false;
+	this.replaceForm( replacement );
+	this.restore =null;
+	};
+
+
+proto.replaceForm = function( replace ) {
+	var form = this.jQ;
+	var replace = $( replace );
+	replace.hide().insertAfter( form.last() ).slideDown( function(){
+		replace.trigger('TAZboxChange');
+		});
+	form.slideUp(function(){ form.remove(); });
+	this.jQ = replace; this.domEl = replace[0];
+
+	//added by mar to prevent css breaking after form replace
+	this.jQ.find('>.sectbody, >fieldset>.sectbody, >.rack>fieldset>.sectbody').addClass('jsForm');
+
+	};
+
+
+})(); //AsyncLoadable.prototype
+
+
+// === private "class" functions
+
+var ensureObjType = function( obj, Type ){
+	var obj = obj, Type = Type;
+	( typeof Type =='undefined' ) &&( Type = Object );
+	if( typeof obj =='undefined' )  obj = new Type;
+	else if(!( obj instanceof Type )) {
+		alert(	'filOtaz_de.ajaxify:ensureObjType cries: '
+			+ obj +' is not of demanded type '+ (new Type) +'.'
+			);
+		return undefined;
+		}
+	return obj;
+	};
+
+
+	})();//</script><script type="text/javascript">
+	 (function(){
+
+	var url = (new filOtaz_de.Href('/!arcsid=0/')).setParams({
+		'archive-obj'	: $('#pages >.article.page >.body >.metadata').first()
+					.find('[itemprop=archiv-obj-ID]' ).attr('content') 
+					|| false
+		});
+	filOtaz_de.ajaxify( '#arc-login', {
+		url		: url,				// where to fetch from. overrides form's action
+		pick		: 'fragment#login-form >*',		// what to take from response
+		needSSL		: true,		// force transfer via https
+		replace	: [ // other fragments to replace from response
+			{	treatee:'#arc-search',	// whom to replace
+				pick:'fragment#arc-search-form >*',	// with what
+				ajaxify:false			// no further async loading after replacing
+				},
+			{	treatee:'#arc-worklist',
+				pick:'fragment#arc-list >.rack',
+				remove:true,			// remove treatee even when no replacement
+				ajaxify: [ // further async loading for subparts of replacement
+					{	treatee : '#arc-add',
+						needSSL : true,
+						replace : [ {
+							treatee : '#arc-worklist>.sect_arc-worklist', 
+							pick : 'fragment#arc-list >.rack >.sect_arc-worklist',
+							ajaxify : false
+							} ]
+						},
+					{	treatee : '#arc-empty',
+						needSSL : true,
+						replace	: [ {
+							treatee : '#arc-worklist>.sect_arc-worklist',
+							pick : 'fragment#arc-list >.rack >.sect_arc-worklist',
+							ajaxify : false
+							} ]
+						}
+					]
+				} 
+			],
+		/* examples for implemented callbacks
+		on : {
+			error	: function( data, status, xhr, message ){  console.log('error', data, status, xhr, message );  },
+			errAck	: function( treatee ){  console.log('error acknowledged for', treatee );  },
+			receipt	: function( data, status, xhr ){  console.log('received', data, status, xhr );  },
+			mounted	: function( replacement ){  console.log('mounted', replacement );  }
+			},
+		*/
+		none : null
+		} );
+	$('#arc-login').trigger('TAZloadAsync');
+	// todo
+	// * option for handler to set, default from el-type
+	// * deduce pick from given element unless explicit
+
+	})(); //</script><div role="region" id="" class="even sect sect_text "><div class="secthead" role="heading"><h2><a name="Nachdruckrechte"><span>Nachdruckrechte</span></a></h2></div><div class="sectbody"><img src="/uploads/images/70/programm_500x500_05.png" alt="" title=""></img><p>      Wollen Sie taz-Texte im Netz veröffentlichen oder nachdrucken? Wenden Sie sich bitte an die Abteilung Syndikation: <a href="mailto:lizenzen@taz.de" target="_blank">lizenzen@taz.de</a>.        </p></div></div><div role="region" id="" class="last odd sect sect_text "><div class="secthead" role="heading"><h2><a name="KONTAKT TAZ ARCHIV-RECHERCHE-INFORMATION"><span>KONTAKT TAZ ARCHIV-RECHERCHE-INFORMATION</span></a></h2></div><div class="sectbody"><p>  Friedrichstraße 21  
+</p><p>    10969 Berlin            
+</p><p>    Mail: <a href="mailto:archiv@taz.de" target="_blank">archiv@taz.de</a>            
+</p><p>   Telefon: 030 - 259 02 204   </p></div></div></span><script> $(document.getLatestElement()).filter('.wing').on( 'TAZdomChange', function(){
+					$(this).find('.rack').removeClass('first first_rack').first().addClass('first first_rack');
+					}); //</script><span class="tail" role="complementary"></span><meta itemprop="isAccessibleForFree" content="true"></meta><a itemprop="mainEntityOfPage" href="https://taz.de/Archiv-Suche/!5280145&amp;s=&amp;SuchRahmen=Print"></a></div><script type="text/javascript">(function () {	// align skirt top with first page's bottom asap
+$( document ).ready(function() {
+  var skirt_top = $('.sect_tdt >.sectbody').length ? $('.sect_tdt >.sectbody').first().offset().top -4 : 1500;
+  $('#skirt').css({'top': ''+ skirt_top +'px'});
+});
+	})();	</script><div id="footer"><ul role="navigation" class="sitemap"><li class="news"><span><a href="/"><span>taz</span></a></span><ul><li class="first odd trodd"><a href="/Themen/!p5360/" id="menu_p5360"><span>Themen</span></a><ul></ul></li><li class="even trodd"><a href="/Politik/!p4615/" id="menu_p4615"><span>Politik</span></a><ul><li class="first odd trodd"><a href="/Politik/Deutschland/!p4616/" id="menu_p4616"><span>Deutschland</span></a></li><li class="even trodd"><a href="/Politik/Europa/!p4617/" id="menu_p4617"><span>Europa</span></a></li><li class="odd treven"><a href="/Politik/Amerika/!p4618/" id="menu_p4618"><span>Amerika</span></a></li><li class="even trodd"><a href="/Politik/Afrika/!p4621/" id="menu_p4621"><span>Afrika</span></a></li><li class="odd trodd"><a href="/Politik/Asien/!p4619/" id="menu_p4619"><span>Asien</span></a></li><li class="even treven"><a href="/Politik/Nahost/!p4620/" id="menu_p4620"><span>Nahost</span></a></li><li class="last odd trodd"><a href="/Politik/Netzpolitik/!p4622/" id="menu_p4622"><span>Netzpolitik</span></a></li></ul></li><li class="odd treven"><a href="/Oeko/!p4610/" id="menu_p4610"><span>Öko</span></a><ul><li class="first odd trodd"><a href="/Oeko/Oekonomie/!p4623/" id="menu_p4623"><span>Ökonomie</span></a></li><li class="even trodd"><a href="/Oeko/Oekologie/!p4624/" id="menu_p4624"><span>Ökologie</span></a></li><li class="odd treven"><a href="/Oeko/Arbeit/!p4629/" id="menu_p4629"><span>Arbeit</span></a></li><li class="even trodd"><a href="/Oeko/Konsum/!p4625/" id="menu_p4625"><span>Konsum</span></a></li><li class="odd trodd"><a href="/Oeko/Verkehr/!p4628/" id="menu_p4628"><span>Verkehr</span></a></li><li class="even treven"><a href="/Oeko/Wissenschaft/!p4636/" id="menu_p4636"><span>Wissenschaft</span></a></li><li class="last odd trodd"><a href="/Oeko/Netzoekonomie/!p4627/" id="menu_p4627"><span>Netzökonomie</span></a></li></ul></li><li class="even trodd"><a href="/Gesellschaft/!p4611/" id="menu_p4611"><span>Gesellschaft</span></a><ul><li class="first odd trodd"><a href="/Gesellschaft/Alltag/!p4632/" id="menu_p4632"><span>Alltag</span></a></li><li class="even trodd"><a href="/Gesellschaft/Reportage-und-Recherche/!p5265/" id="menu_p5265"><span>Reportage und Recherche</span></a></li><li class="odd treven"><a href="/Gesellschaft/Debatte/!p4633/" id="menu_p4633"><span>Debatte</span></a></li><li class="even trodd"><a href="/Gesellschaft/Kolumnen/!p4634/" id="menu_p4634"><span>Kolumnen</span></a></li><li class="odd trodd"><a href="/Gesellschaft/Medien/!p4630/" id="menu_p4630"><span>Medien</span></a></li><li class="even treven"><a href="/Gesellschaft/Bildung/!p4635/" id="menu_p4635"><span>Bildung</span></a></li><li class="odd trodd"><a href="/Gesellschaft/Gesundheit/!p4637/" id="menu_p4637"><span>Gesundheit</span></a></li><li class="even trodd"><a href="/Gesellschaft/Reise/!p4638/" id="menu_p4638"><span>Reise</span></a></li><li class="last odd treven"><a href="/Gesellschaft/Podcast/!p5334/" id="menu_p5318"><span>Podcasts</span></a></li></ul></li><li class="odd trodd"><a href="/Kultur/!p4639/" id="menu_p4639"><span>Kultur</span></a><ul><li class="first odd trodd"><a href="/Kultur/Musik/!p4640/" id="menu_p4640"><span>Musik</span></a></li><li class="even trodd"><a href="/Kultur/Film/!p4641/" id="menu_p4641"><span>Film</span></a></li><li class="odd treven"><a href="/Kultur/Kuenste/!p4642/" id="menu_p4642"><span>Künste</span></a></li><li class="even trodd"><a href="/Kultur/Buch/!p4643/" id="menu_p4643"><span>Buch</span></a></li><li class="last odd trodd"><a href="/Kultur/Netzkultur/!p4631/" id="menu_p4631"><span>Netzkultur</span></a></li></ul></li><li class="even treven"><a href="/Sport/!p4646/" id="menu_p4646"><span>Sport</span></a><ul><li class="first last odd trodd"><a href="/Sport/Kolumnen/!p4648/" id="menu_p4648"><span>Kolumnen</span></a></li></ul></li><li class="odd trodd"><a href="/Berlin/!p4649/" id="menu_p4649"><span>Berlin</span></a><ul></ul></li><li class="even trodd"><a href="/Nord/!p4650/" id="menu_p4650"><span>Nord</span></a><ul><li class="first odd trodd"><a href="/Nord/Hamburg/!p4651/" id="menu_p4651"><span>Hamburg</span></a></li><li class="even trodd"><a href="/Nord/Bremen/!p4652/" id="menu_p4652"><span>Bremen</span></a></li><li class="last odd treven"><a href="/Nord/Kultur/!p4653/" id="menu_p4653"><span>Kultur</span></a></li></ul></li><li class="last odd treven"><a href="/Wahrheit/!p4644/" id="menu_p4644"><span>Wahrheit</span></a><ul><li class="first odd trodd"><a href="/bei-Tom/!t5180734/" id="menu_p4685"><span>bei Tom</span></a></li><li class="last even trodd"><a href="/Ueber-die-Wahrheit/!5068762/" id="menu_p4684"><span>über die Wahrheit</span></a></li></ul></li></ul></li><li class="corp"><ul><li class="first odd trodd"><a href="/wochentaz/!p5386/" id="menu_p5386"><span>wochentaz</span></a></li><li class="even trodd"><a href="/Abo/!p4209/" id="menu_p4209"><span>Abo</span></a></li><li class="odd treven"><a href="/Genossenschaft/!p4271/" id="menu_p4271"><span>Genossenschaft</span></a></li><li class="even trodd"><a href="https://taz.de/!p4697/#matomo:pk_campaign" id="menu_p5149"><span>taz zahl ich</span></a></li><li class="odd trodd"><a href="/!p4233/" id="menu_p5311"><span>Veranstaltungen</span></a></li><li class="even treven"><a href="/Info/!p4206/" id="menu_p4206"><span>Info</span></a></li><li class="odd trodd"><a href="https://shop.taz.de/#pk_campaign" target="_blank" id="menu_p4378"><span>Shop</span></a></li><li class="even trodd"><a href="/Anzeigen/!p4288/" id="menu_p4288"><span>Anzeigen</span></a></li><li class="odd treven"><a href="https://taz.de/!p5099/" id="menu_p5284"><span>taz FUTURZWEI</span></a></li><li class="even trodd"><a href="https://taz.de/!p4905/" id="menu_p5357"><span>taz lab 2023</span></a></li><li class="odd trodd"><a href="/!p5298/" id="menu_p5319"><span>taz Talk</span></a></li><li class="even treven"><a href="/Queer-Talks/!p5378/" id="menu_p5378"><span>Queer Talks</span></a></li><li class="odd trodd"><a href="https://taz.de/!p5122/" id="menu_p5344"><span>taz wird neu</span></a></li><li class="even trodd"><a href="/!p5297/" id="menu_p4955"><span>taz in der Kritik</span></a></li><li class="odd treven"><a href="//blogs.taz.de/" id="menu_p4366"><span>Blogs &amp; Hausblog</span></a></li><li class="even trodd"><a href="//monde-diplomatique.de/" id="menu_p4387"><span>LE MONDE diplomatique</span></a></li><li class="odd trodd"><a href="/neu/!p5122/" id="menu_p5122"><span>neu</span></a></li><li class="even treven"><a href="/Thema/!p4786/" id="menu_p4786"><span>Thema</span></a></li><li class="odd trodd"><a href="/Panter-Stiftung/!p4258/" id="menu_p4258"><span>Panter Stiftung</span></a></li><li class="even trodd"><a href="/Panter-Preis/!p4207/" id="menu_p4207"><span>Panter Preis</span></a></li><li class="odd treven"><a href="/Recherchefonds-Ausland/!p5062/" id="menu_p5062"><span>Recherchefonds Ausland</span></a></li><li class="even trodd"><a href="/Reisen-in-die-Zivilgesellschaft/!p4310/" id="menu_p4310"><span>Reisen in die Zivilgesellschaft</span></a></li><li class="odd trodd"><a href="/!p5044/" id="menu_p5123"><span>Christian Specht</span></a></li><li class="even treven"><a href="https://shop.taz.de/ekiosk.php" target="_blank" id="menu_p4357"><span>e-Kiosk</span></a></li><li class="odd trodd"><a href="/Salon/!p5021/" id="menu_p5021"><span>Salon</span></a></li><li class="even trodd"><a href="/Kantine/!p4237/" id="menu_p4237"><span>Kantine</span></a></li><li class="odd treven selected"><a href="/Archiv/!p4311/" id="menu_p4311"><span>Archiv</span></a></li><li class="last even trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li></ul></li><li class="help"><ul id="legal"><li><a rel="me" target="_blank" href="https://mastodon.social/@tazgetroete">Mastodon</a></li><li class="first odd trodd"><a href="/Hilfe/!p4591/" id="menu_p4591"><span>Hilfe</span></a></li><li class="even trodd"><a href="https://taz.de/!p4591/" id="menu_p4682"><span>Kontakt</span></a></li><li class="odd treven"><a href="https://taz.de/!112354/" id="menu_p4679"><span>Impressum</span></a></li><li class="even trodd"><a href="https://taz.de/!114802/" id="menu_p4965"><span>Redaktionsstatut</span></a></li><li class="odd trodd"><a href="https://taz.de/!166598/" id="menu_p4681"><span>Datenschutz</span></a></li><li class="even treven"><a href="https://taz.de/!114191/" id="menu_p4680"><span>RSS</span></a></li><li class="odd trodd"><a href="https://taz.de/!p4283/" id="menu_p4827"><span>Newsletter</span></a></li><li class="last even trodd"><a href="https://taz.de/!p4858/" id="menu_p4859"><span>Informant</span></a></li></ul></li><li class="search"><form class="search" role="search" action="/!s=/" method="POST"><div class="frame"><input type="text" minlength="2" required="required" placeholder="suchen ..." class="text preset" name="s"></input><input type="image" class="send" title="suche senden" alt="suche senden" name="ignore" src="/lib/ch/web/pix/redArrowsRight_d50d2e.png"></input></div></form></li></ul><div class="copyright">Alle Rechte vorbehalten. Für Fragen zu Rechten oder Genehmigungen wenden Sie sich bitte an lizenzen@taz.de<a id="mobileswitcher" href="#" onclick="
+					event.preventDefault();
+					var currentDate = new Date();
+					var expDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate()+1, 3, 59, 59);
+					$.cookie.raw = true;
+					$.cookie('ratioURL_channel', 'moby/force', { expires: expDate, domain:'taz.de', path:'/', secure: false } ); 
+
+					if( (/moby/).test($.cookie('ratioURL_channel') ) ) {
+
+						location.search = ( location.search ? location.search +'&amp;' : '?' ) +'nocache='+ (new Date()).getTime();
+						}
+					else alert('Cookie konnte nicht gesetzt werden');
+					
+				"><span>zur mobilen Ansicht wechseln</span></a></div></div></div></div></div><script type="text/javascript">
+			const lazyObserver = lozad('.lozad', {
+				rootMargin: '1050px', // syntax similar to that of CSS Margin
+				threshold: 0.1, // ratio of element convergence
+				enableAutoReload: true // it will reload the new image when validating attributes changes
+			});
+			lazyObserver.observe();
+
+		</script></body><!-- DEBUG end 21:38:12+01:00--></html>
