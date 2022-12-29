@@ -14,3 +14,8 @@ body {
 }
 
 
+nav a:hover{
+	border-bottom: 1.5px solid red;
+	font-size: 1.2em;
+
+}
