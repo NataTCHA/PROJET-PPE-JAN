@@ -38,7 +38,7 @@ echo "<!DOCTYPE html><html><head><meta charset="UTF-8" /><meta name="viewport" c
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" /></head><body>" > $fichier_tableau
 echo "<h2>Tableau $basename :</h2>" >> $fichier_tableau
 echo "<br/>" >> $fichier_tableau
-echo "<table>" >> $fichier_tableau
+echo "<table class="table is-striped is-narrow is-hoverable is-fullwidth">" >> $fichier_tableau
 echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th><th>dump</th><th>text</th><th>N°Occ</th><th>contextes</th><th>concordances</th></tr>" >> $fichier_tableau
 # On crée un compteur pour les URLs/le nombre de lignes :               
 lineno=1;
