@@ -1,0 +1,406 @@
+   #GitHub
+
+   Skip to content
+
+   (BUTTON) Toggle navigation
+   Sign up
+   (BUTTON)
+
+     * (BUTTON) Product
+          + Actions
+            Automate any workflow
+          + Packages
+            Host and manage packages
+          + Security
+            Find and fix vulnerabilities
+          + Codespaces
+            Instant dev environments
+          + Copilot
+            Write better code with AI
+          + Code review
+            Manage code changes
+          + Issues
+            Plan and track work
+          + Discussions
+            Collaborate outside of code
+          + Explore
+          + All features
+          + Documentation
+          + GitHub Skills
+          + Blog
+     * (BUTTON) Solutions
+          + For
+          + Enterprise
+          + Teams
+          + Startups
+          + Education
+          + By Solution
+          + CI/CD & Automation
+          + DevOps
+          + DevSecOps
+          + Case Studies
+          + Customer Stories
+          + Resources
+     * (BUTTON) Open Source
+          + GitHub Sponsors
+            Fund open source developers
+          + The ReadME Project
+            GitHub community articles
+          + Repositories
+          + Topics
+          + Trending
+          + Collections
+     * Pricing
+
+   ____________________
+     * In this repository All GitHub ↵
+       Jump to ↵
+
+     * No suggested jump to results
+
+     * In this repository All GitHub ↵
+       Jump to ↵
+     * In this user All GitHub ↵
+       Jump to ↵
+     * In this repository All GitHub ↵
+       Jump to ↵
+
+   Sign in
+   Sign up
+
+   (BUTTON)
+   {{ message }}
+
+   matthuhiggins / foreigner Public
+     * Notifications
+     * Fork 125
+     * Star 1.3k (BUTTON)
+
+   Adds foreign key helpers to migrations and correctly dumps foreign keys
+   to schema.rb
+   www.strictlyuntyped.com
+
+License
+
+   MIT license
+   1.3k stars 125 forks
+   Star (BUTTON)
+   Notifications
+
+     * Code
+     * Issues 2
+     * Pull requests 2
+     * Actions
+     * Projects 0
+     * Wiki
+     * Security
+     * Insights
+
+   More
+     * Code
+     * Issues
+     * Pull requests
+     * Actions
+     * Projects
+     * Wiki
+     * Security
+     * Insights
+
+matthuhiggins/foreigner
+
+   This commit does not belong to any branch on this repository, and may
+   belong to a fork outside of the repository.
+   master
+
+   Switch branches/tags (BUTTON)
+   ____________________
+   (BUTTON) Branches (BUTTON) Tags
+   Could not load branches
+   Nothing to show
+   {{ refName }} default
+
+   View all branches
+   Could not load tags
+   Nothing to show
+   {{ refName }} default
+
+   View all tags
+
+Name already in use
+
+   (BUTTON)
+   A tag already exists with the provided branch name. Many Git commands
+   accept both tag and branch names, so creating this branch may cause
+   unexpected behavior. Are you sure you want to create this branch?
+
+   (BUTTON) Cancel (BUTTON) Create
+   2 branches 7 tags
+   Code
+     * (BUTTON) Local
+     * (BUTTON) Codespaces
+
+     * Clone
+       (button) HTTPS (button) GitHub CLI
+       https://github.com/m
+       Use Git or checkout with SVN using the web URL.
+       gh repo clone matthu
+       Work fast with our official CLI. Learn more.
+     * Open with GitHub Desktop
+     * Download ZIP
+
+Sign In Required
+
+   Please sign in to use Codespaces.
+
+Launching GitHub Desktop
+
+   If nothing happens, download GitHub Desktop and try again.
+   (BUTTON)
+
+Launching GitHub Desktop
+
+   If nothing happens, download GitHub Desktop and try again.
+   (BUTTON)
+
+Launching Xcode
+
+   If nothing happens, download Xcode and try again.
+   (BUTTON)
+
+Launching Visual Studio Code
+
+   Your codespace will open once ready.
+
+   There was a problem preparing your codespace, please try again.
+
+Latest commit
+
+
+Git stats
+
+     * 285 commits
+
+Files
+
+   Permalink
+   Failed to load latest commit information.
+   Type
+   Name
+   Latest commit message
+   Commit time
+   ci
+
+
+   lib
+
+
+   test
+
+
+   .gitignore
+
+
+   .travis.yml
+
+
+   CHANGELOG.md
+
+
+   Gemfile
+
+
+   MIT-LICENSE
+
+
+   README.md
+
+
+   Rakefile
+
+
+   foreigner.gemspec
+
+
+   (BUTTON) View code
+   Foreigner Installation API Examples Change Table Methods
+   Database-specific options Foreigner Add-ons License
+
+README.md
+
+Foreigner
+
+   Build Status Code Climate
+
+   Foreigner introduces a few methods to your migrations for adding and
+   removing foreign key constraints. It also dumps foreign keys to
+   schema.rb.
+
+   The following adapters are supported:
+     * mysql2
+     * postgres
+     * sqlite (foreign key methods are a no-op)
+
+   Foreigner was rendered obsolete in Rails 4.2. The migration DSL
+   supports foreign keys out of the box via add_foreign_key and
+   remove_foreign_key.
+
+Installation
+
+   Add the following to your Gemfile:
+gem 'foreigner'
+
+API Examples
+
+   Foreigner adds two methods to migrations.
+     * add_foreign_key(from_table, to_table, options)
+     * remove_foreign_key(from_table, to_table, options)
+
+   (Options are documented in
+   connection_adapters/abstract/schema_statements.rb):
+
+   For example, given the following model:
+class Comment < ActiveRecord::Base
+  belongs_to :post
+end
+
+class Post < ActiveRecord::Base
+  has_many :comments, dependent: :delete_all
+end
+
+   You should add a foreign key in your migration:
+add_foreign_key(:comments, :posts)
+
+   The :dependent option can be moved from the has_many definition to the
+   foreign key:
+add_foreign_key(:comments, :posts, dependent: :delete)
+
+   If the column is named article_id instead of post_id, use the :column
+   option:
+add_foreign_key(:comments, :posts, column: 'article_id')
+
+   A name can be specified for the foreign key constraint:
+add_foreign_key(:comments, :posts, name: 'comment_article_foreign_key')
+
+   The :column and :name options create a foreign key with a custom name.
+   In order to remove it you need to specify :name:
+remove_foreign_key(:comments, name: 'comment_article_foreign_key')
+
+Change Table Methods
+
+   Foreigner adds extra methods to create_table and change_table.
+
+   Create a new table with a foreign key:
+create_table :products do |t|
+  t.string :name
+  t.integer :factory_id
+  t.foreign_key :factories
+end
+
+   Add a missing foreign key to comments:
+change_table :comments do |t|
+  t.foreign_key :posts, dependent: :delete
+end
+
+   Remove an unwanted foreign key:
+change_table :comments do |t|
+  t.remove_foreign_key :users
+end
+
+Database-specific options
+
+   Database-specific options will never be supported by foreigner. You can
+   add them using :options:
+add_foreign_key(:comments, :posts, options: 'ON UPDATE DEFERRED')
+
+Foreigner Add-ons
+
+     * immigrant - generate a migration that includes all missing foreign
+       keys.
+     * sqlserver-foreigner - A plugin for SQL Server.
+
+License
+
+   Copyright (c) 2012 Matthew Higgins, released under the MIT license
+
+About
+
+   Adds foreign key helpers to migrations and correctly dumps foreign keys
+   to schema.rb
+   www.strictlyuntyped.com
+
+Resources
+
+   Readme
+
+License
+
+   MIT license
+
+Stars
+
+   1.3k stars
+
+Watchers
+
+   23 watching
+
+Forks
+
+   125 forks
+
+Releases 3
+
+   v1.7.3 Latest
+   Mar 30, 2015
+   + 2 releases
+
+Packages 0
+
+   No packages published
+
+Contributors 28
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   + 17 contributors
+
+Languages
+
+     * Ruby 99.0%
+     * Logos 1.0%
+
+Footer
+
+   © 2022 GitHub, Inc.
+
+Footer navigation
+
+     * Terms
+     * Privacy
+     * Security
+     * Status
+     * Docs
+     * Contact GitHub
+     * Pricing
+     * API
+     * Training
+     * Blog
+     * About
+
+   (BUTTON) You can’t perform that action at this time.
+
+   You signed in with another tab or window. Reload to refresh your
+   session. You signed out in another tab or window. Reload to refresh
+   your session.
+
+   (BUTTON)

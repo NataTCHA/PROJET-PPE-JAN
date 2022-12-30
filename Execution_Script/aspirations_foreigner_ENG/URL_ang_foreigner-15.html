@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+<!-- 
+         __  __  ____    ______                                   _________________
+   .====/ /=/ /=/ __/===/_  __/==================================/######__________/
+  .==  / / / /  \ \      / / _______ ___  ___ __ ________ __    /######__________/
+ .==  / /_/ /  __\ \    / / / __/ -_) _ \(_--/ // / __/ // /   /######__________/
+.==   \____/  /____/   /_/ /_/  \__/\_/_/___/\___/_/  \_  /   /________________/
+=====================================================__/ /===/________________/
+                                                    /___/
+-->
+
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"c385fefcaf",applicationID:"70697698"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-19138737-19", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<link rel="canonical" href="https://home.treasury.gov/data/treasury-international-capital-tic-system/us-liabilities-to-foreigners-from-holdings-of-us-securities" />
+<meta property="og:site_name" content="U.S. Department of the Treasury" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://home.treasury.gov/data/treasury-international-capital-tic-system/us-liabilities-to-foreigners-from-holdings-of-us-securities" />
+<meta property="og:title" content="U.S. Liabilities to Foreigners from Holdings of U.S. Securities" />
+<meta property="og:description" content="Contact TIC &amp; Using TIC   REPORTS: Foreign Residents&#039; Portfolio Holdings of U.S. Securities (SHL &amp; SHLA annual surveys) -- (4-29-2022) Historical data from the surveys during 1974-2021 are available showing the market value of foreign portfolio holdings of U.S. securities by country and by type of security. (Also in &quot;CSV&quot; and &quot;tab-delimited text&quot; formats.)   (4-29-2022).Foreign Portfolio Holdings of U.S. Securities as of 6/30/2021 (PDF). This report presents the findings of the annual survey as of June 30, 2021. It includes comparisons with the results of previous surveys. Click on the page number in the Table of Contents to go to a section of interest. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format. -- There is a press release dated 04/29/2022.   (4-30-2021).Foreign Portfolio Holdings of U.S. Securities as of 6/30/2020 (PDF). This report presents the findings of the annual survey as of June 30, 2020. It includes comparisons with the results of previous surveys. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format. -- There is a press release dated 04/30/2021.   (4-30-2020).Foreign Portfolio Holdings of U.S. Securities as of 6/28/2019 (PDF). This report presents the findings of the annual survey as of June 28, 2019. It includes comparisons with the results of previous surveys. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format. -- There is a press release dated 04/30/2020.   Foreign Portfolio Holdings of U.S. Securities as of 6/29/2018 (PDF). This report presents the findings of the annual survey as of June 30, 2018. It includes comparisons with the results of previous surveys. (There was a revision on 05-15-2019 when a correction was made in Exhibit 15 (p. 27), the accompanying discussion (p. 26), and the corresponding table in Appendix B (p. 11) because of a data processing error in the original file released on 04-30-2019.) -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format. -- There is a press release dated 04/30/2019.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2017 (PDF). This report presents the findings of the annual survey as of June 30, 2017. It includes comparisons with the results of previous surveys. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format. -- There is a press release dated 04/30/2018.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2016 (PDF). This report presents the findings of the annual survey as of June 30, 2016. It includes comparisons with the results of previous surveys. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format. -- There was a press release dated 04/28/2017.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2015 (PDF). This report presents the findings of the annual survey as of June 30, 2015. It includes comparisons with the results of previous surveys since 2008. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in tab-delimited text format. -- There was a press release dated 05/31/2016.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2014 (PDF). This report presents the findings of the benchmark survey as of June 30, 2014. It includes comparisons with the results of previous surveys since 2007. -- The appendix tables (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in tab-delimited text format. -- There was a press release dated 04/30/2015.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2013 (PDF). This report presents the findings of the annual survey as of June 30, 2013. It includes comparisons with the results of previous surveys since 2006. -- The appendix tables (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.) -- There was a press release dated 04/30/2014.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2012 (PDF). This report presents the findings of the annual survey as of June 30, 2012. It includes comparisons with the results of previous surveys since 2005. The 2012 data for Hong Kong and Taiwan have been revised since publication of this 2012 report. The revision is a shift of $83 billion in holdings of long-term agency securities from Hong Kong to Taiwan. This change affects the rows for Taiwan and Hong Kong in table 8, and in appendix tables A1, A2, A5, A7, and A9 in this 2012 report. In later reports, such as the survey report for June 30, 2013, the corrected data appear in historical appendix tables A7 and A9. -- The appendix tables (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.) -- There was a press release dated 04/30/2013.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2011 (PDF). This report presents the findings of the annual survey as of June 30, 2011. It includes comparisons with the results of previous surveys since 2004. -- The appendix tables (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.) -- There was a press release dated 04/30/2012.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2010 (PDF). This report presents the findings of the annual survey as of June 30, 2010. It includes comparisons with the results of previous surveys since 2003. -- The appendix tables (MHT file) can be downloaded and opened with a spreadsheet program. -- There was a press release dated 04/29/2011.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2009 (PDF) (4-30-2010; table 2 revised 5-13-2010). This report presents the findings of the benchmark survey as of June 30, 2009. It includes comparisons with the results of previous surveys since 2002. -- The appendix tables (MHT file) can be downloaded and opened into a spreadsheet program. -- There was a press release dated 04/30/2010.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2008 (PDF) (4-30-09; 11-18-09 small corrections made to percentages shown in table 2; 9-20-10 totals corrected in table 24 on page 54). This report presents the findings of the annual survey as of June 30, 2008. It includes comparisons with the results of previous surveys since 2000. -- The appendix tables (MHT file) can be downloaded and opened into a spreadsheet program. -- There was a press release dated 04/30/2009.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2007 (PDF) . Press release was dated 04/30/2008.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2006 (PDF) . Press release was dated 05/31/2007. This survey includes, for the first time, holdings of U.S. MBS securities, a part of ABS securities.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2005 (PDF) . Press release was dated 06/30/2006.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2004 (PDF) . Press release was dated 06/30/2005.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2003 (PDF). This survey includes, for the first time, holdings of U.S. ABS securities.   Foreign Portfolio Holdings of U.S. Securities as of 6/30/2002 (PDF). This survey includes, for the first time, holdings of short-term U.S. securities.   Foreign Portfolio Holdings of U.S. Long-Term Securities as of 3/31/2000 (PDF) . This report presents the findings of the benchmark survey as of March 31, 2000. Chapter 3 presents selected estimates for end-2001.   Foreign Portfolio Investment in the United States - 12/31/97. This report summarizes the findings of the benchmark survey as of December 31, 1994. It includes estimates for several aggregates as of end-1997.     Reference - recommended   (May 2012) Improving the Measurement of Cross-Border Securities Holdings: The Treasury International Capital SLT (PDF). In the wake of the financial crisis, growing interest in improving the measurement of cross-border securities positions spurred the introduction of a new Treasury International Capital (TIC) reporting form, the TIC SLT. This article reviews the existing structure of TIC cross-border position and flow data, the benefits that the new SLT can provide, and the incoming information from the first two reporting months of SLT data, September and December 2011. While some patterns and characteristics of the SLT data will become clear only after more data have accumulated, the SLT data have already begun to provide timely insights on U.S. and foreign cross-border investment flows that are different from the monthly estimates provided by existing flow data. It is from the Federal Reserve Bulletin, Volume 98, May 23, 2012, Board of Governors of the Federal Reserve System. For other articles on TIC data, see the Articles on TIC webpage." />
+<meta property="og:image" content="https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1900px" />
+<meta property="og:image:height" content="950px" />
+<meta property="og:updated_time" content="2022-04-29" />
+<meta property="og:image:alt" content="U.S. Department of the Treasury" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@USTreasury" />
+<meta name="twitter:title" content="U.S. Liabilities to Foreigners from Holdings of U.S. Securities" />
+<meta name="twitter:image:alt" content="U.S. Department of the Treasury" />
+<meta name="twitter:image:height" content="1080" />
+<meta name="twitter:image:width" content="1080" />
+<meta name="twitter:image" content="https://home.treasury.gov/system/files/291/treasury-preview-1080x1080.jpg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_1.png" type="image/png" />
+
+    <title>U.S. Liabilities to Foreigners from Holdings of U.S. Securities | U.S. Department of the Treasury</title>
+    <link rel="stylesheet" media="all" href="/vendor_files/datatables.net/datatables.net-dt/css/jquery.dataTables.min.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/vendor_files/datatables.net/datatables.net-responsive-dt/css/responsive.dataTables.min.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/custom/treasury_datatables/custom/treasury_dataTables.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_controlgroup/jquery.ui/themes/base/controlgroup.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_checkboxradio/jquery.ui/themes/base/checkboxradio.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_checkboxradio/jquery.ui/themes/base/button.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_button/jquery.ui/themes/base/button.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_resizable/jquery.ui/themes/base/resizable.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_dialog/jquery.ui/themes/base/dialog.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui_tabs/jquery.ui/themes/base/tabs.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/views/views.module.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="/themes/custom/hamilton/css/styles.min.css?rmwoo6" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Merriweather:400,700,300" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,300" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Signika:400,700" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/27981","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajaxTrustedUrl":{"\/search\/node":true},"ajax":[],"user":{"uid":0,"permissionsHash":"90c52cecbb93286e589ef6764c3fe786e215672de8c2c8c327a783575cb8ebad"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.4.7"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.4.7"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.4.7"></script>
+<script src="/core/misc/drupal.js?v=9.4.7"></script>
+<script src="/core/misc/drupal.init.js?v=9.4.7"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.4.7"></script>
+<script src="/modules/custom/treasury_datatables/custom/datatables_init.js?v=9.4.7"></script>
+<script src="/vendor_files/datatables.net/datatables.net/js/jquery.dataTables.min.js?v=9.4.7"></script>
+<script src="/vendor_files/datatables.net/datatables.net-dt/js/dataTables.dataTables.min.js?v=9.4.7"></script>
+<script src="/vendor_files/datatables.net/datatables.net-responsive/js/dataTables.responsive.min.js?v=9.4.7"></script>
+<script src="/vendor_files/datatables.net/datatables.net-responsive-dt/js/responsive.dataTables.min.js?v=9.4.7"></script>
+
+
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="M33KD-YMV8Y-625W4-V96WF-R28AJ",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"M33KD-YMV8Y-625W4-V96WF-R28AJ";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="fia4wcai6kmaakqce3yjcaaiwbr2t7le-f-477f5d4ce-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"34","ak.cp":"590367","ak.ai":parseInt("384319",10),"ak.ol":"0","ak.cr":17,"ak.ipv":6,"ak.proto":"h2","ak.rid":"e55acd2","ak.r":42381,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2a01:cb08:8f2:9800::","ak.cport":38768,"ak.gh":"96.16.123.180","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1672084836","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==YiWi1g6S8RUez59lz30oc/LSBlffopA2vyg2MiR8hmW27eQoHBZ98/EBcHkbHTgHV2toFG6d7m+jqeLJM1dLo/EhzuKTOL7cdq653Y9GEc0IPbdt76Lux33y9Wl2NYO7igDJJcWWl3MxH92oHaRCy1JRfzmy2KGT3WQyKiCauQ7NbWZ9N31WON7HMb4UOuQqnmybjE2Edd6/dT7v0Omv4WsM0fJz8N6g2Z9BuQ1CT7Sid4tPfceGXiBMeGOo4LKguQlIGiHuZiY13KnP0iISmtG/OU/uff4rdQP8Tm+wlQ+PszI+WzlCANNCTLKsxMVP0N1e1hRJEMyYjIDyi79XZfQQBNhqn98tFWmCkk/wrNEgWM/+YyR43TYFQPLPcg8RE03v8aA7/hU/04C8NL+EhBQgYw5CS7NXQysJ2XBsuig=","ak.pv":"101","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="path--node body-sidebars-first spanus-liabilities-to-foreigners-from-holdings-of-us-securities-span">
+   <!--div id="skip" class="skip-link">
+      <a class="visually-hidden focusable skip-link" href="#main-content">
+        Skip to main content
+      </a>
+    </div -->
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="pg__c">
+
+
+    <!-- ______________________ BRANDING _______________________ -->
+
+    <header id="branding">
+        <div class="mq--t">
+                    </div>
+    </header>
+    <!-- /branding -->
+
+ <!-- ______________________ USA HEADER _______________________ -->
+
+    <header id="usa-header">
+        <div class="mq--t">
+                            <div id="usa-region">
+                      <div class="region region-usa-header">
+    
+
+<nav role="navigation" aria-label="block-utilitymenu-menu" id="block-utilitymenu" data-block-plugin-id="system_menu_block:utility-menu" class="secondary block block-menu navigation block-system-menublock menu--utility-menu">
+            
+          <div class="super-header">
+    <div class="super-header-title"><img class="flag-img" src="/themes/custom/hamilton/images/usflag.png" alt="U.S. flag">
+    An official website of the United States Government</div>
+        <div class="super-header-links">
+            
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="#main-content" class="is-active">Skip Navigation</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://home.treasury.gov/utility/accessibility">Accessibility</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://home.treasury.gov/utility/languages">Languages</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://home.treasury.gov/utility/contact">Contact</a>
+                  </li>
+          </ul>
+  
+
+
+        </div>
+    </div>
+</nav>
+  </div>
+
+                </div>
+                    </div>
+    </header>
+    <!-- /usa header -->
+
+    <!-- ______________________ HEADER _______________________ -->
+
+    <header id="header">
+        <div class="mq--t">
+                            <div id="header-region">
+                      <div id="region-header" class="mq--t clearfix region region-header">
+    
+  
+<div id="block-burgermenublock-2" data-block-plugin-id="treasury_burger_menu_block" class="block block-treasury-mega-menu block-treasury-burger-menu-block no-underline">
+  
+    
+      <button class="burger" type="button">
+        <span class="descriptive-text">MENU</span>
+        <span class="hidden-text">MENU
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </span>
+      </button>
+  </div>
+
+  
+<div id="block-hamilton-branding" data-block-plugin-id="system_branding_block" class="site-branding block block-system block-system-branding-block no-underline">
+  
+    
+              <h1>
+            <a href="/" title="Home" rel="home" class="logo">
+                <img class="treasury-logo" src="/themes/custom/hamilton/logo.svg" alt="Seal of the U.S. Department of the Treasury, 1789"/><span class="logo-text">U.S. Department of the Treasury</span>
+            </a>
+        </h1>
+    </div>
+
+  </div>
+
+                </div>
+                    </div>
+    </header>
+    <!-- /header -->
+
+    <!-- ______________________ NAVIGATION _______________________ -->
+
+    <div id="navigation">
+        <div class="mq--t">
+                            <div id="navigation-region">
+                    <div class="collapsed-logo">
+                        <a href="/" title="Home" rel="home" class="logo">
+                            <img src="/themes/custom/hamilton/logo.svg" alt="Seal of the U.S. Department of the Treasury, 1789"/>
+                        </a>
+                    </div>
+                      <div class="region region-navigation">
+    
+  
+<div id="block-megamenublock" data-block-plugin-id="treasury_mega_menu_block" class="block block-treasury-mega-menu block-treasury-mega-menu-block no-underline">
+  
+    
+      <nav class="mm block-system-menublock primary">
+  <ul class="nav-menu mq--t">
+            <li class="nav-item ">
+            <a href="/about-treasury" class="mm-top" onclick="return false;">About Treasury</a>
+                  <div class="sub-nav">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    <div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>About Treasury</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+  
+<div data-block-plugin-id="block_content:08aa6afb-b64e-4bb1-ac6e-cfc98f1c3b3c" class="block block-block-content block-block-content08aa6afb-b64e-4bb1-ac6e-cfc98f1c3b3c no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/general-information">General Information</a></h2>
+
+<p><a href="https://home.treasury.gov/about/general-information/role-of-the-treasury">Role of the Treasury</a></p>
+
+<p><a href="https://home.treasury.gov/about/general-information/officials">Officials</a></p>
+
+<p><a href="https://home.treasury.gov/about/general-information/organizational-chart">Organizational Chart</a></p>
+
+<p><a href="https://home.treasury.gov/about/general-information/orders-and-directives">Orders and Directives</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:43c80fae-0d72-480c-a816-6dc13b206886" class="block block-block-content block-block-content43c80fae-0d72-480c-a816-6dc13b206886 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/offices">Offices</a></h2>
+
+<p><a href="https://home.treasury.gov/about/offices/diversity-equity-inclusion-and-accessibility">Diversity, Equity, Inclusion, and Accessibility </a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/domestic-finance">Domestic Finance</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/economic-policy">Economic Policy</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/general-counsel">General Counsel</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/international-affairs">International Affairs</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/management">Management</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/public-affairs">Public Affairs</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/tax-policy">Tax Policy</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/terrorism-and-financial-intelligence">Terrorism and Financial Intelligence</a></p>
+
+<p><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/inspectors-general">Inspectors General</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+  
+<div data-block-plugin-id="block_content:599924e8-ff63-46da-a2ed-4f3c5739455d" class="block block-block-content block-block-content599924e8-ff63-46da-a2ed-4f3c5739455d no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/bureaus">Bureaus</a></h2>
+
+<p><a href="https://www.ttb.gov/">Alcohol and Tobacco Tax and Trade Bureau (TTB)</a></p>
+
+<p><a href="https://www.moneyfactory.gov/">Bureau of Engraving &amp; Printing (BEP)</a></p>
+
+<p><a href="https://www.fincen.gov/">Financial Crimes Enforcement Network (FinCEN)</a></p>
+
+<p><a href="https://www.fiscal.treasury.gov/">Bureau of the Fiscal Service (BFS)</a></p>
+
+<p><a href="https://www.irs.gov/">Internal Revenue Service (IRS)</a></p>
+
+<p><a href="https://www.occ.treas.gov/">Office of the Comptroller of the Currency (OCC)</a></p>
+
+<p><a href="https://www.usmint.gov/">U.S. Mint</a></p>
+
+<p><a href="https://www.treasury.gov/about/organizational-structure/ig/Pages/default.aspx">Office of Inspector General (OIG)</a></p>
+
+<p><a href="https://www.treasury.gov/tigta/">Treasury Inspector General for Tax Administration (TIGTA)</a></p>
+
+<p><a href="https://www.sigtarp.gov/Pages/Home.aspx">Special Inspector General for the Troubled Asset Relief Program (SIGTARP)</a></p>
+
+<p><a href="https://www.sigpr.gov/">Special Inspector General for Pandemic Recovery (SIGPR)</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+  
+<div data-block-plugin-id="block_content:3e5cbfc4-de8d-4151-9710-95efaf040648" class="block block-block-content block-block-content3e5cbfc4-de8d-4151-9710-95efaf040648 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance">Budget, Financial Reporting, Planning and Performance</a></h2>
+
+<p><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance/strategic-plan">Strategic Plan</a></p>
+
+<p><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance/budget-requestannual-performance-plan-and">Budget Request/Annual Performance Plan and Reports</a></p>
+
+<p><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance/agency-financial-report">Agency Financial Report</a></p>
+
+<p><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance/inspector-general-audits-and">Inspector General Audits and Investigative Reports</a></p>
+
+<p><a href="https://home.treasury.gov/about/budget-financial-reporting-planning-and-performance/climate-action-plan">Climate Action Plan</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+  
+<div data-block-plugin-id="block_content:d3de5c5c-98cb-46d1-8d23-a582bae1298c" class="block block-block-content block-block-contentd3de5c5c-98cb-46d1-8d23-a582bae1298c no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/history">History</a></h2>
+
+<p><a href="https://home.treasury.gov/about/history/curator">Curator</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/history-overview">History Overview</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/prior-secretaries">Prior Secretaries</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/treasurers-of-the-united-states">Prior Treasurers</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/the-treasury-building">The Treasury Building</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/collection">Collections</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/freedmans-bank-building">Freedman's Bank Building</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-column" id="column-6">
+      <div class="block-region-col6">
+  
+<div data-block-plugin-id="block_content:d6469877-15d1-4dd2-9da1-c4a8c29fde97" class="block block-block-content block-block-contentd6469877-15d1-4dd2-9da1-c4a8c29fde97 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/about/careers-at-treasury">Careers</a></h2>
+
+<p><a href="https://home.treasury.gov/about/careers-at-treasury/careers-at-headquarters">At Headquarters</a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/careers-at-our-bureaus">At Our Bureaus </a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/top-ten-reasons-to-work-for-treasury">Top 10 Reasons to Work Here</a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/benefits-and-growth">Benefits and Growth</a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/diversity">Diversity </a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/veterans-employment">Veterans Employment</a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/pathways-programs">Pathways</a></p>
+
+<p><a href="https://home.treasury.gov//about/careers-at-treasury/how-to-apply">How to Apply</a></p>
+
+<p><a href="https://treasury.usajobs.gov/">Search Jobs</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+</div>
+
+  </div>
+</article>
+
+      </div>
+                      </li>
+        <li class="nav-item ">
+            <a href="/policy-issues" class="mm-top" onclick="return false;">Policy Issues</a>
+                  <div class="sub-nav">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    <div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>Policy Issues</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+  
+<div data-block-plugin-id="block_content:87238aca-8139-42ee-bd6e-b2fe3ab84737" class="block block-block-content block-block-content87238aca-8139-42ee-bd6e-b2fe3ab84737 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/coronavirus">COVID19 Economic Relief</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/coronavirus/assistance-for-American-families-and-workers">American Families and Workers</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/coronavirus/assistance-for-small-businesses">Small Businesses</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments">State, Local, and Tribal Governments</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/coronavirus/assistance-for-american-industry">American Industry</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:a85db02e-9805-4e62-919b-1d3fc20955bd" class="block block-block-content block-block-contenta85db02e-9805-4e62-919b-1d3fc20955bd no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/tax-policy">Tax Policy</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/revenue-proposals">Revenue Proposals</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/tax-expenditures">Tax Expenditures</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/international-tax">International Tax</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/treaties">Treaties and Related Documents</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/foreign-account-tax-compliance-act">Foreign Account Tax Compliance Act (FATCA) </a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/office-of-tax-policy-reports">Reports</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/office-of-tax-analysis">Tax Analysis</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/tax-policy/tax-regulatory-reform">Tax Regulatory Reform</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+  
+<div data-block-plugin-id="block_content:45a7d3ca-8604-4462-bf30-0677d48e49c4" class="block block-block-content block-block-content45a7d3ca-8604-4462-bf30-0677d48e49c4 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/economic-policy">Economic Policy</a></h2>
+
+<p><a href="https://home.treasury.gov/data/treasury-coupon-issues-and-corporate-bond-yield-curves/treasury-coupon-issues">Treasury Coupon Issues</a></p>
+
+<p><a href="https://home.treasury.gov/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve">Corporate Bond Yield Curve</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/economic-policy/economic-policy-reports">Economic Policy Reports</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/economic-policy/social-security-and-medicare-trustee-reports">Social Security and Medicare</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/economic-policy/total-taxable-resources">Total Taxable Resources</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:504b3551-baa1-4c2a-9f14-21016fc2bc43" class="block block-block-content block-block-content504b3551-baa1-4c2a-9f14-21016fc2bc43 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance">Terrorism and Illicit Finance</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information">Sanctions</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/treasury-executive-office-for-asset-forfeiture-teoaf">Asset Forfeiture</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/311-actions">311 Actions</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp">Terrorist Finance Tracking Program</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/money-laundering">Money Laundering</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/financial-action-task-force">Financial Action Task Force</a></p>
+
+<p><a href="https://home.treasury.gov/about/offices/terrorism-and-financial-intelligence/protecting-charitable-organizations">Protecting Charitable Organizations</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+  
+<div data-block-plugin-id="block_content:edc8b9ed-47da-4ab8-80bd-3fb2302d29a9" class="block block-block-content block-block-contentedc8b9ed-47da-4ab8-80bd-3fb2302d29a9 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/financing-the-government">Financing the Government </a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding">Treasury Quarterly Refunding</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics">Interest Rate Statistics</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/treasury-marketable-and-non-marketable-securities">Treasury Securities</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/treasury-investor-data">Treasury Investor Data</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/debt-management-research">Debt Management Research</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:8b280840-59f6-4a11-b57d-2a1973bb0316" class="block block-block-content block-block-content8b280840-59f6-4a11-b57d-2a1973bb0316 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service">Financial Markets, Financial Institutions, and Fiscal Service</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/cash-and-debt-forecasting">Cash and Debt Forecasting</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/debt-limit">Debt Limit</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc">Financial Stability Oversight Council</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office">Federal Insurance Office</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act">RESTORE Act</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/1603-program-payments-for">1603 Program</a></p>
+
+<p><a href="https://www.cdfifund.gov/">The Community Development Financial Institution (CDFI) Fund</a></p>
+
+<p><a href="https://www.makinghomeaffordable.gov/">Making Home Affordable</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+  
+<div data-block-plugin-id="block_content:e779a09f-978f-4675-8c82-4d49327126bb" class="block block-block-content block-block-contente779a09f-978f-4675-8c82-4d49327126bb no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information">Financial Sanctions</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists">Specially Designated Nationals List (SDN List)</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/consolidated-sanctions-list-data-files">Consolidated Sanctions List</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-list-search-tool">Search OFAC's Sanctions Lists</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/other-ofac-sanctions-lists">Additional Sanctions Lists</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions">OFAC Recent Actions</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information">Sanctions Programs and Country Information</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/faqs">Frequently Asked Questions</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/civil-penalties-and-enforcement-information">OFAC Civil Penalties and Enforcement</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-sanctions/contact-ofac">Contact OFAC</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:2ca3d625-6c59-4e8d-af94-c1e12a9a5e41" class="block block-block-content block-block-content2ca3d625-6c59-4e8d-af94-c1e12a9a5e41 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/consumer-policy">Consumer Policy</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/consumer-policy/financial-literacy-and-education-commission">Financial Literacy and Education Commission</a></p>
+
+<p><a href="https://www.mymoney.gov/">Mymoney.gov</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/consumer-policy/innovations-in-financial-services">Innovations in Financial Services</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/consumer-policy/featured-research">Featured Research</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-column" id="column-6">
+      <div class="block-region-col6">
+  
+<div data-block-plugin-id="block_content:db30dc82-8265-4b2b-a85f-2d67961ebe49" class="block block-block-content block-block-contentdb30dc82-8265-4b2b-a85f-2d67961ebe49 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/international">International</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius">The Committee on Foreign Investment in the United States (CFIUS)</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/exchange-stabilization-fund">Exchange Stabilization Fund</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/g-7-and-g-20">G-7 and G-20</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/international-monetary-fund">International Monetary Fund</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/multilateral-development-banks">Multilateral Development Banks</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/macroeconomic-and-foreign-exchange-policies-of-major-trading-partners">Macroeconomic and Foreign Exchange Policies of Major Trading Partners</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/exchange-rate-analysis">Exchange Rate Analysis</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/international/us-china-comprehensive-economic-dialogue">U.S.-China Comprehensive Strategic Economic Dialogue (CED)</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:ee06edda-a3f6-4eb7-9711-46c815e911a9" class="block block-block-content block-block-contentee06edda-a3f6-4eb7-9711-46c815e911a9 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/small-business-programs">Small Business Programs</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization-0">Small and Disadvantaged Business Utilization</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/small-business-programs/small-business-lending-fund">Small Business Lending Fund</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci">State Small Business Credit Initiative</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:67ed2f97-7a9f-4b86-9df7-e63b30af96ae" class="block block-block-content block-block-content67ed2f97-7a9f-4b86-9df7-e63b30af96ae no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/tribal-affairs">Tribal Affairs</a></h2>
+</div>
+      
+  </div>
+</div>
+  </div>
+</div>
+
+  </div>
+</article>
+
+      </div>
+                      </li>
+        <li class="nav-item ">
+            <a href="/data" class="mm-top" onclick="return false;">Data</a>
+                  <div class="sub-nav">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    <div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>Data</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+  
+<div data-block-plugin-id="block_content:9258b68a-9e90-42b1-b7c5-9049081662a0" class="block block-block-content block-block-content9258b68a-9e90-42b1-b7c5-9049081662a0 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics">Interest Rates</a></h2>
+
+<p><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2022">Daily Treasury Par Yield Curve Rates</a></p>
+
+<p><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&amp;field_tdr_date_value=2022">Daily Treasury Par Real Yield Curve Rates</a></p>
+
+<p><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates&amp;field_tdr_date_value=2022">Daily Treasury Bill Rates</a></p>
+
+<p><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_long_term_rate&amp;field_tdr_date_value=2022">Daily Treasury Long-Term Rates</a></p>
+
+<p><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_long_term&amp;field_tdr_date_value=2022">Daily Treasury Real Long-Term Rates</a></p>
+
+<p> </p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:edd753f5-38d8-4209-a98c-27488d0d2fb1" class="block block-block-content block-block-contentedd753f5-38d8-4209-a98c-27488d0d2fb1 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/data/treasury-coupon-issues-and-corporate-bond-yield-curves">Treasury Coupon-Issue and Corporate Bond Yield Curve</a></h2>
+
+<p><a href="https://home.treasury.gov/data/treasury-coupon-issues-and-corporate-bond-yield-curves/treasury-coupon-issues">Treasury Coupon Issues</a></p>
+
+<p><a href="https://home.treasury.gov/data/treasury-coupon-issues-and-corporate-bond-yield-curve/corporate-bond-yield-curve">Corporate Bond Yield Curve</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+  
+<div data-block-plugin-id="block_content:3e280843-aad7-4e99-a3ad-4aa1d8d38a45" class="block block-block-content block-block-content3e280843-aad7-4e99-a3ad-4aa1d8d38a45 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>Federal Financial Data</h2>
+
+<p><a href="https://fiscaldata.treasury.gov/americas-finance-guide/ ">Your Guide to America’s Finances</a></p>
+
+<p><a href="https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/summary-of-receipts-outlays-and-the-deficit-surplus-of-the-u-s-government">Monthly Treasury Statement</a></p>
+
+<p><a href="https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/operating-cash-balance">Daily Treasury Statement</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:40da813f-5ffa-4ef2-9e52-6767d2e42042" class="block block-block-content block-block-content40da813f-5ffa-4ef2-9e52-6767d2e42042 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://usaspending.gov">How Your Money Is Spent</a></h2>
+
+<p><a href="https://www.usaspending.gov/">USAspending.gov</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:1fa5995a-90da-46f6-98f6-f892b7e83b25" class="block block-block-content block-block-content1fa5995a-90da-46f6-98f6-f892b7e83b25 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://www.treasurydirect.gov/govt/reports/pd/pd_debttothepenny.htm">National Debt</a></h2>
+
+<p><a href="https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny">National Debt to the Penny</a></p>
+
+<p><a href="https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding">Historical Debt Outstanding</a></p>
+
+<p><a href="https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/summary-of-treasury-securities-outstanding">Monthly Statement of the Public Debt </a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:5f1697f3-3b2e-4ac3-9b73-2c49fa9926d0" class="block block-block-content block-block-content5f1697f3-3b2e-4ac3-9b73-2c49fa9926d0 no-underline">
+  
+    
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+  
+<div data-block-plugin-id="block_content:65eef870-0ea4-4f5d-995e-a15fa42d00bc" class="block block-block-content block-block-content65eef870-0ea4-4f5d-995e-a15fa42d00bc no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding">Quarterly Refunding</a></h2>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/treasury-quarterly-refunding-process">Debt Management Overview and Quarterly Refunding Process</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents">Most Recent Documents</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives">Archives</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/treasury-quarterly-refunding-webcasts">Webcasts</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:b3900a1b-1a1f-4663-8abc-c1c74528e6bc" class="block block-block-content block-block-contentb3900a1b-1a1f-4663-8abc-c1c74528e6bc no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/data/investor-class-auction-allotments">Investor Class Auction Allotments</a></h2>
+
+<p> </p>
+
+<h2><a href="https://home.treasury.gov/data/other-programs">Other Programs</a></h2>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+  
+<div data-block-plugin-id="block_content:2a347020-8bd3-4994-88ba-c085eb54364b" class="block block-block-content block-block-content2a347020-8bd3-4994-88ba-c085eb54364b no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/data/treasury-international-capital-tic-system">Treasury International Capital (TIC) System</a></h2>
+
+<p><a href="https://home.treasury.gov/data/treasury-international-capital-tic-system">U.S International Portfolio Investment Statistics</a></p>
+
+<p><a href="https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page/release-dates-of-tic-data-0">Release Dates</a></p>
+
+<p><a href="https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions">Forms and Instructions</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:b79c5b27-c09f-4372-9f3a-15b7b804a842" class="block block-block-content block-block-contentb79c5b27-c09f-4372-9f3a-15b7b804a842 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/data/us-international-reserve-position">U.S. International Reserve Position</a></h2>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-column" id="column-6">
+      <div class="block-region-col6">
+  
+<div data-block-plugin-id="block_content:7b74c93b-9cc7-4791-a582-c36e910c5d41" class="block block-block-content block-block-content7b74c93b-9cc7-4791-a582-c36e910c5d41 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/data/troubled-assets-relief-program">Troubled Assets Relief Program</a></h2>
+
+<p><a href="https://home.treasury.gov/data/troubled-assets-relief-program/reports">Reports</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+</div>
+
+  </div>
+</article>
+
+      </div>
+                      </li>
+        <li class="nav-item ">
+            <a href="/services" class="mm-top" onclick="return false;">Services</a>
+                  <div class="sub-nav">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    <div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>Services</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+  
+<div data-block-plugin-id="block_content:cd22a6d8-a500-49bb-a312-73c7d2985388" class="block block-block-content block-block-contentcd22a6d8-a500-49bb-a312-73c7d2985388 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse">Report Fraud, Waste &amp; Abuse</a></h2>
+
+<p><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/covid-19-scams">Report COVID-19 Scam Attempts</a></p>
+
+<p><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/report-scam-attempts">Report Scam Attempts</a></p>
+
+<p><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/report-fraud-or-misconduct-related-to-government-contracts-or">Report Fraud Related to Government Contracts</a></p>
+
+<p><a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/inspectors-general">Inspectors General</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:5c206fe4-3cd6-4a7f-b337-75d6f0042fbc" class="block block-block-content block-block-content5c206fe4-3cd6-4a7f-b337-75d6f0042fbc no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/bonds-and-securities">Bonds and Securities</a></h2>
+
+<p><a href="https://www.treasurydirect.gov/tdhome.htm">Buy, Manage, and Redeem</a></p>
+
+<p><a href="https://treasuryhunt.gov/">Treasury Hunt - Search for Matured Bonds</a></p>
+
+<p><a href="https://www.treasurydirect.gov/indiv/research/indepth/ebonds/res_e_bonds_eeredeem_disaster.htm">Cashing Savings Bonds in Disaster-Declared Areas</a></p>
+
+<p><a href="https://www.treasurydirect.gov/faq.htm">Frequently Asked Questions</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:1337c6e2-5df1-4e57-9bb8-7d76ca39c94c" class="block block-block-content block-block-content1337c6e2-5df1-4e57-9bb8-7d76ca39c94c no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/grant-programs">Grant Programs</a></h2>
+
+<p><a href="https://home.treasury.gov/services/social-impact-partnerships/sippra-pay-for-results">Pay for Results (SIPPRA)</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/restore-act">RESTORE Act</a></p>
+
+<p><a href="https://www.cdfifund.gov/Pages/default.aspx">Community Development Financial Institution (CDFI) Fund</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+  
+<div data-block-plugin-id="block_content:697d3b79-4238-4159-8111-a4b033f11319" class="block block-block-content block-block-content697d3b79-4238-4159-8111-a4b033f11319 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/treasury-payments">Treasury Payments</a></h2>
+
+<p><a href="https://www.irs.gov/refunds">Where is my Refund?</a></p>
+
+<p><a href="https://fiscal.treasury.gov/pfc/i-want-to.html">Lost or Expired Check</a></p>
+
+<p><a href="https://www.fiscal.treasury.gov/fsservices/indiv/pmt/dirExpss/dirExpss_home.htm">Direct Express Card</a></p>
+
+<p><a href="https://www.fiscal.treasury.gov/fsservices/gov/pmt/eft/eft_home.htm">Non-Benefit Federal Payments</a></p>
+
+<p><a href="https://fiscal.treasury.gov/GoDirect/">Electronic Federal Benefit Payments - GoDirect</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:a42a1c43-137d-4599-8c4e-4d6f6030ed6b" class="block block-block-content block-block-contenta42a1c43-137d-4599-8c4e-4d6f6030ed6b no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/currency-and-coins">Currency and Coins</a></h2>
+
+<p><a href="https://www.usmint.gov/">Shop for Coin Products</a></p>
+
+<p><a href="https://www.bep.gov/services">Shop for Currency Products </a></p>
+
+<p><a href="https://www.bep.gov/services/mutilated-currency-redemption">Redeem Damaged Currency</a></p>
+
+<p><a href="https://www.bep.gov/">Bureau of Engraving and Printing</a></p>
+
+<p><a href="https://www.usmint.gov/">U.S Mint</a></p>
+
+<p> </p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+  
+<div data-block-plugin-id="block_content:162bab68-efbe-4083-832b-1499417428d2" class="block block-block-content block-block-content162bab68-efbe-4083-832b-1499417428d2 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/treasury-auctions">Auctions</a></h2>
+
+<p><a href="https://www.treasury.gov/auctions/irs/index.html">IRS Auctions</a></p>
+
+<p><a href="https://www.treasury.gov/auctions/treasury/rp/">Real Estate</a></p>
+
+<p><a href="https://www.treasury.gov/auctions/treasury/gp/">General Property, Vehicles, Vessels &amp; Aircraft</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:04a3cfc7-3c51-4a8f-b13b-6c8463269c42" class="block block-block-content block-block-content04a3cfc7-3c51-4a8f-b13b-6c8463269c42 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="/services/the-multiemployer-pension-reform-act-of-2014">Kline-Miller Multiemployer Pension Reform Act of 2014 </a></h2>
+
+<p><a href="/services/the-multiemployer-pension-reform-act-of-2014/applications-for-benefit-suspension">Applications</a></p>
+
+<p><a href="/services/the-multiemployer-pension-reform-act-of-2014/frequently-asked-questions-about-the-kline-miller-multiemployer-pension-reform-act">Frequently Asked Questions</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:a7453ce4-9a46-433f-bb6e-f7d19f11a1bc" class="block block-block-content block-block-contenta7453ce4-9a46-433f-bb6e-f7d19f11a1bc no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/education">Education</a></h2>
+
+<p> </p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+  
+<div data-block-plugin-id="block_content:b91a7ac1-1e69-4dd7-abd4-e453901167a0" class="block block-block-content block-block-contentb91a7ac1-1e69-4dd7-abd4-e453901167a0 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/taxes">Taxes</a></h2>
+
+<p><a href="https://www.irs.gov/">Internal Revenue Service (IRS) </a></p>
+
+<p><a href="https://www.irs.gov/forms-instructions">IRS Forms, Instructions &amp; Publications</a></p>
+
+<p><a href="https://www.irs.gov/refunds">Refund Status</a></p>
+
+<p><a href="https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca">Foreign Account Tax Compliance Act</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:e66a6639-cf86-4822-b84e-2afeb5caa7c7" class="block block-block-content block-block-contente66a6639-cf86-4822-b84e-2afeb5caa7c7 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/forms">Forms</a></h2>
+
+<p><a href="https://www.irs.gov/forms-instructions">IRS Forms and Instructions</a></p>
+
+<p><a href="https://treasurydirect.gov/forms.htm">Savings Bonds - Treasury Securities</a></p>
+
+<p><a href="https://bsaefiling.fincen.treas.gov/main.html">Bank Secrecy Act - Fincen 114 and more</a></p>
+
+<p><a href="https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information">OFAC Reporting and License Applications</a></p>
+
+<p><a href="https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page/tic-forms-instructions">Treasury International Capital (TIC)</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-column" id="column-6">
+      <div class="block-region-col6">
+  
+<div data-block-plugin-id="block_content:2bc4edd6-3bb0-4803-a971-32a8e2934e37" class="block block-block-content block-block-content2bc4edd6-3bb0-4803-a971-32a8e2934e37 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/government-shared-services">Government Shared Services</a></h2>
+
+<p><a href="https://home.treasury.gov/services/government-shared-services/enterprise-business-solutions">Enterprise Business Solutions (EBS)</a></p>
+
+<p><a href="https://home.treasury.gov/services/government-shared-services/treasury-franchise-fund">Treasury Franchise Fund (TFF)</a></p>
+
+<p><a href="https://home.treasury.gov/services/government-shared-services/administrative-resource-center">Administrative Resource Center (ARC)</a></p>
+
+<p><a href="https://home.treasury.gov/services/government-shared-services/shared-services-programs">Shared Services Program (SSP)</a></p>
+
+<p><a href="https://www.treasurydirect.gov/govt/govt.htm">TreasuryDirect</a></p>
+
+<p><a href="https://www.ipp.gov/">Invoice Processing Platform</a></p>
+</div>
+      
+  </div>
+
+  
+<div data-block-plugin-id="block_content:edb8879e-fa29-4f75-86c5-c50b398f5682" class="block block-block-content block-block-contentedb8879e-fa29-4f75-86c5-c50b398f5682 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/services/tours-and-library">Tours and Library</a></h2>
+
+<p><a href="https://home.treasury.gov/services/tours-and-library/tours-of-the-historic-treasury-building">Historic Treasury Building</a></p>
+
+<p><a href="https://home.treasury.gov/services/tours-and-library/library">Library</a></p>
+
+<p><a href="https://home.treasury.gov/about/history/curator">Curator</a></p>
+
+<p><a href="https://www.bep.gov/visitor-centers">Bureau of Engraving and Printing</a></p>
+
+<p><a href="https://www.usmint.gov/about/mint-tours-facilities">U.S. Mint</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+</div>
+
+  </div>
+</article>
+
+      </div>
+                      </li>
+        <li class="nav-item ">
+            <a href="/news/press-releases" class="mm-top" onclick="return false;">News</a>
+                        <div class="sub-nav news-menu">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+    <div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>News</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+  
+<div class="views-element-container block block-views block-views-blockmega-menu-news-block-1 no-underline" data-block-plugin-id="views_block:mega_menu_news-block_1">
+  
+    
+      <div><div class="mm-news-block view view-mega-menu-news view-id-mega_menu_news view-display-id-block_1 js-view-dom-id-de2b1155e5ae20ddae26e2d73f5aed1f85b7b24ca3cec3e271a344940651bc24">
+  
+    
+      <div class="view-header">
+      <h2 class=""><a href="/news/featured-stories" class="">Featured Stories</a></h2>
+    </div>
+      
+      <div class="view-content">
+          <div class="mm-news-row">
+    <time datetime="2022-12-09T21:03:57Z">December 9, 2022</time>
+<div class="news-title"><a href="/news/featured-stories/on-anti-corruption-day-a-look-at-treasury-efforts-to-counter-corruption" hreflang="en">On Anti-Corruption Day, A Look at Treasury Efforts to Counter Corruption</a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-06T16:56:07Z">December 6, 2022</time>
+<div class="news-title"><a href="/news/featured-stories/biden-harris-administration-announces-florida-georgia-iowa-minnesota-missouri-and-utah-to-receive-nearly-1-billion-in-american-rescue-plan-funds-to-increase-access-to-affordable-high-speed-internet" hreflang="en">Biden-Harris Administration Announces Florida, Georgia, Iowa, Minnesota, Missouri and Utah to Receive Nearly $1 Billion in American Rescue Plan Funds to Increase Access to Affordable, High-Speed Internet</a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-06T15:27:20Z">December 6, 2022</time>
+<div class="news-title"><a href="/news/featured-stories/save-the-date-us-eu-trade-and-technology-council-2022-outreach-to-stakeholders-on-investment-screening" hreflang="en">SAVE THE DATE: U.S.-EU Trade and Technology Council – 2022 Outreach to Stakeholders on Investment Screening</a></div>
+  </div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="more-link">
+<a href="/news/featured-stories" title="View all Featured Stories">View all<span class="visually-hidden"> Featured Stories</span></a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </div>
+</div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+  
+<div class="views-element-container block block-views block-views-blockmega-menu-news-block-3 no-underline" data-block-plugin-id="views_block:mega_menu_news-block_3">
+  
+    
+      <div><div class="mm-news-block view view-mega-menu-news view-id-mega_menu_news view-display-id-block_3 js-view-dom-id-92c774455e9e4d8f2d538af5d98e834dbce09ff9d7c59a60dc67e1173f894ab4">
+  
+    
+      <div class="view-header">
+      <h2><a href="/news/press-releases">Press Releases</a></h2>
+    </div>
+      
+      <div class="view-content">
+          <div class="mm-news-row">
+    <time datetime="2022-12-21T18:00:00Z">December 21, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1177" hreflang="en">Treasury Sanctions Iranian Regime Officials Tied to Continued Violence Against Protestors </a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-20T21:15:00Z">December 20, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1176" hreflang="en">Treasury Announces Three Additional Capital Projects Fund Awards to Increase Access to Affordable, High-Speed Internet</a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-20T18:00:00Z">December 20, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1175" hreflang="en">Treasury Implements Historic Humanitarian Sanctions Exceptions</a></div>
+  </div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="more-link">
+<a href="/news/press-releases" title="View all Press Releases">View All<span class="visually-hidden"> Press Releases</span></a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+  
+<div class="views-element-container block block-views block-views-blockmega-menu-news-block-5 no-underline" data-block-plugin-id="views_block:mega_menu_news-block_5">
+  
+    
+      <div><div class="mm-news-block view view-mega-menu-news view-id-mega_menu_news view-display-id-block_5 js-view-dom-id-c6943014b53f155f53c9da0a3f7d3da3119a77f19e522dbaeb7fcd10293e000b">
+  
+    
+      <div class="view-header">
+      <h2><a href="/news/press-releases/statements-remarks">Remarks and Statements</a></h2>
+    </div>
+      
+      <div class="view-content">
+          <div class="mm-news-row">
+    <time datetime="2022-12-16T13:24:56Z">December 16, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1170" hreflang="en">Statement from Secretary of the Treasury Janet L. Yellen on the European Union Directive Implementing a Global Minimum Tax</a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-15T22:22:50Z">December 15, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1169" hreflang="en">Remarks by Secretary of the Treasury Janet L. Yellen at Bilateral Meeting with the President of the Republic of Senegal Macky Sall</a></div>
+  </div>
+    <div class="mm-news-row">
+    <time datetime="2022-12-15T21:15:00Z">December 15, 2022</time>
+<div class="news-title"><a href="/news/press-releases/jy1168" hreflang="en">Remarks by Secretary of the Treasury Janet L. Yellen at U.S.-Africa Leaders Summit: Heads of State Session on Food Security</a></div>
+  </div>
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="more-link">
+<a href="/news/press-releases/statements-remarks" title="View all Remarks and Statements">View All<span class="visually-hidden"> Remarks and Statements</span></a>
+</div>
+    </div>
+    </div>
+</div>
+
+  </div>
+</div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+  
+<div data-block-plugin-id="block_content:b783c42f-c8c7-40ce-8801-5e190fa1f337" class="block block-block-content block-block-contentb783c42f-c8c7-40ce-8801-5e190fa1f337 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2><a href="https://home.treasury.gov/news/press-releases">Press Information</a></h2>
+
+<p><a href="https://home.treasury.gov/news/contacts-for-members-of-the-media">Press Contacts</a></p>
+
+<p><a href="https://search.usa.gov/search/docs?utf8=%E2%9C%93&amp;affiliate=treas&amp;sort_by=&amp;dc=9123&amp;query=weekly-schedule-updates">Weekly Public Schedule Archive</a></p>
+
+<p><a href="https://home.treasury.gov/news/webcasts">Webcasts</a></p>
+
+<p><a href="https://search.usa.gov/search/docs?utf8=%E2%9C%93&amp;affiliate=treas&amp;sort_by=&amp;dc=9121&amp;query=media-advisories">Media Advisories Archive</a></p>
+
+<p><a href="https://service.govdelivery.com/accounts/USTREAS/subscriber/new?topic_id=USTREAS_49">Subscribe to Press Releases</a></p>
+</div>
+      
+  </div>
+</div>
+  </div>
+  
+        <div class="sub-nav-group twitter-feed" id="column-6">
+          <div class="block-region-col6">
+            <div class="mm-news-block mobile-card view view-mega-menu-news view-id-mega_menu_news view-display-id-block_3 js-view-dom-id-b2c42544280177d5acae1de1d570863f6cc30245125750dab4f7a5b1617a3d64">
+              <h2><a href="https://twitter.com/USTreasury">Twitter</a></h2>
+              <div class="view-content" id="titterfeedDiv">
+                <!--Twitter Start-->
+                                <div class="mm-news-row">
+                  <time datetime="Tue Dec 20 21:15:14 " class="datetime">Tue, 12/20/2022 - 16:15</time>
+                  <div class="news-title">
+                    <a href="https://twitter.com/TreasuryDepSec/status/1605310998688038912" title="click to open social media link" class="twitterlink"> RT @TreasuryDepSec: The general licenses released today reflect our commitment to ensuring humanitarian assistance and related trade contin… </a>
+                  </div>
+                </div>
+                                <div class="mm-news-row">
+                  <time datetime="Fri Dec 16 16:10:34 " class="datetime">Fri, 12/16/2022 - 11:10</time>
+                  <div class="news-title">
+                    <a href="https://twitter.com/USTreasury/status/1603784660303192065" title="click to open social media link" class="twitterlink"> At the #AfricaLeadersSummit, @SecYellen &amp; @TreasuryDepSec met with representatives from countries across Africa to… https://t.co/3NsL0OsGAj </a>
+                  </div>
+                </div>
+                                <!--Twitter End-->
+              </div>
+               <div class="more-link">
+                <a href="https://twitter.com/USTreasury" title="View more posts on twitter.com" class="">View All Tweets</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></article>
+      </div>
+                </li>
+        <li class="nav-item  mega-search">
+            <a href="/search" class="mm-top" onclick="return false;" id="mega-search-link">Search</a>
+                  <div class="sub-nav">
+        <article class="node node--type-mega_menu_panel node--view-mode-full clearfix">
+  
+    
+
+  <div>
+      <div class="search-block">
+    <div class="block-region-search-block">
+  
+<div id="mm-search-block-form" class="search-form search-block-form block block-search block-search-form-block no-underline" onsubmit="return api_do_search();" data-drupal-selector="search-block-form" data-block-plugin-id="search_form_block" role="search">
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="form-item js-form-type-search form-type-search form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input placeholder="Enter keywords" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="60" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Go" />
+</div>
+
+</form>
+
+  </div>
+</div>
+  </div>
+<div class="mobile-sub-nav">
+  <div class="block-region-col1">
+  
+<div data-block-plugin-id="entity_field:node:title" class="block block-ctools-block block-entity-fieldnodetitle no-underline">
+  
+    
+      <span>Search</span>
+
+  </div>
+</div>
+</div>
+<div class="mobile-scroll-wrap">
+  <div class="sub-nav-group secretarys-photo secretary-column" id="column-2">
+      <div class="block-region-col2">
+
+<nav role="navigation" aria-label="-menu" data-block-plugin-id="menu_block:quick-links" class="block block-menu navigation block-system-menublock menu--quick-links">
+                    
+        <h2 id="-menu">The Public</h2>
+        
+    
+                
+             <ul class="quik menu">
+                          <li class="menu-item menu-item--expanded">
+          <a href="/" data-drupal-link-system-path="&lt;front&gt;">General Public</a>
+                                    <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://home.treasury.gov/services/treasury-auctions">Auctions</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://home.treasury.gov/services/report-fraud-waste-and-abuse/report-scam-attempts">Report Scam Attempts</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.treasurydirect.gov/tdhome.htm" target="_blank">Savings Bonds</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+    </nav></div>
+  </div>
+  <div class="secretarys-bio sub-nav-group secretary-column" id="column-3">
+      <div class="block-region-col3">
+
+<nav role="navigation" aria-label="-menu" data-block-plugin-id="menu_block:quick-links" class="block block-menu navigation block-system-menublock menu--quick-links">
+                    
+        <h2 id="-menu">Businesses</h2>
+        
+    
+                
+             <ul class="quik menu">
+                          <li class="menu-item menu-item--expanded">
+          <a href="/" data-drupal-link-system-path="&lt;front&gt;">All Businesses</a>
+                                    <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://www.irs.gov/forms-pubs/about-form-941">Form 941, employer&#039;s quarterly federal tax return</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online">Employer Identification Number (EIN)</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item menu-item--expanded">
+          <a href="/" data-drupal-link-system-path="&lt;front&gt;">Small Businesses</a>
+                                    <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://home.treasury.gov/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/bureau-small-business-specialists">Small Business Contacts</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+    </nav></div>
+  </div>
+  <div class="sub-nav-group secretary-remarks secretary-column" id="column-4">
+      <div class="block-region-col4">
+
+<nav role="navigation" aria-label="-menu" data-block-plugin-id="menu_block:quick-links" class="block block-menu navigation block-system-menublock menu--quick-links">
+                    
+        <h2 id="-menu">Financial Institutions</h2>
+        
+    
+                
+             <ul class="quik menu">
+                          <li class="menu-item menu-item--expanded">
+          <a href="/" data-drupal-link-system-path="&lt;front&gt;">All Financial Institutions </a>
+                                    <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists">Specially Designated Nationals list</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/default.aspx">Interest rate statistics</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.treasury.gov/resource-center/data-chart-center/quarterly-refunding/Pages/default.aspx">Quarterly refunding information</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+    </nav></div>
+  </div>
+  <div class="sub-nav-group secretary-travel-schedule secretary-column" id="column-5">
+      <div class="block-region-col5">
+
+<nav role="navigation" aria-label="-menu" data-block-plugin-id="menu_block:quick-links" class="block block-menu navigation block-system-menublock menu--quick-links">
+                    
+        <h2 id="-menu">Government</h2>
+        
+    
+                
+             <ul class="quik menu">
+                          <li class="menu-item menu-item--expanded">
+          <a href="/" data-drupal-link-system-path="&lt;front&gt;">Federal Government</a>
+                                    <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://www.treasury.gov/about/budget-performance/Pages/default.aspx">Budget, Financial Reporting, Planning and Performance </a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://home.treasury.gov/services/government-shared-services">Shared Services</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.treasurydirect.gov/govt/govt.htm" target="_blank">TreasuryDirect for Government</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+    </nav></div>
+  </div>
+  <div class="sub-nav-group secretary-column" id="column-6">
+      
+  </div>
+</div>
+
+  </div>
+</article>
+
+      </div>
+                      </li>
+          </ul>
+</nav>
+
+  </div>
+
+  </div>
+
+                </div>
+                    </div>
+                  <!-- ______________________ ALERT BANNER REGION _______________________ -->
+          <div id="alert-banner-region">
+                
+            </div>
+              <!-- /alert banner region -->
+    </div>
+    <!-- /navigation -->
+
+    <!-- ______________________ Hero -- _______________________ -->
+
+    
+
+    <!-- ______________________ Pre Content _______________________ -->
+            <div class="clearfix pre-content" id="pre-content">
+            <div class="mq--t breadcrumb-container">
+                  <div class="region region-pre-content">
+    
+  
+<div id="block-hamilton-breadcrumbs" data-block-plugin-id="system_breadcrumb_block" class="block block-system block-system-breadcrumb-block no-underline">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  <a href="/data/treasury-international-capital-tic-system">Treasury International Capital (TIC) System</a>
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+            </div>
+        </div>
+    
+
+    <!-- ______________________ Preface -- _______________________ -->
+
+    
+
+    <!-- ______________________ MAIN _______________________ -->
+
+    <div class="clearfix content__container" id="main-content" tabindex="-1" role="main">
+        <div class="mq--t">
+
+                            <aside class="sidebar-first sidebars" id="sidebar-first">
+                    
+                </aside>
+                        <!-- /sidebar-first -->
+
+            <section id="content">
+
+                
+                <div id="content-area">
+                      <div class="region region-content">
+    
+  
+<div id="block-hamilton-page-title" data-block-plugin-id="page_title_block" class="block block-core block-page-title-block no-underline">
+  
+    
+      
+  <h2><span>U.S. Liabilities to Foreigners from Holdings of U.S. Securities</span>
+</h2>
+
+
+  </div>
+
+  
+<div id="block-hamilton-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block no-underline">
+  
+    
+      
+<article  role="article" about="/data/treasury-international-capital-tic-system/us-liabilities-to-foreigners-from-holdings-of-us-securities" class="entity--type-node node node--type-page node--view-mode-full">
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+  
+<div data-block-plugin-id="extra_field_block:node:page:content_moderation_control" class="block block-layout-builder block-extra-field-blocknodepagecontent-moderation-control no-underline">
+  
+    
+      
+  </div>
+
+  
+<div data-block-plugin-id="field_block:node:page:field_page_body" class="block block-layout-builder block-field-blocknodepagefield-page-body no-underline">
+  
+    
+      
+            <div class="field field--name-field-page-body field--type-text-long field--label-hidden field__item"><p>            <button onclick="location.href='/data/treasury-international-capital-tic-system-home-page/contact-tic-using-tic'" class="shortcode-button blue medium auto filled/outline" type="button">
+            Contact TIC &amp; Using TIC
+        </button>
+    </p>
+
+<p> </p>
+
+<h3><b>REPORTS: Foreign Residents' Portfolio Holdings of U.S. Securities (SHL &amp; SHLA annual surveys)</b></h3>
+
+<div><br />
+-- <font color="#ff0000">(4-29-2022)</font> <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shlhistdat.html" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Historical data</a> from the surveys during 1974-2021 are available showing the market value of foreign portfolio holdings of U.S. securities by country and by type of security. (Also in <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shlhistdat.csv" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">"CSV"</a> and <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shlhistdat.txt" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">"tab-delimited text"</a> formats.)</div>
+
+<p> </p>
+
+<ol><li><font color="#ff0000">(4-29-2022)</font>.<a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2021r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2021</a> (PDF). This report presents the findings of the annual survey as of June 30, 2021. It includes comparisons with the results of previous surveys. Click on the page number in the Table of Contents to go to a section of interest.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2021r_appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format.<br />
+	-- There is a press release dated <a href="/news/press-releases/jy0753" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/29/2022</a>.<br />
+	 </li>
+	<li><font color="#ff0000">(4-30-2021)</font>.<a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2020report.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2020</a> (PDF). This report presents the findings of the annual survey as of June 30, 2020. It includes comparisons with the results of previous surveys.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2020r_appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format.<br />
+	-- There is a press release dated <a href="/news/press-releases/jy0157" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2021</a>.<br />
+	 </li>
+	<li><font color="#ff0000">(4-30-2020)</font>.<a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2019r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/28/2019</a> (PDF). This report presents the findings of the annual survey as of June 28, 2019. It includes comparisons with the results of previous surveys.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2019r_appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT(tab-delimited) format.<br />
+	-- There is a press release dated <a href="/news/press-releases/sm994" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2020</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2018r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/29/2018</a> (PDF). This report presents the findings of the annual survey as of June 30, 2018. It includes comparisons with the results of previous surveys. (There was a revision on 05-15-2019 when a correction was made in Exhibit 15 (p. 27), the accompanying discussion (p. 26), and the corresponding table in Appendix B (p. 11) because of a data processing error in the original file released on 04-30-2019.)<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2018r_appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format.<br />
+	-- There is a press release dated <a href="/news/press-releases/sm676" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2019</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2017r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2017</a> (PDF). This report presents the findings of the annual survey as of June 30, 2017. It includes comparisons with the results of previous surveys.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2017r-appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format.<br />
+	-- There is a press release dated <a href="/news/press-releases/sm0374" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2018</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2016r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2016</a> (PDF). This report presents the findings of the annual survey as of June 30, 2016. It includes comparisons with the results of previous surveys.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2016r-appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in TXT format.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/pages/sm0066.ASPX" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/28/2017</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2015r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2015</a> (PDF). This report presents the findings of the annual survey as of June 30, 2015. It includes comparisons with the results of previous surveys since 2008.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2015r-appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in tab-delimited text format.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/jl0469.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">05/31/2016</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2014r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2014</a> (PDF). This report presents the findings of the benchmark survey as of June 30, 2014. It includes comparisons with the results of previous surveys since 2007.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2014r-appx.zip" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (zip file) can be downloaded and opened. For each appendix table there are three files: one in PDF format, one in CSV format, and one in tab-delimited text format.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/jl0042.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2015</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2013r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2013</a> (PDF). This report presents the findings of the annual survey as of June 30, 2013. It includes comparisons with the results of previous surveys since 2006.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2013r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.)<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/jl2379.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2014</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2012r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2012</a> (PDF). This report presents the findings of the annual survey as of June 30, 2012. It includes comparisons with the results of previous surveys since 2005. The 2012 data for Hong Kong and Taiwan have been revised since publication of this 2012 report. The revision is a shift of $83 billion in holdings of long-term agency securities from Hong Kong to Taiwan. This change affects the rows for Taiwan and Hong Kong in table 8, and in appendix tables A1, A2, A5, A7, and A9 in this 2012 report. In later reports, such as the survey report for June 30, 2013, the corrected data appear in historical appendix tables A7 and A9.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2012r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.)<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/jl1924.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2013</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2011r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2011</a> (PDF). This report presents the findings of the annual survey as of June 30, 2011. It includes comparisons with the results of previous surveys since 2004.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2011r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened with a spreadsheet program. (Note: If file opens in text, then closing &amp; reopening may help.)<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/tg1557.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2012</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2010r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2010</a> (PDF). This report presents the findings of the annual survey as of June 30, 2010. It includes comparisons with the results of previous surveys since 2003.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2010r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened with a spreadsheet program.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/tg1153.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/29/2011</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2009r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2009</a> (PDF) (4-30-2010; table 2 revised 5-13-2010). This report presents the findings of the benchmark survey as of June 30, 2009. It includes comparisons with the results of previous surveys since 2002.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2009r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened into a spreadsheet program.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/tg677.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2010</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2008r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2008</a> (PDF) (4-30-09; 11-18-09 small corrections made to percentages shown in table 2; 9-20-10 totals corrected in table 24 on page 54). This report presents the findings of the annual survey as of June 30, 2008. It includes comparisons with the results of previous surveys since 2000.<br />
+	-- The <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shla2008r-appx.mht" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">appendix tables</a> (MHT file) can be downloaded and opened into a spreadsheet program.<br />
+	-- There was a press release dated <a href="https://treasury.gov/press-center/press-releases/Pages/tg116.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2009</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2007r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2007</a> (PDF) . Press release was dated <a href="https://treasury.gov/press-center/press-releases/Pages/hp947.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">04/30/2008</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2006r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2006</a> (PDF) . Press release was dated <a href="https://treasury.gov/press-center/press-releases/Pages/hp437.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">05/31/2007</a>. This survey includes, for the first time, holdings of U.S. MBS securities, a part of ABS securities.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2005r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2005</a> (PDF) . Press release was dated <a href="https://treasury.gov/press-center/press-releases/Pages/js4347.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">06/30/2006</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2004r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2004</a> (PDF) . Press release was dated <a href="https://treasury.gov/press-center/press-releases/Pages/js2622.aspx" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">06/30/2005</a>.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2003r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2003</a> (PDF). This survey includes, for the first time, holdings of U.S. ABS securities.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2002r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Securities as of 6/30/2002</a> (PDF). This survey includes, for the first time, holdings of short-term U.S. securities.<br />
+	 </li>
+	<li><a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/shl2000r.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Holdings of U.S. Long-Term Securities as of 3/31/2000</a> (PDF) . This report presents the findings of the benchmark survey as of March 31, 2000. Chapter 3 presents selected estimates for end-2001.<br />
+	 </li>
+	<li><a href="/data/treasury-international-capital-tic-system/shl94sum" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Foreign Portfolio Investment in the United States - 12/31/97.</a> This report summarizes the findings of the benchmark survey as of December 31, 1994. It includes estimates for several aggregates as of end-1997.</li>
+</ol><p> </p>
+
+<p> </p>
+
+<p><span class="textheader">Reference - recommended</span></p>
+
+<p> </p>
+
+<div>(May 2012) <a href="https://www.treasury.gov/resource-center/data-chart-center/tic/Documents/frbulmay2012.pdf" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Improving the Measurement of Cross-Border Securities Holdings: The Treasury International Capital SLT</a> (PDF). In the wake of the financial crisis, growing interest in improving the measurement of cross-border securities positions spurred the introduction of a new Treasury International Capital (TIC) reporting form, the TIC SLT. This article reviews the existing structure of TIC cross-border position and flow data, the benefits that the new SLT can provide, and the incoming information from the first two reporting months of SLT data, September and December 2011. While some patterns and characteristics of the SLT data will become clear only after more data have accumulated, the SLT data have already begun to provide timely insights on U.S. and foreign cross-border investment flows that are different from the monthly estimates provided by existing flow data. It is from the Federal Reserve Bulletin, Volume 98, May 23, 2012, Board of Governors of the Federal Reserve System.</div>
+
+<div>For other articles on TIC data, see the <a href="/data/treasury-international-capital-tic-system-home-page/help-files/articles-on-the-treasury-international-capital-system-tic" style="text-decoration: underline;" target="_blank" title="This link opens in a new window.">Articles on TIC</a> webpage.</div>
+</div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+<!-- /content -->
+
+  
+  
+  
+</article>
+<!-- /article #node -->
+
+  </div>
+
+  </div>
+
+                </div>
+
+                
+
+            </section>
+            <!-- /content-inner /content -->
+
+                        <!-- /sidebar-first -->
+
+        </div>
+        <!-- /mq--t -->
+    </div>
+    <!-- /main -->
+
+    <!-- ______________________ Post Content _______________________ -->
+
+    
+    <!-- ______________________ FOOTER _______________________ -->
+    <footer id="footer">
+            <div id="portal-footer">
+            <div class="mq--t">
+                <div class="inner">
+                  <div class="region region-footer">
+    
+
+<nav role="navigation" aria-label="block-portalfooter-menu" id="block-portalfooter" data-block-plugin-id="menu_block:portal-footer" class="col block block-menu navigation block-system-menublock menu--portal-footer">
+            
+    <h3 id="block-portalfooter-menu">Bureaus</h3>
+    
+
+                
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="http://www.ttb.gov/">Alcohol and Tobacco Tax and Trade (TTB)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.bep.gov/" data-display-mobile="0" data-display-desktop="0">Bureau of Engraving and Printing (BEP)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.fiscal.treasury.gov/">Bureau of the Fiscal Service (BFS)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.fincen.gov/">Financial Crimes Enforcement Network (FinCEN)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.irs.gov/">Internal Revenue Service (IRS)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.occ.gov/">Office of the Comptroller of the Currency (OCC)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.usmint.gov/">U.S. Mint</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+
+<nav role="navigation" aria-label="block-portalfooter-2-menu" id="block-portalfooter-2" data-block-plugin-id="menu_block:portal-footer" class="col block block-menu navigation block-system-menublock menu--portal-footer">
+            
+    <h3 id="block-portalfooter-2-menu">Inspector General Sites</h3>
+    
+
+                
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="https://oig.treasury.gov/">Office of Inspector General (OIG)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.treasury.gov/tigta">Treasury Inspector General for Tax Administration (TIGTA)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.sigtarp.gov/">Special Inspector General, Troubled Asset Relief Program (SIGTARP)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/services/report-fraud-waste-and-abuse" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/3431">Report Scams, Fraud, Waste &amp; Abuse</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.sigpr.gov/">Special Inspector General for Pandemic Recovery (SIGPR)</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+
+<nav role="navigation" aria-label="block-portalfooter-3-menu" id="block-portalfooter-3" data-block-plugin-id="menu_block:portal-footer" class="col block block-menu navigation block-system-menublock menu--portal-footer">
+            
+    <h3 id="block-portalfooter-3-menu">U.S. Government Shared</h3>
+    
+
+                
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="/services/government-shared-services/enterprise-business-solutions" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/3551">Enterprise Business Solutions</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://arc.fiscal.treasury.gov/" data-display-mobile="0" data-display-desktop="0">Administrative Resource Center (ARC)- Bureau of the Fiscal Service</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.treasurydirect.gov/govt/govt.htm">Treasury Direct Services for Governments</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+
+<nav role="navigation" aria-label="block-portalfooter-4-menu" id="block-portalfooter-4" data-block-plugin-id="menu_block:portal-footer" class="col block block-menu navigation block-system-menublock menu--portal-footer">
+            
+    <h3 id="block-portalfooter-4-menu">Additional Resources</h3>
+    
+
+                
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="/footer/privacy-act" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/4156">Privacy Act</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/bureau-small-business-specialists" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/17831">Small Business Contacts</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/about/budget-financial-reporting-planning-and-performance" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/3217">Budget and Performance</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.treasurydirect.gov/">TreasuryDirect.gov Securities/Bonds</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/footer/freedom-of-information-act" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/4136">Freedom of Information Act (FOIA)</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/footer/no-fear-act" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/3771">No FEAR Act Data</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/footer/prohibited-personnel-practices-and-whistleblower-protection" data-display-mobile="0" data-display-desktop="0" data-drupal-link-system-path="node/3691">Whistleblower Protection</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+
+<nav role="navigation" aria-label="block-portalfooter-5-menu" id="block-portalfooter-5" data-block-plugin-id="menu_block:portal-footer" class="col block block-menu navigation block-system-menublock menu--portal-footer">
+            
+    <h3 id="block-portalfooter-5-menu">Other Government Sites</h3>
+    
+
+                
+             <ul class="menu">
+                          <li class="menu-item">
+          <a href="http://www.usa.gov/">USA.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.usajobs.gov/">USAJOBS.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.opm.gov/">OPM.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.mymoney.gov/">MyMoney.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.data.gov/">Data.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://www.usa.gov/forms">Forms.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.regulations.gov/">Regulations.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.paymentaccuracy.gov/">PaymentAccuracy.gov</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="http://www.socialsecurity.gov/myaccount/">my Social Security</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="https://vote.gov/" data-display-mobile="0" data-display-desktop="0">Vote.gov</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+  </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /footer -->
+    
+    <!-- ______________________ Post FOOTER _______________________ -->
+
+            <div id="post-footer">
+            <div class="mq--t">
+                <div class="inner">
+                    <div class="col-1">
+                          <div class="region region-post-footer">
+    
+
+<nav role="navigation" aria-label="block-languages-menu" id="block-languages" data-block-plugin-id="menu_block:languages" class="block block-menu navigation block-system-menublock menu--languages">
+            
+                <div class="lang-menu">
+              <ul>
+                    <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/alrbyt-arabic" lang="ar" title="Arabic">العربية</a> 
+                
+      </li>
+                <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/zhongwenchinese" lang="zh" title="Chinese">中文</a> 
+                
+      </li>
+                <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/espanol" lang="es" title="Spanish">Español</a> 
+                
+      </li>
+                <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/korean" lang="ko" title="Korean">한국어</a> 
+                
+      </li>
+                <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/tagalog" lang="tl" title="Tagalog">Tagalog</a> 
+                
+      </li>
+                <li>
+      
+        <a href="https://home.treasury.gov/utility/languages/tiengviet-vietnamese" lang="vi" title="Vietnamese">TiếngViệt</a> 
+                
+      </li>
+        </ul>
+  
+</div>
+
+    </nav>
+
+<nav role="navigation" aria-label="block-utilityfooter-menu" id="block-utilityfooter" data-block-plugin-id="menu_block:utility-footer" class="block block-menu navigation block-system-menublock menu--utility-footer">
+            
+                <div class="site-menu">
+              <ul>
+              <li>
+        <a href="https://home.treasury.gov/subfooter/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+              </li>
+          <li>
+        <a href="https://home.treasury.gov/subfooter/google-privacy-policy" title="Google Privacy">Google Privacy</a>
+              </li>
+          <li>
+        <a href="https://home.treasury.gov/subfooter/site-policies-and-notices" title="Site Policies and Notices">Site Policies and Notices</a>
+              </li>
+          <li>
+        <a href="https://home.treasury.gov/faqs" title="FAQs">FAQs</a>
+              </li>
+          <li>
+        <a href="https://www.treasury.gov/pages/tgovproblemsfeedbackform.aspx" title="Feedback">Feedback</a>
+              </li>
+          <li>
+        <a href="/about/careers-at-treasury" data-display-mobile="0" data-display-desktop="0" title="Careers" data-drupal-link-system-path="node/4341">Careers</a>
+              </li>
+          <li>
+        <a href="/utility/accessibility" data-display-mobile="0" data-display-desktop="0" title="Accessibility" data-drupal-link-system-path="node/3851">Accessibility</a>
+              </li>
+        </ul>
+  
+  <div class="site-plugins">
+    Required Plug-ins <a href="http://get.adobe.com/reader/">Adobe® Reader®</a>
+  </div>
+</div>
+
+    </nav>
+  
+<div id="block-javascripttemporaryfixforfacebooklinkinfooter" data-block-plugin-id="block_content:07b6c9dc-f9a7-4b47-81bb-567eb4c4cc67" class="block block-block-content block-block-content07b6c9dc-f9a7-4b47-81bb-567eb4c4cc67 no-underline">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery("li.facebook a").attr("href", "https://www.facebook.com/USTreasuryDept");
+});
+</script></div>
+      
+  </div>
+
+  </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="social--small">
+                            <ul>
+                              <li class="twitter first"><a href="https://twitter.com/USTreasury" aria-label="Twitter"><span>Twitter</span> </a></li>
+                              <li class="facebook"><a href="https://facebook.com/ustreasury" aria-label="Facebook"><span>Facebook</span></a></li>
+							  <!--
+                              <li class="flickr"><a href="http://www.flickr.com/photos/ustreasury"><span>Flickr</span></a></li>
+                              <li class="youtube last"><a href="https://www.youtube.com/user/USTreasGov"><span>YouTube</span></a></li>
+							  -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /footer -->
+        </footer>
+</div>
+<!-- /page -->
+
+  </div>
+
+
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.2"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=9.4.7"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=9.4.7"></script>
+<script src="/modules/contrib/jquery_ui_controlgroup/jquery.ui/ui/widgets/controlgroup-min.js?v=1.12.1"></script>
+<script src="/modules/contrib/jquery_ui_checkboxradio/jquery.ui/ui/form-reset-mixin-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui_checkboxradio/jquery.ui/ui/widgets/checkboxradio-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui_button/jquery.ui/ui/widgets/button-min.js?v=1.12.1"></script>
+<script src="/modules/contrib/jquery_ui_draggable/jquery.ui/ui/widgets/draggable-min.js?v=1.12.1"></script>
+<script src="/core/misc/position.js?v=9.4.7"></script>
+<script src="/modules/contrib/jquery_ui_resizable/jquery.ui/ui/widgets/resizable-min.js?v=1.12.1"></script>
+<script src="/modules/contrib/jquery_ui_dialog/jquery.ui/ui/widgets/dialog-min.js?v=1.12.1"></script>
+<script src="/modules/contrib/jquery_ui_tabs/jquery.ui/ui/widgets/tabs-min.js?v=1.12.1"></script>
+<script src="/themes/custom/hamilton/js/theme.min.js?v=9.4.7"></script>
+<script src="/modules/custom/treasury_core/js/jquery-dateformat.js?v=1.x"></script>
+<script src="/modules/custom/treasury_mega_menu/js/treasury_mega_menu.js?v=9.4.7"></script>
+<script src="/modules/custom/treasury_mega_menu/js/jquery-accessibleMegaMenu.js?v=9.4.7"></script>
+<script src="/modules/custom/treasury_site/js/treasury_site.js?v=1.x"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=TRE&amp;pua=UA-19138737-19" id="_fed_an_ua_tag"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c385fefcaf","applicationID":"70697698","transactionName":"YwZaMkdYWhYCARJQV1pMeQVBUFsLTBIHXl1rAFkFXVw=","queueTime":0,"applicationTime":64,"atts":"T0FZRA9CSRg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
