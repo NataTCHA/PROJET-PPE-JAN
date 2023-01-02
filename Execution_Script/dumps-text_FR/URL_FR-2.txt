@@ -1,3 +1,263 @@
-                                   Forbidden
+   false
 
-   You don't have permission to access this resource.
+   Veuillez-patienter...
+
+   Recherche Aide
+   accueil /static/img/logo_com_externe_semi_bold.png
+   /static/img/logo-insee-header.png
+   Menu English
+     * Menu
+     * Contenu
+     * Blog
+     * Espace presse
+     * Aide
+     * Accès sourds et malentendants
+     * English
+
+   Veuillez-patienter... ____________________ (BUTTON)
+     *
+     * Statistiques et études
+       Cherchez vos statistiques par…
+          + Thèmes
+               o Économie - conjoncture - comptes nationaux
+               o Démographie
+               o Entreprises
+               o Plus de thèmes…
+          + Niveaux géographiques
+               o France
+               o Toutes les régions ou tous les départements
+               o Toutes les communes
+               o Plus de niveaux géographiques…
+          + Catégories
+               o Données
+               o Publications
+               o Plus de catégories…
+          + Collections
+               o Insee Première
+               o Notes et points de conjoncture
+               o Plus de collections…
+     * Définitions, méthodes et qualité
+          + Définitions
+               o Toutes les définitions des concepts
+          + Sources statistiques et indicateurs
+               o Liste des sources statistiques
+               o Liste des indicateurs
+               o Documentation complémentaire sur le recensement
+          + La qualité dans le Service statistique public (SSP)
+               o Le cadre de référence
+               o La troisième revue européenne par les pairs en 2021
+               o La gouvernance
+               o Les compétences
+               o Les actions et démarches qualité dans une approche
+                 processus
+               o Les engagements européens
+               o Les besoins des utilisateurs
+          + Nomenclatures
+               o Nomenclature d’activités française
+               o Nomenclature agrégée - NA, 2008
+               o Classification des produits française
+               o Classification des fonctions de consommation des ménages
+               o Catégories juridiques
+               o Nomenclatures des professions et catégories
+                 socioprofessionnelles
+          + Géographie administrative et d'étude
+               o Recherche sur une zone géographique
+               o Historique des communes
+               o Téléchargement
+               o Communes nouvelles
+               o Codification des collectivités d'outre-mer (COM)
+               o Codification des pays et territoires étrangers
+               o Collectivités territoriales à statut particulier
+          + Modèles, méthodes et outils statistiques
+               o Les modèles statistiques
+               o Les outils statistiques
+               o Méthodologie statistique
+          + Courrier des statistiques
+          + Open Data, données RDF et espace XML
+               o Diffusion des bases de données
+               o Utilisation des formats de diffusion
+               o Catalogue des API de l'Insee
+     * Services
+          + Réviser une pension, un loyer, bail ou contrat
+               o Réviser une pension alimentaire
+               o Réviser un loyer d'habitation
+               o Réviser un bail commercial ou professionnel
+               o Indexer un contrat
+               o Convertisseur franc-euro
+          + Consulter les indices et séries chronologiques
+               o Recherche d'indices et de séries chronologiques
+               o Utilisation du service web SDMX
+               o Tables de passage
+               o Historique des actualités
+          + Sirene
+               o Obtenir un avis de situation au répertoire Sirene
+               o Modifier le statut de diffusion au répertoire Sirene
+               o S'informer sur les démarches
+               o Obtenir sa catégorie d'entreprise
+               o Identifiant unique des intervenants sur les marchés
+                 financiers (LEI)
+               o Consulter et télécharger la base Sirene
+               o Demander son habilitation ProConnect
+          + Découvrir, apprendre
+          + Répondre à une enquête de l'Insee
+               o Enquêtes auprès des particuliers
+               o Enquêtes auprès des entreprises
+               o Faux enquêteurs, fraude, malveillance
+          + Consulter les agendas de diffusion
+               o Agenda des indicateurs
+               o Agenda des publications
+               o Publications les plus récentes
+               o Évènements annoncés à la Une du site
+          + Gérer les répertoires des personnes physiques
+               o Recueil des données d'état civil
+               o Le Répertoire électoral unique
+               o Dématérialisation des échanges de données
+               o Nombre de décès quotidiens par département
+               o Fichiers des personnes décédées depuis 1970
+          + Bibliothèque de l’Insee Alain Desrosières
+               o Portail documentaire et catalogue
+               o La Bibliothèque numérique de la statistique publique
+               o Contacter la bibliothèque
+          + Commander une prestation, acheter une publication
+               o Diffusion sur mesure
+               o Acheter nos publications
+          + Nous suivre
+               o Lettres d'information
+               o Abonnements aux lettres d'information et aux avis
+                 de parution
+               o Abonnement aux flux RSS
+               o L'Insee sur les médias sociaux
+               o Insee Mobile
+          + Aide
+               o Réponses à vos questions
+               o Aide à la navigation
+               o L’Insee est accessible aux personnes malentendantes ou
+                 sourdes avec Acceo
+          + Espace presse
+               o Événements presse
+               o Calendrier des publications
+               o Communiqués de presse nationaux
+               o Communiqués de presse régionaux
+     * L'Insee et la statistique publique
+          + L'Insee
+               o Connaître l'Insee
+               o Travailler à l'Insee
+               o Colloques, séminaires et salons
+               o Un peu d'histoire
+               o Rapports d'activité
+          + Les activités de l'Insee
+               o Établir des diagnostics conjoncturels
+               o Connaître les entreprises
+               o Observer l'évolution de la société
+               o Réaliser le recensement de la population
+               o Décrire et analyser les régions et les territoires
+               o Gérer des grands répertoires
+               o Diffuser ses statistiques et ses études
+               o Perfectionner ses méthodes et évaluer la qualité
+               o Contribuer à la construction de la statistique européenne
+                 et internationale
+          + La statistique publique
+               o Cadre juridique et institutionnel
+               o Le service statistique public
+               o Secret statistique
+               o Protection des données personnelles
+               o Accès aux données publiques
+               o Accès aux documents administratifs
+          + La construction de la statistique européenne
+               o Les producteurs de statistiques européennes en France
+               o Textes juridiques de la gouvernance
+                 statistique européenne
+               o Les règlements cadres et sectoriels
+          + Mesure de la qualité de service
+               o Les indicateurs de qualité du programme Transparence
+               o Résultats des enquêtes de satisfaction
+          + Services publics+ : un service public plus proche, plus
+            simple, plus efficace
+
+    1. Accueil
+    2. Définitions, méthodes et qualité
+    3. Définitions
+    4. Étranger
+
+Étranger
+
+   Définitions
+
+   Dernière mise à jour le :07/12/2020
+
+Définition
+
+
+   Un étranger est une personne qui réside en France et ne possède pas la
+   nationalité française, soit qu'elle possède une autre nationalité (à
+   titre exclusif), soit qu'elle n'en ait aucune (c'est le cas des
+   personnes apatrides). Les personnes de nationalité française possédant
+   une autre nationalité (ou plusieurs) sont considérées en France comme
+   françaises. Un étranger n'est pas forcément immigré, il peut être né en
+   France (les mineurs notamment).
+
+Remarque
+
+
+   A la différence de celle d'immigré, la qualité d'étranger ne perdure
+   pas toujours tout au long de la vie : on peut, sous réserve que la
+   législation en vigueur le permette, devenir français par acquisition.
+
+   Menu
+
+Abonnez-vous
+
+   Avis de parution
+
+Nous suivre
+
+Contact
+
+   Nous contacter
+     * Statistiques et études
+     * Définitions, méthodes et qualité
+          + Définitions
+          + Sources statistiques et indicateurs
+          + La qualité dans le Service statistique public (SSP)
+          + Nomenclatures
+          + Géographie administrative et d'étude
+          + Modèles, méthodes et outils statistiques
+          + Courrier des statistiques
+          + Open Data, données RDF et espace XML
+     * Services
+          + Réviser une pension, un loyer, bail ou contrat
+          + Consulter les indices et séries chronologiques
+          + Sirene
+          + Découvrir, apprendre
+          + Répondre à une enquête de l'Insee
+          + Consulter les agendas de diffusion
+          + Gérer les répertoires des personnes physiques
+          + Bibliothèque de l’Insee Alain Desrosières
+          + Commander une prestation, acheter une publication
+          + Nous suivre
+          + Aide
+          + Espace presse
+     * L'Insee et la statistique publique
+          + L'Insee
+          + Les activités de l'Insee
+          + La statistique publique
+          + La construction de la statistique européenne
+          + Mesure de la qualité de service
+          + Services publics+ : un service public plus proche, plus
+            simple, plus efficace
+
+     * Système Statistique Européen
+     * Apprendre avec les données de l'Insee
+     * Réseau Quetelet
+     * Centre d'Accès Sécurisé Distant aux données (CASD)
+     * site data.gouv
+     * Services Publics +
+
+     * Mentions légales et crédits
+     * Conditions d'utilisation de nos données
+     * Accessibilité : partiellement conforme
+     * Accès sourds et malentendants
+     * Sécurité
+     * Plan du site
+
+   Haut de page

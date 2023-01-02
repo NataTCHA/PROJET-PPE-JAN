@@ -1,635 +1,1190 @@
-   #Medium alternate
+   #L’acquisition de la compétence sémantique chez les apprenants chinois
+   du FLE : analyse au travers des valeurs sociales complexes des mots
+   « travail » et « loisirs » Recherches en éducation, Numéros Recherches
+   en éducation, Documents
 
+   Navigation – Plan du site
+
+Recherches en éducation Recherches en éducation
+
+   AccueilNumérosHS5L’acquisition de la compétence sé...
+
+   Recherche___________ (BUTTON) Chercher
+   Sommaire - Document précédent
+   HS5 | 2013
+   Education et formation
+
+L’acquisition de la compétence sémantique chez les apprenants chinois du
+FLE : analyse au travers des valeurs sociales complexes des mots « travail »
+et « loisirs »
+
+   Acquisition of semantic competence in Chinese learners of French:
+   analysis through complex social values of the words "work" and
+   "leisure"
+   Xiaoxiao Xia
+   https://doi.org/10.4000/ree.9168
+   Résumé | Index | Plan | Texte | Bibliographie | Notes | Citation |
+   Auteur
+
+Résumés
+
+   Français English
+
+   L’objet de notre recherche porte sur la confrontation de la
+   construction linguistique des valeurs sociales complexes et la
+   reconstruction discursive des significations lexicales en chinois et en
+   français auprès des locuteurs natifs et des apprenants chinois du FLE.
+   En analysant les perceptions des significations des mots « travail » et
+   « loisirs », nous essayons de découvrir l’apprentissage des stéréotypes
+   linguistiques et l’acquisition des compétences sémantiques chez les
+   apprenants en langue étrangère. Les résultats montrent que bien que les
+   Français et les Chinois partagent à peu près les mêmes noyaux de ces
+   deux mots, certains stéréotypes sont différents en raison des
+   différences culturelles. En outre, même si les publics sont de la même
+   nationalité, l’apprentissage d’une langue étrangère et le séjour dans
+   le pays de la langue cible amènent des différences dans l’acquisition
+   des significations lexicales. Ceci induit que les enseignants doivent
+   tenir compte non seulement de la correction de la forme linguistique,
+   mais aussi de la pertinence de la performance linguistique dans le
+   processus de l’apprentissage de langue étrangère.
+
+   This paper focuses on the comparison of the linguistic construction of
+   complex social values and lexical meanings’ reconstruction in the
+   discourse between Chinese and French native speakers and Chinese
+   learners of French. By analyzing the perceptions of the meanings of the
+   words "work" and "leisure", we try to find out the linguistic
+   stereotypes of the two languages and the influence on the acquisition
+   of semantic competence in foreign language learners. The data was
+   collected through a questionnaire with a total of 40 university-student
+   informants. The results show that although the French and the Chinese
+   share roughly the same core of these two words, stereotypes are
+   different because of cultural differences. Moreover, even if the public
+   are of the same nationality, learning a foreign language and living in
+   the country of the target language lead to differences in the
+   acquisition of lexical meanings.
+   Haut de page
+
+Entrées d’index
+
+Mots-clés :
+
+   langues étrangères (enseignement/éducation/rapport à)
+
+Keywords:
+
+   foreign languages (teaching/education/relationship)
+   Haut de page
+
+Plan
+
+   1. Etendue de l’étude
+   1.1. Compétence sémantique
+   1.2. Les différences culturelles dans l’association sémantique des mots
+   1.3. Objectifs
+   1.4. Problématiques et hypothèses
+   2. Cadre théorique
+   3. Méthode
+   4. Résultats
+   4.1. Analyse du mot « travail »
+   4.1.1. Comparaison entre les dictionnaires
+   4.1.2. Comparaison entre les dictionnaires et les corpus
+   4.1.3. Comparaison du corpus
+   4.2. Analyse du mot « loisirs »
+   4.2.1. Comparaison entre les dictionnaires
+   4.2.2. Comparaison entre les dictionnaires et les corpus
+   4.2.3. Comparaison du corpus
+   5. Discussion et Conclusion
+   Haut de page
+
+Texte intégral
+
+   PDF 186k Signaler ce document
+
+   1L’enseignement du vocabulaire est un domaine de recherche auquel les
+   didacticiens du français langue étrangère, français langue seconde (FLE
+   / FLS) prêtent souvent moins d’attention qu’à la pédagogie grammaticale
+   ou communicationnelle. L’apprentissage du lexique est souvent restreint
+   à la traduction dans la langue maternelle de l’apprenant et sert comme
+   accès à l’acquisition d’autres compétences linguistiques. Pourtant,
+   « l’enseignement du vocabulaire implique que l’on reconnaisse le mot
+   comme élément de forme et de sens appartenant au système de la langue,
+   mais aussi comme une réalité psychique correspondant à des
+   représentations d’ordre linguistique, cognitif et affectif dans la
+   conscience des individus » (Calaque, 2000). L’étude présente essaie de
+   rapprocher la recherche linguistique et la didactique lexicale en
+   comparant les différentes perceptions en langues française et chinoise
+   au plan des stéréotypes linguistiques et en découvrant l’acquisition
+   des compétences sémantiques chez les apprenants en FLE.
+
+1. Etendue de l’étude
+
+     * 2 CAPSA-Lang signifie l’Acquisition des Compétences Argumentatives
+       Pragmatiques et Sémantique, CoDiRe (...)
+
+   2De nombreuses recherches ont été effectuées dans le domaine des
+   stratégies d’apprentissage du lexique en langues étrangères (Nation,
+   1990 ; Laufer, 1992 ; Freed, 1995 ; Qian, 1999). Notre intérêt ne porte
+   pas sur la mémorisation lexicale, la dimension du vocabulaire
+   nécessaire ou le lexique-grammaire, mais sur l’acquisition d’une
+   compétence sémantique en situation d’immersion dans le pays cible
+   /versus/ dans le milieu de la langue maternelle. Dans les études
+   antérieures, Ellis (1997, p. 133-138) aborde une discussion sur des
+   stratégies concernant l’acquisition des significations du vocabulaire
+   en langue étrangère : savoir sélectionner de nouvelles informations,
+   les intégrer dans le système sémantique existant chez l’apprenant, lier
+   le sens avec la forme, méthode « mot-clé », etc. Swan (1997,
+   p. 156-180) étudie l’influence de la langue maternelle sur
+   l’apprentissage du lexique en langue seconde. Huong (2010, p. 134)
+   argumente que la construction du sens des mots ne peut pas s’effectuer
+   par le fait de recourir à la langue maternelle, sauf quelques mots
+   abstraits et trop difficiles à expliquer. Selon lui, « Le signifiant
+   formé par des mots et des structures sera mal exprimé, de plus le
+   référent sera aussi déformé à cause de représentations de la langue
+   maternelle chez les élèves. » Il nous semble que ces recherches partent
+   d’un point de vue plutôt global. Dans le but d’avoir une idée plus
+   concrète, il est intéressant d’effectuer des analyses à partir de
+   certains mots spécifiques en confrontant des cultures différentes.
+   « Les différences sont le plus souvent d’ordre culturel plus que
+   purement dénotatif. Leur mise en évidence se fait, quand c’est
+   possible, par la comparaison des contextes d’apparition » (Cuq, 2004).
+   Par cet intérêt, nous avons choisi deux mots « travail » et « loisirs »
+   en deux langues éloignées (français/chinois) comme objets de notre
+   recherche. L’étude fait partie d’un projet collectif dans le cadre du
+   programme CAPSA-Lang2 qui se situe dans l’interface entre la didactique
+   analytique (l’analyse des pratiques discursives dans la communication
+   didactique) et l’acquisition d’une langue seconde/étrangère. Il s’agit
+   des comparaisons du français avec plusieurs langues parmi lesquelles le
+   chinois qui est l’objet de la présente recherche.
+
+1.1. Compétence sémantique
+
+   3En ce qui concerne la définition de la compétence sémantique, il
+   existe des catégorisations différentes chez les linguistes et les
+   didacticiens. Lu (1999) définit la compétence sémantique comme la
+   compréhension de la structure sémantique : ce que nous savons d’une
+   unité linguistique. Du point de vue de Penco et Vignolo (nd), il n’y a
+   pas de compétence sémantique sans compétence contextuelle, nous ne
+   pouvons pas construire une compétence sémantique personnelle dans le
+   vide, mais seulement dans l’interaction avec les gens. Les auteurs se
+   concentrent sur la relation entre la compétence sémantique et la
+   compétence contextuelle, mais pas sur les composantes de la
+   compétence sémantique.
+
+   4Ces deux branches d’opinions représentent deux aspects de la
+   sémantique : sémantique grammaticale et sémantique pragmatique.
+   Concernant cela, le Cadre européen commun de référence pour les langues
+   (CECRL) donne une idée plus complète sur ces termes : la compétence
+   sémantique est classifiée en trois orientations :
+    1. la sémantique lexicale qui traite des questions relatives au sens
+       des mots, par exemple la relation du mot et du contexte (référence,
+       connotation), les relations inter-lexicales telles que : synonymes,
+       antonymes, etc.
+    2. la sémantique grammaticale qui « traite du sens des catégories,
+       structures, opérations et éléments grammaticaux » ;
+    3. la sémantique pragmatique qui traite des relations logiques comme
+       la substitution, la présupposition et l’implication (CECRL,
+       §5.2.1.3).
+
+   5Dans la présente recherche, nous nous contenterons d’étudier la
+   compétence de la sémantique lexicale qui traite la relation du mot et
+   du contexte, et plus précisément le contexte des cultures différentes
+   en langue maternelle et langue cible. Cette compétence est entendue
+   comme la capacité de reconnaître et de produire des séquences
+   textuelles et contextuelles conformes au protocole sémantique de la
+   langue à apprendre (Galatanu, 2006). Nous prétendons qu’il existe des
+   différences culturelles au niveau des stéréotypes dans le lexique de
+   deux langues.
+
+1.2. Les différences culturelles dans l’association sémantique des mots
+
+   6L’acquisition des compétences linguistiques est toujours accompagnée
+   par les connaissances culturelles. Concernant la compétence sémantique,
+   certains mots sont profondément enracinés dans la culture de leur
+   communauté linguistique. Xu les appelle « mots culturellement chargés »
+   (Xu, 1988). Ces mots nécessitent une étude attentive dans
+   l’enseignement/apprentissage de LE au niveau de leurs connotations et
+   dénotations. Le terme de Xu correspond au terme « mots à charge
+   culturelle partagée » proposé par Galisson, mais Xu l’explique à partir
+   d’une vision différente.
+
+   7Pour certains « mots culturellement chargés », il peut y avoir presque
+   les mêmes dénotations et connotations dans les deux langues. Ces mots
+   sont très peu nombreux. Cependant, un mot peut avoir la même dénotation
+   mais des connotations différentes dans les deux langues. Ainsi Xu
+   (1988) a proposé trois situations existant dans les « mots
+   culturellement chargés » de deux langues : les charges culturelles du
+   contexte natif sont moindres que celles du contexte étranger ; les
+   charges culturelles du contexte natif sont plus importantes que celles
+   du contexte étranger ; les charges culturelles du contexte natif sont
+   moindres dans certains sens et plus dans d’autres sens de celles du
+   contexte étranger, à travers les orientations ou oppositions, etc.
+
+   8Pour éclairer ces concepts, comme Xu l’a cité, le mot « Renaissance »
+   en chinois signifie seulement une renaissance de la littérature et de
+   l’art, en revanche, dans les langues européennes, il a un sens beaucoup
+   plus large que son équivalent chinois. Les mots comme « fleur de
+   prunier, orchidée, bambou et chrysanthème » sont généralement utilisés
+   pour exprimer la noblesse possédée par les gens dans la langue
+   chinoise. Mais en français, ces mots désignent plutôt des notions
+   botaniques et ne partagent pas vraiment la connotation du chinois.
+
+1.3. Objectifs
+
+   Objectifs scientifiques
+
+   9Cette recherche porte sur la construction discursive des valeurs
+   sociales complexes et la reconstruction des significations lexicales au
+   travers des mots « travail », « loisirs » en chinois et en français,
+   afin de dégager les convergences et les divergences au niveau des
+   stéréotypes linguistiques entre ces deux langues et d’observer
+   l’acquisition de la compétence sémantique lexicale auprès des
+   apprenants chinois du FLE.
+
+   Objectifs pédagogiques
+
+   10Par le biais de la confrontation entre ces deux langues, nous
+   essayons de découvrir divers facteurs qui influent sur l’acquisition de
+   la sémantique lexicale, de comprendre si ces influences sont favorables
+   à l’apprentissage et enfin de discuter certains moyens pédagogiques qui
+   pourraient améliorer l’enseignement du lexique.
+
+1.4. Problématiques et hypothèses
+
+   11Le questionnement porte sur la construction linguistique et
+   discursive des significations lexicales et leur acquisition. Ainsi,
+   nous élaborons quatre problématiques directrices :
+     * Existe-il des différences au niveau de la signification
+       lexicographique en langue française et chinoise ?
+     * Est-ce que la construction des significations lexicales par les
+       apprenants chinois en FLE est conforme à celle décrite dans les
+       dictionnaires en langue cible ?
+     * Comment se manifestent les stéréotypes linguistiques dans la
+       construction de l’interlangue de ces apprenants ?
+     * Quels sont des impacts sur l’acquisition de la compétence
+       sémantique chez nos publics ?
+
+   12Nous faisons comme hypothèse que le dictionnaire peut fournir les
+   noyaux des mots dans l’apprentissage lexical, cependant les stéréotypes
+   et les « possibles argumentatifs » (PA) des mots sont peu véhiculés
+   dans le dictionnaire et ces éléments pourraient être différents en
+   raison de la culture différente. La perception chez les apprenants sur
+   les significations des mots étudiés se différencie totalement ou
+   partiellement des notions indiquées dans les dictionnaires en langue
+   cible. En outre, même si les publics sont de la même nationalité, des
+   facteurs comme l’apprentissage d’une langue étrangère ou le séjour à
+   l’étranger peuvent avoir une influence sur l’appréhension des
+   significations lexicales.
+
+2. Cadre théorique
+
+   13Notre étude s’appuie sur la théorie de la Sémantique des Possibles
+   Argumentatifs (SPA). Le modèle de SPA conçu par Galatanu (1999) prend
+   ses sources, d’une part, dans la sémantique argumentative et, d’autre
+   part, dans celle de la recherche sur les stéréotypes linguistiques. SPA
+   se base sur la proposition de Putnam de décrire la signification des
+   mots en termes de noyau et de stéréotypes. Galatanu y a ajouté une
+   troisième strate « possibles argumentatifs », qui représente des
+   séquences discursives potentielles, déployant l’association du mot avec
+   les éléments de son stéréotype et donc calculables à partir du
+   stéréotype. C’est ainsi que le modèle de représentation sémantique
+   comporte trois strates et une forme de manifestation discursive, soit
+   quatre niveaux :
+     * Niveau 1 Le noyau : traits de catégorisation sémantique, envisagés
+       comme des propriétés essentielles.
+     * Niveau 2 Les stéréotypes : ensemble ouvert d’associations des
+       éléments du noyau avec d’autres représentations, constituant des
+       blocs d’argumentation interne.
+     * Niveau 3 Les « possibles argumentatifs » (PA), séquences
+       discursives déployant, dans des blocs d’argumentation externe,
+       l’association du mot avec un élément de son stéréotype, séquences
+       calculées à partir des stéréotypes.
+     * Niveau 4 Les déploiements argumentatifs (DA) qui sont les séquences
+       argumentatives réalisées par les occurrences discursives.
+
+   14Dans ce modèle, les stéréotypes d’un mot représentent des
+   associations, dans des blocs de signification argumentative des
+   éléments du noyau avec d’autres représentations sémantiques. Elles
+   forment des ensembles ouverts pour lesquels les limites rigides
+   n’existent pas forcément dans une communauté linguistique au fur et à
+   mesure de l’évolution de sa langue. Ainsi la signification lexicale
+   dans la SPA est intimement liée avec l’évolution du monde au niveau
+   individuel et collectif, culturel et scientifique, politique et
+   économique, etc.
+
+3. Méthode
+
+   15Pour effectuer notre démarche d’analyse, nous recourons aux deux
+   étapes de l’analyse sémantique des entités lexicales. La première
+   étape est constituée à partir des énoncés définitionnels et des
+   exemples proposés par les dictionnaires chinois et dictionnaires
+   français, afin d’observer la circulation du sens lexicographique des
+   deux mots. Comme source, nous avons choisi trois dictionnaires
+   monolingues de chaque langue, dictionnaires qui cherchent à construire
+   des représentations du lexique de la langue mais qui ne sont pas
+   orientées vers la traduction.
+
+   16La deuxième étape se base sur des questionnaires bilingues avec des
+   « questions d’opinion », à savoir des questions ouvertes qui concernent
+   les associations, descriptions, définitions… des mots étudiés. Selon De
+   Singly (2005), des questions ouvertes peuvent « privilégier les
+   catégories dans lesquelles les individus perçoivent le monde social,
+   plutôt que de les imposer par les modalités des réponses « fermées ».
+   Cette deuxième étape est celle du repérage des occurrences dans les
+   discours recueillis auprès de différents publics. C’est ainsi que
+   quatre groupes d’étudiants en Licence ou Master ont été choisis :
+   Français natifs ; Chinois natifs non francophones ; Chinois
+   francophones en Chine ; Chinois francophones en France. Ce choix
+   « scolaire » permet d’avoir des réponses relativement homogènes. Chaque
+   groupe contient dix participants. 40 définitions et 443 entités
+   discursives sont obtenues concernant le mot « travail » ; 40
+   définitions et 383 entités discursives sont recueillies concernant le
+   mot « loisirs ». L’intérêt de la comparaison des réponses de chaque
+   groupe est d’observer l’acquisition de la compétence sémantique chez
+   les apprenants et les influences sur cette acquisition à partir des
+   mots étudiés.
+
+4. Résultats
+
+4.1. Analyse du mot « travail »
+
+4.1.1. Comparaison entre les dictionnaires
+
+   Agrandir Original (jpeg, 90k)
+
+   17Les noyaux du mot « travail » sont similaires dans les deux langues.
+   Le travail est l’ensemble des activités utiles et nécessaires dont nous
+   pouvons obtenir un résultat. Cependant, dans le noyau chinois, il
+   n’existe pas la notion « effort ». Ce phénomène met en évidence qu’en
+   chinois, on met l’accent sur l’exécution d’une activité et l’obtention
+   du résultat, alors qu’en français, on ajoute l’élément « effort » pour
+   indiquer comment on réalise une activité.
+
+   18En comparant les stéréotypes, de grandes différences ont été
+   remarquées entre les deux langues. Une seule occurrence identique a été
+   trouvé « DONC physique ou intellectuel ». Dans la partie chinoise, les
+   stéréotypes se concentrent sur le « cahier des charges » du travail,
+   c’est-à-dire, par exemple, la période du travail, la quantité du
+   travail, les domaines du travail, etc. Le terme « statut social » n’est
+   pas cité dans la partie française. Ce terme est en provenance de la
+   phrase : « Il n’y a pas de distinction comme le travail respecté et le
+   travail humble ». Cela suggère qu’il existe en fait un concept de rang
+   social dans le travail. Les stéréotypes en français sont divers : un
+   travail a des contraintes, mais permet aussi d’avoir la liberté. Les
+   activités du travail peuvent être interprétées comme « création »,
+   « modification », « production », etc. La notion « fatigue » à partir
+   du noyau « effort » a été mentionnée elle aussi. Le résultat du travail
+   peut être ce que l’on produit comme ouvrage, mais aussi ce que l’on
+   obtient comme rémunération. Le mot « grève » reflète le phénomène
+   social français, c’est un terme rarement trouvé dans le contexte
+   chinois.
+
+4.1.2. Comparaison entre les dictionnaires et les corpus
+
+   Dictionnaires français
+
+   Nécessité et/ou obligation de faire utilement ET faire utilement DC
+   effort DC résultat
+
+   Chinois francophones en Chine
+
+   Activité nécessaire pour vivre
+
+   Chinois francophones en France
+
+   Activité nécessaire pour certains buts
+
+   19Nous nous contentons, dans cette partie, d’analyser les définitions
+   relevées parmi les apprenants en FLE en les comparant avec le noyau
+   dégagé dans les dictionnaires français. Les deux dernières définitions
+   sont similaires, cepandant les apprenants chinois francophone en Chine
+   donnent une définition plus précise en indiquant que le but du travail
+   est d’assurer sa subsistance, tandis que les apprenants chinois en
+   France n’en explicitent pas les buts. Les deux définitions partagent
+   l’élément « nécessaire » avec le noyau français, toutefois la notion
+   d’intention n’est pas repérée dans les dictionnaires français. Nous
+   pouvons considérer que « pour vivre » possède une sorte d’obligation.
+   Par ailleurs, les éléments « effort » et « résultat » ne sont pas du
+   tout mentionnés chez les apprenants.
+
+4.1.3. Comparaison du corpus
+
+   20Faute d’espace, concernant les comparaisons entre les quatre groupes,
+   nous nous contentons de montrer quelques résultats de PA.
+
+   Travail DONC (DC) PA
+
+   G1
+
+   G2
+
+   G3
+
+   G4
+
+   DC activité sociale DC statut social DC relation interpersonnelle DC
+   coopération DC concurrence DC compétence
+
+   *
+
+   *
+
+   *
+
+   *
+
+   DC pression DC stressé DC souffrance DC sentiments inhibés DC ennuyeux
+
+   *
+
+   *
+
+   *
+
+   *
+
+   DC effort
+
+   *
+
+   *
+
+   *
+
+   DC plaisir
+
+   *
+
+   *
+
+   *
+
+   DC hiérarchie
+
+   *
+
+   *
+
+   *
+
+   DC obligation
+
+   *
+
+   *
+
+   *
+
+   DC exactitude dans l’accomplissement de ses devoirs
+
+   *
+
+   *
+
+   *
+
+   DC passion
+
+   *
+
+   *
+
+   *
+
+   DC responsabilité
+
+   *
+
+   *
+
+   DC respect des règles DC attacher trop aux règles DC contrainte
+
+   *
+
+   *
+
+   DC sensation désagréable
+
+   *
+
+   *
+
+   DC occupé/pressé
+
+   *
+
+   *
+
+   DC intéressant
+
+   *
+
+   *
+
+   DC expérience
+
+   *
+
+   *
+
+   DC état pénible
+
+   *
+
+   *
+
+   DC répétition
+
+   *
+
+   *
+
+   DC réflexion
+
+   *
+
+   *
+
+   PT repos
+
+   *
+
+   *
+
+   G1 : Chinois non francophones
+   G2 : Chinois francophones en Chine
+   G3 : Chinois francophones en France
+   G4 : Français natifs
+
+   21Nous avons d’abord récapitulé les valeurs axiologiques de tous les
+   mots cités par les participants. Nous distinguons deux orientations de
+   ces valeurs (positive ou négative).
+
+   Positifs % Négatifs %
+
+   Français natifs
+
+   Chinois francophones en France
+
+   Chinois francophones en Chine
+
+   Chinois non francophones
+
+   50,00 50,00
+
+   50,00 50,00
+
+   52,70 47,30
+
+   59,74 40,26
+
+   22Les rapports entre les mots positifs et les mots négatifs cités
+   varient selon les groupes des apprenants. Ces associations au mot
+   « travail » reflètent la perception des valeurs axiologiques du
+   mot » travail » chez nos participants. Si nous comparons d’abord les
+   groupes des deux extrêmes : les Français natifs et les Chinois non
+   francophones, il est évident que les sinophones pensent que le travail
+   est plutôt positif, alors que les Français restent neutres sur ce
+   point. Pour les Chinois en FLE en Chine, le taux de la positivité est
+   sensiblement abaissé par rapport à leurs compatriotes. Les Chinois
+   étudiant en France ont eux une vue neutre sur les valeurs du mot
+   « travail ». Le pourcentage est identique à celui du groupe français.
+
+   Les points communs
+
+   23Au niveau des associations des mots, il existe des expressions
+   communes dans tous les corpus comme « gagner sa vie »,
+   « rémunération », « stressé », « activité professionnelle »... Les
+   quatre groupe d’enquêtés partagent aussi l’avis que le travail est une
+   activité sociale. Ils ont mentionné l’existence des « relations
+   interpersonnelles », des « coopérations », des « communications »… A
+   part ces items, il existe d’autres éléments très présents qui expriment
+   le côté négatif du travail, par exemple : « pression », « stressé »,
+   « souffrance »…
+
+   Les différences
+
+   24La notion « effort » apparaît dans les PA du corpus chinois, mais pas
+   dans ceux du corpus français. Cela correspond à ce que nous avons
+   trouvé plus haut, cet élément apparaît dans les noyaux dégagés des
+   dictionnaires français mais non dans les dictionnaires chinois. Ceci
+   dit que les Chinois considèrent cette notion comme stéréotype du
+   travail. Nous pouvons aussi voir que le travail peut être un plaisir
+   aux yeux des trois groupes chinois, c’est-à-dire qu’à côté de la
+   souffrance, le travail appporte aussi de la satisfaction. A l’inverse,
+   le « plaisir » n’est pas mentionné par le groupe français.
+
+   25Bien qu’il existe certaines opinions communes parmi les groupes
+   chinois, les apprenants chinois en FLE sont plus proches des Français
+   natifs que des Chinois non francophones. En plus, certains mots ne sont
+   mentionnés que dans les groupes des Chinois en FLE ainsi nous pouvons
+   croire qu’il existe une sorte d’« interlangue ». L’« obligation » a été
+   saisie dans les PA des trois groupes francophones, mais pas dans le
+   groupe chinois non francophone. Ceci est expliqué par le fait que la
+   notion d’obligation est inscrite dans le noyau du mot « travail »
+   dégagé des dictionnaires français, mais pas dans les dictionnaires
+   chinois. La « hiérarchie » existante dans le travail est aussi
+   sélectionnée par les Français et les apprenants chinois en FLE, par
+   contre, les Chinois non francophone n’ont pas mentionné ce mot. Les
+   items comme « intéressant », « expérience », « répétition »,
+   « réflexion »… sont également partagés au sein des groupes
+   francophones.
+
+   26Il est intéressant de noter que la notion de « santé » a été trouvée
+   seulement dans le corpus français, cela concerne un phénomène culturel.
+   L’expression « le travail, c’est la santé » vient d’une chanson
+   française populaire. L’absence du mot « santé » dans le corpus chinois
+   montre que l’apprentissage d’une langue étrangère ne permet pas
+   directement de s’intégrer dans la culture cible.
+
+4.2. Analyse du mot « loisirs »
+
+4.2.1. Comparaison entre les dictionnaires
+
+   Agrandir Original (jpeg, 97k)
+
+   27Dans un premier temps, le terme « activité de délassement » est
+   compris dans les deux noyaux. Néanmoins, en chinois, on insiste sur
+   l’état de l’être humain. C’est une situation sans travail, sans études,
+   ni activité fatigante. Les gens se reposent. Alors qu’en français, une
+   période libre est le point important. Les noyaux attachent de
+   l’importance à ces deux différents domaines.
+
+   28En ce qui concerne les stéréotypes, il existe des éléments
+   correspondants dans les deux langues. L’expression « n’exerce pas la
+   profession » est conforme aux mots « vacances » et « retraite ». Quant
+   à la partie « activité de délassement », nous trouvons que les
+   stéréotypes en français ressortent plus d’une perception pratique. Il y
+   a des traits comme « besoins biologique de détente », « civilisation »,
+   « société », « politique », « industrie » et « métier ». En français,
+   les loisirs sont des activités créatives et coûteuses… qui concernent
+   les domaines culturel ou sportif, etc. Du côté chinois, les stéréotypes
+   indiquent une perception plutôt abstraite, ils expriment le sentiment
+   des hommes : agréable et amusant.
+
+4.2.2. Comparaison entre les dictionnaires et les corpus
+
+   Dictionnaires français
+
+   Temps libre et activités de délassement
+
+   Chinois francophones en Chine
+
+   Activités de délassement et de plaisir
+
+   Chinois francophones en France
+
+   Activités de délassement et de plaisir effectuées sous certaines
+   conditions
+
+   29Nous constatons que la définition choisie par les Chinois
+   francophones en France est à peu près identique à celle des apprenants
+   chinois non francophones. Ces définitions contiennent toutes le
+   délassement et le plaisir. Toutefois les apprenants en France ont
+   ajouté des conditions de pratique des loisirs, par exemple, « si on a
+   de l’argent », « quand on est disponible ». Par ailleurs, nous pouvons
+   remarquer que, conformément à la différence entre le noyau chinois et
+   le noyau français, les deux groupes d’apprenants n’ont pas mis
+   l’élément « temps libre » pour les loisirs. De plus, l’item « plaisir »
+   dans les définitions des individus n’apparaît pas dans le noyau
+   français.
+
+4.2.3. Comparaison du corpus
+
+   Loisirs DONC (DC)/POURTANT(PT) PA
+
+   G1
+
+   G2
+
+   G3
+
+   G4
+
+   DC liberté
+
+   *
+
+   *
+
+   *
+
+   *
+
+   DC une tranquillité psychologique
+
+   *
+
+   *
+
+   *
+
+   *
+
+   DC état physique détendu
+
+   *
+
+   *
+
+   *
+
+   *
+
+   DC dépense de l’argent
+
+   *
+
+   *
+
+   *
+
+   DC avantages pour la santé
+
+   *
+
+   *
+
+   *
+
+   DC répugnance à l’effort physique ou intellectuel
+
+   *
+
+   *
+
+   DC profonde affection
+
+   *
+
+   *
+
+   DC évolution de société
+
+   *
+
+   *
+
+   DC tendance à connaître des choses nouvelles
+
+   DC découvrir des choses nouvelles
+
+   *
+
+   *
+
+   DC nécessité
+
+   *
+
+   *
+
+   *
+
+   DC contact avec les autres personnes
+
+   *
+
+   *
+
+   *
+
+   DC conception récente
+
+   *
+
+   DC culture
+
+   *
+
+   G1 : Chinois non francophones
+   G2 : Chinois francophones en Chine
+   G3 : Chinois francophones en France
+   G4 : Français natifs
+
+   Les points communs
+
+   30Pour ces quatre groupes, il existe un accord sur la valeur positive
+   des stéréotypes du mot « loisirs ». Seul un chinois a écrit le mot
+   « paresse » que nous considérons comme une valeur négative. Beaucoup de
+   points communs ont été repérés concernant les PA :
+     * l’état mental joyeux : plaisir, joie, amusement, jouissance,
+     * la tranquillité psychologique : tranquillité, calme, placide,
+     * la disponibilité du temps : temps libre, vacances, retraite, pas de
+       travail,
+     * l’état physique détendu : détente, relaxation, distraction, repos.
+
+   31En plus, les quatre groupes pensent que les loisirs permettent
+   d’avoir de la liberté et offrent des conditions pour se maintenir en
+   bonne santé. Les activités sont pratiquées avec les amis et la famille.
+
+   Les différences
+
+   32Chez les trois groupes chinois, les loisirs sont des activités qui
+   demandent de dépenser de l’argent et possèdent des avantages pour la
+   santé. Ces deux occurrences ne sont pas mentionnées chez le groupe
+   français. . Les activités de loisir mentionnées par les quatre groupes
+   d’enquêtés ont pour la plupart des points communs, pourtant il existe
+   quelques divergences. Par exemple, le shopping et le restaurant cités
+   plusieurs fois dans le corpus chinois ne sont pas mentionnés dans le
+   corpus français. Le karaoké est une activité typiquement asiatique,
+   c’est rare de le trouver en France. Un autre phénomène est intéressant
+   à observer : les Français ont associé le mot « loisirs » au mot
+   « culture » et pensent que les loisirs représentent la culture d’un
+   pays, ou que les activités de délassement concernent les activités
+   culturelles. Même si les apprenants chinois ont parlé des activités
+   culturelles, comme la musique, les films, le théâtre, etc., aucun n’a
+   choisi directement le mot « culture », ce phénomène caractérise aussi
+   les deux autres publics chinois. Cela s’oppose à la haute fréquence de
+   ce mot dans le corpus français.
+
+   33Selon les trois groupes francophones, les loisirs sont des activités
+   nécessaires qui permettent le contact avec les autres. Nous n’avons pas
+   repéré ces notions chez le groupe des Chinois non francophones. Dans le
+   corpus des Chinois en FLE en Chine, les loisirs sont pensés comme un
+   développement de la société. Leurs camarades français partagent cette
+   opinion. Par ailleurs, les Chinois en France sont d’accord avec les
+   Français sur le fait que pratiquer des activités de loisirs révèle une
+   tendance à découvrir des choses nouvelles. Ainsi, nous voyons qu’il
+   existe certains points communs entre les Chinois francophones et les
+   Français natifs, point communs qui ne sont pas constatés chez les
+   Chinois non francophones.
+
+5. Discussion et Conclusion
+
+   34Les résultats montrent que les noyaux des mots « travail » et
+   « loisirs » des dictionnaires en deux langues sont similaires.
+   Cependant, il existe quelques nuances. Ces nuances se retrouvent dans
+   les noyaux constitués par les individus, y compris ceux qui apprennent
+   une langue étrangère et qui définissent les mots du point de vue de la
+   langue cible. Ceci montre que les apprenants chinois n’ont pas acquis
+   complètement les significations des mots en français. L’impact de la
+   langue maternelle existe toujours, que ce soit pour les Chinois qui
+   sont en Chine ou en France. Concernant les stéréotypes du mot
+   « travail », nous repérons de grandes différences entre les
+   dictionnaires des différentes langues. Quant aux corpus, un transfert
+   positif de la langue maternelle vers la langue cible a été constaté, il
+   existe plus de points communs chez les groupes francophones. Néanmoins
+   quel que soit le mot étudié, les stéréotypes qui portent des valeurs
+   culturelles du pays sont difficilement assimilés. Dans les corpus des
+   apprenants chinois, certaines absences de mots représentant la culture
+   française ont pu le prouver. De plus, les facteurs comme
+   l’apprentissage d’une langue étrangère, le séjour à l’étranger, ont des
+   influences sur la construction du sens des mots. Ces deux derniers
+   facteurs permettent d’avoir une perception éloignée sur la
+   signification lexicale de la langue maternelle. Cependant, ces
+   influences sont soit faibles, soit fortes selon les mots.
+     * 3 Dictionnaire de Combinatoire, projet réalisé par Igor Mel’çuk et
+       Alain Polguère, en collaboration a (...)
+     * 4 Entend par Polguère, une combinaison de mots constituée d’une
+       BASE choisie librement par le locuteu (...)
+
+   35A partir de notre recherche, nous constatons qu’au cours de
+   l’apprentissage de FLE, l’utilisation des dictionnaires pour les
+   lexiques reste toujours nécessaire, mais parait ne pas être suffisante
+   pour apprendre des significations lexicales, surtout pour les mots
+   désignant un facteur social qui pourraient potentiellement provoquer
+   des malentendus dans la communication. Afin de perfectionner la
+   compétence sémantique des apprenants des langues étrangères, dans un
+   premier temps, il semble préférable que les apprenants consultent des
+   dictionnaires monolingues pour éviter le transfert négatif de L1 et
+   aussi des dictionnaires spéciaux, par exemple la base de données
+   lexicales DiCo3 qui permet à l’apprenant de « trouver les collocations
+   dont il a besoin », et lui « donner une maîtrise intuitive de la notion
+   même de collocation^4 et des patrons standard existant dans la langue »
+   (Polguère, 2000). Cependant, l’utilisation des dictionnaires
+   monolingues ou des bases de données comme DiCo demande une maîtrise du
+   français relativement bonne. Les débutants auront certaines difficultés
+   dans cette pédagogie. Dans un deuxième temps, les enseignants doivent
+   tenir compte non seulement de la correction de la forme linguistique,
+   mais aussi de la pertinence de la performance linguistique dans le
+   processus de l’apprentissage de langue étrangère par le biais de
+   l’emploi des exemples dans les corpus linguistiques, par exemple. Pour
+   améliorer la capacité d’« assortir » des mots chez les apprenants, il
+   est proposé par certains chercheurs d’introduire les outils de
+   concordance dans l’enseignement des langues (Galisson, 1983 ; Bogaards,
+   1994 ; Sun & Wei, 2005). Une table de concordance permet à
+   l’apprenant d’observer le corpus réel, de trier le mot en question dans
+   des contextes divers et authentiques, de comprendre l’utilisation du
+   mot d’une façon appropriée, de résumer les liens stéréotypiques et
+   argumentatifs des mots. Le problème éventuel est que cette méthode ne
+   vise probablement que le niveau avancé. Mais dès le commencement de
+   l’apprentissage d’une langue étrangère, l’acquisition de la
+   construction du sens des mots commence elle aussi, alors que
+   le corpus de l’apprenant doit être construit par l’enseignant selon le
+   niveau de l’élève. Cette construction du corpus ne doit certainement
+   pas être effectuée pour tous les mots, il peut être intéressant de
+   choisir des mots qui semblent « sans histoire » mais qui portent des
+   valeurs sociales différentes de celles de la langue maternelle de
+   l’apprenant.
+
+   36En conclusion, la construction de la signification d’un mot
+   « ordinaire », dans certains sens, peut comporter des valeurs sociales
+   complexes dans des cultures différentes. Ceci peut provoquer
+   l’ignorance ou le superflu dans le processus d’acquisition de la
+   compétence sémantique en langue étrangère. Le contexte d’immersion rend
+   plus réceptif à la progression de cette compétence. Il serait
+   intéressant de proposer aux apprenants d’autres tests qui nous
+   permettraient d’observer le rôle du vocabulaire acquis dans la
+   communication et l’influence de la représentation de la signification
+   lexicale sur l’efficacité des interactions. De toute façon, la
+   sensibilité d’association des mots doit être améliorée chez les
+   apprenants. L’acquisition de la compétence sémantique doit prendre en
+   compte le phénomène « lexiculture » que ce soit en situation
+   d’immersion ou en milieu exolingue.
+   Haut de page
+
+Bibliographie
+
+   BOGAARDS P. (1994), Le vocabulaire dans l’apprentissage des langues
+   étrangères, Paris, Crédif - Hatier/Didier.
+
+   CALAQUE E. (2000), »  Enseignement et apprentissage du vocabulaire,
+   hypothèses de travail et propositions didactiques », LIDIL, n° 21,
+   coordonné par E. Calaque & F. Grossmann, LIDILEM - Université Stendhal.
+
+   Conseil de l’Europe, Comité de l’éducation (2001), Cadre européen
+   commun de référence pour les langues : apprendre, enseigner, évaluer,
+   Paris, Didier.
+
+   CUQ J.P. (2004), « Le lexique en situation d’apprentissage guidé : pour
+   une méthodologie d’enseignement interventionniste dans l’enseignement
+   du français langue étrangère », Didactique du lexique Contextes,
+   démarches, supports, E. Calaque & J. David (dir.), Bruxelles, De
+   Boeck-Université, p. 61-71.
+
+   DE SINGLY F. (2005), L’enquête et ses méthodes : les questionnaires,
+   Paris, Armand Colin.
+
+   ELLIS N.C. (1997), « Vocabulary acquisition: word structure,
+   collocation, word-class, and meaning », Vocabulary: Description,
+   Acquisition and Pedagogy, N. Schmitt & M. McCarthy (éd.), Cambridge,
+   Cambridge University Press, p. 122-39.
+
+   FREED F.B. (1995), « Language learning and study abroad », Second
+   language acquisition in a study abroad context, F.B. Freed (éd.),
+   Amsterdamj Benjamins, p. 3-33.
+
+   GALATANU O. (1999), « Le phénomène sémantico-discursif de
+   déconstruction-reconstruction des topoï dans une sémantique
+   argumentative intégrée », Langue française, n° 123 - La sémantique du
+   stéréotype, O. Galatanu & J.M. Gouvard (éd.), p. 41-51.
+
+   GALATANU O. (2006), « For an Argumentative Sementics in the Approach of
+   the Concept of « Advanced Learner » of a Foreign Language »,
+   communication présentée au colloque Revisiting advanced varieties in L2
+   learning, Aston University, Birmingham.
+
+   GALISSON R. (1983), Des mots pour communiquer. Eléments de
+   lexicométhodologie, Paris, CLE International.
+
+   HUONG D.A. (2010), « L’approche cognitive dans l’apprentissage des
+   langues étrangères, sa conception et ses apports à l’acquisition des
+   compétences linguistiques », Synergies Pays riverains du Mékong, n° 2,
+   p. 127-139.
+
+   LAUFER B. (1992), « How much lexis is necessary for reading
+   comprehension? », Vocabulary and Applied Linguistics, P.J.L. Arnaud &
+   H. Bejoint (éd.), London, Macmillan.
+
+   LU G.Q. (1999), A Contrastive analysis of Semantic Syntax in English
+   and Chinese, Shanghai, Fudan University Press.
+
+   NATION I.S.P. (1990), Teaching and learning vocabulary, New York,
+   Newbury House.
+
+   PENCO C. & VIGNOLO M. (nd), « Converging towards What? Pragmatic and
+   Semantic Competence »,
+   http://www.dif.unige.it/epi/hp/penco/pub/converge.pdf
+
+   POLGUERE A. (2000), » Une base de données lexicales du français et ses
+   applications possibles en didactique », LIDIL, n° 21, coordonné par E.
+   Calaque & F. Grossmann, LIDILEM - Université Stendhal, p. 75-97.
+
+   QIAN D.D. (1999), « Assessing the roles of depth and breadth of
+   vocabulary knowledge in reading comprehension », Canadian Modern
+   Language Review, n° 56(2).
+
+   SUN H.Y. & WEI N.X. (2005), « Etudes de la combinaison des adjectives
+   chez les apprenants chinois », Etudes de l’application du corpus, N.X.
+   Wei & al., (éd.), Shanghai Foreign Language Press, Shanghai,
+   p. 143-154.
+
+   SWAN M. (1997), « The influence of the mother tongue on second language
+   vocabulary acquisition and use », Vocabulary: Description, Acquisition
+   and Pedagogy, N. Schmitt & M. McCarthy (éd.), Cambridge, Cambridge
+   University Press, p. 156-180.
+
+   XU G.Z. (1988), » Culturally loaded words and English Language
+   Teaching », Intercultural communication What it means to Chinese
+   learners of English, W.Z. Hu (éd.), Shanghai, Shanghai Translation
+   Publishing House, p. 72-82.
+   Haut de page
+
+Notes
+
+   2 CAPSA-Lang signifie l’Acquisition des Compétences Argumentatives
+   Pragmatiques et Sémantique, CoDiRe de l’Université de Nantes.
+
+   3 Dictionnaire de Combinatoire, projet réalisé par Igor Mel’çuk et
+   Alain Polguère, en collaboration avec des étudiants-assistants de
+   recherche de l’Observatoire de Linguistique Sens-Texte de l’Université
+   de Montréal.
+
+   4 Entend par Polguère, une combinaison de mots constituée d’une BASE
+   choisie librement par le locuteur en fonction de son sens.
+   Haut de page
+
+Table des illustrations
+
+     URL   http://journals.openedition.org/ree/docannexe/image/9168/img-1.jpg
+   Fichier image/jpeg, 90k
+     URL   http://journals.openedition.org/ree/docannexe/image/9168/img-2.jpg
+   Fichier image/jpeg, 97k
+   Haut de page
+
+Pour citer cet article
+
+Référence électronique
+
+   Xiaoxiao Xia, « L’acquisition de la compétence sémantique chez les
+   apprenants chinois du FLE : analyse au travers des valeurs sociales
+   complexes des mots « travail » et « loisirs » », Recherches en
+   éducation [En ligne], HS5 | 2013, mis en ligne le 01 mars 2013,
+   consulté le 02 janvier 2023. URL :
+   http://journals.openedition.org/ree/9168 ; DOI :
+   https://doi.org/10.4000/ree.9168
+   Haut de page
+
+Auteur
+
+Xiaoxiao Xia
+
+   Doctorante, laboratoire de recherche sur la Construction Discursive des
+   Représentations linguistiques et culturelles (CoDiRe), Université de
+   Nantes
+   Haut de page
+
+Droits d’auteur
+
+   CC-BY-NC-ND-4.0
+
+   Creative Commons - Attribution - Pas d'Utilisation Commerciale - Pas de
+   Modification 4.0 International - CC BY-NC-ND 4.0
+
+   https://creativecommons.org/licenses/by-nc-nd/4.0/
+   Haut de page
+   Sommaire - Document précédent
+
+Navigation
+
+Index
+
+     * Auteurs
+     * Auteurs traités
+     * Mots-clés
+
+Numéros en texte intégral
+
+     * 202246 | 47 | 48 | 49
+     * 202143 | 44 | 45
+     * 202039 | 40 | 41 | 42
+     * 201935 | 36 | 37 | 38
+     * 201831 | 32 | 33 | 34
+     * 201728 | 29 | 30
+     * 201624 | 25 | 26 | 27 | HS9
+     * 201521 | HS7 | 22 | HS8 | 23
+     * 201418 | HS6 | 19 | 20
+     * 201315 | HS5 | 16 | 17
+     * 201213 | HS4 | 14
+     * 201110 | 11 | HS3 | 12
+     * 20108 | HS1 | HS2 | 9
+     * 20096 | 7
+     * 20085
+     * 20072 | 3 | 4
+     * 20061
+
+Tous les numéros
+
+Recensions
+
+     * Par titre
+     * Par auteur d’ouvrage
+     * Par année de parution
+
+La revue
+
+     * Présentation
+     * Comités
+     * Charte de publication
+     * Soumissions
+     * Numéros à paraître
+
+Informations
+
+     * Contact
+     * Crédits du site
+     * Politiques de publication
+
+Suivez-nous
+
+     * Flux RSS Flux RSS
+
+Lettres d’information
+
+     * La Lettre d’OpenEdition
+
+Affiliations/partenaires
+
+     * Logo Université de Nantes
+     * DOAJ - Directory of Open Access Journals
+     * OpenEdition Journals
+
+   ISSN électronique 1954-3077
+
+   Voir la notice dans le catalogue OpenEdition
+
+   Plan du site – Contact – Crédits du site – Flux de syndication
+
+   Politique de confidentialité – Gestion des cookies
+
+   Nous adhérons à OpenEdition – Édité avec Lodel – Accès réservé
+
+   (BUTTON)
+
+   Rechercher dans OpenEdition Search
+
+   Vous allez être redirigé vers OpenEdition Search
    ____________________
+   ( ) Dans tout OpenEdition
+   (*) Dans Recherches en éducation
+   (BUTTON) Rechercher
 
-   William ACKER
-   William ACKER
-   (BUTTON) Follow
+     * Français
+          + English
 
-   Feb 11, 2020
-   ·
-   20 min read
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
-   (BUTTON)
+     * Partager
+          + Facebook
+          + Twitter
+          + Google+
+
+   ">
    (BUTTON)
 
-Sémantique de « l’accueil des gens du voyage » et mise en application
-spatiale.
-
-   Le recensement des aires d’accueil m’oblige régulièrement, pour ne pas
-   dire continuellement, à lire et analyser les différents schémas
-   départementaux d’accueil des “gens du voyage”. Depuis les années 1990
-   ces documents sont publiés tous les 5 ou 6 ans et prévoient l’ensemble
-   des dispositifs permettant la réalisation des politiques d’accueil. Il
-   faut dire que depuis des années et particulièrement après la seconde
-   loi Besson de 2000, ces bibles de la “gestion des gens du voyage” ont
-   bien évoluées. Des premiers documents relativement peu nombreux et
-   succincts dans les années 1990 (les schémas ne
-   se limitaient alors qu’à la question du stationnement), aux derniers
-   élaborés pour la période 2020–2025, ces « schémas » ont pris de
-   l’ampleur.
-
-   Si les dernières décennies furent marquées par le développement du parc
-   « d’aires d’accueil », les schémas paraissent aujourd’hui prendre un
-   tournant dirigé vers la question de « l’habitat adapté ». Une
-   distinction propre à la Loi Besson qui distingue l’accueil (des
-   Voyageurs itinérants) de l’habitat (des Voyageurs “sédentaires” ou
-   “sedentarisés”). Cette logique n’est pas le fruit d’une évolution
-   hasardeuse, mais résulte d’une construction juridique et d’une
-   planification stratégique établie de longue date, dont la mise en
-   oeuvre n’a pas été chose simple.
-
-   Pour comprendre cette stratégie il est intéressant de confronter la
-   sémantique propre à l’accueil avec les diverses réalités de mise en
-   application de ces politiques sur le terrain. Mais pour les analyser à
-   leur juste valeur il est nécessaire de comprendre un environnement
-   juridique qui se résume en quelques mots : l’accueil se conçoit à
-   l’échelle nationale mais s’applique à l’échelle locale. Ainsi les axes
-   déterminants permettant la justification d’un système d’accueil
-   tiennent en trois points :
-     * L’accès à l’éducation ;
-     * L’accès à l’emploi ;
-     * L’accès à la santé.
-
-   Ces trois objectifs résultent d’un même paradigme, s’inscrivant dans
-   une conception qui se veut républicaine. Mais dans mon paradigme
-   minoritaire, ils s’entendent comme outils de mission civilisatrice.
-
-   Les politiques d’accueil sont les resultats d’un modèle cadre,
-   construit et pensé par la société majoritaire, s’appliquant à une
-   minorité qui possède une parole dont les conditions d’exercice sont
-   déterminées par cette même société majoritaire.
-
-   L’accueil des “gens du voyage” est ainsi marquée, par des relents
-   assimilationistes qui s’inscrivent à la fois dans une histoire
-   métropolitaine, mais puisent aussi dans une expérience propre aux
-   actions extérieures, celles des colonies. Sans me risquer à la
-   comparaison entre l’indigénat et le statut de « nomade » de 1912, il
-   est néanmoins frappant de noter certaines similitudes de modèle. Mais
-   si l’indigénat s’achève officiellement en 1945 (officieusement parfois
-   jusqu’aux indépendances), le statut de “nomade” persiste quant à lui
-   jusqu’en 1969. Et même si la comparaison n’est désormais plus possible,
-   la catégorie administrative “gens du voyage” ne s’inscrit pas pour
-   autant en totale rupture du statut de “nomade”, puisque celle-ci crée
-   un cadre juridique spécifique et donc une citoyenneté non-entière.
-   L’accession au Droit de vote plein et entier pour les “gens du voyage”
-   ne fut une réalité qu’en 2012. La catégorie administrative place celui
-   qui en est l’objet dans une position paradoxale, citoyen français mais
-   citoyen aux droits et devoirs spécifiques, une sorte d’étranger de
-   l’intérieur. Dans un rapport sur le racisme de 2011 élaboré par la
-   Commission Nationale Consultative des Droits de l’Homme, 94% des
-   personnes interrogées jugent encore indispensable que les étrangers qui
-   viennent vivre en France adoptent les habitudes de vies françaises. La
-   Loi Besson entend respecter les traditions culturelles des voyageurs,
-   or en pratique au quotidien, il est demandé aux Voyageurs français
-   d’adopter des habitudes de vies calibrées pour une société qui ne leur
-   offre qu’une place marginale. Cette exigence transparaît en continue
-   dans les discours médiatiques, politiques ou académiques. Vous qui
-   venez vivre sur nos territoires, obeissez à nos règles.
-
-   Pourtant les « gens du voyage » ne sont pas des « étrangers » au sens
-   du Droit. Mais cette catégorie administrative par ses critères (sans
-   visées explicites relatives au caractère ethnique), réussit à dessiner
-   les caractéristiques d’une minorité ethnique (par ailleurs largement
-   essentialisée puisque réduite au nomadisme) : les “Tsiganes”. L’abandon
-   du carnet en 2012 et l’abrogation de la loi de 1969 en 2017 n’a pas
-   marqué l’abolition de la catégorie administrative « gens du voyage ».
-   Elle l’a simplement réduit aux modes de vie, puisque est considéré
-   comme « gens du voyage » la personne physique qui adopte « l’habitat
-   mobile » comme mode de vie « traditionnel ».
-
-   Le mot « traditionnel » a un sens, clairement établi dans la loi Besson
-   de 2000, celui d’une reproductivité familiale. Ainsi, n’entre pas dans
-   la catégorie la personne physique souhaitant soudainement vivre en
-   caravane. Le caractère ethnique de la catégorie, alors qu’il ne fait
-   aucun doute aux yeux des concernés, n’est pourtant pas reconnu. Logique
-   juridique claire puisque une mention de l’ethnicité entrerait en
-   opposition directe au bloc constitutionnel français. C’est ce qui
-   explique que le Conseil Constitutionnel botte en touche de manière
-   systématique lorsque ce moyen de droit est soulevé, la QPC de septembre
-   2019 est le dernier exemple en date.
-
-   C’est dans ce contexte général que j’analyse, les axes justifiant le
-   système d’accueil. Entendu dans ce cadre il parait possible de dégager
-   un dispositif sémantique encadrant la stratégie et se résumant en trois
-   mots : accueil, ancrage et sédentarisation. Ces trois mots reviennent
-   de manière régulière dans les schémas départementaux d’accueil des gens
-   du voyage. À titre d’exemple dans le nouveau schéma d’Ille et Vilaine
-   pour la période 2020–2025, le mot « sédentarisation » est présent 7
-   fois, le mot « ancrage » apparait en 44 occurrences. En comparaison ce
-   dernier n’apparaissait qu’une seule fois dans le précédent schéma.
-   L’analyse sémantique s’inscrit donc dans un cadre contemporain qui ne
-   cesse d’évoluer sur la question de l’accueil.
-
-   Il faut donc comprendre les sens et les contextes propres à l’usage de
-   ces mots pour posséder une grille de lecture innovante de la
-   spatialisation des “aires d’accueil” en France. Et c’est à cette seule
-   condition que le travail de recensement des “aires d’accueil” devient
-   une preuve indiscutable de la relégation des “gens du voyage”. Ces
-   localisations qui relèvent de critères spécifiques et systémiques, sont
-   aussi à analyser dans les rapports de force s’exerçant entre pensée et
-   mise en oeuvre de l’accueil, où la sémantique tient rôle d’une clé de
-   lecture.
-
-De la sédentarisation pour l’ancrage à l’ancrage pour la sédentarisation
-
-   La perception du « Tsigane » au sens large est un point de départ qui
-   est incontournable pour qui tente d’appréhender la notion d’accueil. Le
-   « gens du voyage » de 1969 s’inscrit ainsi dans la continuité du «
-   nomade » de 1912, lui même traduction juridique du bohémien du XIXe
-   siècle. L’éternel tsigane est (entre autres choses) nomade, n’a pas de
-   territoire, s’installe au grès du vent. Cette perception ancestrale est
-   largement essentialisée puisque les « roms» (au sens européen, utilisé
-   comme dénomination générique regroupant une multitude de groupes :
-   gitan, sinti, manouches, voyageurs, rrom …) constituent la minorité
-   autochtone la plus ancienne du vieux continent. Autant dire que
-   l’ancrage ne peut pas être plus ancré. Cependant ce qui fait défaut à
-   l’ancrage des « roms» est l’absence d’ancrage encré, encré dans une
-   narration officielle de l’histoire contemporaine. Il est courant de
-   relever ça et là dans les écrits et les discours qui les accompagnent
-   une absence de considération pour l’ancrage réel des « Roms » dans le
-   territoire. Pourtant l’analyse des collectifs français (car il faut
-   bien délimiter le périmètre) nous montre tout le contraire. L’analyse
-   de ma propre histoire familiale montre le contraire. Une partie de ma
-   famille observe ainsi depuis trois siècles au moins des schémas de
-   voyage réduit à l’échelle d’un département, la Sarthe. Lorsque je
-   discute avec des Voyageurs, de la même façon que je discute avec les
-   gadjé il m’arrive fréquement, pour ne pas dire toujours de poser cette
-   question : « tu es d’où ? ». Les réponses sont univoques : je suis
-   d’ici. Oui, le Voyageur et par extension le « gens du voyage » est un
-   être ancré, qui vit, travaille et meurt dans un espace délimité.
-
-   Pourtant cette réalité entre en conflit avec le paradigme majoritaire
-   qui conçoit le Voyageur comme un corps étranger, un être de passage qui
-   dérègle la mécanique huilée d’une société d’appropriation des terres.
-   En témoigne l’abondante oeuvre de commentaires juridiques,
-   scientifiques, politiques et médiatiques autour de la question de
-   l’accueil. Pour résumer grossièrement le sentiment global, il faut
-   accueillir le « gens du voyage », mais en ne lui laissant surtout pas
-   la possibilité d’être chez lui quelque part. Cette vision, cette
-   compréhension du monde majoritaire qui est insoluble, amène les
-   autorités publiques à repenser les modalités de l’accueil, il faut
-   permettre au « gens du voyage » de s’ancrer dans un territoire afin que
-   ce dernier finisse par être chez lui et de la sorte, et seulement de la
-   sorte, les conflits autour de la question de l’accueil disparaitront.
-   Mais cette vue d’esprit ignore la question de l’ancrage du point de vue
-   Voyageur, qui en grande majorité se perçoit comme un être
-   territorialisé.
-
-   Malheureusement cette vision n’est comprise que dans une acception
-   restreinte par ceux qui conceptualisent et mettent en oeuvre l‘accueil.
-   Si bien que la question de l’ancrage devient un point névralgique des
-   nouvelles stratégies politiques au sujet des « gens du voyage ». Pour
-   rester schématique, j’observe deux grandes manoeuvres politiques dans
-   l’histoire de l’accueil, la première est celle qui consiste à
-   sédentariser pour ancrer. Cette conception conduit nécessairement à une
-   forme de violence puisqu’elle induit une sédentarisation contrainte.
-   Elle fut mise en oeuvre dans une forme paroxysmique à partir du 6 avril
-   1940 où la troisième République interdit la circulation des « nomades »
-   puis l’internement à partir d’octobre. Contrainte du corps pour changer
-   l’esprit, ce fut un échec dans une certaine mesure car cela ne permit
-   pas une sédentarisation définitive des « nomades ». L’idée d’une
-   sédentarisation pour l’ancrage ne fut pas pour autant abandonnée
-   puisqu’au sortir de la guerre le ministère de l’intérieur “souhaite
-   profiter de certains résultats heureux” du décret de 1940. C’est en
-   cela que l’échec ne fut que partiel. Les premiers plans de
-   sédentarisation sont ainsi mis en oeuvre dès les années 1950, et
-   certains sont encore effectifs aujourd’hui.
-
-   L’anthropologue Lise Foisneau et le photographe Valentin Merlin ont
-   travaillé récemment sur l’étude du « hameau tsigane » du Plan de Grasse
-   qui est une résultante directe de cette vision. Ici ont été
-   sédentarisées des populations Sintés dans le seul objectif de servir de
-   main d’oeuvre pour les industries du parfum. Aujourd’hui encore un
-   nombre significatif des habitants du hameau travaillent comme
-   cueilleurs de fleurs dans les exploitations agricoles de la ville.
-
-   Cette vision fait ensuite chemin vers ce que l’on connait aujourd’hui,
-   des lieux dédiés à l’accueil des “gens du voyage”. Mais cet ensemble de
-   lieux, leur existence et leur spatialisation procèdent du même
-   paralogisme puisqu’il n’intègre pas la compréhension de l’ancrage par
-   les Voyageurs.
-
-   Un indicateur très présent dans les schémas départementaux illustre à
-   merveille les difficultés induites par cette erreur de calibrage : les
-   taux d’occupation des aires. C’est un paramètre qui obsède
-   littéralement les personnes intéressées par la question de l’accueil
-   car les financements d’investissement et de fonctionnement de ces lieux
-   dépendent en grande partie du taux d’occupation. Ainsi une aire
-   fréquemment utilisée est une aire qui reçoit davantage de subsides,
-   c’est aussi une aire qui fait plus de chiffre puisque rappelons le
-   encore une fois, si ces lieux sont obligatoires pour les voyageurs ils
-   n’en sont pas moins gratuits. Mais en ignorant la vision de l’ancrage
-   par les Voyageurs, la répartition spatiale des aires s’est faite à
-   partir de la seule compréhension (et il faut bien l’avouer, aussi
-   beaucoup du peu d’égards) des gadjé.
-
-   Je me demande toujours quel Voyageur souhaiterait s’ancrer près d’une
-   déchetterie ? Quel Voyageur souhaiterait s’ancrer près d’une station
-   d’épuration, loin de la ville, dans un lieu sans transport en commun,
-   dégradé, dans un lieu surveillé et où s’exerce un contrôle social comme
-   c’est le cas aujourd’hui sur les “aires d’accueil” ?
-
-   Force est de constater que la logique de la sédentarisation pour
-   l’ancrage n’a pas totalement fonctionné. Et puisque la logique
-   majoritaire semble procéder par syllogisme lorsqu’elle se penche sur la
-   manière d’accueillir les voyageurs, il convient alors d’inverse la
-   méthode : il faut ancrer pour sédentariser. Or pour ancrer il est
-   nécessaire d’obtenir un cadre juridique favorable. Ce chemin a été
-   parcouru entre l’échec de la Loi Besson de 1990 qui ne prévoyait que la
-   mise en place d’aires ou de terrains désignés (se limitant
-   essentiellement au stationnement) et celle de 2000 qui assortit aux
-   aires d’accueil un ensemble de mesures d’ancrage contraignantes ou
-   incitatives (la limite entre les deux étant souvent floue).
-
-   Ces dernières décennies ont ainsi été marquées par un ensemble de lois
-   réduisant très fortement la possibilité de voyager (surtout de
-   stationner) et de vivre de manière mobile ou itinérante (encore une
-   fois sémantique à adapter en fonction de l’interlocuteur). En témoigne
-   la dernière loi votée et augmentée en relecture par le Sénat en janvier
-   2020 qui prévoit de durcir les pénalités en cas d’installation illégale
-   et de soumettre chaque installation de caravanes à l’accord du maire.
-
-   De cette manière l’ancrage est plus facile, les Voyageurs se trouvant
-   de plus en plus soumis à une réglementation impossible à concilier avec
-   leur mode de vie doivent se poser plus longtemps, réduire leurs schémas
-   de voyage et donc in fine utiliser davantage les aires. Alors au
-   bonheur des artisans de la Loi Besson, les taux d’occupation ont
-   globalement progressé mais d’autres problèmes sont apparus : de
-   nombreux collectifs finissent par se sédentariser sur les aires, et les
-   aires d’accueil n’ont pas vocation à cela. Dans certains département la
-   situation devient presque inconciliable avec l’obligation d’accueillir,
-   il n’y a plus de place pour les Voyageurs de passage. La réponse des
-   pouvoirs publics est donc aujourd’hui de mettre l’accent sur «
-   l’habitat adapté », autrement dit la possibilité de mettre à
-   disposition sous forme locative des terrains permettant aux Voyageurs
-   de s’installer, de se sédentariser. Bien que les rédacteurs de la Loi
-   Besson aient tenu à établir une distinction claire entre les notions
-   d’“accueil” et d’“habitat” (l’une consistant à accueillir des
-   collectifs “itinérants”, l’autre à loger des collectifs sédentaires ou
-   “sédentarisés”), il ne demeure pas moins qu’en pratique un mélange des
-   genres permet d’établir un modèle récurent : 1- j’accueille l’itinérant
-   2- je contrains l’itinérant 3- je loge et donc ancre le nouveau
-   sédentarisé.
-
-   L’aire d’accueil devient alors un sas, une étape qui préfigure la
-   sédentarisation et pour cela la loi Besson met l’accent sur des
-   vecteurs d’ancrage : la scolarisation des enfants, le lien constant
-   avec le travailleur social, le contrôle policier et administratif et,
-   dans une moindre mesure, l’inclusion professionnelle des adultes. Force
-   est donc de constater que la stratégie de l’ancrage pour la
-   sédentarisation obtient plus de succès que la précédente. Du moins cela
-   fonctionne sur le papier, car élaborée au niveau national, cette visée
-   passe mal au niveau local.
-
-Traductions spatiales des oppositions entre conception d’Etat et mise en
-oeuvre locale.
-
-   De façon paradoxale cette perception du “Tsigane” sans territoire, qui
-   conditionne les textes réglementant l’accueil, cristallise les passions
-   antitsiganes. La question de l’accueil est prise au sens littérale
-   comme celui de l’accueil du corps étranger. Si bien que la mise en
-   oeuvre des stratégies décidées au niveau nationale entre en conflit
-   avec un rejet local. C’est donc tout logiquement que les aires
-   d’accueil sont situées majoritairement à l’écart des villes et plus
-   précisément des zones d’habitation.
-
-   Ainsi le choix de localisation des aires procède d’une logique
-   d’évaluation des risques et des bénéfices. Les bénéfices apparaissent
-   clairement, celui d’éviter l’installation “sauvage” de campement, celui
-   de contrôler ces “migrations” de population qui ont la réputation
-   d’être anarchiques et surtout circonscrire des mouvements qui
-   représentent un risque politique. Dans ce cadre théorique il est aisé
-   de penser que l’accueil devrait être perçue comme une solution idéale
-   car elle circonscrit et regroupent les mouvements de populations
-   mobiles en un seul lieu, qui plus est à l’écart des riverains
-   sédentaires.
-
-   Pourtant il existe un vrai rejet, une réelle impopularité qui s’exprime
-   de manière plus ou moins violente à chaque projet d’aire d’accueil. Les
-   populations locales n’en veulent pas et par extension les élus de ces
-   populations ne peuvent pas prendre ce risque sans contre-partie. C’est
-   pourquoi le cadre légal de l’expulsion a été augmenté offrant à celui
-   qui exerce les pouvoirs de police au niveau local — le maire — la
-   possibilité de prononcer une expulsion sans passer devant le juge et ce
-   dans un délai de 48 heures, mais aussi la possibilité de prononcer des
-   interdictions de territoire pendant 7 jours. Une condition toutefois :
-   être en conformité avec le schéma d’accueil. On note donc naturellement
-   une accélération des projets qui parfois sont anciens. Des projets
-   d’aires d’accueil vieux de plus de 15 ans, qui jusqu’alors étaient
-   soigneusement ignorés refont surface.
-
-   La logique propre à la spatialisation des aires n’a pour autant que peu
-   évoluée, ce qui importe c’est de construire un projet peu coûteux, et
-   donc le critère du terrain devient accessoire. Après des années de
-   réticences locales le moindre compromis quant à la localisation est
-   accepté. En témoigne par exemple la prochaine aire de grand passage de
-   Claye-Souilly (77), installée loin de la ville, aux limites communales,
-   dans une zone naturelle d’intérêt, jouxtant les chemins de fer et la
-   plus grande décharge d’Europe. Ce qui compte c’est d’être conforme au
-   schéma d’accueil, la manière importe peu.
-   Localisation de la future aire de grand passage de Claye-Souilly
-
-   Dans mon exercice de recensement des aires j’observe des chiffres
-   significatifs qui illustrent ces réalités. Sur les 20 premiers
-   départements étudiés près de 80% des aires sont isolées
-   des zones habitées, 70% sont proches de sources de
-   nuisances industrielles ou environnementales. Cherchez un
-   terrain de faible valeur, loin des habitants de la ville, facile à
-   raccorder et vous tomberez naturellement sur des lieux proches de
-   stations d’épuration, de déchetteries, de cimetières, de carrières,
-   d’usines… Autant d‘installations à fort potentiel de nuisance qui ont
-   été, elles aussi, soigneusement mises à l’écart des villes.
-
-   Mais cette réalité engendre un autre phénomène, celle de la
-   constitution de plus en plus importante de grands groupes de voyage.
-   Les voyageurs se rassemblent afin de jouer de rapport de force et
-   d’éviter de vivre sur ces lieux indignes. Il s’agit là d’une variante
-   que la stratégie d’Etat n’a pas évalué à sa juste mesure. L’opposition
-   Etat / Local n’a jamais été aussi forte que sur le sujet de l’accueil
-   des grands groupes, nombre d’élus réclamant une gestion étatique de ces
-   “migrations intérieures”. Si le parc d’aires d’accueil permettant
-   “d’accueillir” des groupes restreints est donc globalement en bonne
-   voie de constitution (en terme de nombre), le manque “d’aire de grand
-   passage” est criant. La traduction de cette réalité en matière
-   médiatique est désastreuse, si bien que la majorité du traitement
-   médiatique autour des “gens du voyage” se concentre aujourd’hui sur la
-   question de la gestion des grands groupes. Alimentant un peu plus
-   encore cette mécanique antitsigane, du voyageur perçu comme corps
-   étranger et élargissant le champ sémantique au mot cruel “d’invasion”.
-
-Les accueillis acteurs de l’accueil ?
-
-   Tant au niveau national qu’au niveau local les autorités publiques
-   conscientes de leur histoire commune cherchent à légitimer l’accueil
-   par un processus ascendant. L’accueil serait co-construit avec les
-   accueillis.
-
-   Ainsi au niveau local des consultations sont organisées pour recueillir
-   l’avis des voyageurs avant l’écriture définitive du projet de schéma.
-   Ces consultations sont présentées comme une manière d’intégrer leurs
-   avis, pour construire un accueil adapté. En pratique les consultations
-   font office de grandes salles plus ou moins désertées où quelques élus
-   réceptionnent les doléances des quelques voyageurs qui souhaitent
-   encore y participer (oserais-je dire qui y croient encore). La majorité
-   du temps ces acteurs sont représentés par des associations (qui bien
-   souvent ne sont mêmes pas constituées de voyageurs), des travailleurs
-   sociaux, des gestionnaires d’aires d’accueil. Autrement dit l’accueil
-   se co-construit avec des gens qui n’en feront jamais l’objet.
-
-   Des initiatives ici et là viennent recueillir la parole du voyageur
-   directement sur les aires au travers de l’intermédiaire le mieux placé
-   dans l’esprit gadjo : le travailleur social ou médiateur. Il s’agit en
-   réalité d’un des pires intermédiaires qui soient, puisqu’il est souvent
-   trompé par les voyageurs qui le perçoivent comme un corps étranger, un
-   symbole du contrôle d’Etat. La représentation voyageuse auprès de ces
-   commissions découle donc du paradigme gadjo qui considère encore
-   qu’interroger directement le voyageur n’est pas la bonne manière de
-   faire. On utilise des intermédiaires ou comme au niveau national des
-   représentants, dont les modalités de désignation sont pour le moins
-   arbitraires. Cette perception fait encore largement écho à la
-   perception de la minorité “gens du voyage” comme groupe tribal, c’est
-   le chef, le représentant qui doit s’exprimer. Comme lorsque les
-   gendarmes nous rendaient visite à chaque installation : “est-ce qu’on
-   pourrait parler au chef ?”, ce qui jamais ne manquait de nous faire
-   sourire et de créer quelques atellanes dont seuls les Voyageurs ont le
-   secret.
-
-   Ainsi au niveau national existe une “Commission nationale consultative
-   des Gens du voyage” (notez le “G” majuscule), composée de plusieurs
-   dizaines de membres dont une minorité (huit) sont des “représentants
-   des associations des Gens du voyage”. Il faut ajouter que tous les
-   représentants ne sont pas forcément des “gens du voyage”, et se
-   demander comment s’oppère la sélection parmi les centaines
-   d’associations existantes ? Pour discuter régulièrement avec les
-   quelques membres Voyageurs, il apparait qu’un sentiment d’impuissance
-   prime. L’un de ces membres m’a dit début février 2020 : “j’ai
-   l’impression qu’on me demande mon avis pour s’en servir contre nous
-   ensuite”. Mais surtout l’expression d’opinions dissidentes ne
-   transparait pas dans les avis consultatifs rendus par la Commission.
-   Pourtant cette dernière rend un avis pour chaque schéma départemental,
-   offrant l’impression au grand public que les schémas sont conçus d’un
-   commun accord avec les intéressés, alors qu’ils sont minoritaires dans
-   la Commission.
-
-   À titre d’exemple, le décret du 26 décembre 2019 relatif aux aires
-   d’accueil permanentes a fait l’objet d’un avis positif de la Commission
-   alors même qu’en annexe dans un modèle type de règlement intérieur
-   d’aire, il prévoit la possibilité pour les gestionnaires d’aires de
-   résilier les conventions d’occupation temporaire des “occupants” (notez
-   aussi le choix du mot) après une simple mise en demeure qui peut se
-   faire à l’oral ! Une expulsion en somme qui est accompagnée dans
-   certain cas d’un blacklistage (pratique totalement illégale mais
-   répandue). Les personnes victimes de ces sanctions ne peuvent donc pas
-   prouver la disproportion de la mesure puisqu’il suffit au gardien de
-   dire que des mesures intermédiaires ont été prises et annoncées à
-   l’oral. Il n’est pas rare que des familles entières ne puissent plus
-   avoir accès à aucune aire d’une même collectivité, ou d’un même
-   gestionnaire privé, ce qui les condamnent à une situation d’errance et
-   donc d’illégalité. Pour la petite histoire il a été demandé à la
-   Commission de valider ce texte alors même que ce dernier ne leur avait
-   jamais été présenté et n’était pas rédigé dans sa version finale. Pire
-   encore le Président de la Commission en la personne du Député Dominique
-   Raimbourg n’a rien trouvé de mieux comme observation que de réclamer à
-   ce que “le projet n’impose pas la mise aux normes des aires d’accueil
-   permanent construites avant la publication du décret pour maintenir la
-   capacité d’accueil du stock existant”. Autrement dit, celles et ceux
-   qui sont contraints de vivre dans des lieux insalubres tant pis pour
-   vous, le désir de vous voir rester encampés prime sur votre santé.
-   Quelle personne ayant vécu ne serait-ce qu’un jour dans une aire
-   d’accueil aurait laissé passer cela ?
-
-   Plus anecdotique le Décret rappelle que “le gestionnaire doit respecter
-   les occupants et ne pas avoir de comportement discriminant”, une phrase
-   nouvelle qui illustre à elle seule certaines réalités de terrain.
-
-   Il est donc tout logique que face à une telle conception de la
-   représentativité et de l’écoute des voyageurs, les constructions
-   théoriques et encore plus les mises en oeuvre de l’accueil soient
-   chaotiques.
-
-   Et c’est là que l’observation des résistances voyageuses est
-   indispensable pour comprendre le noeud du problème. Lise Foisneau est
-   l’auteure d’un remarquable article sur la question et plus largement
-   elle travaille aussi comme historienne sur la question des « nomades »
-   dans la Résistance. Elle met en exergue plusieurs formes de résistance,
-   qui vont de la plus simple à la plus spectaculaire. Je me contenterai
-   donc d’agrémenter ses écrits par quelques exemples contemporains
-   supplémentaires. Je note deux formes de résistance quant au sujet de
-   l’accueil, celle qui s’approprie le texte à son avantage et celle qui
-   va à l’encontre du texte.
-
-   Ainsi les voyageurs de l’aire d’accueil d’Albi ont lutté pendant des
-   années en s’installant illégalement dans une gravière et en réclamant
-   le droit d’y rester. Le terrain en question a fini par devenir une aire
-   d’accueil scindée en deux, une partie réservée à ces habitants
-   historiques, qui est donc une aire de sédentarisation et une partie
-   réservée aux voyageurs de passage, les fameux “occupants”.
-   Aire d’accueil d’Albi (81)
-
-   Ce jeu avec la légalité et l’affirmation de ce que la loi Besson
-   présente comme des droits obtenus est devenu un élément de
-   revendication politique. Je m’installe ici car vous, représentants de
-   l’Etat, ne respectez pas la Loi ! Ce renversement de l’illégalité a un
-   côté savoureux. Ce jeu aura duré quelques années et continue de durer
-   dans certains territoires qui ne sont pas encore en conformité avec
-   leur schéma. Vous voulez me contrôler avec des lois, alors je retourne
-   ces lois contre vous.
-
-   Ces histoires liées à des revendications localisées pourraient rappeler
-   celle des terres obtenues aux prix de longues luttes par des minorités
-   sur d’autres parties du globe. Mais il n’en est rien, car ces terres
-   d’accueil dédiées aux « gens du voyage » en France ne sont pas les
-   leurs juridiquement et sont administrées par la majorité. Le Voyageur
-   reste un “occupant”.
-
-   C’est ici que la résistance au système prend sa seconde forme, celle de
-   la bataille de l’illégalité. Vivre en aire d’accueil, déclarer au
-   préalable les trajets de grands groupes, vivre en aire de grand
-   passage, c’est accepter les conditions préalables qui y sont imposées.
-   Pré-paiement, contrôle, surveillance, respect d’un règlement,
-   acceptation de l’autorité du gardien, délimitation juridique de
-   l’espace de vie, isolement, présence de nuisances … La liste est longue
-   et la volonté d’y échapper est humaine.
-
-   L’illégalité c’est vivre en dehors de ce système d’encampement, en
-   quelque sorte l’illégalité pour certains voyageurs c’est vivre libres.
-   Mais à quel prix ?
-
-   Confrontés aux expulsions régulières, aux harcèlements permanents des
-   policiers, de l’administration, des travailleurs sociaux, faire face à
-   l’hostilité de la population qui conçoit encore plus fortement le
-   voyageur comme un corps étranger, la situation d’illégalité n’offre
-   aucune prise stable à long terme. Du moins il s’agit là de
-   l’argumentaire public qui décortiqué se transforme vite en ergotage.
-
-   Ainsi dans une situation légale, le « gens du voyage » n’échappe pas à
-   l’expulsion, puisque les autorisations de stationnement sur une aire
-   sont temporaires, puisque l’aire observe chaque année des périodes de
-   fermeture administrative, puisque le retard de paiement induit
-   régulièrement l’expulsion.
-
-   Echapper au harcèlement policier et administratif ? Rien n’est moins
-   sûr, les habitants de l’aire d’accueil de Petit Quevilly située en face
-   de Lubrizol pourraient en témoigner mieux que moi. Voilà des mois
-   maintenant que leur opposition publique à leur gestionnaire, la
-   Métropole de Rouen Normandie leur crée des problèmes : contrôles
-   inopinés, refus de régularisation administrative...
-
-   Quel est le tort de ce groupe à la Ciotat qui le 2 août 2019 a subi une
-   « opération de contrôle » (ne parlez surtout pas de perquisition)
-   généralisée et donc un traitement médiatique présentant ses habitants
-   comme d’évidents coupables, mais coupables de quoi ? La communication
-   officielle expliquait l’opération de contrôle par la recherche d’armes
-   et de stupéfiants (on sent par ailleurs le soucis de se protéger en
-   restant dans les motifs propres aux perquisitions de grande ampleur).
-   Rien n’a été trouvé, par contre Var Matin titrait le même jour
-   « Opération de contrôle chez les gens du voyage à la Ciotat ».
-   Qu’est-ce qui explique cette “opération de contrôle” si ce n’est que
-   stationner dans une ville où personne ne veut de vous devient un motif
-   légitime ? Rien non plus sur le fait que la Ciotat n’est pas en
-   conformité avec son schéma d’accueil. Rien, pourtant ils n’ont pas
-   échappé au harcèlement, ils n’ont pas échappé aux chiens piétinant les
-   matelas, souillant les sols des caravanes, renversant les jouets des
-   enfants, ils n’ont pas échappé aux hommes armés, ni au traitement
-   médiatique de rédactions habituées du jeu sensationnaliste autour des
-   « gens du voyage ».
-
-   Alors il serait plaisant de croire que vivre dans ces aires nous
-   protège de l’hostilité des habitants de la ville, dites dont ça aux
-   habitants de l’aire de Volvic, qui subissant un nombre incalculable de
-   plaintes, d’intimidations et d’actes d’harcèlements des habitants
-   riverains ont fini par fuir l’aire.
-
-   Alors donc l’argumentaire public devient argutie, ergotage inutile,
-   auquel il n’est plus possible d’adhérer autrement qu’à se poser la
-   question fatidique : troquons-nous notre liberté contre rien ?
-
-   La résistance des voyageurs est protéiforme, trop souvent tuée dans
-   l’oeuf sur la scène publique qui présente ces débordements comme des
-   externalités négatives induites naturellement par les « gens du voyage
-   ». Ce qui à mon avis fait défaut pour contrer efficacement ce discours,
-   c’est la structuration d’un contre-discours politique n’hésitant pas à
-   s’opposer à “l’accueil” et proposant des solutions alternatives, des
-   solutions venant des concernés, et soutenues par des instances
-   légitimées par leur fonctionnement démocratique et représentatif. Et
-   les solutions sont nombreuses : renforcement de la représentativité des
-   Voyageurs, introduction d’une part d’autogestion, création de comités
-   de protection composés uniquement par des Voyageurs, interdiction de
-   construction d’une aire isolée des zones habitées, proche de sites
-   pollués, création d‘aires sous forme coopératives, d’achat de parcelle
-   mutualisée, facilitation de l’accès au crédit, aux assurances,
-   autorisation de stationner sa caravane sur son propre terrain plus de
-   trois mois par an …
-
-   Mais il faut des outils pour y parvenir. J’espère que ces outils
-   soutiendront une réappropriation du champ sémantique et donc du
-   discours. C’est précisément ce que j’entends construire par ce
-   recensement et cette analyse des aires dans leur environnement. Offrir
-   des données incontestables sur les caractéristiques de ce que les
-   politiques « d’accueil des gens du voyage » produisent en France.
-   Offrir des éléments de lutte qui permettront un jour de passer de
-   l’accueil à l’ancrage de la mobilité. Qui permettront un jour de passer
-   de l’étranger à l’autochtone, de l’itinérant au Voyageur. Qui
-   permettront un jour de passer de l’aire d’accueil à l’aire du chez soi.
-
-   --
-
-   --
-   (BUTTON)
-
-   1
-   (BUTTON)
-
-More from William ACKER
-
-   (BUTTON) Follow
-   (BUTTON)
-
-   J’écris sur les personnes catégorisées “gens du voyage” I voyageur l
-
-   Love podcasts or audiobooks? Learn on the go with our new app.
-   Try Knowable
-
-   AboutHelpTermsPrivacy
-     __________________________________________________________________
-
-Get the Medium app
-
-   A button that says 'Download on the App Store', and if clicked it will
-   lead you to the iOS App store
-   A button that says 'Get it on, Google Play', and if clicked it will
-   lead you to the Google Play store
-   Get unlimited access
-   William ACKER
-
-William ACKER
-
-   86 Followers
-
-   J’écris sur les personnes catégorisées “gens du voyage” I voyageur l
-   (BUTTON) Follow
-   (BUTTON)
-
-   Help
-
-   Status
-
-   Writers
-
-   Blog
-
-   Careers
-
-   Privacy
-
-   Terms
-
-   About
-
-   Text to speech
+     * Accueil
+     * Catalogue des 605 revues
+
+   OpenEdition Search
+   (BUTTON) Tout OpenEdition
+
+   (BUTTON) Français
+     * English
+
+   Portail de ressources électroniques en sciences humaines et sociales
+   OpenEdition
+   Nos plateformes
+   OpenEdition Books OpenEdition Journals Hypotheses Calenda
+   Bibliothèques et institutions
+   OpenEdition Freemium
+   Nos services
+   OpenEdition Search La lettre d'OpenEdition
+   Suivez-nous

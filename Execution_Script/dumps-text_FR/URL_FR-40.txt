@@ -1,397 +1,781 @@
-   #alternate (jsx-150188040 jsx-3453149750) TF1 INFO - L'info pour tous
-   et pour chacun (jsx-150188040 jsx-3453149750)
+   #Recherche Ministère de l'Interieur Copyright
 
-   logo_burger
-   [ ]
+     * Accéder au menu
+     * Accéder au contenu
+     * Plan du site
+     * Contacts
 
-   Découvrez tout
-   l’univers TF1 INFO
-   ____________________
-   (BUTTON) loupe
-   Créer un compte (BUTTON) Se connecter
-   Regarder le direct Regarder les JT en direct Regarder votre JT
-   personnalisé
-   Directs
-     * Coupe du monde
-     * Guerre en Ukraine
+     * Site internet du ministère
+     * Connexion
 
-   [X]
-   Dans l’actualité en ce moment
-     * Coupe du monde 2022 : les Bleus échouent en finale contre
-       l'Argentine
-     * Ukraine : neuf mois de guerre
-     * Ukraine : la guerre du froid
-     * En Chine, la révolte contre le "zéro Covid"
-     * Twitter désormais dans la galaxie Musk
+   Ministère de l'Interieur
+   Direction générale des étrangers en France Ministère de l'Intérieur
+   [loupe_recherche.png] Rechercher le texte: ____________
+   [Tout le site] Recherche
+     * Études et statistiques
+          + Chiffres-clés, séjour, visas, éloignements, asile, accès à la
+            nationalité
+          + Chiffres clés : population, emploi
+          + Études
+          + Glossaire
+          + Liens utiles
+     * Actualités
+          + L'actu immigration
+          + Communiqués
+          + Focus
+     * Démarches
+          + Démarches de l'étranger en France
+          + Formulaires Cerfa
+     * Fonds européens
+          + Les fonds européens (programmation 2021-2027)
+          + Réserve d'ajustement au Brexit
+          + Les fonds européens (programmation 2014-2020)
+     * Documentation
+          + Textes officiels
+          + Appels à projets
+          + Rapports publics
+          + Définitions et méthodologie
 
-   [X]
-   Rubriques
-     * Politique
-     * Économie
-     * International
-     * Police - justice & faits divers
-     * Météo & intempéries
-     * Culture, médias et divertissement
-     * Conso & tendances
-     * Environnement
-     * Nouvelles technologies
-     * Santé & bien être
-     * Sujets de société
-     * Famille & éducation
-     * Sports
-     * Traditions et patrimoine
-     * Transports
-     * Logement et immobilier
-     * Sciences
-     * Voyages
-     * Au coeur des Régions
-     * Vie pro et emploi
-     * Dans mon assiette
-     * Mon argent et mes droits
-     * Initiatives positives
+   Passer au contenu principal
+     * Accueil
+     * La Direction générale
+          + Présentation
+          + Le directeur général
+          + Directions et services
+     * Immigration
+          + Les visas
+          + L'immigration professionnelle
+          + L'immigration familiale
+          + La délivrance des titres de séjour pour raisons de santé
+     * Intégration et Accès à la nationalité
+          + Rapport d’activités 2021 de la direction de l’intégration et
+            de l'accès à la nationalité (DIAN)
+          + La préparation de l’arrivée en France
+          + Le parcours personnalisé d'intégration républicaine
+          + AGIR, pour l’emploi et le logement des personnes réfugiées
+          + 1 000 parcours de validation des acquis de l'expérience (VAE)
+            au profit d'étrangers primo-arrivants
+          + Outils de communication
+          + Formations en ligne
+          + La nationalité française
+          + Les acteurs de l'intégration
+          + Les appels à projets
+          + Europe - International
+          + La commission interministérielle pour le logement des
+            populations immigrées (CILPI)
+     * Asile
+          + Appel à manifestation d'intérêt - Places spécialisées public
+            LGBT+ vulnérable
+          + Schéma national d’accueil des demandeurs d’asile et
+            d’intégration des réfugiés 2021-2023
+          + Informations Coronavirus : Questions-Réponses sur les demandes
+            d'asile
+          + 10 actions pour renforcer la prise en charge demandeurs
+            d’asile et des réfugiés vulnérables
+          + COVID-19: Information translated for foreigners - Q&A Asylum
+            seekers
+          + Guide du demandeur d'asile en France
+          + Les mineurs non accompagnés demandeurs d'asile
+          + La réinstallation
+          + L’accès aux soins
+          + Les appels à projets
+          + Infographies - Vidéos
+     * Europe et International
+          + Présidence française du GDISC
+          + Présidence française du Conseil de l'UE 2022
+          + Pacte sur la migration et l’asile
+          + La circulation transfrontière
+          + Les accords bilatéraux
+          + Le réseau européen des migrations (REM)
 
-   [ ]
-   Replay
-     * JT TF1
-          + Le 13h
-          + Le 20h
-          + Le WE
-     * Revoir LCI
-          + Les Matins LCI
-          + L'interview Politique
-          + Le Temps de l'Info
-          + LCI Midi
-          + Le Club Le Chatelier
-          + 24H Pujadas
-          + Brunet, Hammett et compagnie
-          + Un Oeil sur le Monde
-          + Le 20h de Darius Rochebin
-          + 22h-minuit Darius Rochebin avec Alexia Mayer
-          + Les Matins LCI - Week-end
-          + Le 10h/12h
-          + LCI Midi Week-end
-          + Le Club
-          + Impact Positif
-          + En toute franchise
-          + Le Grand Jury
-          + Lenglet Déchiffre
-          + Vis leurs vies
-          + Tout est Pol
-          + Fourest en liberté
-     * Magazines TF1
-          + Sept à huit
-          + Grands Reportages
+   Vous êtes ici : Accueil » Info-ressources » Études et statistiques »
+   Glossaire
+     * Imprimer
+     * Gestion des cookies
 
-   [ ]
-   Offres
-     * Coupe du monde 2022
-     * Les Vérificateurs
-     * Notre planète
-     * Le 20H vous répond
-     * Le 13H à vos côtés
-     * LCI vous répond
-     * Impact positif
+   Études et statistiques
 
-   [ ]
-   Podcasts
-     * Impact Positif
-     * Le cinéma c'est la vie en mieux
-     * Info et vous
-     * 24H Pujadas - Les partis pris
-     * L'interview Politique
-     * Expertes à la une
-     * Lenglet déchiffre
-     * Les gens qui lisent sont plus heureux
+Glossaire
 
-   [ ]
-   Jeux
-     * Jeux
-          + Solitaire
-          + Mots-fléchés
-          + Puzzle
-          + Mots-croisés
-          + Sudoku
-
-   [ ]
-   Pages légales
-     * Mentions légales
-     * Conditions générales d'utilisation
-     * Politique de protection des données du service TF1 Info
-     * Exercez vos droits
-     * Politique cookies
-     * Qui sommes-nous ?
-
-   [ ]
-   Sites du groupe
-     * MYTF1
-     * TF1 Météo
-     * La médiatrice vous répond
-
-   (BUTTON)
-   Paramétrer mes cookies
-   Télécharger l'application TF1 info
-
-Le droit de vote des étrangers revient dans le débat public
-
-   J.F
-   Publié le 16 août 2022 à 15h48
-   JT Perso
-
-   Source : Les MATINS LCI
-   Personnalisez votre expérience TF1 Infoet créez votre JT rien que pour
-   vous.
-
-   Le député de la majorité Sacha Houlié souhaite ouvrir à tous les
-   étrangers "le droit de vote et d'éligibilité aux élections
-   municipales".
-   La proposition a déjà été souhaitée par deux présidents socialistes,
-   qui ont échoué à la mettre en place.
-   Cette fois-ci encore elle semble compromise, la majorité étant divisée
-   sur le sujet.
-
-   En plein cœur de l’été, le député Renaissance Sacha Houlié a remis dans
-   le débat public la question du droit de vote des étrangers. Le mardi 9
-   août dernier, il a indiqué avoir déposé une proposition de loi pour
-   "accorder le droit de vote et d’éligibilité aux élections municipales"
-   à tous les étrangers, même non européens. Depuis 1992, seuls les
-   citoyens des pays membres de l’Union européenne peuvent voter aux
-   élections municipales, et plusieurs gouvernements ont déjà souhaité
-   élargir ce droit, sans y parvenir.
-
-   La proposition du parlementaire de la majorité a été favorablement
-   accueillie à gauche, où cette question est un serpent de mer depuis
-   plusieurs décennies. En effet, le droit de vote des étrangers aux
-   élections locales avait été promis par François Mitterrand et François
-   Hollande, sans aboutir. En 1981, cette revendication était reprise par
-   le premier dans son programme de campagne avant sa première élection à
-   la présidence de la République, avant de réaffirmer ce souhait 1988,
-   qui restera lettre morte.
-
-"Une occasion rêvée pour montrer que l’Assemblée peut voter des textes de
-gauche"
-
-   Si Nicolas Sarkozy sʼétait déclaré favorable à ce droit à titre
-   personnel il nʼen a jamais fait un élément de programme, contrairement
-   à François Hollande. Mais souvent annoncée puis ajournée, cette mesure
-   qui nécessite une révision constitutionnelle nʼa jamais été adoptée par
-   le gouvernement socialiste du prédécesseur dʼEmmanuel Macron.
-
-   "Ce que la gauche n’a pas eu le courage de faire sous François
-   Hollande, (...) elle peut le faire à présent. C’est une occasion rêvée
-   pour montrer que l’Assemblée nationale peut voter des textes de
-   gauche", a plaidé lʼancien ministre PS François Rebsamen, rappelant
-   quʼun texte en ce sens avait été adopté par lʼAssemblée nationale et le
-   Sénat, alors à majorité de gauche, en 2011.
-
-Une proposition qui fait débat au sein de la majorité
-
-   Mais l’adoption de cette proposition de Sacha Houlié s’annonce
-   difficile, puisqu’elle fait débat au sein même de la majorité. Ce mardi
-   16 août sur LCI, la secrétaire d’Etat chargée de la jeunesse et du
-   Service national universel Sarah El Haïry s’est opposée à cette
-   proposition, prônant plutôt la naturalisation. "L’expression
-   démocratique du vote, moi, je pense, mais à titre personnel, et le
-   débat arrivera à l’Assemblée au sein de la majorité, qu’il y a quelque
-   chose de fort que de demander à entrer dans notre communauté et de
-   faire une demande de naturalisation", a-t-elle expliqué dans "un avis
-   et une conviction très personnelle".
-   Lire aussi
-     * Présidentielle 2022 : la proposition du droit de vote à 16 ans
-       refait son apparition à gauche
-
-   Peu de temps après la proposition du député de la Vienne, le ministre
-   de l’Intérieur Gérald Darmanin avait indiqué via son entourage qu’il
-   était "fermement opposé à cette mesure". L’ancien ministre de gauche
-   Jean-Pierre Chevènement, soutien de la majorité, est lui aussi
-   réticent, estimant que "citoyenneté et démocratie ne peuvent être
-   déconnectés" et soutient plutôt "la naturalisation, accompagnée d’un
-   parcours d’intégration républicaine ouvert et exigent". Un débat aura
-   lieu à la rentrée à ce sujet, qui promet déjà de diviser la classe
-   politique.
+   De A à Z, toutes les définitions, tous les concepts et tous les sigles
      __________________________________________________________________
 
-   J.F
+Acquisition de la nationalité
 
-   Sur le
-   même thème
-     * #Droit de vote
-     * #Assemblée nationale
-     * #Emmanuel Macron
-     * #Nicolas Sarkozy
-     * #François Hollande
+   Le terme générique « acquisition » de la nationalité française englobe
+   l’ensemble des modes d’obtention de la nationalité qui résultent d’une
+   demande des personnes intéressées : naturalisation et réintégration par
+   décret, déclaration de nationalité souscrite au titre du mariage, de la
+   qualité d’ascendant de Français, de frère ou de sœur de Français ou de
+   la naissance et de la résidence en France. L’acquisition de la
+   nationalité française doit donc être distinguée de l’attribution de la
+   nationalité française à la naissance qui se réalise automatiquement du
+   fait soit de la filiation (est français l’enfant dont au moins un des
+   parents est français, quel que soit le lieu de naissance de l’enfant et
+   que celui-ci soit né dans le mariage ou hors mariage – cf. articles 18
+   et suivants du Code civil), soit de la naissance en France (est
+   français l’enfant né en France dont un parent y est lui-même né – cf.
+   articles 19 et suivants du Code civil). Articles 18 et 19 du Code
+   civil.
+     __________________________________________________________________
 
-   [ ]
-     * S'allier ou s'opposer à Emmanuel Macron, les Républicains sont
-       toujours divisés
-       Publié le 25 octobre 2022 à 16h42
-     * Réforme des retraites : pourquoi Emmanuel Macron brandit la menace
-       d’une dissolution de l’Assemblée nationale
-       Publié le 29 septembre 2022 à 12h35
-     * Sarah El Haïry "pas favorable" au droit de vote des étrangers pour
-       les élections municipales
-       Publié le 16 août 2022 à 9h53
-     * Après l'"échec" des législatives d'Emmanuel Macron, Gérard Larcher
-       appelle à travailler "texte par texte"
-       Publié le 28 juin 2022 à 10h27
-     * "Majorité relative", "motion de censure", "vote de confiance"...
-       ces notions dont vous allez entendre parler ces prochaines semaines
-       Publié le 20 juin 2022 à 19h23
-     * Emmanuel Macron favorable à la proportionnelle à l'Assemblée
-       nationale
-       Publié le 18 mars 2022 à 17h10
-     * Présidentielle : que proposent Emmanuel Macron et Marine Le Pen sur
-       la démocratie et les institutions ?
-       Publié le 13 avril 2022 à 19h28
-     * En agitant la menace d'une dissolution de l'Assemblée, Emmanuel
-       Macron met la pression sur Les Républicains
-       Publié le 29 septembre 2022 à 13h37
-     * Comment le Premier ministre est-il désigné en France ?
-       Publié le 25 avril 2022 à 14h28
-     * Droit de vote des étrangers : l'impossible promesse de François
-       Hollande ?
-       Publié le 15 juillet 2014 à 16h31
+Admission au séjour
 
-   Voir plus
+   Notion correspondant à la délivrance d’un premier titre de séjour sur
+   un motif déterminé, c’est-à-dire à une première comptabilisation
+   statistique, soit pour un étranger qui arrive sur le territoire
+   national (procédure dite « d’introduction »), soit pour un étranger
+   déjà présent en France en situation irrégulière (procédure dite de
+   « régularisation »).
+     __________________________________________________________________
 
-   Tout
-   TF1 Info
-   (*) ( ) ( )
-   Les + lusDernière minuteTendance
-   [ ]
-     * 1
-       "Notre histoire prend fin" : Karim Benzema dit adieu aux Bleus
-       Publié hier à 16h07
-     * 2
-       Noël : 5 films conseillés par un psy à faire regarder à vos enfants
-       pendant les vacances
-       Publié le 21 décembre 2018 à 14h19
-     * 3
-       EN DIRECT - Coupe du monde : 50.000 personnes réunies place de la
-       Concorde pour saluer les Bleus
-       Publié hier à 7h00
-     * 4
-       Moqueries, insultes, gestes déplacés… Les joueurs argentins se sont
-       lâchés après leur victoire
-       Publié hier à 7h55
-     * 5
-       Finale de Coupe du Monde : quel est ce manteau traditionnel que
-       Messi portait lorsqu'il a soulevé le trophée ?
-       Publié hier à 11h48
-     * 6
-       Vienne : un couple de policiers en congés retrouvé mort dans une
-       maison
-       Publié hier à 13h52
-     * 7
-       Argentine-France (3-3, 4-2 t.a.b) : la 3e étoile échappe aux Bleus,
-       Lionel Messi (enfin) sur le toit du monde
-       Publié le 18 décembre 2022 à 12h00
-     * 8
-       VIDÉO - "J'ai hâte de tout découvrir" : la première interview
-       d'Indira Ampiot, nouvelle Miss France 2023, sur LCI
-       Publié le 18 décembre 2022 à 8h45
-     * 9
-       Les Bleus sur la place de la Concorde, chronique d'une fête
-       désorganisée
-       Publié hier à 13h30
-     * 10
-       EN DIRECT - Coupe du monde 2022 : Lionel Messi veut "continuer de
-       jouer pour l'Argentine"
-       Publié le 18 décembre 2022 à 8h00
-       Voir plus d'actualités
+AGDREF
 
-     * 1
-       EN DIRECT - Coupe du monde : 50.000 personnes réunies place de la
-       Concorde pour saluer les Bleus
-       Publié hier à 23h00
-     * 2
-       VIDÉO - Revivez le moment de communion entre les Bleus et les
-       supporters à la place de la Concorde
-       Publié hier à 22h17
-     * 3
-       Assaut sur le Capitole : la commission d'enquête recommande des
-       poursuites contre Trump
-       Publié hier à 22h08
-     * 4
-       VIDÉO - Sur les lèvres de Didier Deschamps : ce qu'il a dit aux
-       joueurs pendant la finale
-       Publié hier à 21h47
-     * 5
-       Rugby : Laporte accepte finalement de se "mettre en retrait" de la
-       fédération
-       Publié hier à 21h02
-     * 6
-       Coupe du monde 2022 : Karim Benzema, l'ombre qui a plané au-dessus
-       des Bleus
-       Publié hier à 20h55
-     * 7
-       VIDÉO - Mondial 2022 : les coulisses du départ des Bleus après leur
-       défaite en finale
-       Publié hier à 20h51
-     * 8
-       VIDÉO - De retour du Qatar, les Bleus sur le tarmac de Roissy
-       Publié hier à 20h48
-     * 9
-       Qatargate : le scandale de corruption au Parlement européen a-t-il
-       été révélé par Manon Aubry ?
-       Publié hier à 20h46
-     * 10
-       Le 20 heures du lundi 19 décembre 2022
-       Publié hier à 20h45
-       Voir plus d'actualités
+   Application des gestions des dossiers des ressortissants étrangers en
+   France. Cette application informatique permet la centralisation de
+   l’ensemble des données individuelles enregistrées par les préfectures à
+   l’occasion des différentes démarches effectuées par les étrangers sur
+   le territoire français et constitue un fichier national des titres de
+   séjour.
+     __________________________________________________________________
 
-     * 1
-       Emmanuel Macron et Kylian Mbappé : une relation entre admiration et
-       intérêt politique
-       Publié hier à 14h13
-     * 2
-       Aujourd'hui dans 24H Pujadas : Poutine - "Avangard", le missile
-       nucléaire "inarrêtable" selon Moscou
-       Publié hier à 17h41
-     * 3
-       Après la finale du Mondial, Macron sur le Charles-de-Gaulle pour
-       fêter Noël avec les troupes
-       Publié le 17 décembre 2022 à 22h53
-     * 4
-       Sébastien Chenu juge "ridicule" l'omniprésence d'Emmanuel Macron
-       auprès des Bleus
-       Publié hier à 11h12
-     * 5
-       Emmanuel Macron aux côtés des militaires du porte-avions Charles de
-       Gaulle ce lundi
-       Publié le 18 décembre 2022 à 23h00
-     * 6
-       Fonction publique : les négociations salariales auront lieu début
-       2023, promet Stanislas Guerini
-       Publié le 18 octobre 2022 à 10h32
-     * 7
-       Vaccination Covid : François Braun reconnaît un bilan mitigé
-       Publié le 18 décembre 2022 à 12h08
-     * 8
-       Nouvelle motion de censure rejetée, neuvième 49.3 : soirée agitée à
-       l’Assemblée
-       Publié le 12 décembre 2022 à 6h45
-     * 9
-       Revoyez les images de Jacques Chirac à la finale de la Coupe du
-       monde de football de 1998
-       Publié le 26 septembre 2019 à 14h52
-     * 10
-       Finalement au Qatar, Emmanuel Macron politise la Coupe du monde
-       Publié le 15 décembre 2022 à 14h58
-       Voir plus d'actualités
+Asile - droit d’asile
 
-     * Police, justice et faits diversAu moins 10 morts après un terrible
-       incendie à Vaulx-en-Velin
-     * InternationalL'interview exclusive de Volodymyr Zelensky sur LCI
-     * Météo et intempériesNeige et verglas : la France perturbée par les
-       intempéries
-     * Conso et tendancesCrise de l'énergie en France
-     * InternationalLe Parlement européen éclaboussé par des soupçons de
-       corruption
+   Protection donnée à une personne exposée à un risque de persécution ou
+   de traitement inhumain ou dégradant dans son pays et qui ne peut
+   obtenir de protection de la part de ses autorités. En France, le droit
+   d’asile a été introduit pour la première fois par la Constitution de
+   1793. Le principe a été repris par le Préambule de la Constitution de
+   1946 auquel fait référence celui de la Constitution de 1958 (voir
+   ci-dessous « asile constitutionnel »). Il découle également de la
+   Convention de Genève du 28 juillet 1951 relative au statut de réfugié
+   (voir ci-dessous « asile conventionnel »). Il est énoncé à l'article L.
+   711-1 du CESEDA. Le droit d’asile est également ouvert sur la base de
+   la protection subsidiaire prévue à l’article L. 712-1 du CESEDA (voir
+   ci-dessous « protection subsidiaire »).
+     __________________________________________________________________
 
-   Accueil-Politique-Le droit de vote des étrangers revient dans le débat
-   public
-   Mentions légalesConditions générales d'utilisationPolitique de
-   protection des données du service TF1 InfoExercez vos droitsPolitique
-   cookiesLa médiatrice vous répondTous les tagsCoupe du Monde 2022Espace
-   presse (BUTTON) Paramétrer mes choix
-   TF1 Info Copyright ©2022
+Asile constitutionnel
+
+   Il figure à l'alinéa 4 du Préambule de la Constitution de 1946 auquel
+   fait référence le Préambule de la Constitution de 1958. Le droit
+   d'asile est reconnu à « tout homme persécuté en raison de son action en
+   faveur de la liberté».
+     __________________________________________________________________
+
+Asile conventionnel
+
+   Définie à l'article 1, A, §2 de la Convention de Genève du 28 juillet
+   1951 relative au statut des réfugiés, la qualité de réfugié est
+   reconnue à toute personne « qui craignant avec raison d’être persécutée
+   du fait de sa race, de sa religion, de sa nationalité, de son
+   appartenance à un certain groupe social ou de ses opinions politiques,
+   se trouve hors du pays dont elle a la nationalité et qui ne peut ou, du
+   fait de cette crainte, ne veut se réclamer de la protection de ce
+   pays ».
+     __________________________________________________________________
+
+Autorisation de séjour
+
+   Reconnaissance par l’autorité publique du droit à rester temporairement
+   sur le territoire national (durée variable suivant le titre accordé).
+   Les autorisations de séjour regroupent toutes les catégories de
+   documents de séjour : carte de séjour temporaire, carte de séjour,
+   carte de résident, autorisation provisoire de séjour, récépissé de
+   première demande et de renouvellement de titre de séjour.
+     __________________________________________________________________
+
+Autorisation provisoire de séjour (APS)
+
+   Document temporaire qui autorise, durant sa durée de validité, son
+   titulaire à séjourner en France. Ce document est, en général, d’une
+   durée de validité de six mois et peut être renouvelé. L’APS peut, dans
+   certains cas, permettre l’exercice d’une activité professionnelle ou
+   être assorti d’une autorisation de travail, sur présentation d’une
+   promesse d’embauche ou d’un contrat de travail.
+     __________________________________________________________________
+
+CADA
+
+   Centre d’accueil pour demandeurs d’asile : dispositif spécifique
+   d’hébergement pour l’accueil des demandeurs d’asile.
+     __________________________________________________________________
+
+CAI
+
+   Contrat d’accueil et d’intégration. Mis en place en 2003, puis proposé
+   à tous les étrangers entrant pour la première fois en France et
+   souhaitant s’y maintenir durablement (loi du 24 juillet 2006), rendu
+   obligatoire par la loi du 20 novembre 2007. Le CAI comprend une
+   formation civique présentant les institutions françaises et les valeurs
+   de la République et, si nécessaire, une formation linguistique.
+   L’étranger bénéficie d’une session d’information sur la vie en France
+   et d’un bilan de compétences professionnelles. Lors du premier
+   renouvellement du titre de séjour, l’autorité administrative tient
+   compte du suivi des différentes obligations du CAI. Article L.311-9 du
+   CESEDA. Il a été remplacé, par loi du 7 mars 2016, par le contrat
+   d’intégration républicaine (CIR).
+     __________________________________________________________________
+
+Carte de résident (CR)
+
+   Titre de séjour d’une durée de validité de dix ans renouvelable. Cette
+   carte est notamment délivrée, sous certaines conditions, à un étranger
+   qui justifie d’une résidence régulière ininterrompue d’au moins cinq
+   années en France (art. L.314-8 CESEDA).
+     __________________________________________________________________
+
+Carte de séjour pluriannuelle « passeport talent »
+
+   Titre de séjour délivré aux étrangers qualifiés ou renommés dans
+   différentes situations : salarié d’une entreprise innovante, salarié
+   diplômé en France et bénéficiant d’une rémunération supérieure à un
+   certain seuil, chercheur, porteur d’un projet innovant, ou bénéficiant
+   d’une renommée internationale … (la liste des 10 motifs de délivrance
+   figure au L. 313-20 CESEDA). Ces titres sont pluriannuels et permettent
+   à la famille de leur bénéficiaire de disposer également d’un titre
+   pluriannuel les autorisant à travailler en France. D’une façon visible
+   et avec des avantages importants pour leurs bénéficiaires, ils
+   regroupent ainsi depuis le 1^er novembre 2016 les différents
+   dispositifs mettant en œuvre de la politique d’attractivité du
+   territoire pour les talents internationaux.
+     __________________________________________________________________
+
+Carte de séjour temporaire "vie privée et familiale"
+
+   Titre de séjour délivré à un étranger justifiant d’attaches
+   personnelles et familiales en France. Le CESEDA prévoit onze cas de
+   délivrance et notamment le statut de conjoint de Français ou de parent
+   d’enfant français, le bénéficiaire du regroupement familial,
+   l’apatride, le jeune majeur…. Cette carte a une durée de validité d’un
+   an renouvelable (art. L. 313-11 et suiv. CESEDA). Voir aussi : Liens
+   personnels et familiaux, immigration familiale, membres de famille de
+   Français, regroupement familial.
+     __________________________________________________________________
+
+Carte de séjour temporaire (CST)
+
+   Titre de séjour d’une durée de validité d’un an renouvelable sauf
+   exception prévue par la loi. Elle indique le motif sous lequel
+   l’étranger est admis au séjour : « salarié », « étudiant », « vie
+   privée et familiale ». Après une première année de séjour en France,
+   son bénéficiaire peut se voir délivrer une carte pluriannuelle, valable
+   jusqu’à quatre ans (art. L. 313-17 CESEDA).
+     __________________________________________________________________
+
+CESEDA
+
+   Code de l’entrée et du séjour des étrangers et du droit d’asile en
+   France, créé par la loi n° 2003-1119 du 26 novembre 2003. Ce code,
+   applicable depuis le 1er mars 2005, est composé d’une partie
+   législative et réglementaire, issues initialement de l’ordonnance n°
+   45-2658 du 2 novembre 1945 relative à l'entrée et au séjour des
+   étrangers en France et du décret n° 46-1574 du 30 juin 1946, auxquels
+   se sont ajoutées les dispositions des lois et textes réglementaires
+   adoptés par la suite.
+     __________________________________________________________________
+
+CILPI
+
+   La commission interministérielle pour le logement des populations
+   immigrées a pour objet:
+     * de formuler toutes propositions et de coordonner l'ensemble des
+       actions relatives au logement des populations immigrées et de leurs
+       familles, en particulier en ce qui concerne les actions concernant
+       les foyers de travailleurs migrants ;
+     * d'élaborer, à partir des propositions des préfets, les programmes
+       d'opérations éligibles au financement de la participation des
+       employeurs à l'effort de construction ;
+     * d'établir un bilan annuel des actions mises en œuvre pour le
+       logement des populations immigrées.
+
+   Une dimension important de l’activité de la CILPI consiste en le suivi
+   du plan de transformation des foyers de travailleurs migrants (PFTM) en
+   résidences sociales, décidé en 1997.
+     __________________________________________________________________
+
+CIR
+
+   contrat d’intégration républicaine. Introduit par la loi du 7 mars
+   2016, il se substitue au contrat d’accueil et d’intégration. Il
+   s’adresse aux ressortissants des pays tiers ayant obtenu un premier
+   titre les autorisant à séjourner en France et ayant le projet de s’y
+   établir durablement. Il comprend un entretien d’orientation, une
+   formation linguistique visant le niveau A1 de français (en fonction du
+   niveau de français initial de l’étranger), une formation civique et un
+   conseil en orientation professionnelle. Son suivi conditionne l’octroi
+   d’une carte de séjour pluriannuelle.
+     __________________________________________________________________
+
+CNDA
+
+   Cour Nationale du droit d’asile, anciennement Commission des recours
+   des réfugiés (CRR). La CNDA est une juridiction administrative
+   spécialisée relevant du Conseil d’Etat et statuant sur les recours
+   formés par les demandeurs d'asile contre les décisions de rejet de
+   l’Office français de protection des réfugiés et des apatrides (OFPRA).
+   L'annulation par la CNDA d'une décision de rejet de l'OFPRA se traduit
+   par la reconnaissance du statut de réfugié ou par l’octroi de la
+   protection subsidiaire.
+     __________________________________________________________________
+
+COM
+
+   Collectivités d’Outre-Mer : Polynésie française, Saint-Pierre et
+   Miquelon, Terres australes et antarctiques françaises, Wallis et
+   Futuna. La Nouvelle-Calédonie, qui n’est pas une COM à proprement
+   parler, est ici incluse dans cette dénomination par facilité de
+   lecture.
+     __________________________________________________________________
+
+DCPAF
+
+   Direction Centrale de la Police Aux Frontières.
+     __________________________________________________________________
+
+Déclaration anticipée
+
+   Depuis le 1^er septembre 1998, les jeunes étrangers nés en France
+   deviennent Français de plein droit à 18 ans, s’ils y résident et y ont
+   résidé de manière continue ou discontinue pendant cinq années depuis
+   l’âge de 11 ans. En outre, dès l’âge de 16 ans, ces jeunes nés et
+   résidant en France peuvent anticiper l’acquisition de la nationalité
+   française en effectuant une déclaration auprès du tribunal d’instance.
+   De même, les parents d’un jeune étranger né en France peuvent souscrire
+   la même déclaration d’acquisition anticipée de la nationalité française
+   pour lui et avec son accord, à condition qu’il ait 13 ans et qu’il
+   réside en France depuis l’âge de 8 ans. Loi du 16 mars 1998 modifiée
+   par la loi n°2007-1631 du 20 novembre 2007.
+     __________________________________________________________________
+
+Déclaration au titre du mariage
+
+   Le mariage n’exerce pas d’effet automatique sur la nationalité : une
+   personne étrangère qui épouse un(e) Français(e) ne peut acquérir la
+   nationalité française que si elle remplit certaines conditions. Le
+   conjoint étranger ou apatride d’un Français peut, après un délai de
+   quatre ans à compter du mariage, acquérir la nationalité française par
+   déclaration, à condition qu’à la date de cette déclaration la
+   communauté de vie tant affective que matérielle n’ait pas cessé entre
+   les époux depuis le mariage et que le conjoint français ait conservé sa
+   nationalité. Le délai de communauté de vie est porté à 5 ans lorsque le
+   conjoint étranger, au moment de la déclaration : - soit ne justifie pas
+   avoir résidé de manière ininterrompue et régulière pendant au moins 3
+   ans en France à compter du mariage, - soit n’apporte pas la preuve que
+   son conjoint français a été inscrit pendant la durée de leur communauté
+   de vie à l’étranger au registre des Français établis hors de France. Le
+   mariage célébré à l’étranger doit avoir fait l’objet d’une
+   transcription préalable sur les registres de l’état civil français.
+   Article 21-2 du Code civil.
+     __________________________________________________________________
+
+Demandeur d’asile
+
+   Personne demandant la reconnaissance de la qualité de réfugié ou le
+   bénéfice de la protection subsidiaire, qui bénéficie du droit de se
+   maintenir provisoirement sur le territoire dans l’attente d’une
+   décision de l’OFPRA et/ou de la CNDA sur sa demande de protection. En
+   cas d’octroi du statut de réfugié ou de la protection subsidiaire, un
+   titre de séjour lui est délivré. En cas de rejet, le demandeur a
+   l’obligation de quitter le territoire à moins qu’il ne soit admis à y
+   séjourner à un autre titre.
+     __________________________________________________________________
+
+DIAIR
+
+   Délégation interministérielle à l’accueil et l’intégration des réfugiés
+     __________________________________________________________________
+
+DIAN
+
+   La Direction de l’intégration et de l’accès à la nationalité est
+   chargée de concevoir et de mettre en œuvre la politique publique
+   d’intégration des étrangers primo-arrivants en France et d’accès à la
+   nationalité française, pour les procédures du ressort du ministère (par
+   décret et par mariage principalement).
+     __________________________________________________________________
+
+DIHAL
+
+   Délégation interministérielle à l’hébergement  et à l’accès au logement
+     __________________________________________________________________
+
+DILF
+
+   Diplôme initial de langue française qui reconnaît l’acquisition de la
+   maîtrise d’un niveau élémentaire de la langue française Article L.311-9
+   du CESEDA.
+     __________________________________________________________________
+
+DOM
+
+   Départements d’Outre-Mer : Guadeloupe, Guyane, Martinique, Mayotte et
+   La Réunion.
+     __________________________________________________________________
+
+EEE
+
+   Espace Économique Européen comprenant, en 2012, les 27 pays de l’Union
+   Européenne ainsi que l’Islande, le Liechtenstein et la Norvège.
+     __________________________________________________________________
+
+Effets collectifs
+
+   L’enfant mineur de dix-huit ans, non marié, acquiert la nationalité
+   française de plein droit en même temps que son (ses) parent(s) par le
+   jeu de l’effet collectif dès lors qu’il réside avec ceux-ci de manière
+   habituelle (ou alternée en cas de séparation des parents) et que son
+   nom figure dans le décret de naturalisation ou la déclaration de
+   naturalité. Article 22-1 du Code civil.
+     __________________________________________________________________
+
+Espace Schengen
+
+   L’espace Schengen est composé de 22 pays de l’Union européenne et de 3
+   pays extérieurs : l’Allemagne, l’Autriche, la Belgique, le Danemark,
+   l’Espagne, la Finlande, la France, la Grèce, l’Italie, le Luxembourg,
+   les Pays-Bas, le Portugal et la Suède, l’Estonie, la Hongrie, la
+   Lettonie, la Lituanie, Malte, la Pologne, la République tchèque, la
+   Slovaquie, la Slovénie et la Suisse. L’Irlande et le Royaume Uni n’ont
+   pas signé la Convention de Schengen mais participent partiellement aux
+   mesures adoptées dans le cadre de cet espace. La Norvège et l’Islande,
+   bien qu’extérieurs à l’UE, ont également mis en vigueur la Convention
+   d’application des accords de Schengen. La Suisse a intégré l’Espace
+   Schengen le 12 décembre 2008.
+     __________________________________________________________________
+
+Étranger
+
+   Personne n’ayant pas la nationalité française.
+     __________________________________________________________________
+
+HCR
+
+   Haut-Commissariat aux réfugiés auprès de l’ONU.
+     __________________________________________________________________
+
+Immigration familiale
+
+   Terme regroupant toutes les catégories d’étrangers qui obtiennent un
+   titre de séjour portant la mention « vie privée et familiale ».
+   Voir aussi : carte de séjour temporaire « vie privée et familiale »,
+   liens personnels et familiaux, membres famille de Français,
+   regroupement familial.
+     __________________________________________________________________
+
+Immigré
+
+   Personne née étrangère dans un pays étranger et qui vit actuellement en
+   France. S’il le souhaite, l’immigré peut devenir Français. Il devient
+   alors "Français par acquisition" par opposition aux "Français de
+   naissance". Notion administrative élaborée par le HCI en 1992.
+     __________________________________________________________________
+
+Migration de travail
+
+   Migration correspondant à des entrées directes sur le marché du
+   travail, c’est-à-dire à l’admission au séjour d’étrangers venant
+   exercer une activité professionnelle en France, qu’elle soit salariée
+   ou non salariée, permanente ou non (travail saisonnier). Synonyme :
+   migration professionnelle.
+     __________________________________________________________________
+
+Naturalisation
+
+   La naturalisation est un mode d’acquisition de la nationalité française
+   qui s’opère par décret. Elle peut être demandée par tout étranger qui
+   réside régulièrement en France. Les principales conditions de
+   recevabilité de la demande sont mentionnées aux articles 21-15 à 21-27
+   du Code civil (être majeur, résider en France de manière habituelle et
+   continue depuis 5 ans, sauf dispositions particulières pouvant conduire
+   à une réduction de la durée de stage, être en possession d’un titre de
+   séjour, avoir en France le centre de ses attaches familiales et de ses
+   intérêts matériels, faire preuve d’une bonne intégration dans la
+   société française, notamment par une connaissance suffisante de la
+   langue et de la culture françaises et ne pas avoir été condamné). La
+   naturalisation n’est pas un droit, de ce fait elle est soumise à la
+   décision discrétionnaire de l’administration, qui peut la refuser par
+   décision motivée soumise au contrôle du juge, même si les conditions
+   légales de recevabilité de la demande sont réunies. Le demandeur doit
+   être majeur. Toutefois, la naturalisation peut être accordée à l’enfant
+   mineur resté étranger dont l’un des parents est devenu français, s’il
+   justifie avoir résidé avec lui en France durant les 5 années précédant
+   le dépôt de la demande (effet collectif). Article 21-22 du Code civil.
+     __________________________________________________________________
+
+OFII
+
+   Office français de l’immigration et de l’intégration (OFII)
+   [anciennement : Agence nationale de l’accueil des étrangers et des
+   migrations (ANAEM)].
+     __________________________________________________________________
+
+OFPRA
+
+   Office français de protection des réfugiés et apatrides. L’OFPRA est un
+   établissement public créé par la loi du 25 juillet 1952, seul compétent
+   pour instruire les demandes de protection internationale (statut de
+   réfugié ou protection subsidiaire). Ses décisions peuvent faire l’objet
+   d’un recours devant la CNDA.
+     __________________________________________________________________
+
+OIM
+
+   Organisation Internationale pour les Migrations.
+     __________________________________________________________________
+
+ONU
+
+   Organisation des Nations Unies
+     __________________________________________________________________
+
+Pays de résidence habituelle
+
+   Pays dans lequel vit une personne, c’est-à-dire pays dans lequel elle
+   dispose d’un logement qui lui sert habituellement pour son repos
+   quotidien. Les voyages temporaires à l’étranger à des fins de loisirs,
+   de vacances, de visites à des amis ou à des parents, d’affaires, de
+   traitement médical ou de pèlerinage religieux ne changent pas le pays
+   de résidence habituelle d’une personne.
+     __________________________________________________________________
+
+Protection subsidiaire
+
+   Introduite par la loi n° 2003-1176 du 10 décembre 2003 modifiant la loi
+   du 25 juillet 1952 relative au droit d’asile, elle est accordée à la
+   personne qui ne remplit pas les conditions d’octroi du statut de
+   réfugié en application de la Constitution ou de la Convention de Genève
+   mais qui établit qu’elle est exposée dans son pays à l’une des menaces
+   graves énumérées à l’article L. 712-1 du CESEDA (peine de mort ;
+   torture, peines ou traitements inhumains ou dégradants ; s’agissant
+   d’un civil, menace grave, directe et individuelle contre sa vie ou sa
+   personne en raison d’une violence généralisée résultant d’une situation
+   de conflit armé interne ou international). Une carte de séjour
+   temporaire portant la mention "vie privée et familiale", valable un an
+   et renouvelable, lui est délivrée en application de l’article L. 313-13
+   du CESEDA.
+     __________________________________________________________________
+
+Réfugié
+
+   Personne qui s'est vu octroyer une protection par l’OFPRA sur le
+   fondement de l'article 1, A, §2 de la Convention de Genève (asile
+   conventionnel) ou du quatrième alinéa du Préambule de la Constitution
+   de 1946 (asile constitutionnel). Une carte de résident portant la
+   mention « réfugié », valable dix ans et renouvelable de plein droit,
+   lui est délivrée en application de l’article L. 314-11 8° du CESEDA.
+     __________________________________________________________________
+
+Regroupement familial
+
+   Procédure permettant à un étranger de faire venir son conjoint majeur
+   et leurs enfants mineurs (légitimes, naturels ou adoptés). Le demandeur
+   doit résider régulièrement en France depuis au moins dix-huit mois,
+   disposer de ressources suffisantes et stables en fonction de la taille
+   de la famille ainsi que d’un logement répondant à des critères de
+   salubrité, confort et superficie suffisants. Les bénéficiaires doivent
+   résider hors de France. (art. L. 411-1 et suiv. CESEDA).
+     __________________________________________________________________
+
+Réintégration
+
+   La réintégration dans la nationalité française permet aux personnes,
+   sous certaines conditions, qui ont perdu la nationalité française de la
+   recouvrer. En général, elle s’opère par décret (article 24-1 du Code
+   civil). A noter toutefois que la réintégration par décret, comme la
+   naturalisation, n’est pas un droit, de ce fait même si les conditions
+   légales sont remplies, l’administration dispose d’un pouvoir
+   discrétionnaire pour refuser la demande. La réintégration dans la
+   nationalité française par déclaration concerne les personnes qui ont
+   perdu la nationalité française en raison du mariage avec un étranger ou
+   qui ont volontairement acquis une nationalité étrangère. Ces dernières
+   doivent avoir conservé ou acquis des liens manifestes avec la France,
+   notamment d’ordre culturel, professionnel, économique ou familial.
+   (article 24-2 du Code civil).
+     __________________________________________________________________
+
+Ressortissant de pays tiers
+
+   étranger non ressortissant d’un État membre de l’Union européenne, d’un
+   autre État partie à l’Espace économique européen ou de la Confédération
+   suisse.
+     __________________________________________________________________
+
+Stagiaire étranger
+
+   Étranger qui suit en France un stage dans le cadre d’une convention de
+   stage et qui dispose de moyens d’existence suffisants. Il obtient une
+   carte de séjour mention "stagiaire" d’une durée de validité limitée à
+   celle du stage (art. L.313-7-1 CESEDA).
+     __________________________________________________________________
+
+Titre de séjour
+
+   Document sécurisé assurant la reconnaissance par l’autorité publique du
+   droit à séjourner sur le territoire national pour un ressortissant
+   étranger majeur. Un titre de séjour se définit par sa nature juridique,
+   son motif d’admission et sa durée de validité. Les cartes de séjour
+   temporaires, les cartes de séjour, les cartes de résident et les
+   certificats de résidence pour Algérien sont des titres de séjour. Voir
+   aussi : carte de séjour temporaire, carte de résident.
+     __________________________________________________________________
+
+Travailleur saisonnier
+
+   Étranger venant en France pour exercer une activité professionnelle à
+   caractère saisonnier dans la limite de six mois par an. Il lui est
+   délivré une carte de séjour d’une durée de validité de trois ans
+   renouvelable (Art. L.313-10 6° CESEDA).
+     __________________________________________________________________
+
+Union européenne (UE)
+
+   En 2012, les États membres de l’Union Européenne étaient au nombre de
+   27 : Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark,
+   Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie,
+   Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal,
+   République tchèque, Roumanie, Royaume-Uni, Slovaquie, Slovénie, Suède
+   et depuis 2013 la Croatie.
+     __________________________________________________________________
+
+Visa de court séjour ou visa Schengen
+
+   Le visa de court séjour permet à son titulaire d’entrer en France et
+   dans les autres pays de l’Espace Schengen (sauf exceptions). Il
+   autorise un séjour ininterrompu ou plusieurs séjours d’une durée
+   maximum de 3 mois par semestre. Il peut être valable pour une ou
+   plusieurs entrées. Il peut être délivré pour des motifs touristiques,
+   privés, familiaux ou professionnels.
+     __________________________________________________________________
+
+Visa de long séjour (VLS)
+
+   Le visa de long séjour est délivré pour un séjour supérieur à 3 mois en
+   France. Son obtention est obligatoire pour déposer une demande de carte
+   de séjour temporaire ou de carte de séjour pluriannuelle sauf
+   exceptions prévues par la loi ou les engagements internationaux conclus
+   par la France. Les étrangers dispensés du visa de long séjour sont les
+   ressortissants de l’Union européenne (UE), d’un autre Etat faisant
+   partie de l’Espace économique européen (EEE) et les Suisses. Article
+   L.211-2-1 du CESEDA.
+     __________________________________________________________________
+
+Visa de transit
+
+   Il existe deux sortes de visa de transit, le visa aéroportuaire et le
+   visa non aéroportuaire. Le visa aéroportuaire permet à son titulaire, à
+   l’occasion d’une escale internationale, de passer par la zone
+   internationale de transit d’un aéroport français sans possibilité
+   toutefois de pénétrer en France. Le visa de transit non aéroportuaire
+   est délivré à l’étranger qui souhaite se rendre d’un pays tiers à
+   l’espace Schengen vers un autre pays tiers en traversant le territoire
+   français ou le territoire d’un autre État Schengen.
+     __________________________________________________________________
+
+Visa long séjour valant titre de séjour (VLS-TS)
+
+   Visa de long séjour, crée en 2009, d’une durée de validité maximale
+   d’un an qui dispense son titulaire de solliciter une carte de séjour
+   durant sa première année de présence en France. Les étrangers concernés
+   par cette mesure de simplification sont ceux bénéficiant du statut de
+   «visiteur», «étudiant», «salarié», «conjoint de français»,
+   « stagiaire », « bénéficiaire du regroupement familial » ou
+   «travailleur temporaire» (art. R. 311-3 CESEDA). Pour produire les
+   effets d’une carte de séjour, ce visa doit être validé après l’arrivée
+   en France. Par mesure de simplification et de modernisation, depuis le
+   18 février 2019, cette validation est effectuée en utilisant un
+   téléservice et non plus dans les locaux de l’OFII.
+     __________________________________________________________________
+
+Visiteur
+
+   Étranger venant en France qui justifie vivre de ses seules ressources
+   et qui prend l’engagement de n’exercer aucune activité professionnelle.
+   Il obtient une carte de séjour mention "visiteur", d’une durée de
+   validité d’un an renouvelable (art. L.313-6 CESEDA).
+     __________________________________________________________________
+
+Définitions internationales
+
+   → Définitions internationales
+     __________________________________________________________________
+     __________________________________________________________________
+
+     * La Direction générale
+          + Présentation
+          + Le directeur général
+          + Directions et services
+     * Immigration
+          + Les visas
+          + L'immigration professionnelle
+          + L'immigration familiale
+          + La délivrance des titres de séjour pour raisons de santé
+     * Intégration et Accès à la nationalité
+          + Rapport d’activités 2021 de la direction de l’intégration et
+            de l'accès à la nationalité (DIAN)
+          + La préparation de l’arrivée en France
+          + Le parcours personnalisé d'intégration républicaine
+          + AGIR, pour l’emploi et le logement des personnes réfugiées
+          + 1 000 parcours de validation des acquis de l'expérience (VAE)
+            au profit d'étrangers primo-arrivants
+          + Outils de communication
+          + Formations en ligne
+          + La nationalité française
+          + Les acteurs de l'intégration
+          + Les appels à projets
+          + Europe - International
+          + La commission interministérielle pour le logement des
+            populations immigrées (CILPI)
+     * Asile
+          + Appel à manifestation d'intérêt - Places spécialisées public
+            LGBT+ vulnérable
+          + Schéma national d’accueil des demandeurs d’asile et
+            d’intégration des réfugiés 2021-2023
+          + Informations Coronavirus : Questions-Réponses sur les demandes
+            d'asile
+          + 10 actions pour renforcer la prise en charge demandeurs
+            d’asile et des réfugiés vulnérables
+          + COVID-19: Information translated for foreigners - Q&A Asylum
+            seekers
+          + Guide du demandeur d'asile en France
+          + Les mineurs non accompagnés demandeurs d'asile
+          + La réinstallation
+          + L’accès aux soins
+          + Les appels à projets
+          + Infographies - Vidéos
+     * Europe et International
+          + Présidence française du GDISC
+          + Présidence française du Conseil de l'UE 2022
+          + Pacte sur la migration et l’asile
+          + La circulation transfrontière
+          + Les accords bilatéraux
+          + Le réseau européen des migrations (REM)
+
+     * Les sites du ministère
+       [Choisir un site________________________________]
+     *
+          + Fonds européens
+          + Actualités
+          + Démarches
+          + Documentation
+          + Études et statistiques
+
+     * Liens utiles
+          + service-public.fr
+          + legifrance.gouv.fr
+          + gouvernement.fr
+          + france.fr
+          + data.gouv.fr
+          + Elysee.fr
+          + cnil.fr
+     __________________________________________________________________
+
+     * Contacts
+     * Archives
+     * E-accessibilité
+     * Mentions légales
+     * Répertoire des informations publiques
+
+
+    Tous droits réservés © www.immigration.interieur.gouv.fr/fr 2011
+     __________________________________________________________________

@@ -1,256 +1,925 @@
-   #Observatoire des inégalités
+   #RSS
 
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-M2VRCQG
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-P5JSM4P
 
-   Commandez la boite à outils pédagogiques avec le « Monopoly des
-   inégalités »                              X Fermer
-   Bouton menu
+   Organisation for Economic Co-operation and Development (OECD)
+   (BUTTON) × Menu
+     * OCDE.org
+     * Données
+     * Publications
+     * Plus de sites
+          + OECD Better Life Index
+          + OECD iLibrary
+          + Forum Network OCDE
+          + Instruments juridiques OCDE
+          + Centre de développement de l’OCDE
+          + GAFI - Groupe d'action financière
+          + AIE - Agence internationale de l'énergie
+          + ITF - Forum international des transports
+          + AEN - Agence pour l'énergie nucléaire
+          + CSAO - Club du Sahel et de l'Afrique de l'Ouest
+          + MOPAN – Multilateral Organisation Performance Assessment
+            Network
+     * Actualités
+          + Salle de presse
+          + Galerie multimédia
+     * Emplois
 
-   Contre les inégalités, l’information est une arme
-   Faire un don
+   Partager
 
-     Thèmes
-     * Revenus
-     * Éducation
-     * Emploi
-     * Modes de vie
-     * Catégories sociales
-     * Femmes et hommes
-     * Âges et générations
-     * Français et étrangers
-     * Territoires
-     * Europe
-     * Monde
-
-     Publications
-
-     Outils
-
-     Espace pédagogique
-
-     Commander
-
-     Qui sommes-nous ?
-     * Nos principes
-     * Nos activités
-     * Nos ressources et partenaires
-     * Notre équipe
-     * Nos interventions
-     * Formations
-     * Actualité de l’Observatoire
-     * Lettre d’information
-
-   [loupe.png]
-
-Votre recherche
-
+   A à Z
    ____________________
-   [Filtrer par thème__.]
-   Rechercher
+   (BUTTON)
 
-   Accueil > Analyse >
+   (BUTTON) × Menu
+     * English
 
-Les étrangers discriminés ?
+   (BUTTON) ×Recherche
+   ____________________
+   (BUTTON)
+     * Accueil de l'OCDE
+     * A propos
+     * Pays
+          + Afghanistan
+          + Afrique du Sud
+          + Albanie
+          + Algérie
+          + Allemagne
+          + Andorre
+          + Angola
+          + Anguilla
+          + Antigua-et-Barbuda
+          + Arabie saoudite
+          + Argentine
+          + Arménie
+          + Aruba
+          + Australie
+          + Autorité palestinienne
+          + Autriche
+          + Azerbaïdjan
+          + Bahamas
+          + Bahreïn
+          + Guernesey
+          + Jersey
+          + Bangladesh
+          + Barbade
+          + Bélarus
+          + Belgique
+          + Belize
+          + Bénin
+          + Bermudes
+          + Bhoutan
+          + Bosnie-Herzégovine
+          + Botswana
+          + Brésil
+          + Brunei Darussalam
+          + Bulgarie
+          + Burkina Faso
+          + Burundi
+          + Cabo Verde
+          + Cambodge
+          + Cameroun
+          + Canada
+          + Chili
+          + Chypre
+          + Colombie
+          + Comores
+          + Corée
+          + Costa Rica
+          + Côte d'Ivoire
+          + Croatie
+          + Cuba
+          + Danemark
+          + Djibouti
+          + Dominique
+          + Égypte
+          + El Salvador
+          + Émirats arabes unis
+          + Équateur
+          + Érythrée
+          + Espagne
+          + Estonie
+          + Bolivie
+          + Micronésie
+          + États-Unis
+          + Éthiopie
+          + République de Macédoine du Nord
+          + Russie
+          + Fidji
+          + Finlande
+          + France
+          + Gabon
+          + Gambie
+          + Géorgie
+          + Ghana
+          + Gibraltar
+          + Grèce
+          + Grenade
+          + Groenland
+          + Guatemala
+          + Guinée
+          + Guinée équatoriale^Guinée2
+          + Guinée-Bissau^Guinée1
+          + Guyana
+          + Guyane française
+          + Haïti
+          + Honduras
+          + Hong Kong (Chine)
+          + Hongrie
+          + Île de Man
+          + Îles Caïmanes
+          + Îles Cook
+          + Îles Féroé
+          + Îles Marshall
+          + Îles Salomon
+          + Îles Turques et Caïques
+          + Îles Vierges britanniques
+          + Îles Vierges des États-Unis
+          + Inde
+          + Indonésie
+          + Iraq
+          + Irlande
+          + Islande
+          + Israël
+          + Italie
+          + Jamaïque
+          + Japon
+          + Jordanie
+          + Kazakhstan
+          + Kenya
+          + Kirghizistan
+          + Kiribati
+          + Koweït
+          + Lesotho
+          + Lettonie
+          + Liban
+          + Libéria
+          + Libye
+          + Liechtenstein
+          + Lituanie
+          + Luxembourg
+          + Macao (Chine)
+          + Madagascar
+          + Malaisie
+          + Malawi
+          + Maldives
+          + Mali
+          + Malte
+          + Maroc
+          + Maurice
+          + Mauritanie
+          + Mayotte
+          + Mexique
+          + Monaco
+          + Mongolie
+          + Monténégro
+          + Montserrat
+          + Mozambique
+          + Myanmar
+          + Namibie
+          + Nauru
+          + Népal
+          + Nicaragua
+          + Niger
+          + Nigéria
+          + Niue
+          + Norvège
+          + Nouvelle-Zélande
+          + Oman
+          + Ouganda
+          + Ouzbékistan
+          + Pakistan
+          + Palaos
+          + Panama
+          + Papouasie-Nouvelle-Guinée
+          + Paraguay
+          + Pays-Bas
+          + Pérou
+          + Philippines
+          + Pologne
+          + Porto Rico
+          + Portugal
+          + Qatar
+          + République arabe syrienne
+          + Venezuela
+          + République centrafricaine
+          + Moldova
+          + République démocratique du Congo
+          + République démocratique populaire lao^Lao
+          + République dominicaine
+          + Congo
+          + Iran
+          + Chine (République populaire de)
+          + République populaire démocratique de Corée
+          + République slovaque
+          + République tchèque
+          + Tanzanie
+          + Roumanie
+          + Royaume-Uni
+          + Rwanda
+          + Sahara occidental
+          + Sainte-Hélène
+          + Sainte-Lucie
+          + Saint-Kitts-et-Nevis
+          + Saint-Marin
+          + Saint-Vincent-et-les-Grenadines
+          + Samoa
+          + Sao Tomé-et-Principe
+          + Sénégal
+          + Serbie
+          + Serbie et Monténégro (avant juin 2006)
+          + Seychelles
+          + Sierra Leone
+          + Singapour
+          + Slovénie
+          + Somalie
+          + Soudan
+          + Soudan du Sud
+          + Sri Lanka
+          + Suède
+          + Suisse
+          + Suriname
+          + Eswatini
+          + Tadjikistan
+          + Taipei chinois
+          + Tchad
+          + Thaïlande
+          + Timor-Leste
+          + Togo
+          + Tokélaou
+          + Tonga
+          + Trinité-et-Tobago
+          + Tunisie
+          + Turkménistan
+          + Türkiye
+          + Tuvalu
+          + Ukraine
+          + Union européenne
+          + Uruguay
+          + Vanuatu
+          + Viet Nam
+          + Wallis-et-Futuna
+          + Yémen
+          + Zambie
+          + Zimbabwe
+          + Curaçao
+          + Bonaire
+          + Saba
+     * Thèmes
+          + Agriculture et pêcheries
+          + Assurance et retraites
+          + Compétences
+          + Concurrence
+          + Corruption et Intégrité
+          + Croissance verte et développement durable
+          + Développement
+          + Développement régional, urbain et rural
+          + Echanges
+          + Education
+          + Emploi
+          + Environnement
+          + Finances
+          + Fiscalité
+          + Gouvernance publique
+          + Gouvernement d'entreprise
+          + Industrie et entrepreneuriat
+          + Innovation
+          + Investissement
+          + Migrations
+          + Numérique
+          + Prestations et questions sociales
+          + Réforme réglementaire
+          + Santé
+          + Science et technologie
+          + Sécurité des produits chimiques et biosécurité
+          + Économie
+     * COVID-19
+     * Ukraine
 
-   Analyse 21 juin 2018
-   https://www.inegalites.fr/Les-etrangers-discrimines - Reproduction
-   interdite
+     * Accueil de l'OCDE
+     * A propos
+     * Pays
+          + Afghanistan
+          + Afrique du Sud
+          + Albanie
+          + Algérie
+          + Allemagne
+          + Andorre
+          + Angola
+          + Anguilla
+          + Antigua-et-Barbuda
+          + Arabie saoudite
+          + Argentine
+          + Arménie
+          + Aruba
+          + Australie
+          + Autorité palestinienne
+          + Autriche
+          + Azerbaïdjan
+          + Bahamas
+          + Bahreïn
+          + Guernesey
+          + Jersey
+          + Bangladesh
+          + Barbade
+          + Bélarus
+          + Belgique
+          + Belize
+          + Bénin
+          + Bermudes
+          + Bhoutan
+          + Bosnie-Herzégovine
+          + Botswana
+          + Brésil
+          + Brunei Darussalam
+          + Bulgarie
+          + Burkina Faso
+          + Burundi
+          + Cabo Verde
+          + Cambodge
+          + Cameroun
+          + Canada
+          + Chili
+          + Chypre
+          + Colombie
+          + Comores
+          + Corée
+          + Costa Rica
+          + Côte d'Ivoire
+          + Croatie
+          + Cuba
+          + Danemark
+          + Djibouti
+          + Dominique
+          + Égypte
+          + El Salvador
+          + Émirats arabes unis
+          + Équateur
+          + Érythrée
+          + Espagne
+          + Estonie
+          + Bolivie
+          + Micronésie
+          + États-Unis
+          + Éthiopie
+          + République de Macédoine du Nord
+          + Russie
+          + Fidji
+          + Finlande
+          + France
+          + Gabon
+          + Gambie
+          + Géorgie
+          + Ghana
+          + Gibraltar
+          + Grèce
+          + Grenade
+          + Groenland
+          + Guatemala
+          + Guinée
+          + Guinée équatoriale^Guinée2
+          + Guinée-Bissau^Guinée1
+          + Guyana
+          + Guyane française
+          + Haïti
+          + Honduras
+          + Hong Kong (Chine)
+          + Hongrie
+          + Île de Man
+          + Îles Caïmanes
+          + Îles Cook
+          + Îles Féroé
+          + Îles Marshall
+          + Îles Salomon
+          + Îles Turques et Caïques
+          + Îles Vierges britanniques
+          + Îles Vierges des États-Unis
+          + Inde
+          + Indonésie
+          + Iraq
+          + Irlande
+          + Islande
+          + Israël
+          + Italie
+          + Jamaïque
+          + Japon
+          + Jordanie
+          + Kazakhstan
+          + Kenya
+          + Kirghizistan
+          + Kiribati
+          + Koweït
+          + Lesotho
+          + Lettonie
+          + Liban
+          + Libéria
+          + Libye
+          + Liechtenstein
+          + Lituanie
+          + Luxembourg
+          + Macao (Chine)
+          + Madagascar
+          + Malaisie
+          + Malawi
+          + Maldives
+          + Mali
+          + Malte
+          + Maroc
+          + Maurice
+          + Mauritanie
+          + Mayotte
+          + Mexique
+          + Monaco
+          + Mongolie
+          + Monténégro
+          + Montserrat
+          + Mozambique
+          + Myanmar
+          + Namibie
+          + Nauru
+          + Népal
+          + Nicaragua
+          + Niger
+          + Nigéria
+          + Niue
+          + Norvège
+          + Nouvelle-Zélande
+          + Oman
+          + Ouganda
+          + Ouzbékistan
+          + Pakistan
+          + Palaos
+          + Panama
+          + Papouasie-Nouvelle-Guinée
+          + Paraguay
+          + Pays-Bas
+          + Pérou
+          + Philippines
+          + Pologne
+          + Porto Rico
+          + Portugal
+          + Qatar
+          + République arabe syrienne
+          + Venezuela
+          + République centrafricaine
+          + Moldova
+          + République démocratique du Congo
+          + République démocratique populaire lao^Lao
+          + République dominicaine
+          + Congo
+          + Iran
+          + Chine (République populaire de)
+          + République populaire démocratique de Corée
+          + République slovaque
+          + République tchèque
+          + Tanzanie
+          + Roumanie
+          + Royaume-Uni
+          + Rwanda
+          + Sahara occidental
+          + Sainte-Hélène
+          + Sainte-Lucie
+          + Saint-Kitts-et-Nevis
+          + Saint-Marin
+          + Saint-Vincent-et-les-Grenadines
+          + Samoa
+          + Sao Tomé-et-Principe
+          + Sénégal
+          + Serbie
+          + Serbie et Monténégro (avant juin 2006)
+          + Seychelles
+          + Sierra Leone
+          + Singapour
+          + Slovénie
+          + Somalie
+          + Soudan
+          + Soudan du Sud
+          + Sri Lanka
+          + Suède
+          + Suisse
+          + Suriname
+          + Eswatini
+          + Tadjikistan
+          + Taipei chinois
+          + Tchad
+          + Thaïlande
+          + Timor-Leste
+          + Togo
+          + Tokélaou
+          + Tonga
+          + Trinité-et-Tobago
+          + Tunisie
+          + Turkménistan
+          + Türkiye
+          + Tuvalu
+          + Ukraine
+          + Union européenne
+          + Uruguay
+          + Vanuatu
+          + Viet Nam
+          + Wallis-et-Futuna
+          + Yémen
+          + Zambie
+          + Zimbabwe
+          + Curaçao
+          + Bonaire
+          + Saba
+     * Thèmes
+          + Agriculture et pêcheries
+          + Assurance et retraites
+          + Compétences
+          + Concurrence
+          + Corruption et Intégrité
+          + Croissance verte et développement durable
+          + Développement
+          + Développement régional, urbain et rural
+          + Echanges
+          + Education
+          + Emploi
+          + Environnement
+          + Finances
+          + Fiscalité
+          + Gouvernance publique
+          + Gouvernement d'entreprise
+          + Industrie et entrepreneuriat
+          + Innovation
+          + Investissement
+          + Migrations
+          + Numérique
+          + Prestations et questions sociales
+          + Réforme réglementaire
+          + Santé
+          + Science et technologie
+          + Sécurité des produits chimiques et biosécurité
+          + Économie
+     * COVID-19
+     * Ukraine
 
-   La loi punit les actes de racisme à des peines d’emprisonnement et à
-   des amendes. Pourtant, selon leur origine, leur nom ou leur couleur de
-   peau, les citoyens ne sont pas réellement égaux. Extrait de notre
-   livret pédagogique Les inégalités expliquées aux jeunes, disponible à
-   la commande sur notre site.
-   Origines Discriminations
-   bouton facebook bouton twitter Bouton WhatApps Bouton email Bouton
-   imprimer Bouton PDF
+     * English
 
-   Ahmed et Guillaume envoient leur candidature pour un même emploi. Ils
-   ont tous les deux le même diplôme mais Guillaume a deux fois plus de
-   chance d’être convoqué à un entretien d’embauche. Il a également trois
-   fois plus de chance d’obtenir un rendez-vous pour visiter un
-   appartement, à Paris notamment, même s’il a des revenus identiques à
-   Ahmed. Barrage à l’entrée des discothèques, contrôles de police plus
-   fréquents... Les exemples de discriminations dans la vie de tous les
-   jours ne manquent pas.
+   Accueil de l'OCDE MigrationsDébats sur les politiques migratoires et
+       Notes d'information sur les données migratoires
 
-Des obstacles pour trouver du travail
+Migrations
 
-   Les immigrés sont deux fois plus souvent au chômage que les Français
-   nés en France (17 % contre 9 %). Pourquoi ? Les étrangers sont en
-   moyenne moins diplômés que les Français nés en France. Certains sont
-   aussi discriminés par les employeurs. Enfin, en France, plus de cinq
-   millions d’emplois (presque un sur cinq) sont interdits aux personnes
-   qui n’ont pas une nationalité de l’Union européenne : elles n’ont, par
-   exemple, pas le droit d’être, en France, professeur des écoles,
-   facteur, contrôleur de train ou policier, etc.
+Débats sur les politiques migratoires et Notes d'information sur les données
+migratoires
 
-Noir et ouvrier
 
-   Un noir, fils d’ambassadeur, n’a pas les mêmes difficultés qu’un noir
-   dont le père est maçon, et la mère femme de ménage. Parce que, comme
-   pour toutes les couleurs de peau, le milieu social dans lequel on vit
-   compte beaucoup. Une personne originaire d’Afrique sur trois est
-   pauvre, contre une personne sur 20 en moyenne pour l’ensemble de la
-   population française. Pas forcément parce qu’on les rejette pour leur
-   couleur de peau, mais plutôt parce qu’elles sont souvent moins diplômés
-   que les autres.
 
-Se loger : la galère
 
-   Moins riches, plus souvent au chômage, dans des emplois moins
-   qualifiés, victimes de discriminations... Tout ça se répercute dans la
-   vie quotidienne. Un quart des immigrés occupent un logement trop petit,
-   près de quatre fois plus que les non-immigrés.
-                  Immigré ou étranger c’est différent
-   Les étrangers sont les personnes qui n’ont pas la nationalité
-   française. Les immigrés sont les personnes nées à l’étranger et qui
-   sont venues en France ensuite. Mais on peut être né à l’étranger de
-   parents français : dans ce cas, on est Français. Une partie des
-   étrangers (dont aucun des deux parents n’est Français), environ 600 000
-   sur 4,2 millions, sont nés en France. Ils ont la possibilité, s’ils le
-   veulent, de devenir Français à partir de 16 ans, mais ils ne sont pas
-   considérés comme des immigrés. Une partie de ces derniers (2,3 millions
-   sur 5,9 millions) sont Français : une fois arrivés en France, installés
-   depuis longtemps en France, ils ont fait une demande pour obtenir la
-   nationalité française.
+   En 4 pages, les Débats sur les politiques migratoires offrent un résumé
+   complet des développements récents dans le domaine des politiques de
+   gestion des migrations et de l’intégration.
 
-Pourquoi certaines personnes sont-elles racistes ?
+   Les Notes d'information sur les données migratoires apportent des
+   évidences statistiques des évolutions récentes.
 
-   Être raciste, c’est croire qu’il existe des races et que certaines
-   races sont supérieures à d’autres. Les personnes racistes rejettent
-   celles qui sont différentes parce qu’elles ne parlent pas la même
-   langue, n’ont pas la même couleur de peau, ne pratiquent pas la même
-   religion, n’ont pas les mêmes coutumes, etc. L’immense majorité de la
-   population n’est pas raciste, mais beaucoup ont des préjugés qui
-   viennent d’une certaine appréhension de ce qu’on ne connaît pas, de ce
-   qui est différent de nous. Certains rendent les étrangers responsables
-   des problèmes de la société française : le chômage, le manque de
-   logements, etc. Une cible facile quand la situation d’un pays n’est pas
-   bonne.
+   Inform est une édition conjointe de l'OCDE et du Réseau européen sur
+   les migrations (EMN).
 
-Que faire face au racisme ?
+   Les Policy Briefs rassemblent des données, analyses et recommandations
+   pour aborder les enjeux actuels de la politique migratoire.
+     * Quels sont les risques et les avantages des visas pour start-up
+       ? (DPM n^o28, juillet 2022) (en anglais uniquement) Cette note
+       d'orientation donne un aperçu des programmes de visas pour start-up
+       dans les pays de l'OCDE et de leurs différentes méthodes pour
+       attirer et sélectionner les fondateurs migrants, ainsi que certains
+       résultats initiaux de ces programmes. La note examine ensuite si
+       les résultats du programme sont correctement évalués pour s'assurer
+       qu'ils répondent à leur intention stratégique.
 
-   Bien sûr, on peut porter plainte. Soit en se rendant seul dans un
-   commissariat, soit en se faisant accompagner par des associations qui
-   connaissent bien les lois et les droits dans ce domaine. Et comme elles
-   ont déjà rencontré beaucoup de cas, elles peuvent guider les victimes.
-   La meilleure façon de lutter contre le racisme, c’est de faire
-   comprendre à tous, dès le plus jeune âge, qu’il n’y a pas de personnes
-   supérieures aux autres. Et de combattre même les plus petites
-   manifestations de rejet des autres.
+     * Les pays de l'OCDE devraient-ils développer de nouveaux visas
+       nomades numériques ? (DPM n^o27, juillet 2022) (en anglais
+       uniquement) Cette note d'orientation explique ce nouveau statut de
+       résidence et fait le point sur les programmes pour les nomades
+       numériques et les travailleurs à distance dans les pays de l'OCDE.
+       Il identifie également la valeur ajoutée potentielle et demande si,
+       à la lumière des préoccupations, les visas sont efficaces pour
+       atteindre leurs objectifs déclarés.
 
-Des enfants d’étrangers qui réussissent
+     * Les émigrés marocains dans les pays de l’OCDE : quelles nouvelles
+       dynamiques ? (NIDM n^o8, mars 2022) Cette Note présente les
+       dernières tendances des migrations depuis le Maroc vers les pays de
+       l’OCDE, les caractéristiques sociodémographiques des émigrés, ainsi
+       que leurs modalités d’intégration dans les pays de destination.
 
-   Kylian Mbappé, Nicolas Sarkozy, Kenza Farah… Vous connaissez ? Tous ont
-   un parent immigré. Ils ont tout de même réussi non ? Bien sûr, c’est
-   caricatural, mais du métier de maçon à la fonction de Président de la
-   République, les immigrés ont fait leur place petit à petit. Tous ne
-   sont pas fils d’ambassadeur. Des Polonais aux Italiens en passant par
-   les Marocains ou les Sénégalais, notre pays a toujours fini par
-   intégrer les immigrés, qui contribuent à construire des maisons, des
-   routes, et à fabriquer des voitures. Si la France n’avait pas fait
-   appel à des millions de travailleurs étrangers, elle ne serait pas un
-   pays si développé.
+     * Les émigrés ivoiriens, maliens et sénégalais dans les pays de
+       l’OCDE : un tour d’horizon (NIDM n^o7, mars 2022) Cette note,
+       préparée à l’occasion de la publication des rapports sur les
+       émigrés ivoiriens, maliens et sénégalais, dans la série Talents à
+       l’étranger de l’OCDE, présente les dernières tendances des
+       migrations depuis ces trois pays vers les pays de l’OCDE, les
+       caractéristiques sociodémographiques des émigrés, ainsi que leurs
+       modalités d’intégration dans les pays de destination.
 
-Les étrangers réussissent mieux à l’école
+     * Partenariats pour la mobilité des compétences : Explorer des
+       approches innovantes de la migration de main-d'œuvre (REM-OCDE
+       Inform, mars 2022) (en anglais seulement) Cette note d'information
+       conjointe REM-OCDE présente des expériences de mise en œuvre de
+       partenariats pour la mobilité de compétences et d'initiatives
+       similaires dans l'UE et dans le monde, en explorant les principaux
+       défis et avantages.
 
-   Les enfants français réussissent mieux à l’école que ceux qui ont des
-   parents étrangers ou immigrés. Mais c’est parce que leurs parents sont
-   plus souvent diplômés. Par contre, si on compare un enfant français et
-   un enfant étranger ou immigré dont les parents ont le même niveau de
-   diplôme, les enfants d’étrangers réussissent mieux ! Pour beaucoup de
-   parents étrangers, l’école est considérée comme une véritable chance.
-                             Où s’adresser ?
-   Vous êtes victimes ou témoins d’actes racistes, d’agressions,
-   d’insultes, de discriminations, plusieurs associations peuvent vous
-   aider : SOS Racisme, la Ligue des droits de l’homme (LDH), la Ligue
-   internationale contre le racisme et l’antisémitisme (LICRA), le
-   Mouvement contre le racisme et pour l’amitié entre les peuples (MRAP).
-   Vous pouvez aussi contacter le Défenseur des droits. C’est une
-   institution indépendante de l’État qui « veille au respect des droits
-   et des libertés ». Toute personne ou organisation peut le saisir
-   gratuitement si elle pense être discriminée, qu’elle constate par
-   exemple qu’un policier, un gendarme, un agent de sécurité n’a pas
-   respecté les règles de bonne conduite, qu’elle a des difficultés avec
-   un service public (Caisses d’allocations familiales, Pôle Emploi, etc.)
-   ou encore qu’elle estime que les droits d’un enfant ne sont pas
-   respectés.
-     __________________________________________________________________
-     __________________________________________________________________
+     * L'utilisation de la numérisation et de l'intelligence artificielle
+       dans la gestion des migrations (REM-OCDE Inform, février 2022) (en
+       anglais seulement) Cette note d'information conjointe REM-OCDE est
+       la deuxième de la série 2021 d'informations sur l'innovation en
+       matière de migration. Elle vise à explorer de nouvelles
+       technologies numériques dans la gestion de la migration et de
+       l'asile.
 
-   Les inégalités expliquées aux jeunes. Sous la dir. de Nina Schmidt,
-   édition de l’Observatoire des inégalités, avril 2018.
+     * L'impact de la COVID-19 dans le domaine migratoire dans l'UE et les
+       pays de l'OCDE (Umbrella Inform, avril 2021) (en anglais seulement)
+       Cet Umbrella Inform est basé sur les conclusions de la série
+       d'Inform du REM et de l'OCDE sur l'impact de la Covid-19 publiés en
+       2020 et 2021, complété par des données supplémentaires collectées
+       par différents acteurs.
 
-   Format : 21 x 29,7 cm. 48 pages.
+     * Comment les pays européens peuvent-ils améliorer l'intégration des
+       jeunes dont les parents sont immigrés? (DPM n^o26, avril 2021) (en
+       anglais seulement) Cette édition a été préparée pour l'échange
+       informel sur l'intégration du 13 avril 2021, sous la présidence
+       portugaise de l'UE. Elle résume les travaux antérieurs de l'OCDE
+       sur la manière de renforcer l'intégration des jeunes dont les
+       parents sont immigrés.
 
-   ISBN : 978-2-9553059-3-5
-   Voir le sommaire
-   1___________________ AJOUTER AU PANIER Feuilleter l’ouvrage
-     __________________________________________________________________
+     * Impact de la COVID-19 sur les procédures de retour volontaire et
+       forcé et les réponses politiques (Inform n^o5, janvier 2021) (en
+       anglais seulement) Cette note rend compte des procédures de retour
+       volontaire et forcé et des réponses politiques dans les États
+       membres de l'UE et de l'OCDE entre janvier et juillet 2020.
 
-   Illustration réalisée par Damien Roudeau
-   Date de première rédaction le 21 juin 2018.
-   © Tous droits réservés - Observatoire des inégalités - (voir les
-   modalités des droits de reproduction)
+     * De la France vers le monde: que rélève l'augmentation de
+       l'émigration française? (NIDM
+       n^o6, janvier 2021) Cette note, préparée conjointement par l’OCDE
+       et la Direction générale du Trésor du ministère de l’Économie, des
+       Finances et de la Relance, présente les dernières tendances des
+       migrations depuis la France vers les autres pays de l’OCDE,
+       notamment grâce à une nouvelle mise à jour de la Base de données
+       sur les immigrés dans les pays de l’OCDE (DIOC).
 
-   Notre actu
-   Image / illustration
-   La Boite à outils pédagogique sur les inégalités [fleche.png]
+     * Comment communiquer au mieux sur les migrations et l'intégration
+       dans le contexte de la COVID-19 (Policy Brief, 21 décembre 2020)
+       (version française bientôt disponible) Cette note passe en revue
+       les défis actuels et les bonnes pratiques en matière de
+       communication sur les migrations et l'intégration en réponse à la
+       pandémie, en s'appuyant sur des exemples de campagnes de
+       communication mises en œuvre dans les pays membres de l'OCDE en
+       2020.
 
-   Newsletter
+     * L'impact de la COVID-19 sur les transferts de fonds dans les pays
+       de l'UE et de l'OCDE (Inform n^o4, décembre 2020) (en anglais
+       seulement). Cette note passe en revue les trois principaux facteurs
+       affectant les transferts de fonds pendant la pandémie.
 
-   IFRAME: https://app.mailjet.com/widget/iframe/yDp/2I1
 
-   DISCRIMINATIONS
-   Vers le site discrimination.fr
-   Un outil original pour comprendre les inégalités [fleche.png]
 
-   Publication
-   Image / illustration
-   Rapport sur la pauvreté en France, édition 2022-2023 [fleche.png]
 
-   Formation
-   13 décembre 2022
-   Recevez les dates de nos prochaines formations
-   Voir toutes les formations
+     * Comment renforcer les mesures favorisant l'intégration des femmes
+       immigrées?
+       (DPM n^o25, novembre 2020) (en anglais seulement). Cette édition
+       synthétise le travail de l'OCDE sur le renforcement des mesures
+       favorisant l'intégration des femmes immigrées.
 
-   Actualités de l'Observatoire
-   Vous avez jusqu’au 31 janvier pour participer au Prix « Jeunesse pour
-   l’égalité » 2023
+     * Maintenir la migration de main-d’œuvre dans les secteurs essentiels
+       en temps de pandémie (Inform n^o3, octobre 2020) (en anglais
+       seulement). Cette note examine si les travailleurs de certains
+       secteurs professionnels - essentiels ou non - ont été exemptés des
+       restrictions générales de mobilité aux frontières extérieures et
+       intérieures de l'UE ou dans les pays de l'OCDE non membres de l'UE,
+       résultant de politiques visant à contenir la pandémie.
 
-   Outils
-   Questions clés
-   Mesurer
-   Lexique
-   Salaire : êtes-vous riche ou pauvre ?
-   Patrimoine : êtes-vous fortuné ?
-   Niveaux de vie : où en est ma commune ?
-   L’évaluateur des dépenses publiques
-   Communes : quelle égalité hommes-femmes ?
+     * What improves the sustainability of the reintegration component in
+       AVRR? (DPM n^o24, octobre 2020) (en anglais seulement). Cette
+       édition passe en revue les éléments clés de la première
+       revue multi-pays de l'OCDE des programmes de Retours volontaires
+       assistés et d'assistance à la réintégration (AVRR) dans 8 pays de
+       destination et 3 pays d'origine.
 
-Abonnez-vous
+     * Quel est l'impact de la pandémie de COVID-19 sur les immigrants et
+       leurs enfants? (Policy Brief, 19 octobre 2020) (en anglais
+       seulement). Cette note fournit la première preuve de la manière
+       dont la pandémie a affecté les immigrés et leurs enfants en termes
+       de santé, d'emploi, d'éducation, de formation linguistique et
+       d'autres mesures d'intégration, ainsi que l'opinion publique, et
+       passe en revue les réponses politiques des pays d'accueil.
 
-   Recevez une fois par mois le résumé de nos nouveaux articles.
+     * Impact de la COVID-19 sur les étudiants internationaux dans les
+       États membres de l'UE et dans les pays de l'OCDE (Inform n^o2,
+       septembre 2020) (en anglais uniquement). Cette note analyse les
+       données collectées entre février et juin 2020 et couvre à la fois
+       l'admission de nouveaux étudiants en mobilité internatioanle qui ne
+       résident pas encore dans les pays de l'UE et de l'OCDE, ainsi que
+       la situation de ceux déjà physiquement présents, entre février et
+       juin 2020.
 
-   IFRAME: https://app.mailjet.com/widget/iframe/yDp/2I1
+     * Réponses de l'UE et des pays de l'OCDE à la gestion des permis de
+       séjour et du chômage des migrants pendant la pandémie de Covid-19
+       (Inform n^o1, July 2020) (en anglais uniquement). Cette note
+       analyse les données collectées entre mars et juin 2020. Pour les
+       pays de l'UE, elle rend compte des mesures qui ont été appliquées
+       aux ressortissants de pays tiers bénéficiant d'un statut régulier,
+       résidant déjà dans le pays. Les migrants en séjour irrégulier n'ont
+       pas été inclus dans le champ d'application de cette note, à
+       l'exception de la question de l'accès aux services de soins de
+       santé d'urgence liés à la COVID-19.
 
-   Fermer
-   Je m’inscris à la newsletter
-   Non merci...
+     * Gérer les migrations internationales dans le contexte de la
+       COVID-19 (Policy Brief, 10 juin 2020). Cette note étudie les
+       mesures migratoires prises par les pays de l’OCDE en réponse à la
+       pandémie du COVID‑19. Elle examine l’adoption et la mise en œuvre
+       de mesures de court terme entre mars et début juin et recense
+       certains des défis que pourrait poser la gestion des migrations à
+       moyen et à long terme en raison de la crise sanitaire mondiale.
 
-Suivez-nous
+     * Contribution des médecins et des infirmiers immigrés à la lutte
+       contre la crise de la COVID-19 dans les pays de l’OCDE (Policy
+       Brief, 13 mai 2020) (en anglais seulement). Cet exposé général
+       s’intéresse à la contribution des médecins et des infirmiers
+       migrants aux systèmes de santé de l’OCDE et à la manière dont les
+       pays de l’OCDE ont adapté leurs approches de la reconnaissance des
+       diplômes étrangers afin de faire appel à des médecins et des
+       infirmiers supplémentaires formés à l’étranger pour faire face à
+       l’épidémie de COVID-19.
 
-   Bouton Facebook     Bouton Twitter     Bouton Instagram     Bouton
-   Youtube
+     * How attractive is Germany for foreign professionals? (DPM n^o23,
+       janvier 2020) (en anglais seulement). Cette édition présente une
+       introduction aux indicateurs de l’attractivité des pays de l’OCDE à
+       l’égard des talents et donne un aperçu des observations récentes
+       concernant l'Allemagne.
 
-Observatoire des inégalités
+     * Quelles mesures peuvent prendre les pouvoirs publics face aux
+       migrations irrégulières de demain ? (DPM n^o22, janvier 2020) Cette
+       édition passe en revue l’ensemble des méthodes de prévention et de
+       dissuasion des migrations irrégulières. Nombre de ces approches
+       sont largement mises en oeuvre, tandis que d’autres sont récentes
+       et en développement. D’autres sont prometteuses face aux défis de
+       demain.
 
-   15 rue Jacques-Marie Rougé – 37000 Tours – France
-   contacts@inegalites.fr / 02 47 44 63 08
-   Nous contacter
-   Mentions légales           Vos données personnelles
+     * Comment adopter une gestion des migrations de travail tournée vers
+       l’avenir ? (DPM n^o21, janvier 2020) Cette édition décrit un
+       certain nombre d’innovations en matière de gestion des migrations
+       de travail ainsi que leur champ d’application. Il vise à aider les
+       décideurs à analyser, élaborer et appliquer leurs propres méthodes
+       novatrices de gestion des migrations de travail.
 
-   [fermer.png]
+     * Comment élaborer des politiques d’intégration tournées vers
+       l’avenir ? (DPM n^o20, janvier 2020) Cette édition examine les
+       nouveaux défis de l’intégration et les mesures que prennent les
+       pays à leur égard.
 
-   [photo_article_dons_07-22_site.jpg] Je fais un don
+     * Quelles évolutions des migrations africaines vers les pays de
+       l’OCDE ? (NIDM n^o5) Cette Note présente les dernières tendances
+       des migrations en provenance des pays africains vers les pays de
+       l’OCDE à partir d’une nouvelle mise à jour de la base de données de
+       l’OCDE sur les immigrés dans les pays de l’OCDE (DIOC).
+
+     * Les nouveaux immigrés Tendances globales des migrations vers les
+       pays de l’OCDE de 2000/01 à 2015/16 (NIDM n^o4, juin 2019) Cette
+       Note présente la dernière mise à jour de ces données pour 2015/16,
+       laquelle révèle des faits inédits et porte un éclairage nouveau sur
+       certaines tendances structurelles avérées dans les éditions
+       précédentes.
+
+     * How do OECD countries compare in their attractiveness for talented
+       migrants? (Migration Policy Deabtes 17) (DPM n^o19, mai 2019) (en
+       anglais seulement). Cette édition présente les résultats de la
+       première édition des indicateurs de l’OCDE sur la capacité à
+       attirer les talents initiée par l’OCDE avec le soutien de la
+       Fondation Bertelsmann.
+
+     * The Expression of Interest Model: What Lessons for Migration
+       Management in the EU and elsewhere? (DPM n^o18, mars 2019) (en
+       anglais seulement). Cette édition passe en revue les expériences
+       australienne, canadienne et néo-zélandaise de mise en place d'un
+       système d'exression d'intérêt. Elle discute de l'opportunité et de
+       la manière de l'appliquer dans d'autres pays de l'OCDE, et en
+       particulier en Europe, afin de respecter les objectifs fixés par
+       les politiques de migration de travail.
+
+     * How resilient were OECD health care systems during the “refugee
+       crisis”? (DPM n^o17, novembre 2018) (en anglais seulement). Cette
+       édition passe en revue les défis actuels et les bonnes pratiques
+       pour rendre les systèmes de santé des pays de l'OCDE plus
+       résilients en cas de crise des réfugiés, en se basant sur les
+       débats qui ont eu lieu à la conférence “Human Resources for Health
+       (HRH): Integration of Refugees into Host Community Health Systems”
+       organisée conjointement par l'OCDE, la Banque mondiale et le Centre
+       pour l'intégration en Méditerranée.
+
+     * Can we anticipate future migration flows? (DPM n^o16, juin 2018)
+       (en anglais seulement). Cette édition contient les principales
+       leçons tirées de la conférence conjointe EASO-OCDE “From panic to
+       planning: unpacking the policy toolbox to anticipate migration
+       trends” (Paris, juin 2016) pour améliorer les systèmes
+       d'information afin de renforcer la réactivité des systèmes
+       d'accueil et de gestion.
+
+     * What would make Global Skills Partnerships work in practice? (DPM
+       n^o15, mai 2018) (en anglais seulement). Cette édition observe les
+       raisons pour lesquelles il existe peu de partenariats pour la
+       mobilité des compétences et propose des mesures concrètes pour
+       qu'ils fonctionnent mieux à l'échelle mondiale.
+
+     * Quels sont les principaux messages du Forum international sur les
+       statistiques migratoires ? (NIDM n^o3, mai 2018) Cette Note
+       d'information sur les données migratoires présente les principaux
+       messages de ce premier Forum international sur les statistiques des
+       migrations.
+
+     * Will migration help increase the educational level of the European
+       labour force by 2030? (NIDM n^o2, décembre 2017) (en anglais
+       seulement). Cette Note d'information sur les données
+       migratoires observe l'évolution de la population d'âge actif ayant
+       un niveau d''education élevé et le rôle potentiel des migartions
+       dans cette évolution dans différents scénarios de projection.
+
+     * Migrant women and European labour markets (NIDM n^o1, décembre
+       2017) (en anglais seulement). Cette Note d'information sur les
+       données migratoires examine comment les migrations ont influencé la
+       population active dans les pays européens dans la période 2005-2015
+       avec une attention particulière à la contribution des femmes
+       migrantes.
+
+     * How does having immigrant parents affect the outcomes of chidren in
+       Europe? (DPM n^o14, décembre 2017) (en anglais seulement). Cette
+       édition présente évalue la transmission transgénérationnelle des
+       désavantages rencontrés par les migrants et la façon dont les
+       enfants d'immigrés peuvent faire preuve de résilience face aux
+       défis auxquels ont fait face la génération de leurs parents.
+
+     * Who bears the cost of integrating refugees? (DPM n^o13, janvier
+       2017) (en anglais seulement). Cette édition évalue les défis que
+       les entrées de demandeurs d'asile et de réfugiés représentent pour
+       les relations fiscales intergouvernementales.
+
+     * Are there alternative pathways for refugees? (DPM n^o12, septembre
+       2016) (en anglais seulement). Cette édition présente un aperçu des
+       "filières alternatives” qui permettraient d'alléger les filières
+       traditionnellement utilisées par les réfugiés en general et évalue
+       leur faisabilité dans le cas des Syriens en particulier.
+
+     * Why is migration increasing in the Americas? (DPM n^o11, septembre
+       2016) (en anglais seulement). Cette édition présente une mise à
+       jour des données sur les migrations internationales dans les
+       Amériques jusqu'en 2014 et sur la situation sur le marché
+       international des émigrés originaires de l'hémisphère.
+     * Hiring refugees - What are the opportunities and challenges for
+       employers? (DPM n^o10, septembre 2016) (en anglais seulement).
+
+     * Can we put an end to human smuggling? (DPM n^o9, décembre 2015) (en
+       anglais seulement).
+
+     * How will the refugee surge affect the European economy? (DPM n^o8,
+       novembre 2015) (en anglais seulement).
+
+     * Is this humanitarian migration crisis different? (DPM n^o7,
+       septembre 2015) (en anglais seulement).
+
+     * L’école est-elle (encore) un des principaux vecteurs d’intégration
+       en France ? (DPM n^o6, septembre 2015)
+     * Les États-Unis sont-ils encore une terre d'accueil pour les
+       migrants? (DPM n^o5, août 2015) (en anglais seulement). On dit
+       généralement que les États-Unis sont une nation d'immigrés.
+       Sont-ils encore le pays idéal où s'installer?
+     * Qui admettre au titre de l'immigration de travail? (DPM
+       n^o4, décembre 2014). Cette édition s’intéresse aux développements
+       récents dans le domaine des politiques de gestion des migrations de
+       travail et à la façon dont elles peuvent être améliorées pour faire
+       face à la complexité du paysage migratoire actuel.
+     * Comment mettre à profit les compétences des immigrés? (DPM
+       n^o3, décembre 2014). Cette édition examine les stratégies conçues
+       pour aider les immigrés à trouver un emploi et, surtout, un emploi
+       qui corresponde à leurs compétences.
+     * La migration bénéficie-t-elle à l'économie? (DPM n^o2, mai 2014)
+       (en anglais seulement).
+     * Les migrations sont-elles en augmentation? (DPM n^o1, mai 2014) (en
+       anglais seulement).
+
+
+   Documents connexes
+
+
+Also AvailableEgalement disponible(s)
+
+     * Migration Policy Debates and Data Briefs
+
+   OCDE.org
+   MonOCDE
+   Plan du site
+   Contactez-nous
+
+   © L'Organisation de coopération et de développement économiques
+     * Conditions d'utilisation
+     * Politique de protection des données et de la vie privée
+
+   Suivez-nous (réseaux sociaux):
+     * Facebook
+     * Twitter
+     * YouTube
+     * LinkedIn
+     * Instagram
+     * RSS
+     * Oecd Direct
+     * Soundcloud
