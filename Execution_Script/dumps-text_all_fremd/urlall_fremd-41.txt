@@ -287,4 +287,4 @@ Suche
      * Barriere melden
      * Erklärung zur Barrierefreiheit
 
-   © 2022 Bundeszentrale für gesundheitliche Aufklärung (BZgA)
+   © 2023 Bundeszentrale für gesundheitliche Aufklärung (BZgA)

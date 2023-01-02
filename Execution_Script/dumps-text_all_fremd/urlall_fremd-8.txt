@@ -9,8 +9,6 @@
           + UniReport
           + Jahrbuch 2021
 
-   Menü
-
      * Magazine
           + UniReport
           + Jahrbuch 2021
@@ -518,23 +516,17 @@ Symposium 2022
 
 Öffentliche Veranstaltungen
 
-   Dez 21
+   Jan 3
 
    10:00 bis 18:00
 
 ORTSWECHSEL. Die Kunstsammlung der Deutschen Bundesbank zu Gast im MGGU
 
-   Dez 21
+   Jan 3
 
    13:00 bis 18:00
 
 ein/ausgepackt. Die Kinderbuchsammlung Benjamin
-
-   Dez 27
-
-   19:30 bis 21:30
-
-Winterspaziergang durch das Universum
 
    Jan 9
 
@@ -554,6 +546,12 @@ Theorizing Gender(ed) Violence. Zur Aktualität geschlechtsbezogener Gewalt
    18:15 bis 20:00
 
 Endliche Ressourcen: Nutzung – Verbrauch – Schutz
+
+   Jan 16
+
+   18:00 bis 20:00
+
+Female Skilled Labor Migration Across the Globe
 
    Kalender anzeigen
 
@@ -635,8 +633,6 @@ Kalender
      * Hochschule
      * Veranstaltungen
 
-   Menü
-
      * » Aktuelles
      * Forschung
      * Gesellschaft
@@ -645,8 +641,6 @@ Kalender
      * Menschen
      * Hochschule
      * Veranstaltungen
-
-   Menü
 
      * Magazine
           + UniReport

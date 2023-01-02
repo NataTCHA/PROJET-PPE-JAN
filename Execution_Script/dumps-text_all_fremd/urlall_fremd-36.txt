@@ -80,6 +80,7 @@
                     # Uiguren (Ostturkestan, Xinjiang)
                     # Bangladesch
                     # Sri Lanka
+                    # Malaysia
                o Südamerika
                     # Argentinien
                     # Suriname
@@ -210,6 +211,8 @@
                     # Aserbaidschan
                     # Armenien
                     # Georgien
+                    # Jordanien
+                    # Libanon
                o Kolonien und Kolonialismus
                     # Kolonialismus vor 1871
                     # Kolonialzeit und Deutsches Reich

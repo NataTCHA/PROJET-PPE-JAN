@@ -20,7 +20,7 @@
      * Briefe an die Herausgeber
 
    Services:
-     * Strategien gegen den Blackout
+     * Die Energie für große Ziele
 
    Wirtschaft
      * Historische Hyperinflation
@@ -33,7 +33,6 @@
 
    Services:
      * Digitalisierung: Keineswegs nur ein Fall für Experten
-     * EY Entrepreneur Of The Year 2022
      * Future Fuels
 
    Finanzen
@@ -70,16 +69,20 @@
      * Die Karrierefrage
 
    Sport
-     * Fußball-WM
      * Fußball
      * Formel 1
      * Mehr Sport
+     * Handball-WM
+     * Australian Open
      * Wintersport
      * Rhein-Main-Sport
      * Sportpolitik
      * Sport-Tipps
      * Sport Live
      * Sport-Ergebnisse
+
+   Services:
+     * Land der Sportmuffel
 
    Gesellschaft
      * Menschen
@@ -91,9 +94,8 @@
      * Jugend schreibt
 
    Services:
-     * Gemeinsam der Kälte trotzen
-     * Vom Großvater zum Digital Native
      * Generation Digital Health
+     * Power für das Robogirl
 
    Stil
      * Mode & Design
@@ -103,7 +105,6 @@
      * Quarterly
 
    Services:
-     * Die moderne Interpretation eines Klassikers
      * Auf ein Glas Wein mit ...
 
    Rhein-Main
@@ -124,9 +125,6 @@
      * Digital
      * Energie
 
-   Services:
-     * Zeitenwende in der Truck-Branche
-
    Wissen
      * Medizin & Ernährung
      * Krebsmedizin
@@ -142,14 +140,12 @@
 
    Services:
      * Future Health – Die Medizin der Zukunft
-     * Power für das Robogirl
 
    Reise
 
    Services:
      * Wetter
      * F.A.Z. Leserreisen
-     * Entdeckungsreise per pedes, Boot und Tram
 
    Multimedia
    Video
@@ -218,6 +214,9 @@
    (BUTTON) Suchen
    (BUTTON) Suche abbrechen
 
+   Jahresrückblick
+   Das war 2022
+
    Aktuelle Nachrichten aus Politik, Wirtschaft, Sport und Kultur
 
    Herausgegeben von Gerald Braunberger, Jürgen Kaube, Carsten Knop,
@@ -273,12 +272,13 @@
           + Klassenzimmer
           + Die Karrierefrage
      * Sport
-          + Fußball-WM
           + Fußball
                o Bundesliga
                o Champions League
           + Formel 1
           + Mehr Sport
+          + Handball-WM
+          + Australian Open
           + Wintersport
           + Rhein-Main-Sport
           + Sportpolitik
@@ -460,17 +460,6 @@ Migration : Was bedeutet Fremdheit heute?
 
    Weitere Themen
 
-   Warum vor allem die Araber Marokko bejubeln
-
-   FAZ Plus Artikel: Fußball-WM in Qatar : Warum vor allem die Araber
-   Marokko bejubeln
-
-   Marokkos Nationalteam überrascht bei der WM. Nicht nur in Afrika, vor
-   allem in der arabischen Welt ist die Begeisterung groß. Über die
-   Identität einer Nation.
-
-     * Claudia Bröll und Hans-Christian Rößler
-
    Weniger Selbstgefälligkeit in der Entwicklungspolitik
 
    FAZ Plus Artikel: Baerbock in Nigeria : Weniger Selbstgefälligkeit in
@@ -492,7 +481,16 @@ Migration : Was bedeutet Fremdheit heute?
    die Gefahren, die richtige Menge und den Sinn von „Dry January“.
 
      * Julia Anton
-     * Veröffentlicht/Aktualisiert: Vor 8 Stunden
+
+   Zwischen Zäunen und Träumen
+
+   FAZ Plus Artikel: Spanische Exklave Ceuta : Zwischen Zäunen und Träumen
+
+   Für viele Migranten ist Ceuta ein Sprungbrett nach Europa. Wer dort
+   sicher ankommt, will meist so schnell wie möglich wieder weg – in der
+   Exklave kommen selbst viele Einheimische kaum noch über die Runden.
+
+     * Hans-Christian Rößler, Ceuta
 
    Ähnliche Themen
 
@@ -503,52 +501,53 @@ Migration : Was bedeutet Fremdheit heute?
 
    Topmeldungen
 
-   Wolodymyr Selenskyj mit Joe und Jill Biden vor dem Weißen Haus
+   Vom Markt zu nehmen: Das Sturmgewehr CR 223 in ziviler Ausführung auf
+   einer Fachmesse in Nürnberg (Archivbild)
 
-   Selenskyj in Washington : Das richtige Signal nach Moskau
-   Im Kreml hofft man, dass der Westen der Ukraine überdrüssig wird.
-   Bilder des ukrainischen Präsidenten in Amerika und die Lieferung von
-   Patriot-Raketen sind eine Demonstration des Gegenteils.
+   Debakel für Waffenhersteller : Warum Haenel seine Sturmgewehre
+   vernichten muss
+   Der tiefe Fall einer Thüringer Firma. C.G. Haenel sollte die Bundeswehr
+   mit einer neuen Ordonannzwaffe ausrüsten. Nun muss sie ein Sturmgewehr
+   komplett vom Markt nehmen – wegen einer Patentrechtsverletzung.
 
-     * Ein Kommentar von Reinhard Veser
-     * Veröffentlicht/Aktualisiert: vor 47 Minuten
-     * Kommentare: 1 , Empfehlungen: 33
-
-   Russlands Präsident Wladimir Putin spricht am Mittwoch vor dem
-   Kollegium des Verteidigungsministeriums in Moskau.
-
-   Putins Ansprache in Moskau : Der Kriegsherr wiederholt sich
-   Wladimir Putin sagt, es gebe keine Begrenzung in der Finanzierung des
-   Krieges. Doch was der russische Präsident in der Ukraine erreichen
-   will, bleibt unklar.
-
-     * Reinhard Veser und Niklas Zimmermann
+     * Peter Carstens, Berlin
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: 23 , Empfehlungen: 28
+     * Kommentare: 49 , Empfehlungen: 42
 
-   Stehen statt fahren: Mehr als 10.000 britische Rettungssanitäter,
-   Notärzte und Krankenwagenfahrer sind im Streik
+   Volker Wissing
 
-   Großbritannien : Streikchaos im englischen Gesundheitswesen
-   Englische Rettungssanitäter streiken – auch Notfallpatienten sind davon
-   betroffen. Wenn kein Rettungswagen geschickt wurde, sollten sich die
-   Betroffenen selbst einen Transport organisieren.
+   F.A.Z. exklusiv : Wissing will AKW-Laufzeiten von Experten festlegen
+   lassen
+   Der Bundesverkehrsminister warnt vor einem „Fiasko“ bei der
+   Transformation des Autoverkehrs. Wegen der Kohle könnten E-Autos nicht
+   nur teuer, sondern auch klimaschädlich sein.
 
-     * Philip Plickert, London
+     * Corinna Budras, Berlin
+     * Veröffentlicht/Aktualisiert: vor 18 Minuten
+     * Empfehlungen: 5
+
+   Der russische Präsident Putin während seiner Neujahrsansprache auf
+   einem TV-Bildschirm.
+
+   Ukraine-Liveblog : Moskau spricht von Dutzenden Toten nach ukrainischem
+   Angriff
+   Stoltenberg: Müssen mehr Waffen produzieren +++ Explosion in Kiew:
+   Ukraine meldet neuen Beschuss +++ Neuer russischer Drohnenangriff +++
+   alle Entwicklungen im Liveblog.
+
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: , Empfehlungen: 6
+     * Empfehlungen: 314
 
-   Die Zentrale der früheren West LB in Düsseldorf
+   Vielleicht hilft Meditation beim Blick aufs Wattenmeer? Bahn-Fahrgäste
+   sind einiges an Kummer gewohnt.
 
-   Cum-ex : Das Land NRW muss 1 Milliarde Euro an West-LB-Verlusten allein
-   tragen
-   Das Oberlandesgericht Frankfurt kippt das Urteil der ersten Instanz und
-   gibt der Ersten Abwicklungsanstalt im Cum-ex-Streit mit Portigon recht.
-   Die kommunalen Sparkassen in Nordrhein-Westfalen können aufatmen.
+   Chaos bei der Bahn : „Ich fahre diesen Zug nur unter Protest“
+   Das Image der Deutschen Bahn mag miserabel sein, aber die Zugbegleiter
+   reißen es immer wieder heraus – mit gnadenloser Ehrlichkeit.
 
-     * Hanno Mußler
-     * Veröffentlicht/Aktualisiert:
-     * Kommentare: 1 , Empfehlungen: 6
+     * Corinna Budras
+     * Veröffentlicht/Aktualisiert: vor 51 Minuten
+     * Kommentare: 6 , Empfehlungen: 4
 
    Newsletter
    Immer auf dem Laufenden Sie haben Post! Die wichtigsten Nachrichten
@@ -584,14 +583,15 @@ Migration : Was bedeutet Fremdheit heute?
    Vielen Dank für Ihr Interesse an den F.A.Z.-Newslettern. Sie erhalten
    in wenigen Minuten eine E-Mail, um Ihre Newsletterbestellung zu
    bestätigen.
-   Vorstand/Vorständin (m/w/d)
-   Rheinischer Blindenfürsorgeverein 1886 Düren
-   Vice President Finance (m/f/d)
-   Björn Engelbrecht Executive Search
-   Head of Department Academic and Student Affairs Department (f/m/d)
-   Vietnamese-German University (VGU)
-   Geschäftsführer:in (m/w/d)
-   Oberpfarr- und Domkirche zu Berlin (Berliner Dom)
+   Sachbearbeitung Bauleitplanung mit dem Schwerpunkt Gewerbeflächen
+   (m/w/d)
+   Stadt Fürth
+   Leitung Personal (m/w/d)
+   Dr. Maier + Partner GmbH Executive Search
+   Leiterin/Leiter Presse- und Öffentlichkeitsarbeit (w/m/d)
+   Die Landesbeauftragte für den Datenschutz Niedersachsen
+   Chief Executive Officer / CEO (m/w/d)
+   über InterSearch Executive Consultants GmbH & Co. KG
    Zum Stellenmarkt
 
    Weitere Themen
@@ -690,7 +690,7 @@ Migration : Was bedeutet Fremdheit heute?
      * Blogs
      * Impressum
 
-   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2021
+   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2023
    Alle Rechte vorbehalten.
 
    Schließen

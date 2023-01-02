@@ -229,13 +229,13 @@ mehr von
 
 Dirk Knipphals
 
-     * KONTEXT: Wochenzeitung
+     * blogs
 
-Kontext über Schwarze Akademie
+Popblog: Jahres-Playlist 2022 Vol. 1
 
-Ein Schmetterling Richtung Süden
-       Black-Academy-Leiterin Amoussou über die mangelnde Aufarbeitung des
-       Kolonialismus und Erinnerungskultur.
+Best Of British & Irish Pop
+       Erster Teil Playlist-Rückblick: die besten Songs aus UK & Irland in
+       einer handlichen Playlist.
 
 Volle Spalte unterm Artikel
 
@@ -272,14 +272,6 @@ Das rechte Potpourri
        Petry ist von hinten zu sehen. Sie steht vor Kameras. Alle Artikel
        zum Thema
 
-So können Sie kommentieren:
-
-   Bitte registrieren Sie sich und halten Sie sich an unsere Netiquette.
-
-   Haben Sie Probleme beim Kommentieren oder Registrieren?
-
-   Dann mailen Sie uns bitte an kommune@taz.de
-
 Den ersten Beitrag schreiben
 
    Geben Sie Ihren Kommentar hier ein
@@ -289,46 +281,6 @@ Den ersten Beitrag schreiben
    ____________________________________________________________
    ____________________________________________________________
    abschicken!
-     * Login
-     * Registrieren
-     * Passwort vergessen?
-
-   E-Mail
-   ____________________
-
-   Passwort
-   ____________________ einloggen
-
-meistkommentiert
-
-     *
-
-Aktion der Letzten Generation
-
-Mehr Störung ist besser
-       Die Letzte Generation hat in Berlin die Spitze des Weihnachtsbaumes
-       am Brandenburger Tor abgesägt. Eine wirkliche Störung des fossilen
-       Alltags ist das nicht.  
-     *
-
-Rückgabe der Benin-Bronzen
-
-Geklärte Besitzlage
-     *
-
-Neue Aktienrente
-
-Kapitalgedeckte Pleite
-     *
-
-Neue Sonderbeauftragter für Migration
-
-Neokoloniale Rosinenpickerei
-     *
-
-+++ Nachrichten im Ukraine-Krieg +++
-
-Selenski warnt russische Soldaten
 
      * taz
           + Themen

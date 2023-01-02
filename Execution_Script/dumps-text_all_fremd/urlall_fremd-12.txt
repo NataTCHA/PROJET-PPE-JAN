@@ -629,7 +629,7 @@ Die meistgelesenen Artikel
    angesehen werden. Der Inhalt von NetDoktor kann und darf nicht
    verwendet werden, um eigenständig Diagnosen zu stellen oder
    Behandlungen anzufangen.
-   © Copyright 2022 NetDoktor - All rights reserved - NetDoktor.de is a
+   © Copyright 2023 NetDoktor - All rights reserved - NetDoktor.de is a
    trademark
      * Über NetDoktor
      * Nutzungsbedingungen

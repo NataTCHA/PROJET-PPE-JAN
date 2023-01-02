@@ -193,7 +193,6 @@ Gereon Asmuth
 
 Ressortleiter taz-Regie
 
-   Gereon Asmuth
      * [email.png]
      * mastodon
      * website
@@ -207,7 +206,7 @@ Ressortleiter taz-Regie
    in Bochum, Berlin und Barcelona Wirtschaft, Gesellschafts- und
    Wirtschaftskommunikation und ein wenig Kunst studiert. Mehr unter
    gereonasmuth.de. Twitter: @gereonas Mastodon:
-   @gereonas@social.anoxinon.de
+   @gereonas@social.anoxinon.de Foto: Anke Phoebe Peters
 
 Themen
 
@@ -219,11 +218,11 @@ Themen
 
      * KONTEXT: Wochenzeitung
 
-Kontext über Schwarze Akademie
+Kontext über Corona-Langzeitfolgen
 
-Ein Schmetterling Richtung Süden
-       Black-Academy-Leiterin Amoussou über die mangelnde Aufarbeitung des
-       Kolonialismus und Erinnerungskultur.
+Säckeweise Geduld
+       Long Covid: Guntrun Müller-Enßlin hätte nie gedacht, dass ein Virus
+       ihren Körper mal so beutelt.
 
 Volle Spalte unterm Artikel
 
@@ -267,15 +266,7 @@ Im Unterbietungswettbewerb
 
 Die Kommentarfunktion unter diesem Artikel ist geschlossen.
 
-So können Sie kommentieren:
-
-   Bitte registrieren Sie sich und halten Sie sich an unsere Netiquette.
-
-   Haben Sie Probleme beim Kommentieren oder Registrieren?
-
-   Dann mailen Sie uns bitte an kommune@taz.de
-
-Leser*innenkommentare
+Leserkommentare
 
      *
 
@@ -502,47 +493,6 @@ Smaragd
    Anreize bieten. Richtiger wäre eine kontrollierte, offene
    Einwanderungspolitik. Es fehlt ein kategorischer Imperativ, so dass man
    ohne Heuchelei für Einwanderer sein kann.
-
-     * Login
-     * Registrieren
-     * Passwort vergessen?
-
-   E-Mail
-   ____________________
-
-   Passwort
-   ____________________ einloggen
-
-meistkommentiert
-
-     *
-
-Aktion der Letzten Generation
-
-Mehr Störung ist besser
-       Die Letzte Generation hat in Berlin die Spitze des Weihnachtsbaumes
-       am Brandenburger Tor abgesägt. Eine wirkliche Störung des fossilen
-       Alltags ist das nicht.  
-     *
-
-Rückgabe der Benin-Bronzen
-
-Geklärte Besitzlage
-     *
-
-Neue Aktienrente
-
-Kapitalgedeckte Pleite
-     *
-
-Neue Sonderbeauftragter für Migration
-
-Neokoloniale Rosinenpickerei
-     *
-
-+++ Nachrichten im Ukraine-Krieg +++
-
-Selenski warnt russische Soldaten
 
      * taz
           + Themen

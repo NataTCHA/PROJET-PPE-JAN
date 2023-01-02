@@ -387,27 +387,26 @@ Jeder Dritte gesteht am Ende
      * Topseller
      * Bundles
 
+   Spektrum - Die Woche - 52/2022 - Das Jahr in der Wissenschaft
+   Spektrum - Die Woche - 51/2022 - Kerzenchemie
    Spektrum Kompakt - 50/2022 - Lauschangriff - Klänge der Natur
    Spektrum - Die Woche - 50/2022 - Das große Zittern
    Spektrum Psychologie - 1/2023 - Fremdsprachen lernen
-   Spektrum Geschichte - 6/2022 - Neandertaler
-   Spektrum Kompakt - 49/2022 - Katalyse
    Spektrum der Wissenschaft - 1/2023 - Mathematik für die Zukunft
    Sterne und Weltraum - 1/2023 - Farbwechsel
    Gehirn&Geist - 1/2023 - Scham
    Gehirn&Geist Dossier - 5/2022 - Psyche am Limit
    Spektrum der Wissenschaft - 12/2022 - Schwarzen Löchern entkommen
-   Spektrum Geschichte - 6/2022 - Neandertaler
-   Gehirn&Geist Dossier - 5/2022 - Psyche am Limit
-   Spektrum Psychologie - 1/2023 - Fremdsprachen lernen
-   Spektrum der Wissenschaft - 1/2023 - Mathematik für die Zukunft
    Digitalpaket SUW Jahrgang 2021 Teaserbild
    Digitalpaket SDW Jahrgang 2022 Teaserbild
-   Sterne und Weltraum - 1/2023 - Farbwechsel
-   Spektrum Kompakt - 48/2022 - Hirnkartierung – Die Vermessung des
-   Neuronennetzes
-   Gehirn&Geist - 1/2023 - Scham
-   Digitalpaket Das Gehirn Teaserbild
+   Digitalpaket GUG Jahrgang 2022 Teaserbild
+   Digitalpaket Stress und Resilienz Teaserbild
+   Digitalpaket GuG Dossier JG 2022 Teaserbild
+   Digitalpaket Gesunde Ernährung Teaser
+   Digitalpaket: Spektrum Psychologie Jahrgang 2022 Teaserbild
+   Digitalpaket Quantenphysik Teaserbild
+   Digitalpaket:Evolution und Erdgeschichte_Teaserbild
+   DP_BotenDigitalpaket Kommunikation der Zellen Teaserbild
    Digitalpaket GuG Dossier JG 2022 Teaserbild
    Digitalpaket SG JG 2022 Teaserbild
    Digitalpaket: Spektrum Psychologie Jahrgang 2022 Teaserbild
@@ -448,14 +447,6 @@ Fremdgehen : Ist unsere Beziehung noch zu retten?
 
 Themenkanäle
 
-   Frau kreuzt die Finger hinter dem Rücken
-
-Lüge und Wahrheit
-
-   Nicht erst, seitdem alternative Fakten und "Fake News" die Runde
-   machen, beschäftigen sich Wissenschaftler mit dem Thema Wahrheit. Hier
-   finden Sie alle Artikel zum Thema.
-
    Partnerwahl
 
 Partnerwahl
@@ -464,12 +455,21 @@ Partnerwahl
    Schmetterlinge im Bauch - was dahinter steckt, wie Menschen sich
    finden.
 
-   Chinesische Kalligrafie
+   Frau kreuzt die Finger hinter dem Rücken
 
-Schrift
+Lüge und Wahrheit
 
-   Von der Keilschrift bis zur Schnelllesetechnik: Alles über die
-   Entwicklung einer unserer bedeutendsten Kulturtechniken.
+   Nicht erst, seitdem alternative Fakten und "Fake News" die Runde
+   machen, beschäftigen sich Wissenschaftler mit dem Thema Wahrheit. Hier
+   finden Sie alle Artikel zum Thema.
+
+   Kerzen in einer Kirche
+
+Glaube und Wissenschaft
+
+   Die Mehrheit der Deutschen bezeichnet sich als spirituell - doch ohne
+   feste konfessionelle Bindung. Und auch für Wissenschaftler ist Religion
+   wieder ein Thema.
 
    Anzeige
 
@@ -484,7 +484,7 @@ Für Sie im Spektrum-Shop und am Kiosk:
    Spektrum der Wissenschaft - 1/2023 - Mathematik für die Zukunft
    Spektrum Kompakt - 50/2022 - Lauschangriff - Klänge der Natur
    Sterne und Weltraum - 1/2023 - Farbwechsel
-   Spektrum - Die Woche - 50/2022 - Das große Zittern
+   Spektrum - Die Woche - 52/2022 - Das Jahr in der Wissenschaft
    Gehirn&Geist - 1/2023 - Scham
      * Weitere Neuerscheinungen
      * Spektrum Shop

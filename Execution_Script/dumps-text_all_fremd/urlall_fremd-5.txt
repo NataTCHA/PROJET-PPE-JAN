@@ -19,7 +19,7 @@
      * Briefe an die Herausgeber
 
    Services:
-     * Strategien gegen den Blackout
+     * Die Energie für große Ziele
 
    Wirtschaft
      * Historische Hyperinflation
@@ -32,7 +32,6 @@
 
    Services:
      * Digitalisierung: Keineswegs nur ein Fall für Experten
-     * EY Entrepreneur Of The Year 2022
      * Future Fuels
 
    Finanzen
@@ -69,16 +68,20 @@
      * Die Karrierefrage
 
    Sport
-     * Fußball-WM
      * Fußball
      * Formel 1
      * Mehr Sport
+     * Handball-WM
+     * Australian Open
      * Wintersport
      * Rhein-Main-Sport
      * Sportpolitik
      * Sport-Tipps
      * Sport Live
      * Sport-Ergebnisse
+
+   Services:
+     * Land der Sportmuffel
 
    Gesellschaft
      * Menschen
@@ -90,9 +93,8 @@
      * Jugend schreibt
 
    Services:
-     * Gemeinsam der Kälte trotzen
-     * Vom Großvater zum Digital Native
      * Generation Digital Health
+     * Power für das Robogirl
 
    Stil
      * Mode & Design
@@ -102,7 +104,6 @@
      * Quarterly
 
    Services:
-     * Die moderne Interpretation eines Klassikers
      * Auf ein Glas Wein mit ...
 
    Rhein-Main
@@ -123,9 +124,6 @@
      * Digital
      * Energie
 
-   Services:
-     * Zeitenwende in der Truck-Branche
-
    Wissen
      * Medizin & Ernährung
      * Krebsmedizin
@@ -141,14 +139,12 @@
 
    Services:
      * Future Health – Die Medizin der Zukunft
-     * Power für das Robogirl
 
    Reise
 
    Services:
      * Wetter
      * F.A.Z. Leserreisen
-     * Entdeckungsreise per pedes, Boot und Tram
 
    Multimedia
    Video
@@ -215,6 +211,9 @@
    (BUTTON) Suchen
    (BUTTON) Suche abbrechen
 
+   Jahresrückblick
+   Das war 2022
+
    Aktuelle Nachrichten aus Politik, Wirtschaft, Sport und Kultur
 
    Herausgegeben von Gerald Braunberger, Jürgen Kaube, Carsten Knop,
@@ -270,12 +269,13 @@
           + Klassenzimmer
           + Die Karrierefrage
      * Sport
-          + Fußball-WM
           + Fußball
                o Bundesliga
                o Champions League
           + Formel 1
           + Mehr Sport
+          + Handball-WM
+          + Australian Open
           + Wintersport
           + Rhein-Main-Sport
           + Sportpolitik
@@ -423,38 +423,35 @@ Gesellschaft : Fremd im eigenen Land?
 
    Weitere Themen
 
-   Setzt auch zu Hause ein Zeichen!
+   Hessens Linke steuern erfolglos durch die Energiekrise
 
-   FAZ Plus Artikel: Debatte um Islamkonferenz : Setzt auch zu Hause ein
-   Zeichen!
+   Wahljahr : Hessens Linke steuern erfolglos durch die Energiekrise
 
-   Heute beginnt wieder einmal die Deutsche Islamkonferenz in Berlin. Sie
-   offenbart die gefährliche Doppelmoral und Streitangst der deutschen
-   Innenpolitik. Ein Debattenbeitrag von Ahmad Mansour.
+   Die Linke kämpft sowohl in Hessen als auch auf der Bundesebene um ihre
+   Existenz. Der angekündigte heiße Herbst fand nicht statt. Die Umfragen
+   sind alarmierend.
 
-     * Ahmad Mansour
+     * Ewald Hetrodt
 
-   Der Kult des Männlichen in Putins Russland
+   Nichts geht ohne lebendige Zivilgesellschaft
 
-   FAZ Plus Artikel: Krieg gegen die Ukraine : Der Kult des Männlichen in
-   Putins Russland
+   Demokratie : Nichts geht ohne lebendige Zivilgesellschaft
 
-   Den russischen Männern wird die Rolle des soldatischen Selbstmörders
-   aufgezwungen, ihre Familien will man mit Geschenken zum Schweigen
-   bringen. Es gilt allein das Mafia-Recht des Stärkeren. Ein Gastbeitrag.
+   Antonia Grunenberg philosophiert über Herausforderungen, denen sich die
+   Demokratie ausgesetzt sieht. Ihr Fazit ist nicht frei von Zuversicht.
 
-     * Alexey Tikhomirov
+     * Alexander Gallus
 
-   WM der großen Missverständnisse
+   Die intellektuellen Verächter der Marktwirtschaft
 
-   FAZ Plus Artikel: Muslime in Deutschland : WM der großen
-   Missverständnisse
+   FAZ Plus Artikel: Kapitalismusdebatte : Die intellektuellen Verächter
+   der Marktwirtschaft
 
-   Erhobene Zeigefinger, Armbinden mit Herz und Palästinafahnen: Als
-   Marokko gegen Frankreich spielt, gibt es Redebedarf in der Frankfurter
-   Shishabar „1001 Nacht“.
+   In jeder Krise wird verlässlich das Ende des Kapitalismus prophezeit.
+   Ein Blick in die Geschichte erbringt jedoch den Befund, dass die
+   Alternative stets gescheitert ist. Ein Gastbeitrag.
 
-     * Livia Gerster
+     * Otmar Issing
 
    Kurse und Finanzdaten zum Artikel
 
@@ -474,52 +471,53 @@ Gesellschaft : Fremd im eigenen Land?
 
    Topmeldungen
 
-   Wolodymyr Selenskyj mit Joe und Jill Biden vor dem Weißen Haus
+   Vom Markt zu nehmen: Das Sturmgewehr CR 223 in ziviler Ausführung auf
+   einer Fachmesse in Nürnberg (Archivbild)
 
-   Selenskyj in Washington : Das richtige Signal nach Moskau
-   Im Kreml hofft man, dass der Westen der Ukraine überdrüssig wird.
-   Bilder des ukrainischen Präsidenten in Amerika und die Lieferung von
-   Patriot-Raketen sind eine Demonstration des Gegenteils.
+   Debakel für Waffenhersteller : Warum Haenel seine Sturmgewehre
+   vernichten muss
+   Der tiefe Fall einer Thüringer Firma. C.G. Haenel sollte die Bundeswehr
+   mit einer neuen Ordonannzwaffe ausrüsten. Nun muss sie ein Sturmgewehr
+   komplett vom Markt nehmen – wegen einer Patentrechtsverletzung.
 
-     * Ein Kommentar von Reinhard Veser
-     * Veröffentlicht/Aktualisiert: vor 46 Minuten
-     * Kommentare: 1 , Empfehlungen: 33
-
-   Russlands Präsident Wladimir Putin spricht am Mittwoch vor dem
-   Kollegium des Verteidigungsministeriums in Moskau.
-
-   Putins Ansprache in Moskau : Der Kriegsherr wiederholt sich
-   Wladimir Putin sagt, es gebe keine Begrenzung in der Finanzierung des
-   Krieges. Doch was der russische Präsident in der Ukraine erreichen
-   will, bleibt unklar.
-
-     * Reinhard Veser und Niklas Zimmermann
+     * Peter Carstens, Berlin
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: 21 , Empfehlungen: 27
+     * Kommentare: 49 , Empfehlungen: 41
 
-   Stehen statt fahren: Mehr als 10.000 britische Rettungssanitäter,
-   Notärzte und Krankenwagenfahrer sind im Streik
+   Volker Wissing
 
-   Großbritannien : Streikchaos im englischen Gesundheitswesen
-   Englische Rettungssanitäter streiken – auch Notfallpatienten sind davon
-   betroffen. Wenn kein Rettungswagen geschickt wurde, sollten sich die
-   Betroffenen selbst einen Transport organisieren.
+   F.A.Z. exklusiv : Wissing will AKW-Laufzeiten von Experten festlegen
+   lassen
+   Der Bundesverkehrsminister warnt vor einem „Fiasko“ bei der
+   Transformation des Autoverkehrs. Wegen der Kohle könnten E-Autos nicht
+   nur teuer, sondern auch klimaschädlich sein.
 
-     * Philip Plickert, London
+     * Corinna Budras, Berlin
+     * Veröffentlicht/Aktualisiert: vor 15 Minuten
+     * Empfehlungen: 3
+
+   Der russische Präsident Putin während seiner Neujahrsansprache auf
+   einem TV-Bildschirm.
+
+   Ukraine-Liveblog : Moskau spricht von Dutzenden Toten nach ukrainischem
+   Angriff
+   Stoltenberg: Müssen mehr Waffen produzieren +++ Explosion in Kiew:
+   Ukraine meldet neuen Beschuss +++ Neuer russischer Drohnenangriff +++
+   alle Entwicklungen im Liveblog.
+
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: 1 , Empfehlungen: 6
+     * Empfehlungen: 314
 
-   Die Zentrale der früheren West LB in Düsseldorf
+   Vielleicht hilft Meditation beim Blick aufs Wattenmeer? Bahn-Fahrgäste
+   sind einiges an Kummer gewohnt.
 
-   Cum-ex : Das Land NRW muss 1 Milliarde Euro an West-LB-Verlusten allein
-   tragen
-   Das Oberlandesgericht Frankfurt kippt das Urteil der ersten Instanz und
-   gibt der Ersten Abwicklungsanstalt im Cum-ex-Streit mit Portigon recht.
-   Die kommunalen Sparkassen in Nordrhein-Westfalen können aufatmen.
+   Chaos bei der Bahn : „Ich fahre diesen Zug nur unter Protest“
+   Das Image der Deutschen Bahn mag miserabel sein, aber die Zugbegleiter
+   reißen es immer wieder heraus – mit gnadenloser Ehrlichkeit.
 
-     * Hanno Mußler
-     * Veröffentlicht/Aktualisiert:
-     * Kommentare: 1 , Empfehlungen: 6
+     * Corinna Budras
+     * Veröffentlicht/Aktualisiert: vor 48 Minuten
+     * Kommentare: 3 , Empfehlungen: 4
 
    Newsletter
    Immer auf dem Laufenden Sie haben Post! Die wichtigsten Nachrichten
@@ -571,28 +569,28 @@ Gesellschaft : Fremd im eigenen Land?
 
      * Ukraine
      * Wladimir Putin
-     * Moldawien
      * Donald Trump
+     * Christine Lambrecht
 
-     * Peru
-     * Olaf Scholz
-     * Russland
+     * Bundeswehr
      * Angela Merkel
+     * Russland
+     * Peru
 
+     * China
      * Iran
-     * Kosovo
-     * Europäische Union
+     * Polizei
      * SPD
 
-     * Polizei
+     * Europäische Union
+     * CDU
      * Berlin
      * Bundesregierung
-     * CDU
 
-     * Arabische Welt
-     * Asyl
-     * Letzte Generation
-     * Reichsbürgerbewegung
+     * USA
+     * FDP
+     * London
+     * Luiz Inácio Lula da Silva
 
    Verlagsangebot
 
@@ -664,7 +662,7 @@ Gesellschaft : Fremd im eigenen Land?
      * Blogs
      * Impressum
 
-   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2021
+   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2023
    Alle Rechte vorbehalten.
 
    Schließen
