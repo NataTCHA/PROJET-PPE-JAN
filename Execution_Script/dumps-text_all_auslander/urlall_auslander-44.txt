@@ -40,9 +40,10 @@ Inhaltsverzeichnis
           + 4.4 „EU-Ausländer“
           + 4.5 „Ausländische Mitbürger“
      * 5 Statistik
-          + 5.1 Deutschland
-          + 5.2 Österreich
-          + 5.3 Schweiz
+          + 5.1 Arabische Halbinsel
+          + 5.2 Deutschland
+          + 5.3 Österreich
+          + 5.4 Schweiz
      * 6 Meinungsforschung
      * 7 Siehe auch
      * 8 Literatur
@@ -332,6 +333,13 @@ Drittausländer
 
 Statistik
 
+Arabische Halbinsel
+
+   Besonders hohe Ausländeranteile haben manche Staaten auf der arabischen
+   Halbinsel. Die VAE und Katar bspw. haben Ausländeranteile von jeweils
+   etwa 90 %. Grund ist der hohe Anteil von Arbeitsmigranten an der
+   Gesamtbevölkerung (siehe beispielhaft Arbeitsmigranten in Katar).
+
 Deutschland
 
    Entwicklung der Einwohnerzahl Deutschlands 1970–2004
@@ -358,6 +366,9 @@ Deutschland
    mit Duldung 235 055
    mit Aufenthaltsgestattung 212 545
    ohne Aufenthaltstitel, Duldung oder Gestattung 326 955
+
+   Für eine Auflistung nach Staatsangehörigkeit siehe Demografie
+   Deutschlands#Personen ohne deutsche Staatsbürgerschaft.
 
 Österreich
 
@@ -485,7 +496,7 @@ Einzelnachweise
    Normdaten (Sachbegriff): GND: 4003725-3 (OGND, AKS)
    Bitte den Hinweis zu Rechtsthemen beachten!
    Abgerufen von
-   „https://de.wikipedia.org/w/index.php?title=Ausländer&oldid=228606577“
+   „https://de.wikipedia.org/w/index.php?title=Ausländer&oldid=229271194“
    Kategorien:
      * Einwanderungsrecht
      * Bevölkerungsgruppe
@@ -606,7 +617,7 @@ In anderen Sprachen
 
    Links bearbeiten
 
-     * Diese Seite wurde zuletzt am 6. Dezember 2022 um 02:03 Uhr
+     * Diese Seite wurde zuletzt am 28. Dezember 2022 um 18:50 Uhr
        bearbeitet.
      * Abrufstatistik · Autoren
        Der Text ist unter der Lizenz „Creative Commons Attribution/Share

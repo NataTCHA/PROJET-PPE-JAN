@@ -126,6 +126,7 @@ Themenspeziale
           + Alle Themenspeziale
           + Vererben und Stiften
           + Zukunft der Mobilität
+          + Advertorials
 
 Verbraucher
           + Vergleichsportal

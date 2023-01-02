@@ -159,8 +159,8 @@
      *
      * Themen
      * Partner-Inhalte Anzeige (BUTTON) Menü Partner-Inhalte aufklappen
+          + Robotertechnik
           + Kindesvernachlässigung
-          + Energieunabhängigkeit
      * Marktplatz Anzeige (BUTTON) Menü Marktplatz aufklappen
           + Gebrauchtwagen
           + Immobilienbewertung
@@ -405,11 +405,11 @@ Ich bin von hier. Hört auf zu fragen!
 
    Verlag: S. FISCHER
    Seitenzahl: 208
-   Für 12,70 € kaufen
+   Für 13,00 € kaufen
 
    Preisabfragezeitpunkt
 
-   21.12.2022 22.07 Uhr
+   02.01.2023 18.09 Uhr
 
    Keine Gewähr
    Bei Amazon bestellen

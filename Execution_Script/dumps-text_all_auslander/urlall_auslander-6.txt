@@ -2,7 +2,7 @@
 
      Deutschlandfunk Nova
 
-     * LiveSeit 22:03 UhrHörspiel (BUTTON) LiveSeit 22:03 UhrHörspiel
+     * LiveSeit 17:05 UhrStudio 9 (BUTTON) LiveSeit 17:05 UhrStudio 9
 
      Programm
 
@@ -10,7 +10,7 @@
 
      (BUTTON)
 
-   LiveSeit 22:03 UhrHörspiel (BUTTON) LiveSeit 22:03 UhrHörspiel
+   LiveSeit 17:05 UhrStudio 9 (BUTTON) LiveSeit 17:05 UhrStudio 9
      * (BUTTON) Themen
      Bücher
      Meinung & Debatte
@@ -242,7 +242,7 @@ Kontakt
           + Presse
           + Karriere
 
-   Deutschlandradio © 2022
+   Deutschlandradio © 2023
      * Datenschutzerklärung
      * Nutzungsbedingungen
      * Impressum

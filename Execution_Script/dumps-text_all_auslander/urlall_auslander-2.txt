@@ -158,8 +158,8 @@
      *
      * Themen
      * Partner-Inhalte Anzeige (BUTTON) Menü Partner-Inhalte aufklappen
+          + Robotertechnik
           + Kindesvernachlässigung
-          + Energieunabhängigkeit
      * Marktplatz Anzeige (BUTTON) Menü Marktplatz aufklappen
           + Gebrauchtwagen
           + Immobilienbewertung

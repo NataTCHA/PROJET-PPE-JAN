@@ -19,7 +19,7 @@
      * Briefe an die Herausgeber
 
    Services:
-     * Strategien gegen den Blackout
+     * Die Energie für große Ziele
 
    Wirtschaft
      * Historische Hyperinflation
@@ -32,7 +32,6 @@
 
    Services:
      * Digitalisierung: Keineswegs nur ein Fall für Experten
-     * EY Entrepreneur Of The Year 2022
      * Future Fuels
 
    Finanzen
@@ -69,16 +68,20 @@
      * Die Karrierefrage
 
    Sport
-     * Fußball-WM
      * Fußball
      * Formel 1
      * Mehr Sport
+     * Handball-WM
+     * Australian Open
      * Wintersport
      * Rhein-Main-Sport
      * Sportpolitik
      * Sport-Tipps
      * Sport Live
      * Sport-Ergebnisse
+
+   Services:
+     * Land der Sportmuffel
 
    Gesellschaft
      * Menschen
@@ -90,9 +93,8 @@
      * Jugend schreibt
 
    Services:
-     * Gemeinsam der Kälte trotzen
-     * Vom Großvater zum Digital Native
      * Generation Digital Health
+     * Power für das Robogirl
 
    Stil
      * Mode & Design
@@ -102,7 +104,6 @@
      * Quarterly
 
    Services:
-     * Die moderne Interpretation eines Klassikers
      * Auf ein Glas Wein mit ...
 
    Rhein-Main
@@ -123,9 +124,6 @@
      * Digital
      * Energie
 
-   Services:
-     * Zeitenwende in der Truck-Branche
-
    Wissen
      * Medizin & Ernährung
      * Krebsmedizin
@@ -141,14 +139,12 @@
 
    Services:
      * Future Health – Die Medizin der Zukunft
-     * Power für das Robogirl
 
    Reise
 
    Services:
      * Wetter
      * F.A.Z. Leserreisen
-     * Entdeckungsreise per pedes, Boot und Tram
 
    Multimedia
    Video
@@ -215,6 +211,9 @@
    (BUTTON) Suchen
    (BUTTON) Suche abbrechen
 
+   Jahresrückblick
+   Das war 2022
+
    Aktuelle Nachrichten aus Politik, Wirtschaft, Sport und Kultur
 
    Herausgegeben von Gerald Braunberger, Jürgen Kaube, Carsten Knop,
@@ -270,12 +269,13 @@
           + Klassenzimmer
           + Die Karrierefrage
      * Sport
-          + Fußball-WM
           + Fußball
                o Bundesliga
                o Champions League
           + Formel 1
           + Mehr Sport
+          + Handball-WM
+          + Australian Open
           + Wintersport
           + Rhein-Main-Sport
           + Sportpolitik
@@ -447,40 +447,41 @@ Deutsche Staatsbürgerschaft : Scholz will mehr Ausländer einbürgern
 
    Weitere Themen
 
-   Britische Regierung hielt Migranten wochenlang illegal fest
+   Harte Strafen nach Angriffen auf Einsatzkräfte gefordert
 
-   Bericht der BBC : Britische Regierung hielt Migranten wochenlang
-   illegal fest
+   Gewalt zum Jahreswechsel : Harte Strafen nach Angriffen auf
+   Einsatzkräfte gefordert
 
-   Bis zu 500 Migranten sollen aus einer überfüllten
-   Erstaufnahmeeinrichtung in Manston in ein Abschiebezentrum gebracht und
-   illegal dort festgehalten worden sein. Das erfuhr die BBC aus internen
-   Mails des Innenministeriums.
+   In der Silvesternacht sind Feuerwehrmänner und Polizisten angegriffen
+   worden. Ministerpräsident Rhein nennt die Attacken „Angriffe auf uns
+   alle“. Feuerwehrverband und Polizeigewerkschaft fordern härtere Strafen
+   für die Gewalttäter.
 
-     * Veröffentlicht/Aktualisiert: Vor 7 Minuten
+     * Alexander Jürgs
+     * Veröffentlicht/Aktualisiert: Vor 10 Minuten
 
-   In Hessen gehen vier Minister
+   Wie können Einsatzkräfte besser geschützt werden?
 
-   Generation Bouffier : In Hessen gehen vier Minister
+   Debatte über Böllerverbot : Wie können Einsatzkräfte besser geschützt
+   werden?
 
-   Mehr Zeit für Privates: Vier Minister wollen in Hessen die Politik
-   verlassen. Der neue Ministerpräsident beteuert, dass es nicht an ihm
-   liege.
+   In vielen Städten haben Chaoten an Silvester Feuerwehrleute, Polizisten
+   und Rettungskräfte attackiert. Neu ist das Problem nicht. Wie es
+   behoben werden kann, darüber besteht allerdings Uneinigkeit.
 
-     * Timo Steppat
-     * Veröffentlicht/Aktualisiert: Vor 1 Stunde
+     * Helene Bubrowski und Markus Wehner
+     * Veröffentlicht/Aktualisiert: Vor 18 Minuten
 
-   Selenskyj in Washington: „Es ist eine große Ehre, hier zu sein“
+   Immunität zweier EU-Abgeordneter soll aufgehoben werden
 
-   Ukraine-Liveblog : Selenskyj in Washington: „Es ist eine große Ehre,
-   hier zu sein“
+   Korruptionsvorwürfe in der EU : Immunität zweier EU-Abgeordneter soll
+   aufgehoben werden
 
-   Ukrainischer Präsident im Weißen Haus eingetroffen +++ Kreml kritisiert
-   Selenskyjs Reise nach Washington +++ Belarus beschränkt Zugang zu
-   Grenzregion +++ Putin: Russland wird seine Ziele in der Ukraine
-   erreichen +++ alle Entwicklungen im Liveblog.
+   Welches Ausmaß die Korruptionsaffäre im Europäischen Parlament hat, ist
+   noch unklar. Nun will die belgische Justiz Vorwürfe gegen zwei
+   Abgeordnete weiter verfolgen.
 
-     * Veröffentlicht/Aktualisiert: Vor 1 Stunde
+     * Veröffentlicht/Aktualisiert: Vor 28 Minuten
 
    Ähnliche Themen
 
@@ -496,52 +497,54 @@ Deutsche Staatsbürgerschaft : Scholz will mehr Ausländer einbürgern
 
    Topmeldungen
 
-   Wolodymyr Selenskyj mit Joe und Jill Biden vor dem Weißen Haus
+   Feuerwehrleute löschen die Reste einer Barrikade in der Silvesternacht
+   in Berlin
 
-   Selenskyj in Washington : Das richtige Signal nach Moskau
-   Im Kreml hofft man, dass der Westen der Ukraine überdrüssig wird.
-   Bilder des ukrainischen Präsidenten in Amerika und die Lieferung von
-   Patriot-Raketen sind eine Demonstration des Gegenteils.
+   Debatte über Böllerverbot : Wie können Einsatzkräfte besser geschützt
+   werden?
+   In vielen Städten haben Chaoten an Silvester Feuerwehrleute, Polizisten
+   und Rettungskräfte attackiert. Neu ist das Problem nicht. Wie es
+   behoben werden kann, darüber besteht allerdings Uneinigkeit.
 
-     * Ein Kommentar von Reinhard Veser
+     * Helene Bubrowski und Markus Wehner
+     * Veröffentlicht/Aktualisiert: vor 17 Minuten
+     * Kommentare: 1 , Empfehlungen: 6
+
+   Vom Markt zu nehmen: Das Sturmgewehr CR 223 in ziviler Ausführung auf
+   einer Fachmesse in Nürnberg (Archivbild)
+
+   Debakel für Waffenhersteller : Warum Haenel seine Sturmgewehre
+   vernichten muss
+   Der tiefe Fall einer Thüringer Firma. C.G. Haenel sollte die Bundeswehr
+   mit einer neuen Ordonannzwaffe ausrüsten. Nun muss sie ein Sturmgewehr
+   komplett vom Markt nehmen – wegen einer Patentrechtsverletzung.
+
+     * Peter Carstens, Berlin
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: , Empfehlungen: 54
+     * Kommentare: 74 , Empfehlungen: 49
 
-   Russlands Präsident Wladimir Putin spricht am Mittwoch vor dem
-   Kollegium des Verteidigungsministeriums in Moskau.
+   Volker Wissing
 
-   Putins Ansprache in Moskau : Der Kriegsherr wiederholt sich
-   Wladimir Putin sagt, es gebe keine Begrenzung in der Finanzierung des
-   Krieges. Doch was der russische Präsident in der Ukraine erreichen
-   will, bleibt unklar.
+   F.A.Z. exklusiv : Wissing will AKW-Laufzeiten von Experten festlegen
+   lassen
+   Der Bundesverkehrsminister warnt vor einem „Fiasko“ bei der
+   Transformation des Autoverkehrs. Wegen der Kohle könnten E-Autos nicht
+   nur teuer, sondern auch klimaschädlich sein.
 
-     * Reinhard Veser und Niklas Zimmermann
+     * Corinna Budras, Berlin
+     * Veröffentlicht/Aktualisiert: vor 39 Minuten
+     * Kommentare: 14 , Empfehlungen: 10
+
+   Vielleicht hilft Meditation beim Blick aufs Wattenmeer? Bahn-Fahrgäste
+   sind einiges an Kummer gewohnt.
+
+   Chaos bei der Bahn : „Ich fahre diesen Zug nur unter Protest“
+   Das Image der Deutschen Bahn mag miserabel sein, aber die Zugbegleiter
+   reißen es immer wieder heraus – mit gnadenloser Ehrlichkeit.
+
+     * Corinna Budras
      * Veröffentlicht/Aktualisiert:
-     * Kommentare: , Empfehlungen: 30
-
-   Stehen statt fahren: Mehr als 10.000 britische Rettungssanitäter,
-   Notärzte und Krankenwagenfahrer sind im Streik
-
-   Großbritannien : Streikchaos im englischen Gesundheitswesen
-   Englische Rettungssanitäter streiken – auch Notfallpatienten sind davon
-   betroffen. Wenn kein Rettungswagen geschickt wurde, sollten sich die
-   Betroffenen selbst einen Transport organisieren.
-
-     * Philip Plickert, London
-     * Veröffentlicht/Aktualisiert:
-     * Kommentare: , Empfehlungen: 8
-
-   Die Zentrale der früheren West LB in Düsseldorf
-
-   Cum-ex : Das Land NRW muss 1 Milliarde Euro an West-LB-Verlusten allein
-   tragen
-   Das Oberlandesgericht Frankfurt kippt das Urteil der ersten Instanz und
-   gibt der Ersten Abwicklungsanstalt im Cum-ex-Streit mit Portigon recht.
-   Die kommunalen Sparkassen in Nordrhein-Westfalen können aufatmen.
-
-     * Hanno Mußler
-     * Veröffentlicht/Aktualisiert:
-     * Kommentare: 2 , Empfehlungen: 6
+     * Kommentare: , Empfehlungen: 9
 
    Newsletter
    Immer auf dem Laufenden Sie haben Post! Die wichtigsten Nachrichten
@@ -577,42 +580,44 @@ Deutsche Staatsbürgerschaft : Scholz will mehr Ausländer einbürgern
    Vielen Dank für Ihr Interesse an den F.A.Z.-Newslettern. Sie erhalten
    in wenigen Minuten eine E-Mail, um Ihre Newsletterbestellung zu
    bestätigen.
-   Vorstand/Vorständin (m/w/d)
-   Rheinischer Blindenfürsorgeverein 1886 Düren
-   Vice President Finance (m/f/d)
-   Björn Engelbrecht Executive Search
-   Head of Department Academic and Student Affairs Department (f/m/d)
-   Vietnamese-German University (VGU)
-   Geschäftsführer:in (m/w/d)
-   Oberpfarr- und Domkirche zu Berlin (Berliner Dom)
+   Leitung (w/m/d) der Abteilung 3 "Protokoll, Auswärtige Angelegenheiten,
+   Internationale Kooperationen, Entwicklungszusammenarbeit"
+   Freie Hansestadt Bremen
+   Leitung Stadtmuseum (m/w/d)
+   Stadt Trier - Stadtmuseum Simeonstift
+   Leitung (w/m/d) für die Geschäfts- und Informationsstelle für den
+   Mindestlohn
+   Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA)
+   Kaufmännische Leitung (m/w/d)
+   über ANSCHÜTZ Management- und Personalberatung
    Zum Stellenmarkt
 
    Weitere Themen
 
      * Ukraine
      * Wladimir Putin
-     * Moldawien
      * Donald Trump
+     * Christine Lambrecht
 
-     * Peru
-     * Olaf Scholz
-     * Russland
+     * Bundeswehr
      * Angela Merkel
+     * Russland
+     * Peru
 
+     * China
      * Iran
-     * Kosovo
-     * Europäische Union
+     * Polizei
      * SPD
 
-     * Polizei
+     * Europäische Union
+     * CDU
      * Berlin
      * Bundesregierung
-     * CDU
 
-     * Arabische Welt
-     * Asyl
-     * Letzte Generation
-     * Reichsbürgerbewegung
+     * FDP
+     * London
+     * Luiz Inácio Lula da Silva
+     * Rom
 
    Verlagsangebot
 
@@ -684,7 +689,7 @@ Deutsche Staatsbürgerschaft : Scholz will mehr Ausländer einbürgern
      * Blogs
      * Impressum
 
-   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2021
+   © Frankfurter Allgemeine Zeitung GmbH 2001 - 2023
    Alle Rechte vorbehalten.
 
    Schließen

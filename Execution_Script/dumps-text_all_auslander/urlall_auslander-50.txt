@@ -241,6 +241,7 @@
           + Pressedokumentation
           + Webarchiv
           + Textarchiv
+               o 2023
                o 2022
                o 2021
                o 2020
@@ -277,6 +278,7 @@
      * (BUTTON) Presse
        Übersicht: Presse schließen
           + Pressemitteilungen
+               o 2023
                o 2022
                o 2021
           + Kurzmeldungen (hib)
@@ -1531,4 +1533,4 @@ Seite teilen
    https://www.bundestag.de/dokumente/textarchiv/2022/kw48-pa-inneres-chan
    cen-aufenthaltsrechts-921220
 
-   Stand: 21.12.2022
+   Stand: 02.01.2023
