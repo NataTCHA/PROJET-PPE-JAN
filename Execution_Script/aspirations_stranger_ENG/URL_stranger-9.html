@@ -1,0 +1,616 @@
+
+  
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"986749891",accountID:"2851464",trustKey:"2851464",xpid:"Vg4CUFJVDBAJXFdSBgMOUV0=",licenseKey:"NRJS-5e80c6ce4b880b7c309",applicationID:"986012979"};/*! For license information please see nr-loader-spa-1220.min.js.LICENSE.txt */
+!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.NRBA=t():e.NRBA=t()}(self,(function(){return function(){var e,t,n={9034:function(e,t,n){"use strict";var r=n(4168);t.Z=(0,r.ky)(16)},5973:function(e,t,n){"use strict";n.d(t,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(e,t,n){"use strict";n.d(t,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(e,t,n){"use strict";n.d(t,{I:function(){return r}});var r=function(e,t){var n=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],r=e[1];n[t]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(e,t,n){"use strict";n.d(t,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for "+e+" was never set");return a[e]}function u(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=new o.I(t,i),(0,r.Qy)(e,a[e],"info")}},1476:function(e,t,n){"use strict";n.d(t,{Dg:function(){return u},Mt:function(){return s},P_:function(){return c}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!a[e])throw new Error("Configuration for "+e+" was never set");return a[e]}function u(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");a[e]=new o.I(t,i),(0,r.Qy)(e,a[e],"config")}function s(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=c(e);if(n){for(var r=t.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(e,t,n){"use strict";n.d(t,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(e,t,n){"use strict";n.d(t,{O:function(){return w},s:function(){return O}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(e,t){if(!a)return!1;if(e!==a)return!1;if(!t)return!0;if(!c)return!1;for(var n=c.split("."),r=t.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),p=n(4168),h=window.sessionStorage,v="NRBA_SESSION_ID";var m=n(1476),g=window.XMLHttpRequest,y=g&&g.prototype,b={};function w(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!b[e])throw new Error("Runtime for "+e+" was never set");return b[e]}function O(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var n,a;b[e]=new d.I(t,(n=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,m.Mt)(n,"privacy.cookies_enabled")?(null===(a=h.getItem(v))&&(a=(0,p.ky)(16),h.setItem(v,a)),a):"0",xhrWrappable:g&&y&&y.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(e,b[e],"runtime")}},158:function(e,t,n){"use strict";n.d(t,{q:function(){return r}});var r=["1220","PROD"].filter((function(e){return e})).join(".")},3707:function(e,t,n){"use strict";n.d(t,{w:function(){return o}});var r={agentIdentifier:""},o=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(e).forEach((function(e){var n=e[0],o=e[1];Object.keys(r).includes(n)&&(t.sharedContext[n]=o)}))}},1776:function(e,t,n){"use strict";n.d(t,{c:function(){return f},ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(e){return(0,i.X)(e,c,d)}function d(){return new s}function l(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function e(t,n){var o={},u={},f={},p={on:m,addEventListener:m,removeEventListener:g,emit:v,get:b,listeners:y,context:h,buffer:w,abort:l,aborted:!1,isBuffering:O,debugId:n,backlog:t&&t.backlog?t.backlog:{}};return p;function h(e){return e&&e instanceof s?e:e?(0,i.X)(e,c,d):d()}function v(e,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){t&&a&&t.emit(e,n,o);for(var c=h(o),s=y(e),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=x()[u[e]];return l&&l.push([p,e,n,c]),c}}function m(e,t){o[e]=y(e).concat(t)}function g(e,t){var n=o[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function y(e){return o[e]||[]}function b(t){return f[t]=f[t]||e(p,t)}function w(e,t){var n=x();p.aborted||(0,a.D)(e,(function(e,r){t=t||"feature",u[r]=t,t in n||(n[t]=[])}))}function O(e){return!!x()[u[e]]}function x(){return p.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(e,t,n){"use strict";n.d(t,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(e,t,n,o,i){i?(i.buffer([e],o),i.emit(e,t,n)):(r.buffer([e],o),r.emit(e,t,n))}},3350:function(e,t,n){"use strict";n.d(t,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(e,t,n,i){a(i||r.E,o,e,t,n)}function a(e,t,n,o,i){i||(i="feature"),e||(e=r.E);var a=t[i]=t[i]||{};(a[n]=a[n]||[]).push([e,o])}},4408:function(e,t,n){"use strict";n.d(t,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(e){}function i(e){return r?{passive:!0,capture:!!e}:!!e}},4168:function(e,t,n){"use strict";function r(){var e=null,t=0,n=window.crypto||window.msCrypto;function r(){return e?15&e[t++]:16*Math.random()|0}n&&n.getRandomValues&&(e=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(){return a(16)}function i(){return a(32)}function a(e){var t=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(t=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<e;i++)o.push(a().toString(16));return o.join("");function a(){return t?15&t[n++]:16*Math.random()|0}}n.d(t,{Ht:function(){return i},M:function(){return o},Rl:function(){return r},ky:function(){return a}})},6959:function(e,t,n){"use strict";n.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(e){i=e}function s(){return i}},2364:function(e,t,n){"use strict";n.d(t,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(e,t,n){"use strict";function r(e){var t,n=0;for(t=0;t<e.length;t++)n+=(t+1)*e.charCodeAt(t);return Math.abs(n)}n.d(t,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(e){var t=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var e=document.cookie.split(" "),t=0;t<e.length;t++)if(0===e[t].indexOf("NREUM=")){for(var n,o,i,a,c=e[t].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();t&&((0,o.B)(e,"starttime",t),(0,a.nb)(t))}},6972:function(e,t,n){"use strict";n.d(t,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(e,t,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[e]=o[e]||{},o[e][t]=n}function a(e,t,n,r){var i,a,c=e.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},7001:function(e,t,n){"use strict";n.d(t,{e:function(){return o}});var r={};function o(e){if(e in r)return r[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};var t=document.createElement("a"),n=window.location,o={};t.href=e,o.port=t.port;var i=t.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=t.hostname||n.hostname,o.pathname=t.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!t.protocol||":"===t.protocol||t.protocol===n.protocol,c=t.hostname===document.domain&&t.port===n.port;return o.sameOrigin=a&&(!t.hostname||c),"/"===o.pathname&&(r[e]=o),o}},7299:function(e,t,n){"use strict";n.d(t,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var e=i(),t=!(!e.location||!e.location.protocol||"file:"!==e.location.protocol);t&&(a.supportabilityMetricSent=!0);return t},supportabilityMetricSent:!1}},847:function(e,t,n){"use strict";n.d(t,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(e){var t={};return i.forEach((function(n){t[n]=function(e,t){return!0!==(0,r.O)(t).disabled&&!1!==(0,o.Mt)(t,e+".enabled")}(n,e)})),t}},5023:function(e,t,n){"use strict";n.d(t,{W:function(){return o}});var r=n(1776),o=function(e,t,n){void 0===n&&(n=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.externalFeatures=n}},4217:function(e,t,n){"use strict";n.d(t,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(e,t,n){if(r.call(e,t))return e[t];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:o,writable:!0,enumerable:!1}),o}catch(e){}return e[t]=o,o}},357:function(e,t,n){"use strict";n.d(t,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(e,t){var n=[],o="",i=0;for(o in e)r.call(e,o)&&(n[i]=t(o,e[o]),i+=1);return n}},603:function(e,t,n){"use strict";n.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,n;function r(t){return e.call(this,t)||this}n=e,(t=r).prototype=Object.create(n.prototype),t.prototype.constructor=t,a(t,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),n=e,r=0;r<t.length;r++){var o=t[r].regex,i=t[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(e){var t=[],n=(0,r.Mt)(e,"obfuscate")||[];return t=t.concat(n),i.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,n=!1,r=0;r<e.length;r++){"regex"in e[r]?"string"!=typeof e[r].regex&&e[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=e[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!n}},1424:function(e,t,n){"use strict";n.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var e=i();if(!e.o){var t=window,n=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:n,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((o={})[n]=t,o)),a)),c}function u(e,t){i()[e]=t}function s(){var e,t;return e=i(),t=e.info||{},e.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},t),function(){var e=i(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=i(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),i()}},5098:function(e,t,n){"use strict";function r(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}n.d(t,{W:function(){return r}})},8539:function(e){e.exports=function(e,t,n){t||(t=0),void 0===n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}},8118:function(e){e.exports=function(e,t,n){t||(t=0),void 0===n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}}},r={};function o(e){var t=r[e];if(void 0!==t)return t.exports;var i=r[e]={exports:{}};return n[e](i,i.exports,o),i.exports}o.m=n,o.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(t,{a:t}),t},o.d=function(e,t){for(var n in t)o.o(t,n)&&!o.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},o.f={},o.e=function(e){return Promise.all(Object.keys(o.f).reduce((function(t,n){return o.f[n](e,t),t}),[]))},o.u=function(e){return e+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},e={},t="NRBA:",o.l=function(n,r,i,a){if(e[n])e[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==t+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",t+i),c.src=n),e[n]=[r];var l=function(t,r){c.onerror=c.onload=null,clearTimeout(p);var o=e[n];if(delete e[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(e){return e(r)})),t)return t(r)},p=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var e={997:0,898:0};o.f.j=function(t,n){var r=o.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=e[t]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(t),c=new Error;o.l(a,(function(n){if(o.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+t+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+t,t)}};var t=function(t,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(t){return 0!==e[t]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(t&&t(n);s<a.length;s++)i=a[s],o.o(e,i)&&e[i]&&e[i][0](),e[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var e=o(4408),t=window,n=t.document;function r(e){"complete"===n.readyState&&e()}function a(o){r(o),n.addEventListener?t.addEventListener("load",o,(0,e.m)(!1)):t.attachEvent("onload",o)}function c(t){r(t),n.addEventListener?n.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):n.attachEvent("onreadystatechange",r)}var u=o(1776);function s(){s=function(){return e};var e={},t=Object.prototype,n=t.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(e,t,n){return Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{c({},"")}catch(e){c=function(e,t,n){return e[t]=n}}function u(e,t,n,r){var o=t&&t.prototype instanceof l?t:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(e,t,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return _()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=O(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=f(e,t,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(e,n,a),i}function f(e,t,n){try{return{type:"normal",arg:e.call(t,n)}}catch(e){return{type:"throw",arg:e}}}e.wrap=u;var d={};function l(){}function p(){}function h(){}var v={};c(v,o,(function(){return this}));var m=Object.getPrototypeOf,g=m&&m(m(P([])));g&&g!==t&&n.call(g,o)&&(v=g);var y=h.prototype=l.prototype=Object.create(v);function b(e){["next","throw","return"].forEach((function(t){c(e,t,(function(e){return this._invoke(t,e)}))}))}function w(e,t){function r(o,i,a,c){var u=f(e[o],e,i);if("throw"!==u.type){var s=u.arg,d=s.value;return d&&"object"==typeof d&&n.call(d,"__await")?t.resolve(d.__await).then((function(e){r("next",e,a,c)}),(function(e){r("throw",e,a,c)})):t.resolve(d).then((function(e){s.value=e,a(s)}),(function(e){return r("throw",e,a,c)}))}c(u.arg)}var o;this._invoke=function(e,n){function i(){return new t((function(t,o){r(e,n,t,o)}))}return o=o?o.then(i,i):i()}}function O(e,t){var n=e.iterator[t.method];if(void 0===n){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=f(n,e.iterator,t.arg);if("throw"===r.type)return t.method="throw",t.arg=r.arg,t.delegate=null,d;var o=r.arg;return o?o.done?(t[e.resultName]=o.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):o:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function j(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function P(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var r=-1,i=function t(){for(;++r<e.length;)if(n.call(e,r))return t.value=e[r],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:_}}function _(){return{value:void 0,done:!0}}return p.prototype=h,c(y,"constructor",h),c(h,"constructor",p),p.displayName=c(h,a,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===p||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,h):(e.__proto__=h,c(e,a,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},b(w.prototype),c(w.prototype,i,(function(){return this})),e.AsyncIterator=w,e.async=function(t,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(t,n,r,o),i);return e.isGeneratorFunction(n)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},b(y),c(y,a,"Generator"),c(y,o,(function(){return this})),c(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=[];for(var n in e)t.push(n);return t.reverse(),function n(){for(;t.length;){var r=t.pop();if(r in e)return n.value=r,n.done=!1,n}return n.done=!0,n}},e.values=P,j.prototype={constructor:j,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&n.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function r(n,r){return a.type="throw",a.arg=e,t.next=n,r&&(t.method="next",t.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(e,t){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===e||"continue"===e)&&i.tryLoc<=t&&t<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=e,a.arg=t,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var n=this.tryEntries[t];if(n.finallyLoc===e)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var n=this.tryEntries[t];if(n.tryLoc===e){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,n){return this.delegate={iterator:P(e),resultName:t,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},e}function f(e,t,n,r,o,i,a){try{var c=e[i](a),u=c.value}catch(e){return void n(e)}c.done?t(u):Promise.resolve(u).then(r,o)}var d=0;function l(e){var t;(t=s().mark((function t(){var n,r;return s().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=t.sent,r=n.aggregator,t.next=9,r(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),u.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,n=arguments;return new Promise((function(r,o){var i=t.apply(e,n);function a(e){f(i,r,o,a,c,"next",e)}function c(e){f(i,r,o,a,c,"throw",e)}a(void 0)}))})()}var p=o(9034),h=o(7361),v=o(6959),m=o(6972),g=o(1793),y=o(5023);function b(e,t){return b=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},b(e,t)}var w,O,x,E=function(e){var t,n;function r(t){var n;return n=e.call(this,t)||this,(0,g.v)(t),(0,m.B)(t,"firstbyte",(0,v.yf)()),a((function(){return n.measureWindowLoaded()})),c((function(){return n.measureDomContentLoaded()})),n}n=e,(t=r).prototype=Object.create(n.prototype),t.prototype.constructor=t,b(t,n);var o=r.prototype;return o.measureWindowLoaded=function(){var e=(0,v.zO)();(0,m.B)(this.agentIdentifier,"onload",e+(0,v.os)()),(0,h.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,m.B)(this.agentIdentifier,"domContent",(0,v.zO)()+(0,v.os)())},r}(y.W);void 0!==document.hidden?(w="hidden",O="visibilitychange",x="visibilityState"):void 0!==document.msHidden?(w="msHidden",O="msvisibilitychange"):void 0!==document.webkitHidden&&(w="webkitHidden",O="webkitvisibilitychange",x="webkitVisibilityState");var j=o(1476),P=o(2085);function _(e,t){return _=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},_(e,t)}var L=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var e;return(e=r).perfObserver.apply(e,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=r).lcpObserver.apply(e,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}r.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=r).clsObserver.apply(e,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var e;return(e=r).captureInteraction.apply(e,arguments)}),(0,e.m)(!1))}))}return o=function(){var e;return(e=r).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&O&&document.addEventListener(O,(function(){x&&document[x]?o(document[x]):document[w]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,_(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,j.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(e,t){var n=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,h.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===e.name&&(0,h.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(e,t){var n=e.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,h.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,h.p)("cls",[e],void 0,void 0,t.ee)}))},i.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},i.captureInteraction=function(e){if(e instanceof P.Y.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),n={type:e.type};this.addConnectionAttributes(n),t<=(0,v.zO)()?n.fid=(0,v.zO)()-t:t>(0,v.os)()&&t<=Date.now()?(t-=(0,v.os)(),n.fid=(0,v.zO)()-t):t=(0,v.zO)(),this.fiRecorded=!0,(0,h.p)("timing",["fi",t,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,v.zO)(),(0,h.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(y.W),T=o(3350),C="React",S="Angular",I="AngularJS",R="Backbone",k="Ember",A="Vue",H="Meteor",N="Zepto",z="Jquery";function M(){var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(C),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(I),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(S),window.Backbone&&e.push(R),window.Ember&&e.push(k),window.Vue&&e.push(A),window.Meteor&&e.push(H),window.Zepto&&e.push(N),window.jQuery&&e.push(z)}catch(e){}return e}var D=o(7299),q=o(603),B=o(158);function F(e,t){return F=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},F(e,t)}var G=function(e){var t,n;function r(t){var n;return(n=e.call(this,t)||this).singleChecks(),(0,T.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,T.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}n=e,(t=r).prototype=Object.create(n.prototype),t.prototype.constructor=t,F(t,n);var o=r.prototype;return o.recordSupportability=function(e,t){var n=["sm",e,{name:e},t];return(0,h.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(e,t){var n=["cm",e,{name:e},t];return(0,h.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+B.q+"/Detected"),c((function(){M().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),D.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),D.T.supportabilityMetricSent=!0);var t=(0,q.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,q.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(y.W),U=o(1220),X=o(4217),Z=o(8118),W=o.n(Z),V=o(357),Y=window,Q="fetch-",K="fetch-body-",J=["arrayBuffer","blob","json","text","formData"],$=Y.Request,ee=Y.Response,te="prototype",ne="nr@context",re={};function oe(e){var t=function(e){return(e||u.ee).get("fetch")}(e);if(!($&&ee&&window.fetch))return t;if(re[t.debugId])return t;function n(e,n,r){var o=e[n];"function"==typeof o&&(e[n]=function(){var e,n=W()(arguments),i={};t.emit(r+"before-start",[n],i),i[ne]&&i[ne].dt&&(e=i[ne].dt);var a=o.apply(this,n);return t.emit(r+"start",[n,e],a),a.then((function(e){return t.emit(r+"end",[null,e],a),e}),(function(e){throw t.emit(r+"end",[e],a),e}))})}return re[t.debugId]=!0,(0,V.D)(J,(function(e,t){n($[te],t,K),n(ee[te],t,K)})),n(Y,"fetch",Q),t.on("fetch-end",(function(e,n){var r=this;if(n){var o=n.headers.get("content-length");null!==o&&(r.rxSize=o),t.emit("fetch-done",[null,n],r)}else t.emit("fetch-done",[e],r)})),t}var ie="nr@original",ae=Object.prototype.hasOwnProperty,ce=!1;function ue(e,t){return e||(e=u.ee),n.inPlace=function(e,t,r,o,i){r||(r="");var a,c,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)c=t[u],de(a=e[c])||(e[c]=n(a,s?c+r:r,o,c,i))},n.flag=ie,n;function n(t,n,o,i,a){return de(t)?t:(n||(n=""),c[ie]=t,fe(t,c,e),c);function c(){var c,u,s,f;try{u=this,c=W()(arguments),s="function"==typeof o?o(c,u):o||{}}catch(t){se([t,"",[c,u,i],s],e)}r(n+"start",[c,u,i],s,a);try{return f=t.apply(u,c)}catch(e){throw r(n+"err",[c,u,e],s,a),e}finally{r(n+"end",[c,u,f],s,a)}}}function r(n,r,o,i){if(!ce||t){var a=ce;ce=!0;try{e.emit(n,r,o,t,i)}catch(t){se([t,n,r,o],e)}ce=a}}}function se(e,t){t||(t=u.ee);try{t.emit("internal-error",e)}catch(e){}}function fe(e,t,n){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})})),t}catch(e){se([e],n)}for(var r in e)ae.call(e,r)&&(t[r]=e[r]);return t}function de(e){return!(e&&e instanceof Function&&e.apply&&!e[ie])}function le(e,t,n){var r=e[t];e[t]=function(e,t){var n=t(e);return n[ie]=e,fe(e,n,u.ee),n}(r,n)}function pe(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var he={};function ve(e){var t=function(e){return(e||u.ee).get("timer")}(e);if(he[t.debugId])return t;he[t.debugId]=!0;var n=ue(t),r="setTimeout",o="setInterval",i="clearTimeout",a="-start";return n.inPlace(window,[r,"setImmediate"],"setTimeout-"),n.inPlace(window,[o],"setInterval-"),n.inPlace(window,[i,"clearImmediate"],"clearTimeout-"),t.on(o+a,(function(e,t,r){e[0]=n(e[0],"fn-",null,r)})),t.on(r+a,(function(e,t,r){this.method=r,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=n(e[0],"fn-",this,r)})),t}var me={};function ge(e){var t=function(e){return(e||u.ee).get("raf")}(e);if(me[t.debugId])return t;me[t.debugId]=!0;var n=ue(t);return n.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),t.on("raf-start",(function(e){e[0]=n(e[0],"fn-")})),t}var ye={};function be(e){var t=function(e){return(e||u.ee).get("history")}(e);if(ye[t.debugId])return t;ye[t.debugId]=!0;var n=ue(t),r=window.history&&window.history.constructor&&window.history.constructor.prototype,o=window.history;return r&&r.pushState&&r.replaceState&&(o=r),n.inPlace(o,["pushState","replaceState"],"-"),t}var we={};function Oe(t){var n=function(e){return(e||u.ee).get("jsonp")}(t);if(we[n.debugId])return n;we[n.debugId]=!0;var r=ue(n),o=/[?&](?:callback|cb)=([^&#]+)/,i=/(.*)\.([^.]+)/,a=/^(\w+)(\.|$)(.*)$/,c=["appendChild","insertBefore","replaceChild"];function s(e,t){var n=e.match(a),r=n[1],o=n[3];return o?s(o,t[r]):t[r]}return"addEventListener"in window&&(Node&&Node.prototype&&Node.prototype.appendChild?r.inPlace(Node.prototype,c,"dom-"):(r.inPlace(HTMLElement.prototype,c,"dom-"),r.inPlace(HTMLHeadElement.prototype,c,"dom-"),r.inPlace(HTMLBodyElement.prototype,c,"dom-"))),n.on("dom-start",(function(t){!function(t){if(!t||"string"!=typeof t.nodeName||"script"!==t.nodeName.toLowerCase())return;if("function"!=typeof t.addEventListener)return;var a=(c=t.src,u=c.match(o),u?u[1]:null);var c,u;if(!a)return;var f=function(e){var t=e.match(i);if(t&&t.length>=3)return{key:t[2],parent:s(t[1],window)};return{key:e,parent:window}}(a);if("function"!=typeof f.parent[f.key])return;var d={};function l(){n.emit("jsonp-end",[],d),t.removeEventListener("load",l,(0,e.m)(!1)),t.removeEventListener("error",p,(0,e.m)(!1))}function p(){n.emit("jsonp-error",[],d),n.emit("jsonp-end",[],d),t.removeEventListener("load",l,(0,e.m)(!1)),t.removeEventListener("error",p,(0,e.m)(!1))}r.inPlace(f.parent,[f.key],"cb-",d),t.addEventListener("load",l,(0,e.m)(!1)),t.addEventListener("error",p,(0,e.m)(!1)),n.emit("new-jsonp",[t.src],d)}(t[0])})),n}var xe={};function Ee(e){var t=function(e){return(e||u.ee).get("mutation")}(e);if(xe[t.debugId])return t;xe[t.debugId]=!0;var n=ue(t),r=P.Y.MO;return r&&(window.MutationObserver=function(e){return this instanceof r?new r(n(e,"fn-")):r.apply(this,arguments)},MutationObserver.prototype=r.prototype),t}var je={};function Pe(e){var t=function(e){return(e||u.ee).get("promise")}(e);if(je[t.debugId])return t;je[t.debugId]=!0;var n=u.c,r=ue(t),o=P.Y.PR;return o&&function(){function e(e){var n=t.context(),i=r(e,"executor-",n,null,!1),a=new o(i);return t.context(a).getCtx=function(){return n},a}window.Promise=e,["all","race"].forEach((function(e){var n=o[e];o[e]=function(r){var i=!1;(0,V.D)(r,(function(t,n){Promise.resolve(n).then(c("all"===e),c(!1))}));var a=n.apply(o,arguments);return o.resolve(a);function c(e){return function(){t.emit("propagate",[null,!i],a,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(e){var n=o[e];o[e]=function(e){var r=n.apply(o,arguments);return e!==r&&t.emit("propagate",[e,!0],r,!1,!1),r}})),o.prototype.catch=function(e){return this.then(null,e)},Object.assign(o.prototype,{constructor:{value:e}}),(0,V.D)(Object.getOwnPropertyNames(o),(function(t,n){try{e[n]=o[n]}catch(e){}})),le(o.prototype,"then",(function(e){return function(){var o=this,i=pe.apply(this,arguments),a=n(o);a.promise=o,i[0]=r(i[0],"cb-",a,null,!1),i[1]=r(i[1],"cb-",a,null,!1);var c=e.apply(this,i);return a.nextPromise=c,t.emit("propagate",[o,!0],c,!1,!1),c}})),t.on("executor-start",(function(e){e[0]=r(e[0],"resolve-",this,null,!1),e[1]=r(e[1],"resolve-",this,null,!1)})),t.on("executor-err",(function(e,t,n){e[1](n)})),t.on("cb-end",(function(e,n,r){t.emit("propagate",[r,!0],this.nextPromise,!1,!1)})),t.on("propagate",(function(e,n,r){this.getCtx&&!n||(this.getCtx=function(){if(e instanceof Promise)var n=t.context(e);return n&&n.getCtx?n.getCtx():this})})),e.toString=function(){return""+o}}(),t}var _e={};function Le(e){var t=function(e){return(e||u.ee).get("events")}(e);if(_e[t.debugId])return t;_e[t.debugId]=!0;var n=ue(t,!0),r=XMLHttpRequest,o="addEventListener",i="removeEventListener";function a(e){for(var t=e;t&&!t.hasOwnProperty(o);)t=Object.getPrototypeOf(t);t&&c(t)}function c(e){n.inPlace(e,[o,i],"-",s)}function s(e,t){return e[1]}return"getPrototypeOf"in Object?(a(document),a(window),a(r.prototype)):r.prototype.hasOwnProperty(o)&&(c(window),c(r.prototype)),t.on("addEventListener-start",(function(e,t){var r=e[1];if(null!==r&&("function"==typeof r||"object"==typeof r)){var o=(0,X.X)(r,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof r.handleEvent)return;return r.handleEvent.apply(r,arguments)},function:r}[typeof r];return e?n(e,"fn-",null,e.name||"anonymous"):r}));this.wrapped=e[1]=o}})),t.on("removeEventListener-start",(function(e){e[1]=this.wrapped||e[1]})),t}var Te={};function Ce(t){var n=t||u.ee,r=function(e){return(e||u.ee).get("xhr")}(n);if(Te[r.debugId])return r;Te[r.debugId]=!0,Le(n);var o=ue(r),i=P.Y.XHR,a=P.Y.MO,c=P.Y.PR,s=P.Y.SI,f="readystatechange",d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],l=[],p=window.XMLHttpRequest.listeners,h=window.XMLHttpRequest=function(t){var n=new i(t);function o(){try{r.emit("new-xhr",[n],n),n.addEventListener(f,m,(0,e.m)(!1))}catch(e){console.error(e);try{r.emit("internal-error",[e])}catch(e){}}}return this.listeners=p?[].concat(p,[o]):[o],this.listeners.forEach((function(e){return e()})),n};function v(e,t){o.inPlace(t,["onreadystatechange"],"fn-",O)}function m(){var e=this,t=r.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,r.emit("xhr-resolved",[],e)),o.inPlace(e,d,"fn-",O)}if(function(e,t){for(var n in e)t[n]=e[n]}(i,h),h.prototype=i.prototype,o.inPlace(h.prototype,["open","send"],"-xhr-",O),r.on("send-xhr-start",(function(e,t){v(e,t),function(e){l.push(e),a&&(g?g.then(w):s?s(w):(y=-y,b.data=y))}(t)})),r.on("open-xhr-start",v),a){var g=c&&c.resolve();if(!s&&!c){var y=1,b=document.createTextNode(y);new a(w).observe(b,{characterData:!0})}}else n.on("fn-end",(function(e){e[0]&&e[0].type===f||w()}));function w(){for(var e=0;e<l.length;e++)v(0,l[e]);l.length&&(l=[])}function O(e,t){return t}return r}function Se(e){return Le(e)}function Ie(e){return oe(e)}function Re(e){return be(e)}function ke(e){return ge(e)}function Ae(e){return ve(e)}function He(e){return Ce(e)}function Ne(e,t){return Ne=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Ne(e,t)}var ze="nr@seenError",Me=function(e){var t,n;function r(t){var n;(n=e.call(this,t)||this).skipNext=0,n.handleErrors=!1,n.origOnerror=window.onerror;var r=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(n),o=(0,U.O)(n.agentIdentifier);o.features.err=!0,r.ee.on("fn-start",(function(e,t,n){r.handleErrors&&(r.skipNext+=1)})),r.ee.on("fn-err",(function(e,t,n){r.handleErrors&&!n[ze]&&((0,X.X)(n,ze,(function(){return!0})),this.thrown=!0,qe(n,void 0,r.ee))})),r.ee.on("fn-end",(function(){r.handleErrors&&!this.thrown&&r.skipNext>0&&(r.skipNext-=1)})),r.ee.on("internal-error",(function(e){(0,h.p)("ierr",[e,(0,v.zO)(),!0],void 0,void 0,r.ee)}));var i=window.onerror;window.onerror=function(){var e;return i&&i.apply(void 0,arguments),(e=n).onerrorHandler.apply(e,arguments),!1};try{window.addEventListener("unhandledrejection",(function(e){var t=new Error(""+e.reason);(0,h.p)("err",[t,(0,v.zO)(),!1,{unhandledPromiseRejection:1}],void 0,void 0,n.ee)}))}catch(e){}try{throw new Error}catch(e){"stack"in e&&(Ae(n.ee),ke(n.ee),"addEventListener"in window&&Se(n.ee),o.xhrWrappable&&He(n.ee),r.handleErrors=!0)}return n}return n=e,(t=r).prototype=Object.create(n.prototype),t.prototype.constructor=t,Ne(t,n),r.prototype.onerrorHandler=function(e,t,n,r,o){try{this.skipNext?this.skipNext-=1:qe(o||new De(e,t,n),!0,this.ee)}catch(e){try{(0,h.p)("ierr",[e,(0,v.zO)(),!0],void 0,void 0,this.ee)}catch(e){}}return"function"==typeof this.origOnerror&&this.origOnerror.apply(this,W()(arguments))},r}(y.W);function De(e,t,n){this.message=e||"Uncaught error with no additional information",this.sourceURL=t,this.line=n}function qe(e,t,n){var r=t?null:(0,v.zO)();(0,h.p)("err",[e,r],void 0,void 0,n)}var Be=o(1424),Fe=o(5955),Ge={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},Ue={};function Xe(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!Ue[e])throw new Error("LoaderConfig for "+e+" was never set");return Ue[e]}var Ze=1;function We(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:(0,X.X)(e,"nr@id",(function(){return Ze++}))}var Ve=o(5973);function Ye(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return JSON.stringify(e).length}catch(e){return}}}var Qe=o(7001),Ke=o(4168),Je=function(){function e(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}var t=e.prototype;return t.generateTracePayload=function(e){if(!this.shouldGenerateTrace(e))return null;var t=Xe(this.agentIdentifier);if(!t)return null;var n=(t.accountID||"").toString()||null,r=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!n||!r)return null;var i=(0,Ke.M)(),a=(0,Ke.Ht)(),c=Date.now(),u={spanId:i,traceId:a,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(i,a),u.traceContextStateHeader=this.generateTraceContextStateHeader(i,c,n,r,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(i,a,c,n,r,o)),u},t.generateTraceContextParentHeader=function(e,t){return"00-"+t+"-"+e+"-01"},t.generateTraceContextStateHeader=function(e,t,n,r,o){return o+"@nr=0-1-"+n+"-"+r+"-"+e+"----"+t},t.generateTraceHeader=function(e,t,n,r,o,i){if(!("btoa"in window&&"function"==typeof window.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:e,tr:t,ti:n}};return i&&r!==i&&(a.d.tk=i),btoa(JSON.stringify(a))},t.shouldGenerateTrace=function(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)},t.isAllowedOrigin=function(e){var t=!1,n={};if((0,j.Mt)(this.agentIdentifier,"distributed_tracing")&&(n=(0,j.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=(0,Qe.e)(n.allowed_origins[r]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){t=!0;break}}return t},t.isDtEnabled=function(){var e=(0,j.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled},t.excludeNewrelicHeader=function(){var e=(0,j.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header},t.useNewrelicHeaderForCors=function(){var e=(0,j.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header},t.useTraceContextHeadersForCors=function(){var e=(0,j.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers},e}();function $e(e,t){return $e=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},$e(e,t)}var et=["load","error","abort","timeout"],tt=et.length,nt=P.Y.REQ,rt=window.XMLHttpRequest,ot=function(t){var n,r;function o(n){var r;r=t.call(this,n)||this;var o=(0,U.O)(r.agentIdentifier);return!o.xhrWrappable||o.disabled?function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r):(o.features.xhr=!0,r.dt=new Je(r.agentIdentifier),r.handler=function(e,t,n,o){return(0,h.p)(e,t,n,o,r.ee)},r.wrappedFetch=Ie(r.ee),He(r.ee),function(t,n,r,o){function i(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=O,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,n.params=this.params||{},n.metrics=this.metrics||{},t.addEventListener("load",(function(e){E(n,t)}),(0,e.m)(!1)),Ve.I&&(Ve.I>34||Ve.I<10)||t.addEventListener("progress",(function(e){n.lastSize=e.loaded}),(0,e.m)(!1))}function a(e){this.params={method:e[0]},x(this,e[1]),this.metrics={}}function c(e,n){var r=Xe(t);"xpid"in r&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",r.xpid);var i=o.generateTracePayload(this.parsedOrigin);if(i){var a=!1;i.newrelicHeader&&(n.setRequestHeader("newrelic",i.newrelicHeader),a=!0),i.traceContextParentHeader&&(n.setRequestHeader("traceparent",i.traceContextParentHeader),i.traceContextStateHeader&&n.setRequestHeader("tracestate",i.traceContextStateHeader),a=!0),a&&(this.dt=i)}}function u(t,r){var o=this.metrics,i=t[0],a=this;if(o&&i){var c=Ye(i);c&&(o.txSize=c)}this.startTime=(0,v.zO)(),this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof r.onload))&&a.end(r)}catch(e){try{n.emit("internal-error",[e])}catch(e){}}};for(var u=0;u<tt;u++)r.addEventListener(et[u],this.listener,(0,e.m)(!1))}function s(e,t,n){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}function f(e,t){var n=""+We(e)+!!t;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}function d(e,t){var n=""+We(e)+!!t;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}function l(){this.endTime=(0,v.zO)()}function p(e,t){t instanceof rt&&"load"===e[0]&&n.emit("xhr-load-added",[e[1],e[2]],t)}function h(e,t){t instanceof rt&&"load"===e[0]&&n.emit("xhr-load-removed",[e[1],e[2]],t)}function m(e,t,n){t instanceof rt&&("onload"===n&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,v.zO)()))}function g(e,t){this.xhrCbStart&&n.emit("xhr-cb-time",[(0,v.zO)()-this.xhrCbStart,this.onload,t],t)}function y(e){var t,n=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:window.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,Qe.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=o.generateTracePayload(this.parsedOrigin);if(r&&(r.newrelicHeader||r.traceContextParentHeader))if("string"==typeof e[0]||window.URL&&e[0]&&e[0]instanceof URL){var i={};for(var a in n)i[a]=n[a];i.headers=new Headers(n.headers||{}),c(i.headers,r)&&(this.dt=r),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&c(e[0].headers,r)&&(this.dt=r);function c(e,t){var n=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),n=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),n=!0),n}}function b(e,t){this.params={},this.metrics={},this.startTime=(0,v.zO)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var n,r=this.opts||{},o=this.target;"string"==typeof o?n=o:"object"==typeof o&&o instanceof nt?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),x(this,n);var i=(""+(o&&o instanceof nt&&o.method||r.method||"GET")).toUpperCase();this.params.method=i,this.txSize=Ye(r.body)||0}function w(e,t){var n;this.endTime=(0,v.zO)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,v.zO)()-this.startTime};r("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this)}function O(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<tt;o++)e.removeEventListener(et[o],this.listener,!1);t.aborted||(n.duration=(0,v.zO)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):E(this,e),n.cbTime=this.cbTime,r("xhr",[t,n,this.startTime,this.endTime,"xhr"],this))}}function x(e,t){var n=(0,Qe.e)(t),r=e.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,e.parsedOrigin=n,e.sameOrigin=n.sameOrigin}function E(e,t){e.params.status=t.status;var n=function(e,t){var n=e.responseType;return"json"===n&&null!==t?t:"arraybuffer"===n||"blob"===n||"json"===n?Ye(e.response):"text"===n||""===n||void 0===n?Ye(e.responseText):void 0}(t,e.lastSize);if(n&&(e.metrics.rxSize=n),e.sameOrigin){var r=t.getResponseHeader("X-NewRelic-App-Data");r&&(e.params.cat=r.split(", ").pop())}e.loadCaptureCalled=!0}n.on("new-xhr",i),n.on("open-xhr-start",a),n.on("open-xhr-end",c),n.on("send-xhr-start",u),n.on("xhr-cb-time",s),n.on("xhr-load-added",f),n.on("xhr-load-removed",d),n.on("xhr-resolved",l),n.on("addEventListener-end",p),n.on("removeEventListener-end",h),n.on("fn-end",g),n.on("fetch-before-start",y),n.on("fetch-start",b),n.on("fn-start",m),n.on("fetch-done",w)}(r.agentIdentifier,r.ee,r.handler,r.dt),r)}return r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,$e(n,r),o}(y.W);var it=o(5098);function at(e,t){return at=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},at(e,t)}var ct="addEventListener",ut="resourcetimingbufferfull",st="bstResource",ft="-start",dt="-end",lt="fn-start",pt="fn-end",ht="bstTimer",vt="pushState",mt=P.Y.EV,gt=function(t){var n,r;function o(n){var r;if(r=t.call(this,n)||this,!(window.performance&&window.performance.timing&&window.performance.getEntriesByType))return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r);(0,U.O)(r.agentIdentifier).features.stn=!0;var o=r.ee;function i(e){if((0,h.p)(st,[window.performance.getEntriesByType("resource")],void 0,void 0,o),window.performance.clearResourceTimings)try{window.performance.removeEventListener(ut,i,!1)}catch(e){}else try{window.performance.removeEventListener("webkitresourcetimingbufferfull",i,!1)}catch(e){}}return r.timerEE=Ae(r.ee),r.rafEE=ke(r.ee),Re(r.ee),Se(r.ee),r.ee.on(lt,(function(e,t){e[0]instanceof mt&&(this.bstStart=(0,v.zO)())})),r.ee.on(pt,(function(e,t){var n=e[0];n instanceof mt&&(0,h.p)("bst",[n,t,this.bstStart,(0,v.zO)()],void 0,void 0,o)})),r.timerEE.on(lt,(function(e,t,n){this.bstStart=(0,v.zO)(),this.bstType=n})),r.timerEE.on(pt,(function(e,t){(0,h.p)(ht,[t,this.bstStart,(0,v.zO)(),this.bstType],void 0,void 0,o)})),r.rafEE.on(lt,(function(){this.bstStart=(0,v.zO)()})),r.rafEE.on(pt,(function(e,t){(0,h.p)(ht,[t,this.bstStart,(0,v.zO)(),"requestAnimationFrame"],void 0,void 0,o)})),r.ee.on(vt+ft,(function(e){this.time=(0,v.zO)(),this.startPath=location.pathname+location.hash})),r.ee.on(vt+dt,(function(e){(0,h.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,void 0,o)})),(0,it.W)()?((0,h.p)(st,[window.performance.getEntriesByType("resource")],void 0,void 0,o),function(){var e=new PerformanceObserver((function(e,t){var n=e.getEntries();(0,h.p)(st,[n],void 0,void 0,o)}));try{e.observe({entryTypes:["resource"]})}catch(e){}}()):ct in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener(ut,i,(0,e.m)(!1)):window.performance.addEventListener("webkitresourcetimingbufferfull",i,(0,e.m)(!1))),document.addEventListener("scroll",r.noOp,(0,e.m)(!1)),document.addEventListener("keypress",r.noOp,(0,e.m)(!1)),document.addEventListener("click",r.noOp,(0,e.m)(!1)),r}return r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,at(n,r),o.prototype.noOp=function(e){},o}(y.W);function yt(e,t){return yt=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},yt(e,t)}var bt=function(e){var t,n;function r(t){var n;return n=e.call(this,t)||this,(0,U.O)(n.agentIdentifier).features.ins=!0,n}return n=e,(t=r).prototype=Object.create(n.prototype),t.prototype.constructor=t,yt(t,n),r}(y.W);function wt(e,t){return wt=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},wt(e,t)}var Ot="fn-start",xt="fn-end",Et="cb-start",jt="cb-end",Pt=window,_t=Pt.location,Lt=function(t){var n,r;function o(n){var r;r=t.call(this,n)||this;var o=(0,U.O)(r.agentIdentifier);if(!Pt.addEventListener||!o.xhrWrappable||o.disabled)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r);o.features.spa=!0;var i,a=0,c=r.ee.get("tracer"),u=Oe(r.ee),s=function(e){return Pe(e)}(r.ee),f=Se(r.ee),d=Ae(r.ee),l=He(r.ee),p=Ie(r.ee),h=Re(r.ee),m=function(e){return Ee(e)}(r.ee);function g(e,t){h.emit("newURL",[""+_t,t])}function y(){a++,i=_t.hash,this["fn-start"]=(0,v.zO)()}function b(){a--,_t.hash!==i&&g(0,!0);var e=(0,v.zO)();this.jsTime=~~this.jsTime+e-this["fn-start"],this["fn-end"]=e}function w(e,t){e.on(t,(function(){this[t]=(0,v.zO)()}))}return r.ee.on(Ot,y),s.on(Et,y),u.on(Et,y),r.ee.on(xt,b),s.on(jt,b),u.on(jt,b),r.ee.buffer([Ot,xt,"xhr-resolved"]),f.buffer([Ot]),d.buffer(["setTimeout-end","clearTimeout-start",Ot]),l.buffer([Ot,"new-xhr","send-xhr-start"]),p.buffer(["fetch-start","fetch-done","fetch-body-start","fetch-body-end"]),h.buffer(["newURL"]),m.buffer([Ot]),s.buffer(["propagate",Et,jt,"executor-err","resolve-start"]),c.buffer([Ot,"no-fn-start"]),u.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),w(p,"fetch-start"),w(p,"fetch-done"),w(u,"new-jsonp"),w(u,"jsonp-end"),w(u,"cb-start"),h.on("pushState-end",g),h.on("replaceState-end",g),Pt.addEventListener("hashchange",g,(0,e.m)(!0)),Pt.addEventListener("load",g,(0,e.m)(!0)),Pt.addEventListener("popstate",(function(){g(0,a>1)}),(0,e.m)(!0)),r}return r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,wt(n,r),o}(y.W),Tt=o(847),Ct=o(8539),St=o.n(Ct),It=o(441);var Rt=!1;new Promise((function(e,t){if(Rt)e(Rt);else{var n=(0,Be.gG)();try{(0,It.L)(p.Z,n.info),(0,j.Dg)(p.Z,n.init),function(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");Ue[e]=new Fe.I(t,Ge),(0,Be.Qy)(e,Ue[e],"loader_config")}(p.Z,n.loader_config),(0,U.s)(p.Z,{}),function(e){var t=(0,Be.fP)(),n=u.ee.get(e),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,V.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,n){t[n]=s(o,n,!0,"api")})),t.addPageAction=s(o,"addPageAction",!0),t.setCurrentRouteName=s(o,"routeName",!0),t.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,U.O)(e).customTransaction=(n||"http://custom.transaction")+t,s(o,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,n){var r,i=(0,It.C)(e);return(0,It.L)(e,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[t]=n,r))})),s(o,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var o={},i=this,a="function"==typeof t;return(0,h.p)("api-ixn-tracer",[(0,v.zO)(),e,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,v.zO)(),i,a],o),a)try{return t.apply(this,arguments)}catch(e){throw r.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],o),e}finally{r.emit("fn-end",[(0,v.zO)()],o)}}}};function s(e,t,r,o){return function(){return(0,h.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,n),(0,h.p)(e+t,[(0,v.zO)()].concat(St()(arguments)),r?null:this,o,n),r?void 0:this}}(0,V.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=s(i,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,h.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,h.p)("err",[e,(0,v.zO)(),!1,t],void 0,void 0,n)}}(p.Z),e(Rt=!0)}catch(e){t(e)}}})).then((function(){var e,t,n,r=(0,Tt.K)(p.Z);r.page_view_event&&new E(p.Z),r.page_view_timing&&new L(p.Z),r.metrics&&new G(p.Z),r.jserrors&&new Me(p.Z),r.ajax&&new ot(p.Z),r.session_trace&&new gt(p.Z),r.page_action&&new bt(p.Z),r.spa&&new Lt(p.Z),e="spa",t?setTimeout((function(){return l(e)}),n||1e3):a((function(){return l(e)}))}))}(),i}()}));</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Bipartisan bill would end &#039;stranger loophole&#039; for restraining orders - New Jersey Monitor</title>
+	<meta name="description" content="The bill&#039;s sponsor says state law leaves few options for people who seek restraining orders against people they are not romantically involved with." />
+	<link rel="canonical" href="https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Bipartisan bill would end &#039;stranger loophole&#039; for restraining orders - New Jersey Monitor" />
+	<meta property="og:description" content="The bill&#039;s sponsor says state law leaves few options for people who seek restraining orders against people they are not romantically involved with." />
+	<meta property="og:url" content="https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/" />
+	<meta property="og:site_name" content="New Jersey Monitor" />
+	<meta property="og:image" content="https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1.jpg" />
+	<meta property="og:image:width" content="2016" />
+	<meta property="og:image:height" content="1512" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://newjerseymonitor.com/#organization","name":"New Jersey Monitor","url":"https://newjerseymonitor.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://newjerseymonitor.com/#logo","inLanguage":"en-US","url":"https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2.png","contentUrl":"https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2.png","width":512,"height":512,"caption":"New Jersey Monitor"},"image":{"@id":"https://newjerseymonitor.com/#logo"}},{"@type":"WebSite","@id":"https://newjerseymonitor.com/#website","url":"https://newjerseymonitor.com/","name":"New Jersey Monitor","description":"A Watchdog for the Garden State","publisher":{"@id":"https://newjerseymonitor.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://newjerseymonitor.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/#primaryimage","inLanguage":"en-US","url":"https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1.jpg","contentUrl":"https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1.jpg","width":2016,"height":1512,"caption":"New Jersey Assemblyman and Minority Leader Jon Bramnick talks to the press. (Courtesy photo)"},{"@type":"WebPage","@id":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/#webpage","url":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/","name":"Bipartisan bill would end 'stranger loophole' for restraining orders - New Jersey Monitor","isPartOf":{"@id":"https://newjerseymonitor.com/#website"},"primaryImageOfPage":{"@id":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/#primaryimage"},"datePublished":"2022-07-21T11:05:31+00:00","dateModified":"2022-07-21T11:05:31+00:00","description":"The bill's sponsor says state law leaves few options for people who seek restraining orders against people they are not romantically involved with.","breadcrumb":{"@id":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/"]}]},{"@type":"BreadcrumbList","@id":"https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://newjerseymonitor.com/"},{"@type":"ListItem","position":2,"name":"Briefs","item":"https://newjerseymonitor.com/briefs/"},{"@type":"ListItem","position":3,"name":"Bipartisan bill would end &#8216;stranger loophole&#8217; for restraining orders"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="New Jersey Monitor &raquo; Feed" href="https://newjerseymonitor.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="New Jersey Monitor &raquo; Comments Feed" href="https://newjerseymonitor.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/newjerseymonitor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.6"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://newjerseymonitor.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='pluginStyles-css'  href='https://newjerseymonitor.com/wp-content/plugins/states-newsroom/assets/css/pluginStyles.css?ver=5.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ctf_styles-css'  href='https://newjerseymonitor.com/wp-content/plugins/states-newsroom/custom-twitter-feeds-pro/css/ctf-styles.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css'  href='https://newjerseymonitor.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='child-theme-mincss-css'  href='https://newjerseymonitor.com/wp-content/themes/genesis-child/style.css?ver=5.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://newjerseymonitor.com/wp-content/themes/genesis-child/css/bootstrap.css?ver=20141119' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='https://newjerseymonitor.com/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css'  href='https://use.fontawesome.com/releases/v5.15.3/css/all.css' type='text/css' media='all' integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css'  href='https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css' type='text/css' media='all' integrity="sha384-C2B+KlPW+WkR0Ld9loR1x3cXp7asA0iGVodhCoJ4hwrWm/d9qKS59BGisq+2Y0/D" crossorigin="anonymous" />
+<style id='font-awesome-official-v4shim-inline-css' type='text/css'>
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.3/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='search-filter-plugin-build-js-extra'>
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/newjerseymonitor.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/newjerseymonitor.com\/","extensions":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.4' id='search-filter-plugin-build-js'></script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.4' id='search-filter-plugin-chosen-js'></script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-content/themes/genesis-child/js/main.js?ver=5.8.6' id='child-theme-js-js'></script>
+<link rel="https://api.w.org/" href="https://newjerseymonitor.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://newjerseymonitor.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://newjerseymonitor.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.6" />
+<link rel='shortlink' href='https://newjerseymonitor.com/?p=4630' />
+<link rel="alternate" type="application/json+oembed" href="https://newjerseymonitor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnewjerseymonitor.com%2Fbriefs%2Fbipartisan-bill-would-end-stranger-loophole-for-restraining-orders%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://newjerseymonitor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnewjerseymonitor.com%2Fbriefs%2Fbipartisan-bill-would-end-stranger-loophole-for-restraining-orders%2F&#038;format=xml" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700;800&family=Montserrat:wght@700;800&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+      
+        <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203379544-1"></script> 
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            document.addEventListener("DOMContentLoaded", function(event) {
+                function getWordCount(e) {
+                    function getText(el) {
+                        var ret = "";
+                        var length = el.childNodes.length;
+                        for (var i = 0; i < length; i++) {
+                            var node = el.childNodes[i];
+                            if(node.nodeType != 8) {
+                                ret += node.nodeType != 1 ? node.nodeValue : getText(node);
+                            }
+                        }
+                        return ret;
+                    }
+
+                    return getText(e).split(/\s+/).length;
+                }
+                var wC = getWordCount(document.getElementById('dataContent'));
+                function getWordCountRange(e) {
+                    var groupingSize = 600;
+                    var lower = (wC - (wC % groupingSize));
+
+                    return lower + " - " + (lower + (groupingSize - 1));
+                }
+                var wCR = getWordCountRange(document.getElementById('dataContent'));
+                function getHeadlineCharacterCount(e) {
+                    var length = e.innerHTML.length;
+                    if (length < 99) {
+                        return "Average"
+                    } else return "Long"; 
+                }
+                var hCC = getHeadlineCharacterCount(document.getElementById('singleHed'));
+                function graphicCounter(e) {
+                    var iframes = e.getElementsByTagName('iframe').length;
+                    var images = e.getElementsByTagName('img').length;
+                    var audios = e.getElementsByClassName('wp-audio-shortcode').length;
+                    total = iframes + images + audios; 
+                    return total 
+                }
+                var gC = graphicCounter(document.getElementById('dataContent'));
+                function publishTimeCategorizer(e) {
+                    time = parseInt(e.innerHTML);
+                    timeCat=""
+                    switch (time) {
+                        case 3:
+                        case 4:
+                        case 5:
+                        case 6:
+                            timeCat = "Early Morning";
+                            break;
+                        case 7:
+                        case 8:
+                            timeCat = "Morning";
+                            break;
+                        case 9:
+                        case 10:
+                            timeCat = "Mid-morning"
+                            break;
+                        case 11:
+                        case 12:
+                            timeCat = "Lunch hour"
+                            break;
+                        case 13:
+                        case 14:
+                        case 15:
+                        case 16:
+                            timeCat = "Afternoon"
+                            break;
+
+                        case 17:
+                        case 18:
+                            timeCat = "Evening"
+                        case 19:
+                        case 20:
+                        case 21:
+                        case 22:
+                        case 23:    
+                        case 0:
+                        case 1:
+                        case 2:
+                            timeCat = "Afterhours";
+                            break;
+                        default:
+                            timeCat ="Error Assigning timeCat";
+                            break;
+                    }
+                    return timeCat;
+                }
+                var pT = publishTimeCategorizer(document.getElementById('dataTime'));
+                var cT = document.getElementById('dataType').innerHTML; 
+                function catCleaner(cats) {
+                    console.log(cats);
+                    var catListOne = cats.innerHTML;
+                    var catListTwo = catListOne.replace("<li>","");
+                    var catListThree = catListTwo.replace("</li>"," | ")
+                    return catListThree; 
+                }
+                //var c = catCleaner(document.getElementById('dataCats'));
+                 dataLayer = [{
+                    'Word_Count': wC,
+                    'Word_Count_Range': wCR,
+                    'Graphic_Use': gC,
+                    'Publish_Time': pT,
+                    'Content_Type': cT,
+                    //'Categories': c
+                }];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'UA-203379544-1', { 'custom_map': {
+                    'dimension1': 'Word_Count',
+                    'dimension2': 'Word_Count_Range',
+                    'dimension3': 'Headline_Length',
+                    'dimension4': 'Graphic_Use',
+                    'dimension5': 'Publish_Time',
+                    'dimension6': 'Content_Type',
+                    //'dimension7': 'Categories',
+                }}); 
+                gtag('event', 'singleData', {
+                    'Word_Count': wC,
+                    'Word_Count_Range': wCR,
+                    'Graphic_Use': gC,
+                    'Publish_Time': pT,
+                    'Content_Type': cT,
+                    //'Categories': c,
+                });  
+            //window.dataLayer = window.dataLayer || [];
+        });
+        </script>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WHKJWZ2');</script>
+    <link rel="icon" href="https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://newjerseymonitor.com/wp-content/uploads/2021/07/cropped-NJ-Sq-2-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			@media (min-width: 992px) and (max-width: 1200px){ 
+	.homeSpanishCardImg img {
+		width:250px;
+	}
+}		</style>
+		</head>
+<body class="briefs-template-default single single-briefs postid-4630 header-full-width content-sidebar genesis-breadcrumbs-hidden"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHKJWZ2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="site-container"><header class="site-header"><div class="wrap"><div class="container-fluid topNavFluidContainer">
+    <div class="container topNavContainer">
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="custom-close-toggler"></span>
+            </button>
+            <a href="/">
+                <img class="mobileNavbar searchHide" src="/wp-content/themes/genesis-child/icons/mobileHeader.svg">
+            </a>
+            <form id="searchform" role="search" method="get" action="https://newjerseymonitor.com/" class="mobileNavbar form-inline my-2 my-lg-0 navSearch">
+                <input class="form-control mr-sm-2 headerSearchInput px-2 searchShow" type="text" class="search-field" name="s" placeholder="Search" value="" style="display:none">
+                <button value="search" class="headerSearchBtn searchShow" type="submit" style="display:none"><i class="fas fa-search"></i></button>
+                <i class="fas fa-search searchHide" id="searchIcon" onclick="openSearch()"></i>
+            </form> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="mobileOnly">
+                        <a class="nav-link" href="/news">NEWS</a>
+                        <div style="padding-left:22px;">
+                            <div class="menu-beats-menu-container"><ul id="menu-beats-menu" class="menu"><li id="menu-item-157" class="menu-item menu-item-type-taxonomy menu-item-object-category current-briefs-ancestor current-menu-parent current-briefs-parent menu-item-157"><a href="https://newjerseymonitor.com/category/gov-legislature/">Gov + Legislature</a></li>
+<li id="menu-item-5662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5662"><a href="https://newjerseymonitor.com/category/election-2022/">Election 2022</a></li>
+<li id="menu-item-156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-156"><a href="https://newjerseymonitor.com/category/criminal-justice/">Criminal Justice</a></li>
+<li id="menu-item-3289" class="menu-item menu-item-type-taxonomy menu-item-object-category current-briefs-ancestor current-menu-parent current-briefs-parent menu-item-3289"><a href="https://newjerseymonitor.com/category/courts/">Courts</a></li>
+<li id="menu-item-160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-160"><a href="https://newjerseymonitor.com/category/schools/">Schools</a></li>
+<li id="menu-item-158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-158"><a href="https://newjerseymonitor.com/category/housing/">Housing</a></li>
+<li id="menu-item-161" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-161"><a href="https://newjerseymonitor.com/category/social-justice/">Social Justice</a></li>
+</ul></div>                        </div>
+                    </li>
+                    <li class="mobileOnly">
+                        <a class="nav-link" href="/commentary">COMMENTARY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subscribe">SUBSCRIBE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/donate">DONATE</a>
+                    </li>
+                </ul>
+                
+<form id="searchform" role="search" method="get" action="https://newjerseymonitor.com/" class="form-inline my-2 my-lg-0 navSearch">
+	<span>
+		<a href="https://twitter.com/njmonitor" target="_blank"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.facebook.com/njmonitor" target="_blank"><i class="fab fa-facebook-f"></i></a>     
+	</span>
+	<input class="form-control mr-sm-2 headerSearchInput px-2 searchShow" type="text" class="search-field" name="s" placeholder="Search" value="" style="display:none">
+	<button value="search" class="headerSearchBtn searchShow" type="submit" style="display:none"><i class="fas fa-search"></i></button>
+	<i class="fas fa-search searchHide" id="searchIcon" onclick="openSearch()"></i>
+</form>            </div>
+        </nav>
+    </div>
+</div>
+<div class="fullWidthHeaderLogoRow">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 headerLogoCol">
+                <a href="https://newjerseymonitor.com">
+                    <img class="headerLogo" src="/wp-content/themes/genesis-child/icons/headerLogo.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fullWidthHeaderSecondaryRow">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 headerSecondaryCol">
+                <div class="menu-beats-menu-container"><ul id="menu-beats-menu-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-briefs-ancestor current-menu-parent current-briefs-parent menu-item-157"><a href="https://newjerseymonitor.com/category/gov-legislature/">Gov + Legislature</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5662"><a href="https://newjerseymonitor.com/category/election-2022/">Election 2022</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-156"><a href="https://newjerseymonitor.com/category/criminal-justice/">Criminal Justice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-briefs-ancestor current-menu-parent current-briefs-parent menu-item-3289"><a href="https://newjerseymonitor.com/category/courts/">Courts</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-160"><a href="https://newjerseymonitor.com/category/schools/">Schools</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-158"><a href="https://newjerseymonitor.com/category/housing/">Housing</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-161"><a href="https://newjerseymonitor.com/category/social-justice/">Social Justice</a></li>
+</ul></div>            </div>
+        </div>
+    </div>
+</div>
+</div></header><div class="site-inner">  
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <div class="container">
+                <div id="singlePostContainer" class="devPostContainer row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <div class="row">
+                             
+                                <h5 id="dataTime" style="display:none;">7:05</h5>
+                                <h5 id="dataType" style="display:none;">Brief</h5>
+                                
+                                <div class="col-12">
+                                    <ul id="dataCats" class="singleCategoryUL" style="list-style: none;">
+                                    <li><a class="singleCategory" href="https://newjerseymonitor.com/category/courts">Courts</a></li><li><a class="singleCategory" href="https://newjerseymonitor.com/category/gov-legislature">Gov + Legislature</a></li>                                    </ul>
+                                    <a href="/briefs"><h4 class="singleBriefTitle">In Brief</h4></a>
+                                    <h1 id="singleHed" class="singleHed">Bipartisan bill would end &#8216;stranger loophole&#8217; for restraining orders</h1>
+                                                                    </div>
+                            </div>
+                            <div class="row singleBylineRow">
+                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                    <h6 class="singleBylineContainer"><span  class="singleByline">By: </span><span class="singleBylineAuthor"><a href="https://newjerseymonitor.com/author/nbiryukov/" title="Posts by Nikita Biryukov" class="author url fn" rel="author">Nikita Biryukov</a> </span><span class="singleByline">- July 21, 2022 </span><span class="singleByline singleBylineSpacer">7:05 am</span></h6>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 singleSocialShares">
+                                    <span>
+                                        <a target="_blank" href="https://twitter.com/intent/tweet?text=Bipartisan+bill+would+end+'stranger+loophole'+for+restraining+orders&amp;url=https%3A%2F%2Fnewjerseymonitor.com%2Fbriefs%2Fbipartisan-bill-would-end-stranger-loophole-for-restraining-orders%2F&amp;via=njmonitor">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/&amp;title=Bipartisan+bill+would+end+'stranger+loophole'+for+restraining+orders">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a> 
+                                        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fnewjerseymonitor.com%2Fbriefs%2Fbipartisan-bill-would-end-stranger-loophole-for-restraining-orders%2F">
+                                            <i class="fab fa-facebook-f"></i>   
+                                        </a>  
+                                        <a target="_blank" href="/cdn-cgi/l/email-protection#28175b5d4a424d4b5c156a4158495a5c415b4946034a414444035f475d444c034d464c030f5b5c5a49464f4d5a03444747584047444d0f034e475a035a4d5b5c5a49414641464f03475a4c4d5a5b0e494558134a474c5115405c5c585b120707464d5f424d5a5b4d51454746415c475a064b4745074a5a414d4e5b074a4158495a5c415b4946054a414444055f475d444c054d464c055b5c5a49464f4d5a05444747584047444d054e475a055a4d5b5c5a49414641464f05475a4c4d5a5b07">
+                                            <i class="fas fa-envelope"></i>
+                                        </a> 
+                                        <a onclick="copyLinkShare('https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/')">
+                                            <i class="fas fa-link"></i>   
+                                        </a>  
+                                        <a onclick="printArticle()" >
+                                            <i class="fas fa-print"></i>  
+                                        </a>                                                          
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row singleFeatImageRow">
+                                <div class="col-12 px-0">
+                                                                            <figure class="singleFeaturedImage"> <a href="https://newjerseymonitor.com/briefs/bipartisan-bill-would-end-stranger-loophole-for-restraining-orders/"><img width="1024" height="768" src="https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1-1024x768.jpg" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1-1024x768.jpg 1024w, https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1-300x225.jpg 300w, https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1-768x576.jpg 768w, https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1-1536x1152.jpg 1536w, https://newjerseymonitor.com/wp-content/uploads/2021/09/John-Bramnick-1.jpg 2016w" sizes="(max-width: 1024px) 100vw, 1024px" /></a> </figure>
+                                        <p class="singleImageCaption"><i class="fas fa-camera"></i> Sen. Jon Bramnick says state law leaves few options for people who seek restraining orders against people they are not romantically involved with. (Courtesy of Sen. Bramnick)</p>                                       
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                                <div id="dataContent" class="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 contentHolder">
+                                    <p style="font-weight: 400;">A bipartisan set of New Jersey lawmakers want to expand state law to allow stalking victims to get restraining orders against their harassers, even if they’re being stalked by a stranger.</p>
+<p style="font-weight: 400;">Restraining orders are meant to protect victims of domestic violence cases. They are civil orders and do not require criminal charges to be filed against the defendant, though such charges often accompany restraining orders.</p>
+<p style="font-weight: 400;">Under state statute, the only times restraining orders can be issued without a conviction are in domestic violence cases — meaning they can bar a family member or one-time significant other from contacting the victim — or in stalking cases involving minors or adults who cannot provide consent because of a disorder.</p>
+<p style="font-weight: 400;">While the individual provisions of a given order vary depending on the case, they can bar a defendant from contacting the victim and their friends or family members, block them from entering the victim’s home or place of work, and allow police to seize firearms belonging to the defendant, among other things.</p>
+<p style="font-weight: 400;">Sen. Jon Bramnick (R-Union) said he signed on as a co-sponsor after hearing from the family of a 27-year-old woman who, after receiving strange and threatening messages at all hours from a man she had never dated, was unable to get a restraining order against her stalker.</p>
+<p style="font-weight: 400;">“Long story short, she goes to the police station, the police say, &#8216;Well, you can&#8217;t get a restraining order. You&#8217;ve got to file criminal charges,&#8217;” Bramnick said. “Meanwhile, the police don&#8217;t do it, so you have to do it yourself.”</p>
+<p style="font-weight: 400;">The woman has since filed criminal charges, but the stalker is free to contact her while the trial is ongoing, the senator said.</p>
+<p style="font-weight: 400;">It’s possible for an adult stalking victim to get a restraining order against a stranger, but they must wait for their stalker to be convicted on related charges, such as harassment.</p>
+<p style="font-weight: 400;">“The sort of loophole here is where a conviction hasn&#8217;t taken place, and it&#8217;s also a stranger, so I think this would be an excellent addition to that body of law,” said Sen. Linda Greenstein (D-Middlesex), the bill’s prime sponsor.</p>
+<p style="font-weight: 400;">Alleged stalkers might be barred from contacting the victim by a separate judicial order — like a no-contact order, for instance — but breaching such accords doesn’t always carry the immediate criminal penalties attached to restraining order violations.</p>
+<p style="font-weight: 400;">If a defendant violates the restraints set by an order, they’re likely to face criminal contempt charges, which can carry a prison term of up to 18 months.</p>
+<p style="font-weight: 400;">The bill has been referred to the Senate Judiciary Committee, which may meet to confirm judges during legislators’ customary summer recess. That leaves a chance the bill could advance before lawmakers return to Trenton in earnest come September.</p>
+<p style="font-weight: 400;">    <a href="/subscribe" style="text-decoration:none;">
+    <div class="subscribeShortcodeContainer">
+        <div class="subscribeTextContainer">
+			<i class="fas fa-envelope"></i>
+            <p>GET THE MORNING HEADLINES DELIVERED TO YOUR INBOX</p>
+        </div>
+        <div class="subscribeButtonContainer">
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
+    </a>
+	
+                                </div>
+                                <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 contentHolder">
+                                    <div class="row singleRepublisherRow">
+                                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                                            <aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar"><section id="republication_tracker_tool-2" class="widget republication_tracker_tool"><div class="widget-wrap"><div id="republication-tracker-tool-modal-content" style="display:none;"><div class="republication-tracker-tool-close">X</div><div class="cc-policy"><style>#republication-tracker-tool-modal-content .articleContainer textarea {height:80px;}.repubAccordion{font-family: "Barlow Condensed", sans-serif; font-weight: 600; font-size: 21px; letter-spacing: .5px; margin-right: 15px; text-transform: uppercase; color: var(--link_blue) !important; background-image: linear-gradient(180deg ,transparent 65%,#E5E9ED 0); background-size: 0 100%; background-repeat: no-repeat; text-decoration: none; transition: background-size .4s ease;margin-bottom:22px;}.repubAccordion:hover{color: var(--brand_one) !important; background-size: 100% 100%;}.republisherButton{margin-top:22px;}</style></div><div class="articleContainer"><div class="article-info"><h1>Bipartisan bill would end &#8216;stranger loophole&#8217; for restraining orders</h1>
+<p class="byline">by Nikita Biryukov, <a href="https://newjerseymonitor.com">New Jersey Monitor</a> <br />July 21, 2022</p>
+</div><textarea><h1>Bipartisan bill would end &#8216;stranger loophole&#8217; for restraining orders</h1>
+<p>by Nikita Biryukov, <a href="https://newjerseymonitor.com">New Jersey Monitor</a> <br />July 21, 2022</p>
+ <p>A bipartisan set of New Jersey lawmakers want to expand state law to allow stalking victims to get restraining orders against their harassers, even if they’re being stalked by a stranger.</p>
+<p>Restraining orders are meant to protect victims of domestic violence cases. They are civil orders and do not require criminal charges to be filed against the defendant, though such charges often accompany restraining orders.</p>
+<p>Under state statute, the only times restraining orders can be issued without a conviction are in domestic violence cases — meaning they can bar a family member or one-time significant other from contacting the victim — or in stalking cases involving minors or adults who cannot provide consent because of a disorder.</p>
+<p>While the individual provisions of a given order vary depending on the case, they can bar a defendant from contacting the victim and their friends or family members, block them from entering the victim’s home or place of work, and allow police to seize firearms belonging to the defendant, among other things.</p>
+<p>Sen. Jon Bramnick (R-Union) said he signed on as a co-sponsor after hearing from the family of a 27-year-old woman who, after receiving strange and threatening messages at all hours from a man she had never dated, was unable to get a restraining order against her stalker.</p>
+<p>“Long story short, she goes to the police station, the police say, &#8216;Well, you can&#8217;t get a restraining order. You&#8217;ve got to file criminal charges,&#8217;” Bramnick said. “Meanwhile, the police don&#8217;t do it, so you have to do it yourself.”</p>
+<p>The woman has since filed criminal charges, but the stalker is free to contact her while the trial is ongoing, the senator said.</p>
+<p>It’s possible for an adult stalking victim to get a restraining order against a stranger, but they must wait for their stalker to be convicted on related charges, such as harassment.</p>
+<p>“The sort of loophole here is where a conviction hasn&#8217;t taken place, and it&#8217;s also a stranger, so I think this would be an excellent addition to that body of law,” said Sen. Linda Greenstein (D-Middlesex), the bill’s prime sponsor.</p>
+<p>Alleged stalkers might be barred from contacting the victim by a separate judicial order — like a no-contact order, for instance — but breaching such accords doesn’t always carry the immediate criminal penalties attached to restraining order violations.</p>
+<p>If a defendant violates the restraints set by an order, they’re likely to face criminal contempt charges, which can carry a prison term of up to 18 months.</p>
+<p>The bill has been referred to the Senate Judiciary Committee, which may meet to confirm judges during legislators’ customary summer recess. That leaves a chance the bill could advance before lawmakers return to Trenton in earnest come September.</p>
+<p>    <a href="/subscribe">
+    <div class="subscribeShortcodeContainer">
+        <div class="subscribeTextContainer">
+			<i></i>
+            <p>GET THE MORNING HEADLINES DELIVERED TO YOUR INBOX</p>
+        </div>
+        <div class="subscribeButtonContainer">
+            SUBSCRIBE
+        </div>
+    </div>
+    </a>
+	
+<style> figure, .tipContainer, .socContainer, .subscribeShortcodeContainer, .donateContainer {display:none !important;} .youtubeContainer { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; margin-bottom:12px; } .youtubeContainer iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100% !important; height: 100%; margin: 12px 0px !important; } .newsroomSidebar {width:35%;max-width:35%;padding:10px;border-top:solid 2px black;background-color:#d3d3d3;float:right;margin-left:50px;} .snrsInfoboxSubContainer {padding:10px;border-top:solid 2px black;background-color:#d3d3d3;} .halfwidth {float:right;width:50%;max-width:50%;} .indent2Container {margin-left: 1em;margin-bottom:1em; border-left: solid 1px black;padding-left: 2em;} @media only screen and (max-width: 600px) {.newsroomSidebar {max-width:95%;width:95%;margin-left:4%} .halfwidth {float:none;width:100%;max-width:100%;} }</style>
+
+ <p><a href="https://newjerseymonitor.com">New Jersey Monitor</a> is part of States Newsroom, a network of news bureaus supported by grants and a coalition of donors as a 501c(3) public charity. New Jersey Monitor maintains editorial independence. Contact Editor Terrence McDonald for questions: <a href="mailto:info@newjerseymonitor.com">info@newjerseymonitor.com</a>. Follow New Jersey Monitor on <a href="https://facebook.com/njmonitor">Facebook</a> and <a href="https://twitter.com/NJMonitor">Twitter</a>.</p></textarea>	<div class="row">
+		<div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center align-content-center align-content-md-start align-items-md-start">
+		<a href="/republishing-guidelines" target="_blank" class="repubAccordion" style="margin-bottom:0px;">View Republishing Guidelines  <span id="butternutSquash"><i class="fas fa-caret-right" style="color:var(--brand_two);"></i></span></a>
+
+		</div>
+		<div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center align-content-center align-content-md-end align-items-md-end mt-4 mt-md-0">
+			<style> .republisherButton:hover {color: black;} </style>
+		<button class="republisherButton" style="margin-top:0px;background-color:var(--brand_two);" onclick="copyToClipboard('#republication-tracker-tool-modal-content .articleContainer textarea')">Copy to clipboard</button>
+	<div id="copyFBText" style="margin-top:10px;"></div>
+		</div>
+	</div>
+	</div></div><div id="republication-tracker-tool-modal" style="display:none;" data-postid="4630" data-pluginsdir="https://newjerseymonitor.com/wp-content/plugins">1</div><div class="repubWidgetContainer"><a class="imgLink" target="_blank" href="http://creativecommons.org/licenses/by-nd/4.0/"><img class="ccImg" alt="Creative Commons License" style="border-width:0" src="https://newjerseymonitor.com/wp-content/plugins/states-newsroom/republisher/assets/img/ccwhite.png" /></a><div class="license"><button name="Republish" id="cc-btn" class="republication-tracker-tool-button">Republish</button></div></div></div></section>
+</aside>                                        </div>
+                                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                                            <p class="singleRepublisherText">Our stories may be republished online or in print under Creative Commons license CC BY-NC-ND 4.0. We ask that you edit only for style or to shorten, provide proper attribution and link to our web site. Please see our republishing guidelines for use of photos and graphics. Please see our republishing guidelines for use of photos and graphics.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                            </div>
+                            <div class="row singleBottomRow">
+                                <div class="col-xxl-1 col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0"></div>
+
+                                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-12 col-12"> 
+                                    <div class="row authorBoxRow"><div class="col-3"><div class="authorBoxAvatar"><img src="https://newjerseymonitor.com/wp-content/uploads/2021/07/IMG_0111-150x150.jpg" width="96" height="96" alt="Nikita Biryukov" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 alignnone photo" /></div></div><div class="col-9"><span class="authorBoxName"><a href="/author/nbiryukov"><h6>Nikita Biryukov</h6></a><a href="/cdn-cgi/l/email-protection#87e9e5eef5fef2ece8f1c7e9e2f0ede2f5f4e2feeae8e9eef3e8f5a9e4e8ea"><i class="fas fa-envelope"></i></a><a href="https://twitter.com/NikitaBiryukov_"><i class="fab fa-twitter"></i></a></span><div class="authorBoxDescription"><p>Nikita Biryukov most recently covered state government and politics for the New Jersey Globe. His tenure there included revelatory stories on marijuana legalization, voting reform and Rep. Jeff Van Drew's decamp to the Republican Party. Earlier, he worked as a freelancer for The Home News Tribune and The Press of Atlantic City.</p></div><a class="authorBoxMore" href="https://newjerseymonitor.com/author/nbiryukov">MORE FROM AUTHOR</a></div></div> 
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-6 col-sm-12 col-12 relatedCol"> 
+                                    <h4 class="relatedNewsTitle">Related News</h4>
+                                    <div class="crp_related     "><div class="row"><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="https://newjerseymonitor.com/2022/03/04/on-covids-two-year-anniversary-in-n-j-mixed-reviews-for-murphy-and-team/"     class="crp_link post-2813"><figure><img  src="https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-300x200.jpg" class="crp_thumb crp_featured" alt="On COVID&#039;s two-year anniversary in N.J., mixed reviews for Murphy and team" title="On COVID&#039;s two-year anniversary in N.J., mixed reviews for Murphy and team" srcset="https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-300x200.jpg 300w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-1024x683.jpg 1024w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-768x512.jpg 768w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-1536x1024.jpg 1536w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-2048x1366.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" srcset="https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-300x200.jpg 300w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-1024x683.jpg 1024w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-768x512.jpg 768w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-1536x1024.jpg 1536w, https://newjerseymonitor.com/wp-content/uploads/2022/03/Murphy-vaccine-2048x1366.jpg 2048w" /></figure><span class="crp_title">On COVID's two-year anniversary in N.J., mixed reviews for&hellip;</span></a><span class="crp_author">  by <a href="https://newjerseymonitor.com/author/ddifilippo/">Dana DiFilippo</a></span> <span class="crp_date"> March 4, 2022</span> </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="https://newjerseymonitor.com/2022/05/17/flat-funding-for-state-parks-drives-legislation-citizen-action/"     class="crp_link post-3803"><figure><img  src="https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-300x225.jpg" class="crp_thumb crp_featured" alt="Calls mount for increased funding for New Jersey&#039;s state parks" title="Calls mount for increased funding for New Jersey&#039;s state parks" srcset="https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-300x225.jpg 300w, https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-1024x768.jpg 1024w, https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-768x576.jpg 768w, https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-1536x1152.jpg 1536w, https://newjerseymonitor.com/wp-content/uploads/2022/05/IMG_1593_1-2048x1536.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" /></figure><span class="crp_title">Calls mount for increased funding for New Jersey's state&hellip;</span></a><span class="crp_author">  by <a href="https://newjerseymonitor.com/author/ddifilippo/">Dana DiFilippo</a></span> <span class="crp_date"> May 17, 2022</span> </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6"><a href="https://newjerseymonitor.com/2022/08/21/election-officials-cant-access-federal-funding-for-security-as-violent-threats-mount/"     class="crp_link post-5001"><figure><img  src="https://newjerseymonitor.com/wp-content/uploads/2022/08/gettyimages-1229296566_0-300x184.webp" class="crp_thumb crp_featured" alt="Election officials can’t access federal funding for security as violent threats mount" title="Election officials can’t access federal funding for security as violent threats mount" srcset="https://newjerseymonitor.com/wp-content/uploads/2022/08/gettyimages-1229296566_0-300x184.webp 300w, https://newjerseymonitor.com/wp-content/uploads/2022/08/gettyimages-1229296566_0-768x470.webp 768w, https://newjerseymonitor.com/wp-content/uploads/2022/08/gettyimages-1229296566_0.webp 800w" sizes="(max-width: 300px) 100vw, 300px" /></figure><span class="crp_title">Election officials can’t access federal funding for security&hellip;</span></a><span class="crp_author">  by <a href="https://newjerseymonitor.com/author/kiralerner/">Kira Lerner</a></span> <span class="crp_date"> August 21, 2022</span> </div></div><div class="crp_clear"></div></div>                                </div>
+                                <div class="col-xxl-1 col-xl-1 col-lg-0 col-md-0 col-sm-0 col-0"></div>
+                            </div>
+                    
+                                                    </div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>    
+            </div>
+        </main><!-- .site-main -->
+    </div><!-- .content-area -->
+  
+</div>
+<footer>
+    <div class="footerFullWidthTaglineRow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="footerTagline">A Watchdog for the Garden State</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerFullWidthContentRow">
+        <div class="container">
+            <div class="row democracyToolkitRow">
+                <div class="col-12 democracyToolkitCol px-0">
+                    <div class="democracyToolkitFlexContainer">
+                        <h6>Democracy Toolkit  //  </h6>
+                        <a target="_blank" href="https://www.state.nj.us/state/elections/voter-registration.shtml">Register to vote</a>
+                        <span> | </span>
+                        <a target="_blank" href="https://voter.svrs.nj.gov/polling-place-search">Find your polling place</a>
+                        <span> | </span>
+                        <a target="_blank" href="https://www.njleg.state.nj.us/district-map">Find your legislator</a>
+                        <span> | </span>
+                        <a target="_blank" href="https://www.house.gov/representatives#state-new-jersey">Contact your U.S. Representative</a>
+                        <span> | </span>
+                        <a target="_blank" href="https://www.senate.gov/senators/senators-contact.htm">Contact your U.S. Senator</a>
+                    </div>
+                    <div class="democracyToolkitMobileContainer mobileOnly">
+                        <ul id="accordion" class="accordion mobileFooterAccordian" style="list-style-type:none !important;">
+                            <li>
+                                <div class="link mobileDemocracyHeader"><p>DEMOCRACY TOOLKIT<i style="float:right;margin-top:8px;" id="accordianSwitch" class="fa fa-chevron-down"></i></p></div>
+                                <ul class="submenu mobileDemocracySubmenu" style="display:none;">
+                                    <li><a target="_blank" href="https://www.state.nj.us/state/elections/voter-registration.shtml">Register to vote</a></li>
+                                    <li><a target="_blank" href="https://voter.svrs.nj.gov/polling-place-search">Find your polling place</a></li>
+                                    <li><a target="_blank" href="https://www.njleg.state.nj.us/district-map">Find your legislator</a></li>
+                                    <li><a target="_blank" href="https://www.house.gov/representatives#state-new-jersey">Contact your U.S. Representative</a></li>
+                                    <li><a target="_blank" href="https://www.senate.gov/senators/senators-contact.htm">Contact your U.S. Senator</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4 col-4 text-center">
+                    <img src="/wp-content/themes/genesis-child/icons/footerLogo.png" class="footerLogo" />
+                    <p class="footerCopyright">&copy; New Jersey Monitor, 2023</p>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 text-left footerAboutCol">
+                    <span class="footerAboutColHead"><h4>ABOUT US</h4><a href="/cdn-cgi/l/email-protection#244d4a424b644a41534e415657415d494b4a4d504b560a474b49"><i class="fas fa-envelope"></i></a></span>
+                    <p> New Jersey Monitor provides fair and tough reporting on the issues affecting New Jersey, from political corruption to education to criminal and social justice. We strive to hold powerful people accountable and explain how their actions affect New Jerseyans from Montague to Cape May.</p>
+                    <p class="mobileOnly"><span class="footerTermsPrivacy"><a href="/deij-policy" style="color:white;line-height:15px;">DEIJ Policy</a> | <a href="/ethics-policy" style="color:white;line-height:15px;">Ethics Policy</a> | <a href="/privacy-policy" style="color:white;line-height:15px;">Privacy Policy</a></span></p>
+                    <div class="footerSocialShares">
+                        <span>
+                            <a target="_blank" href="https://twitter.com/njmonitor">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a target="_blank" href="https://www.facebook.com/njmonitor">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                                                        <a target="_blank" href="https://apple.news/TAynNvS8GTMOg2O5JMBAfZg">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-1 col-sm-0 col-0"></div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12 footerRepublisher">
+                    <img src="/wp-content/themes/genesis-child/icons/ccwhite.png" class="footerCCLogo" />
+                    <p>Our stories may be republished online or in print under Creative Commons licence CC BY-NC-ND 4.0. We ask that you edit only for style or to shorten, provide proper attribution and link to our web site.</p>
+                    <span class="footerTermsPrivacy mobileOff"><a href="/deij-policy">DEIJ Policy</a> | <a href="/ethics-policy">Ethics Policy</a> | <a href="/privacy-policy">Privacy Policy</a></span>
+                </div>
+                <div class="col-xxl-0 col-xl-0 col-lg-0 col-md-0 col-sm-12 col-12 mobileOnly tabletToo">
+                    <div class="footerMobileSocialFlexContainer">
+                        <a target="_blank" href="/cdn-cgi/l/email-protection#ec85828a83ac82899b86899e9f89958183828598839ec28f8381">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/njmonitor">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/njmonitor">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                                                <a target="_blank" href="https://apple.news/TAynNvS8GTMOg2O5JMBAfZg">
+                            <i class="fab fa-apple"></i>
+                        </a>
+        
+                    </div>
+                    <div class="mobileOnly tabletToo footerMobileCopyrightContainer">
+                        <span class="footerCopyrightMobile">&copy; New Jersey Monitor, 2023</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</div><link rel='stylesheet' id='republication-tracker-tool-css-css'  href='https://newjerseymonitor.com/wp-content/plugins/states-newsroom/republisher/assets/widget.css?ver=1.0.1' type='text/css' media='all' />
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='https://newjerseymonitor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-includes/js/wp-embed.min.js?ver=5.8.6' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://newjerseymonitor.com/wp-content/plugins/states-newsroom/republisher/assets/widget.js?ver=1.0.1' id='republication-tracker-tool-js-js'></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-5e80c6ce4b880b7c309","applicationID":"986012979","transactionName":"Y11VMhNRWRIFVkQLDVoXdgUVWVgPS0ZZDAVYXRoEE1lSBxc=","queueTime":0,"applicationTime":119,"atts":"TxpWRFtLShw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

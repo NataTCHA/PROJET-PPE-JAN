@@ -1,0 +1,1373 @@
+   The new PMC design is here! Learn more about navigating our updated
+   article layout. The PMC legacy view will also be available for a
+   limited time.
+   (BUTTON)
+
+   (BUTTON) Back to Top Skip to main content
+
+   U.S. flag
+
+   An official website of the United States government
+   (BUTTON) Here's how you know
+   Dot gov
+
+   The .gov means it’s official.
+   Federal government websites often end in .gov or .mil. Before sharing
+   sensitive information, make sure you’re on a federal government site.
+   Https
+
+   The site is secure.
+   The https:// ensures that you are connecting to the official website
+   and that any information you provide is encrypted and transmitted
+   securely.
+
+   NIH NLM Logo
+   Log in (BUTTON) Show account info
+   (BUTTON) Close
+
+Account
+
+   Logged in as:
+   username
+     * Dashboard
+     * Publications
+     * Account settings
+     * Log out
+
+   Access keys NCBI Homepage MyNCBI Homepage Main Content Main Navigation
+
+   (BUTTON)
+   (BUTTON)
+   Search PMC Full-Text Archive ____________________ (BUTTON) Search in
+   PMC
+   (BUTTON) Run this search in PubMed
+     * Advanced Search
+     * User Guide
+
+   (BUTTON)
+
+     * Journal List
+     * HHS Author Manuscripts
+     * PMC3092701
+
+Other Formats
+
+     * PubReader
+     * PDF (341K)
+
+Actions
+
+     * (BUTTON) Cite
+     * Favorites
+
+Share
+
+     *
+     *
+     * (BUTTON)
+       Permalink
+       https://www.ncbi.nlm (BUTTON) Copy
+
+RESOURCES
+
+     * (BUTTON) Similar articles
+     * (BUTTON) Cited by other articles
+     * (BUTTON) Links to NCBI Databases
+
+     * Journal List
+     * HHS Author Manuscripts
+     * PMC3092701
+
+   Logo of nihpa
+
+   J Soc Clin Psychol. Author manuscript; available in PMC 2011 May 11.
+   Published in final edited form as:
+   J Soc Clin Psychol. 2011; 30(2): 133-162.
+   doi: 10.1521/jscp.2011.30.2.133
+   PMCID: PMC3092701
+   NIHMSID: NIHMS287138
+   PMID: 21572896
+
+PERPETUAL FOREIGNER IN ONE'S OWN LAND: POTENTIAL IMPLICATIONS FOR IDENTITY
+AND PSYCHOLOGICAL ADJUSTMENT
+
+   QUE-LAM HUYNH, THIERRY DEVOS, and LAURA SMALARZ
+
+QUE-LAM HUYNH
+
+   San Diego State University
+   Find articles by QUE-LAM HUYNH
+
+THIERRY DEVOS
+
+   San Diego State University
+   Find articles by THIERRY DEVOS
+
+LAURA SMALARZ
+
+   Iowa State University
+   Find articles by LAURA SMALARZ
+   Author information Copyright and License information Disclaimer
+   QUE-LAM HUYNH, San Diego State University;
+   Contributor Information.
+   Address correspondence to Que-Lam Huynh, Department of Psychology, San
+   Diego State University, 5500 Campanile Drive, San Diego, CA 92182-4611;
+   moc.liamg@maleuq.hnyuh
+   Copyright notice
+   The publisher's final edited version of this article is available free
+   at J Soc Clin Psychol
+
+Abstract
+
+   The perpetual foreigner stereotype posits that members of ethnic
+   minorities will always be seen as the "other" in the White Anglo-Saxon
+   dominant society of the United States (Devos & Banaji, 2005), which may
+   have negative implications for them. The goal of the present research
+   was to determine whether awareness of this perpetual foreigner
+   stereotype predicts identity and psychological adjustment. We conducted
+   a series of studies with 231 Asian Americans and 211 Latino/as (Study
+   1), 89 African Americans (Study 2), and 56 Asian Americans and 165
+   Latino/as (Study 3). All participants completed measures of perceived
+   discrimination, awareness of the perpetual foreigner stereotype,
+   conflict between ethnic and national identities, sense of belonging to
+   American culture, and demographics. In Study 3, participants also
+   completed measures of psychological adjustment: depression, hope, and
+   life satisfaction. All participants were students at a large, public
+   university on the West Coast of the United States. Across studies, we
+   found that even after controlling for perceived discrimination,
+   awareness of the perpetual foreigner stereotype was a significant
+   predictor of identity conflict and lower sense of belonging to American
+   culture. From Study 3, we also found that, above and beyond perceived
+   discrimination, awareness of the perpetual foreigner stereotype
+   significantly predicted lower hope and life satisfaction for Asian
+   Americans, and that it was a marginal predictor of greater depression
+   for Latino/as. These results suggest that the perpetual foreigner
+   stereotype may play a role in ethnic minority identity and adjustment.
+
+   "Where are you from?" This benign question is commonly asked during
+   social interactions, and the answer often leads to interesting
+   conversations with strangers or acquaintances. But what if an answer
+   like "Lincoln, Nebraska," "Baltimore, Maryland," or "Modesto,
+   California" does not suffice for the questioner? Indeed, ethnic
+   minorities, especially Asian Americans and Latino/as, are often asked
+   follow-up questions like, "No, where are you really from?" or "I meant,
+   where are you originally from?" (Liang, Li, & Kim, 2004; Sue,
+   Capodilupo et al., 2007). At least under some circumstances,
+   experiences such as these may be perceived by some ethnic minorities as
+   a message that they do not share the American identity or have in-group
+   status; therefore, these experiences may have negative implications for
+   their identity and adjustment. Thus, in a series of three studies
+   involving three major American ethnic minority groups, we sought to
+   demonstrate that members of ethnic minorities are aware of this
+   perpetual foreigner stereotype (Cheryan & Monin, 2005; Devos & Banaji,
+   2005), and this awareness is linked to their sense of belonging to
+   American society, sense of conflict between ethnic and national
+   identities, and psychological adjustment.
+
+THE PERPETUAL FOREIGNER STEREOTYPE
+
+   Although the United States is historically an immigrant nation with an
+   ethnically and culturally diverse population, members of ethnic
+   minority groups are often innocuously denied the American identity and
+   treated as if they were perpetual foreigners." This especially is
+   evident in recent research that shows an overwhelming propensity to
+   more readily ascribe the American identity to European Americans rather
+   than to ethnic minorities (Devos & Banaji, 2005; Devos, Gavin, &
+   Quintana, 2010; Devos & Heng, 2009; Devos & Ma, 2008; Rydell, Hamilton,
+   & Devos, 2010). Even when ethnic minorities are explicitly judged to be
+   American, implicitly, in the minds of both European Americans and some
+   ethnic minorities (Asian Americans and Latino/as), being "American" is
+   equated with being White.
+
+   The assumption that ethnic minorities do not fit the definition of what
+   it means to be American may manifest itself in subtle, covert
+   marginalizing incidents, such as questioning an individual's home-town,
+   complimenting his/her command of the English language, or mistaking
+   him/her as a foreigner (Liang et al., 2004). These behaviors comprise a
+   contemporary form of racism called racial microaggression, whereby
+   racism is disguised in supposedly benign behaviors and comments (e.g.,
+   Where are you from?) that convey strong messages of exclusion and
+   inferiority (Sue, Capodilupo, et al., 2007). Even when the intent of
+   perpetrators, who can be of any ethnic or racial group, is not
+   malicious or racially motivated, it is in these seemingly harmless
+   occurrences that ethnic minorities are told that they are somehow less
+   American than European Americans.
+
+   Research on the extent to which ethnic minorities are aware of being
+   stereotyped as foreigners is limited. In a study on identity denial, or
+   the acceptance threat that results when an individual who does not
+   match the prototype of an in-group sees his/her identity called into
+   question or unrecognized by fellow group members, Asian Americans were
+   indeed aware of being denied the American identity by others despite
+   the fact that they feel just as American as European Americans (Cheryan
+   & Monin, 2005). The study also identified situations of identity denial
+   in everyday interactions for Asian Americans and Latino/as, who
+   reported being misperceived as being from another country or a
+   nonnative English speaker significantly more often than European
+   Americans. Similarly, African American and Cuban American women
+   reported feeling excluded from the national category by European
+   Americans (Barlow, Taylor, & Lambert, 2000). Although these experiences
+   may be qualitatively different for Asian Americans and Latino/as (who
+   are likely to be mistaken as immigrants when they are native-born) than
+   for African Americans (who are likely to experience other forms
+   exclusion from the American identity as a result of the "exclusionary
+   patriotism" discussed below; Sidanius & Petrocik, 2001), these findings
+   suggest that overall, ethnic minorities are aware that they are
+   perceived as less American and, in some cases, more foreign than
+   European Americans.
+
+PERPETUAL FOREIGNER STEREOTYPE AND IDENTITY
+
+   Although the denial of ethnic minorities' American identity is a
+   phenomenon that has been identified in the literature (e.g., Cheryan &
+   Monin, 2005; Devos & Banaji, 2005; Sue, Capodilupo, et al., 2007), the
+   link, if any, between awareness of this perpetual foreigner stereotype,
+   identity, and psychological adjustment has not been directly examined.
+   In terms of identity, Cheryan and Monin (2005) found that identity
+   denial impacted Asian Americans' everyday behavior, especially when
+   they felt that their American identity was in question. In response to
+   identity threat, they used identity assertion techniques, such as
+   demonstrating awareness of popular American culture and engaging more
+   in American practices to assert their American identity. In Barlow et
+   al.'s (2000) study with African American women, feelings of exclusion
+   from the national identity by European Americans were related to how
+   African American women perceive their own group, such that those who
+   felt more excluded held more pessimistic views of the economic and
+   social position of African Americans, regardless of their actual
+   socioeconomic status. Researchers have also identified a significant
+   and negative correlation between perceived prejudice and negative
+   self-concept among Japanese Americans, suggesting that the more this
+   minority group was aware of negative prejudice against them, the more
+   negatively they viewed themselves (Asamen & Berry, 1987). These
+   findings all indicate a potential link between how an individual
+   believes he/she is perceived by others and his/her own perception of
+   the self. In the present research, we were particularly interested in
+   the association between awareness of the perpetual foreigner stereotype
+   and subjective reports of conflict between one's ethnic and national
+   identities, as well as feelings of belonging to mainstream American
+   culture.
+
+Conflict Between Ethnic and National Identities
+
+   If minority groups are, to some extent, cognizant that they are
+   psychologically denied the American identity, we expect that the
+   awareness of being perceived as a foreigner may account for subjective
+   reports of internal conflict between their ethnic and national
+   identities. Benet-Martinez and Haritatos's (2005) work on bicultural
+   identity integration indicated that some bicultural individuals have
+   difficulty incorporating their national and ethnic cultures into a
+   cohesive sense of self. These bicultural individuals were also
+   particularly sensitive to specific tensions between their national and
+   ethnic cultural orientations and saw this incompatibility as a source
+   of internal conflict. If ethnic minorities are continually excluded
+   from the national identity and reminded that they do not typify what it
+   means to be American, it would be expected that they experience some
+   degree of internal conflict.
+
+   Research on the perceived interrelations between multiple social
+   identities and social identity complexity theory suggests that the less
+   a person perceives the different groups to which he/she belongs as
+   being similar to each other, the more complex his or her social
+   identity will be (Roccas & Brewer, 2002). When multiple group
+   identities are not convergent, they may become conflicting or even
+   competing, such that the individual feels he/she must choose between
+   one identity or another. In the case of the perpetual foreigner
+   stereotype, individuals whose American identity is often called into
+   question may conclude that they are not perceived as being as American
+   as European Americans. Thus, we hypothesized that one's awareness of
+   being perceived by others as a foreigner would predict one's sense of
+   conflict between ethnic and national identities.
+
+Sense of Belonging in America
+
+   Additionally, we investigated whether awareness of the perpetual
+   foreigner stereotype is associated with feelings of belonging in
+   America. A study of ethnic and American identity among ethnic minority
+   adolescents suggested that many feel as if American or mainstream
+   culture generally means White and thus does not include them (Phinney,
+   Cantu, & Kurtz, 1997). According to this research, American identity is
+   likely to be associated with a heightened sense of belonging to the
+   White majority for European Americans. Conversely, it can be expected
+   that membership in an ethnic minority group is associated with a
+   relatively lowered sense of belonging to the mainstream culture. Such
+   seems to be the case in research based on social dominance theory
+   (Sidanius, Feshbach, Levin, & Pratto, 1997), which suggests that
+   belongingness to the nation as a whole is more strongly and positively
+   associated with membership in the dominant ethnic group and less
+   strongly associated with membership in subordinate ethnic groups.
+   Simply being a member of an ethnic minority seems to entail a certain
+   degree of exclusion from the national identity, potentially
+   contributing to feelings of marginalization and a decreased sense of
+   belonging to mainstream America.
+
+   Further evidence for ethnic minorities' relative lack of sense of
+   belonging in America may be seen in research on national attachment, in
+   which European Americans reported the greatest amount of patriotism and
+   nationalism compared to Asian Americans, Latino/as, and African
+   Americans (Sidanius et al., 1997). Minorities' relative lack of
+   patriotism (defined as a love for one's country and its major symbols)
+   and nationalism (the desire for the dominance of one's own nation over
+   others) may be attributable to the "exclusionary patriotism" that
+   emerges in a multiethnic society (Sidanius & Petrocik, 2001). According
+   to this perspective, the socially dominant group is more identified
+   with the nation's symbols and public institutions, which may lead to
+   questions like "Where are you really from?" directed at visible
+   minorities in various countries around the world where there is an
+   immigrant or ethnic minority population. In the United States, this
+   unequal association between that which is American and different ethnic
+   groups may contribute to and perpetuate the exclusion of ethnic
+   minorities from the national identity. If one group enjoys a greater
+   sense of identification with the mainstream culture, then other groups
+   who do not fit the majority picture can be expected to feel excluded or
+   marginalized from this identity. Thus, based on the above concurrent
+   findings on sense of belonging and national attachment, we expected
+   individuals who feel frequently reminded of their perpetual foreigner
+   status and consequently psychologically denied the American identity to
+   feel marginalized from mainstream American society and to experience a
+   lessened sense of belonging to the national identity. In other words,
+   we hypothesized that an individual's sense of belonging to mainstream
+   American culture would be predicted by his/her awareness of being
+   perceived as a foreigner.
+
+PERPETUAL FOREIGNER STEREOTYPE AND PSYCHOLOGICAL ADJUSTMENT
+
+   In addition to the relations with identity, we were also interested in
+   the association between awareness of the perpetual foreigner stereotype
+   and psychological adjustment, including mental health (depression) and
+   well-being (hope and life satisfaction). Previous research suggests
+   that subtle forms of racism, such as racial micro-aggressions and the
+   perpetual foreigner stereotype, may be detrimental to victims'
+   psychological health, like old-fashioned, overt racism (Sue,
+   Capodilupo, et al., 2007). For example, targets of racial
+   microaggressions report experiencing anxiety, stress, helplessness,
+   academic disengagement, anger, and frustration (Smith, Allen, & Danley,
+   2007; Solorzano, Ceja, & Yosso, 2000). The perpetual foreigner
+   stereotype is particularly salient for Asian Americans, for whom being
+   treated as an alien in one's own land is associated with feelings of
+   inferiority, discomfort, and isolation (Sue, Bucceri, Lin, Nadal, &
+   Torino, 2007). Although the above studies provide a rich and detailed
+   understanding of racial microaggressions, including the perpetual
+   foreigner stereotype, they are all purely qualitative in nature and
+   restricted to one ethnic group. In the current set of quantitative
+   studies, we hypothesized that awareness of the perpetual foreigner
+   stereotype will predict higher levels of depression and lower levels of
+   hope and life satisfaction for both Latino/as and Asian Americans
+   (Study 3, which does not include African American participants). These
+   adjustment variables, which include psychological symptoms and positive
+   functioning, have been the focus of much research on perceived
+   discrimination (e.g., Klonoff & Landrine, 1999; Neto, 2001; discussed
+   below), so they were chosen to provide evidence of incremental validity
+   for the perpetual foreigner stereotype construct.
+
+THE ROLE OF PERCEIVED DISCRIMINATION
+
+   When studying identity and psychological adjustment among ethnic
+   minorities, it is important also to consider the role played by
+   perceived discrimination. It could be said that perceived
+   discrimination, as it is typically measured, refers to a more blatant
+   form of discrimination than the perpetual foreigner stereotype, which
+   constitutes a more subtle form of discrimination (Devos & Banaji, 2005;
+   Sue, Capodilupo, et al., 2007). Experiences with both forms of
+   discrimination may have negative implications for ethnic minorities,
+   and they may independently account for the identity and psychological
+   outcomes of interest. For example, with regard to identity, a study on
+   Chinese Americans found that perceived discrimination predicts a
+   greater sense of conflict between one's ethnic and national identities
+   (Benet-Martinez & Haritatos, 2005). Furthermore, perceived
+   discrimination is related to a lower sense of belonging among Latino/a
+   college students (Levin, Van Laar, & Foote, 2006). Previous research
+   has also found consistent and moderate associations between perceived
+   discrimination and psychological maladjustment. For example, perceived
+   discrimination predicts distress symptoms, such as depression and
+   anxiety, for African American adults (Klonoff & Landrine, 1999;
+   Klonoff, Landrine, & Ullman, 1999; Pieterse & Carter, 2007). Perceived
+   discrimination is also related to higher depression, anxiety, and
+   psychosomatic symptoms for Vietnamese adolescents in Finland (Liebkind,
+   Jasinskaja-Lahti, & Solheim, 2004) and Latino/a adolescents in the
+   United States (Smokowski & Bacallao, 2007). In addition, perceived
+   discrimination has been theorized to be related to lowered hope (Adams
+   et al., 2003), and it has been found to be related to lowered life
+   satisfaction for immigrants in several different settlement countries
+   (e.g., Neto, 2001; Sam, 2001; Vohra & Adair, 2000). Based on these
+   findings, we expected that perceived discrimination would be related to
+   identity and psychological adjustment, but we hypothesized that the
+   perpetual foreigner stereotype would predict identity and psychological
+   adjustment above and beyond perceived discrimination.
+
+THE CURRENT STUDIES
+
+   The goals of the current studies were two-fold: (1) to examine the
+   perpetual foreigner stereotype and perceived discrimination in
+   different ethnic minority groups, and (2) to determine the potential
+   implications of the perpetual foreigner stereotype for individuals'
+   identity and psychological adjustment. Specifically, we hypothesized
+   that exposure to the perpetual foreigner stereotype and discrimination
+   would be a more common experience for ethnic minorities than for
+   European Americans, such that Asian Americans, Latino/as, and African
+   Americans would report both higher awareness of the perpetual foreigner
+   stereotype and higher perceived discrimination as compared to European
+   Americans. Moreover, after controlling for the effects of perceived
+   discrimination, the perpetual foreigner stereotype should predict (a) a
+   greater sense of conflict between one's ethnic and national identities,
+   (b) a lower sense of belonging to mainstream American society, (c)
+   higher levels of depression symptoms, (d) lower levels of hope, and (e)
+   lower levels of life satisfaction among ethnic minorities. We tested
+   the first hypothesis about awareness of the perpetual foreigner
+   stereotype using data from Asian Americans (Studies 1 and 3), Latino/as
+   (Studies 1 and 3), and African Americans (Study 2); hypotheses about
+   the potential implications of the stereotype on identity using data
+   from all three ethnic minority groups (Studies 1 and 2); and hypotheses
+   about the potential implications of the stereotype on psychological
+   adjustment using data from Asian Americans and Latino/as (Study 3).
+
+STUDY 1
+
+   To examine awareness of the perpetual foreigner stereotype and
+   perceived experiences of discrimination among different ethnic groups,
+   we collected data from Asian Americans, Latino/as, and European
+   Americans in Study 1. We also examined the link between the awareness
+   of being viewed as a perpetual foreigner and important facets of
+   identity.
+
+METHOD
+
+Participants
+
+   Participants were 836 undergraduate students from a large, public
+   university on the West Coast of the United States. There were 231 Asian
+   Americans, 211 Latino/as, and 394 European Americans. The sample ranged
+   in age from 17 to 42 years (M = 19.15, SD = 2.01), most of whom were
+   college freshmen, and there were 568 (68.0%) women. All participants
+   were American citizens, and most European Americans were third+
+   generation Americans, whereas most Asian Americans and Latino/as were
+   second+ generation Americans. See Table 1 for complete participant
+   demographics.
+
+TABLE 1
+
+   Participant Demographics for Studies 1-3
+   Ethnicity Study 1
+     __________________________________________________________________
+
+   Study 2
+     __________________________________________________________________
+
+   Study 3
+     __________________________________________________________________
+
+   All Asian Americans Latino/as European Americans All African Americans
+   European Americans Latino/as Asian Americans
+   N 836 231 211 394 151 89 62 165 56
+   % female 68.0 64.9 69.7 69.0 73.5 76.4 69.4 63.0 66.1
+   Age range 17-42 18-24 17-42 17-37 18-45 18-45 18-37 18-32 18-24
+   Age M (SD) 19.15 (2.01) 19.16 (1.49) 19.04 (2.53) 19.04 (1.96) 19.62
+   (4.04) 20.02 (4.79) 19.05 (2.54) 19.47 (2.16) 19.64 (1.38)
+   Generation status (%)
+   First 9.0 18.2 10.0 3.0 4.0 4.5 3.2 5.5 12.5
+   Second 41.0 71.0 65.4 10.4 9.9 10.1 9.7 72.1 71.4
+   Third or beyond 49.2 10.4 22.7 86.0 86.1 85.4 87.1 21.8 16.1
+   Year in school (%)
+   First 60.2 53.2 59.7 64.5 64.2 59.6 71.0 51.5 25.0
+   Second 15.3 17.7 12.3 15.5 17.2 18.0 16.1 29.7 42.9
+   Third 13.2 15.2 14.7 11.2 11.3 12.4 9.7 10.3 16.1
+   Fourth or beyond 10.6 13.0 12.3 8.4 7.3 10.1 3.2 8.5 16.1
+   Open in a separate window
+
+   Note. For some groups, generation status and year in school percentages
+   do not sum to 100 because of missing values.
+
+Measures
+
+   Participants completed a series of measures assessing perceived
+   discrimination, awareness of the perpetual foreigner stereotype,
+   perception of conflict between ethnic and national identities, sense of
+   belonging to American culture, and basic demographics. All items were
+   rated on a 5-point Likert-type scale (1 = strongly disagree to 5 =
+   strongly agree). Table 2 shows arithmetic means, standard deviations,
+   and Cronbach's alphas for all scales, and Table 3 shows correlations
+   among measured variables.
+
+TABLE 2
+
+   Means, Standard Deviations, and Score Reliability for Measured
+   Variables in Studies 1-3
+   Ethnicity Study 1
+     __________________________________________________________________
+
+   Study 2
+     __________________________________________________________________
+
+   Study 3
+     __________________________________________________________________
+
+   All Asian Americans Latino/as European Americans All African Americans
+   European Americans Latino/as Asian Americans
+   Perceived discrimination
+   M (SD) 2.64 (0.91) 3.00a (0.65) 3.51a (0.64) 1.96b (0.59) 3.17 (1.07)
+   3.92a (0.59) 2.11b (0.58) 3.40 (0.69) 2.95 (0.53)
+   [alpha] .90 .80 .80 .79 .93 .79 .73 .82 .66
+   Perpetual foreigner stereotype
+   M (SD) 2.16 (0.83) 2.71a (0.67) 2.65a (0.75) 1.57b (0.49) 2.01 (0.72)
+   2.33a (0.64) 1.54b (0.55) 2.74 (0.73) 2.63 (0.72)
+   [alpha] .93 .87 .88 .87 .90 .84 .84 .88 .88
+   Identity conflict
+   M (SD) 2.33 (0.84) 2.67 (0.80) 2.67 (0.88) 1.96 (0.65) 2.35 (0.86) 2.70
+   (0.84) 1.84 (0.60) 2.56 (0.86) 2.64 (0.79)
+   [alpha] .87 .82 .86 .84 .86 .82 .81 .86 .80
+   Sense of belonging
+   M (SD) 3.88 (0.78) 3.58 (0.64) 3.49 (0.76) 4.27 (.66) 3.79 (0.76) 3.46
+   (0.68) 4.28 (0.60) 3.43 (0.69) 3.71 (0.61)
+   [alpha] .87 .79 .84 .88 .84 .77 .86 .80 .74
+   Depression
+   M (SD) --- --- --- --- --- --- --- 1.62 (0.43) 1.73 (0.37)
+   [alpha] --- --- --- --- --- --- --- .87 .81
+   Hope
+   M (SD) --- --- --- --- --- --- --- 6.29 (1.04) 6.21 (0.98)
+   [alpha] --- --- --- --- --- --- --- .86 .83
+   Life satisfaction
+   M (SD) --- --- --- --- --- --- --- 5.22 (1.16) 5.16 (1.08)
+   [alpha] --- --- --- --- --- --- --- .84 .84
+   Open in a separate window
+
+   Note. Means in the same row that do not share subscripts differ at p <
+   .000001 in contrasts ([eta] = 1, 1, +/-2; Study 1) and t-test mean
+   difference comparisons (Study 2).
+
+TABLE 3
+
+   Correlations Among Measured Variables for Latino/as and Asian Americans
+   in Study 1
+                                  Discrimination Foreigner Conflict Belonging
+   Perceived discrimination            ---          .46      .36     +/-.34
+   Perpetual foreigner stereotype      .40          ---      .50     +/-.49
+   Identity conflict                   .41          .55      ---     +/-.34
+   Sense of belonging                 +/-.36      +/-.59    +/-.39     ---
+   Open in a separate window
+
+   Note. Correlations for Latino/as (N = 211) are below the diagonal, and
+   correlations for Asian Americans (N = 231) are above the diagonal. All
+   correlations significant at the p < 0.01 level (two-tailed).
+
+Perceived Discrimination
+
+   To measure perceived discrimination, we used the Perceived
+   Discrimination subscale (9 items) from the Scale of Ethnic Experience
+   (Malcarne, Chavira, Fernandez, & Liu, 2006). Sample items include: "In
+   my life, I have experienced prejudice because of my ethnicity" and
+   "Discrimination against my ethnic group is not a problem in America"
+   (reverse scored).
+
+Awareness of the Perpetual Foreigner Stereotype
+
+   Thirteen items measured the extent to which participants believed they
+   were perceived as a foreigner (as opposed to an American citizen) by
+   others, without reference to the race or ethnicity of the perpetrator.
+   Sample items include: "Sometimes people think I am a foreigner" and
+   "Most people have difficulty viewing me as an American." These items
+   were developed specifically for the present research and were generated
+   using input from an ethnically diverse group of college students (see
+   Appendix).
+
+Perception of Identity Conflict
+
+   Six items measured the extent to which participants experienced a
+   conflict between their ethnic and national identities. Some of these
+   items were modified from the conflict subscale of the Bicultural
+   Identity Integration Scale-Version 1 (Benet-Martinez & Haritatos, 2005)
+   to focus on national and ethnic identities (rather than on cultural
+   identities) for this study. Sample items include: "I am conflicted
+   between my ethnic and American identities" and "In some situations, I
+   feel pressured to choose between my American and ethnic identities."
+
+Sense of Belonging
+
+   To measure participants' feelings of belonging to mainstream American
+   society, we used the Mainstream Comfort subscale (6 items) from the
+   Scale of Ethnic Experience (Malcarne et al., 2006). Sample items
+   include: "I feel like I belong to mainstream American culture" and "I
+   think of myself as a typical American."
+
+PROCEDURE
+
+   Participants were recruited through advertisements in the daily campus
+   newspaper (paid) and the psychology department subject pool (unpaid).
+   Paid respondents were given $15, and subject pool respondents received
+   partial credit for an introductory psychology course for their
+   participation in the study. All participants completed all
+   questionnaires on a computer in small groups of up to 4. Computers were
+   located in cubicles in a small lab setting, and there were screens
+   between each computer desk for privacy. Measures were completed in the
+   following order: awareness of the perpetual foreigner stereotype,
+   perception of conflict between ethnic and national identities, Scale of
+   Ethnic Experience (including the perceived discrimination and sense of
+   belonging subscales), and demographics.
+
+RESULTS
+
+   As expected, contrast analyses showed that European Americans (M =
+   1.96, SD = 0.59) reported significantly lower perceived discrimination
+   than Asian Americans (M = 3.00, SD = 0.65) and Latino/as (M = 3.51, SD
+   = 0.64) in our sample; [lambda] = +/-2, 1, 1; t(833) = 30.19, p = 7.23
+   x 10^+/-136, r[contrast] = .72, 95% CI: .70 to .76. Contrast analyses
+   also showed that European Americans (M = 1.57, SD = 0.49) reported
+   significantly lower awareness of the perpetual foreigner stereotype
+   toward the self than Asian Americans (M = 2.71, SD = 0.67) and
+   Latino/as (M = 2.65, SD = 0.75); [lambda] = +/-2, 1, 1; t(760.53) =
+   26.42, p = 1.13 x 10^+/-109, r[contrast] = .68, 95% CI: .64 to .72. In
+   sum, as compared to European Americans, ethnic minorities perceived
+   more discrimination toward them and their ethnic group, and they were
+   more aware that others perceive them as less American and more foreign.
+   These findings are in line with previous research suggesting that
+   ethnic minorities are indeed more aware that they are stereotyped as
+   foreigners (Barlow et al., 2000; Cheryan & Monin, 2005; Liang et al.,
+   2004).
+
+   Not only did European Americans report significantly lower perceived
+   discrimination and awareness of the perpetual foreigner stereotype than
+   Asian Americans and Latino/as in our sample (see Table 2), their
+   arithmetic means were well below the midpoint of the scales. This
+   suggests that perceived discrimination and the perpetual foreigner
+   stereotype are not routinely experienced by members of this ethnic
+   group. Because the goal of our study was to examine the relation
+   between these two forms of ethnic discrimination and identity, we did
+   not include European American participants in the following regression
+   analyses.
+
+   To test our hypothesis that awareness of the perpetual foreigner
+   stereotype predicts the outcomes of interest above and beyond perceived
+   discrimination, we conducted hierarchical regression analyses
+   separately for Asian Americans and Latino/as (see Table 4 for
+   regression results). Using data from Asian Americans only, we found
+   that even after controlling for perceived discrimination, awareness of
+   the perpetual foreigner stereotype was a significant predictor of both
+   perception of identity conflict, [Delta]R^2 = .14, F(1, 228) = 44.12, p
+   = 2.24 x 10^+/-10, and lower sense of belonging to American culture,
+   [Delta]R^2 = .14, F(1, 228) = 44.38, p = 2.00 x 10^+/-10. Likewise,
+   using data from Latino/as only, we found that awareness of the
+   perpetual foreigner stereotype significantly predicted perception of
+   identity conflict, [Delta]R^2 = .18, F(1, 208) = 55.58, p = 2.38 x
+   10^+/-12, and lower sense of belonging to American culture, [Delta]R^2
+   = .24, F(1, 208) = 78.50, p = 3.60 x 10^+/-16, over and above perceived
+   discrimination.
+
+TABLE 4
+
+   Summary of Regression Analyses for Studies 1-3
+   Study 1
+     __________________________________________________________________
+
+   Study 2
+     __________________________________________________________________
+
+   Study 3
+     __________________________________________________________________
+
+   Asian Americans (N = 231) Latino/as (N = 211) African Americans (N =
+   89) Latino/as (N = 165) Asian Americans (N = 56)
+   Criterion: Identity conflict Perceived discrimination
+   B 0.21 0.31 0.50 0.24 0.02
+   SE B 0.08 0.08 0.14 0.10 0.18
+   [beta] .17 .23 .35 .19 .02
+   Perpetual foreigner stereotype
+   B 0.51 0.54 0.36 0.36 0.56
+   SE B 0.08 0.07 0.13 0.09 0.14
+   [beta] .42 .46 .27 .30 .51
+   Criterion: Sense of belonging Perceived discrimination
+   B +/-0.14 +/-0.17 +/-0.17 +/-0.16 0.09
+   SE B 0.06 0.07 0.10 0.08 0.15
+   [beta] +/-.14 +/-.15 +/-.15 +/-.15 .08
+   Perpetual foreigner stereotype
+   B +/-0.41 +/-0.54 +/-0.55 +/-0.43 +/-0.37
+   SE B 0.06 0.06 0.10 0.07 0.11
+   [beta] +/-.43 +/-.53 +/-.51 +/-.46 +/-.43
+   Criterion: Depression Perceived discrimination
+   B --- --- --- 0.07 0.26
+   SE B --- --- --- 0.05 0.09
+   [beta] --- --- --- .11 .37
+   Perpetual foreigner stereotype
+   B --- --- --- 0.10 0.07
+   SE B --- --- --- 0.05 0.07
+   [beta] --- --- --- .16^[dagger] .14
+   Criterion: Hope Perceived discrimination
+   B --- --- --- 0.09 0.07
+   SE B --- --- --- 0.13 0.25
+   [beta] --- --- --- .06 .04
+   Perpetual foreigner stereotype
+   B --- --- --- +/-0.08 +/-0.43
+   SE B --- --- --- 0.13 0.19
+   [beta] --- --- --- +/-.06 +/-.32
+   Criterion: Life satisfaction Perceived discrimination
+   B --- --- --- +/-0.14 +/-0.82
+   SE B --- --- --- 0.15 0.24
+   [beta] +/-.09 +/-.41
+   Perpetual foreigner stereotype
+   B --- --- --- +/-0.16 +/-0.42
+   SE B --- --- --- 0.14 0.18
+   [beta] --- --- --- +/-.10 +/-.28
+   Open in a separate window
+
+   Note.
+   ^[dagger]p < .10.
+
+   Italicized; p < .05. Underlined; p < .01. Bolded; p < .001.
+
+STUDY 2
+
+   Based on research on "exclusionary patriotism" (Sidanius & Petrocik,
+   2001), we would expect African Americans also to feel excluded from the
+   national identity and marginalized from mainstream American society,
+   relative to their European American counterparts. This sense of
+   exclusion and marginalization may come in subtle forms, such as
+   implying that African Americans are not typical Americans (even if most
+   of them are not seen as foreigners in the common meaning of the term).
+   Thus, to determine whether findings on Asian Americans and Latino/as in
+   Study 1 extend to African Americans, we conducted Study 2.
+
+METHOD
+
+Participants
+
+   Participants were 151 undergraduate students from the same large,
+   public university on the West Coast of the United States. There were 89
+   African Americans and 62 European Americans. The sample ranged in age
+   from 18 to 45 years (M = 19.62, SD = 4.04), most of whom were college
+   freshmen, and there were 111 (73.5%) women. All participants were
+   American citizens, and most participants were third+ generation
+   Americans. See Table 1 for complete participant demographics.
+
+Measures
+
+   Participants in Study 2 were administered the same measures as in Study
+   1: perceived discrimination, awareness of the perpetual foreigner
+   stereotype, perception of conflict between ethnic and national
+   identities, sense of belonging to American culture, and basic
+   demographics. All items were rated on a 5-point Likert-type scale,
+   ranging from 1 = strongly disagree to 5 = strongly agree. Table 2 shows
+   arithmetic means, standard deviations, and Cronbach's alphas for all
+   scales, and Table 5 shows correlations among measured variables.
+
+TABLE 5
+
+   Correlations Among Measured Variables for African Americans in Study 2
+                                  Discrimination Foreigner Conflict Belonging
+   Perceived discrimination            ---          ---      ---       ---
+   Perpetual foreigner stereotype      .17          ---      ---       ---
+   Identity conflict                   .40          .33      ---       ---
+   Sense of belonging                 +/-.24      +/-.54    +/-.19     ---
+   Open in a separate window
+
+   Note. N = 89. Correlations significant at the 0.05 level (2-tailed) are
+   underlined; correlations significant at the 0.01 level (2-tailed) are
+   bolded.
+
+Procedure
+
+   Study 2 participants were recruited through the same methods as Study 1
+   participants, and they completed the study in the same setting as Study
+   1 participants. Measures were completed in the same order as in Study
+   1.
+
+RESULTS
+
+   As expected, European Americans (M = 2.11, SD = 0.58) reported
+   significantly lower perceived discrimination than African Americans (M
+   = 3.92, SD = 0.59) in our sample, t(149) = 18.68, p = 7.25 x 10^+/-41,
+   r = .84, 95% CI: .78 to .88 (see Table 2). In addition, European
+   Americans (M = 1.54, SD = 0.55) reported significantly lower awareness
+   of the perpetual foreigner stereotype toward the self than African
+   Americans (M = 2.33, SD = 0.64); t(149) = 7.83, p = 8.33 x 10^+/-13, r
+   = .54, 95% CI: .42 to .65. As in Study 1, we conducted hierarchical
+   regression analyses to determine whether awareness of the perpetual
+   foreigner stereotype among African Americans predicts the outcomes of
+   interest above and beyond perceived discrimination (see Table 4 for
+   regression results). We found that awareness of the perpetual foreigner
+   stereotype was a significant predictor of perception of identity
+   conflict, [Delta]R^2 = .07, F(1, 86) = 8.12, p = .005, and lower sense
+   of belonging to American culture, [Delta]R^2 = .26, F(1, 86) = 32.18, p
+   = 1.85 x 10^+/-7, over and above perceived discrimination.
+
+   Thus, results from Studies 1 and 2 suggest that for the three major
+   American ethnic minority groups in our samples ---Asian Americans,
+   Latino/as, and African Americans ---the perpetual foreigner stereotype
+   is an important predictor of identity, such that participants who
+   report that they are seen as perpetual foreigners also are more likely
+   to perceive conflict between their national and ethnic identities and
+   feel less comfortable in mainstream American culture, even when we
+   control for perceived discrimination. In addition, although there is a
+   reliable small-medium correlation between these two variables
+   (awareness of the perpetual foreigner stereotype and perceived
+   discrimination; see Tables 3 and and5)5) in these three samples, they
+   each independently account for the identity outcomes of interest.
+
+STUDY 3
+
+   In addition to examining identity, we also wanted to determine whether
+   the perpetual foreigner stereotype is an important predictor of
+   psychological adjustment; thus, we conducted Study 3. Specifically, we
+   were interested in whether awareness of the perpetual foreigner
+   stereotype predicts mental health (depression) and well-being (hope and
+   life satisfaction) above and beyond perceived discrimination among
+   Latino/as and Asian Americans.
+
+METHOD
+
+Participants
+
+   Participants were 165 Latino/a and 56 Asian American undergraduate
+   students from the same large, public university on the West Coast of
+   the United States. Because of the relative difficulty of recruiting
+   African American participants on the campus, we did not include this
+   ethnic group in Study 3. The Latino/a sample ranged in age from 18 to
+   32 years (M = 19.47, SD = 2.16), and the Asian American sample ranged
+   in age from 18 to 24 years (M = 19.64, SD = 1.38). Most of both samples
+   were college freshmen or sophomores. There were 104 (63.0%) Latinas and
+   37 (66.1%) Asian American women. All participants were American
+   citizens, and most of them were second+ generation Americans. See Table
+   1 for complete participant demographics.
+
+Measures
+
+   In addition to completing the measures from Study 1 (perceived
+   discrimination, awareness of the perpetual foreigner stereotype,
+   perception of conflict between ethnic and national identities, sense of
+   belonging to American culture, and basic demographics), participants in
+   Study 3 completed measures of psychological adjustment: mental health
+   (depression) and well-being (hope and life satisfaction). Table 2 shows
+   arithmetic means, standard deviations, and Cronbach's alphas for all
+   scales, and Table 6 shows correlations among measured variables for
+   both samples.
+
+TABLE 6
+
+   Correlations Among Measured Variables for Study 3
+   Discrimination Foreigner Conflict Belonging Depression Hope
+   Satisfaction
+   Perceived discrimination --- .30 .17 +/-.05 .41 +/-.06 +/-.49
+   Perpetual foreigner stereotype .47 --- .52 +/-.41 .25 +/-.30 +/-.40
+   Identity conflict .33 .39 --- +/-.22 .26 +/-.25 +/-.18
+   Sense of belonging +/-.37 +/-.53 +/-.38 --- +/-.14 .27 .37
+   Depression .18 .21 .22 +/-.17 --- +/-.37 +/-.46
+   Hope .03 +/-.03 +/-.05 .10 +/-.45 --- .53
+   Satisfaction +/-.13 +/-.14 +/-.07 .10 +/-.53 .61 ---
+   Open in a separate window
+
+   Note. Correlations for Latino/as (N = 165) are below the diagonal, and
+   correlations for Asian Americans (N = 56) are above the diagonal.
+   Correlations significant at the 0.05 level (2-tailed) are underlined;
+   correlations significant at the 0.01 level (2-tailed) are bolded.
+
+Depression
+
+   We used the Center for Epidemiologic Studies Depression Scale (20
+   items; Radloff, 1977) to assess depression symptoms, including
+   depressive feelings and behaviors. Respondents were asked to rate their
+   level of depressive symptomatology during the previous 7 days,
+   including the day of the study, on a 4-point Likert-type scale, 1 =
+   rarely or none of the time (< 1 day) to 4 = most or all of the time
+   (5-7 days). Sample items include: "I was bothered by things that
+   usually don't bother me" and "I felt sad."
+
+Hope
+
+   Six items of the State Hope Scale measured the extent to which
+   participants felt hopeful (sense of agency or "belief in one's capacity
+   to initiate and sustain actions" and pathways to reach goals or "belief
+   in one's capacity to generate routes") about their lives currently
+   (Snyder et al., 1996, p. 321). Respondents were asked to rate the items
+   on an 8-point Likert-type scale (1 = definitely false to 8 = definitely
+   true). Sample items include: "At the present time, I am energetically
+   pursuing my goals" (agency) and "There are lots of ways around any
+   problem that I am facing now" (pathways).
+
+Life Satisfaction
+
+   Five items from the Satisfaction With Life Scale measured the extent to
+   which participants feel satisfied with their lives currently (Diener,
+   Emmons, Larsen, & Griffin, 1985). Respondents were asked to rate the
+   items on a 7-point Likert-type scale (1 = strongly disagree to 7 =
+   strongly agree). Sample items include: "In most ways my life is close
+   to my ideal" and "I am satisfied with my life."
+
+Procedure
+
+   Study 3 participants were recruited through the same methods as Study 1
+   participants, and they completed the study in the same setting as Study
+   1 participants. The psychological adjustment measures were randomized
+   in this study, and they were administered after the discrimination and
+   identity measures, before the basic demographics.
+
+RESULTS
+
+   Replicating our Study 1 results with Latino/as and Asian Americans, we
+   found that even after controlling for perceived discrimination,
+   awareness of the perpetual foreigner stereotype was a significant
+   predictor of perception of identity conflict and lower sense of
+   belonging for both groups in Study 3 (see Table 4 for regression
+   results).
+
+   Furthermore, we found that for Latino/as, awareness of the perpetual
+   foreigner stereotype was a marginal predictor of depression over and
+   above perceived discrimination, [Delta]R^2 = .02, F(1, 162) = 3.53, p =
+   .06. Contrary to our hypothesis, awareness of the perpetual foreigner
+   stereotype did not significantly predict hope, [Delta]R^2 = .003, F(1,
+   162) = 0.45, p = .50, or life satisfaction, [Delta]R^2 = .008, F(1,
+   162) = 1.40, p = .24, above and beyond perceived discrimination for
+   Latino/as.
+
+   For Asian Americans, awareness of the perpetual foreigner stereotype
+   was not a significant predictor of depression over and above perceived
+   discrimination, [Delta]R^2 = .02, F(1, 53) = 1.09, p = .30. However, it
+   significantly predicted hope, [Delta]R^2 = .09, F(1, 53) = 5.31, p =
+   .03, and life satisfaction, [Delta]R^2 = .07, F(1, 53) = 5.47, p = .03,
+   above and beyond perceived discrimination for Asian Americans.
+
+   In summary, results from Study 3 suggest that for Asian Americans and
+   Latino/as, the perpetual foreigner stereotype is a predictor of
+   different types of psychological adjustment. In particular,
+   participants who report that they are seen as perpetual foreigners
+   report more depressive symptoms (for Latino/as), and lower hope and
+   lower life satisfaction (for Asian Americans), even when we control for
+   perceived discrimination.
+
+DISCUSSION
+
+   The present research sought to systematically document ethnic
+   minorities' awareness of being stereotyped as perpetual foreigners and
+   examine the links between this awareness, identity, and psychological
+   adjustment. Together, our studies demonstrate that to various degrees,
+   ethnic minorities but not European Americans perceive that they are the
+   targets of the perpetual foreigner stereotype, and that this subtle
+   form of exclusion is linked to ethnic minorities' identity and some
+   types of psychological adjustment. Specifically, as predicted, Asian
+   Americans (Study 1), Latino/as (Study 1), and African Americans (Study
+   2) report significantly higher awareness of the perpetual foreigner
+   stereotype toward them than do European Americans (Studies 1 and 2).^1
+   Also as hypothesized, variations in the awareness of being stereotyped
+   as a foreigner is associated with perceptions of conflict between an
+   individual's ethnic and national identities, even after controlling for
+   perceived discrimination, providing evidence of incremental validity
+   for the perpetual foreigner construct (Studies 1-3). Asian Americans,
+   Latino/as, and African Americans who perceive that they are not seen as
+   Americans by others report experiencing greater tension between their
+   ethnic and national identities than those who are less cognizant of
+   these perceptions. As was shown in research on bicultural identity
+   integration (Benet-Martinez & Haritatos, 2005), it may be more
+   difficult for some members of an ethnic minority group to incorporate
+   their national and ethnic cultures into a cohesive sense of self. These
+   results may have implications for social identity complexity theory
+   (Roccas & Brewer, 2002), which suggests that the less a person
+   perceives the different groups to which he/she belongs as being similar
+   to each other, the more complex his/her social identity will be. The
+   current findings suggest that some ethnic minorities' awareness of
+   being perceived as foreigners may contribute to the perception that
+   their ethnic and national identities are dissimilar and even
+   incompatible, thereby forcing them to maintain a more complex social
+   identity. This could be a source of conflict for these individuals, who
+   may have to choose between their ethnic and national identities
+   (Benet-Martinez & Haritatos, 2005). Compared with European Americans,
+   whose American identity is readily recognized, members of ethnic
+   minority groups, who are cognizant that their American identity is
+   viewed skeptically by others, experience significantly more tensions in
+   their efforts to form a unified and integrated identity.
+
+   The awareness of being perceived as a foreigner also is associated with
+   weakened sense of belonging in America (Studies 1-3). As hypothesized,
+   the extent to which an individual is aware of being viewed as a
+   foreigner is highly correlated with his/her inability to feel part of
+   the national identity, even after controlling for perceived
+   discrimination. Some ethnic minorities, aware of the stereotypes
+   against them, may be led to question whether or not they truly belong
+   in the United States. If fellow Americans treat them as outsiders or as
+   if they do not represent that which is American, how can minority group
+   members be expected to see themselves as American? These findings
+   support the idea that many ethnic minorities see mainstream American
+   culture as generally meaning White and thus feel excluded from the
+   national identity (see also Phinney et al., 1997). Consequently, Asian
+   Americans', Latino/as', and African Americans' awareness of being
+   perceived as not American may ultimately inhibit their ability to feel
+   like they belong in America or lead to a relative dis-identification
+   with mainstream American culture. These findings may have implications
+   for ethnic minority group participation in civic life, including
+   voting, volunteerism, military service, and other aspects of citizen
+   involvement, all of which are bolstered by a sense of identification
+   with the group (in this case, the American identity). Perceiving
+   exclusion in the form of the perpetual foreigner stereotype may
+   discourage some ethnic minorities from actively participating in
+   American society.
+
+   In addition to the strong correlations between ethnic minorities'
+   awareness of being stereotyped and their identity, their subjective
+   experiences with the perpetual foreigner stereotype are moderately
+   linked to adjustment. As expected, ethnic minorities who are more aware
+   of the perpetual foreigner stereotype tend to report greater depression
+   (for Latino/as, Study 3) and lower hope or life-satisfaction (for Asian
+   Americans, Study 3), even after controlling for perceived
+   discrimination, providing further evidence for the incremental validity
+   of the perpetual foreigner construct.^2 It should be emphasized that
+   the patterns of associations between the perpetual foreigner stereotype
+   and adjustment are different for Latino/as and Asian Americans. It is
+   possible that the perpetual foreigner stereotype operates differently
+   for these two groups. For example, American history ---with wars in
+   Japan, Korea, and Viet Nam, and fears of the yellow peril with regard
+   to Chinese immigrants ---is rife with conceptions of Asians (and thus
+   Asian Americans) as foreign and dangerous enemies (Takaki, 1998).
+   Conversely, the messages regarding the foreign-ness of Latino/as are
+   mixed. Although some Latino/as are racially White, and some have
+   ancestors who lived on this land before the United States was founded,
+   the recent immigration debates have focused on Latino/as, often
+   labeling them as illegal aliens. It is also possible that adjustment
+   and well-being are expressed and reported differently by Latino/as and
+   Asian Americans. For example, some Asian Americans may find that it is
+   more culturally acceptable to experience depression psychosomatically
+   and to report physical problems than it is to report symptoms of
+   depression (Chun, Enomoto, & Sue, 1996; U.S. Department of Health and
+   Human Services, 2001).
+
+   Overall, our findings are in line with the racial microaggressions
+   perspective, which suggests that subtle forms of racism, such as being
+   perceived by others as foreigners even when one identifies as American,
+   may be detrimental to the victim's psychological adjustment (Sue,
+   Capodilupo, et al., 2007). American ethnic minorities who feel that
+   they are frequently perceived as foreigners and denied their ingroup
+   status may feel conflicted about their national identity and have a
+   sense of cultural homelessness, which in turn can lead to poorer
+   overall psychological adjustment. That is, these feelings of conflict
+   and exclusion may cause ethnic minorities to experience depression
+   symptoms, lose hope, and become less satisfied overall with their
+   lives. These findings may also be interpreted in the reverse direction:
+   individuals who have lower overall well-being (experience more identity
+   conflict and lower sense of belonging, more depressive symptoms, feel
+   more hopeless about life, and have lower life satisfaction) also
+   perceive less acceptance from mainstream American society, or have a
+   generally more negative outlook on life. Thus, they also report more
+   awareness of the perpetual foreigner stereotype. More research is
+   needed to determine the complex causal pathways among these variables.
+
+   Another way in which exposure to the perpetual foreigner stereotype may
+   negatively impact ethnic minorities' psychological adjustment can be
+   viewed in light of research on stigma consciousness (Pinel, 1999).
+   According to this theoretical framework, individuals or groups that
+   regularly contend with stereotypical or prejudicial reactions have
+   higher expectations of being the target of these types of responses
+   than groups that do not. Similarly, ethnic minorities who are
+   frequently reminded of their perpetual foreigner status may come to
+   expect to be stereotyped in this manner. Our findings highlight the
+   potentially deleterious effects of such expectations, even when the
+   stereotypical or prejudicial reactions are relatively subtle and
+   ambiguous in nature.
+
+LIMITATIONS AND FUTURE DIRECTIONS
+
+   Despite the ethnic diversity of the samples in these studies, all
+   studies used data from undergraduate university students, who represent
+   only a small sub-set of the American population. However, it can be
+   argued that if effects of the perpetual foreigner stereotype can be
+   seen among a well-educated, successful population of individuals, the
+   phenomenon may be even more magnified in other sub-sets of the American
+   population. These other sub-sets should be sampled in order to
+   determine their level of awareness of being denied the American
+   identity, and whether such awareness is predictive of identity
+   conflict, a lowered sense of belonging to mainstream America, and poor
+   psychological adjustment, as it is for Asian American, Latino/a, and
+   African American undergraduate students.
+
+   A second limitation of the current research is its correlational
+   nature. Despite establishing the predictive validity (in the regression
+   sense) of the perpetual foreigner stereotype, it is impossible based on
+   the present set of findings to make claims as to whether one's
+   awareness of being seen as a foreigner is the cause of internal
+   conflict, a lowered sense of belonging to mainstream America, and poor
+   psychological adjustment. Future experimental or longitudinal research
+   is needed to establish this causal relationship. In addition, future
+   studies should examine moderators, such as ethnic identity, social
+   support, and ethnic and mainstream American social networks, that may
+   serve as buffers in the negative link between individuals' awareness of
+   the perpetual foreigner stereotype and their psychological well-being.
+
+CONCLUSION
+
+   Equality is a core American value, yet when ethnic minorities perceive
+   that their national identity is being denied via marginalizing comments
+   (e.g., You speak English so well), they are being told that they are
+   not as American as European Americans, whose "Americanness" is not
+   called into question. Thus, comments and behaviors that subtly alienate
+   ethnic minorities may perpetuate the commonly held belief (implicit and
+   explicit) that Americanness is Whiteness (Devos & Banaji, 2005; Phinney
+   et al., 1997). Although the intentions of the perpetrator are unknown,
+   our studies show the importance of the target's perception of such
+   exclusionary experiences. We have demonstrated that these repeated
+   experiences of marginalization, although subtle, are linked to
+   important psychological outcomes for the targets. Specifically, the
+   most important contribution of the present studies is the
+   identification of the potential impact of the awareness of the
+   perpetual foreigner stereotype on one's identity and psychological
+   adjustment. Our results suggest that the simple awareness of being seen
+   as less American may influence an individual's adjustment and the way
+   he/she perceives him/herself. In addition to establishing a foundation
+   upon which to further examine the potentially negative consequences of
+   the perpetual foreigner stereotype for ethnic minorities, the present
+   research provides insight into how an underlying exclusionary national
+   mindset may have nontrivial implications for minority groups' identity
+   and well-being.
+
+Acknowledgments
+
+   This research was supported in part by National Institute of Mental
+   Health Grants R24 MH 065515 and 3R24 MH 065515-06S1.
+
+APPENDIX
+
+Awareness of the Perpetual Foreigner Stereotype Scale
+
+    1. Most people see me as an American.*
+    2. Most people have difficulty viewing me as an American.
+    3. I do not fit what people have in mind when they think of a typical
+       American.
+    4. Due to my ethnicity, people sometimes assume I am not American.
+    5. Sometimes people think I am a foreigner.
+    6. Based on my physical appearance, people assume I am American.*
+    7. Because of how I speak, people sometimes think I am not a U.S.
+       citizen.
+    8. Sometimes people interpret what I do or say as if I was not
+       American.
+    9. When people look at me, they see a foreigner.
+   10. My ethnic heritage sometimes disqualifies me as American.
+   11. People sometimes ask me where I am from.
+   12. People sometimes ask me how I speak English so well.
+   13. I have to work harder than most people to be accepted as American.
+
+Footnotes
+
+   ^1In absolute terms, Latino/as (Studies 1 and 3) and African Americans
+   reported relatively high rates of perceived discrimination, with group
+   means well above the midpoint of the rating scale, suggesting that on
+   average, they tend to perceive discrimination toward themselves and
+   their group. However, none of the group means on the perpetual
+   foreigner scale were above the midpoint. Thus, in absolute terms, none
+   of the groups in Studies 1-3 reported being treated as perpetual
+   foreigners to a great extent. Participants also reported low identity
+   conflict (group means below the midpoint across the 3 studies) and high
+   sense of belonging (group means above the midpoint across the 3
+   studies). In terms of adjustment, Latino/a, and Asian American
+   participants in Study 3 were relatively hopeful and satisfied with
+   their lives (group means above the midpoint) and reported relatively
+   few depression symptoms (group means below the midpoint).
+
+   ^2In previous research, perceived discrimination predicted depression
+   symptoms for Latino/as (e.g., Romero & Roberts, 2003; Smokowski &
+   Bacallao, 2007); however, it was not a significant predictor of
+   depression symptoms in Study 3 reported here. There may be important
+   differences between our sample and the samples of Latino/as studied in
+   previous research that may account for the difference in findings. For
+   example, researchers have found that English language competence is
+   another important predictor of fewer depression symptoms for Latino/a
+   youth (e.g., Rumbaut, 1995). Because our sample consists of college
+   students, they may be more competent in English than the adolescents
+   typically studied in previous research, and this language competency
+   may buffer the negative impact of perceived discrimination on
+   depression symptoms for our sample.
+
+   Note. Items marked with an asterisk (*) are reverse-scored.
+
+Contributor Information
+
+   QUE-LAM HUYNH, San Diego State University.
+
+   THIERRY DEVOS, San Diego State University.
+
+   LAURA SMALARZ, Iowa State University.
+
+References
+
+     * Adams V, Rand K, Kahle K, Snyder C, Berg C, King E, et al. African
+       Americans' hope and coping with racism stressors. In: Jacoby R,
+       Keinan G, editors. Between stress and hope: From a disease-centered
+       to a health-centered perspective. Westport, CT: Praeger/Greenwood;
+       2003. pp. 235-249. [Google Scholar]
+     * Asamen JK, Berry GL. Self-concept, alienation, and perceived
+       prejudice: Implications for counseling Asian Americans. Journal of
+       Multicultural Counseling and Development. 1987;15:146-160. [Google
+       Scholar]
+     * Barlow KM, Taylor DM, Lambert WE. Ethnicity in America and feeling
+       "American" Journal of Psychology. 2000;134:581-600. [PubMed]
+       [Google Scholar]
+     * Benet-Martinez V, Haritatos J. Bicultural identity integration
+       (BII): Components and psychosocial antecedents. Journal of
+       Personality. 2005;73:1015-1050. [PubMed] [Google Scholar]
+     * Cheryan S, Monin B. "Where are you really from?": Asian Americans
+       and identity denial. Journal of Personality and Social Psychology.
+       2005;89:717-730. [PubMed] [Google Scholar]
+     * Chun C-A, Enomoto K, Sue S. Health care issues among Asian
+       Americans: Implications of somatization. In: Kato PM, Mann T,
+       editors. Handbook of diversity issues in health psychology. New
+       York: PlenumPress; 1996. pp. 439-467. [Google Scholar]
+     * Devos T, Banaji MR. American = White? Journal of Personality and
+       Social Psychology. 2005;88:447-466. [PubMed] [Google Scholar]
+     * Devos T, Gavin K, Quintana FJ. Say "Adios" to the American Dream?
+       The interplay between ethnic and national identity among Latino and
+       Caucasian Americans. Cultural Diversity and Ethnic Minority
+       Psychology. 2010;16:37-49. [PMC free article] [PubMed] [Google
+       Scholar]
+     * Devos T, Heng L. Whites are granted the American identity more
+       swiftly than Asians: Disentangling the role of automatic and
+       controlled processes. Social Psychology. 2009;40:192-201. [Google
+       Scholar]
+     * Devos T, Ma DS. Is Kate Winslet more American than Lucy Liu? The
+       impact of construal processes on the implicit ascription of a
+       national identity. British Journal of Social Psychology.
+       2008;47:191-215. [PMC free article] [PubMed] [Google Scholar]
+     * Diener E, Emmons RA, Larsen RJ, Griffin S. The satisfaction with
+       life scale. Journal of Personality Assessment. 1985;49:71-75.
+       [PubMed] [Google Scholar]
+     * Klonoff EA, Landrine H. Cross-validation of the schedule of racist
+       events. Journal of Black Psychology. 1999;25:231-254. [Google
+       Scholar]
+     * Klonoff EA, Landrine H, Ullman JB. Racial discrimination and
+       psychiatric symptoms among Blacks. Cultural Diversity and Ethnic
+       Minority Psychology. 1999;5:329-339. [Google Scholar]
+     * Levin S, Van Laar C, Foote W. Ethnic segregation and perceived
+       discrimination in college: Mutual influences and effects on social
+       and academic life. Journal of Applied Social Psychology.
+       2006;36:1471-1501. [Google Scholar]
+     * Liang CTH, Li LC, Kim BSK. The Asian American racism-related stress
+       inventory: Development, factor analysis, reliability, and validity.
+       Journal of Counseling Psychology. 2004;51:103-114. [Google Scholar]
+     * Liebkind K, Jasinskaja-Lahti I, Solheim E. Cultural identity,
+       perceived discrimination, and parental support as determinants of
+       immigrants' school adjustments: Vietnamese youth in Finland.
+       Journal of Adolescent Research. 2004;19:635-656. [Google Scholar]
+     * Malcarne VL, Chavira DA, Fernandez S, Liu PJ. The scale of ethnic
+       experience: Development and psychometric properties. Journal of
+       Personality Assessment. 2006;86:150-161. [PubMed] [Google Scholar]
+     * Neto F. Satisfaction with life among adolescents from immigrant
+       families in Portugal. Journal of Youth and Adolescence.
+       2001;30:53-67. [Google Scholar]
+     * Phinney JS, Cantu CL, Kurtz DA. Ethnic and American identity as
+       predictors of self-esteem among African American, Latino, and White
+       adolescents. Journal of Youth and Adolescence. 1997;26:165-185.
+       [Google Scholar]
+     * Pieterse AL, Carter RT. An examination of the relationship between
+       general life stress, racism-related stress, and psychological
+       health among black men. Journal of Counseling Psychology.
+       2007;54:101-109. [Google Scholar]
+     * Pinel EC. Stigma consciousness: The psychological legacy of social
+       stereotypes. Journal of Personality and Social Psychology.
+       1999;76:114-128. [PubMed] [Google Scholar]
+     * Radloff LS. The CES-D scale: A self report depression scale for
+       research in the general population. Applied Psychological
+       Measurement. 1977;1:385-401. [Google Scholar]
+     * Roccas S, Brewer M. Social identity complexity. Personality and
+       Social Psychology Review. 2002;6:88-106. [Google Scholar]
+     * Romero AJ, Roberts RE. Stress within a bicultural context for
+       adolescents of Mexican descent. Cultural Diversity and Ethnic
+       Minority Psychology. 2003;9:171-184. [PubMed] [Google Scholar]
+     * Rumbaut RG. The new Californians: Comparative research findings on
+       the educational progress of immigrant children. In: Rumbaut RG,
+       Cornelius WA, editors. California's immigrant children: Theory,
+       research, and implications for educational policy. San Diego, CA:
+       Center for U.S.-Mexican Studies; 1995. pp. 17-69. [Google Scholar]
+     * Rydell RJ, Hamilton DL, Devos T. Now they are American, now they
+       are not: Valence as a determinant of the inclusion of African
+       Americans in the American identity. Social Cognition.
+       2010;28:161-179. [Google Scholar]
+     * Sam DL. Satisfaction with life among international students: An
+       exploratory study. Social Indicators Research. 2001;53:315-337.
+       [Google Scholar]
+     * Sidanius J, Feshbach S, Levin S, Pratto F. The interface between
+       ethnic and national attachment: Ethnic pluralism or ethnic
+       dominance? Public Opinion Quarterly. 1997;61:102-133. [Google
+       Scholar]
+     * Sidanius J, Petrocik JR. Communal and national identity in a
+       multiethnic state: A comparison of three perspectives. In: Ashmore
+       RD, Jussim L, Wilder D, editors. Social identity, intergroup
+       conflict, and conflict resolution. Oxford: Oxford University Press;
+       2001. pp. 101-129. [Google Scholar]
+     * Smith WA, Allen WR, Danley LL. "Assume the position... You fit the
+       description": Psychosocial experiences and racial battle fatigue
+       among African American male college students. American Behavioral
+       Scientist. 2007;51:551-578. [Google Scholar]
+     * Smokowski PR, Bacallao ML. Acculturation, Internalizing mental
+       health symptoms, and self-esteem: Cultural experiences of Latino
+       adolescents in North Carolina. Child Psychiatry and Human
+       Development. 2007;37:273-292. [PubMed] [Google Scholar]
+     * Snyder CR, Sympson SC, Ybasco FC, Borders TF, Babyak MA, Higgins
+       RL. Development and validation of the State Hope Scale. Journal of
+       Personality and Social Psychology. 1996;70:321-335. [PubMed]
+       [Google Scholar]
+     * Solorzano D, Ceja M, Yosso T. Critical race theory, racial
+       microaggressions, and campus racial climate: The experiences of
+       African American college students. Journal of Negro Education.
+       2000;69:60-73. [Google Scholar]
+     * Sue DW, Bucceri J, Lin AI, Nadal KL, Torino GC. Racial
+       microaggressions and the Asian American experience. Cultural
+       Diversity and Ethnic Minority Psychology. 2007;13:72-81. [PubMed]
+       [Google Scholar]
+     * Sue DW, Capodilupo CM, Torino GC, Bucceri JM, Holder AMB, Nadal KL,
+       Esquilin M. Racial microaggressions in everyday life: Implications
+       for clinical practice. American Psychologist. 2007;62:271-286.
+       [PubMed] [Google Scholar]
+     * Takaki R. A larger memory: A history of our diversity, with voices.
+       Boston: Little, Brown and Company; 1998. [Google Scholar]
+     * U.S. Department of Health and Human Services. Mental health:
+       Culture, race, and ethnicity ---A supplement to Mental health: A
+       report of the surgeon general. Rockville, MD: U.S. Department of
+       Health and Human Services, Substance Abuse and Mental Health
+       Services Administration, Center for Mental Health Services; 2001.
+       Retrieved January 17, 2011 from
+       http://www.surgeongeneral.gov/library/mentalhealth/cre/sma-01-3613.
+       pdf. [Google Scholar]
+     * Vohra N, Adair J. Life satisfaction of Indian immigrants in Canada.
+       Psychology and Developing Societies. 2000;12:109-138. [Google
+       Scholar]
+
+Other Formats
+
+     * PubReader
+     * PDF (341K)
+
+Actions
+
+     * (BUTTON) Cite
+     * Favorites
+
+Share
+
+     *
+     *
+     * (BUTTON)
+       Permalink
+       https://www.ncbi.nlm (BUTTON) Copy
+
+RESOURCES
+
+     * (BUTTON) Similar articles
+     * (BUTTON) Cited by other articles
+     * (BUTTON) Links to NCBI Databases
+
+   (BUTTON) [x]
+   Cite
+   (BUTTON) Copy Download .nbib .nbib
+   Format: [NLM]
+
+   Follow NCBI
+
+   Connect with NLM
+     *
+     *
+     *
+
+   National Library of Medicine
+   8600 Rockville Pike
+   Bethesda, MD 20894
+
+   Web Policies
+   FOIA
+   HHS Vulnerability Disclosure
+
+   Help
+   Accessibility
+   Careers
+     * NLM
+     * NIH
+     * HHS
+     * USA.gov
