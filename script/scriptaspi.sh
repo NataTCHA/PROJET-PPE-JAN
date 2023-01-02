@@ -8,6 +8,12 @@
 #<tableauURL.html>  est le fichier de sortie du tableau HTML (ici il n'existe pas avant le lancement du script).
 #Il est nécéssaire d'avoir créer un dossier 'aspirations' dans le dossier d'utilisation du script.
 #===============================================================================
+# On attribue les fichiers en argument à des variables :
+
+fichier_urls=$1 # le fichier d'URL en entrée
+fichier_tableau=$2 # le fichier HTML en sortie
+motif=$3 # le motif recherché
+
 if [ $# -ne 3 ]
 then
 	echo " Ce programme demande trois arguments."
@@ -23,11 +29,7 @@ if [ -f $1 ]
 		exit
 fi
 
-# On attribue les fichiers en argument à des variables :
 
-fichier_urls=$1 # le fichier d'URL en entrée
-fichier_tableau=$2 # le fichier HTML en sortie
-motif=$3 # le motif recherché
 
 echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
@@ -50,7 +52,7 @@ do
 	# On récupère le code :
     CODEHTTP=$(curl -I -s $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | head -n1)	
 	# On récupère l'encodage :
-    ENC=$(curl -I -s $line | grep -Po "charset=[\w-]+"| cut -d= -f2)
+    ENC=$(curl -I -s $line | grep -Eo "charset=[\w-]+"| cut -d= -f2)
 	# On récupère le contenu de la page HTML
 	aspiration=$(curl $URL)
 	# On met le contenu dans un document HTML dédié
@@ -76,27 +78,31 @@ do
 	if [[ $CODEHTTP -eq 200 ]]                                                                                                                                         
 	then 
 		dump=$(lynx -dump -nolist -assume_charset=$ENC -display_charset=$ENC $URL)
-		echo "$dump" > "dumps-text/$basename-$lineno.txt" 
+		
+		
 		if [[ $ENC -ne "UTF-8" && -n "$dump" ]]
 		# On vient convertir le fichier en UTF-8 grâce à iconv
 			then
 				dump=$(echo $dump | iconv -f $ENC -t UTF-8//IGNORE)
 				
 		fi
+		
+	
 	# Si le code n'est pas 200, on ne récupère pas le contenu :	
 	else
 		echo -e "\tCode différent de 200, utilisation d'un dump vide."
 		dump=""
 		ENC=""
 	fi
+	echo "$dump" > "./dumps-text/$basename-$lineno.txt"
+	count=$(egrep -o -E $motif ./dumps-text/$basename-$lineno.txt| wc -l)
+
+contexte=$(echo "$dump"|grep -E -A2 -B2 $motif)
+		echo "$contexte" > "contextes/$basename-$lineno.txt" 
 
 
-echo "$dump" > "./dumps-text/fich-$lineno.txt"
-
-count=$(echo $dump | grep -o -i -P "$motif"| wc -l)
-grep -E -A2 -B2 $motif ./dumps-text/fich-$lineno.txt > ./contextes/fich-$lineno.txt
-bash concordance.sh ./dumps-text/fich-$lineno.txt $motif > ./concordances/fich-$lineno.html
-echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td><a href=\"$URL\">$URL</a></td><td>$ENC</td><td><a href="./aspirations/fich-$lineno.html">html</a></td><td><a href="./dumps-text/fich-$lineno.txt">text</a></td><td>$count</td><td><a href="./contextes/fich-$lineno.txt">contextes</a></td><td><a href="./concordances/fich-$lineno.html">concordance</a></td></tr>" >> $fichier_tableau
+bash concordance.sh ./dumps-text/$basename-$lineno.txt $motif > ./concordances/$basename-$lineno.html
+echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td><a href=\"$URL\">$URL</a></td><td>$ENC</td><td><a href="./aspirations/$basename-$lineno.html">html</a></td><td><a href="./dumps-text/$basename-$lineno.txt">text</a></td><td>$count</td><td><a href="./contextes/$basename-$lineno.txt">contextes</a></td><td><a href="./concordances/$basename-$lineno.html">concordance</a></td></tr>" >> $fichier_tableau
 lineno=$((lineno+1));
 
 done < $fichier_urls               
