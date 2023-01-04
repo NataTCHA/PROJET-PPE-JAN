@@ -15,7 +15,8 @@ fi
 folder=$1 # dumps-text OU contextes
 basename=$2 # en, fr, ru, pl, it, jp, etc... # le basename correspnd à la langue qu'on étudie
 
-echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt" #On commence à créer la structure XML dans le fichier de sortie avec une valeur de balise lang égale à basename.
+#On commence à créer la structure XML dans le fichier de sortie avec une valeur de balise lang égale à basename.
+echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt" 
 
 
 for filepath in $(ls $folder/$basename-*.txt) #on va itérer avec commande ls, on va rechercher tous les fichiers txt ayant dans leur nom la valeur de basename
