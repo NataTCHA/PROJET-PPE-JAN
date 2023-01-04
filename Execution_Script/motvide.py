@@ -1,5 +1,5 @@
 import nltk
-nltk.download ()
+
 from nltk.corpus import stopwords
 
 def cleancorpus(text):

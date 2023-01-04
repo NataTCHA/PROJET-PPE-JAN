@@ -21,3 +21,8 @@ nav a:hover{
 	font-size: 1.2em;
 
 }
+
+img.scripimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }

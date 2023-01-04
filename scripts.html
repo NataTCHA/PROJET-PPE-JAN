@@ -43,34 +43,39 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                         <div class="navbar-menu" id="navMenu">
                             <div class="navbar-end">
                                 <a href="index.html" class="navbar-item" > Home </a>
-                                         <div class="navbar-item has-dropdown is-hoverable">
-                                    <a class="navbar-link"> Les Tableaux </a>
+                                   
+                               
+                                        <div class="navbar-item has-dropdown is-hoverable">
+                                    <a class="navbar-link"> Extraction des URLs </a>
                                     <div class="navbar-dropdown">
-                                        <a href="tableau_fr.html" class="navbar-item"> Français </a>
-                                        <a href="tableau_all.html" class="navbar-item"> Allemand </a>
-                                        <a href="tableau_eng.html" class="navbar-item"> Anglais </a>
-                                        <hr class="navbar-divider">
-                                        <a class="navbar-item"> Report an issue </a>
+                                    <a href="scripts.html" class="navbar-item"> Démarche </a>
+                                        <a href="tableau_fr.html" class="navbar-item"> Tableau Français </a>
+                                        <a href="tableau_all.html" class="navbar-item"> Tableau Allemand </a>
+                                        <a href="tableau_eng.html" class="navbar-item"> Tableau Anglais </a>
+                                      
                                     </div>
                                 </div>
-                                <a href="scripts.html"class="navbar-item"> Scripts </a>
-                                      <div class="navbar-item has-dropdown is-hoverable">
-                                <a class="navbar-link"> Itrameur </a>
+                                <div class="navbar-item has-dropdown is-hoverable">
+                                        <a class="navbar-link"> Itrameur </a>
+                                                    
                                   <div class="navbar-dropdown">
-                                        <a href="itrameurfr.html" class="navbar-item"> Français </a>
-                                        <a href="itrameurall.html" class="navbar-item"> Allemand </a>
-                                        <a href="itrameureng.html" class="navbar-item"> Anglais </a>
+                                   <a href="demarche_itrameur.html" class="navbar-item"> Démarche </a>
+                                        <a href="itrameurfr.html" class="navbar-item"> Corpus français </a>
+                                        <a href="itrameurall.html" class="navbar-item"> Corpus allemand </a>
+                                        <a href="itrameureng.html" class="navbar-item"> Corpus anglais </a>
                                         
                                         <hr class="navbar-divider">
                                       <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
                                     </div>
                                     </div>
+                             
+                          
                                        <div class="navbar-item has-dropdown is-hoverable">
                                 <a class="navbar-link"> Nuage de mots </a>
                                         <div class="navbar-dropdown">
-                                        <a href="cloudfr.html" class="navbar-item"> Français </a>
-                                        <a href="cloudall.html" class="navbar-item"> Allemand </a>
-                                        <a href="cloudeng.html" class="navbar-item"> Anglais </a>
+                                        <a href="cloudfr.html" class="navbar-item"> Nuage français </a>
+                                        <a href="cloudall.html" class="navbar-item"> Nuages allemand </a>
+                                        <a href="cloudeng.html" class="navbar-item"> Nuages anglais </a>
                                         
                                         <hr class="navbar-divider">
                                       <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
@@ -97,7 +102,7 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                   <div class="hero-body">
                       <div class="container">
                       <h1 class="title">
-                      Scripts
+                      Script
                       </h1>
                       <h2 class="subtitle">
                       L'avancée du script
@@ -110,7 +115,7 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                        
                        <div class="box">
                         <img src="images/fox2.jpg" width="35%"/>  
-                             <h2 class="title">Comment avons nous fait ?</h2>
+                             <h2 class="title">Comment avons-nous fait ?</h2>
                          <p> Nous avons réalisé 3 scripts différents pour la constitution et l'analyse de nos corpus. C'est scripts ont été réalisés durant les séances de cours et au fil de nos exercices personnels.</p>
                          <p>Les 3 scripts que nous avons rédigés sont :
                             <div class="content">
@@ -125,42 +130,56 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                          </p>
                          <br>
                          <br>
-                         <b>Étape 1 :</b>
+                          <p class="panel-heading">
+                            Script aspiration
+                          </p>
+                            
+                           
                          <br>
+                         <b>Etape 1</b>
                     <p> 09 novembre 2022</p>
                     <br>
                                 <p>Notre but premier a été de réaliser un script permettant de traiter nos URLs et d'obtenir des données sur celles-ci. Suite à ça nous avons voulu les représenter sous la forme d'un tableau html</p>
                                 <br>
                                 <p> Pour ce faire nous avons utilisé des commandes bash vu en cours.</p>
                                 <br>
-              <p> Tout d'abord nous avons téléchargé le script traitement_url_base.sh puis nous avons installé et utilisé curl afin de completer ce script.</p>
+              <p> Tout d'abord nous avons téléchargé le <b>script traitement_url_base.sh</b> puis nous avons installé et utilisé curl afin de completer ce script.</p>
               <br>
-          <p>Curl nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
-           <img src="images/recupurl.png" width="70%"/>  
+          <p>La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
+           
+          <img class="scripimage" src="images/recupurl.png" width="70%"/>  
+          <br>
+
+          <br>
           <br>
       <b>Etape 2</b>
       <br>
-  <p> Après avoir verifié nos URLs nous voulons les stocker dans un tableau html</p>
+  <p> Après avoir verifié nos URLs nous voulons les stocker dans un tableau html afin d'avoir plus de visibilités et un recueil de données.</p>
   <br>
-   <img src="images/tablurl1.png"/>  
+   <img class="scriptimg" src="images/tablurl1.png"/>  
   <br>
   <b>Etape 3</b>
-  <p> Nous avons ensuite voulu recuperer l'encodage de la page, nous voulons de l'UTF 8 ( expliquer pk )</p>
+  <p> Nous avons ensuite voulu recuperer l'encodage de la page. Nous voulons de l'UTF-8</p>
+  <img class="scripimage" src="images/enco1.png" width="70%"/>  
   <p>Une fois l'encodage prelevé nous l'avons rajouté à notre tableau</p>
   <br>
-<p>inserer la ligne ou la capture commentée de ce passe là</p>
+<p>inserer la ligne ou la capture commentée de ce passage là</p>
 <br>
-<p> Evidemment si ce n'est pas de l utf8 nous le convertissons avec iconv ( idem inserer l image avec le commentaire )</p>
+<p> Evidemment si ce n'est pas de l'utf8 nous le convertissons avec iconv </p>
+<img class="scripimage" src="images/enco2.png" width="70%"/> 
 <br>
 <b>Etape 3</b>
 <p> Nous avons ensuite utilisé Lynx qui nous permet de recuperer le contenu textuel d'une page </p>
-</p> image avec le commentaire et la ligne </p>
+</p> <img class="scripimage" src="images/lynx.png" width="70%"/> </p>
 <br>
 <b>Etape 4</b>
 <br>
 <p>Après nous avons compté le nombre d'occurence de notre mot </p>
+<img class="scripimage" src="images/count.png" width="70%"/>
+<p>fermeture du tableau html avec l'intégralité des donnéees</p>
+<img class="scripimage" src="images/tablurl1.png" width="100%"/>  
 <br>
-<p>Inserer image</p>
+
                                 <br>
                                 <b>Etape 5</b>
                                 <p> Nous avons ensuite rendu notre script universel pour que chacunes d'entre nous puisse le lancer sur son fichier URL</p>
@@ -168,17 +187,29 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                                 <b>Etape 6</b>
                                 <p>22 Novembre</p>
                                 <p> Construction des dossiers necessaire au fonctionnement du script</p>
+                                <img class="scripimage" src="images/folder2.png" width="20%"/> 
                                <br>
-                                <p>Image avec dossier Aspirations contexte etc...</p>
+                         
+                               
+                                <p>Pour classer les URL en fonction de leur réponse de serveur</p>
+                                <img class="scripimage" src="images/entete.png" width="75%"/>  
                                 <br>
                                 <p>aspiration des pages et dump textuel</p>
+                                <img class="scripimage" src="images/aspi.png" width="70%"/>
+                                <img class="scripimage" src="images/dump.png" width="70%"/>
                                 <br>
                                 <p> compter l'occurence de notre mot ajout de la regex image blabla</p>
                                 <br>
                                 <p>ajout du contexte</p>
+                                <img class="scripimage" src="images/contexte.png" width="70%"/>
                                 <br>
-                                <p>Script Concordances</p>
+                                <p class="panel-heading">
+                                    Script Concordance
+                                  </p>
+                                  <p>Création du dossier concordance pour lancer le script et contenir les données</p>
+                                  <img class="scripimage" src="images/folder.png" width="20%"/>  
                                 <br>
+                            
                          <br>
               </div>
                 </div>
