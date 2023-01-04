@@ -2920,8 +2920,8 @@ Les 5 points forts
        une chirurgie dans moins de 1 % des cas.
     2. Le taux de succès de la prise en charge endoscopique des ingestions
        de corps étrangers varie de 90 à 95 % pour un taux de complications
-       de cette prise en charge <lt; 5 %.
-    3. Les corps étrangers œsophagiens sont de réelles urgences (<lt; 6 h),
+       de cette prise en charge 
+    3. Les corps étrangers œsophagiens sont de réelles urgences ,
        pas les objets intra-gastriques.
     4. Le matériel d’extraction disponible doit être très varié pour
        pouvoir s’adapter rapidement aux conditions de l’endoscopie, le
@@ -3000,7 +3000,7 @@ Introduction
 
    Le taux de succès de la prise en charge endoscopique des ingestions de
    corps étrangers varie de 90 à 95 % selon les dernières études pour un
-   taux de complications de cette prise en charge <lt; 5 % (6, 7). Pour les
+   taux de complications de cette prise en charge (6, 7). Pour les
    impactions alimentaires, il est parfois discuté une prise en charge
    médicale, mais qui ne doit pas faire retarder l’endoscopie. Le produit
    le plus utilisé est le Glucagon (1 à 2 mg intraveineux) avec un taux de
@@ -6362,8 +6362,8 @@ Notes
 
    20^ É. Benveniste, op. cit., p. 87-101, 355-361.
 
-   21^ L’absence de syncope du ĭ entre t et s (à la différence de ars <lt;
-   *arti-s ou fors <lt; forti-s, etc.) s’expliquerait par la présence d’un s
+   21^ L’absence de syncope du ĭ entre t et s (à la différence de ars 
+   *arti-s ou fors 
    avant *-tis (comme dans uestis, messis, tussis…). Cf. P. Monteil,
    Éléments de phonétique et de morphologie du latin, Paris, Nathan
    Université, 1970, p. 191.
@@ -12410,7 +12410,7 @@ Format
    JULIEN-LAFERRIÈRE, François. L’Étranger, une catégorie juridique
    discriminante In : L’étranger [en ligne]. Tunis : Institut de recherche
    sur le Maghreb contemporain, 2002 (généré le 20 décembre 2022).
-   Disponible sur Internet : <lt;http://books.openedition.org/irmc/201>gt;.
+   Disponible sur Internet : 
    ISBN : 9782821850361. DOI : https://doi.org/10.4000/books.irmc.201.
    Julien-Laferrière, F. 2002. L’Étranger, une catégorie juridique
    discriminante. In L’étranger. Institut de recherche sur le Maghreb
@@ -12418,7 +12418,7 @@ Format
    Julien-Laferrière, François. “L’Étranger, une catégorie juridique
    discriminante”. Asséo, Henriette, et al.. L’étranger. Tunis : Institut
    de recherche sur le Maghreb contemporain, 2002. (pp. 13-23) Web.
-   <lt;http://books.openedition.org/irmc/201>gt;.
+   
 
 Référence électronique du livre
 
@@ -12428,14 +12428,14 @@ Format
    ASSÉO, Henriette ; JULIEN-LAFERRIÈRE, François ; et MISSAOUI, Lamia.
    L’étranger. Nouvelle édition [en ligne]. Tunis : Institut de recherche
    sur le Maghreb contemporain, 2002 (généré le 20 décembre 2022).
-   Disponible sur Internet : <lt;http://books.openedition.org/irmc/190>gt;.
+   Disponible sur Internet : 
    ISBN : 9782821850361. DOI : https://doi.org/10.4000/books.irmc.190.
    Asséo, H., Julien-Laferrière, F., &amp; Missaoui, L. 2002. L’étranger.
    Institut de recherche sur le Maghreb contemporain.
    doi :10.4000/books.irmc.190
    Asséo, Henriette, et al.. L’étranger. Tunis : Institut de recherche sur
    le Maghreb contemporain, 2002. Web.
-   <lt;http://books.openedition.org/irmc/190>gt;.
+   
    Compatible avec Zotero
    L’Étranger, une catégorie juridique discriminante
 
@@ -12463,7 +12463,7 @@ Taille :
 Collez le code html suivant pour intégrer ce livre sur votre site.
 
 
-   <lt;iframe src="https://books.openedition.org/irmc/201?for
+   
    _______________________________________________________
    _______________________________________________________
    _______________________________________________________
