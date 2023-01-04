@@ -137,69 +137,73 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
                            
                          <br>
                          <b>Etape 1</b>
-                    <p> 09 novembre 2022</p>
+                   
                     <br>
                                 <p>Notre but premier a été de réaliser un script permettant de traiter nos URLs et d'obtenir des données sur celles-ci. Suite à ça nous avons voulu les représenter sous la forme d'un tableau html</p>
                                 <br>
                                 <p> Pour ce faire nous avons utilisé des commandes bash vu en cours.</p>
                                 <br>
-              <p> Tout d'abord nous avons téléchargé le <b>script traitement_url_base.sh</b> puis nous avons installé et utilisé curl afin de completer ce script.</p>
+              <p> Tout d'abord nous avons téléchargé le <b>script traitement_url_base.sh</b> puis nous avons installé et utilisé <b>curl</b> afin de completer ce script.</p>
               <br>
           <p>La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
            
           <img class="scripimage" src="images/recupurl.png" width="70%"/>  
           <br>
-
+          <p>Les entêtes qui nous ont interessées sont les suivantes :</p>
+          <div class="content">
+          <ul>
+          <li><b>Le code HTTP</b></li>
+          <li><b>Son encodage</b></li>
+        </ul>
+      </div>
           <br>
           <br>
-      <b>Etape 2</b>
+  
       <br>
-  <p> Après avoir verifié nos URLs nous voulons les stocker dans un tableau html afin d'avoir plus de visibilités et un recueil de données.</p>
-  <br>
-   <img class="scriptimg" src="images/tablurl1.png"/>  
-  <br>
-  <b>Etape 3</b>
-  <p> Nous avons ensuite voulu recuperer l'encodage de la page. Nous voulons de l'UTF-8</p>
+
+  <p>Lorsque le contenu de la page URL n'est pas de l'UTF-8 nous sommes embetées , en effet le traitement d'une page non UTF-8 peut poser des problemes pour la lecture des accents. Il nous paraît egalement fastidieux de traiter des pages n'ayant pas le même encodage. </p>
+  <p> Pour eviter les problèmes nous le convertissons avec iconv pour n'avoir que de l'UTF-8.</p>
   <img class="scripimage" src="images/enco1.png" width="70%"/>  
-  <p>Une fois l'encodage prelevé nous l'avons rajouté à notre tableau</p>
-  <br>
-<p>inserer la ligne ou la capture commentée de ce passage là</p>
+
 <br>
-<p> Evidemment si ce n'est pas de l'utf8 nous le convertissons avec iconv </p>
-<img class="scripimage" src="images/enco2.png" width="70%"/> 
+
+
 <br>
-<b>Etape 3</b>
-<p> Nous avons ensuite utilisé Lynx qui nous permet de recuperer le contenu textuel d'une page </p>
+<p>Nos URLs vérifiées, nous voulons les stocker dans un tableau html afin d'avoir plus de visibilités et un recueil de données.</p>
+<br>
+ <img class="scriptimg" src="images/tablurl1.png"/>  
+ <p>fermeture du tableau html avec l'intégralité des donnéees</p>
+<img class="scripimage" src="images/tablurl1.png" width="100%"/>  
+<br>
+
+<p>Après avoir traité nos URLs , nous avons pu passer à l'étape suivante: récuperer le contenu textuel de nos pages.</p>
+<p> La commande <b>Lynx</b> nous permet de recuperer le contenu textuel d'une page </p>
 </p> <img class="scripimage" src="images/lynx.png" width="70%"/> </p>
 <br>
 <b>Etape 4</b>
 <br>
-<p>Après nous avons compté le nombre d'occurence de notre mot </p>
+<p>Le but de notre projet est d'analyser un ou plusieurs mots, de ce fait nous avons commencé à nous soucier de ce mot. Nous avons ajouté un compteur permettant de compter le nombre d'occurence de nos mots dans les dumps</p>
 <img class="scripimage" src="images/count.png" width="70%"/>
-<p>fermeture du tableau html avec l'intégralité des donnéees</p>
-<img class="scripimage" src="images/tablurl1.png" width="100%"/>  
+
 <br>
 
                                 <br>
-                                <b>Etape 5</b>
-                                <p> Nous avons ensuite rendu notre script universel pour que chacunes d'entre nous puisse le lancer sur son fichier URL</p>
-                                <br>
+
                                 <b>Etape 6</b>
-                                <p>22 Novembre</p>
-                                <p> Construction des dossiers necessaire au fonctionnement du script</p>
+                
+                                <p> Pour stocker les aspirations, dumps, contexte nous avons crée des dossiers permettant de stocker ces données et également necessaires au fonctionnement du script</p>
                                 <img class="scripimage" src="images/folder2.png" width="20%"/> 
                                <br>
                          
                                
-                                <p>Pour classer les URL en fonction de leur réponse de serveur</p>
+                                <p>Le traitement de l'url ne sera pas le même en fonction de son entête. En effet si il renvoit le code 200 nous allons incrementer son dump à une variable. A contrario si l'URL renvoi un autre code nous utiliseront un dump vide</p>
                                 <img class="scripimage" src="images/entete.png" width="75%"/>  
                                 <br>
-                                <p>aspiration des pages et dump textuel</p>
+                                <p>L' aspiration des pages et dump textuel se font donc sur les URL ayant le code 200, ces données sont directement envoyées aux dossiers crées au préalable</p>
                                 <img class="scripimage" src="images/aspi.png" width="70%"/>
                                 <img class="scripimage" src="images/dump.png" width="70%"/>
                                 <br>
-                                <p> compter l'occurence de notre mot ajout de la regex image blabla</p>
-                                <br>
+                                
                                 <p>ajout du contexte</p>
                                 <img class="scripimage" src="images/contexte.png" width="70%"/>
                                 <br>
