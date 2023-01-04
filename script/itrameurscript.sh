@@ -39,9 +39,9 @@ do
 	
 	# on récupère le contenu et on fait des modifications dessus : on fait deux groupes grâce à /g, grâce à /'s on détermine ce que l'on veut substituer et avec &amp, on détermine ce qu'on veut remplacer.
 
-	content=$(echo "$content" | sed 's/&/&amp;/g')
-	content=$(echo "$content" | sed 's/</&lt;/g')
-	content=$(echo "$content" | sed 's/>/&gt;/g')
+	content=$(echo "$content" | sed 's/&/\&amp;/g')
+	content=$(echo "$content" | sed 's/</\&lt;/g')
+	content=$(echo "$content" | sed 's/>/\&gt;/g')
 
 	echo "$content" >> "./itrameur/$folder-$basename.txt"
 	#affichage du contenu dans le fichier de sortie
