@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-# Attention : ce script doit être lancé depuis la racine du projet.
 # Cela lui permet de récupérer les fichiers dans les bons dossiers.
 # Se lancera donc comme ça :
-# $ ./programmes/correction_itrameur.sh
+# $ ./script/iotrameurscript.sh
 
 
 if [[ $# -ne 2 ]]
@@ -30,25 +29,26 @@ do
 	echo "<page=\"$pagename\">" >> "./itrameur/$folder-$basename.txt"
 	echo "<text>" >> "./itrameur/$folder-$basename.txt"
 	
-	# on récupère les dumps/contextes
+	# On récupère les dumps/contextes
 	# et on écrit à l'intérieur de la balise text
 	
 	content=$(cat $filepath)
 	# ordre important : & en premier
 	# sinon : < => &lt; => &amp;lt;
 	
-	# on récupère le contenu et on fait des modifications dessus : on fait deux groupes grâce à /g, grâce à /'s on détermine ce que l'on veut substituer et avec &amp, on détermine ce qu'on veut remplacer.
-
+	# On vient nettoyer le corpus de texte des éléments qui pourraient être présents et fausser l'arborescence XML
 	content=$(echo "$content" | sed 's/&/\&amp;/g')
 	content=$(echo "$content" | sed 's/</\&lt;/g')
 	content=$(echo "$content" | sed 's/>/\&gt;/g')
 
+	#On affiche le contenu dans le fichier de sortie
 	echo "$content" >> "./itrameur/$folder-$basename.txt"
-	#affichage du contenu dans le fichier de sortie
 
+	# On insère pour chaque page les balises fermantes correspondantes
 	echo "</text>" >> "./itrameur/$folder-$basename.txt"
 	echo "</page> §" >> "./itrameur/$folder-$basename.txt"
 done
-# On cloture la structure XML
+
+# On clôture la structure XML
 echo "</lang>" >> "./itrameur/$folder-$basename.txt"
 
