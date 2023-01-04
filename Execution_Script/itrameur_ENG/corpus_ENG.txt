@@ -1490,10 +1490,6 @@ How much will Canada's block on foreign buyers help its housing crisis?
    (BUTTON) Toggle more options
      * Download
      * (BUTTON) Embed
-       (BUTTON) Embed <lt;iframe src="https:/ <lt;iframe
-       src="https://www.npr.org/player/embed/1100562882/1100562883"
-       width="100%" height="290" frameborder="0" scrolling="no" title="NPR
-       embedded audio player">gt;
      * Transcript
 
    The average home price in Canada has skyrocketed to over $800,000.
@@ -5392,9 +5388,6 @@ How Myanmar’s Junta Threw Six Foreigners Behind Bars
 </page> §
 <page="url_foreigner-24">
 <text>
-    <lt;img height="1" width="1" style="display:none;" alt=""
-   src="https://px.ads.linkedin.com/collect/?pid=4400705&amp;amp;fmt=gif">gt;
-
      * News
           + White House
           + Senate
@@ -8675,7 +8668,7 @@ TABLE 2
    [alpha] --- --- --- --- --- --- --- .84 .84
    Open in a separate window
 
-   Note. Means in the same row that do not share subscripts differ at p <lt;
+   Note. Means in the same row that do not share subscripts differ at p 
    .000001 in contrasts ([eta] = 1, 1, +/-2; Study 1) and t-test mean
    difference comparisons (Study 2).
 
@@ -8692,7 +8685,6 @@ TABLE 3
 
    Note. Correlations for Latino/as (N = 211) are below the diagonal, and
    correlations for Asian Americans (N = 231) are above the diagonal. All
-   correlations significant at the p <lt; 0.01 level (two-tailed).
 
 Perceived Discrimination
 
@@ -8853,9 +8845,9 @@ TABLE 4
    Open in a separate window
 
    Note.
-   ^[dagger]p <lt; .10.
+   ^[dagger]p 
 
-   Italicized; p <lt; .05. Underlined; p <lt; .01. Bolded; p <lt; .001.
+   Italicized; p 
 
 STUDY 2
 
@@ -9009,7 +9001,7 @@ Depression
    depressive feelings and behaviors. Respondents were asked to rate their
    level of depressive symptomatology during the previous 7 days,
    including the day of the study, on a 4-point Likert-type scale, 1 =
-   rarely or none of the time (<lt; 1 day) to 4 = most or all of the time
+   rarely or none of the time (
    (5-7 days). Sample items include: "I was bothered by things that
    usually don't bother me" and "I felt sad."
 
@@ -9869,11 +9861,11 @@ API Examples
    connection_adapters/abstract/schema_statements.rb):
 
    For example, given the following model:
-class Comment <lt; ActiveRecord::Base
+class Comment 
   belongs_to :post
 end
 
-class Post <lt; ActiveRecord::Base
+class Post 
   has_many :comments, dependent: :delete_all
 end
 
@@ -18899,7 +18891,7 @@ Vampires Are Taking Over Pop Culture Again—But This Time, the Monster Is Us
    suffer from chronic illnesses, and even experience discrimination based
    on differences they can’t control. Vampires—they’re just like us!
    (Except, of course, that we’re still their prey.)
-   Jacob Batalon in <lt;i>gt;Reginald the Vampire<lt;/i>gt; (James Dittiger—Syfy)
+   Jacob Batalon in Reginald the Vampiregt (James Dittiger—Syfy)
    Jacob Batalon in Reginald the Vampire
    James Dittiger—Syfy
 
@@ -18966,7 +18958,7 @@ Vampires Are Taking Over Pop Culture Again—But This Time, the Monster Is Us
    in,” Juliette laments. “Like everyone has it all figured out—the
    clothes they wear, the bands they like, who they are, who they wanna
    be. And I’m the only one stuck pretending.”
-   Sarah Catherine Hook in <lt;i>gt;First Kill<lt;/i>gt; (Netflix)
+   Sarah Catherine Hook in  First Kill (Netflix)
    Sarah Catherine Hook in First Kill
    Netflix
 
@@ -19002,8 +18994,8 @@ Vampires Are Taking Over Pop Culture Again—But This Time, the Monster Is Us
    Sol, a transgender man who works as an archivist. “I didn’t see myself
    as being in the closet about my illness, my vampirism,” he recalls,
    “but I’d only ever told my boss and HR.”
-   Kayvan Novak, left, and Harvey Guillén in <lt;i>gt;What We Do in the
-   Shadows<lt;/i>gt; (John P Johnson—FX)
+   Kayvan Novak, left, and Harvey Guillén in  What We Do in the
+   Shadows
    Kayvan Novak, left, and Harvey Guillén in What We Do in the Shadows
    John P Johnson—FX
 
@@ -19037,7 +19029,7 @@ Vampires Are Taking Over Pop Culture Again—But This Time, the Monster Is Us
    you had to unfriend on Facebook, any normal-seeming acquaintance is
    liable to start spewing venom that burns you to your core. It’s a bit
    like watching fangs suddenly descend from a friendly smile.
-   Daniela Nieves, left, and Sisi Stringer in <lt;i>gt;Vampire Academy<lt;/i>gt; (Jose
+   Daniela Nieves, left, and Sisi Stringer in  Vampire Academy
    Haro—Peacock)
    Daniela Nieves, left, and Sisi Stringer in Vampire Academy
    Jose Haro—Peacock
@@ -22238,7 +22230,7 @@ About the Book
 
 From Our Blog
 
-   <lt;Meet Our Authors at ESS 2019
+   
 
 Meet Our Authors at ESS 2019
 
@@ -22247,7 +22239,7 @@ Meet Our Authors at ESS 2019
    scholar-activists, and meet Executive Naomi Schneider. Author Meets
    Critic Sessions Jean Beaman, author …
    Read More >gt;
-   <lt;Feeling Race when Race does not “Exist”
+   
 
 Feeling Race when Race does not “Exist”
 
@@ -22256,7 +22248,7 @@ Feeling Race when Race does not “Exist”
    11 – 14 in Philadelphia. #ASA18 #ScholarActivist By Jean Beaman, author
    of Citizen Outsider: Children …
    Read More >gt;
-   <lt;Books on Racial Theory, Analysis, and Politics in Trump America at SSS
+   
 
 Books on Racial Theory, Analysis, and Politics in Trump America at SSS
 
@@ -23759,8 +23751,8 @@ humanities professors
      *
      *
 
-   <lt;p>gt;Spanish professor Claudia Berrios-Campos poses for a photo in her
-   office at Wells Hall on Nov. 9, 2022. <lt;/p>gt;
+   
+   office at Wells Hall on Nov. 9, 2022. 
 
    Spanish professor Claudia Berrios-Campos poses for a photo in her
    office at Wells Hall on Nov. 9, 2022.
@@ -24767,9 +24759,9 @@ Clara Co. Sheriff races
 
    IFRAME: about:blank
 
-   EMBED <lt;>gt;More Videos
+   EMBED 
 
-   <lt;iframe width="476" height="267" src="https://abc7news.com/v
+   
    ____________________________________________________________
    ____________________________________________________________
    ____________________________________________________________
@@ -30532,205 +30524,6 @@ Follow us on
 
    Follow @NatlToday
    Copyright © 2017–2023 by National Today. Privacy policy
-
-   [google_sign_in]
-   <lt;div id="sign-in-with-google-container">gt; <lt;a id="sign-in-with-google"
-   href="https://nationaltoday.com/?google_redirect&amp;#038;">gt; <lt;img
-   src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRw
-   Oi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48Zz48cGF0aCB
-   maWxsPSIjRUE0MzM1IiBkPSJNMjQgOS41YzMuNTQgMCA2LjcxIDEuMjIgOS4yMSAzLjZsNi
-   44NS02Ljg1QzM1LjkgMi4zOCAzMC40NyAwIDI0IDAgMTQuNjIgMCA2LjUxIDUuMzggMi41N
-   iAxMy4yMmw3Ljk4IDYuMTlDMTIuNDMgMTMuNzIgMTcuNzQgOS41IDI0IDkuNXoiPjwvcGF0
-   aD48cGF0aCBmaWxsPSIjNDI4NUY0IiBkPSJNNDYuOTggMjQuNTVjMC0xLjU3LS4xNS0zLjA
-   5LS4zOC00LjU1SDI0djkuMDJoMTIuOTRjLS41OCAyLjk2LTIuMjYgNS40OC00Ljc4IDcuMT
-   hsNy43MyA2YzQuNTEtNC4xOCA3LjA5LTEwLjM2IDcuMDktMTcuNjV6Ij48L3BhdGg+PHBhd
-   GggZmlsbD0iI0ZCQkMwNSIgZD0iTTEwLjUzIDI4LjU5Yy0uNDgtMS40NS0uNzYtMi45OS0u
-   NzYtNC41OXMuMjctMy4xNC43Ni00LjU5bC03Ljk4LTYuMTlDLjkyIDE2LjQ2IDAgMjAuMTI
-   gMCAyNGMwIDMuODguOTIgNy41NCAyLjU2IDEwLjc4bDcuOTctNi4xOXoiPjwvcGF0aD48cG
-   F0aCBmaWxsPSIjMzRBODUzIiBkPSJNMjQgNDhjNi40OCAwIDExLjkzLTIuMTMgMTUuODktN
-   S44MWwtNy43My02Yy0yLjE1IDEuNDUtNC45MiAyLjMtOC4xNiAyLjMtNi4yNiAwLTExLjU3
-   LTQuMjItMTMuNDctOS45MWwtNy45OCA2LjE5QzYuNTEgNDIuNjIgMTQuNjIgNDggMjQgNDh
-   6Ij48L3BhdGg+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGg0OHY0OEgweiI+PC9wYXRoPj
-   wvZz48L3N2Zz4K">gt; Log In With Google <lt;/a>gt; <lt;/div>gt;
-
-   [fbl_login_button redirect="/email-confirmed/?signup=fb"
-   hide_if_logged="" size="large" type="login_with" show_face="true"
-   onlogin="fbl_loginCheck" scope="email,public_profile"
-   use-continue-as="true" auto-logout-link="false"]
-   <lt;div class="fbl-button" data-redirect="/email-confirmed/?signup=fb"
-   data-fb_nonce="8b9ad715a1">gt; <lt;img data-no-lazy="1"
-   src="https://nationaltoday.com/wp-content/plugins/wp-facebook-login/pub
-   lic/img/loading.svg" alt="" class="fbl-spinner"/>gt; <lt;div
-   class="fb-login-button" data-max-rows="1" onlogin="fbl_loginCheck"
-   data-width="" data-size="large" data-button-type="login_with"
-   data-show-faces="false" data-auth-type="rerequest"
-   data-auto-logout-link="false" data-use-continue-as="true"
-   data-scope="email,public_profile">gt;<lt;/div>gt; <lt;/div>gt; <lt;script
-   type="text/javascript">gt; window.fbl_started = false; function
-   fbl_init(){ try{ window.FB.init({ appId : '179692745920433', cookie :
-   true, xfbml : true, status : false, autoLogAppEvents : true, version :
-   'v6.0' }); window.FB.Event.subscribe('xfbml.render', function() {
-   FBL.renderFinish(); } ); window.fbl_started = true; } catch (e){} }
-   window.fbAsyncInit = function() { if( ! window.fbl_started ) fbl_init()
-   }; var fbl_interval = window.setInterval(function(){
-   if(window.fbl_started) clearInterval(fbl_interval); if(
-   !window.fbl_started) fbl_init(); },100); (function(d, s, id) { var js,
-   fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return;
-   js = d.createElement(s); js.id = id; js.src =
-   "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js,
-   fjs); }(document, 'script', 'facebook-jssdk')); <lt;/script>gt;
-
-   [wpforms id="8315" title="false" description="false"]
-   <lt;div class="wpforms-container wpforms-container-full"
-   id="wpforms-8315">gt;<lt;form id="wpforms-form-8315" class="wpforms-validate
-   wpforms-form" data-formid="8315" method="post"
-   enctype="multipart/form-data"
-   action="/national-sit-with-a-stranger-day/"
-   data-token="9e581dd478aa38f5035691bf99ac6122">gt;<lt;noscript
-   class="wpforms-error-noscript">gt;Please enable JavaScript in your browser
-   to complete this form.<lt;/noscript>gt;<lt;div
-   class="wpforms-field-container">gt;<lt;div
-   id="wpforms-8315-field_1-container" class="wpforms-field
-   wpforms-field-name" data-field-id="1">gt;<lt;label
-   class="wpforms-field-label" for="wpforms-8315-field_1">gt;Name <lt;span
-   class="wpforms-required-label">gt;*<lt;/span>gt;<lt;/label>gt;<lt;div
-   class="wpforms-field-row wpforms-field-large">gt;<lt;div
-   class="wpforms-field-row-block wpforms-first wpforms-one-half">gt;<lt;input
-   type="text" id="wpforms-8315-field_1" class="wpforms-field-name-first
-   wpforms-field-required" name="wpforms[fields][1][first]"
-   required>gt;<lt;label for="wpforms-8315-field_1"
-   class="wpforms-field-sublabel after ">gt;First<lt;/label>gt;<lt;/div>gt;<lt;div
-   class="wpforms-field-row-block wpforms-one-half">gt;<lt;input type="text"
-   id="wpforms-8315-field_1-last" class="wpforms-field-name-last
-   wpforms-field-required" name="wpforms[fields][1][last]" required>gt;<lt;label
-   for="wpforms-8315-field_1-last" class="wpforms-field-sublabel after
-   ">gt;Last<lt;/label>gt;<lt;/div>gt;<lt;/div>gt;<lt;/div>gt;<lt;div
-   id="wpforms-8315-field_3-container" class="wpforms-field
-   wpforms-field-email" data-field-id="3">gt;<lt;label
-   class="wpforms-field-label" for="wpforms-8315-field_3">gt;E-mail <lt;span
-   class="wpforms-required-label">gt;*<lt;/span>gt;<lt;/label>gt;<lt;input type="email"
-   id="wpforms-8315-field_3" class="wpforms-field-large
-   wpforms-field-required" name="wpforms[fields][3]" required>gt;<lt;/div>gt;<lt;div
-   id="wpforms-8315-field_4-container" class="wpforms-field
-   wpforms-field-password" data-field-id="4">gt;<lt;label
-   class="wpforms-field-label" for="wpforms-8315-field_4">gt;Password <lt;span
-   class="wpforms-required-label">gt;*<lt;/span>gt;<lt;/label>gt;<lt;input type="password"
-   id="wpforms-8315-field_4" class="wpforms-field-large
-   wpforms-field-required" name="wpforms[fields][4]" required>gt;<lt;/div>gt;<lt;div
-   id="wpforms-8315-field_9-container" class="wpforms-field
-   wpforms-field-date-time" data-field-id="9">gt;<lt;label
-   class="wpforms-field-label" for="wpforms-8315-field_9">gt;Birthday <lt;span
-   class="wpforms-required-label">gt;*<lt;/span>gt;<lt;/label>gt;<lt;select
-   name="wpforms[fields][9][date][m]" id="wpforms-8315-field_9-month"
-   class="wpforms-field-date-time-date-month wpforms-field-required"
-   required>gt;<lt;option value="" class="placeholder" selected
-   disabled>gt;MM<lt;/option>gt;<lt;option value="1" >gt;1<lt;/option>gt;<lt;option value="2"
-   >gt;2<lt;/option>gt;<lt;option value="3" >gt;3<lt;/option>gt;<lt;option value="4"
-   >gt;4<lt;/option>gt;<lt;option value="5" >gt;5<lt;/option>gt;<lt;option value="6"
-   >gt;6<lt;/option>gt;<lt;option value="7" >gt;7<lt;/option>gt;<lt;option value="8"
-   >gt;8<lt;/option>gt;<lt;option value="9" >gt;9<lt;/option>gt;<lt;option value="10"
-   >gt;10<lt;/option>gt;<lt;option value="11" >gt;11<lt;/option>gt;<lt;option value="12"
-   >gt;12<lt;/option>gt;<lt;/select>gt;<lt;span
-   class="wpforms-field-date-time-date-sep">gt;/<lt;/span>gt;<lt;select
-   name="wpforms[fields][9][date][d]" id="wpforms-8315-field_9-day"
-   class="wpforms-field-date-time-date-day wpforms-field-required"
-   required>gt;<lt;option value="" class="placeholder" selected
-   disabled>gt;DD<lt;/option>gt;<lt;option value="1" >gt;1<lt;/option>gt;<lt;option value="2"
-   >gt;2<lt;/option>gt;<lt;option value="3" >gt;3<lt;/option>gt;<lt;option value="4"
-   >gt;4<lt;/option>gt;<lt;option value="5" >gt;5<lt;/option>gt;<lt;option value="6"
-   >gt;6<lt;/option>gt;<lt;option value="7" >gt;7<lt;/option>gt;<lt;option value="8"
-   >gt;8<lt;/option>gt;<lt;option value="9" >gt;9<lt;/option>gt;<lt;option value="10"
-   >gt;10<lt;/option>gt;<lt;option value="11" >gt;11<lt;/option>gt;<lt;option value="12"
-   >gt;12<lt;/option>gt;<lt;option value="13" >gt;13<lt;/option>gt;<lt;option value="14"
-   >gt;14<lt;/option>gt;<lt;option value="15" >gt;15<lt;/option>gt;<lt;option value="16"
-   >gt;16<lt;/option>gt;<lt;option value="17" >gt;17<lt;/option>gt;<lt;option value="18"
-   >gt;18<lt;/option>gt;<lt;option value="19" >gt;19<lt;/option>gt;<lt;option value="20"
-   >gt;20<lt;/option>gt;<lt;option value="21" >gt;21<lt;/option>gt;<lt;option value="22"
-   >gt;22<lt;/option>gt;<lt;option value="23" >gt;23<lt;/option>gt;<lt;option value="24"
-   >gt;24<lt;/option>gt;<lt;option value="25" >gt;25<lt;/option>gt;<lt;option value="26"
-   >gt;26<lt;/option>gt;<lt;option value="27" >gt;27<lt;/option>gt;<lt;option value="28"
-   >gt;28<lt;/option>gt;<lt;option value="29" >gt;29<lt;/option>gt;<lt;option value="30"
-   >gt;30<lt;/option>gt;<lt;option value="31" >gt;31<lt;/option>gt;<lt;/select>gt;<lt;span
-   class="wpforms-field-date-time-date-sep">gt;/<lt;/span>gt;<lt;select
-   name="wpforms[fields][9][date][y]" id="wpforms-8315-field_9-year"
-   class="wpforms-field-date-time-date-year wpforms-field-required"
-   required>gt;<lt;option value="" class="placeholder" selected
-   disabled>gt;YYYY<lt;/option>gt;<lt;option value="2023" >gt;2023<lt;/option>gt;<lt;option
-   value="2022" >gt;2022<lt;/option>gt;<lt;option value="2021" >gt;2021<lt;/option>gt;<lt;option
-   value="2020" >gt;2020<lt;/option>gt;<lt;option value="2019" >gt;2019<lt;/option>gt;<lt;option
-   value="2018" >gt;2018<lt;/option>gt;<lt;option value="2017" >gt;2017<lt;/option>gt;<lt;option
-   value="2016" >gt;2016<lt;/option>gt;<lt;option value="2015" >gt;2015<lt;/option>gt;<lt;option
-   value="2014" >gt;2014<lt;/option>gt;<lt;option value="2013" >gt;2013<lt;/option>gt;<lt;option
-   value="2012" >gt;2012<lt;/option>gt;<lt;option value="2011" >gt;2011<lt;/option>gt;<lt;option
-   value="2010" >gt;2010<lt;/option>gt;<lt;option value="2009" >gt;2009<lt;/option>gt;<lt;option
-   value="2008" >gt;2008<lt;/option>gt;<lt;option value="2007" >gt;2007<lt;/option>gt;<lt;option
-   value="2006" >gt;2006<lt;/option>gt;<lt;option value="2005" >gt;2005<lt;/option>gt;<lt;option
-   value="2004" >gt;2004<lt;/option>gt;<lt;option value="2003" >gt;2003<lt;/option>gt;<lt;option
-   value="2002" >gt;2002<lt;/option>gt;<lt;option value="2001" >gt;2001<lt;/option>gt;<lt;option
-   value="2000" >gt;2000<lt;/option>gt;<lt;option value="1999" >gt;1999<lt;/option>gt;<lt;option
-   value="1998" >gt;1998<lt;/option>gt;<lt;option value="1997" >gt;1997<lt;/option>gt;<lt;option
-   value="1996" >gt;1996<lt;/option>gt;<lt;option value="1995" >gt;1995<lt;/option>gt;<lt;option
-   value="1994" >gt;1994<lt;/option>gt;<lt;option value="1993" >gt;1993<lt;/option>gt;<lt;option
-   value="1992" >gt;1992<lt;/option>gt;<lt;option value="1991" >gt;1991<lt;/option>gt;<lt;option
-   value="1990" >gt;1990<lt;/option>gt;<lt;option value="1989" >gt;1989<lt;/option>gt;<lt;option
-   value="1988" >gt;1988<lt;/option>gt;<lt;option value="1987" >gt;1987<lt;/option>gt;<lt;option
-   value="1986" >gt;1986<lt;/option>gt;<lt;option value="1985" >gt;1985<lt;/option>gt;<lt;option
-   value="1984" >gt;1984<lt;/option>gt;<lt;option value="1983" >gt;1983<lt;/option>gt;<lt;option
-   value="1982" >gt;1982<lt;/option>gt;<lt;option value="1981" >gt;1981<lt;/option>gt;<lt;option
-   value="1980" >gt;1980<lt;/option>gt;<lt;option value="1979" >gt;1979<lt;/option>gt;<lt;option
-   value="1978" >gt;1978<lt;/option>gt;<lt;option value="1977" >gt;1977<lt;/option>gt;<lt;option
-   value="1976" >gt;1976<lt;/option>gt;<lt;option value="1975" >gt;1975<lt;/option>gt;<lt;option
-   value="1974" >gt;1974<lt;/option>gt;<lt;option value="1973" >gt;1973<lt;/option>gt;<lt;option
-   value="1972" >gt;1972<lt;/option>gt;<lt;option value="1971" >gt;1971<lt;/option>gt;<lt;option
-   value="1970" >gt;1970<lt;/option>gt;<lt;option value="1969" >gt;1969<lt;/option>gt;<lt;option
-   value="1968" >gt;1968<lt;/option>gt;<lt;option value="1967" >gt;1967<lt;/option>gt;<lt;option
-   value="1966" >gt;1966<lt;/option>gt;<lt;option value="1965" >gt;1965<lt;/option>gt;<lt;option
-   value="1964" >gt;1964<lt;/option>gt;<lt;option value="1963" >gt;1963<lt;/option>gt;<lt;option
-   value="1962" >gt;1962<lt;/option>gt;<lt;option value="1961" >gt;1961<lt;/option>gt;<lt;option
-   value="1960" >gt;1960<lt;/option>gt;<lt;option value="1959" >gt;1959<lt;/option>gt;<lt;option
-   value="1958" >gt;1958<lt;/option>gt;<lt;option value="1957" >gt;1957<lt;/option>gt;<lt;option
-   value="1956" >gt;1956<lt;/option>gt;<lt;option value="1955" >gt;1955<lt;/option>gt;<lt;option
-   value="1954" >gt;1954<lt;/option>gt;<lt;option value="1953" >gt;1953<lt;/option>gt;<lt;option
-   value="1952" >gt;1952<lt;/option>gt;<lt;option value="1951" >gt;1951<lt;/option>gt;<lt;option
-   value="1950" >gt;1950<lt;/option>gt;<lt;option value="1949" >gt;1949<lt;/option>gt;<lt;option
-   value="1948" >gt;1948<lt;/option>gt;<lt;option value="1947" >gt;1947<lt;/option>gt;<lt;option
-   value="1946" >gt;1946<lt;/option>gt;<lt;option value="1945" >gt;1945<lt;/option>gt;<lt;option
-   value="1944" >gt;1944<lt;/option>gt;<lt;option value="1943" >gt;1943<lt;/option>gt;<lt;option
-   value="1942" >gt;1942<lt;/option>gt;<lt;option value="1941" >gt;1941<lt;/option>gt;<lt;option
-   value="1940" >gt;1940<lt;/option>gt;<lt;option value="1939" >gt;1939<lt;/option>gt;<lt;option
-   value="1938" >gt;1938<lt;/option>gt;<lt;option value="1937" >gt;1937<lt;/option>gt;<lt;option
-   value="1936" >gt;1936<lt;/option>gt;<lt;option value="1935" >gt;1935<lt;/option>gt;<lt;option
-   value="1934" >gt;1934<lt;/option>gt;<lt;option value="1933" >gt;1933<lt;/option>gt;<lt;option
-   value="1932" >gt;1932<lt;/option>gt;<lt;option value="1931" >gt;1931<lt;/option>gt;<lt;option
-   value="1930" >gt;1930<lt;/option>gt;<lt;option value="1929" >gt;1929<lt;/option>gt;<lt;option
-   value="1928" >gt;1928<lt;/option>gt;<lt;option value="1927" >gt;1927<lt;/option>gt;<lt;option
-   value="1926" >gt;1926<lt;/option>gt;<lt;option value="1925" >gt;1925<lt;/option>gt;<lt;option
-   value="1924" >gt;1924<lt;/option>gt;<lt;option value="1923" >gt;1923<lt;/option>gt;<lt;option
-   value="1922" >gt;1922<lt;/option>gt;<lt;option value="1921" >gt;1921<lt;/option>gt;<lt;option
-   value="1920" >gt;1920<lt;/option>gt;<lt;/select>gt;<lt;/div>gt;<lt;div
-   id="wpforms-8315-field_6-container" class="wpforms-field
-   wpforms-field-hidden" data-field-id="6">gt;<lt;input type="hidden"
-   id="wpforms-8315-field_6" name="wpforms[fields][6]"
-   value="https://nationaltoday.com/national-sit-with-a-stranger-day/">gt;<lt;/d
-   iv>gt;<lt;div id="wpforms-8315-field_8-container" class="wpforms-field
-   wpforms-field-hidden" data-field-id="8">gt;<lt;input type="hidden"
-   id="wpforms-8315-field_8" name="wpforms[fields][8]" value="2023-01-02
-   06:05:23">gt;<lt;/div>gt;<lt;div id="wpforms-8315-field_10-container"
-   class="wpforms-field wpforms-field-hidden" data-field-id="10">gt;<lt;input
-   type="hidden" id="wpforms-8315-field_10" name="wpforms[fields][10]"
-   value="wpforms">gt;<lt;/div>gt;<lt;/div>gt;<lt;div class="wpforms-field
-   wpforms-field-hp">gt;<lt;label for="wpforms-8315-field-hp"
-   class="wpforms-field-label">gt;Message<lt;/label>gt;<lt;input type="text"
-   name="wpforms[hp]" id="wpforms-8315-field-hp"
-   class="wpforms-field-medium">gt;<lt;/div>gt;<lt;div
-   class="wpforms-submit-container">gt;<lt;input type="hidden"
-   name="wpforms[id]" value="8315">gt;<lt;input type="hidden"
-   name="wpforms[author]" value="71525">gt;<lt;input type="hidden"
-   name="wpforms[post_id]" value="67743">gt;<lt;button type="submit"
-   name="wpforms[submit]" id="wpforms-submit-8315" class="wpforms-submit
-   om-trigger-conversion" aria-live="assertive"
-   value="wpforms-submit">gt;Submit<lt;/button>gt;<lt;/div>gt;<lt;/form>gt;<lt;/div>gt; <lt;!--
-   .wpforms-container -->gt;
 </text>
 </page> §
 <page="URL_stranger-15">
@@ -43676,35 +43469,35 @@ Bipartisan bill would end ‘stranger loophole’ for restraining orders
    by Nikita Biryukov, New Jersey Monitor
    July 21, 2022
 
-   <lt;h1>gt;Bipartisan bill would end ‘stranger loophole’ for re____
-   <lt;p>gt;by Nikita Biryukov, <lt;a href="https://newjerseymonitor.com
-    <lt;p>gt;A bipartisan set of New Jersey lawmakers want to expand 
-   <lt;p>gt;Restraining orders are meant to protect victims of domest
-   <lt;p>gt;Under state statute, the only times restraining orders ca
-   <lt;p>gt;While the individual provisions of a given order vary dep
-   <lt;p>gt;Sen. Jon Bramnick (R-Union) said he signed on as a co-spo
-   <lt;p>gt;“Long story short, she goes to the police station, the __
-   <lt;p>gt;The woman has since filed criminal charges, but the stalk
-   <lt;p>gt;It’s possible for an adult stalking victim to get a res__
-   <lt;p>gt;“The sort of loophole here is where a conviction hasn’___
-   <lt;p>gt;Alleged stalkers might be barred from contacting the vict
-   <lt;p>gt;If a defendant violates the restraints set by an order, t
-   <lt;p>gt;The bill has been referred to the Senate Judiciary Commit
-   <lt;p>gt;    <lt;a href="/subscribe">gt;________________________________
-       <lt;div class="subscribeShortcodeContainer">gt;_______________
-           <lt;div class="subscribeTextContainer">gt;________________
-   			<lt;i>gt;<lt;/i>gt;__________________________________________________
-               <lt;p>gt;GET THE MORNING HEADLINES DELIVERED TO YOUR I
-           <lt;/div>gt;______________________________________________
-           <lt;div class="subscribeButtonContainer">gt;______________
+   
+   
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       
+           
+   			 
+               
+           
+           
                SUBSCRIBE_______________________________________
-           <lt;/div>gt;______________________________________________
-       <lt;/div>gt;__________________________________________________
-       <lt;/a>gt;____________________________________________________
+           
+       
+       
    	___________________________________________________________
-   <lt;style>gt; figure, .tipContainer, .socContainer, .subscribeShor
+   
    ____________________________________________________________
-    <lt;p>gt;<lt;a href="https://newjerseymonitor.com">gt;New Jersey Monito
+    
    View Republishing Guidelines
    (BUTTON) Copy to clipboard
    1
