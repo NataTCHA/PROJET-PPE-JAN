@@ -7,6 +7,7 @@
 -maj le nuage fr grace à nltk
 - rentrer le journal de bord avec les difficultés rencontrées dans le site
 - href des scripts dans le site
+-RANGER et finaliser les chemins pour le beau css final
 
 
 - Home / prblmatik => Ali
