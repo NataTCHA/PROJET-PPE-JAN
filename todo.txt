@@ -5,6 +5,8 @@
 -agrandir et arranger le css des tableaux concordances ( dans le coin en haut à gauche c'est chelou c'est pas bien )
 -retirer des tableaux de concordances les lignes error et vide
 -maj le nuage fr grace à nltk
+- rentrer le journal de bord avec les difficultés rencontrées dans le site
+- href des scripts dans le site
 
 
 - Home / prblmatik => Ali
