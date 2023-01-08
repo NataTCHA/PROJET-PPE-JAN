@@ -3,6 +3,8 @@
 - analyse => Observations
 - trouver des images
 -agrandir et arranger le css des tableaux concordances ( dans le coin en haut à gauche c'est chelou c'est pas bien )
+-retirer des tableaux de concordances les lignes error et vide
+
 
 - Home / prblmatik => Ali
 - rediger script => Natou
