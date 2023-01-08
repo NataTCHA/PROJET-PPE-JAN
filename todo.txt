@@ -1,5 +1,6 @@
 - Changer la nav bar sur tt onglets
 - blank sur logo SN
+- préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
 - analyse => Observations
 - trouver des images
 -agrandir et arranger le css des tableaux concordances ( dans le coin en haut à gauche c'est chelou c'est pas bien )
