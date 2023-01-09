@@ -326,8 +326,11 @@ a:focus {
   padding: 12px 0 !important;
 }
 .navbar .navbar-item {
+
   padding: 0;
 }
+
+
 .navbar .navbar-link:not(.quote-btn) {
   font-family: "Source Sans Pro", sans-serif;
   color: #f5f5f5;
