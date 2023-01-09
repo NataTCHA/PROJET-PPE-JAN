@@ -120,7 +120,8 @@
      
 <!--  Section site base -->
 <div class="box">
-   <img src="images/fox2.jpg" width="35%"/>  
+   <img class="scripimage" src="images/fox2.jpg" width="35%"/>  
+</br></br>
         <h2 class="title">Comment avons-nous fait ?</h2>
     <p> Nous avons réalisé 3 scripts différents pour la constitution et l'analyse de nos corpus. C'est scripts ont été réalisés durant les séances de cours et au fil de nos exercices personnels.</p>
     <p>Les 3 scripts que nous avons rédigés sont :
@@ -152,7 +153,7 @@
 <p> Tout d'abord nous avons téléchargé le <b>script traitement_url_base.sh</b> puis nous avons installé et utilisé <b>curl</b> afin de completer ce script.</p>
 <br>
 <p>La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
-
+</br></br>
 <img class="scripimage" src="images/Scripts/recupurl.png" width="70%"/>  
 <br>
 <p>Les entêtes qui nous ont interessées sont les suivantes :</p>
@@ -169,7 +170,7 @@
 
 <p>Lorsque le contenu de la page URL n'est pas de l'UTF-8 nous sommes embetées , en effet le traitement d'une page non UTF-8 peut poser des problemes pour la lecture des accents. Il nous paraît egalement fastidieux de traiter des pages n'ayant pas le même encodage. </p>
 <p> Pour eviter les problèmes nous le convertissons avec iconv pour n'avoir que de l'UTF-8.</p>
-<img class="scripimage" src="images/Scripts/enco1.png" width="70%"/>  
+</br></br><img class="scripimage" src="images/Scripts/enco1.png" width="70%"/>  
 
 <br>
 
@@ -178,18 +179,18 @@
 <p>Nos URLs vérifiées, nous voulons les stocker dans un tableau html afin d'avoir plus de visibilités et un recueil de données.</p>
 <br>
 <img class="scriptimg" src="images/Scripts/tablurl1.png"/>  
-<p>fermeture du tableau html avec l'intégralité des donnéees</p>
-<img class="scripimage" src="images/Scripts/tablurl1.png" width="100%"/>  
+</br></br><p>fermeture du tableau html avec l'intégralité des donnéees :</p>
+</br><img class="scripimage" src="images/Scripts/tablurl1.png" width="100%"/>  
 <br>
 
 <p>Après avoir traité nos URLs , nous avons pu passer à l'étape suivante: récuperer le contenu textuel de nos pages.</p>
 <p> La commande <b>Lynx</b> nous permet de recuperer le contenu textuel d'une page </p>
-</p> <img class="scripimage" src="images/Scripts/lynx.png" width="70%"/> </p>
+</br></br></p> <img class="scripimage" src="images/Scripts/lynx.png" width="70%"/> </p>
 <br>
 
 <br>
 <p>Le but de notre projet est d'analyser un ou plusieurs mots, de ce fait nous avons commencé à nous soucier de ce mot. Nous avons ajouté un compteur permettant de compter le nombre d'occurence de nos mots dans les dumps</p>
-<img class="scripimage" src="images/Scripts/count.png" width="70%"/>
+</br></br><img class="scripimage" src="images/Scripts/count.png" width="70%"/>
 
 <br>
 
@@ -198,48 +199,48 @@
           
 
            <p> Pour stocker les aspirations, dumps, contexte nous avons crée des dossiers permettant de stocker ces données et également necessaires au fonctionnement du script</p>
-           <img class="scripimage" src="images/Scripts/folder2.png" width="20%"/> 
+         </br></br> <img class="scripimage" src="images/Scripts/folder2.png" width="20%"/> 
           <br>
     
           
            <p>Le traitement de l'url ne sera pas le même en fonction de son entête. En effet si il renvoit le code 200 nous allons incrementer son dump à une variable. A contrario si l'URL renvoi un autre code nous utiliseront un dump vide</p>
-           <img class="scripimage" src="images/Scripts/entete.png" width="75%"/>  
+         </br></br>  <img class="scripimage" src="images/Scripts/entete.png" width="75%"/>  
            <br>
            <p>L' aspiration des pages et dump textuel se font donc sur les URL ayant le code 200, ces données sont directement envoyées aux dossiers crées au préalable</p>
-           <img class="scripimage" src="images/Scripts/aspi.png" width="70%"/>
-           <img class="scripimage" src="images/Scripts/dump.png" width="70%"/>
+         </br></br> <img class="scripimage" src="images/Scripts/aspi.png" width="70%"/>
+      </br></br> <img class="scripimage" src="images/Scripts/dump.png" width="70%"/>
            <br>
            
            <p>Pour ajouter le contexte du motif inséré par l'utilisateur , nous nous sommes documenté sur la manuel de 'grep' nous pouvons voir que les options A et B suivi d'un chiffre permettent de trouver ce qu'il y a après le mot et avant " after, before" le chiffre permet de mentionner la longueur de contexte que nous voulons en ligne.</p>
-           <img class="scripimage" src="images/Scripts/contexte.png" width="70%"/>
+         </br></br>    <img class="scripimage" src="images/Scripts/contexte.png" width="70%"/>
            <br>
            <p class="panel-heading">
                Script Concordance
              </p>
              <p>Suite à nos aspirations nous voulons créer un concordancier qui nous permettra de voir le contexte droit et gauche du motif.</p>
              <p>Pour ce faire, nous utilisons la commande bash ci-dessous qui nous permet de lancer notre futur script de concordancier</p>
-             <img class="scripimage" src="images/Scripts/bash.png" width="100%"/>  
-             <p>Nous pouvons voir un fait interessant dans la dernière partie de la commande : </p>
-             <img class="scripimage" src="images/Scripts/folderconcor.png" width="110%"/> 
-             <p> Les données du script concordances seront envoyées dans un fichier nommé <i>concordance</i>.
+            </br></br>    <img class="scripimage" src="images/Scripts/bash.png" width="100%"/>  
+         </br></br> <p>Nous pouvons voir un fait interessant dans la dernière partie de la commande : </p>
+            </br></br>   <img class="scripimage" src="images/Scripts/folderconcor.png" width="110%"/> 
+         </br></br>  <p> Les données du script concordances seront envoyées dans un fichier nommé <i>concordance</i>.
              Il est donc primordial de créer ce dossier.</p>
-             <img class="scripimage" src="images/Scripts/folder.png" width="20%"/>  
-             <p>Ce script contiendra deux arguments , le premier est le fichier dump : c'est sur ce ficher que ce produira l'analyse du contexte du motif, le deuxieme argument est le motif utilisé sur le scriptaspi.</p>
+            </br></br>    <img class="scripimage" src="images/Scripts/folder.png" width="20%"/>  
+         </br></br>  <p>Ce script contiendra deux arguments , le premier est le fichier dump : c'est sur ce ficher que ce produira l'analyse du contexte du motif, le deuxieme argument est le motif utilisé sur le scriptaspi.</p>
              <p>Pour éviter les problèmes nous mettons la condition d'avoir 2 arguments pour lancer le script.
-             <img class="scripimage" src="images/Scripts/arg.png" width="50%"/>  
-             <p>Nous voulons les resultats sous forme de tableaux. De ce fait dans le script concordance nous allons faire un tableau html.</p>
-             <img class="scripimage" src="images/Scripts/tableauhtml.png" width="100%"/>  
-            <p>Afin de mettre en forme le contexte droit et gauche nous utilisons la commande ci-dessous :</p>
-             <img class="scripimage" src="images/Scripts/concordanceregex.png" width="110%"/>  
-             <p>Avec la fonction grep nous captons le contexte gauche du motif à l'aide d'une expresion régulière <i>(\w+\W+){0,5}</i> de même pour le contexte droit.</p>
+            </br></br>   <img class="scripimage" src="images/Scripts/arg.png" width="50%"/>  
+         </br></br>  <p>Nous voulons les resultats sous forme de tableaux. De ce fait dans le script concordance nous allons faire un tableau html.</p>
+            </br></br>   <img class="scripimage" src="images/Scripts/tableauhtml.png" width="100%"/>  
+         </br></br>   <p>Afin de mettre en forme le contexte droit et gauche nous utilisons la commande ci-dessous :</p>
+         </br></br>   <img class="scripimage" src="images/Scripts/concordanceregex.png" width="110%"/>  
+      </br></br>   <p>Avec la fonction grep nous captons le contexte gauche du motif à l'aide d'une expresion régulière <i>(\w+\W+){0,5}</i> de même pour le contexte droit.</p>
              <p>Suite à ca nous avons le contexte droit et gauche. Maintenant il faut l'ajouter à notre tableau de manière ordonnée</p>
              <p>Maintenant interessons nous à la deuxieme partie de la commande:</p>
-             <img class="scripimage" src="images/Scripts/sed.png" width="110%"/> 
-             <p>Nous mettons 3 élèment entre parenthèse.</p> 
+            </br></br>   <img class="scripimage" src="images/Scripts/sed.png" width="110%"/> 
+         </br></br>  <p>Nous mettons 3 élèment entre parenthèse.</p> 
              <p>Les parenthèses nous permettent de completer notre tableau comme nous le voulons. En effet le contenu de la première partie peut être extrait en l'appelant 1, le deuxieme élèment qui est le motif sera deux , enfin la parenthèse se trouvant à sa gauche sera 3</p>
              <p>Nous répartissons ces chiffres dans les colonnes du tableau en sachant que 1 est le contexte gauche , 2 le motif puis 3 le contexte droit.</p>
              <p>Une fois cela fait nous avons notre concordancier qui a cet aspect :</p>
-             <img class="scripimage" src="images/Scripts/aspectconcor.png" width="40%"/> 
+            </br></br>   <img class="scripimage" src="images/Scripts/aspectconcor.png" width="40%"/> 
            
            <br>
        
