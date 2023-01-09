@@ -3,12 +3,10 @@
 - changer 
 
 - préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
-
--maj le nuage fr grace à nltk
 - href des scripts dans le site
--RANGER et finaliser les chemins pour le beau css final
 
 
-- Home / prblmatik => Ali
-- rediger script => Natou
+
+- Home / prblmatik => Ali OK
+- rediger script => Natou OK
 - rediger demarche iTrameur => Ju
