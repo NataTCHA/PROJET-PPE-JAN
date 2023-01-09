@@ -1,0 +1,72 @@
+   {{ message }}
+
+   matthuhiggins / foreigner Public
+     * Notifications
+     * Fork 125
+--
+     * Insights
+
+matthuhiggins/foreigner
+
+   This commit does not belong to any branch on this repository, and may
+--
+   0496762 Nov 21, 2016
+   Merge pull request #178 from f3ndot/patch-1
+Update README to say foreigner is obsolete in Rails 4.2
+
+   0496762
+--
+
+
+   foreigner.gemspec
+
+
+   (BUTTON) View code
+   Foreigner Installation API Examples Change Table Methods
+   Database-specific options Foreigner Add-ons License
+
+README.md
+
+Foreigner
+
+   Build Status Code Climate
+
+   Foreigner introduces a few methods to your migrations for adding and
+   removing foreign key constraints. It also dumps foreign keys to
+   schema.rb.
+--
+     * sqlite (foreign key methods are a no-op)
+
+   Foreigner was rendered obsolete in Rails 4.2. The migration DSL
+   supports foreign keys out of the box via add_foreign_key and
+   remove_foreign_key.
+--
+
+   Add the following to your Gemfile:
+gem 'foreigner'
+
+API Examples
+
+   Foreigner adds two methods to migrations.
+     * add_foreign_key(from_table, to_table, options)
+     * remove_foreign_key(from_table, to_table, options)
+--
+Change Table Methods
+
+   Foreigner adds extra methods to create_table and change_table.
+
+   Create a new table with a foreign key:
+--
+Database-specific options
+
+   Database-specific options will never be supported by foreigner. You can
+   add them using :options:
+add_foreign_key(:comments, :posts, options: 'ON UPDATE DEFERRED')
+
+Foreigner Add-ons
+
+     * immigrant - generate a migration that includes all missing foreign
+       keys.
+     * sqlserver-foreigner - A plugin for SQL Server.
+
+License

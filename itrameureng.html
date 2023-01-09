@@ -1,362 +1,323 @@
-<!doctype html>
-<html lang="fr"><head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="description" content="sulfur,business,company,agency,multipurpose,modern,bootstrap4">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Programmation et Projet encadré</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
 
-   <meta name="author" content="themefisher.com">
+<body>                 
+    <div class="container">
+        <!--Logo SN -->
+        <center><a href="http://www.univ-paris3.fr/"><img src="logo.png" width="20%" ></a></center>
+        <div class="columns">
+            <div class="column is-18">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-header">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <nav class="navbar is-light is-warning">
+                            <div class="navbar-brand">
+                                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                            <div class="navbar-menu" id="navMenu">
+                                <div class="navbar-end">
+                                    <a href="index.html" class="navbar-item" > Home </a>
+                                        <div class="navbar-item has-dropdown is-hoverable">
+                                            <a class="navbar-link"> Les Tableaux </a>
+                                                <div class="navbar-dropdown">
+                                                    <a href="tableau_fr.html" class="navbar-item"> Français </a>
+                                                    <a href="tableau_all.html" class="navbar-item"> Allemand </a>
+                                                    <a href="tableau_eng.html" class="navbar-item"> Anglais </a>
+                                                    <hr class="navbar-divider">
+                                                    <a class="navbar-item"> Report an issue </a>
+                                                </div>
+                                        </div>
+                                        <a href="scripts.html"class="navbar-item"> Scripts </a>
+                                            <div class="navbar-item has-dropdown is-hoverable">
+                                        <a class="navbar-link"> Itrameur </a>
+                                        <div class="navbar-dropdown">
+                                                <a href="itrameurfr.html" class="navbar-item"> Français </a>
+                                                <a href="itrameurall.html" class="navbar-item"> Allemand </a>
+                                                <a href="itrameureng.html" class="navbar-item"> Anglais </a>
+                                                
+                                                <hr class="navbar-divider">
+                                            <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
+                                            </div>
+                                            </div>
+                                            <div class="navbar-item has-dropdown is-hoverable">
+                                        <a class="navbar-link"> Nuage de mots </a>
+                                                <div class="navbar-dropdown">
+                                                <a href="cloudfr.html" class="navbar-item"> Français </a>
+                                                <a href="cloudall.html" class="navbar-item"> Allemand </a>
+                                                <a href="cloudeng.html" class="navbar-item"> Anglais </a>
+                                                
+                                                <hr class="navbar-divider">
+                                            <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
+                                            </div>
+                                            </div>
+                                        <a href="analyse.html" class="navbar-item"> Analyse </a>
+                                        <a href="about.html" class="navbar-item"> À propos de nous </a>
+                            
+                                    </div>
+                                    <div class="navbar-end">
+                                    
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                                    <div id="script" data-tab-content>
+                        <p><div class="columns">
+                        <div class="column">
+                        
+                        </div>
+                        <div class="column is-two-thirds">
+                    
+                    <section class="hero is-primary">
+                        <div class="hero-body">
+                            <div class="container">
+                            <h1 class="title">
+                            Itrameur
+                            </h1>
+                            <h2 class="subtitle">
+                            Conception
+                            </h2>
+                            
+                            </div>
+                            </div>
+                            </section>
+                        
 
-   <title>PPE</title>
+                            <!--Contenu de la page -->
+                            <div class="box">
+                                <img src="images/fox2.jpg" width="35%"/>  
+                                <h2 class="title">Itrameur ENG</h2>
+                                <p>Une fois que nous avons effectué nos aspirations, nous pouvons enfin créer les corpus de texte finaux, ceux que nous analyserons avec iTrameur pour répondre à notre problématique. Les corpus iTrameur sont crées à partir de tous les fichiers texte de dump des pages aspirées : on ne veut
+                                que le texte pour pouvoir l'analyser ensuite. </p>
+                                <br>
+                                <p>Étant donné que nous avons trois mots différents en anglais, nous avions réalisés trois séquences d'aspirations différentes et avions donc obtenu trois dossiers différents. Chacun de ces dossiers ont du être traités différement dû au fonctionnement du programme.</p>
+                                <p>Une fois nos trois corpus de dumps-text crées, j'ai choisis de les réunir en un seul corpus. Pour ce faire, j'ai simplement crée un document avec une balise <b>&lsaquo;langue="ENG"&rsaquo;</b> qui englobe tous les corpus de l'anglais, chacun étant séparés par une balise <b>&lsaquo;mot&rsaquo;</b> ayant pour argument l'un des trois mot correspondants.
+                                </p>
+                                <p>C'est donc ce corpus <i>corpus_ENG.txt</i> que j'ai importé dans iTrameur.
+                                <br>
+                                Ce corpus est composé de 109 dumps textuels d'URLs exploitables (dont le code renvoyé lors de l'extraction est 200). En chargeant le corpus dans iTrameur, on peut voir que le corpus contient 223132 occurrences pour 25767 formes distinctes.</p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/1.png">
+                                <br>
+                                <p>L'importation et la segmentation se sont bien passées et nous pouvons donc vérifier que le corpus est bien formé en allant dans l’onglet <b>Cadre</b> à la rubrique <b>Cadre</b> qui permet de voir l’organisation du corpus et de vérifier l’imbrication des balises. </p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/2.png">
+                                <br>
+                                <br>
+                                <p>Nous avons donc pu nous assurer que notre corpus ne présentait aucun problème de balisage, chaque cadre étant délimité et correctement imbriqué dans le cadre dont il dépend.</p>
+                                <p><b>Le but de cette analyse est de définir le contexte, les conditions d'utilisation et la définition de chacun de termes avant de confronter ces résultats à leur équivalent traductionnels dans les autres langues étudiées (allemand et français) pour en comprendre les similarités et les différences</b></p>
+                                <br>
+                                <h1 class="title">
+                                    Stranger
+                                </h1>
+                                <br>
+                                <p>Commençons par nous intéresser aux formes <i>[Ss]trangers?</i>.</p>
+                                <br>
+                                <p class="panel-heading">
+                                    Dictionnaire
+                                </p>
+                                <br>
+                                <p>Tout d’abord, en allant dans la rubrique <b>“Trame” > ”Dictionnaire”</b> et en recherchant la forme <i>stranger</i>, qui correspond à notre sujet, nous avons pu observer la présence de diverses variétés de formes, toutes liées à notre recherche.</p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/3.png" width="60%">
+                                <br>
+                                <br>
+                                <p>Étant donné qu'iTrameur ne tient pas compte de la casse, nous pouvons observer toutes les variations de forme de notre recherche. Ainsi, notre corpus présentait les formes "stranger", avec ou sans majuscules, mais aussi la forme dérivée "strangers" avec ou sans majuscules aussi. La forme la plus courante est "stranger" avec Fq = 175.
+                                    Nous avons donc décidé d’utiliser la fonction <b>Concordance</b> pour observer les contextes d'apparition des formes <i>stranger</i> et <i>Stranger</i>. Notons que nous utilisons ici une partition par <b>page</b> car la forme apparaît aussi dans des pages aspirées correspondant à l'un des autre
+                                    mot.</p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/4.png" width="60%">
+                                <br>
+                                <br>
+                                <p>En observant les contextes, il est intéressant d'observer que le terme stranger apparaît souvent derrière le determinant indéfini <i>a</i> (équivalent de <i>un/une</i> en français). Pour vérifier cela, je me suis donc intéréssée aux coocurrents du mot.</p>
+                                <br>
+                                <p class="panel-heading">
+                                    Coocurrents
+                                </p>
+                                <br>
+                                <p>La fonction <b>“Coocs” > “Coocurrences”</b> d’iTrameur met en évidence la présence simultanée (mais non forcément contiguë) dans un fragment de texte des occurrences d'une forme donnée, <i>stranger</i> dans ce cas là et d'autres formes'.
+                                    Pour le paramétrage, j'ai fixé le nombre de termes droite à 2 et ai laissé la valeur de base pour le nombre de termes à gauche à (celle-ci étant égale à 10).
+                                </p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/5.png" width="50%">
+                                <br>
+                                <br>
+                                <p>On peut voir que notre hypothèse est vérifiée et que le mot <i>stranger</i> est très souvent associé à la forme <i>a</i> avec 88 occurences. Cette particularité nous renseigne sur le sens du mot : <i>stranger</i> désigne souvent une personne à la fois non identifiée par celui qui parle car inconnu. Et c'est ici qu'il est intéressant de remarquer qu'un équivalent traductionnel de "stranger" en français serait plutôt <i>inconnu</i>, <i>un inconnu</i>. </p>
+                                <br>
+                                <h1 class="title">
+                                    Outsider
+                                </h1>
+                                <br>
+                                <p>Intéressons nous maintenant à la deuxième forme de notre corpus : <i>outsider</i>.
+                                <br>Tout d'abord, comme précédemment, nous allons venir observer la fréquence du mot grâce au <b>Dictionnaire</b>. </p>
+                                <br>
+                                <p class="panel-heading">
+                                    Dictionnaire
+                                </p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/6.png" width="50%">
+                                <p>Ici, il est intéressant de remarquer que la forme avec majuscule initiale est plus fréquente que la forme miniscule. <br> De plus, on peut
+                                    remarquer la forme <i>outsiderish</i> dans la dernière ligne du tableau, néologisme qui n'apparaît qu'une seule fois dans le tableau. Notons que les guillemets visibles autour du mot semblent indiqué que la personne qui l'a employé 
+                                est consciente d'avoir fait un néologisme et d'avoir utilisé une forme qui n'existe pas et qui a été construite grâce au suffixe <i>-ish</i> qui permet la création d'adjectifs et qui sert à donner une valeur, un degré minimal à sa base. Ainsi, le mot signifierai ici quelque chose ou quelqu'un qui est <i>un peu</i> du domaine de l'<i>outsider</i>.
+                            <br>
+                            Pour expliquer ces divers phénomènes, intéressons-nous à présent aux contextes d'apparition de ces formes. </p>
+                            <br>
+                            <p class="panel-heading">
+                                Contextes
+                            </p>
+                            <br>
+                            <br>
+                            <img src="images/Anglais/7.png">
+                            <br>
+                            <p>En regardant les contextes de la première forme d'interêt <i>Outsider</i>, on peut voir que le mot est utilisé pour désigner un concept bien précis, celui d'<i>Outsider Art</i> qui désigne 
+                            l'art crée par des autodidactes ou des artistes sans formation ou connaisssances artistique et ne font pas partie du milieu artistique. Ici, même si le concept est spécifique à l'art, on peut tout de même 
+                            en tirer des informations sur le mot lui même : un outsider est quelqu'un qui ne fait pas partie d'un groupe donné et qui se soustrait donc de ses conventions, c'est quelqu'un de <i>l'extérieur</i>.</p>
+                            <br>
+                            <p>De plus, en regardant plus en profondeur les contextes, il est intéressant de remarquer que le mot peut être lié à une personne à l'identité définie ce qui le distingue du mot <i>stranger</i>.
+                            <br>Prenons par exemple ces trois occurences du mot : </p>
+                            <br>
+                            <img src="images/Anglais/8.png">
+                            <br>    
+                            <br>
+                            <img src="images/Anglais/15.png">
+                            <br>  
+                            <br>  
+                            <p>Ici, on ne parle pas d'une personne inconnue contrairement à précédemment mais d'une personne dont l'identité a été 
+                                définie.
+                            </p>
+                            <br>
+                            <br>
+                            <p>Enfin, intéressons-nous à la forme <i>"outsiderish"</i> qui apparait dans la phrase suivante :
+                            <br>
+                            <i>The confusion was more likely to result from “outsiderish” trends among trained artists than from any wish of outsiders to conform.</i>
+                            <br> Grâce à nos observations précédentes sur la notion <i>d'Outsider Art</i> il devient facile de comprendre ce néologisme : <i>"outsiderish" trends</i>
+                            signifie des modes (dans le domaine artistique) marquées par les spécificités de l' <i>Outsider Art</i>. Il est intéressant de remarquer que cette mise en parallèle 
+                            semble presque contradictoire et qu'elle met en avant une dimension positive dans l'utilisation d'<i>outsider</i> pour désigner quel'un ou quelque chose.</p>
+                            <br>
+                            <br>
+                            <h1 class="title">
+                                Foreigner
+                            </h1>
+                            <br>
+                            <p>Étudions maintenant le mot <i>foreigner</i>.</p>
+                            <br>
+                            <p class="panel-heading">
+                                Dictionnaire
+                            </p>
+                            <br>
+                            <img src="images/Anglais/9.png">
+                            <br>  
+                            <br>
+                            <p>En regardant les occurences du mot et de ses flexions, on peut remarquer que la forme plurielle <i>foreigners</i> 
+                                apparait très fréquemment et presque autant que la forme singulier. Ainsi, cela reflète une particularité d'utilisation du mot qui 
+                                est souvent utilisé pour désigner un groupe plutôt qu'un individu. Ceci est facilement observable en regardant les contextes d'apparition des occurrences : </p>
+                            <br>
+                            <img src="images/Anglais/19.png">
+                            <br>  
+                            <br>
+                            <p>Il n'est ici pas question d'identités distinctes mais d'un groupe distinct.</p>
+                            <br>
+                            <p class="panel-heading">
+                                Segments répétés
+                            </p>
+                            <br>
+                            <br>
+                            <p>En regardant les SR, j'ai remarqué plusieurs segements d'intérêt. </p>
+                            <br>
+                            <img src="images/Anglais/10.png">
+                            <br>
+                            <br>
+                            <img src="images/Anglais/11.png">
+                            <br>  
+                            <br>
+                            <img src="images/Anglais/12.png">
+                            <br>  
+                            <br>
+                            <p>Ces trois expressions renvoie à un aspect négatif de la condition de <i>foreigner</i> ce qui ne transparait pas forcément 
+                            lors de l'étude des deux autres formes et de leur contexte. Le concept de discrimination et de stéréotypes sont des idées récurrentes 
+                            lorsque que l'on s'intéresse à la notion d'étranger en tant que personne qui n'est pas d'un pays, d'une nation donnée. 
+                            Ce sont des difficultés auxquelles peuvent être confrontés ceux considérés comme étrangers.
+                            <br>Enfin l'idée d'être un étranger à jamais, <i>perpetual foreigner</i> marque une distinction significative avec les deux autres termes.
+                            <br>Un inconnu ou <i>stranger</i> ne l'est que lorsque qu'on ne le connait pas mais cet état peu facilement changer. Un <i>outsider</i> semble 
+                            être distinct du groupe par ce qu'il ne se conforme pas aux règles qui en assure la cohésion. Mais ce statut aussi peut évoluer.
+                            <br>Et pourtant un étranger en tant que <i>foreigner</i> semble pouvoir être condamné à le rester : ce qui le distingue du groupe semble donc ne pas pouvoir être 
+                            changé.</p>
+                            <p>Notons par ailleurs que ces idées sont liées comme le montre l'étude des contextes des SR dans lesquels ils apparaissent dans les même <b>pages</b>.</p>
+                            <br>
+                            <img src="images/Anglais/13.png">
+                            <br>  
+                            <br>
+                            <p class="panel-heading">
+                                Coocurrents
+                            </p>
+                            <br>
+                            <img src="images/Anglais/14.png">
+                            <br>  
+                            <br>
+                            <h1 class="title">
+                                Conclusion
+                            </h1>
+                            <br>
+                            <br>
+                            <p>Pour conclure, j'ai voulu voir s'il existait dans mes aspirations une page contenant les trois mots à la fois afin 
+                                de voir dans quel contexte ceux-ci pouvaient être rapprochés.
+                                <br>
+                                Pour ce faire, j'ai cherché les 3 pôles en même temps dans iTrameur et j'ai regardé le <b>Dictionnaire</b>. Grâce à cela, j'ai pu 
+                                relever la page correspondante à l'URL n°36 des URLs compilés pour <i>stranger</i>. </p>
+                                <br>
+                                <br>
+                                <img src="images/Anglais/16.png">
+                                <br>  
+                                <br>  
+                                <p>La page en question correspond à un article intitulé <i>The Need to belong is part of being Human</i> publié sur le site InterNation, site à destination des personnes souhaitant s'expatrier à l'étranger. </p>
+                                <br>
+                                <img src="images/Anglais/17.png">
+                                <br>  
+                                <p> Dans cet article, Ximena Veliz s'intéresse à l'envie d'être accepté, d'appartenir à un groupe qui n'est originellement pas le nôtre. Elle cite par ailleurs la définition de <i>foreigner</i> telle que 
+                                    notée dans le Oxford English Dictionnary. </p>
+                                <br>
+                                <img src="images/Anglais/18.png">
+                                <br>  
+                                <br>  
+                                <br>  
+                                <p>Dans la seconde définition, les trois termes semblent être synonymes, tous renvoyant à quelqu'un n'appartenant pas à un groupe social ou géographique.
+                                    <br> Pourtant, nous avons pu voir que, bien que les trois termes soient similaires, ils présente chacun des particularités bien spécifiques qui les distinguent entre eux.
+                                    Ainsi, un <i>outsider</i> désigne bien quelqu'un qui n'appartient pas à un groupe donné mais est souvent utilisé pour désigner quelqu'un en particulier
+                                     et peut même présenter un aspect positif : c'est quelqu'un qui se soustraie aux règles du groupe, soulignant un degré de liberté important pour ceux qui sont désignés comme tel.
+                                     <br>
+                                     Avec <i>stranger</i>, on peut perdre un peu cette dimension de groupe au profit d'une dimension plus personnelle : on est un <i>stranger</i> par rapport à quelqu'un, on est un inconnu 
+                                     par rapport à celui qui désigne. Ici, soulignons que la définition peut sembler porteuse d'un parti pris : le mot nous renseigne bien plus sur celui qui désigne que sur celui désigné.
+                                     <br>
+                                     Enfin <i>foreigner</i> englobe une dimension géographique forte.
+                                </p>
+                        </div>
 
-   <!-- bootstrap.min css -->
-   <link rel="stylesheet" href="plugins/bulma/bulma.min.css">
-   <!-- Icon Font Css -->
-   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-   <!-- AOS css -->
-   <link rel="stylesheet" href="plugins/animate-css/animate.css">
-   <link rel="stylesheet" href="plugins/aos/aos.css">
-   <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
-   <link rel="stylesheet" href="plugins/modal-video/modal-video.min.css">
-   <!-- Owl Carousel CSS -->
-   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-   <!-- Main Stylesheet -->
-   <link rel="stylesheet" href="css/style.css">
-
-</head><body>
-
-<!-- navigation -->
-<header class="navigation">
-	<nav id="navbar" class="navbar main-nav">
-		<div class="container">
-			<div class="navbar-brand ml-0">
-				<a class="navbar-item" href="index.html">
-					<!-- <img src="images/logo/logo.png" alt="logo"> -->
-					<h2 class="has-text-white" style="font-size:2rem">PPE</h2>
-				</a>
-				<button role="button" class="navbar-burger burger" data-hidden="true" data-target="navigation">
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-				</button>
-			</div>
-
-			<div class="navbar-menu mr-0" id="navigation">
-				<ul class="navbar-end">					 
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="index.html">Home</a>
-					</li>
-					
-					<li class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link is-arrowless">Extraction des URLS</a>
-						<div class="navbar-dropdown">
-							<a href="scripts.html" class="navbar-item"> Démarche </a>
-                      <a href="tableau_fr.html" class="navbar-item"> Tableau Français </a>
-                     <a href="tableau_all.html" class="navbar-item"> Tableau Allemand </a>
-                     <a href="tableau_eng.html" class="navbar-item"> Tableau Anglais </a>
-						</div>
-					</li>
-					
-               <li class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link is-arrowless">iTrameur</a>
-                  <div class="navbar-dropdown">
-                     <a href="demarche_itrameur.html" class="navbar-item"> Démarche </a>
-                     <a href="itrameurfr.html" class="navbar-item"> Corpus français </a>
-                     <a href="itrameurall.html" class="navbar-item"> Corpus allemand </a>
-                     <a href="itrameureng.html" class="navbar-item"> Corpus anglais </a>
-                  </div>
-               </li>
-
-               <li class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link is-arrowless">Nuage de mots</a>
-                  <div class="navbar-dropdown">
-                     <a href="cloudfr.html" class="navbar-item"> Nuage français </a>
-                     <a href="cloudall.html" class="navbar-item"> Nuages allemand </a>
-                     <a href="cloudeng.html" class="navbar-item"> Nuages anglais </a>
-                  </div>
-               </li>
-
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="analyse.html">Analyse</a>
-					</li>
-					
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="about.html">À propos de nous</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
-<!-- nav part end -->
-
-<section class="page-title bg-1">
-   <div class="container">
-      <div class="columns">
-         <div class="column is-12">
-            <div class="has-text-centered">
-               <!-- <p>News details</p> -->
-               <h1 class="text-capitalize mb-4 text-lg">Analyse iTrameur Anglais</h1>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
-<!--Titre de section-->
-<section class="section blog-wrap">
-   <div class="container">
-      <div class="columns is-desktop">
-   <div class="column is-12">
-      <div class="single-blog-item">
-         <div class="has-text-centered">
-            <span class="text-color text-sm letter-spacing is-uppercase mr-3">Stranger, foreigner, outsider : quelle différence ?</span>
-         </div>
-         <h2 class="mt-1 mb-4 has-text-centered"><a href="blog-single.html">Analyse :</a></h2>
-         <div class="blog-item-meta has-text-centered mb-5">
-            <span class="is-uppercase text-sm mr-3 letter-spacing">par Juliette M.</span>
-            <span class="is-uppercase text-sm letter-spacing"><i class="ti-time mr-1"></i>Janvier 2023</span>
-         </div>
-
-         <!--Contenu de la page-->
-         <div class="box">
-            <h2 class="title">Itrameur ENG</h2>
-            <p>Une fois que nous avons effectué nos aspirations, nous pouvons enfin créer les corpus de texte finaux, ceux que nous analyserons avec iTrameur pour répondre à notre problématique. Les corpus iTrameur sont crées à partir de tous les fichiers texte de dump des pages aspirées : on ne veut
-            que le texte pour pouvoir l'analyser ensuite. </p>
-            <br>
-            <p>Étant donné que nous avons trois mots différents en anglais, nous avions réalisés trois séquences d'aspirations différentes et avions donc obtenu trois dossiers différents. Chacun de ces dossiers ont du être traités différement dû au fonctionnement du programme.</p>
-            <p>Une fois nos trois corpus de dumps-text crées, j'ai choisis de les réunir en un seul corpus. Pour ce faire, j'ai simplement crée un document avec une balise <b>&lsaquo;langue="ENG"&rsaquo;</b> qui englobe tous les corpus de l'anglais, chacun étant séparés par une balise <b>&lsaquo;mot&rsaquo;</b> ayant pour argument l'un des trois mot correspondants.
-            </p>
-            <p>C'est donc ce corpus <i>corpus_ENG.txt</i> que j'ai importé dans iTrameur.
-            <br>
-            Ce corpus est composé de 109 dumps textuels d'URLs exploitables (dont le code renvoyé lors de l'extraction est 200). En chargeant le corpus dans iTrameur, on peut voir que le corpus contient 223132 occurrences pour 25767 formes distinctes.</p>
-            <br>
-            <br>
-            <img src="images/Anglais/1.png">
-            <br>
-            <p>L'importation et la segmentation se sont bien passées et nous pouvons donc vérifier que le corpus est bien formé en allant dans l’onglet <b>Cadre</b> à la rubrique <b>Cadre</b> qui permet de voir l’organisation du corpus et de vérifier l’imbrication des balises. </p>
-            <br>
-            <br>
-            <img src="images/Anglais/2.png">
-            <br>
-            <br>
-            <p>Nous avons donc pu nous assurer que notre corpus ne présentait aucun problème de balisage, chaque cadre étant délimité et correctement imbriqué dans le cadre dont il dépend.</p>
-            <p><b>Le but de cette analyse est de définir le contexte, les conditions d'utilisation et la définition de chacun de termes avant de confronter ces résultats à leur équivalent traductionnels dans les autres langues étudiées (allemand et français) pour en comprendre les similarités et les différences</b></p>
-            <br>
-            <h1 class="title">
-                Stranger
-            </h1>
-            <br>
-            <p>Commençons par nous intéresser aux formes <i>[Ss]trangers?</i>.</p>
-            <br>
-            <p class="panel-heading">
-                Dictionnaire
-            </p>
-            <br>
-            <p>Tout d’abord, en allant dans la rubrique <b>“Trame” > ”Dictionnaire”</b> et en recherchant la forme <i>stranger</i>, qui correspond à notre sujet, nous avons pu observer la présence de diverses variétés de formes, toutes liées à notre recherche.</p>
-            <br>
-            <br>
-            <img src="images/Anglais/3.png" width="60%">
-            <br>
-            <br>
-            <p>Étant donné qu'iTrameur ne tient pas compte de la casse, nous pouvons observer toutes les variations de forme de notre recherche. Ainsi, notre corpus présentait les formes "stranger", avec ou sans majuscules, mais aussi la forme dérivée "strangers" avec ou sans majuscules aussi. La forme la plus courante est "stranger" avec Fq = 175.
-                Nous avons donc décidé d’utiliser la fonction <b>Concordance</b> pour observer les contextes d'apparition des formes <i>stranger</i> et <i>Stranger</i>. Notons que nous utilisons ici une partition par <b>page</b> car la forme apparaît aussi dans des pages aspirées correspondant à l'un des autre
-                mot.</p>
-            <br>
-            <br>
-            <img src="images/Anglais/4.png" width="60%">
-            <br>
-            <br>
-            <p>En observant les contextes, il est intéressant d'observer que le terme stranger apparaît souvent derrière le determinant indéfini <i>a</i> (équivalent de <i>un/une</i> en français). Pour vérifier cela, je me suis donc intéréssée aux coocurrents du mot.</p>
-            <br>
-            <p class="panel-heading">
-                Coocurrents
-            </p>
-            <br>
-            <p>La fonction <b>“Coocs” > “Coocurrences”</b> d’iTrameur met en évidence la présence simultanée (mais non forcément contiguë) dans un fragment de texte des occurrences d'une forme donnée, <i>stranger</i> dans ce cas là et d'autres formes'.
-                Pour le paramétrage, j'ai fixé le nombre de termes droite à 2 et ai laissé la valeur de base pour le nombre de termes à gauche à (celle-ci étant égale à 10).
-            </p>
-            <br>
-            <br>
-            <img src="images/Anglais/5.png" width="50%">
-            <br>
-            <br>
-            <p>On peut voir que notre hypothèse est vérifiée et que le mot <i>stranger</i> est très souvent associé à la forme <i>a</i> avec 88 occurences. Cette particularité nous renseigne sur le sens du mot : <i>stranger</i> désigne souvent une personne à la fois non identifiée par celui qui parle car inconnu. Et c'est ici qu'il est intéressant de remarquer qu'un équivalent traductionnel de "stranger" en français serait plutôt <i>inconnu</i>, <i>un inconnu</i>. </p>
-            <br>
-            <h1 class="title">
-                Outsider
-            </h1>
-            <br>
-            <p>Intéressons nous maintenant à la deuxième forme de notre corpus : <i>outsider</i>.
-            <br>Tout d'abord, comme précédemment, nous allons venir observer la fréquence du mot grâce au <b>Dictionnaire</b>. </p>
-            <br>
-            <p class="panel-heading">
-                Dictionnaire
-            </p>
-            <br>
-            <br>
-            <img src="images/Anglais/6.png" width="50%">
-            <p>Ici, il est intéressant de remarquer que la forme avec majuscule initiale est plus fréquente que la forme miniscule. <br> De plus, on peut
-                remarquer la forme <i>outsiderish</i> dans la dernière ligne du tableau, néologisme qui n'apparaît qu'une seule fois dans le tableau. Notons que les guillemets visibles autour du mot semblent indiqué que la personne qui l'a employé 
-            est consciente d'avoir fait un néologisme et d'avoir utilisé une forme qui n'existe pas et qui a été construite grâce au suffixe <i>-ish</i> qui permet la création d'adjectifs et qui sert à donner une valeur, un degré minimal à sa base. Ainsi, le mot signifierai ici quelque chose ou quelqu'un qui est <i>un peu</i> du domaine de l'<i>outsider</i>.
-            <br>
-            Pour expliquer ces divers phénomènes, intéressons-nous à présent aux contextes d'apparition de ces formes. </p>
-            <br>
-            <p class="panel-heading">
-            Contextes
-            </p>
-            <br>
-            <br>
-            <img src="images/Anglais/7.png">
-            <br>
-            <p>En regardant les contextes de la première forme d'interêt <i>Outsider</i>, on peut voir que le mot est utilisé pour désigner un concept bien précis, celui d'<i>Outsider Art</i> qui désigne 
-            l'art crée par des autodidactes ou des artistes sans formation ou connaisssances artistique et ne font pas partie du milieu artistique. Ici, même si le concept est spécifique à l'art, on peut tout de même 
-            en tirer des informations sur le mot lui même : un outsider est quelqu'un qui ne fait pas partie d'un groupe donné et qui se soustrait donc de ses conventions, c'est quelqu'un de <i>l'extérieur</i>.</p>
-            <br>
-            <p>De plus, en regardant plus en profondeur les contextes, il est intéressant de remarquer que le mot peut être lié à une personne à l'identité définie ce qui le distingue du mot <i>stranger</i>.
-            <br>Prenons par exemple ces trois occurences du mot : </p>
-            <br>
-            <img src="images/Anglais/8.png">
-            <br>    
-            <br>
-            <img src="images/Anglais/15.png">
-            <br>  
-            <br>  
-            <p>Ici, on ne parle pas d'une personne inconnue contrairement à précédemment mais d'une personne dont l'identité a été 
-                  définie.
-            </p>
-            <br>
-            <br>
-            <p>Enfin, intéressons-nous à la forme <i>"outsiderish"</i> qui apparait dans la phrase suivante :
-            <br>
-            <i>The confusion was more likely to result from “outsiderish” trends among trained artists than from any wish of outsiders to conform.</i>
-            <br> Grâce à nos observations précédentes sur la notion <i>d'Outsider Art</i> il devient facile de comprendre ce néologisme : <i>"outsiderish" trends</i>
-            signifie des modes (dans le domaine artistique) marquées par les spécificités de l' <i>Outsider Art</i>. Il est intéressant de remarquer que cette mise en parallèle 
-            semble presque contradictoire et qu'elle met en avant une dimension positive dans l'utilisation d'<i>outsider</i> pour désigner quel'un ou quelque chose.</p>
-            <br>
-            <br>
-            <h1 class="title">
-                  Foreigner
-            </h1>
-            <br>
-            <p>Étudions maintenant le mot <i>foreigner</i>.</p>
-            <br>
-            <p class="panel-heading">
-                  Dictionnaire
-            </p>
-            <br>
-            <img src="images/Anglais/9.png">
-            <br>  
-            <br>
-            <p>En regardant les occurences du mot et de ses flexions, on peut remarquer que la forme plurielle <i>foreigners</i> 
-                  apparait très fréquemment et presque autant que la forme singulier. Ainsi, cela reflète une particularité d'utilisation du mot qui 
-                  est souvent utilisé pour désigner un groupe plutôt qu'un individu. Ceci est facilement observable en regardant les contextes d'apparition des occurrences : </p>
-            <br>
-            <img src="images/Anglais/19.png">
-            <br>  
-            <br>
-            <p>Il n'est ici pas question d'identités distinctes mais d'un groupe distinct.</p>
-            <br>
-            <p class="panel-heading">
-                  Segments répétés
-            </p>
-            <br>
-            <br>
-            <p>En regardant les SR, j'ai remarqué plusieurs segements d'intérêt. </p>
-            <br>
-            <img src="images/Anglais/10.png">
-            <br>
-            <br>
-            <img src="images/Anglais/11.png">
-            <br>  
-            <br>
-            <img src="images/Anglais/12.png">
-            <br>  
-            <br>
-            <p>Ces trois expressions renvoie à un aspect négatif de la condition de <i>foreigner</i> ce qui ne transparait pas forcément 
-            lors de l'étude des deux autres formes et de leur contexte. Le concept de discrimination et de stéréotypes sont des idées récurrentes 
-            lorsque que l'on s'intéresse à la notion d'étranger en tant que personne qui n'est pas d'un pays, d'une nation donnée. 
-            Ce sont des difficultés auxquelles peuvent être confrontés ceux considérés comme étrangers.
-            <br>Enfin l'idée d'être un étranger à jamais, <i>perpetual foreigner</i> marque une distinction significative avec les deux autres termes.
-            <br>Un inconnu ou <i>stranger</i> ne l'est que lorsque qu'on ne le connait pas mais cet état peu facilement changer. Un <i>outsider</i> semble 
-            être distinct du groupe par ce qu'il ne se conforme pas aux règles qui en assure la cohésion. Mais ce statut aussi peut évoluer.
-            <br>Et pourtant un étranger en tant que <i>foreigner</i> semble pouvoir être condamné à le rester : ce qui le distingue du groupe semble donc ne pas pouvoir être 
-            changé.</p>
-            <p>Notons par ailleurs que ces idées sont liées comme le montre l'étude des contextes des SR dans lesquels ils apparaissent dans les même <b>pages</b>.</p>
-            <br>
-            <img src="images/Anglais/13.png">
-            <br>  
-            <br>
-            <p class="panel-heading">
-                  Coocurrents
-            </p>
-            <br>
-            <img src="images/Anglais/14.png">
-            <br>  
-            <br>
-            <h1 class="title">
-                  Conclusion
-            </h1>
-            <br>
-            <br>
-             <p>Pour conclure, j'ai voulu voir s'il existait dans mes aspirations une page contenant les trois mots à la fois afin 
-            de voir dans quel contexte ceux-ci pouvaient être rapprochés.
-            <br>
-            Pour ce faire, j'ai cherché les 3 pôles en même temps dans iTrameur et j'ai regardé le <b>Dictionnaire</b>. Grâce à cela, j'ai pu 
-            relever la page correspondante à l'URL n°36 des URLs compilés pour <i>stranger</i>. </p>
-            <br>
-            <br>
-            <img src="images/Anglais/16.png">
-            <br>  
-            <br>  
-            <p>La page en question correspond à un article intitulé <i>The Need to belong is part of being Human</i> publié sur le site InterNation, site à destination des personnes souhaitant s'expatrier à l'étranger. </p>
-            <br>
-            <img src="images/Anglais/17.png">
-            <br>  
-            <p> Dans cet article, Ximena Veliz s'intéresse à l'envie d'être accepté, d'appartenir à un groupe qui n'est originellement pas le nôtre. Elle cite par ailleurs la définition de <i>foreigner</i> telle que 
-                notée dans le Oxford English Dictionnary. </p>
-            <br>
-            <img src="images/Anglais/18.png">
-            <br>  
-            <br>  
-            <br>  
-            <p>Dans la seconde définition, les trois termes semblent être synonymes, tous renvoyant à quelqu'un n'appartenant pas à un groupe social ou géographique.
-                <br> Pourtant, nous avons pu voir que, bien que les trois termes soient similaires, ils présente chacun des particularités bien spécifiques qui les distinguent entre eux.
-                Ainsi, un <i>outsider</i> désigne bien quelqu'un qui n'appartient pas à un groupe donné mais est souvent utilisé pour désigner quelqu'un en particulier
-                 et peut même présenter un aspect positif : c'est quelqu'un qui se soustraie aux règles du groupe, soulignant un degré de liberté important pour ceux qui sont désignés comme tel.
-                 <br>
-                 Avec <i>stranger</i>, on peut perdre un peu cette dimension de groupe au profit d'une dimension plus personnelle : on est un <i>stranger</i> par rapport à quelqu'un, on est un inconnu 
-                 par rapport à celui qui désigne. Ici, soulignons que la définition peut sembler porteuse d'un parti pris : le mot nous renseigne bien plus sur celui qui désigne que sur celui désigné.
-                 <br>
-                 Enfin <i>foreigner</i> englobe une dimension géographique forte.
-            </p>
-         </div>
-      </div>
-   </div>
-   </div>
-   </div>
-   </section>
-<!-- 
-   Essential Scripts
-   =====================================-->
-
-   <!-- Main jQuery -->
-   <script src="plugins/jquery/jquery.js"></script>
-   <script src="js/contact.js"></script>
-   <!--  Magnific Popup-->
-   <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-   <!-- Slick Slider -->
-   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-   <!-- Counterup -->
-   <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-   <script src="plugins/counterup/jquery.counterup.min.js"></script>
-   <script src="plugins/shuffle/shuffle.min.js"></script>
-   <script src="plugins/aos/aos.js"></script>
-   <script src="plugins/animate-css/wow.min.js"></script>
-   <script src="plugins/modal-video/jquery-modal-video.min.js"></script>
-  
-   <script src="js/script.js"></script>
-</body></html>
+                        </div>
+                            <div class="column">
+                        </div>
+                        </div></p>
+                    </div>
+    </div></div></div>
+    </div>
+</body>

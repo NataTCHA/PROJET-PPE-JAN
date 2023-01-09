@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JHPTP');</script>
+<!-- End Google Tag Manager -->  
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-91f65b8eb2c03037f7e",applicationID:"578652560"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<link rel="canonical" href="https://www.usccb.org/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" />
+<meta name="description" content="Issued by NCCB/USCC, November 15, 2000 Copyright © 2000, United States Catholic Conference, Inc. All rights reserved. ORDER COPIES: English | Spanish &amp;n..." />
+<link rel="alternate" hreflang="x-default" href="http://usccb.org" />
+<meta property="og:site_name" content="USCCB" />
+<meta property="og:url" content="https://www.usccb.org/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" />
+<meta property="og:title" content="Welcoming the Stranger Among Us: Unity in Diversity" />
+<meta property="og:description" content="Issued by NCCB/USCC, November 15, 2000 Copyright © 2000, United States Catholic Conference, Inc. All rights reserved. ORDER COPIES: English | Spanish &amp;n..." />
+<meta property="og:image" content="https://www.usccb.org/sites/default/files/usccb_logo_text.png" />
+<meta property="og:image:url" content="https://www.usccb.org/sites/default/files/usccb_logo_text.png" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@usccb" />
+<meta name="twitter:description" content="Issued by NCCB/USCC, November 15, 2000 Copyright © 2000, United States Catholic Conference, Inc. All rights reserved. ORDER COPIES: English | Spanish &amp;n..." />
+<meta name="twitter:title" content="Welcoming the Stranger Among Us: Unity in Diversity" />
+<meta name="twitter:creator" content="@usccb" />
+<meta name="twitter:url" content="https://www.usccb.org/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" />
+<meta name="twitter:image" content="https://www.usccb.org/sites/default/files/usccb_logo_text.png" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="facebook-domain-verification" content="gauokecuz02459bz4a64dlpolbtv4u" />
+<link rel="icon" href="/sites/default/files/Ox8RYeG3.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.usccb.org/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" />
+
+    <title>Welcoming the Stranger Among Us: Unity in Diversity | USCCB</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Qs6VMJ5tEvggt-euHSXz5aU2aVq1tVUMMLiOtLUNFc0.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_CHUiAE9bC-ie1TRzg_NKaq-SEwYt3_pHbrk0-CSVzTw.css" />
+
+    
+                <meta name="msvalidate.01" content="3269934155CEF2C15973D293DE678355" />
+    <link as="style" rel="stylesheet preload" media="screen and (min-width: 1025px)" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" crossorigin="anonymous">
+    <link as="style" rel="stylesheet preload" media="screen and (max-width: 1024px)" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" crossorigin="anonymous">
+    <link as="style" rel="stylesheet preload" media="screen and (min-width: 1025px)" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" crossorigin="anonymous">
+    <link as="style" rel="stylesheet preload" media="screen and (max-width: 1024px)" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" crossorigin="anonymous">
+    <link as="font" rel="preload" href="/themes/custom/ai/fonts/icons.woff2" type="font/woff2" crossorigin="anonymous">
+    <link as="font" rel="preload" href="/themes/custom/ai/fonts/icons.woff" type="font/woff" crossorigin="anonymous">
+  </head>
+  <body class="page-with-hero-image layout-no-sidebars full-width sticky-secondary-menu path-node page-node-type-page-office">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JHPTP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      
+<div class="layout-container">
+
+  <header id="header" role="banner">
+    <div class="container">
+        <div class="region region-logo">
+    <div id="block-ai-branding" class="block block-system block-system-branding-block">
+  
+    
+            <a href="/" title="USCCB" rel="home" class="site-logo">
+        <img src="/themes/custom/ai/usccb-logo.svg" alt="USCCB" />
+      </a>      
+    </div>
+
+  </div>
+
+        <div class="region region-header">
+    <div class="wrapper">
+      <div class="search-form block block-ai-search-form block-search-block" data-drupal-selector="search-form" id="block-searchblock">
+  
+    
+  <span class="toggler icon-search"></span>
+      <form action="/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" method="post" id="search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search form-item-search form-no-label">
+        <input data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="60" maxlength="128" placeholder="Search" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Go" class="button js-form-submit form-submit btn" />
+<input autocomplete="off" data-drupal-selector="form-vndlx-9i5cvuq72rcqcokipuy7iejpqxdr3lxrrt5ms" type="hidden" name="form_build_id" value="form-vnDLX-9i5cvuQ72rcqcoKIPUy7iEJpqxdr3lXrRT5ms" />
+<input data-drupal-selector="edit-search-form" type="hidden" name="form_id" value="search_form" />
+
+</form>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-menu-top-buttons-menu" id="block-menu-top-buttons" class="block block-menu navigation menu--top-buttons">
+            
+  <h2 class="visually-hidden" id="block-menu-top-buttons-menu">Menu: Top Buttons</h2>
+  
+
+        
+              <ul class="menu">
+                                         
+            
+      <li class="menu-item mobile-off">
+        <a href="/help-now" class="btn big" target="_self" container="mobile-off" data-drupal-link-system-path="node/25731">Help Now</a>
+              </li>
+                                     
+            
+      <li class="menu-item mobile-on">
+        <a href="https://bible.usccb.org/" class="btn big" container="mobile-on">Readings</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/search" class="icon icon-search no-label" data-drupal-link-system-path="search">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-menu-top-menu" id="block-menu-top" class="block block-menu navigation menu--top">
+            
+  <h2 class="visually-hidden" id="block-menu-top-menu">Menu: Top</h2>
+  
+
+        
+              <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="https://bible.usccb.org/" class="no-margin">Daily Readings</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://bible.usccb.org/readings/calendar" class="icon-calendar no-name">Daily Readings Calendar</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/mass-times" data-drupal-link-system-path="mass-times">Find a Parish</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/committees/protection-children-young-people/how-report-abuse" data-drupal-link-system-path="node/51478">Report Abuse</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+
+    </div>
+  </header>
+  <div id="primary_menu" role="banner">
+    <div class="container">
+        <div class="region region-primary-menu">
+    <nav role="navigation" aria-labelledby="block-ai-main-menu-menu" id="block-ai-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-ai-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                                         
+            
+      <li class="menu-item mobile-on">
+        <a href="https://bible.usccb.org/" container="mobile-on">Daily Readings</a>
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span class="linkoff">About USCCB</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/about" data-drupal-link-system-path="node/25775">Our Role &amp; Mission</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/about/strategic-plan" data-drupal-link-system-path="node/25780">Strategic Plan</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/about/leadership" data-drupal-link-system-path="node/25809">Leadership</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/about/bishops-and-dioceses" data-drupal-link-system-path="node/25779">Bishops and Dioceses</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices" data-drupal-link-system-path="node/25825">Offices &amp; Committees</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/committees/communications/usccb-general-assemblies">Plenary Assemblies</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/about/financial-reporting" data-drupal-link-system-path="node/25782">Financial Reporting</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/careers" data-drupal-link-system-path="node/25777">Careers</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Events</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/contact-us" data-drupal-link-system-path="node/25659">Contact</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span class="linkoff">Prayer &amp; Worship</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="https://bible.usccb.org/readings/calendar">Daily Readings Calendar</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/catholic-prayers" data-drupal-link-system-path="node/25816">Prayer</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/mass-times" data-drupal-link-system-path="mass-times">Search Mass Times</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/prayer-and-worship/the-mass" data-drupal-link-system-path="node/25850">The Mass</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/prayer-and-worship/sacraments-and-sacramentals" data-drupal-link-system-path="node/25826">Sacraments</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/prayer-and-worship/liturgy-of-the-hours" data-drupal-link-system-path="node/25818">Liturgy of the Hours</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/prayer-worship/liturgical-year" data-drupal-link-system-path="node/49484">Liturgical Year &amp; Calendar</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/prayer-and-worship/sacred-music-and-art" data-drupal-link-system-path="node/48300">Music &amp; Art</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span class="linkoff">Bible</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/bible/understanding-the-bible" data-drupal-link-system-path="node/25778">Understanding the Bible</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://bible.usccb.org/bible">Books of the Bible</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices/new-american-bible/approved-translations-bible" data-drupal-link-system-path="node/41935">Approved Translations</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/faq" data-drupal-link-system-path="taxonomy/term/8664">Bible FAQ</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices/new-american-bible/study-materials" data-drupal-link-system-path="node/41917">Study Materials</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices/new-american-bible/liturgy" data-drupal-link-system-path="node/41919">The Bible in Liturgy</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices/new-american-bible/permissions" data-drupal-link-system-path="node/41922">Bible Permissions</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span class="linkoff">Issues &amp; Action</span>
+                                <ul class="menu">
+                                         
+            
+      <li class="menu-item menu-item--expanded opened no-closed">
+        <a href="/topics" container="opened no-closed" data-drupal-link-system-path="node/25658">Topics</a>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/topics/catholic-safeguards" data-drupal-link-system-path="node/61199">Catholic Safeguards</a>
+              </li>
+        </ul>
+  
+              </li>
+                                     
+            
+      <li class="menu-item menu-item--expanded opened no-closed">
+        <span class="linkoff" container="opened no-closed">Act Now</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/help-now" data-drupal-link-system-path="node/25731">Help Now</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/take-action" data-drupal-link-system-path="node/30414">Take Action</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://www.votervoice.net/USCCB/home" target="_blank">Contact Public Officials</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Meetings &amp; Events</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/get-connected" data-drupal-link-system-path="node/25811">Get Connected</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/take-action-now/pray" data-drupal-link-system-path="node/25851">Pray</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                                     
+            
+      <li class="menu-item menu-item--expanded align-right">
+        <span class="linkoff" container="align-right">News</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/newsroom" data-drupal-link-system-path="newsroom">Newsroom</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://www.usccb.org/newsroom" target="_blank">Catholic News Service</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/offices/public-affairs" data-drupal-link-system-path="node/40">Public Affairs</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/podcasts">Catholic Current Podcasts</a>
+              </li>
+        </ul>
+  
+              </li>
+                                     
+            
+      <li class="menu-item menu-item--expanded align-right">
+        <span class="linkoff" container="align-right">Resources</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/resources" data-drupal-link-system-path="node/25748">Resource Library</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://www.usccb.org/beliefs-and-teachings/what-we-believe/catechism/catechism-of-the-catholic-church">Catechism of the Catholic Church</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/get-connected" data-drupal-link-system-path="node/25811">Get Connected</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/subscribe/email" data-drupal-link-system-path="node/50856">Subscribe</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://www.catholicnews.com/movie-reviews/" target="_blank">Movie Reviews</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Events Calendar</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="https://catholiccurrent.org/" title="USCCB Resources for dioceses and parishes">Parish Resources</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-colorlogo" class="b-color-logo block block-block-content block-block-content5534465a-42df-4b11-82cb-96e7d65a867e">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="/"><img alt="United States Conference of Catholic Bishops" src="/themes/custom/ai/images/usccb-logo-color.svg" /></a></div>
+      
+  </div>
+<div class="search-form mobile block block-ai-search-form block-search-block" data-drupal-selector="search-form-2" id="block-searchblock-2">
+  
+    
+      <form action="/committees/pastoral-care-migrants-refugees-travelers/welcoming-stranger-among-us-unity-diversity" method="post" id="search-form--2" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search form-item-search form-no-label">
+        <input data-drupal-selector="edit-search" type="text" id="edit-search--2" name="search" value="" size="60" maxlength="128" placeholder="Search" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Go" class="button js-form-submit form-submit btn" />
+<input autocomplete="off" data-drupal-selector="form-olx86-kxjhpcrt96mkz442-griw7n3de7zsty9z5-e" type="hidden" name="form_build_id" value="form-OlX86_kxjhPCrT96mKz442-gRIw7n3de7ZSty9Z5__E" />
+<input data-drupal-selector="edit-search-form-2" type="hidden" name="form_id" value="search_form" />
+
+</form>
+
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+    <div class="region region-hero">
+    <div id="block-topics-header-block" class="block block-ai-topics-helper block-topics-header-block">
+  
+    
+      
+  <div class="clear-both wr-block b-hero-topic no-container bg-blue">
+    <div class="container">
+      <div class="row">
+        <div class="p-wrap">
+          <div class="innerblock">
+            <div class="container">
+              <div class="block-8-4">
+                <div class="first">
+                                      <h4> Pastoral Care of Migrants, Refugees, &amp; Travelers </h4>
+                                    <h1>Welcoming the Stranger Among Us: Unity in Diversity</h1>
+                </div>
+                <div class="second">
+                  <ul>
+                                                              <li>
+                        <a href="https://twitter.com/USCulturalDiver" target="_blank" rel="nofollow">
+                          <span class="icon-twitter"></span>
+                                                      <span>@USCulturalDiver</span>
+                                                         
+                        </a>
+                      </li>
+                                                          </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-menu-secondary">
+    <div class="container">
+      <div class="row">
+        <h5 class="title">Welcoming the Stranger Among Us: Unity in Diversity</h5>
+        <nav role="navigation" class="container">
+          
+              <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/committees/pastoral-care-migrants-refugees-travelers" data-drupal-link-system-path="node/30486">Home</a>
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span>About</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/who-we-are.cfm">Who We Are</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span>Resources</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/demographics/index.cfm">Demographics</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/links.cfm">Catholic Organizations</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/index.cfm">Other Resources</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span>Initiatives</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="https://www.usccb.org/committees/pastoral-care-migrants-refugees-travelers/african-national-eucharistic-congress-2021">African National Eucharistic Congress (ANEC)</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item menu-item--expanded">
+        <span>Ministries</span>
+                                <ul class="menu">
+                           
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/people-on-the-move/index.cfm">People on the Move</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/apostleship-of-the-sea/index.cfm">Stella Maris</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/ethnic-ministries/index.cfm">Ethnic Ministries</a>
+              </li>
+        </ul>
+  
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/news/index.cfm">News &amp; Events</a>
+              </li>
+                       
+            
+      <li class="menu-item">
+        <a href="/contact-us?office=Subcommittee%20on%20Pastoral%20Care%20of%20Migrants%20Refugees%20Travelers" data-drupal-link-query="{&quot;office&quot;:&quot;Subcommittee on Pastoral Care of Migrants Refugees Travelers&quot;}" data-drupal-link-system-path="node/25659">Contact</a>
+              </li>
+        </ul>
+  
+
+
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="wr-block b-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+            <h3 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h3>
+            <ol>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/committees/pastoral-care-migrants-refugees-travelers">Pastoral Care of Migrants, Refugees, &amp; Travelers</a>
+              </li>
+                            <li>
+                Welcoming the Stranger Among Us: Unity in Diversity
+              </li>
+            </ol>
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+  </div>
+
+  
+  <main id="page" role="main"  class="no-margin-top">
+    <div id="page-container" class="container">
+      <a id="main-content" tabindex="-1"></a>
+      <div id="layout-content">
+        
+          <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-ai-content" class="block block-system block-system-main-block">
+  
+    
+          <div class="panel--type--text-item panel--view-mode--default migrated wr-block b-text width-minus bg-container bg-white padding-top-xl padding-bottom-s margin-bottom-m">
+    		<div class="container">
+			<div class="row">
+				<div class="p-wrap col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+					<div class="innerblock">
+						<h2><em>Issued by NCCB/USCC, November 15, 2000</em></h2>
+
+<p><em>Copyright © 2000, United States Catholic Conference, Inc. All rights reserved.</em></p>
+
+<p> </p>
+
+<p class="text-smallcaps">ORDER COPIES: <a href="http://www.usccbpublishing.org/productdetails.cfm?PC=287" id="http://www.usccbpublishing.org/productdetails.cfm?PC=287|" target="_blank">English</a> | <a href="http://www.usccbpublishing.org/productdetails.cfm?PC=288" id="http://www.usccbpublishing.org/productdetails.cfm?PC=288|">Spanish</a></p>
+
+<p> </p>
+
+<p> </p>
+
+<h2>Contents</h2>
+
+<p> </p>
+
+<ul type="square"><li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#summary" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#summary,744|">Summary</a><br />
+	 </li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#introduction" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#introduction,744|">Introduction: An Immigrant Church, Then and Now</a><br />
+	The Immigrant Church Today<br />
+	Who Are the New Immigrants?<br />
+	The Migration for Survival
+	<ul><li><em>Undocumented Immigrants</em></li>
+	</ul>
+	Immigrant Families and Their Communities<br />
+	The New Immigration and the Church<br />
+	 </li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#church" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#church,744|">The Calling of the Church</a><br />
+	A Tradition of Welcome and Pastoral Concern<br />
+	 </li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#conversion" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#conversion,744|">A Call to Conversion</a><br />
+	Forgetful of Our Heritage<br />
+	Competition for Resources<br />
+	Cultural Fears<br />
+	Institutional Obstacles<br />
+	 </li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#communion" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#communion,744|">A Call to Communion</a><br />
+	Coming to Understand Others as the First Form of Hospitality<br />
+	Intercultural Communication<br />
+	Languages for Ministry<br />
+	Ministry in a Multicultural Church
+	<ul><li><em>National or Regional Level</em></li>
+		<li><em>Diocesan Level</em></li>
+		<li><em>Parish Level</em></li>
+		<li><em>The Special Needs of Youth</em><br />
+		 </li>
+	</ul></li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#solidarity" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#solidarity,744|">The Call to Solidarity</a><br />
+	 </li>
+	<li><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#conclusion" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#conclusion,744|">Conclusion: A Call to a New Evangelization</a><br />
+	 </li>
+	<li class="c1"><a href="/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#notes" id="CP___PAGEID=33982,/issues-and-action/cultural-diversity/pastoral-care-of-migrants-refugees-and-travelers/resources/welcoming-the-stranger-among-us-unity-in-diversity.cfm#notes,744|">Notes</a></li>
+</ul><p><a id="summary" name="summary"></a></p>
+
+<h2>Summary</h2>
+
+<p>On June 2, 2000, the Jubilee Day for Migrants and Refugees, Pope John Paul II celebrated the Eucharist in St. Peter's Square for over 50,000 migrants, refugees, people on the move, and their chaplains from all over the world. The Eucharist drew that great diversity of people into unity in the communion of Father, Son, and Holy Spirit, realizing a Jubilee Year hope for the Church: "to gather into one the dispersed children of God," "to sum up all things in Christ, in heaven and on earth" (Jn 11:52; Eph 1:10).<br /><br />
+Unity in diversity is the vision that we bishops, as pastors of the Church in the United States, offer to our people as they welcome the new immigrants and refugees who come to our shores. In the past thirty-five years the number and variety of immigrants coming to the United States have provided a great challenge for us as pastors. Previous immigrants had come predominantly from Europe or as slaves from Africa, but many of the new immigrants come from Latin America and the Caribbean, Asia and the Pacific Islands, the Middle East, Africa, Eastern Europe, and the former Soviet Union and Yugoslavia. Though a good number come as skilled workers and professionals, the greater number come as refugees and immigrants on the edge of survival; large numbers join families already here; others arrive without proper documents. Many were forced to leave their homeland because of a well-founded fear of persecution. This diversity of ethnicity, education, and social class challenges us as pastors to welcome these new immigrants and help them join our communities in ways that are respectful of their cultures and in ways that mutually enrich the immigrants and the receiving Church.<br /><br />
+To pursue this vision of unity in diversity, we have chosen the way marked out by Pope John Paul II as he stood beneath the figure of Our Lady of Guadalupe in Mexico City on January 22, 1999, and announced the summary of <em>Ecclesia in America</em>: namely, the call to conversion, communion, and solidarity.<br /><br />
+The presence of so many people of so many different cultures and religions in so many different parts of the United States has challenged us as a Church to a profound conversion so that we can become truly a sacrament of unity. We reject the anti-immigrant stance that has become popular in different parts of our country, and the nativism, ethnocentricity, and racism that continue to reassert themselves in our communities. We are challenged to get beyond ethnic communities living side by side within our own parishes without any connection with each other. We are challenged to become an evangelizing Church open to interreligious dialogue and willing to proclaim the Gospel to those who wish to hear it. The new immigrants call most of us back to our ancestral heritage as descendants of immigrants and to our baptismal heritage as members of the body of Christ."For in one Spirit we were all baptized into one body, whether Jews or Greeks, slaves or free persons, and we are all given to drink of one Spirit" (1 Cor 12:13).<br /><br />
+The call to communion goes out to all members of the Church—bishops, priests, deacons, religious, lay leaders, and parishioners—to prepare themselves to receive the newcomers with a genuine spirit of welcome. Simple, grace-filled kindness and concern on the part of all parishioners to newcomers are the first steps. This can be accompanied by language and culture study as well as constant and patient efforts at intercultural communication. The integration of incoming groups is complex because of multiple Mass schedules and lack of personnel or resources, but if the receiving parish staffs and parishioners are open to the newcomers and provide a bridge to join cultures to one another, the newcomers themselves will provide the leadership and show the way to a healthy integration. Both on parish and diocesan levels, the presence of brothers and sisters from different cultures should be celebrated as a gift to the Church through well-prepared liturgies, lay leadership development programs inclusive of all, the appointment of prepared leaders of immigrant communities to parish and diocesan positions, and special efforts to help youth find their way as they experience themselves often torn between two cultures.<br /><br />
+One successful model of unity in diversity was Encuentro 2000: Many Faces in God's House, the National Conference of Catholic Bishops' celebration for the Jubilee Year. In the materials prior to the celebration, Encuentro 2000 offered a discussion method called the "mutual invitation process," which maximizes intercultural participation. In the celebration itself, Encuentro 2000 was an experience of the exuberance and vitality, the profound faith and devotional life of the participants. Encuentro 2000 also demonstrated that communion in a multicultural Church is a true possibility for the new millennium.<br /><br />
+The call to solidarity can be summed up in Pope John Paul II's Message for World Migration Day 2000: "The Church hears the suffering cry of all who are uprooted from their own land, of families forcefully separated, of those who, in the rapid changes of our day, are unable to find a stable home anywhere. She senses the anguish of those without rights, without any security, at the mercy of every kind of exploitation, and she supports them in their unhappiness" (no. 6). We bishops commit ourselves and all the members of our church communities to continue the work of advocacy for laws that respect the human rights of immigrants and preserve the unity of the immigrant family. We encourage the extension of social services, citizenship classes, community organizing efforts that secure improved housing conditions, decent wages, better medical attention, and appropriate educational opportunities for immigrants and refugees. We advocate reform of the 1996 immigration laws that have undermined some basic human rights for immigrants. We join with others of good will in a call for legalization opportunities for the maximum number of undocumented persons, particularly those who have built equities and otherwise contributed to their communities.<br /><br />
+In <em>Ecclesia in America</em>, Pope John Paul II calls for a "new evangelization" centered on the person of Jesus Christ. "‘The encounter with the living Jesus Christ' is ‘the path to conversion, communion and solidarity'" (no. 7). Such an encounter, so central to all our Jubilee Year activities, leads to a daily vision of the risen Lord, present and active in the world, especially in the poor, in the stranger, and in the migrant and refugee. These immigrants, new to our shores, call us out of our unawareness to a conversion of mind and heart through which we are able to offer a genuine and suitable welcome, to share together as brothers and sisters at the same table, and to work side by side to improve the quality of life for society's marginalized members. In so doing, we work to bring all the children of God into a fuller communion,"the communion willed by God, begun in time and destined for completion in the fullness of the Kingdom" (<em>Ecclesia in America</em>, no. 33).<br /><br />
+ </p>
+
+<h2>Introduction: An Immigrant Church, Then and Now</h2>
+
+<p><em>"For I was hungry and you gave me food, I was thirsty and you gave me drink, a stranger and you welcomed me."</em> (Mt 25:35)</p>
+
+<p>On June 2, 2000, the Jubilee Day for Migrants and Refugees, Pope John Paul II looked out over a sunlit crowd of pilgrims gathered in St. Peter's Square from all nations: migrants, refugees, seafarers, Gypsies,<sup>1</sup> foreign students, circus and carnival workers, airport workers, truckers, all varieties of people on the move with their bishop promoters, their chaplains and spiritual directors. The pope celebrated the Eucharist, which drew that great diversity of people into unity in the communion of Father, Son, and Holy Spirit. He reminded them that in the Church they are meant to experience this trinitarian communion. In the Church their diversity is to be grounded in a profound unity. Through the members of the Church, solitary migrations are to end in the embrace of solidarity.</p>
+
+<p>This jubilee vision of Pope John Paul II is the vision guiding us, the bishops of the United States, as we respond to the new immigrants who have recently come to our shores.</p>
+
+<p> Twenty years ago in <em>Beyond the Melting Pot: Cultural Pluralism in the United States</em>, we the bishops of the United States noted that cultural pluralism was the common heritage of all Americans. As the new millennium unfolds, the "new immigration" from all the continents of the world calls attention to the reality of the United States as largely a "nation of immigrants" and to the diversity of national and ethnic origins of all people of this country. In this new context, the Catholic community is rapidly re-encountering itself as an "immigrant Church," a witness at once to the diversity of people who make up our world and to our unity in one humanity, destined to enjoy the fullness of God's blessings in Jesus Christ. This unity in diversity was celebrated at Encuentro 2000, sponsored as the National Conference of Catholic Bishops' principal jubilee celebration, highlighting "many faces in God's house."</p>
+
+<p>A century ago, the Church responded generously to the needs of immigrants: building parishes and schools, establishing a vast array of charitable institutions, evangelizing newcomers, and being evangelized in turn by immigrant Catholics with distinctive traditions of worship and often a deep spirituality of their own. Members of the Eastern Catholic Churches arrived during the same period. They were not always understood by their fellow Catholics, although they were received and did develop as members of the Church in America. Despite the attacks of "nativists" and the criticisms made by English-speaking Catholics, national parishes were established that provided a safe haven where newcomers were able to pray and hear the word of God in their own languages, begin the education of their children in the language of the home, and so adapt to their new society with the security of community and faith. The Church embraced these immigrants, supporting them in their striving to build a better life and encouraging the efforts of many of them to help build a labor movement that could represent them in that struggle. And then, as now—despite the predictions of critics—immigrants and their children quickly became vital participants in American society, acquiring proficiency in English by the second and third generations, rising in the educational system, and contributing in thousands of ways to the economic growth and social, political, and spiritual life of the country.</p>
+
+<p> </p>
+
+<p><strong>Who Are the New Immigrants?</strong><br />
+The "new" immigration to the United States stems from global changes—both economic and political—over the past forty years and from legal changes starting with the 1965 Immigration Act. The latter abolished the quota system that had systematically favored immigrants from Western Europe and had largely cut off immigration from Asia, Africa, and the Middle East after 1920. Meanwhile war, economic distress, the desire to be reunited with families, and the new legal opportunities since the 1960s have prompted a diverse immigration from Latin America and the Caribbean, Asia and the Pacific Islands, the Middle East, Africa, Eastern Europe, and the former Soviet Union and Yugoslavia.</p>
+
+<p> </p>
+
+<p>While the new immigrants include many unskilled workers who perform difficult and menial tasks as in the past, the new immigrants also include many skilled workers, recruited to fill specialized positions as nurses, computer professionals, and scientists. The United States is thus beneficiary of the years of education, training, and experience that come with these new workers. While we welcome all the new immigrants and recognize that our Church, like the United States as a whole, has come to depend upon the many talents and profound energy of newcomers, we must also remind our government that the emigration of talented and trained individuals from the poorer countries represents a profound loss to those countries. And we remind heads of government around the world that emigration of all kinds—but especially that of those fleeing war and persecution, famine and economic distress—is a sign of the failure of the whole international community to guarantee the security and welfare of all people in their homelands.</p>
+
+<p>The ultimate resolution of the problems associated with forced migration and illegal immigration lies in changing the conditions that drive persons from their countries of origin. Accordingly, we urge the governments of the world, particularly our own government, to promote a just peace in those countries that are at war, to protect human rights in those countries that deny them, and to foster the economic development of those countries that are unable to provide for their own peoples. We also urge the governments of the "receiving" countries to welcome these immigrants, to provide for their immediate needs, and to enable them to come to self-sufficiency as quickly as possible.</p>
+
+<p> </p>
+
+<p><strong>The Migration for Survival</strong><br />
+We must never forget that many immigrants come to this country in desperate circumstances. Some have fled political persecution, war, and economic devastation, particularly from Southeast Asia in the 1970s, Central America and the Caribbean in the 1980s, and the former Yugoslavia, the former Soviet Union, and Africa in the 1990s. Others have wagered on finding a better life in this country in the face of economic desperation at home. As Pope John Paul II has noted, "In many regions of the world today people live in tragic situations of instability and uncertainty. It does not come as a surprise that in such contexts the poor and the destitute make plans to escape, to seek a new land that can offer them bread, dignity and peace. This is the migration of the desperate. . . . Unfortunately, the reality they find in host nations is frequently a source of further disappointment" (Message on World Migration Day 2000, no. 4).</p>
+
+<p> </p>
+
+<p>Some refugees<sup>2</sup> have enjoyed the sanction and support of the U.S. government, while others have been denied attention and systematically deported, and some have been subjected to humiliating incarceration under deplorable conditions. Increasing numbers of refugees from the conflicts of the 1980s have seen their status adjusted to that of permanent residency; but disparities in treatment, complicated and drawn-out asylum procedures, and long waits for service contribute to the already difficult process of adjustment that individuals and families in flight have to face. Both individual lay people and church agencies have worked alongside secular organizations to correct these situations and address the sufferings of those caught up in the complex and bureaucratic U.S. immigration system whose policies often lead to the fragmenting of families, but more needs to be done.</p>
+
+<blockquote>
+<p><strong>Undocumented Immigrants</strong><br />
+One reality remains constant in the American experience of immigration: the demand of the U.S. economy for unskilled labor—and the corresponding entrance of immigrants seeking work—in labor-intensive industries such as agriculture, construction, food processing, and services. Undocumented immigrants face special hardships in such areas. The Immigration and Naturalization Service estimates that three to four million undocumented workers hold jobs in this country, many of which are poorly paid, insecure, and dangerous. They face discrimination in the workplace and on the streets, the constant threat of arrest and deportation, and the fear that they or their children will be denied medical care, education, or job opportunities. Many have lived in the United States for years, establishing roots in their communities, building their families, paying taxes, and contributing to the economy. If arrested and deported, they leave behind children and sometimes spouses who are American citizens. While the changes in the law over the last several years have enabled many in this situation to adjust their status to that of permanent resident, the 1996 immigration legislation made this option more difficult for the vast majority. Without condoning undocumented migration, the Church supports the human rights of all people and offers them pastoral care, education, and social services, no matter what the circumstances of entry into this country, and it works for the respect of the human dignity of all—especially those who find themselves in desperate circumstances. We recognize that nations have the right to control their borders. We also recognize and strongly assert that all human persons, created as they are in the image of God, possess a fundamental dignity that gives rise to a more compelling claim to the conditions worthy of human life. Accordingly, the Church also advocates legalization opportunities for the maximum number of undocumented persons, particularly those who have built equities and otherwise contributed to their communities.</p>
+</blockquote>
+
+<p><strong>Immigrant Families and Their Communities</strong><br />
+The vast majority of the 600,000 to 900,000 immigrants admitted annually to this country enter as immediate relatives of U.S. citizens or legal permanent residents, a trend that coincides with the Church's teaching supporting family reunification. At the same time, the family preference system continues to experience considerable backlogs, prolonging the separation of families. The 1996 immigration laws have torn apart families that have established themselves in the United States over many years, sometimes on the basis of minor criminal offences duly punished years ago.</p>
+
+<p>Over a third of the new immigrants have become naturalized citizens, and the longer immigrants remain here the more likely they will become citizens; but here, too, the Church views with grave concern recent legislation<sup>3</sup> that has withdrawn basic benefits from legal residents who are not yet citizens and threatened the ability of many hard-working immigrants to remain in this country.</p>
+
+<p>Immigrants experience the tensions of their new situation much more than the society around them does. They have settled in a foreign land with laws, customs, and a language that they must master sooner or later, often at great personal cost. They struggle to build community among themselves in hopes of providing the sense of continuity and security they need in order to face the new world they have chosen or were forced to accept. They do not want to give up all that they value in their own ways of life—nor do they want their children to grow up without those traditions. Thus, many households carry on, to one degree or another, the cultures of immigrant parents, and today, one in five Americans enjoys immediate ties to a heritage beyond our borders.</p>
+
+<p>These realities ensure that few Americans have not encountered recent immigrants to this country in their neighborhoods and workplaces. Long Beach, California, is home to more Cambodians than Phnom Phen. Los Angeles ranks just behind Mexico City and Guadalajara in the number of residents of Mexican origin. Chicago at times has had more persons of Polish extraction than Warsaw. At the same time, rural towns and small cities throughout the country have begun to feel a presence of immigrants in their communities not seen since the great wave of immigration at the end of the nineteenth century.</p>
+
+<p> </p>
+
+<p><strong>The New Immigration and the Church</strong><br />
+Many of the new immigrants are Catholics. Probably more than 80 percent of Hispanic immigrants were raised in the Catholic faith. By some estimates, Hispanic Catholics—including the United States' large Puerto Rican and Mexican American populations<sup>4</sup>—could make up the majority of U.S. Catholics within the next twenty years. But other immigrant populations also include large numbers of Catholics. Filipinos, who represent almost 5 percent of the immigrant population, are overwhelmingly Catholic. Some 350,000 of the 1.4 million Vietnamese immigrants in this country are Catholic. These Catholics are joined by thousands of Eastern Catholics coming from the former Soviet Union, the Middle East, and India. A smaller but still significant number of the Chinese, Korean, Japanese, Laotian, Sri Lankan, Indonesian, Tongan, Samoan, and Asian Indian immigrants are also Catholic. Among the increasing numbers of immigrants from Africa, many are Catholics, raised in the vibrant Catholic culture of the Church's fastest growing region.</p>
+
+<p>Throughout the country, the liturgy and church decor increasingly reflect the cultural gifts of the new immigrants, with their own images of Mary and the saints, their songs, and their distinctive celebrations taking their place alongside those of older generations of immigrants. And immigrant communities provide a growing percentage of the vocations to the priesthood and religious life as well as lay leadership at the service of the Church in the United States today. The profile provided regarding the new immigrants who are Catholic should not minimize the Church's overwhelming concern for all new arrivals, regardless of their religious tradition or lack of one.<br /><a id="church" name="church"></a></p>
+
+<p> </p>
+
+<p> </p>
+
+<h2>The Calling of the Church</h2>
+
+<p> </p>
+
+<p>In this context of opportunity and challenge that is the new immigration, we bishops of the United States reaffirm the commitment of the Church, in the words of Pope John Paul II, to work "so that every person's dignity is respected, the immigrant is welcomed as a brother or sister, and all humanity forms a united family which knows how to appreciate with discernment the different cultures which comprise it" (Message for World Migration Day 2000, no. 5). We call upon all people of good will, but Catholics especially, to welcome the newcomers in their neighborhoods and schools, in their places of work and worship, with heartfelt hospitality, openness, and eagerness both to help and to learn from our brothers and sisters, of whatever race, religion, ethnicity, or background.</p>
+
+<p><strong>A Tradition of Welcome and Pastoral Concern</strong><br />
+This call is based on the rich heritage of Scripture and the Church's teaching. The patriarchs themselves were nomads. Settled by the hand of God in the time of Abraham, they soon migrated to Egypt, where they suffered oppression and were delivered once again by God's hand. From this experience comes a deep appreciation for the plight of the migrant, underlined in the words of Scripture: "You shall not oppress an alien; you well know how it feels to be an alien, since you were once aliens yourselves in the land of Egypt" (Ex 23:9). "You shall treat the stranger who resides with you no differently than the natives born among you, have the same love for him as for yourself; for you too were once strangers in the land of Egypt" (Lv 19:33-34). The Torah made special provisions for immigrants with the reminder that "you too were once slaves in Egypt" (Dt 16:9-12): "At the end of every third year you shall bring out all the tithes of your produce for that year and deposit them in community stores, that the Levite who has no share in the heritage with you, and also the alien, the orphan and the widow who belong to your community, may come and eat their fill; so that the Lord, your God, may bless you in all that you undertake" (Dt 14:28-29).</p>
+
+<p>Indeed, the experience of exile, oppression, and deliverance to the Promised Land is the central act of the drama of salvation for Judaism. In honor of God's deliverance of his people, Israel was enjoined to show justice towards all: "For the Lord, your God, is the God of gods, the Lord of lords, the great God, mighty and awesome, who has no favorites, accepts no bribes; who executes justice for the orphan and the widow, and befriends the alien, feeding and clothing him. So you too must befriend the alien, for you were once aliens yourselves in the land of Egypt" (Dt 10:17-19). Jesus echoes this tradition when he proclaims prophetically, "For I was hungry and you gave me food, I was thirsty and you gave me drink, a stranger and you welcomed me" (Mt 25:35).</p>
+
+<p>The Church has remained faithful to this call to care for migrants of all kinds and has responded accordingly over the centuries. The apostolic constitution <em>Exsul Familia</em>, promulgated by Pope Pius XII in 1952, takes its name from its evocation of the "émigré Holy Family of Nazareth, fleeing into Egypt," to which the pope pointed as "the archetype of every refugee family." Pope Pius XII recalls a long tradition of papal solicitude for immigrants and refugees, noting the hospitality to strangers and refugees traditionally provided by the Holy See and recalling the words of the Fourth Lateran Council of 1215: "We find in most countries, cities and dioceses people of diverse languages who, though bound by one Faith, have varied rites and customs. Therefore we strictly enjoin that the Bishops of these cities or dioceses provide the proper men, who will celebrate the Liturgical Functions according to their rites and languages." The pope cites with pride, as one proof of the Church's constant solicitude in this respect, the provisions for the establishment of "national parishes" in the United States in the nineteenth century to accommodate the immigrants of that era.</p>
+
+<p>The Second Vatican Council likewise called on the national bishops' conferences to pay special attention to those who "are not adequately cared for by the ordinary pastoral ministry of the parochial clergy or are entirely deprived of it," including "the many migrants, exiles and refugees," and to devise solutions for them (<em>Christus Dominus</em>, no. 18), a call endorsed by Pope Paul VI in approving a revision of church norms regarding pastoral care for immigrants. His <em>Instruction on the Pastoral Care of People Who Migrate</em> affirmed that "migrating people carry with them their own mentality, their own language, their own culture, and their own religion. All of these things are parts of a certain spiritual heritage of opinions, traditions and culture which will perdure outside the homeland. Let it be prized highly everywhere" (no. 11).</p>
+
+<p> These words should apply with special force to members of the numerous Eastern Catholic Churches, who preserve ancient traditions of worship and practice reaching back to the days of the apostles. In full communion with the Catholic Church, they are the bearers of the authentic teachings of the Church, each according to their own traditions. Because of political upheaval, war, and religious persecution, the twentieth century saw an unprecedented emigration—one that continues today—of Eastern Catholics who are a minority in their countries of origin and who must struggle to maintain their faith and their traditions in the United States in the context of the predominant Latin Church.</p>
+
+<p>Pope John Paul II urges in his apostolic letter <em>Orientale Lumen</em> that a "conversion is . . . required of the Latin Church, that she may respect and fully appreciate the dignity of Eastern Christians, and accept gratefully the spiritual treasures of which the Eastern Catholic Churches are the bearers, to the benefit of the entire catholic Communion" (no. 21).</p>
+
+<p>The immigrants among us thus bring a richness that we are bound to embrace, for their sake and for our own. As Pope Paul VI noted, in words recently recalled by Pope John Paul II, "The Church can regard no one as excluded from its motherly embrace, no one as outside the scope of its motherly care. It has no enemies except those who wish to make themselves such. Its catholicity is no idle boast. It was not for nothing that it received its mission to foster love, unity and peace among men" (<em>Ecclesiam Suam</em>, no. 94). The way to achieve this mission was presented on January 22, 1999, when Pope John Paul II stood beneath the image of Our Lady of Guadalupe in Mexico City and delivered to the whole Church the post-synodal apostolic exhortation <em>Ecclesia in America—On the Encounter with the Living Jesus Christ: The Way to Conversion, Communion and Solidarity in America</em>. This is the way we will follow in this document.<br /><br /><a id="conversion" name="conversion"></a></p>
+
+<h2>A Call to Conversion</h2>
+
+<p>Though we celebrate the diversity within our communities, we bishops must also confess that today, as in the past, the treatment of the immigrant too often reflects failures of understanding and sinful patterns of chauvinism, prejudice, and discrimination that deny the unity of the human family, of which the one baptism is our enduring sign. Such patterns, in the words of Pope John Paul II, "show the urgent need for a transformation of structures and a change of mentality, which is what the Great Jubilee of the Year 2000 asks of Christians and every person of good will" (Message for World Migration Day 2000, no. 1). For Catholics especially, a recognition of failures in the face of the opportunities and challenges of the new immigration should serve as a call to a renewal of baptismal vows, through repentance and a sharing in the mercy of the one Lord who would gather all to himself in the unity of the children of God.</p>
+
+<p>We bishops must confess, as well, that recent immigrants have not always encountered welcome in the Church. Today immigrants of all sorts too often face prejudice within the Church. At times their legitimate desire to worship in their own language, according to their own traditions, has not been satisfied. Some have been turned away by pastors or find their petition for a Mass in their own language and a share in parish facilities opposed by members of the parish community. For those who live far from concentrated populations of people who share their heritage, there is often no alternative but to struggle through the English Mass while the deepest expressions of their spirit cry out silently in another language. Where the Church has not been welcoming, many have turned to other sources of community and religious fulfillment, but at the expense of abandoning the riches of their Catholic faith and native traditions.</p>
+
+<p><strong>Forgetful of Our Heritage</strong><br />
+Perhaps the greatest obstacle to welcoming the stranger is that many Americans have forgotten their immigrant past. "Nativism" assumes that there is just one image of a "real American" and that immigrants either cannot live up to it or willfully refuse to do so. Originally directed against Catholics of all sorts, today such nativism can be seen in a campaign against "multiculturalism" in all its forms, on the premise that reverence for distinctive traditions and histories undermines the unity of American society. Like the Catholic "Americanizers" of the nineteenth century, who opposed the establishment of national parishes, the critics of multiculturalism today want immigrants and other distinctive groups to shed their languages, customs, and identities as quickly as possible, to become Americans "just like the rest of us." But "the rest of us" are, in fact, a culturally plural society—Catholics, Protestants, Jews, and Muslims; believers and non-believers; Southerners and Northerners; Irish, Italian, and Mexican—proud of our heritages and proud to be Americans, all at once.</p>
+
+<p>A kind of nativism appears in the Church itself when established members insist that there is just one way to worship, one set of familiar hymns, one small handful of familiar devotions, one way to organize a parish community, one language for all—and that immigrants must adapt to that way of doing things. In doing so, such nativists forget not only that their ancestors spoke different languages and worshiped in different ways not long ago, but that their devotions and familiar saints, even their patterns of church organization, sprang from encounters between differing traditions within the Church.</p>
+
+<p><strong>Competition for Resources</strong><br />
+Competition for resources and recognition among the ethnic groups of the parish often centers on specifics such as Mass times, the use of facilities, and the attention of priests; but such conflicts can reflect vague fears that one group will somehow displace a long-established one. Established parishioners, used to thinking of their parish practices and religious traditions as the norm, may cling to their control over the parish council or "prime" Sunday Mass times. They may find themselves increasingly a minority and may react with fear to protect the parish where they were raised and where they saw their children baptized and educated in the faith. African American Catholics, who have their own history of having been excluded and discriminated against in the larger Church, as in society in general, now face newcomers in many of their parishes, newcomers who threaten their hold on the few institutions where they have come to feel at home. In some cases, multiple immigrant groups compete with one another within a single parish. In other cases, immigrant clergy struggle with their bishop or pastor for control over the finances of an immigrant group or for final authority over the congregation. While such competition can be destructive of community life, the issues involved are often real, and they require wisdom, much charity, and careful mediation to reach solutions that respect the legitimate concerns of all sides.</p>
+
+<p><strong>Cultural Fears</strong><br />
+The fears associated with encounters between groups are often difficult to overcome precisely because they are unacknowledged or unclear. Some are afraid because they do not know how to behave with others of a different culture. Others—in ignorance, relying on stereotypes—are convinced that those who are different are also somehow inferior: less educated, "dirty," or dangerous. Negative images and derogatory jokes and remarks readily merge with racism, America's "original sin," reinforcing the fear of the unknown in many people's minds by creating stereotypes about people whose facial features or skin color identify them as Asian, Arab, African, or Mexican. In some instances, racism has been so deeply ingrained that an institutional racism prevails. Racist attitudes can linger in subtle ways, even when people get to know one another in parish activities, unless we vigorously educate ourselves about our neighbors, learn to appreciate their heritages, encounter their own images of us, and strive to work with them on behalf of common causes.</p>
+
+<p>Some of our fears are tied to what we see as defense of our own culture or way of life. Many people cling—rightfully so—to their distinctive culture. They fear the loss of their own familiar ways of doing things as they encounter new images and practices of community life and worship that are foreign to them. Immigrants themselves often fear other groups and worry that their children will lose the values of the homeland, come to show disrespect towards their parents and elders, and exchange their own culture for the consumer values of the surrounding society. Such concerns are well founded, and they compound the difficulties of adaptation to a new setting as both host and immigrant react, each against the other, in fear of change.</p>
+
+<p>Change, however, is inevitable as immigrants set down roots in this country, enriching American culture while adopting aspects of it themselves. Indeed, it would be a mistake to regard any culture as fixed and immutable. All cultures are in constant processes of change as their members seek new ways to address individual and group needs and as they encounter new situations and other cultures. Indeed, no culture is either permanent or perfect. All constantly need to be evangelized and uplifted by the good news of Jesus Christ. The encounter between cultures that is an everyday affair in the incorporation of immigrants into the Church and the communities of the United States should provoke not only adaptation on both sides but a critical discernment of the strengths and failings of each culture in the light of the Gospel.</p>
+
+<p><strong>Institutional Obstacles</strong><br />
+Institutional inadequacies have also impeded the full-fledged welcome and communion to which the Church is called. Parish and diocesan structures have not always been flexible enough to accommodate sudden influxes of new groups. Parishes have found themselves serving faith communities that draw members from far outside parish boundaries, raising questions about the sources and limits of parish resources. And regrettably, some parishes have found that their parishioners have imbibed the post-1960s societal attitude of exclusion of new immigrants. In many cases, immigrant Catholics have been attracted to evangelical and Pentecostal churches, leaving behind their Catholic faith.</p>
+
+<p>Many pastors struggle to accommodate separate worship communities who celebrate their faith in their native tongues within the same parish. Pastors strive to meet the needs of multiple culturally diverse groups who are too small to support their own Eucharist and specialized programs. Similarly, pastors who wish to serve whoever approaches the altar may lack the experience or the models to know how to reach out to newcomers who are not Catholic or whose Catholicism has not included a regular liturgical life or whose faith is tied more closely to home and family than to the parish community.</p>
+
+<p>Immigrant communities must find priests willing and able to minister in their language and a place to gather for worship and community activities. They are often at a loss as to how to supply themselves with liturgical texts and educational materials and how to develop a sense of communion with a diocese whose language is not their own. They struggle to balance the competing demands of U.S. schools and the larger culture on their youth with their own desires to benefit their children with traditional values and culture. Immigrant priests may find themselves jealous of their own autonomy and better able to relate to their own priests' associations and dioceses of origin than to the priests and diocese of their U.S. home, where they may feel a lack of welcome.</p>
+
+<p>The tensions and debates occasioned by such concerns can sometimes lead to greater understanding within the Church. But they can also lead, in the extreme, to painful schisms and the alienation of the faithful from the Church. Taken together—and despite the efforts of many dioceses—such tensions make clear that the Church has not adequately addressed the host of questions that surround pastoral ministry to the new immigrants. In this and the other respects mentioned above, the Church of the twenty-first century requires a profound conversion in spirit and in its institutions to reflect its own cultural pluralism, to address the needs of the whole Catholic community, and to further a genuine communion and solidarity among the diverse members of the Body of Christ.</p>
+
+<p>This debate on the effective and adequate response of current church institutions to the new immigrant reality echoes the discussion in the Synod of America and Ecclesia in America on the effectiveness of parish structures:</p>
+
+<blockquote>Because of the particular problems they present, special attention needs to be given to parishes in large urban areas, where the difficulties are such that normal parish structures are inadequate and the opportunities for the apostolate are significantly reduced. The institution of the parish, however, retains its importance and needs to be preserved. For this, there is a need "to keep looking for ways in which the parish and its pastoral structures can be more in effective in urban areas." (no. 41)</blockquote>
+
+<p><a id="communion" name="communion"></a></p>
+
+<p> </p>
+
+<h2>A Call to Communion</h2>
+
+<p> </p>
+
+<p>As Catholics we are called to take concrete measures to overcome the misunderstanding, ignorance, competition, and fear that stand in the way of genuinely welcoming the stranger in our midst and enjoying the communion that is our destiny as Children of God. We commit ourselves, accordingly, to working to strengthen understanding among the many cultures that share in our Catholic faith, to promoting intercultural communication among our people, and to seeing that those in ministry to our communities gain the language and cultural skills necessary to minister to the immigrants in our midst.</p>
+
+<p><strong>Coming to Understand Others as the First Form of Hospitality</strong><br />
+Time and time again, Pope John Paul II has echoed the teachings of his predecessors and of the Second Vatican Council that "it is one of the properties of the human person that he can achieve true and full humanity only by means of culture" (<em>Gaudium et Spes</em>, no. 53) and that to take away a person's culture is therefore to damage human dignity grievously. Communion does not abolish differences but brings together one family, diverse and united in the one Lord. Pope Paul VI urged that "it must be avoided that these diversities and adaptations in accordance with the various ethnical groups, even though legitimate, result in harm to that unity to which all are called in the Church" (<em>Pastoralis Migratorum Cura</em>). Thus, the Church's norms for the pastoral care of immigrants attempt to balance the legitimate rights of immigrants with their duty to look to the common good of both their communities of origin and their host community (<em>Instruction on the Pastoral Care of People Who Migrate</em>, nos. 5-11).</p>
+
+<p>The Church embraces the rich cultural pluralism of this immigrant nation—what some call its "multicultural" reality.<sup>5</sup> Pope John Paul II insists that "the immigrant members of the Church, while freely exercising their rights and duties and being in full ecclesial communion in the particular churches, feeling themselves Christians and brothers towards all, must be able to remain completely themselves as far as language, culture, liturgy and spirituality, and particular traditions are concerned" (Address for World Migrants' Day, July 16, 1985). Indeed, the pope warns repeatedly against attempting to rush a process of assimilation or cultural adaptation in the name of unity, because the goal is the mutual enrichment of peoples, not their assimilation to one way of being human. Thus the pope reached out to refugees in the camp at Phanat Nikon, Thailand, in November 1984, saying, "My heart is with you. Have faith in yourselves. Don't forget your identity as a free people with your own legitimate place in this world. Don't lose your distinctive personality as a people! Remain firmly rooted in your respective cultures. The world needs to learn more from you and to join in appreciation of your uniqueness."</p>
+
+<p>The pope teaches that immigrants must guard their cultures for the enrichment of the world. But the cultures of immigrants will only be able to enrich this country when all Americans—recent immigrants and those long settled in this country—open their hearts and minds to their neighbors and come to appreciate the diverse cultures that make up this society. Knowledge of cultures cannot just come from books, but must come from the concrete efforts of individuals to get to know their neighbors, in all their diversity.</p>
+
+<p>The welcome and hospitality that we ask our parishes to extend to newcomers must include active efforts on the part of the pastor and parish staff, individuals and families, parish councils, liturgy committees, social concern entities, youth groups, and other parish organizations to undertake the special effort necessary to learn about the cultures in their midst and to exchange visits with worship communities and parishes where different cultural groups make their homes. Special events such as international dinners, common social events, and multicultural parish feasts can help to introduce the various members of the parish to other cultures and can lead to greater exchanges between groups. The parish is encouraged to sponsor forums in which members of different cultures can openly share their unique backgrounds and identify areas of unity.</p>
+
+<p>The eucharistic celebration is central to church life and to our communion as Catholics with one another in the one Lord. Whenever the diverse cultures of parish and diocese are able to share the Eucharist in special celebrations that reflect the cultural riches of the participants, the Church demonstrates in the sacrament of our unity the multicultural face of the Church, proclaiming "with joy and firm faith that God is communion, Father, Son and Holy Spirit, unity in distinction, and that he calls all people to share in that same Trinitarian communion" (<em>Ecclesia in America</em>, no. 34).</p>
+
+<p><strong>Intercultural Communication</strong><br />
+Efforts to learn and worship together may come to nothing at all—or even reinforce prejudices—unless they are carried out with a spirit of openness and charity. Not everything in one culture will meet with the approval of another. There may be disagreements about child-rearing practices, the place of women in the liturgy, styles of preaching, or suitable expressions of piety. Such differences are inevitable even within one culture. But in cross-cultural encounters, disagreements must be informed by understanding the roots of people's attitudes and practices and with respect for their right to find their own way within the one Gospel. Understanding will come with a growing knowledge of the history, values, and experiences of others. Respect must be born of charity and faith in the ultimate unity in Christ of all humanity.</p>
+
+<p>Intercultural communication—sustained efforts, carried out by people of diverse cultures, to appreciate their differences, work out conflicts, and build on commonalities—will thus be an important component of coming to know and respect the diverse cultures that make up today's Church. The dominant culture in the United States stresses the individual and his or her feelings and decisions. In less individualistic cultures, individuals may feel hesitant to express their own opinions openly, even in a friendly setting, without reinforcement from the group. Among immigrants of the same group, too, divisions along lines of social class or educational background can erect barriers to understanding, with some members adapting to the procedures and practices of parish life more readily than others. Often, culturally sensitive intermediaries are needed to facilitate exchanges, mediate conflicts, and promote genuine participation by all.</p>
+
+<p>Integration will be facilitated when all parties maintain an open spirit. Integration cannot be forced, and those who host newcomers must be especially aware of the vulnerabilities of immigrants and the impulse many immigrants feel to withdraw from interaction. Pastors and lay leaders who are aware of these dynamics of adaptation and communication among cultures will lead the way in facilitating the full, equal incorporation of all members of the community into the life of the Church.</p>
+
+<p><strong>Languages for Ministry</strong><br />
+Special efforts to acquire the languages of the new immigrants by all church ministers constitute an essential, concrete step towards a full and effective welcome. In some cases, immigrant groups have brought with them significant numbers of priests and religious. This is true of the Vietnamese community, which has continued to produce vocations in large numbers in this country. In other cases, the home country's Church is sufficiently strong to send priests and religious to the United States to minister to immigrant communities from that country, as was the case in earlier waves of migration to this country. In many cases today, however, there are many immigrants but few priests, and dioceses must make special provisions to find or train priests, religious, and lay people capable of ministering to the newcomers in their own languages and cultures. Missionary orders have contributed magnificently to filling this need. In some dioceses, every seminarian is required to master a language other than English relevant to ministry to local immigrant communities. This practice should be encouraged throughout the United States. Priests, seminarians, religious, and lay ministers should all be encouraged to learn a language and acquire cultural knowledge relevant to their ministry.<sup>6</sup> Study abroad is generally the best way to do this, and it should be widely encouraged.</p>
+
+<p>Especially in the case of some of the smaller immigrant groups, priests may have only a rudimentary knowledge of the language of the group they serve. Then they must depend upon religious, lay leaders, deacons, and trained catechists to ensure an effective ministry. And even where priests with the necessary language skills are available, it is important that other members of the larger community acquire the ability to communicate with immigrants in their own languages as part of a wider effort to develop more inclusive relations at the parish and diocesan levels, carry on the necessary work of evangelization, and promote diocesan programs capable of genuinely uniting diverse communities. The clergy and lay leaders should acquire a proficiency in English as quickly as possible and continue to improve their public speaking skills in English so as to further the communion of their communities with the wider Church in the United States. Parishes should provide opportunities for immigrants, including the elderly, to acquire proficiency in the English language.</p>
+
+<p><strong>Ministry in a Multicultural Church</strong><br />
+Language acquisition on behalf of intercultural communication and effective ministry is just one practical step towards the fuller incorporation of the new immigrants into our communities. The Church as an institution needs to undertake other practical steps at national, diocesan, and parish levels.</p>
+
+<blockquote>
+<p><strong>National or Regional Level</strong><br />
+At the national or regional level, efforts must be made to provide liturgical and catechetical materials for communities who do not have ready access to such materials in their language. Most dioceses lack the resources to provide such materials for more than one or two groups. Similarly, diocesan seminaries and lay ministry training programs are often ill-equipped to provide priests, religious, and lay leaders with the full range of linguistic, cultural, and intercultural communication training necessary to serve even local needs.</p>
+
+<p>Efforts to redress these problems could be furthered by the creation of regional pastoral centers, serving the needs of one or several immigrant ethnic communities and financed by the dioceses they serve. Such centers could encourage theological reflection based on the traditions and experience of the various national churches represented in our immigrant communities. They could provide the translation services mentioned above and serve as a source for liturgical and catechetical materials for the communities they represent, as well as develop training materials for pastors, religious, and lay leaders in these communities. And they could offer training for all those involved in ministry to specific groups within the dioceses of their regions, extending the range of possibilities of language education, intercultural communication training, and education for ministry in a multicultural Church more generally.</p>
+
+<p><strong>Diocesan Level</strong><br />
+Dioceses are the best equipped to address the multiple needs of the contemporary Church at the local level. The bishop as pastor of a diverse people has the care for all that concerns their life together. Thus, in developing diocesan policies and programs responsive to the reality of today's immigrant Church, bishops must take care to both respect the dignity of the diverse communities of the diocese and draw them to unity in the one Church, striking that balance between the legitimate rights of immigrants to worship according to their own traditions and the concern for the common life of the Church in the United States. Diocesan authorities must decide when and how to honor the desire of immigrant groups for their own chapel, mission, or personal parish; how to foster a spirit of openness and welcome towards immigrant communities within parishes; how to promote the effective evangelization of all members of the local church and of those outside the Church; and how to bring together peoples of all the diverse cultures of the Church into one community.</p>
+
+<p>We bishops commit ourselves with renewed energy to display a spirit of welcome, and we encourage all those involved in ministry to share in that spirit. We will look to the successful models of the past, such as the national parish, or contemporary practices in other dioceses, and adapt them to the needs and circumstances of our own dioceses. In each of our dioceses we will build up programs of ministry to immigrants and support them with new resources to the extent possible, in recognition of the growing contributions of our immigrant communities to the larger Church, and we will insist that pastors lend their support. Our diocesan seminaries must prepare seminarians for ministry to the Church of the twenty-first century. At the same time, we will devote resources to developing programs of cultural understanding and intercultural communication for religious and lay ministers. We bishops have a special responsibility to address questions of social justice for migrants of all sorts, participating in national and local efforts to combat discrimination and ensure equitable treatment under the law to all.</p>
+
+<p>In the past, personal parishes were established successfully in some places to accommodate the needs and desires of strong, local immigrant communities. At the same time, not all groups have had the financial resources or numbers to sustain a parish of their own. Dioceses may need to develop guidelines to help parishes or deaneries respond to smaller or more dispersed groups so that they sense that they are welcome and have facilities appropriate to their needs.</p>
+
+<p>Most dioceses have already provided modest resources to offices of ethnic ministry. The more these offices can be led by members of the communities being served, the better. In some cases, the bishop has appointed a vicar in charge of ministry to larger or more dispersed groups. In a few dioceses, Hispanic ministry in particular has been integrated into all of the offices of the diocese, providing constant feedback on how to address the needs of the Hispanic community within the various diocesan programs. In many dioceses, offices of ethnic ministry are able to ensure that parish positions are filled so as to serve the immigrant communities within the diocese. And many dioceses have designed diocesan-wide events to bring together the various cultures of the Catholic community. All of these efforts need to be studied and strengthened as the Church in the United States strives to celebrate the many gifts that immigrant communities bring to the Church in America.</p>
+
+<p><strong>Parish Level</strong><br />
+Immigrants will experience the Church's welcome most personally at the level of the parish. Pastors and parish staff, accordingly, must be filled with a spirit of welcome, responding to a new and perhaps little-understood culture. They will be able to do so precisely to the extent that they have received the support of the diocese and the training that should go with it. A pastor with an open and welcoming spirit who insists that the whole parish participate in such a spirit can make a tremendous difference in relations among different groups. Pastors need to know about effective models for accommodating multiple cultural groups within a single parish structure. At the same time, the effort to mediate competing demands for facilities and lingering rivalries among groups requires sensitivity to the needs and styles of both cultures, as well as patience, charity, and communications skills. Pastors should make every effort to assist and encourage Eastern Catholics to find parishes that offer pastoral care according to their own traditions and rites. In the past immigrants belonging to Eastern Catholic churches were lost to those churches because of the lack of Eastern Catholic clergy, churches, and services. Sometimes they were joined to the Latin church, regrettably because of social and demographic pressures. Membership in a particular church of the immigrant (e.g., Eastern Catholic Church) must be respected.</p>
+
+<p>Reaching out to immigrants who are not Catholics or who, though Catholic, have not yet participated fully in the life of the parish requires language and cultural skills, as well as an evangelical zeal that will need to be developed among more pastors, associates, religious, and lay people through outreach committees or census programs. Lay people, especially those who share language and cultural background with the immigrant group, can be invaluable bridges in efforts to incorporate immigrant communities into the life of the parish and reach out to non-believers among the new immigrants. In many of the countries from which the new immigrants come, it was the lay catechist who led people to conversion or a deeper appreciation of the faith. Lay catechists were the leaders and evangelizers of their people. Their ministry needs to be reaffirmed and strengthened in the new context.</p>
+
+<p>Catholic Charities offers comprehensive services in most dioceses. Pastors can look to Catholic Charities for help in their response to new immigrants. Social service, legal assistance, and adult education programs—including English as a second language, parenting, job training programs, and citizenship classes—can serve as valuable outreach to newcomers. The parish can also provide immigrants with forums for addressing social, emotional, and economic needs. Models and methods of a genuinely evangelical parish life need to be developed and disseminated so that pastors and lay leaders may choose among those best adapted to providing effective outreach to newcomers. In some cases, individual pastors or consortia of parishes, sometimes in conjunction with congregations of other faiths or secular organizations, can create immigration and social service agencies to serve particular neighborhoods.</p>
+
+<p>At the same time, parishes can become sites for dialogue and cooperation, not only with the Protestant denominations that share our common Christian faith, but also with Buddhists, Hindus, Muslims, Jews, and others. Despite differences, all share common goals of providing for the religious and material needs of immigrant communities, and all have much to gain by working together.</p>
+
+<p>Today's immigrants bring a vast richness of gifts, from new spiritual movements to a renewal of devotion to Mary in the great variety of national devotions, such as that to Our Lady of Guadalupe. In many dioceses, a renewal of vocations to the priesthood and religious life is one evident fruit of the new immigration, while lay participation in ministry has blossomed in many ethnic ministries.</p>
+
+<p><strong>The Special Needs of Youth</strong><br />
+Of special concern are the youth of immigrant communities. Some are themselves immigrants, who despite a facility for acquiring English may feel especially torn between their original culture and that of their new home—fully at home in neither one culture nor the other. Others were born in this country, and though their first language may have been that of their parents, they quickly acquire the fluency of a native not only in the English language but in the prevailing culture in their schools and neighborhoods. In either case, young people may find themselves frequently in conflict with their parents and elders over ways of behaving and speaking, values, and beliefs, as they become "American" while living within an immigrant household and community that retain the country of origin's culture. Such conflicts are painful for both sides, and one or the other may call upon the Church to defend its particular claims and values. Young people can also experience conflict with their peers who—because of insecurity or insensitivity—cause unnecessary division.</p>
+
+<p>The Church recognizes the centrality of the family in the upbringing of  the young and cherishes the great value that many immigrant cultures place upon the family. At the same time, it also has a duty to provide for the young as they struggle for their own identity and their own adaptation within the larger culture. Recreational, educational, and spiritual programs for youth can provide opportunities for helping them to understand and accommodate the claims of their parents while accepting what is wholesome in the culture around them. These programs can also help young people live in harmony with their peers. Everyday pastoral care and special programs for parents can help them understand and accept the struggles of their children, even as they reinforce the confidence that their children have already assimilated much of what they have to teach them despite the dissensions of the moment. Religious education programs can play a special role here in attempting to bridge the gap between cultures within the context of the one faith and to help the young deal positively with the tensions and difficulties they face.</p>
+
+<p>In some instances, families are drawn to the parish precisely to take advantage of the school. Their immersion in their children's education puts them into regular contact with parish personnel and members of other cultural groups. In other cases, immigrants have had no experience of Catholic schools in their country of origin and require the encouragement (and often financial aid) of the parish to take advantage of this opportunity. Catholic schools can provide the children of immigrants with opportunities to adapt to American culture in a context permeated by the faith and in an atmosphere of hospitality to all cultures, and they can do much to promote cultural understanding and respect among parents and students alike. Catholic schools can also be powerful instruments of evangelization for immigrant communities who, though outside the Church, find in the schools a welcoming and supportive environment for the education of their children. But for a great many immigrants, none of this can be accomplished unless Catholic schools are made affordable for the poorer members of the community, a goal to which the diocese may have to contribute through sister-parish arrangements or outright grants of diocesan funds.</p>
+</blockquote>
+
+<p><a id="solidarity" name="solidarity"></a></p>
+
+<h2>The Call to Solidarity</h2>
+
+<p>The Gospel calls us to solidarity with those who are suffering, vulnerable, and in need. In this spirit we recall the words of Pope John Paul II, who proclaimed, "The Church hears the suffering cry of all who are uprooted from their own land, of families forcefully separated, of those who, in the rapid changes of our day, are unable to find a stable home anywhere. She senses the anguish of those without rights, without any security, at the mercy of every kind of exploitation, and she supports them in their unhappiness" (Message for World Migration Day 2000, no. 6). Among today's immigrants, those who have fled war, famine, civil unrest, and economic desperation deserve our special understanding and support; but seafarers, those in the aviation world, and migrant workers, too, suffer uprootedness, discrimination, and injustice, along with all people on the move: circus and carnival workers, truckers, tourists, pilgrims, Gypsies, and Irish travelers.<br /><br />
+In an age of economic globalization, a special concern of a culture of solidarity must be the migrant worker, both rural and urban. These laborers are vital to our agricultural, construction, service, and tourist industries. From the time they leave their homes to the time they arrive at their place of work, these migrant workers—forced to search for a basic livelihood for their families—face hazardous border crossings. (In the  past five years, more than 500 have died at the U.S.–Mexico border because of increased border enforcement.) They are vulnerable to exploitation and abuse in transit, in border regions, and in the workplace. We bishops pledge ourselves, in the spirit of <em>Ecclesia in America</em>, to work in solidarity with the bishops of the migrants' countries of origin to provide for the safety, the basic needs, the human rights, and the effective pastoral care of these migrant workers. One of the propositions of the Synod of America asserts, "The Church in America must be a vigilant advocate, defending against any unjust restriction the natural right of individual persons to move freely within their own nation and from one nation to another. Attention must be called to the rights of migrants and their families and to respect for their human dignity, even in cases of non-legal immigration" (<em>Ecclesia in America</em>, no. 65).<br /><br />
+Solidarity with migrants and refugees will take many forms, from participating in efforts to ensure that the U.S. government respect the basic human rights of all immigrants, to providing direct assistance to immigrants through diocesan and parish programs. Particularly vulnerable are the immigrant elderly who often find themselves isolated in their new country, lacking in language skills and in the family and community support system that they enjoyed in their country of origin.<br /><br />
+  Community organizing efforts can also be important vehicles for addressing the needs of immigrant communities and incorporating immigrants into civic life. Such efforts can provide the basis for achieving improved housing conditions, a living wage, better medical attention, and enhanced educational opportunities for all, and for empowering local communities. The United States Catholic Conference supports many such efforts through the Catholic Campaign for Human Development. The local church's participation in such efforts is important, both for the direct good that community organizing can do for individuals and groups and as part of a broader evangelization that proclaims God's care for all his children and the Church's special responsibility for the poor, the persecuted, and the stranger.<br /><br />
+The call to solidarity is also a call to promote the effective recognition of the rights of immigrants and to overcome all discrimination based on race, culture, or religion. "It means bearing witness to a fraternal life based on the Gospel, which respects cultural differences and is open to sincere and trustful dialogue" (Pope Paul VI, <em>Octogesima Adveniens</em>, no. 17). Especially since World War II, the Church has devoted special efforts on behalf of the human rights of migrants and refugees throughout the world, and in the United States in particular. At the national level the U.S. bishops' Office of Migration and Refugee Services has addressed these issues through participation in public policy debates, special programs for refugees, and aid to dioceses. Diocesan officials and parish leaders often participate as well in city- or region-wide bodies aimed at gaining recognition for immigrants in local affairs and combating discrimination.<br /><br />
+We Catholic bishops commit ourselves to continue to work at the national level to promote recognition of the human rights of all, regardless of their immigration status, and to advance fair and equitable legislation for refugees and prospective immigrants. Present efforts need to be strengthened and supported with new initiatives, both at the local level and at the national level as U.S. immigration law and practice change in the face of changing political pressures and social realities. In particular, Catholic lay people, diocesan officials, and bishops should continue to work together with community organizations, labor unions, and other religious bodies on behalf of the rights of immigrants in the workplace, schools, public services, our legal system, and all levels of government. The Catholic Church in the United States through the National Conference of Catholic Bishops, many of the state Catholic conferences, individual bishops, and other Catholic organizations have been meaningfully involved in social advocacy in behalf of migrant workers and other immigrants. We encourage others to place public social policies that impact this special population a higher priority.<br /><br /><a id="conclusion" name="conclusion"></a></p>
+
+<h2>Conclusion: A Call to a New Evangelization</h2>
+
+<p>In <em>Ecclesia in America</em>, Pope John Paul II calls for a "new evangelization" centered on the person of Jesus Christ: "‘The encounter with the living Jesus Christ' is ‘the path to conversion, communion and solidarity'" (no. 7). This personal encounter with the risen Lord, so abundantly recounted in the Gospels, Epistles, and Acts of the Apostles, leads to a daily vision of the Lord present and active in the world, especially in the poor, in the stranger, and in the migrant and refugee. Those most in need draw the members of the Church out of their unawareness to a conversion of heart through which they are able to offer a genuine and suitable welcome, to share together as brothers and sisters at the same table, and to work side by side to improve the quality of life for society's most vulnerable members. All of this is an expression of the Spirit of the risen Jesus being poured out again on his followers.</p>
+
+<p>The Holy Spirit made manifest at Pentecost enabled people of diverse languages and cultures to understand the one message of salvation. The new evangelization means openness to the gifts of the Spirit wherever they might appear. Our response to the new immigration thus is informed by a renewed vision of what it is to be Church, and by a new spirituality, informed by the Spirit of Pentecost present in the sacrament of confirmation, which gives the power to discern the one message of the kingdom in the diverse customs and languages of our immigrant brothers and sisters.</p>
+
+<p>Immigrant communities give ample witness to what it is to be Church—in their desire to worship as a people, in their faith, in their solidarity with one another and with the weakest among them, in their devotion and their faithfulness to the Church of their ancestors. For the Church in the United States to walk in solidarity with newcomers to our country is to live out our catholicity as a Church. The Church of the twenty-first century will be, as it has always been, a Church of many cultures, languages and traditions, yet simultaneously one, as God is one—Father, Son, and Holy Spirit—unity in diversity.</p>
+
+<p>The new immigration is a reminder of the pilgrim state of the Church, made up of all those, regardless of race or class or national origin, who have been called to the wedding banquet and have responded (Lk 14:23). As a pilgrim, the Church encompasses in itself all the reality of human suffering and all the glory of the human spirit infused with the grace of Christ. With its diverse pilgrim peoples, the Church in the United States has known uprootedness and loss, persecution and flight, the search for a better life, and the difficulties and disappointments of that search. The Church has known God's grace as it lifts spirits in times of despair, sustains hope in the face of hopelessness, and revives love despite evils and human frailties. In the one baptism, the Church acknowledges God's call to conversion, while in the sacrament of the Eucharist, she enjoys prefigured the glorious communion of Father and Son in the Holy Spirit. At the Eucharist the Church prefigures the revelation of "a great multitude . . . from every nation, race, people, and tongue" (Rev 7:9).</p>
+
+<p>In such a Eucharist, on that sunlit Jubilee Day of Migrants and Refugees in St. Peter's Square, Pope John Paul II summed up the challenge and hope for the Church in the United States as it welcomes the immigrants of the new millennium in a very simple but profound image:</p>
+
+<blockquote>Like the disciples of Emmaus, believers, supported by the living presence of the risen Christ, become in turn the traveling companions of their brothers and sisters in trouble, offering them the word which rekindles hope in their hearts. With them they break the bread of friendship, brotherhood and mutual help. This is how to build the civilization of love. This is how to proclaim the hoped-for coming of the new heavens and the new earth to which we are heading. (no. 4)</blockquote>
+
+<p><a id="notes" name="notes"></a></p>
+
+<p> </p>
+
+<h2>Notes</h2>
+
+<p> </p>
+
+<ol><li>"In keeping with linguistic convention, the term Romani (also spelled Romany in the literature) is used to refer to any or all of the Romani dialects or languages. We use ‘Gypsies' to refer to the totality of all groups except the Irish and Scottish Travelers, and where the identity of the group is unverified." (Taken from <em>Gypsies and Travelers in North America: An Annotated Bibliography</em>, William G. Lockwood and Sheila Salo [Cheverly, Md.: The Gypsy Lore Society, 1994].)<br />
+	 </li>
+	<li>In international and U.S. law, "refugees" are those who have fled past persecution or have a well-founded fear of future persecution on account of race, religion, nationality, membership in a particular social group, or political opinion. While the United States may grant asylum or special consideration to some refugees, the process of obtaining such recognition is often fraught with difficulties, and many refugees must deal with the immigration system on the same terms as other immigrants.<br />
+	 </li>
+	<li>Congress enacted three major laws in 1996 that have had an adverse impact on immigrants: (1) the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA), (2) the Anti-Terrorism and Effective Death Penalty Act (AEDPA), and (3) the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA). Taken together, these laws have undermined due process protections for immigrants and driven more immigrant families into poverty. The combined effect of IIRIRA and AEDPA have subjected immigrants who committed minor crimes in their past and have served their sentence to mandatory detention and deportation, separating them indefinitely from their loved ones. IIRIRA also removed judicial discretion for individual cases and increased the standard for immigrants to obtain relief from deportation. It further included provisions that allow the summary exclusion of asylum seekers from this country without the benefit of review of their asylum claims by an immigration judge and bars immigrants who reside in the country in an undocumented status for more than one year from returning to the United States for ten years. PRWORA, the federal welfare law, eliminated all legal immigrants from eligibility for public benefits. While some of these benefits have been restored, virtually all legal immigrants who entered the United States after 1996 remain ineligible for benefits.<br />
+	 </li>
+	<li>Puerto Ricans, of course, are not immigrants, but many of them face the same challenges as recent immigrants. Much of the Hispanic population of the Southwestern United States, likewise, can trace its ancestry in what is now the United States back many years before the appropriation of these territories by the U.S. government. While having much in common in language and culture with recent immigrants, the Hispanos of New Mexico and many Mexican Americans throughout the country today welcome the newcomers in their midst as long-established residents of this country. At the same time, they have often experienced the discrimination and disadvantage associated with representing a subordinate culture in the United States, on a par with the experiences of recent immigrants.<br />
+	 </li>
+	<li>The term "multicultural," like others surrounding the question of immigration, has been much disputed in the United States. Like "cultural pluralism," "multicultural" may describe a society in which multiple cultures exist peaceably side by side, interacting in common social, economic, and political practices, while remaining distinct in others; respecting one another; learning from one another; and each changing at its own pace accordingly. The call for "incorporation" articulated in this letter shares in this spirit. It is not a call for "assimilation" or the disappearance of one culture into another, but for continuing cooperation in pursuit of the common good and with proper respect for the good of each cultural tradition and community.<br />
+	 </li>
+	<li>In February 1986 the Pontifical Commission for the Pastoral Care of Migrants and the Congregation for Catholic Education wrote a joint letter on the place of "Human Mobility in the Formation of Future Priests."</li>
+</ol><p> </p>
+
+<p>The pastoral statement <em>Welcoming the Stranger Among Us: Unity in Diversity</em> was developed by the National Conference of Catholic Bishops' Committee on Migration. It was approved by the full body of bishops at their November 2000 general meeting as a statement of the National Conference of Catholic Bishops and is authorized for publication by the undersigned.</p>
+
+<p> </p>
+
+<blockquote>
+<p>Msgr. Dennis M. Schnurr<br />
+General Secretary, NCCB/USCC</p>
+</blockquote>
+
+<p>Excerpts from <em>Vatican II: The Conciliar and Post Conciliar Documents, New Revised Edition</em>, edited by Austin Flannery, OP, copyright © 1996, Costello Publishing Company, Inc., Northport, N.Y., are used with permission of the publisher. All rights reserved.</p>
+
+<p>Scripture texts used in this work are taken from the <em>New American Bible</em>, copyright © 1991, 1986, and 1970 by the Confraternity of Christian Doctrine, Washington, D.C. 20017 and are used with permission of the copyright owner. All rights reserved.</p>
+
+<p>Copyright © 2000, United States Catholic Conference, Inc., Washington, D.C. All rights reserved. No part of this work may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, or by any information storage and retrieval system, without permission in writing from the copyright holder.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+      </div>
+
+
+  </div>
+
+  </div>
+
+        
+      </div>
+      
+          </div>
+  </main>
+
+</div>
+<footer id="footer" role="contentinfo">
+    <div class="footer-top">
+    <div id="block-footer-top" class="wr-block b-button-container to-center padding-top-xl padding-bottom-m border-bottom block-system block-system-menu-blockfooter-top">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          
+                      <h2>Dive into God&#039;s Word</h2>
+                    
+                      
+              <ul class="menu-list">
+                    <li class="menu-item">
+        <a href="https://bible.usccb.org/" class="btn ocean light-blue transparent">Daily Readings</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://bible.usccb.org/podcasts/audio" class="btn ocean light-blue transparent">Listen to Podcasts</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://bible.usccb.org/podcasts/video" class="btn ocean light-blue transparent">Watch our Videos</a>
+              </li>
+        </ul>
+  
+
+
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="block-footer-about-usccb" class="wr-block b-footer-links width-minus padding-top-s block-block-content block-block-contentabce5388-21d1-4692-91ae-f80a92f2f37c">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          <div class="content block-7-5">
+            <div class="first">
+              
+                              <h6>About USCCB</h6>
+                               
+                              <p>The United States Conference of Catholic Bishops’ (USCCB’s) mission is to encounter the mercy of Christ and to accompany His people with joy.</p>
+                          </div>
+            <div class="second">
+              <a href="/about/index.cfm" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <div class="footer-center">
+    <div class="container">
+      <div class="row">
+          <div class="footer-center-first col-sm-6 col-lg-3">
+    <div class="views-element-container block block-views block-views-blockfooter-topics-block-1 wr-block b-footer-links padding-top-m padding-bottom-s" id="block-views-block-footer-topics-block-1">
+	<div class="container">
+		<div class="row">
+			<div class="p-wrap">
+				<div class="innerblock">
+				  
+				  					<h6>Topics</h6>
+				  				  
+				  					<div class="js-view-dom-id-3855dac559db4c87ebf9efe1aec53f69d7e87bd2c10369a296cf928014d7f954">
+  
+  
+  
+
+  
+  
+  
+
+  <ul class="menu-list">
+		  <li class="menu-item"><a href="/committees/pro-life-activities/abortion">Abortion</a></li>
+		  <li class="menu-item"><a href="/committees/international-justice-and-peace/africa">Africa</a></li>
+		  <li class="menu-item"><a href="/committees/african-american-affairs">African American</a></li>
+		  <li class="menu-item"><a href="/committees/international-justice-and-peace/asia">Asia</a></li>
+		  <li class="menu-item"><a href="/committees/asian-and-pacific-island-affairs">Asian/Pacific Islander</a></li>
+		  <li class="menu-item"><a href="/committees/pro-life-activities/assisted-suicide-euthanasia">Assisted Suicide</a></li>
+		  <li class="menu-item"><a href="https://bible.usccb.org/bible">Bible</a></li>
+		  <li class="menu-item"><a href="/committees/pro-life-activities/bioethics-materials">Bioethics</a></li>
+		  <li class="menu-item"><a href="/committees/evangelization-catechesis">Catechesis</a></li>
+		  <li class="menu-item"><a href="/committees/evangelization-catechesis/leadership-institute-catechetical-sunday-2020">Catechetical Sunday</a></li>
+		  <li class="menu-item"><a href="/topics/catholic-safeguards">Catholic Safeguards</a></li>
+		  <li class="menu-item"><a href="/offices/justice-peace-human-development/catholic-social-teaching">Catholic Social Teaching</a></li>
+		  <li class="menu-item"><a href="/committees/protection-children-young-people">Child and Youth Protection</a></li>
+	</ul>
+
+    
+
+  
+  
+
+        <a href="/topics" class="more">EXPAND ALL TOPICS</a>
+  
+  
+</div>
+
+
+				  				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  </div>
+
+          <div class="footer-center-second col-sm-6 col-lg-3">
+    <div id="block-footer-prayer-worship" class="wr-block b-footer-links padding-top-m padding-bottom-s block-system block-system-menu-blockfooter-prayer-worship">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          
+                      <h6>Prayer &amp; Worship</h6>
+                    
+                      
+              <ul class="menu-list">
+                    <li class="menu-item">
+        <a href="https://bible.usccb.org/readings/calendar">Daily Readings Calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://bible.usccb.org/bible">Books of the BIble</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.usccb.org/mass-times">Search Mass Times</a>
+              </li>
+                <li class="menu-item">
+        <a href="/prayer-and-worship/prayers-and-devotions">Prayer</a>
+              </li>
+                <li class="menu-item">
+        <a href="/prayer-worship/liturgical-year" data-drupal-link-system-path="node/49484">Liturgical Year &amp; Calendar</a>
+              </li>
+                <li class="menu-item">
+        <a href="/prayer-and-worship/sacraments-and-sacramentals" data-drupal-link-system-path="node/25826">Sacraments</a>
+              </li>
+                <li class="menu-item">
+        <a href="/prayer-and-worship/liturgy-of-the-hours" data-drupal-link-system-path="node/25818">Liturgy of the Hours</a>
+              </li>
+                <li class="menu-item">
+        <a href="/prayer-and-worship/the-mass" data-drupal-link-system-path="node/25850">The Mass</a>
+              </li>
+        </ul>
+  
+
+
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+          <div class="footer-center-third col-sm-6 col-lg-3">
+    <div id="block-footer-act-now" class="wr-block b-footer-links padding-top-m padding-bottom-s block-system block-system-menu-blockfooter-act-now">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          
+                      <h6>Get Involved to Act Now</h6>
+                    
+                      
+              <ul class="menu-list">
+                    <li class="menu-item">
+        <a href="/take-action" data-drupal-link-system-path="node/30414">Take Action</a>
+              </li>
+                <li class="menu-item">
+        <a href="/help-now" data-drupal-link-system-path="node/25731">Help Now</a>
+              </li>
+                <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Meetings &amp; Events</a>
+              </li>
+                <li class="menu-item">
+        <a href="/issues-and-action/take-action-now/pray" data-drupal-link-system-path="node/25851">Pray</a>
+              </li>
+        </ul>
+  
+
+
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+          <div class="footer-center-four col-sm-6 col-lg-3">
+    <div id="block-footer-quick-links" class="wr-block b-footer-links padding-top-m padding-bottom-s block-system block-system-menu-blockfooter-quick-links">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          
+                      <h6>Quick Links</h6>
+                    
+                      
+              <ul class="menu-list">
+                    <li class="menu-item">
+        <a href="/mass-times" data-drupal-link-system-path="mass-times">Parish/Mass Finder</a>
+              </li>
+                <li class="menu-item">
+        <a href="/resources" data-drupal-link-system-path="node/25748">Resources</a>
+              </li>
+                <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Calendars</a>
+              </li>
+                <li class="menu-item">
+        <a href="/subscribe/email" data-drupal-link-system-path="node/50856">E-mail Signup</a>
+              </li>
+                <li class="menu-item">
+        <a href="/get-connected" data-drupal-link-system-path="node/25811">Social Media</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.catholicnews.com/" target="_blank">Catholic News Service</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.catholicnews.com/movie-reviews/" target="_blank">Movie Reviews</a>
+              </li>
+        </ul>
+  
+
+
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+    <div class="footer-bottom">
+    <div id="block-footer-copyrights" class="wr-block b-footer-social padding-top-xxs block-block-content block-block-content0fa4f9a0-12d6-4ead-8916-14bb0b50b99f">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          <div class="content block-9-3">
+            <div class="first">
+              
+                                                          
+                              <p>©2023 United States Conference of Catholic Bishops</p>
+                          </div>
+            <div class="second b-social">
+              
+              <ul class="nav">
+                          
+                            
+      <li class="nav-item">
+        <a href="https://twitter.com/usccb" class="icon-twitter nav-link Array" target="_blank" rel="nofollow">Twitter</a>
+              </li>
+                      
+                            
+      <li class="nav-item">
+        <a href="https://www.facebook.com/usccb" class="icon-facebook nav-link Array" target="_blank" rel="nofollow">Facebook</a>
+              </li>
+                      
+                            
+      <li class="nav-item">
+        <a href="https://www.youtube.com/user/usccb" class="icon-youtube nav-link Array" target="_blank" rel="nofollow">Youtube</a>
+              </li>
+                      
+                            
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/company/usccb/" class="icon-linkedin nav-link Array" target="_blank" rel="nofollow">Linkedin</a>
+              </li>
+                      
+                            
+      <li class="nav-item">
+        <a href="https://www.instagram.com/usccb/" class="icon-instagram nav-link Array" target="_blank" rel="nofollow">Instagram</a>
+              </li>
+        </ul>
+  
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="block-footer-bottom" class="wr-block b-button-container padding-top-s padding-bottom-m block-system block-system-menu-blockfooter-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="p-wrap">
+        <div class="innerblock">
+          <div class="content block-8-4">
+            <div class="first">
+          
+          
+                      
+              <ul class="nav">
+                    <li class="nav-item">
+                  <span class="linkoff">United States Conference of Catholic Bishops is a 501(c)(3) non-profit organization</span>
+                      </li>
+                <li class="nav-item">
+                  <a href="https://www.usccb.org/about/privacy-policy.cfm" class="nav-link" rel="nofollow">Privacy Policy</a>
+                      </li>
+        </ul>
+  
+
+
+                    </div>
+          <div class="second">  <div class="region region-footer-bottom-right">
+    <div id="block-made-possible-by" class="wr-block b-funding-from block block-block-content block-block-content7e1350e2-d4f6-4e48-b73e-2b6df0c70ab8">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="body">
+<div class="first">
+<p><a href="/committees/catholic-communication-campaign">Made possible by funding from </a></p>
+</div>
+
+<div class="second">
+<ul class="block-gallery"><li>
+	<span data-embed-button="embed_image" data-entity-embed-display="entity_reference:media_thumbnail" data-entity-embed-display-settings="internal:/committees/catholic-communication-campaign medium" data-entity-type="media" data-entity-uuid="166eaae6-ab79-406f-8cc2-9691ce1a061e" data-langcode="en" class="embedded-entity"><a href="/committees/catholic-communication-campaign">  <img src="/sites/default/files/styles/medium/public/2020-07/usccb_logo.png?itok=za3peyxE" width="220" height="91" alt="ccc-final" loading="lazy" class="image-style-medium" /></a></span>
+</li>
+</ul></div>
+</div>
+</div>
+      
+  </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<div id="block-addthis" class="block block-block-content block-block-content2eec901a-f5dc-4aa9-a98b-605817e134ed">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ea07c26c650231c"></script></div>
+      
+  </div>
+
+  </div>
+
+</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/40308","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ai\/global-styling,calendar\/calendar.theme,ckeditor_readmore\/ckeditor_readmore,classy\/base,classy\/messages,core\/normalize,eu_cookie_compliance\/eu_cookie_compliance_bare,obfuscate_email\/default,paragraphs\/drupal.paragraphs.unpublished,system\/base,views\/views.module","theme":"ai","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--default\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Cp\u003EThis website uses cookies. By continuing you are agreeing to our \u003Ca href=\u0022\/about\/privacy-policy.cfm\u0022\u003EPrivacy Policy\u003C\/a\u003E\u003C\/p\u003E\n\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EClose\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--default\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EClose\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":true,"popup_height":"auto","popup_width":"100%","popup_delay":0,"popup_link":"\/node\/22269","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"default","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"open_by_default":true},"ai_stat":false,"user":{"uid":0,"permissionsHash":"9ab1a2d9da555a25676eeb0579e2d456419b1a447e41467f4321e5e4d5e0d18e"}}</script>
+<script src="/sites/default/files/js/js_dcb1IFE1QpnZQgzPybsnfmQyvSpMH2f_R5W2DgaNobo.js"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?v=1.19" defer></script>
+<script src="/sites/default/files/js/js_t5fpRma3eGzzK5RV2w-hM3vLIwyKVXMgDopHT0hGEoY.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-91f65b8eb2c03037f7e","applicationID":"578652560","transactionName":"M1ZSYhcCWRBZVRZcWAoccVURClgNF3IQQEcFX2xYCgdSP3tZDEFFC19cUxc\/eQxcUzRcUhNwX1gREVgPVFMQGAkSWlVB","queueTime":0,"applicationTime":331,"atts":"HxFRFF8YSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

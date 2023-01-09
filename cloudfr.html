@@ -1,165 +1,135 @@
-<!doctype html>
-<html lang="fr"><head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="description" content="sulfur,business,company,agency,multipurpose,modern,bootstrap4">
+<!DOCTYPE html>
+<html>
 
-   <meta name="author" content="themefisher.com">
-
-   <title>PPE</title>
-
-   <!-- bootstrap.min css -->
-   <link rel="stylesheet" href="plugins/bulma/bulma.min.css">
-   <!-- Icon Font Css -->
-   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-   <!-- AOS css -->
-   <link rel="stylesheet" href="plugins/animate-css/animate.css">
-   <link rel="stylesheet" href="plugins/aos/aos.css">
-   <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
-   <link rel="stylesheet" href="plugins/modal-video/modal-video.min.css">
-   <!-- Owl Carousel CSS -->
-   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-
-   <!-- Main Stylesheet -->
-   <link rel="stylesheet" href="css/style.css">
-
-</head><body>
-<!-- navigation -->
-<header class="navigation">
-	<nav id="navbar" class="navbar main-nav">
-		<div class="container">
-			<div class="navbar-brand ml-0">
-				<a class="navbar-item" href="index.html">
-					<!-- <img src="images/logo/logo.png" alt="logo"> -->
-					<h2 class="has-text-white" style="font-size:2rem">PPE</h2>
-				</a>
-				<button role="button" class="navbar-burger burger" data-hidden="true" data-target="navigation">
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-				</button>
-			</div>
-
-			<div class="navbar-menu mr-0" id="navigation">
-				<ul class="navbar-end">					 
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="index.html">Home</a>
-					</li>
-					
-					<li class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link is-arrowless">Extraction des URLS</a>
-						<div class="navbar-dropdown">
-							<a href="scripts.html" class="navbar-item"> Démarche </a>
-                      <a href="tableau_fr.html" class="navbar-item"> Tableau Français </a>
-                     <a href="tableau_all.html" class="navbar-item"> Tableau Allemand </a>
-                     <a href="tableau_eng.html" class="navbar-item"> Tableau Anglais </a>
-						</div>
-					</li>
-					
-               <li class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link is-arrowless">iTrameur</a>
-                  <div class="navbar-dropdown">
-                     <a href="demarche_itrameur.html" class="navbar-item"> Démarche </a>
-                     <a href="itrameurfr.html" class="navbar-item"> Corpus français </a>
-                     <a href="itrameurall.html" class="navbar-item"> Corpus allemand </a>
-                     <a href="itrameureng.html" class="navbar-item"> Corpus anglais </a>
-                  </div>
-               </li>
-
-               <li class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link is-arrowless">Nuage de mots</a>
-                  <div class="navbar-dropdown">
-                     <a href="cloudfr.html" class="navbar-item"> Nuage français </a>
-                     <a href="cloudall.html" class="navbar-item"> Nuages allemand </a>
-                     <a href="cloudeng.html" class="navbar-item"> Nuages anglais </a>
-                  </div>
-               </li>
-
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="analyse.html">Analyse</a>
-					</li>
-					
-					<li class="navbar-item">
-						<a class="navbar-link is-arrowless" href="about.html">À propos de nous</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
-<!-- nav part end -->
-
-<section class="page-title bg-1">
-   <div class="container">
-      <div class="columns">
-         <div class="column is-12">
-            <div class="has-text-centered">
-               <!-- <p>News details</p> -->
-               <h1 class="text-capitalize mb-4 text-lg">Nuage de mots français</h1>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
-<section class="section blog-wrap">
-   <div class="container">
-      <div class="columns is-desktop">
-   <div class="column is-12">
-      <div class="single-blog-item">
-         <div class="has-text-centered">
-            <span class="text-color text-sm letter-spacing is-uppercase mr-3">Cloud Français</span>
-         </div>
-         <h2 class="mt-1 mb-4 has-text-centered"><a href="blog-single.html">Nuage de mots :</a></h2>
-         <div class="blog-item-meta has-text-centered mb-5">
-            <span class="is-uppercase text-sm mr-3 letter-spacing">par Natacha M. </span>
-            <span class="is-uppercase text-sm letter-spacing"><i class="ti-time mr-1"></i> Janvier 2023</span>
-         </div></div></div></div>
-         <div class="box">
-            <img src="images/fox2.jpg" width="35%"/>  
-           <h2 class="title">Le cloud Français</h2>
-           <p> El famoso Cloud</p>
-           <br>
-           <p>Pour réaliser notre nuage de mot nous avons utilisé Wordcloud. Celui-ci a été installé avec la commande suivate <code>pip install wordcloud</code></p>
-           <br>
-            
-           <p> Il a été necessaire de faire une liste de mot vide , c'est à dire des mots qui ne sont pas pertinents pour notre sujet tels que les prépositions, articles etc...</p>
-           <p>Pour la réalisation de cette liste, nous avons utilisé une bibliothèque NLTK, celle ci a été installée et utilisée grace au langage de programmation python.</p>
-           <p>Le script python utilisé est le suivant :</p>
-           <img src="images/cloudfr/python.png">
-          <br>
-          <p>Neanmoins il y avait encore des mots que nous ne voulions pas tels que : " page" "url" , nous avons donc crée une petite liste à coté pour completer les mots vides</p>
-             <p>la commande est : <code>wordcloud_cli --text ./itrameur/contextes_FR-URL.txt --imagefile ./image.png --scale 2 --stopwords mot_vide_fr.txt</code></p>
-             <img src="Cloud/image.png">
-             <p>Nous pouvons voir à travers ce nuage la pluralité sémantique du terme étranger qui référe à des entités juridiques comme à des individus</p>
-           
-
-  </div>
-   </div>
-   </div>
-   </div>
-   </section>
-<!-- 
-   Essential Scripts
-   =====================================-->
-
-   <!-- Main jQuery -->
-   <script src="plugins/jquery/jquery.js"></script>
-   <script src="js/contact.js"></script>
-   <!--  Magnific Popup-->
-   <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-   <!-- Slick Slider -->
-   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-   <!-- Counterup -->
-   <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-   <script src="plugins/counterup/jquery.counterup.min.js"></script>
-   <script src="plugins/shuffle/shuffle.min.js"></script>
-   <script src="plugins/aos/aos.js"></script>
-   <script src="plugins/animate-css/wow.min.js"></script>
-   <script src="plugins/modal-video/jquery-modal-video.min.js"></script>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programmation et Projet encadré</title>
+  <link href="styles.css" rel="stylesheet"/>
   
-   <script src="js/script.js"></script>
-</body></html>
+  <script src="script.js"></script>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
+<body>
+
+                               
+                           
+<div class="container">
+
+ <center><a href="http://www.univ-paris3.fr/"><img src="logo.png" width="20%" ></a></center>
+
+    <div class="columns">
+        <div class="column is-18">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-header">
+
+                    </div>
+                </div>
+                <div class="card-content">
+
+                    <nav class="navbar is-light is-warning">
+
+                        <div class="navbar-brand">
+                           
+                          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="navbar-menu" id="navMenu">
+                            <div class="navbar-end">
+                                <a href="index.html" class="navbar-item" > Home </a>
+                                         <div class="navbar-item has-dropdown is-hoverable">
+                                    <a class="navbar-link"> Les Tableaux </a>
+                                    <div class="navbar-dropdown">
+                                        <a href="tableau_fr.html" class="navbar-item"> Français </a>
+                                        <a href="tableau_all.html" class="navbar-item"> Allemand </a>
+                                        <a href="tableau_eng.html" class="navbar-item"> Anglais </a>
+                                        <hr class="navbar-divider">
+                                        <a class="navbar-item"> Report an issue </a>
+                                    </div>
+                                </div>
+                                <a href="scripts.html"class="navbar-item"> Scripts </a>
+                                      <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link"> Itrameur </a>
+                                  <div class="navbar-dropdown">
+                                        <a href="itrameurfr.html" class="navbar-item"> Français </a>
+                                        <a href="itrameurall.html" class="navbar-item"> Allemand </a>
+                                        <a href="itrameureng.html" class="navbar-item"> Anglais </a>
+                                        
+                                        <hr class="navbar-divider">
+                                      <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
+                                    </div>
+                                    </div>
+                                       <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link"> Nuage de mots </a>
+                                        <div class="navbar-dropdown">
+                                        <a href="cloudfr.html" class="navbar-item"> Français </a>
+                                        <a href="cloudall.html" class="navbar-item"> Allemand </a>
+                                        <a href="cloudeng.html" class="navbar-item"> Anglais </a>
+                                        
+                                        <hr class="navbar-divider">
+                                      <a href="confrontation.html" class="navbar-item"> Confrontation résultats </a>
+                                    </div>
+                                    </div>
+                                <a href="analyse.html" class="navbar-item"> Analyse </a>
+                                <a href="about.html" class="navbar-item"> À propos de nous </a>
+                       
+                            </div>
+                            <div class="navbar-end">
+                            
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                              <div id="script" data-tab-content>
+                <p><div class="columns">
+                  <div class="column">
+                   
+                  </div>
+                  <div class="column is-two-thirds">
+              
+              <section class="hero is-primary">
+                  <div class="hero-body">
+                      <div class="container">
+                      <h1 class="title">
+                      Cloud
+                      </h1>
+                      <h2 class="subtitle">
+                      Cloud FR
+                      </h2>
+                      
+                      </div>
+                      </div>
+                      </section>
+                  
+                       
+                       <div class="box">
+                        <img src="images/fox2.jpg" width="35%"/>  
+                       <h2 class="title">Le cloud Français</h2>
+                       <p> El famoso Cloud</p>
+                       <br>
+                       <p>Pour réaliser notre nuage de mot nous avons utilisé Wordcloud. Celui-ci a été installé avec la commande suivate <code>pip install wordcloud</code></p>
+                       <br>
+                        
+                       <p> Il a été necessaire de faire une liste de mot vide , c'est à dire des mots qui ne sont pas pertinents pour notre sujet tels que les prépositions, articles etc...</p>
+                       <p>Pour la réalisation de cette liste, nous avons utilisé une bibliothèque NLTK, celle ci a été installée et utilisée grace au langage de programmation python.</p>
+                       <p>Le script python utilisé est le suivant :</p>
+                       <img src="images/cloudfr/python.png">
+                      <br>
+                      <p>Neanmoins il y avait encore des mots que nous ne voulions pas tels que : " page" "url" , nous avons donc crée une petite liste à coté pour completer les mots vides</p>
+                         <p>la commande est : <code>wordcloud_cli --text ./itrameur/contextes_FR-URL.txt --imagefile ./image.png --scale 2 --stopwords mot_vide_fr.txt</code></p>
+                         <img src="Cloud/image.png">
+                         <p>Nous pouvons voir à travers ce nuage la pluralité sémantique du terme étranger qui référe à des entités juridiques comme à des individus</p>
+                       
+
+              </div>
+                </div>
+                      <div class="column">
+                </div>
+                </div></p>
+              </div>

@@ -1,0 +1,2034 @@
+   false
+
+   Veuillez-patienter...
+
+   Recherche Aide
+   accueil /static/img/logo_com_externe_semi_bold.png
+   /static/img/logo-insee-header.png
+   Menu English
+     * Menu
+     * Contenu
+     * Blog
+     * Espace presse
+     * Aide
+     * Accès sourds et malentendants
+     * English
+
+   Veuillez-patienter... ____________________ (BUTTON)
+     *
+     * Statistiques et études
+       Cherchez vos statistiques par…
+          + Thèmes
+               o Économie - conjoncture - comptes nationaux
+               o Démographie
+               o Entreprises
+               o Plus de thèmes…
+          + Niveaux géographiques
+               o France
+               o Toutes les régions ou tous les départements
+               o Toutes les communes
+               o Plus de niveaux géographiques…
+          + Catégories
+               o Données
+               o Publications
+               o Plus de catégories…
+          + Collections
+               o Insee Première
+               o Notes et points de conjoncture
+               o Plus de collections…
+     * Définitions, méthodes et qualité
+          + Définitions
+               o Toutes les définitions des concepts
+          + Sources statistiques et indicateurs
+               o Liste des sources statistiques
+               o Liste des indicateurs
+               o Documentation complémentaire sur le recensement
+          + La qualité dans le Service statistique public (SSP)
+               o Le cadre de référence
+               o La troisième revue européenne par les pairs en 2021
+               o La gouvernance
+               o Les compétences
+               o Les actions et démarches qualité dans une approche
+                 processus
+               o Les engagements européens
+               o Les besoins des utilisateurs
+          + Nomenclatures
+               o Nomenclature d’activités française
+               o Nomenclature agrégée - NA, 2008
+               o Classification des produits française
+               o Classification des fonctions de consommation des ménages
+               o Catégories juridiques
+               o Nomenclatures des professions et catégories
+                 socioprofessionnelles
+          + Géographie administrative et d'étude
+               o Recherche sur une zone géographique
+               o Historique des communes
+               o Téléchargement
+               o Communes nouvelles
+               o Codification des collectivités d'outre-mer (COM)
+               o Codification des pays et territoires étrangers
+               o Collectivités territoriales à statut particulier
+          + Modèles, méthodes et outils statistiques
+               o Les modèles statistiques
+               o Les outils statistiques
+               o Méthodologie statistique
+          + Courrier des statistiques
+          + Open Data, données RDF et espace XML
+               o Diffusion des bases de données
+               o Utilisation des formats de diffusion
+               o Catalogue des API de l'Insee
+     * Services
+          + Réviser une pension, un loyer, bail ou contrat
+               o Réviser une pension alimentaire
+               o Réviser un loyer d'habitation
+               o Réviser un bail commercial ou professionnel
+               o Indexer un contrat
+               o Convertisseur franc-euro
+          + Consulter les indices et séries chronologiques
+               o Recherche d'indices et de séries chronologiques
+               o Utilisation du service web SDMX
+               o Tables de passage
+               o Historique des actualités
+          + Sirene
+               o Obtenir un avis de situation au répertoire Sirene
+               o Modifier le statut de diffusion au répertoire Sirene
+               o S'informer sur les démarches
+               o Obtenir sa catégorie d'entreprise
+               o Identifiant unique des intervenants sur les marchés
+                 financiers (LEI)
+               o Consulter et télécharger la base Sirene
+               o Demander son habilitation ProConnect
+          + Découvrir, apprendre
+          + Répondre à une enquête de l'Insee
+               o Enquêtes auprès des particuliers
+               o Enquêtes auprès des entreprises
+               o Faux enquêteurs, fraude, malveillance
+          + Consulter les agendas de diffusion
+               o Agenda des indicateurs
+               o Agenda des publications
+               o Publications les plus récentes
+               o Évènements annoncés à la Une du site
+          + Gérer les répertoires des personnes physiques
+               o Recueil des données d'état civil
+               o Le Répertoire électoral unique
+               o Dématérialisation des échanges de données
+               o Nombre de décès quotidiens par département
+               o Fichiers des personnes décédées depuis 1970
+          + Bibliothèque de l’Insee Alain Desrosières
+               o Portail documentaire et catalogue
+               o La Bibliothèque numérique de la statistique publique
+               o Contacter la bibliothèque
+          + Commander une prestation, acheter une publication
+               o Diffusion sur mesure
+               o Acheter nos publications
+          + Nous suivre
+               o Lettres d'information
+               o Abonnements aux lettres d'information et aux avis
+                 de parution
+               o Abonnement aux flux RSS
+               o L'Insee sur les médias sociaux
+               o Insee Mobile
+          + Aide
+               o Réponses à vos questions
+               o Aide à la navigation
+               o L’Insee est accessible aux personnes malentendantes ou
+                 sourdes avec Acceo
+          + Espace presse
+               o Événements presse
+               o Calendrier des publications
+               o Communiqués de presse nationaux
+               o Communiqués de presse régionaux
+     * L'Insee et la statistique publique
+          + L'Insee
+               o Connaître l'Insee
+               o Travailler à l'Insee
+               o Colloques, séminaires et salons
+               o Un peu d'histoire
+               o Rapports d'activité
+          + Les activités de l'Insee
+               o Établir des diagnostics conjoncturels
+               o Connaître les entreprises
+               o Observer l'évolution de la société
+               o Réaliser le recensement de la population
+               o Décrire et analyser les régions et les territoires
+               o Gérer des grands répertoires
+               o Diffuser ses statistiques et ses études
+               o Perfectionner ses méthodes et évaluer la qualité
+               o Contribuer à la construction de la statistique européenne
+                 et internationale
+          + La statistique publique
+               o Cadre juridique et institutionnel
+               o Le service statistique public
+               o Secret statistique
+               o Protection des données personnelles
+               o Accès aux données publiques
+               o Accès aux documents administratifs
+          + La construction de la statistique européenne
+               o Les producteurs de statistiques européennes en France
+               o Textes juridiques de la gouvernance
+                 statistique européenne
+               o Les règlements cadres et sectoriels
+          + Mesure de la qualité de service
+               o Les indicateurs de qualité du programme Transparence
+               o Résultats des enquêtes de satisfaction
+          + Services publics+ : un service public plus proche, plus
+            simple, plus efficace
+
+    1. Accueil
+    2. Statistiques et études
+    3. L'essentiel sur... les immigrés et les étrangers
+
+L'essentiel sur... les immigrés et les étrangers
+
+   L'essentiel sur… se compose de données clés, d'un jeu de
+   questions-réponses apportant des éclairages plus spécifiques, de
+   précisions méthodologiques et des liens vers des publications de
+   l'Insee ou d'autres organismes pour aller plus loin. Sur le même
+   modèle, retrouvez d'autres essentiels sur...
+   Chiffres-clés
+   Paru le : Paru le 10/08/2022
+   Imprimer
+   Données
+   (xlsx, 40 Ko)
+   - Août 2022
+
+     * En quelques chiffres
+     * En six questions
+     * Comment l'Insee mesure
+
+   Consultation de la publication ou de la documentation qui lui est
+   associée[En quelques chiffres__]
+
+1. Combien y a-t-il d'immigrés ou d'étrangers en France ?
+
+   En 2021, 7,0 millions d' immigrés vivent en France, soit 10,3 % de la
+   population totale. 2,5 millions d'immigrés, soit 36,0 % d'entre eux,
+   sont français. Ils ont acquis la nationalité française depuis leur
+   arrivée en France.
+
+   La population étrangère vivant en France s'élève à 5,2 millions de
+   personnes, soit 7,7 % de la population totale. Elle se compose de
+   4,5 millions d'immigrés n'ayant pas acquis la nationalité française et
+   de 0,8 million de personnes nées en France de nationalité étrangère.
+
+   1,7 million de personnes sont nées de nationalité française à
+   l'étranger. Avec les personnes immigrées (7,0 millions), au total,
+   8,7 millions de personnes vivant en France sont nées à l'étranger, soit
+   12,8 % de la population.
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Décomposition de la population vivant en France sel
+   on le lieu de naissance et la nationalité en 202021]
+
+tableau Décomposition de la population vivant en France selon le lieu de
+naissance et la nationalité en 2021
+
+   CAPTION: Décomposition de la population vivant en France selon le lieu
+   de naissance et la nationalité en 2021
+
+   Lieu de naissance et nationalité Effectif (en milliers) Proportion
+   (en %)
+   Nés en France 58 970 87,2
+   Nés en France de nationalité française 58 198 86,1
+   Nés en France de nationalité étrangère 772 1,1
+   Nés à l'étranger 8 657 12,8
+   Nés à l'étranger de nationalité française 1 693 2,5
+   Immigrés ayant acquis la nationalité française 2 509 3,7
+   Immigrés de nationalité étrangère 4 454 6,6
+   Ensemble immigrés 6 964 10,3
+   Ensemble étrangers 5 226 7,7
+   Population totale 67 626 100,0
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 4 454 000 immigrés de nationalité étrangère
+       vivent en France.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Décomposition de la population vivant en France selon le lieu de
+naissance et la nationalité en 2021
+
+   [Detail_imm-etr.png]
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 4 454 000 immigrés de nationalité étrangère
+       vivent en France.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+2. Où sont nés les immigrés vivant en France ?
+
+   En 2021, 47,5 % des immigrés vivant en France sont nés en Afrique.
+   33,1 % sont nés en Europe. Les pays de naissance les plus fréquents des
+   immigrés sont l'Algérie (12,7 %), le Maroc (12 %), le Portugal (8,6 %),
+   la Tunisie (4,5 %), l'Italie (4,1 %), la Turquie (3,6 %) et l'Espagne
+   (3,5 %). La moitié des immigrés sont originaires d'un de ces sept pays
+   (49 %).
+   (_) Part (en %) (_) Effectifs (en milliers)
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immigrhique -Immigrés vivant en France en 2021 selon leur conti
+   nent de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur continent de naissance
+
+   en %
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur continent de
+   naissance (en %)
+
+       Continent     Part
+        Afrique      47,5
+        Europe       33,1
+         Asie        13,6
+   Amérique, Océanie 5,8
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 47,5 % d’ immigrés vivant en France sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur continent de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 47,5 % d’ immigrés vivant en France sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immigrhique -Immigrés vivant en France en 2021 selon leur conti
+   nent de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur continent de naissance
+
+   en milliers
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur continent de
+   naissance (en milliers)
+
+       Continent     Effectifs
+        Afrique      3 309,8
+        Europe       2 304,3
+         Asie        945,2
+   Amérique, Océanie 404,2
+       Ensemble      6 963,5
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 3 309 800 immigrés vivant en France en 2021 sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur continent de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 3 309 800 immigrés vivant en France en 2021 sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en %)
+
+                 Pays               Part
+               Algérie              12,7
+                Maroc               12,0
+               Tunisie              4,5
+               Comores              2,0
+               Sénégal              1,8
+            Côte d'Ivoire           1,7
+   République démocratique du Congo 1,4
+              Cameroun              1,4
+                Mali                1,4
+             Madagascar             1,2
+                Congo               1,1
+               Guinée               0,9
+               Maurice              0,5
+              Cap-Vert              0,4
+               Egypte               0,4
+                Togo                0,3
+               Angola               0,3
+                Gabon               0,3
+                Bénin               0,3
+             Mauritanie             0,3
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 12,7 % d’immigrés vivant en France sont nés en
+       Algérie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 12,7 % d’immigrés vivant en France sont nés en
+       Algérie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en milliers
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en milliers)
+
+                 Pays               Effectifs
+               Algérie              887,1
+                Maroc               834,6
+               Tunisie              316,1
+               Comores              141,0
+               Sénégal              122,2
+            Côte d'Ivoire           119,3
+   République démocratique du Congo 98,8
+              Cameroun              98,7
+                Mali                96,4
+             Madagascar             85,0
+                Congo               76,0
+               Guinée               61,0
+               Maurice              37,1
+              Cap-Vert              30,2
+               Egypte               30,0
+                Togo                24,0
+               Angola               23,5
+                Gabon               23,3
+                Bénin               22,9
+             Mauritanie             19,9
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 887 100 immigrés vivant en France sont nés en
+       Algérie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 887 100 immigrés vivant en France sont nés en
+       Algérie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en %)
+
+          Pays        Part
+        Portugal      8,6
+         Italie       4,1
+        Espagne       3,5
+      Royaume-Uni     2,1
+        Roumanie      2,0
+        Belgique      1,8
+       Allemagne      1,5
+         Serbie       1,3
+        Pologne       1,2
+         Russie       1,1
+         Suisse       0,8
+        Pays-Bas      0,5
+         Arménie      0,5
+        Albanie       0,5
+        Moldavie      0,5
+        Bulgarie      0,4
+        Ukraine       0,4
+         Géorgie      0,3
+   Bosnie-Herzégovine 0,2
+         Grèce        0,2
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 8,6 % des immigrés vivant en France en 2021 sont nés au
+       Portugal.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 8,6 % des immigrés vivant en France en 2021 sont nés au
+       Portugal.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en milliers
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en milliers)
+
+          Pays        Effectifs
+        Portugal      598,5
+         Italie       287,8
+        Espagne       243,2
+      Royaume-Uni     144,9
+        Roumanie      137,9
+        Belgique      126,5
+       Allemagne      106,6
+         Serbie       88,1
+        Pologne       83,2
+         Russie       73,5
+         Suisse       59,0
+        Pays-Bas      35,6
+         Arménie      34,5
+        Albanie       33,4
+        Moldavie      32,9
+        Bulgarie      30,6
+        Ukraine       30,2
+         Géorgie      18,9
+   Bosnie-Herzégovine 15,3
+         Grèce        12,6
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 598 500 immigrés vivant en France en 2021 sont nés au
+       Portugal.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : 598 500 immigrés vivant en France en 2021 sont nés au
+       Portugal.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en %)
+
+       Pays     Part
+     Turquie    3,6
+      Chine     1,6
+     Viêt Nam   1,1
+     Cambodge   0,7
+    Sri Lanka   0,7
+       Inde     0,7
+      Syrie     0,6
+      Liban     0,6
+       Laos     0,5
+   Afghanistan  0,4
+     Pakistan   0,4
+       Iran     0,3
+   Philippines  0,3
+    Thaïlande   0,3
+    Bangladesh  0,3
+      Japon     0,3
+   Corée du Sud 0,3
+       Iraq     0,2
+     Indonésie  0,1
+      Taïwan    0,1
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 3,6 % d’immigrés vivant en France sont nés en
+       Turquie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 3,6 % d’immigrés vivant en France sont nés en
+       Turquie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en milliers
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en milliers)
+
+       Pays     Effectifs
+     Turquie    250,5
+      Chine     108,5
+     Viêt Nam   78,2
+     Cambodge   51,1
+    Sri Lanka   50,3
+       Inde     48,3
+      Syrie     41,9
+      Liban     41,5
+       Laos     33,3
+   Afghanistan  30,8
+     Pakistan   30,5
+       Iran     24,2
+   Philippines  20,9
+    Thaïlande   19,9
+    Bangladesh  19,0
+      Japon     18,5
+   Corée du Sud 17,8
+       Iraq     14,1
+     Indonésie  5,4
+      Taïwan    4,9
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 250 500 immigrés vivant en France sont nés en
+       Turquie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 250 500 immigrés vivant en France sont nés en
+       Turquie.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en %)
+
+      Pays    Part
+     Haïti    1,4
+     Brésil   0,9
+   États-Unis 0,6
+    Colombie  0,5
+    Suriname  0,4
+     Canada   0,3
+    Mexique   0,2
+     Pérou    0,2
+     Chili    0,2
+   Argentine  0,2
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 1,4 % d’immigrés vivant en France sont nés en
+       Haïti.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 1,4 % d’immigrés vivant en France sont nés en
+       Haïti.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -I[Graphique -Immigrés vivant en France en 2021 selon leur pays
+   de naissance]
+
+tableau Immigrés vivant en France en 2021 selon leur pays de naissance
+
+   en milliers
+
+   CAPTION: Immigrés vivant en France en 2021 selon leur pays de naissance
+   (en milliers)
+
+      Pays    Effectifs
+     Haïti    98,2
+     Brésil   61,4
+   Etats-Unis 38,3
+    Colombie  34,7
+    Suriname  31,3
+     Canada   17,5
+    Mexique   14,2
+     Pérou    13,5
+     Chili    13,1
+   Argentine  12,8
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 98 200 immigrés vivant en France sont nés en
+       Haïti.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+graphique Immigrés vivant en France en 2021 selon leur pays de naissance
+
+     * Note : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, 98 200 immigrés vivant en France sont nés en
+       Haïti.
+     * Champ : France.
+     * Source : Insee, estimations de population.
+
+3. Où sont nés les immigrés arrivés en France en 2020 ?
+
+   La crise sanitaire de 2020 a conduit de nombreux pays, dont la France,
+   à fermer leurs frontières ou tout au moins à restreindre les entrées
+   sur leur territoire. Ces mesures ont limité à la fois les entrées sur
+   le territoire français mais également les sorties, puisque certains
+   pays ont restreint l’entrée sur le sol des personnes venant de France.
+
+   En 2020, les entrées d’immigrés ont baissé de 21 % par rapport à 2019,
+   passant de 272 000 à 215 000 (estimations). 41 % des immigrés arrivés
+   en France en 2020 sont nés en Afrique et 32 % sont nés en Europe. Les
+   immigrés arrivés en France en 2020 sont plus souvent nés au Maroc
+   (9,5 %), en Algérie (7,1 %), en Tunisie (4,5 %), en Italie (4,5 %), en
+   Espagne (3,3 %), au Royaume-Uni (3,2 %), en Chine (3,0 %) ou en
+   Roumanie (2,8 %).
+   (_) Part (en %) (_) Effectifs
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immigréique -Immigrés arrivés en France en 2020 selon leur cont
+   inent de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur continent de naissance
+
+   en %
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur continent de
+   naissance (en %)
+
+       Continent     Part
+        Afrique      41,0
+        Europe       32,0
+         Asie        16,1
+   Amérique, Océanie 10,9
+     * Lecture : en 2020, 41 % d’immigrés arrivés en France sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur continent de
+naissance
+
+     * Lecture : en 2020, 41 % d’immigrés arrivés en France sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immigréique -Immigrés arrivés en France en 2020 selon leur cont
+   inent de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur continent de naissance
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur continent de
+   naissance
+
+       Continent     Effectifs
+        Afrique      88 300
+        Europe       68 800
+         Asie        34 700
+   Amérique, Océanie 23 400
+       Ensemble      215 200
+     * Lecture : 88 300 immigrés arrivés en France en 2020 sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur continent de
+naissance
+
+     * Lecture : 88 300 immigrés arrivés en France en 2020 sont nés en
+       Afrique.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance (en %)
+
+        Pays     Part
+       Maroc     9,5
+      Algérie    7,1
+      Tunisie    4,5
+   Côte d'Ivoire 2,5
+      Sénégal    2,1
+      Guinée     1,5
+       Mali      1,3
+     Cameroun    1,3
+      Comores    1,3
+    Madagascar   0,9
+     * Lecture : en 2020, 9,5 % d’immigrés arrivés en France sont nés au
+       Maroc.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : en 2020, 9,5 % d’immigrés arrivés en France sont nés au
+       Maroc.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance
+
+        Pays     Effectifs
+       Maroc     20 500
+      Algérie    15 200
+      Tunisie    9 700
+   Côte d'Ivoire 5 400
+      Sénégal    4 500
+      Guinée     3 300
+       Mali      2 900
+     Cameroun    2 800
+      Comores    2 700
+    Madagascar   2 000
+     * Lecture : en 2020, 20 500 immigrés arrivés en France sont nés au
+       Maroc.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : en 2020, 20 500 immigrés arrivés en France sont nés au
+       Maroc.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance (en %)
+
+       Pays    Part
+     Italie    4,5
+     Espagne   3,3
+   Royaume-Uni 3,2
+    Roumanie   2,8
+    Belgique   2,5
+    Portugal   2,4
+    Allemagne  2,0
+     Suisse    1,6
+     Russie    1,2
+    Moldavie   1,1
+     * Lecture : 4,5 % des immigrés arrivés en France en 2020 sont nés en
+       Italie.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : 4,5 % des immigrés arrivés en France en 2020 sont nés en
+       Italie.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance
+
+       Pays    Effectifs
+     Italie    9 700
+     Espagne   7 100
+   Royaume-Uni 6 900
+    Roumanie   6 100
+    Belgique   5 300
+    Portugal   5 200
+    Allemagne  4 300
+     Suisse    3 400
+     Russie    2 600
+    Moldavie   2 400
+     * Lecture : 9 700 immigrés arrivés en France en 2020 sont nés en
+       Italie.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : 9 700 immigrés arrivés en France en 2020 sont nés en
+       Italie.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance (en %)
+
+       Pays    Part
+      Chine    3,0
+      Inde     1,4
+   Afghanistan 1,3
+     Turquie   1,1
+      Syrie    1,0
+      Liban    0,8
+      Japon    0,7
+     Géorgie   0,7
+    Viêt Nam   0,7
+    Pakistan   0,6
+     * Lecture : en 2020, 3,0 % d’immigrés arrivés en France sont nés en
+       Chine.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : en 2020, 3,0 % d’immigrés arrivés en France sont nés en
+       Chine.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance
+
+       Pays    Effectifs
+      Chine    6 500
+      Inde     3 000
+   Afghanistan 2 700
+     Turquie   2 400
+      Syrie    2 200
+      Liban    1 800
+      Japon    1 500
+     Géorgie   1 400
+    Viêt Nam   1 400
+    Pakistan   1 300
+     * Lecture : en 2020, 6 500 immigrés arrivés en France sont nés en
+       Chine.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : en 2020, 6 500 immigrés arrivés en France sont nés en
+       Chine.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   en %
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance (en %)
+
+      Pays    Part
+     Brésil   2,1
+     Haïti    1,9
+   Etats-Unis 1,6
+    Colombie  1,1
+     Canada   0,7
+    Mexique   0,6
+   Argentine  0,5
+   Venezuela  0,4
+     Pérou    0,3
+   Australie  0,3
+     * Lecture : 2,1 % des immigrés arrivés en France en 2020 sont nés au
+       Brésil.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : 2,1 % des immigrés arrivés en France en 2020 sont nés au
+       Brésil.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Immraphique -Immigrés arrivés en France en 2020 selon leur pays
+    de naissance]
+
+tableau Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+   CAPTION: Immigrés arrivés en France en 2020 selon leur pays de
+   naissance
+
+      Pays    Effectifs
+     Brésil   4 500
+     Haïti    4 000
+   Etats-Unis 3 400
+    Colombie  2 300
+     Canada   1 400
+    Mexique   1 200
+   Argentine  1 000
+   Venezuela  800
+     Pérou    700
+   Australie  700
+     * Lecture : 4 500 des immigés arrivés en France en 2020 sont nés au
+       Brésil.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+graphique Immigrés arrivés en France en 2020 selon leur pays de naissance
+
+     * Lecture : 4 500 des immigés arrivés en France en 2020 sont nés au
+       Brésil.
+     * Champ : France.
+     * Source : Insee, estimations des flux d’entrées.
+
+   Depuis 2006, les sorties d’immigrés sont relativement modestes au
+   regard de leurs entrées. En moyenne, quatre immigrés entrent sur le
+   territoire lorsqu’un en sort. Il s’agit essentiellement d’étudiants
+   étrangers quittant la France à la fin de leurs études, de départs à
+   l’issue d’une période d’emploi de quelques années ou encore de retours
+   au pays au moment de la retraite. Au total, le solde migratoire des
+   immigrés a baissé légèrement entre 2006 (+ 164 000) et 2009 (+ 133 000)
+   avant de croître pour atteindre + 214 000 personnes en 2019. En raison
+   de la crise sanitaire, ce solde diminue à + 169 000 personnes en 2020
+   (estimations).
+   (_) Immigrés (_) Non-immigrés (_) Ensemble
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Flux migratoires des immigrés]
+
+tableau Flux migratoires des immigrés
+
+   en milliers
+
+   CAPTION: Flux migratoires des immigrés (en milliers)
+
+   Année Entrées d'immigrés (1) Sorties d'immigrés (2) Solde migratoire =
+   (1) + (2)
+   2006 208 -45 163
+   2007 203 -65 138
+   2008 206 -65 141
+   2009 204 -73 131
+   2010 211 -69 142
+   2011 217 -58 159
+   2012 229 -56 174
+   2013 236 -51 185
+   2014 234 -40 194
+   2015 253 -69 185
+   2016 259 -38 222
+   2017 261 -63 198
+   2018 273 -51 222
+   2019 272 -58 214
+   2020 215 -46 169
+     * Note : estimations provisoires pour 2019 et 2020.
+     * Lecture : en 2020, 215 000 immigrés sont entrés en France et 46 000
+       en sont sortis. Au total, le solde migratoire des immigrés
+       s’établit à + 169 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+graphique Flux migratoires des immigrés
+
+     * Note : estimations provisoires pour 2019 et 2020.
+     * Lecture : en 2020, 215 000 immigrés sont entrés en France et 46 000
+       en sont sortis. Au total, le solde migratoire des immigrés
+       s’établit à + 169 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Flux migratoires des non immigrés]
+
+tableau Flux migratoires des non immigrés
+
+   en milliers
+
+   CAPTION: Flux migratoires des non immigrés (en milliers)
+
+   Année Entrées de non-immigrés (1) Sorties de non-immigrés (2) Solde
+   migratoire = (1) + (2)
+   2006 80 -131 -51
+   2007 69 -133 -64
+   2008 66 -150 -85
+   2009 66 -165 -98
+   2010 97 -200 -103
+   2011 103 -235 -132
+   2012 98 -199 -101
+   2013 102 -187 -85
+   2014 106 -268 -162
+   2015 111 -255 -145
+   2016 118 -275 -157
+   2017 108 -152 -44
+   2018 113 -135 -22
+   2019 113 -187 -74
+   2020 68 -97 -29
+     * Note : estimations provisoires pour 2019 et 2020. Les personnes
+       non-immigrées sont celles nées en France ou nées françaises à
+       l'étranger.
+     * Lecture : en 2020, 68 000 personnes non-immigrées sont entrées en
+       France et 97 000 en sont sorties. Au total, le solde migratoire des
+       non-immigrés s’établit à – 29 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+graphique Flux migratoires des non immigrés
+
+     * Notes : estimations provisoires pour 2019 et 2020. Les personnes
+       non-immigrées sont celles nées en France ou nées françaises à
+       l'étranger.
+     * Lecture : en 2020, 68 000 personnes non-immigrées sont entrées en
+       France et 97 000 en sont sorties. Au total, le solde migratoire des
+       non-immigrés s’établit à – 29 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Flux migratoires, toutes catégories de population]
+
+tableau Flux migratoires, toutes catégories de population
+
+   en milliers
+
+   CAPTION: Flux migratoires, toutes catégories de population (en
+   milliers)
+
+   Année Entrées (1) Sorties (2) Solde migratoire = (1) + (2)
+   2006  288         -176        112
+   2007  272         -198        74
+   2008  272         -215        57
+   2009  270         -238        32
+   2010  307         -268        39
+   2011  320         -293        27
+   2012  327         -255        72
+   2013  338         -238        100
+   2014  340         -308        32
+   2015  364         -324        40
+   2016  377         -312        65
+   2017  369         -215        155
+   2018  387         -186        201
+   2019  385         -245        140
+   2020  283         -143        140
+     * Note : estimations provisoires pour 2019 et 2020.
+     * Lecture : en 2020, 283 000 personnes sont entrées en France et
+       143 000 en sont sorties. Au total, le solde migratoire établit à
+       + 140 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+graphique Flux migratoires, toutes catégories de population
+
+     * Note : estimations provisoires pour 2019 et 2020.
+     * Lecture : en 2020, 283 000 personnes sont entrées en France et
+       143 000 en sont sorties. Au total, le solde migratoire établit à
+       + 140 000 personnes.
+     * Champ : France hors Mayotte jusqu'en 2013 et y compris Mayotte à
+       partir de 2014.
+     * Source : Insee, estimations de population, des flux d'entrées et de
+       sorties.
+
+4. Comment évolue la population étrangère et immigrée en France ?
+
+   La population immigrée en France progresse en effectif et en
+   pourcentage de la population totale depuis 1946. Elle correspond à
+   10,3 % de la population vivant en France en 2021, contre 7,4 % en 1975
+   et 5,0 % en 1946.
+
+   La population étrangère vivant en France représente 7,7 % de la
+   population totale en 2021, contre 6,5 % en 1975 et 4,4 % en 1946.
+
+   Jusqu’au milieu des années 1970, les flux d’immigration étaient
+   majoritairement masculins, comblant les besoins de main-d’œuvre nés de
+   la reconstruction d’après-guerre, puis de la période des Trente
+   Glorieuses. En 1974, dans un contexte économique dégradé, un frein est
+   mis à l'immigration de travail et l’immigration familiale se développe.
+   Depuis cette date, la part des femmes dans les flux d'immigration est
+   croissante, qu'il s'agisse de regroupement familial ou non. En 2021,
+   52 % des immigrés sont des femmes, contre 44 % en 1975 et 45 % en 1946.
+   (_) Population immigrée (_) Population étrangère (_) Population
+   immigrée par sexe
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Évolution de la population immigrée en France]
+
+tableau Évolution de la population immigrée en France
+
+   CAPTION: Évolution de la population immigrée en France
+
+   Année Population immigrée (en milliers) Part de la population immigrée
+   dans la population totale (en %)
+   1921 1 429 3,7
+   1926 2 288 5,7
+   1931 2 729 6,6
+   1936 2 326 5,6
+   1946 1 986 5,0
+   1954 2 293 5,4
+   1962 2 861 6,2
+   1968 3 238 6,5
+   1975 3 887 7,4
+   1982 4 037 7,4
+   1990 4 222 7,3
+   1999 4 374 7,3
+   2006 5 136 8,1
+   2010 5 514 8,5
+   2011 5 605 8,6
+   2012 5 714 8,8
+   2013 5 835 8,9
+   2014 6 028 9,1
+   2015 6 169 9,3
+   2016 6 291 9,4
+   2017 6 449 9,7
+   2018 6 579 9,8
+   2019 6 734 10,0
+   2020 (p) 6 848 10,2
+   2021 (p) 6 964 10,3
+     * p : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, la part de la population immigrée représente
+       10,3 % de la population totale.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+graphique Évolution de la population immigrée en France
+
+     * Note : données provisoires pour 2020 et 2021, issues d'estimations
+       avancées de la population.
+     * Lecture : en 2021, la part de la population immigrée représente
+       10,3 % de la population totale.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Évolution de la population étrangère en France]
+
+tableau Évolution de la population étrangère en France
+
+   CAPTION: Évolution de la population étrangère en France
+
+   Année Population étrangère (en milliers) Part de la population
+   étrangère dans la population totale (en %)
+   1921 1 532 3,9
+   1926 2 409 6,0
+   1931 2 715 6,6
+   1936 2 198 5,3
+   1946 1 744 4,4
+   1954 1 765 4,1
+   1962 2 151 4,6
+   1968 2 621 5,3
+   1975 3 442 6,5
+   1982 3 714 6,8
+   1990 3 645 6,3
+   1999 3 322 5,5
+   2010 3 818 5,9
+   2011 3 889 6,0
+   2012 3 981 6,1
+   2013 4 084 6,2
+   2014 4 289 6,5
+   2015 4 428 6,7
+   2016 4 542 6,8
+   2017 4 704 7,0
+   2018 4 850 7,2
+   2019 5 000 7,4
+   2020 (p) 5 150 7,6
+   2021 (p) 5 226 7,7
+     * p : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, la part de la population étrangère représente
+       7,7 % de la population totale.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+graphique Évolution de la population étrangère en France
+
+     * Note : données provisoires pour 2020 et 2021, issues d'estimations
+       avancées de la population.
+     * Lecture : en 2021, la part de la population étrangère représente
+       7,7 % de la population totale.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   graphique[Graphique -Population immigrée en France par sexe]
+
+tableau Population immigrée en France par sexe
+
+   en milliers
+
+   CAPTION: Population immigrée en France par sexe (en milliers)
+
+    Année   Population masculine immigrée Population féminine immigrée
+     1921   818,8                         610,4
+     1926   1 335,5                       952,7
+     1931   1 634,5                       1 094,7
+     1936   1 306,9                       1 019,2
+     1946   1 083,0                       902,9
+     1954   1 292,0                       1 001,0
+     1962   1 606,3                       1 255,0
+     1968   1 816,0                       1 422,0
+     1975   2 186,8                       1 700,6
+     1982   2 178,8                       1 858,2
+     1990   2 197,0                       2 025,0
+     1999   2 198,0                       2 176,0
+     2006   2 501,5                       2 457,0
+     2010   2 701,0                       2 813,1
+     2011   2 737,1                       2 868,0
+     2012   2 786,7                       2 927,3
+     2013   2 841,5                       2 993,8
+     2014   2 930,4                       3 097,1
+     2015   2 997,6                       3 171,6
+     2016   3 054,8                       3 236,6
+     2017   3129,0                        3319,8
+     2018   3 192,6                       3 386,3
+     2019   3 273,5                       3 460,0
+   2020 (p) 3 320,5                       3 527,7
+   2021 (p) 3 376,3                       3 587,2
+     * p : données provisoires, issues d'estimations avancées de la
+       population.
+     * Lecture : en 2021, la population féminine immigrée s'élève à 3 587
+       milliers de personnes.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+graphique Population immigrée en France par sexe
+
+     * Note : données provisoires pour 2020 et 2021, issues d'estimations
+       avancées de la population.
+     * Lecture : en 2021, la population féminine immigrée s'élève à 3 587
+       milliers de personnes.
+     * Champ : France métropolitaine de 1921 à 1982 ; France hors Mayotte
+       de 1990 à 2013 et y compris Mayotte à partir de 2014.
+     * Source : Insee, recensements de la population et estimations de
+       population.
+
+   Quelle est la situation des immigrés face à l'emploi ?
+   Quelle est la situation des immigrés face à l'emploi ?
+
+   En 2021, parmi les personnes de 15 à 64 ans, 80 % des hommes immigrés
+   sont actifs, c'est-à-dire qu'ils occupent un emploi ou en cherchent un.
+   Cette proportion est proche de celle observée parmi les hommes
+   non-immigrés (76 %). Chez les femmes, les écarts sont plus marqués : le
+   taux d'activité des femmes immigrées est de 62 % contre 71 % pour les
+   non-immigrées.
+
+   La proportion d'hommes occupant un emploi est identique parmi les
+   immigrés et les non-immigrés (70 %). Pour les femmes, le taux d'emploi
+   est de 53 % parmi les immigrées contre 66 % parmi les non-immigrées. La
+   répartition des postes occupés par les immigrés et non immigrés est
+   globalement semblable, cependant les immigrés occupent plus souvent que
+   les non-immigrés des postes d’ouvriers (27 % contre 18 %) et moins
+   souvent ceux de professions intermédiaires (16 % contre 26 %).
+
+   Lorsqu'ils sont actifs, les immigrés rencontrent davantage de
+   difficultés à trouver un emploi que les non-immigrés. Le taux de
+   chômage des immigrés est de 12 % parmi les hommes et 14 % parmi les
+   femmes, alors qu'il s'élève à respectivement 8 % et 7 % parmi les
+   non-immigrés.
+
+   Pour plus de détails, consulter la publication.
+
+graphique Taux d'activité, d'emploi et de chômage selon le sexe et le statut
+migratoire en 2021
+
+     * Note: les personnes non immigrées sont celles nées en France ou
+       nées Françaises à l'étranger.
+     * Lecture : en 2021, parmi les personnes de 15 à 64 ans, 79,8 % des
+       hommes immigrés sont actifs.
+     * Champ : France hors Mayotte, personnes âgées de 15 à 64 ans et
+       vivant en ménage ordinaire.
+     * Source : Insee, enquête Emploi.
+
+   Quel est le profil des immigrés arrivés récemment en France ?
+   Quel est le profil des immigrés arrivés récemment en France ?
+
+   Parmi les immigrés arrivés en 2019, les femmes sont légèrement
+   majoritaires (52 %). Leur proportion est plus forte parmi les immigrés
+   originaires de Russie (66 %), de Chine (61 %), du Brésil (57 %) ou
+   encore d’Algérie (56 %). Près de 60 % des nouveaux arrivants immigrés
+   ont moins de 30 ans : un quart sont mineurs et un tiers sont âgés de 18
+   à 29 ans. Ce profil est relativement comparable selon les origines,
+   même si les immigrés européens sont un peu plus âgés (âge moyen de 30,4
+   ans contre 27,9 ans pour l’ensemble des immigrés).
+
+   Les immigrés arrivés en 2019, âgés de 15 ans ou plus, ont des niveaux
+   de diplômes plus polarisés que l’ensemble de la population,
+   c’est-à-dire avec des proportions plus fortes de personnes sans diplôme
+   (24 % contre 20 %) et de diplômés du supérieur (43 % contre 30 %). Les
+   femmes immigrées sont plus diplômées que les hommes immigrés, et le
+   niveau de diplôme des nouveaux arrivants immigrés augmente, comme dans
+   la population générale, au fil des générations. Bien que les niveaux de
+   diplôme soient comparables par continent d’origine, les immigrés
+   européens ont moins fréquemment aucun diplôme (20 %) et ceux
+   originaires d’Asie sont plus souvent diplômés du supérieur (50 %).
+   Enfin, les personnes non-immigrées arrivant en France sont
+   particulièrement diplômées : 70 % possèdent un diplôme du supérieur,
+   dont 38 % de niveau bac + 5 ou plus.
+
+   Parmi les immigrés arrivés en France en 2019 et âgés de 15 ans ou plus,
+   32 % sont en emploi début 2020. Les hommes immigrés occupent plus
+   souvent un emploi à leur arrivée (39 %) que les femmes (25 %). De
+   fortes disparités s’observent également par continent d’origine. 49 %
+   des nouveaux arrivants européens sont en emploi, contre 22 % de ceux
+   originaires d’Afrique et d’Asie. Cette différence s’explique en partie
+   par le fait que les Européens sont généralement un peu plus âgés,
+   diplômés et qu’ils viennent moins fréquemment en tant qu’étudiants (14
+   % contre respectivement 22 % et 31 %). De même, les droits des
+   étrangers sur le marché du travail varient selon leur origine. Les
+   ressortissants de l’Union européenne bénéficient des mêmes droits que
+   les personnes de nationalité française (mis à part l’accès à certains
+   emplois dits de « souveraineté » dans les ministères régaliens), alors
+   que les ressortissants des autres pays n’ont pas tous des titres de
+   séjour qui leur permettent de travailler en France.
+
+   Pour plus de détails, consulter la publication.
+
+tableau Caractéristiques des immigrés arrivés en France en 2019
+
+   en %
+
+   CAPTION: Caractéristiques des immigrés arrivés en France en 2019 (en %)
+   - Lecture : en 2019, 112 000 immigrés originaires d’Afrique sont entrés
+   en France. Parmi eux, 52 % sont des femmes et 28 % ont moins de 18 ans.
+
+   Caractéristique Afrique Europe Asie Amérique, Océanie Ensemble des
+   immigrés
+   Femmes 52 50 52 57 52
+   Tranche d'âge
+   Moins de 18 ans 28 27 22 26 26
+   18 à 29 ans 35 27 41 34 33
+   30 à 44 ans 27 24 28 27 26
+   45 à 64 ans 8 17 8 11 11
+   65 ans ou plus 2 6 1 2 3
+   Niveau de diplôme
+   Aucun diplôme 28 20 24 21 24
+   Brevet des collèges, CAP ou BEP 14 16 8 13 13
+   Baccalauréat ou équivalent 20 22 18 21 20
+   Diplôme du supérieur 39 42 50 46 43
+   Actif/Inactif
+   En emploi 22 49 22 35 32
+   Chômeurs 27 12 16 19 19
+   Étudiants 22 14 31 20 21
+   Inactifs hors étudiants 29 26 31 27 28
+   Ensemble
+   Nombres d’entrées en 2019 112 000 87 000 44 000 30 000 273 000
+     * Note : le diplôme et l’activité portent sur les personnes de 15 ans
+       ou plus.
+     * Lecture : en 2019, 112 000 immigrés originaires d’Afrique sont
+       entrés en France. Parmi eux, 52 % sont des femmes et 28 % ont moins
+       de 18 ans.
+     * Champ : France.
+     * Source : Insee, recensement de la population.
+
+   Quelle est la part des immigrés et de leurs descendants dans la
+   population ?
+   Quelle est la part des immigrés et de leurs descendants dans la
+   population ?
+
+   En 2019-2020, parmi les personnes vivant en logement ordinaire en
+   France métropolitaine, 5,8 millions sont immigrées, soit 9 % de la
+   population. 7,5 millions de personnes sont quant à elles descendantes
+   d’immigrés de 2ᵉ génération (12 % de la population), c’est-à-dire nées
+   en France avec au moins un de leurs parents immigré. Parmi les
+   personnes de moins de 60 ans, 4,7 millions sont descendantes d’immigrés
+   de 3ᵉ génération (10 % des moins de 60 ans), c’est-à-dire nées en
+   France, de parents non immigrés, et avec au moins un de leurs
+   grands-parents immigré. Au total, parmi les personnes de moins de 60
+   ans, un tiers a une ascendance immigrée en remontant jusqu'aux
+   grands-parents.
+
+   L’empreinte de la succession des flux d’immigration se lit dans les
+   origines géographiques par âge. Si les immigrés venus d’Afrique sont
+   majoritaires entre 18 et 59 ans (53 %, dont 34 % originaires du
+   Maghreb), ils redeviennent minoritaires au-delà de 60 ans (37 %), au
+   profit des immigrés originaires d’Europe (51 %). Les transformations
+   des origines des immigrés influencent fortement le profil des
+   générations suivantes. Les enfants mineurs de la 2ᵉ génération sont
+   ainsi très majoritairement d’origine non-européenne (83 %), et en
+   particulier africaine (65 %). Toutefois, la part de ces origines
+   diminue rapidement au fil des cohortes. De 18 à 59 ans, 45 % des
+   personnes de la 2ᵉ génération sont d’origine africaine, alors
+   qu’au-delà de 60 ans, 91 % sont d’origine européenne, avec parfois des
+   migrations très anciennes (italienne, espagnole, polonaise, belge,
+   allemande, etc.).
+
+   Avec des grands-parents nés durant la première moitié du 20ᵉ siècle et
+   qui ont pu migrer vers la France jusque dans les années 1970, les
+   descendants de 3ᵉ génération ont principalement des origines
+   européennes. 91 % de ceux âgés de 18 à 59 ans ont au moins un
+   grand-parent immigré né en Europe, et notamment en Espagne, Italie ou
+   Portugal (58 %). Ces proportions sont plus faibles pour les moins de 18
+   ans (respectivement 51 % et 41 %).
+
+   Pour plus de détails, consulter la publication.
+
+graphique Origine migratoire sur trois générations par tranche d’âge en
+2019-2020
+
+     * Note : les proportions d’immigrés (G1) et de descendants de 2ᵉ
+       génération (G2) sont calculées à partir de l’enquête Emploi. Pour
+       les descendants de 3ᵉ génération (G3), l’enquête Emploi est
+       utilisée de 0 à 17 ans et l’enquête Trajectoires et Origines 2 de
+       18 à 59 ans. Au-delà de 59 ans, la proportion de G3 n’est plus
+       mesurable. Ces personnes sont alors rattachées à la population sans
+       ascendance migratoire directe, c’est-à-dire ni immigrée, ni
+       descendante d'immigrés de 2ᵉ génération (ni G1, ni G2).
+     * Lecture : 24,6 % des enfants de 4 ans ou moins sont descendants
+       d'immigrés de 2ᵉ génération, dont 13,3 % ont leurs deux parents
+       immigrés.
+     * Champ : France métropolitaine, personnes vivant en logement
+       ordinaire.
+     * Source : Ined-Insee, Ouvrir dans un nouvel onglet Trajectoires et
+       Origines 2 ; Insee, enquête Emploi.
+
+   Où vivent les immigrés et leurs descendants ?
+   Où vivent les immigrés et leurs descendants ?
+
+   Les immigrés sont surreprésentés dans les grandes agglomérations
+   urbaines, en particulier en Île-de-France : en moyenne sur les années
+   2020 et 2021, alors qu'à l'échelle nationale, 10 % de la population est
+   d'origine immigrée, ils représentent 20 % de la population parisienne,
+   et près d'un tiers de la population de Seine-Saint-Denis. Plus d'un
+   immigré sur trois (37 %) habitent ainsi en Ile-de-France. Les
+   agglomérations lyonnaise (département du Rhône) et marseillaise
+   (département des Bouches du Rhône) sont également concernées, avec
+   respectivement 13 % et 11 % de leur population qui est immigrée.
+   Cependant, on assiste depuis les années 1990 à une certaine Ouvrir dans
+   un nouvel onglet progression de la population immigrée dans certains
+   territoires des campagnes françaises (retraités du nord de l’Europe,
+   actifs européens, exilés du Proche et Moyen-Orient, d’Asie et
+   d’Afrique).
+
+   Les départements frontaliers concentrent également une proportion
+   d’immigrés supérieure au niveau national : c’est notamment le cas du
+   Bas-Rhin et du Haut-Rhin à la frontière allemande, de l’Ain et de la
+   Haute-Savoie à la frontière suisse, des Pyrénées-Orientales et de la
+   Haute-Garonne à la frontière espagnole, et des Alpes-Maritimes à la
+   frontière italienne. À l’inverse, les départements du nord-ouest et du
+   centre de la France comptent une proportion d’immigrés plus faible. De
+   manière générale, la population immigrée est plus concentrée que la
+   population totale : 13 départements regroupent la moitié de la
+   population immigrée, alors qu’il en faut 23 pour regrouper la moitié de
+   la population nationale.
+
+   À l’image des immigrés, la population des descendants d’immigrés (2ᵉ
+   génération) est également plus concentrée que la population totale : en
+   moyenne sur 2020 et 2021, 12 départements regroupent la moitié des
+   descendants d’immigrés. S’ils restent surreprésentés dans les grandes
+   agglomérations et aux frontières comme les immigrés, ils sont présents
+   dans certains départements où les immigrés sont relativement peu
+   nombreux : alors que les descendants d’immigrés représentent 11 % de la
+   population française, cette proportion atteint 21 % en Moselle et 14 %
+   dans l’Aude et la Drôme. Ils restent cependant peu nombreux dans la
+   partie ouest du pays.
+
+   La répartition territoriale de la population immigrée et descendante
+   d’immigrés par origine est le résultat de plusieurs vagues
+   d’immigration : alors que les immigrés et descendants d’immigrés
+   d’origine portugaise et africaine hors Maghreb privilégient
+   l’Ile-de-France, les immigrés italiens et leurs descendants sont
+   surreprésentés à la frontière italienne (région
+   Provence-Alpes-Côte-D’azur), tandis que les immigrés espagnols et leurs
+   descendants sont surreprésentés à la frontière espagnole (région
+   Occitanie). On retrouve également une surreprésentation des descendants
+   d’immigrés d’origine maghrébine dans le sillon rhodanien et en région
+   Provence-Alpes-Côte-D’azur. Les immigrés arrivés en France depuis moins
+   de cinq ans s'installent dans les lieux où résident déjà les immigrés
+   des vagues plus anciennes.
+
+   Pour plus de détails, consulter la publication.
+     * Graphique
+     * Tableau
+
+   Affichage de l’onglet contenant le tableau ou de l’onglet contenant le
+   phique -Part des immigrés dans la popus dans la population par départeme
+   nt en 2020-2021..........................]
+
+tableau Part des immigrés et descendants d'immigrés dans la population par
+département en 2020-2021
+
+   en %
+
+   CAPTION: Part des immigrés et descendants d'immigrés dans la population
+   par département en 2020-2021 (en %)
+
+         Département       Immigrés Descendants d’immigrés
+             Ain           11,0     14,1
+            Aisne          5,0      5,7
+           Allier          5,8      5,7
+   Alpes-de-Haute-Provence 8,1      nd
+        Hautes-Alpes       5,9      8,5
+       Alpes-Maritimes     15,1     15,6
+           Ardèche         5,2      8,6
+          Ardennes         7,3      6,9
+           Ariège          7,3      9,5
+            Aube           8,7      7,7
+            Aude           9,4      13,9
+           Aveyron         7,2      6,8
+      Bouches-du-Rhône     11,3     15,5
+          Calvados         4,0      4,7
+           Cantal          2,6      nd
+          Charente         7,1      4,8
+      Charente-Maritime    3,5      3,4
+            Cher           6,4      8,9
+           Corrèze         7,3      5,8
+        Corse-du-Sud       9,1      11,3
+         Haute-Corse       13,0     11,8
+          Côte-d'Or        8,0      8,3
+        Côtes-d'Armor      4,1      2,8
+           Creuse          4,8      5,7
+          Dordogne         6,3      4,9
+            Doubs          9,1      11,2
+            Drôme          8,1      14,4
+            Eure           5,3      7,1
+        Eure-et-Loir       7,6      7,0
+          Finistère        3,2      3,3
+            Gard           9,1      8,9
+        Haute-Garonne      11,1     12,8
+            Gers           7,7      nd
+           Gironde         8,0      9,6
+           Hérault         11,0     10,9
+       Ille-et-Vilaine     4,6      4,1
+            Indre          4,9      5,8
+       Indre-et-Loire      6,8      7,5
+            Isère          10,2     14,5
+            Jura           6,3      5,8
+           Landes          5,3      5,2
+        Loir-et-Cher       6,4      5,9
+            Loire          8,0      11,2
+         Haute-Loire       4,1      nd
+      Loire-Atlantique     5,5      4,6
+           Loiret          10,5     10,2
+             Lot           7,3      9,1
+       Lot-et-Garonne      9,0      11,8
+           Lozère          4,9      nd
+       Maine-et-Loire      4,3      3,9
+           Manche          3,0      4,0
+            Marne          6,6      9,7
+         Haute-Marne       3,7      7,8
+           Mayenne         3,7      4,2
+     Meurthe-et-Moselle    8,8      11,5
+            Meuse          3,6      5,0
+          Morbihan         3,4      3,0
+           Moselle         11,5     20,8
+           Nièvre          6,1      5,9
+            Nord           7,4      9,4
+            Oise           8,6      11,8
+            Orne           6,1      5,5
+        Pas-de-Calais      2,1      5,9
+         Puy-de-Dôme       7,0      9,0
+    Pyrénées-Atlantiques   7,8      8,1
+       Hautes-Pyrénées     6,9      10,1
+     Pyrénées-Orientales   10,3     13,6
+          Bas-Rhin         11,8     11,4
+          Haut-Rhin        12,7     15,6
+            Rhône          13,1     14,9
+         Haute-Saône       4,9      4,4
+       Saône-et-Loire      7,2      14,3
+           Sarthe          5,0      4,3
+           Savoie          7,7      7,9
+        Haute-Savoie       14,3     12,2
+            Paris          20,1     14,8
+       Seine-Maritime      6,1      6,4
+       Seine-et-Marne      14,7     16,9
+          Yvelines         16,0     17,6
+         Deux-Sèvres       5,0      5,5
+            Somme          4,1      7,1
+            Tarn           6,4      9,2
+       Tarn-et-Garonne     9,2      10,9
+             Var           8,0      10,7
+          Vaucluse         11,1     18,0
+           Vendée          3,0      1,7
+           Vienne          5,0      5,6
+        Haute-Vienne       7,5      7,6
+           Vosges          4,9      6,2
+            Yonne          6,8      9,4
+    Territoire-de-Belfort  10,0     10,7
+           Essonne         17,6     22,3
+       Hauts-de-Seine      19,0     17,9
+      Seine-Saint-Denis    31,6     31,6
+        Val-de-Marne       22,7     18,5
+         Val-d'Oise        21,1     25,5
+         Guadeloupe        5,5      5,5
+         Martinique        2,7      3,2
+           Guyane          28,1     30,0
+         La Réunion        2,5      4,1
+     France hors Mayotte   10,1     11,2
+     * nd : donnée non disponible.
+     * Note : pour des raisons de précision, les départements où les
+       effectifs enquêtés sont insuffisants ne sont pas diffusés.
+     * Lecture : en 2020-2021, la part des descendants d’immigrés
+       représente 14,1 % de la population du département de l’Ain.
+     * Champ : France hors Mayotte, personnes immigrées (nées étrangères à
+       l’étranger) toutes habitations confondues, et descendantes
+       d’immigrés (nées en France d’au moins un parent immigré) vivant en
+       ménage ordinaire.
+     * Source : Insee, estimations de population (immigrés) 2020-2021,
+       enquêtes Emploi (descendants d’immigrés) 2020-2021.
+
+graphique Part des immigrés dans la population par département en 2020-2021
+
+     * Note : pour des raisons de précision, les départements où les
+       effectifs enquêtés sont insuffisants ne sont pas diffusés.
+     * Lecture : en 2020-2021, la part des immigrés représente 11,0 % de
+       la population de l'Ain.
+     * Champ : France hors Mayotte, personnes immigrées (nées étrangères à
+       l’étranger) toutes habitations confondues.
+     * Source : Insee, estimations de population 2020-2021.
+
+   Comment se situe la France par rapport aux autres pays de l'Union
+   européenne ?
+   Comment se situe la France par rapport aux autres pays de l'Union
+   européenne ?
+
+   En 2021, sur les 447,3 millions d’habitants des 27 pays de l’Union
+   européenne (UE27), 37,5 millions sont étrangers et 55,4 millions sont
+   nés dans un pays étranger, soit respectivement 8,4 % et 12,4 % de la
+   population. Avec 7,7 % d'étrangers et 12,8 % de personnes nées à
+   l'étranger, la France se situe ainsi dans la moyenne européenne.
+
+   Le Luxembourg est le pays de l'UE27 qui compte proportionnellement le
+   plus d’étrangers, puisqu'ils composent 47 % de sa population.
+   Toutefois, 81 % d'entre eux sont ressortissants d’un autre pays de
+   l'UE27. Inversement, les étrangers représentent moins de 2 % de la
+   population en Roumanie, en Pologne, en Slovaquie ou en Bulgarie. La
+   proportion de personnes nées à l'étranger et de celles de nationalité
+   étrangère sont généralement liées, mais elles varient fortement selon
+   les pays. Elles dépendent à la fois des règles de naturalisation, de la
+   taille et de l'histoire de chaque pays (anciens pays du bloc
+   soviétique, histoire coloniale, anciennes fédérations etc.). Au niveau
+   européen, on compte en moyenne 1,5 personnes nées à l'étranger pour un
+   étranger, contre 5,3 en Croatie et 0,9 en République tchèque. Avec un
+   rapport de 1,7, la France se situe légèrement au dessus de la moyenne
+   européenne.
+
+   Avec 10,6 millions de personnes, l’Allemagne est le pays qui compte le
+   plus grand nombre d’étrangers. Parmi eux, 42 % sont ressortissants d'un
+   autre pays de l'UE27. L'Espagne, la France et l'Italie accueillent un
+   nombre similaire d'étrangers (environ 5 millions) mais ces derniers
+   sont moins souvent ressortissants de l'UE27 (environ 30 %).
+
+   Pour plus de détails, consulter la Ouvrir dans un nouvel
+   ongletpublication.
+
+graphique Population étrangère et née à l’étranger dans les pays de l’Union
+Européenne en 2021
+
+     * Lecture : au 1ᵉʳ janvier 2021, les étrangers représentent 7,7 % de
+       la population en France et 8,4 % de la population dans l’ensemble
+       de l’Union européenne à 27 pays.
+     * Champ : population au 1ᵉʳ janvier 2021.
+     * Source : Eurostat (extraction en juillet 2022).
+
+   Quelle est la fécondité des femmes immigrées ?
+   Quelle est la fécondité des femmes immigrées ?
+
+   En 2017, près d’une naissance sur cinq (19 %) est de mère immigrée.
+   Cette proportion est plus élevée que la part des femmes immigrées parmi
+   la population féminine de 15 à 50 ans (12 %, cette proportion variant
+   de 4 % à 16 % selon les âges).
+
+   En 2016, l’indicateur conjoncturel de fécondité (ICF) des immigrées est
+   de 2,72 enfants par femme et celui des non immigrées de 1,79 enfant par
+   femme, soit un écart de 0,93 enfant par femme. L’ICF total des femmes,
+   immigrées ou non, est de 1,91 enfant par femme. Sans les immigrées, le
+   niveau de la fécondité en France en 2016 serait donc inférieur de 0,12
+   enfant par femme (1,91 moins 1,79).
+
+   La fécondité des immigrées varie selon le pays de naissance. Avec
+   environ 3,5 enfants par femme en 2014, les immigrées originaires du
+   Maghreb ont la fécondité la plus élevée. Celle des immigrées nées en
+   Afrique subsaharienne ou en Turquie avoisine trois enfants. La
+   fécondité des immigrées nées en Europe ou dans les autres régions du
+   monde se rapproche de la moyenne nationale, environ 2 enfants par
+   femme.
+
+   En 2010, il n’y a pas d’Ouvrir dans un nouvel ongletécart de fécondité
+   entre les femmes descendantes d’immigrés et les femmes ni immigrées ni
+   descendantes d’immigrés, avec un indicateur conjoncturel de fécondité
+   respectivement de 1,85 et 1,86 enfant par femme.
+
+   Pour plus de détails, consulter la Ouvrir dans un nouvel
+   ongletpublication.
+
+graphique Fécondité des immigrées selon leur pays de naissance en 2014
+
+     * Lecture : en 2014, l'indicateur conjoncturel de fécondité s'établit
+       à 2,75 pour l'ensemble des femmes immigrées.
+     * Champ : France hors Mayotte.
+     * Source : Insee, recensements de la population 2015.
+
+1. Comment l'Insee mesure-t-il le nombre d'immigrés et d'étrangers ?
+
+   Le nombre d’immigrés et le nombre d’étrangers sont connus par le
+   recensement de la population. Tous les types d'habitation sont recensés
+   (ménages ordinaires, foyers, résidences collectives, lieux de privation
+   de liberté, habitations mobiles, sans-abri, etc.). Le bulletin indivuel
+   de recensement interroge les personnes sur leur pays de naissance et
+   leur nationalité actuelle. Pour les personnes ayant acquis la
+   nationalité française, il leur est demandé leur nationalité de
+   naissance.
+
+   Les immigrés sont les personnes recensées qui ont indiqué un pays de
+   naissance étranger et une nationalité étrangère ou qui ont acquis la
+   nationalité française. Les étrangers sont les personnes recensées qui
+   ont indiqué une nationalité étrangère.
+
+   Les résultats définitifs du recensement ne sont connus que 42 mois
+   après la date de référence. Pour fournir des informations plus
+   récentes, des estimations de populations sont effectuées. La population
+   totale et sa répartition par sexe et âge sont tout d'abord estimées
+   selon la méthode du bilan démographique. Les effectifs de chaque
+   sous-groupe sont ensuite déduits de la structure des enquêtes annuelles
+   de recensement. Ces estimations sont provisoires et ne permettent pas
+   de calculer des évolutions d'une année sur l'autre.
+
+2. Comment l'Insee mesure-t-il les entrées en France ?
+
+   Pour savoir combien de personnes sont entrées en France une année N,
+   l'Insee utilise l’enquête annuelle de recensement qui se déroule au
+   début de l'année N+1. Les personnes nées à l’étranger sont interrogées
+   sur la date de leur arrivée en France. Si une personne déclare être
+   arrivée en l'année N, ou si elle déclare qu’elle résidait à l’étranger
+   au 1^er janvier de l'année N, elle est comptabilisée dans les entrées
+   de l’année N.
+
+   Sont également comptabilisées dans les entrées de l’année N les
+   personnes nées en France qui reviennent cette année après un séjour à
+   l’étranger. C’est leur lieu de résidence à l’étranger au 1^er janvier
+   de l'année N qui permet de les repérer.
+
+3. Les immigrés clandestins sont-ils pris en compte ?
+
+   Le recensement de la population comptabilise tous les habitants. Il
+   comptabilise donc les clandestins comme toute autre personne résidant
+   en France, mais ne les identifie pas en tant que tels. L'agent
+   recenseur ne demande jamais de pièce d'identité à la personne recensée.
+
+4. Quelles sont les limites de ces mesures ?
+
+   Le recensement est une source déclarative et des informations, comme la
+   date d'arrivée en France ou le pays de résidence antérieure, peuvent
+   être soumises à des biais de déclaration ou de mémoire.
+
+Pour en savoir plus
+
+   Chiffres clés et chiffres détaillés sur les immigrés et les étrangers
+   Ouvrir dans un nouvel ongletStatistiques sur la population migrante en
+   Europe
+   Ouvrir dans un nouvel onglet
+   Immigrés et descendants d'immigrés, édition 2012
+   Ouvrir dans un nouvel ongletStatistiques administratives (titres de
+   séjour, demandes d'asile...)
+   Ouvrir dans un nouvel onglet
+   La diversité des origines et la mixité des unions progressent au fil
+   des générations
+   En 2017, 44 % de la hausse de la population provient des immigrés
+   Ouvrir dans un nouvel ongletÉtudes du service statistique ministériel
+   (Infos migrations)
+   Ouvrir dans un nouvel onglet
+   L’insertion des immigrés, de l’arrivée en France au premier emploi
+   Oui, la statistique publique produit des statistiques ethniques
+
+   Menu
+
+Abonnez-vous
+
+   Avis de parution
+
+Nous suivre
+
+Contact
+
+   Nous contacter
+     * Statistiques et études
+     * Définitions, méthodes et qualité
+          + Définitions
+          + Sources statistiques et indicateurs
+          + La qualité dans le Service statistique public (SSP)
+          + Nomenclatures
+          + Géographie administrative et d'étude
+          + Modèles, méthodes et outils statistiques
+          + Courrier des statistiques
+          + Open Data, données RDF et espace XML
+     * Services
+          + Réviser une pension, un loyer, bail ou contrat
+          + Consulter les indices et séries chronologiques
+          + Sirene
+          + Découvrir, apprendre
+          + Répondre à une enquête de l'Insee
+          + Consulter les agendas de diffusion
+          + Gérer les répertoires des personnes physiques
+          + Bibliothèque de l’Insee Alain Desrosières
+          + Commander une prestation, acheter une publication
+          + Nous suivre
+          + Aide
+          + Espace presse
+     * L'Insee et la statistique publique
+          + L'Insee
+          + Les activités de l'Insee
+          + La statistique publique
+          + La construction de la statistique européenne
+          + Mesure de la qualité de service
+          + Services publics+ : un service public plus proche, plus
+            simple, plus efficace
+
+     * Système Statistique Européen
+     * Apprendre avec les données de l'Insee
+     * Réseau Quetelet
+     * Centre d'Accès Sécurisé Distant aux données (CASD)
+     * site data.gouv
+     * Services Publics +
+
+     * Mentions légales et crédits
+     * Conditions d'utilisation de nos données
+     * Accessibilité : partiellement conforme
+     * Accès sourds et malentendants
+     * Sécurité
+     * Plan du site
+
+   Haut de page

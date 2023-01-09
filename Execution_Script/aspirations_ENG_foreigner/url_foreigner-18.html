@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="content-language" content="en" />
+	<meta name="copyright" content="Copyright (c) 2009 - 2022 Office of the Government" />
+	<meta name="robots" content="all,follow" />
+	<meta name="keywords" content="Czech Republic, Government, Prime Minister" />
+	<meta name="description" content="Important information regarded covid-19 measures for people coming to the Czech Republic.
+" />
+
+	<title>Important covid-19 measures for foreigners | Government of the Czech Republic</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="/image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="/image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#140d41">
+	<link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+	<style type="text/css">
+		/* <![CDATA[ */
+		@import "/css/generic.css";
+		@import "/css/datepicker.css";
+		/* ]]> */
+	</style>
+	<script type="text/javascript" src="/js/user-en.js"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-33536185-1']);// identifikator vlada.cz
+_gaq.push(['_setDomainName', 'vlada.cz']); // shodné nastavení pro všechny subdomény
+_gaq.push(['_setAllowAnchor', true]); // případné ovolení UTM parametrů za znakem #
+</script>
+<script src="/js/vyhledavace-ga.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/jquery_172_min.js"></script>
+<script type="text/javascript" src="/js/resp.js"></script>
+	<!--/*[if !IE]*/--><link href="/css/msie.css" type="text/css" media="screen, projection" rel="stylesheet" /><!--/*[endif]*/-->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="/js/cookieconsent.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <script>
+        const technical_cookies = ['TS017546ff', 'WTDGUID', 'PHPSESSID', 'cookieconsent_status'];
+
+        function check_cookie_name(name) {
+            var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            if (match) {
+                // console.log(match[2]);
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        function removeCookies() {
+            let allCookies = document.cookie.split('; ');
+            let cookie_list_names = [];
+            // console.log('cl', cookie_list);
+            for (let cl of allCookies) {
+                let clvalue = cl.split('=');
+                cookie_list_names.push(clvalue[0]);
+                // console.log('clnp', clvalue[0]);
+            }
+            let cookies_to_remove = cookie_list_names.filter(function (val) {
+                return technical_cookies.indexOf(val) == -1;
+            });
+
+            // console.log('trm', cookies_to_remove);
+
+            for (var i of cookies_to_remove) {
+                var remove = true;
+                var hostname = window.location.hostname;
+                var cookieRemoved = false;
+                var index = 0;
+
+                // console.log('ck', i);
+
+                if (remove) {
+                    while (!cookieRemoved && hostname !== '') {
+                        // console.log('hn', hostname);
+                        document.cookie = i + "=; Max-Age=-99999999; path=/; domain=." + hostname + ";";
+                        cookieRemoved = check_cookie_name(i);
+                        if (!cookieRemoved) {
+                            document.cookie = i + "=; Max-Age=-99999999; path=/; domain=" + hostname + ";";
+                            cookieRemoved = check_cookie_name(i);
+                        }
+
+                        index = hostname.indexOf('.');
+
+                        hostname = (index === -1) ? '' : hostname.substring(index + 1);
+                    }
+
+                    if (!cookieRemoved) {
+                        document.cookie = i + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;';
+                    }
+                }
+            }
+        }
+
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "type": 'opt-in',
+                "position": "bottom",
+                "theme": "classic",
+                "cookie": {
+                    "expiryDays": 365,
+                },
+                "palette": {
+                    "popup": {
+                        "background": "#001a4f",
+                        "text": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#737373",
+                        "text": "#ffffff"
+                    }
+                },
+                "content": {
+                    "allow": "Accept all",
+                    "deny": "Necessary only"
+                },
+                "elements": {
+                    messagelink: '<span id="cookieconsent:desc" class="cc-message">We use cookies to ensure the best possible user experience with our website. Detailed information about cookies and their processing can be found on the <a style="color: #ffffff;" href="/en/urad-vlady/about-server/personal-data-protection-167157/">Privacy Policy website</a>. By clicking “Accept all” you agree that we can use all types of cookies. By clicking on “Necessary only”, we will only store cookies that are necessary for the functioning of our website. The consent granted can be revoked by clicking on the “Cookie” link in the footer of the website.</span>'
+                },
+                "revokable": true,
+                "revokeBtn": '<div class="cc-revoke {{classes}}" id="cookie-settings-float_button">Cookies</div>',
+                onInitialise: function(status) {
+                    if (!this.hasConsented()) {
+                        removeCookies();
+                    }
+                },
+                onPopupOpen: function () {
+                    if (!this.hasConsented()) {
+                        removeCookies();
+                    }
+                },
+            });
+        });
+    </script>
+	<div id="case">
+		<div id="header">
+<div id="site-en">
+
+			<p id="logo"><a href="/en/" title="Return to home page"><img src="/images/vlada/vlada-ceske-republiky_en.gif" width="574" height="45" alt="Czech Republic Government" /></a></p><!-- /LOGO -->
+			
+<p id="related-sites">
+				<a id="related-sites-cz" href="/en" title="Vláda"><span></span</a>
+	<a id="related-sites-eu" href="http://www.euroskop.cz/8427/sekce/the-czech-republic-joins-the-schengen-area/ " title="Euroskop"><span></span>euroskop.cz</a>
+        <a id="related-sites-info" title="Informační centrum vlády" href="http://icv.vlada.cz/en/"><span></span>Informační centrum vlády</a>
+
+</p><!-- /RELATED-SITES -->
+
+<p id="accesslink">Skip to: <a href="#content">main text</a> | <a href="#nav">navigation</a></p><!-- /ACCESSLINK -->
+</div> <!-- site -->
+			<div id="global">
+				<div id="nav"><h2>Navigace</h2><ul><li><a href="/en/default.htm">Home</a></li><li><a href="/en/vlada/default.htm">Members of the Government</a></li><li><a href="/en/jednani-vlady/default.htm">Government Meetings</a></li><li><a href="/en/media-centrum/default.htm"><strong class="selected">Media Centre</strong></a></li><li><a href="/en/evropske-zalezitosti/default.htm">European Affairs</a></li><li><a href="/en/pracovni-a-poradni-organy-vlady/default.htm">Advisory and Working Bodies</a></li><li><a href="/en/urad-vlady/default.htm">Office of the Government</a></li></ul></div>
+				<div id="global-in">
+					<label for="search--toggle" class="searchBtn"></label>
+<input type="checkbox" class="search--toggle" id="search--toggle" />
+<form id="search" action="/scripts/modules/fs/default.php" method="get">
+	<h2>Search</h2>
+	<fieldset>
+	<input type="hidden" name="locale" value="EN" />
+	<input type="hidden" name="sort" value="rank" />
+	<legend><label for="searchinput">Insert text for searching</label></legend>
+	<input name="searchtext" id="searchinput" type="text" size="17" />
+ 	<input id="searchsubmit" type="submit" value="search" />
+	</fieldset>
+</form><!-- /SEARCH -->
+					<ul id="lang">
+  <li>
+    <a href="http://www.vlada.cz/cz/epidemie-koronaviru/dulezite-informace/mimoradna-a-ochranna-opatreni-_-co-aktualne-plati-180234/"><span class="desk">česká verze</span><span class="resp">CZ</span></a>
+    
+  </li>
+</ul><!-- /LANG -->
+					<script>date();</script>
+				</div><!-- /GLOBAL-IN -->
+			</div><!-- /global -->
+<nav class="responsiveNav"><p class="shortNav"><a href="/en/vlada/default.htm">ministers</a><a href="/en/jednani-vlady/default.htm">meetings</a><a href="/en/media-centrum/default.htm"><strong class="selected">media</strong></a><a href="/en/evropske-zalezitosti/default.htm">EU</a><a href="/en/pracovni-a-poradni-organy-vlady/default.htm">councils</a><a href="/en/urad-vlady/default.htm">office</a></p><label for="responsiveNav--toggle" class="responsiveNavBtn"><span/></label><ul class="responsiveUl"><li class="act"><a href="/scripts/detail.php?pgid=103">Press Advisories</a></li><li><a href="/scripts/detail.php?pgid=486">Scheduled Events</a></li><li><a href="/scripts/detail.php?pgid=474">Press Releases</a></li><li><a href="/scripts/detail.php?pgid=487">Press Conferences</a></li><li><a href="/scripts/detail.php?pgid=810">Introducing</a></li><li><a href="/en/jednani-vlady/default.htm">Government Meetings</a></li><li><a href="/en/media-centrum/dulezite-dokumenty/default.htm">Important Documents</a></li><li><a href="/en/neprehlednete/default.htm">Important Information</a></li><li><a href="/en/media-centrum/kontakty/default.htm">Contacts</a></li></ul></nav>
+			<div class="fix"><!-- workaround --></div>
+		</div><!-- /HEADER -->
+		<div id="content">
+		<div class="content-main">
+			<h2>Press Advisories</h2><script type="text/javascript">
+				  _gaq.push(['_setCustomVar',
+				  1,
+				  'Sekce',
+				  'mediacentrum',
+				  3
+				  ]);
+	 			  </script>		
+			<p class="info">28. 2. 2022 <span class="subject">21:00</span></p><!-- /info -->
+<h1 class="perex nomargintop">Important covid-19 measures for foreigners</h1><!-- /perex -->
+ 
+<div class="cols cols-3 offset-after">
+  <div class="col mergecols-2">
+    <div class="detail">
+      <span class="bold">Important information regarded covid-19 measures for people coming to the Czech Republic.<br/><br/></span>
+      <p>&nbsp;</p>
+
+<ul>
+	<li><a href="#arrivals">On-line arrivals form for the Czech Republic</a></li>
+	<li><a href="#The rules for entering the territory of the Czech Republic and quarantine measures are defined by the Ministry of Health">The rules for entering the territory of the Czech republic</a></li>
+	<li><a href="#Vaccination plan">Vaccination plan</a></li>
+	<li><a href="#Vaccination">Vaccination</a></li>
+	<li><a href="#Visits_at_Healthcare">Visiting Healthcare institutions</a></li>
+	<li><a href="#facemasks">The obligation to wear face masks</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2><a id="arrivals" name="arrivals"></a>On-line arrivals form for the Czech Republic</h2>
+
+<p><strong>The </strong><strong>Ministry of Health of the Czech Republic has launched an </strong><a href="http://www.prijezdovyformular.cz/"><strong>on-line arrival form</strong></a><strong>. It will have to be completed before arrival in the Czech Republic by all those who have stayed for more than 12 hours out of the last 14 days in any country that is not on the </strong><a href="https://koronavirus.mzcr.cz/en/list-of-countries-according-to-the-level-of-risk/"><strong>list of countries</strong></a> <strong>with a low Covid-19 risk,</strong> with the exception of employees of international transport firms, EU citizens and foreigners with a long-term or permanent residence permit in the EU passing through the Czech Republic in 12 hours or less, as well as diplomats and officials of international organizations registered with the Ministry of Foreign Affairs, provided that their stay here does not exceed 14 days.</p>
+
+<p><strong>Passengers will find the form on the </strong><a href="http://www.prijezdovyformular.cz"><strong>www.prijezdovyformular.cz</strong></a> <strong>website</strong>. <strong>The obligation to complete it will apply to travellers arriving in the Czech Republic from Monday 21&nbsp;September 2020 inclusive.</strong></p>
+
+<p>The form may be printed out or displayed on a mobile device and shown on arrival in the Czech Republic. The form also includes a section on fellow passengers, which need only be completed if they are family members under the age of 18. These persons need not therefore complete their own form, but are part of the form to be completed by an adult.</p>
+
+<p>After completion and submission of the form, a confirmation of completion will be sent to the user at the e-mail address given in the form. The e-mail contains a QR code and a link to display the entire confirmation, including all data provided. After scanning on any mobile phone, the QR code will display the on-line version of the confirmation for verification. The displayed verification contains all the data provided.</p>
+
+<p><strong><a href="https://www.mvcr.cz/mvcren/article/coronavirus-information-of-moi.aspx">Detailed information of the Ministry of the Interior.</a></strong></p>
+
+<h2><a id="The rules for entering the territory of the Czech Republic and quarantine measures are defined by the Ministry of Health" name="The rules for entering the territory of the Czech Republic and quarantine measures are defined by the Ministry of Health"></a>The rules for entering the territory of the Czech Republic</h2>
+
+<p>The Ministry of Health, as the authorised administrative body under Section 80(1)(h) of Act No. 258/2000 Coll., on the Protection of Public Health and on changes to certain related Acts, as amended (hereinafter referred to as &ldquo;Act No. 258/2000 Coll.&rdquo;) has decreed the following protective measure through a procedure defined in Section 68(1) of Act No. 258/2000 Coll. to provide protection from the introduction of COVID-19 caused by the novel coronavirus SARSCoV-2:</p>
+
+<p>I.</p>
+
+<p><a href="https://koronavirus.mzcr.cz/wp-content/uploads/2022/02/618_PM_against_SARS-CoV-2_from_February_15th_2021_-_20220215.pdf">With effect as of 15 February 2022, 00:00 it has been</a></p>
+
+<p><strong>I. ordered</strong></p>
+
+<p><strong>A. Arrivals from EU countries</strong></p>
+
+<p>1. all persons traveling to the territory of the Czech Republic from EU countries, if they have not spent at least 12 hours in the last 14 days in a country outside the European Union,</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>are required to complete Public Health Passenger Locator Form before the start of the transportation;</li>
+	<li>are required to have the following before the start of the transportation:</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>the result of an RT-PCR test or RAT test, or</li>
+	<li>national certificate on vaccination that has been carried out or a national certificate of completed vaccination, or</li>
+	<li>medical certificate on suffering COVID-19 disease in the past;</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="3" style="list-style-type:lower-alpha">
+	<li>when requested to do so during a border or residence check, are required to present a document confirming that they filled out the Public Health Passenger Locator Form, the document referred to in letter b), or a written document that an exemption applies to the given person according to this Protective Measure;</li>
+</ol>
+
+<p>the definition of Public Health Passenger Locator Form, RT-PCR test or RAT test, national certificate on vaccination that has been carried out, national certificate of completed vaccination and medical certificate on suffering COVID-19 disease in the past are referred to in clause III;</p>
+
+<p>2. that persons referred to in clause I.7 are exempt from the obligations stated in clause I.1; exemptions from partial obligations are defined in clauses I.8 through I.12;</p>
+
+<p><strong>B. Arrivals from non-EU countries</strong></p>
+
+<p>3. citizens of the Czech Republic and other persons referred to in clause I.5 who travel to the territory of the Czech Republic from countries outside the European Union,</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>are required to complete Public Health Passenger Locator Form before the start of the transportation;</li>
+	<li>are required to have the following before the start of the transportation:</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>the result of an RT-PCR test or RAT test, or</li>
+	<li>national certificate on vaccination that has been carried out or a national certificate of completed vaccination, or</li>
+	<li>medical certificate on suffering COVID-19 disease in the past;</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="3" style="list-style-type:lower-alpha">
+	<li>when requested to do so during a border or residence check, are required to present a document confirming that they filled out the Public Health Passenger Locator Form, the document referred to in letter b), or a written document that an exemption applies to the given person according to this Protective Measure;</li>
+	<li>if the person does not possess a national certificate on vaccination that has been carried out or a national certificate of completed vaccination, or a medical certificate on suffering COVID-19 disease in the past, they are required to submit themselves to an RT-PCR test not earlier than on the 5th day but no later than on the 7th day after their entry into the territory of the Czech Republic, if the person still remains in the territory of the Czech Republic, unless the public health protection authority decides differently in a completely exceptional case;</li>
+</ol>
+
+<p>the definition of Public Health Passenger Locator Form, RT-PCR test or RAT test, national certificate on vaccination that has been carried out, national certificate of completed vaccination and medical certificate on suffering COVID-19 disease in the past are reffered to in clause III;</p>
+
+<p>4. other persons who have stayed for more than 12 hours in the last 14 days in a country outside the European Union,</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>are required to complete Public Health Passenger Locator Form before the start of the transportation;</li>
+	<li>are required to have the following before the start of the transportation:</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>the result of an RT-PCR test or RAT test, or</li>
+	<li>national certificate on vaccination that has been carried out or a national certificate of completed vaccination, or</li>
+	<li>medical certificate on suffering COVID-19 disease in the past;</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="3" style="list-style-type:lower-alpha">
+	<li>when requested to do so during a border or residence check, are required to present a document confirming that they filled out the Public Health Passenger Locator Form, the document referred to in letter b), or a written document that an exemption applies to the given person according to this Protective Measure;</li>
+	<li>if the person does not possess a national certificate on vaccination that has been carried out or a national certificate of completed vaccination, or a medical certificate on suffering COVID-19 disease in the past, they are required to submit themselves to an RT-PCR test not earlier than on the 5th day but no later than on the 7th day after their entry into the territory of the Czech Republic, if the person still remains in the territory of the Czech Republic, unless the public health protection authority decides otherwise in a completely exceptional case;</li>
+</ol>
+
+<p>the definition of Public Health Passenger Locator Form, RT-PCR test or RAT test, national certificate on vaccination that has been carried out, national certificate of completed vaccination and medical certificate on suffering COVID-19 disease in the past are referred to in clause III;</p>
+
+<p>5. that other persons are</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>EU citizens;</li>
+	<li>family members of Czech citizens or family members of EU citizens with a residence permit in the territory of the EU;</li>
+	<li>foreigners with an issued long-term or permanent residence permits in the territory of the EU;</li>
+</ol>
+
+<p>6. that persons referred to in clause I.7 are exempt from the obligations stated in clause I.1; exemptions from partial obligations are defined in clauses I.8 through I.12;</p>
+
+<p>e) Exemptions from Anti-epidemic Measures</p>
+
+<p>C. a) Exemptions from all anti-epidemic measures defined in this Protective Measure</p>
+
+<p>7. that the obligations arising from the anti-epidemic measures implemented under this Protective Measure and relating to arrivals from countries with a low, medium, high and very high risk of incidence of COVID-19 do not apply to:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>international transport employees, if the reason for entry is supported by adequate documentary evidence;</li>
+	<li>persons who are authorised to enter the territory of the Czech Republic who</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>travel via a land route directly to or directly from neighbouring countries for a period of time not exceeding 24 hours; except for travels started between 30 December 2021 and 1 January 2022;</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="3" style="list-style-type:lower-alpha">
+	<li>accredited members of diplomatic missions in the Czech Republic, including personal servants, holders of service passports issued by the Czech Republic and holders of diplomatic passports travel to or from the Czech Republic for purposes of official business and officials of international organisations registered with the Ministry of Foreign Affairs travelling to or from the Czech Republic for purposes of official business, provided that their stay in the territory or outside the territory does not exceed 72 hours;</li>
+	<li>minor persons with an intellectual disability, with an autism spectrum disorder and a cognitive disorder or with a severe alteration in mental status, whose mental capabilities or current mental status does not allow for complying with this Protective Measure and who have had a medical certificate issued in English for this purpose by a physician practicing in the Czech Republic or in another Member State of the European Union; the certificate must contain a seal and the physician&rsquo;s identification information and telephone number;</li>
+	<li>cross-border workers, pupils and students who legally cross the state border with the Czech Republic to or from a neighbouring country on a regular basis at least once a week for the purpose of performing work or receiving education, and persons who travel to or from a neighbouring country for the purpose of exercising the right of custody of a minor child or the right of contacting a minor child, or for the purpose of visiting a husband or a registered partner who is employed or studies in a neighbouring country;</li>
+	<li>officials of the Penitentiary Service or police officers escorting individuals or serving as security officers accompanying airplanes;</li>
+	<li>cross-border collaboration in actions of the integrated rescue system forces.</li>
+	<li>children less than 12 years of age;</li>
+</ol>
+
+<p><strong>C</strong>. b) Exemptions from certain anti-epidemic measures under this Protective Measure</p>
+
+<p>8. that in case of Czech citizens and other persons stated in clause I.5 who are arriving by individual means of transport, the obligations before arrival into the territory of the Czech Republic as stated in this Protective Measure in parts A. and B. do not apply;</p>
+
+<p>9. that the obligation to have the result of an RT-PCR test before a travel does not apply to a holder of a diplomatic note issued by the Ministry of Foreign Affairs on the impossibility to procure a test for the presence of the SARS-CoV-2 virus outside the territory of the Czech Republic;</p>
+
+<p><strong>D</strong>. Arrival of Covid-positive Persons</p>
+
+<p>10. that the persons with COVID-19, except for the persons specified in clause I.14, are prohibited from entering the territory of the Czech Republic;</p>
+
+<p>11. the citizens of the Czech Republic and their co-travelling family members with an issued permit for temporary residence in the territory of the Czech Republic, the citizens of the European Union with an issued certificate of temporary residence in the territory of the Czech Republic and the foreign nationals with a permit for permanent residence in the territory of the Czech Republic, issued by the Czech Republic, in whom a test proved the presence of the SARS-CoV-2 virus less than 14 days before their planned entry into the territory of the Czech Republic,</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>to transport themselves to and subsequently within the territory of the Czech Republic by individual means of transport, if possible;</li>
+	<li>if they are travelling by means of public transport, to notify the carrier of possible persisting COVID-19 before starting the travel;</li>
+	<li>to notify the regional Public Health Office with territorial jurisdiction immediately after entering the territory of the Czech Republic regardless of the means of transport;</li>
+</ol>
+
+<p><strong>E</strong>. Other Obligations of Persons and Government Authorities Relating to the Prevention of the Introduction or Spreading of COVID-19</p>
+
+<p>12. the embassies of the Czech Republic in third countries to accept only visa applications and applications for temporary and permanent residence permits, if the applications fall into the following categories:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>all the applications filed in third countries, which are on the list of countries or territories with a low risk of infection;</li>
+	<li>all the applications for short-term visas of those persons who, under this Protective Measure, are holders of a national certificate on vaccination that has been carried out or a national certificate of completed vaccination or those persons who have had COVID-19, and the period of validity of the certificate is longer than the period of validity of the short-term visa applied for; an embassy may determine preferential office hours for submission of such applications;</li>
+	<li>applications for long-term or permanent residence permits; an embassy may determine preferential office hours for submission of such applications;</li>
+	<li>applications for long-term visas;</li>
+	<li>applications for short-term visas</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>for the purpose of seasonal employment or for the purpose of employment, if the foreign national is going to be employed in food production, health care or social services, or short-term visas for the purpose of employment, if the applications are filed by citizens of Ukraine in Ukraine, unless they exceed the maximum number of such applications determined by the Ministry of foreign Affairs in consultation with the Ministry of Health;</li>
+	<li>for scientists, key and highly skilled workers, provided that the conditions defined in the Key and Scientific Staff Programme and the Highly Skilled Employee Programme are met, and for workers servicing the critical infrastructure;</li>
+	<li>for the reason specified in clauses II.1(d) through (I);</li>
+</ol>
+
+<p>13. the embassies of the Czech Republic in third countries and the Ministry of the Interior to stay all proceedings on applications for visa and residence permits filed at the embassies of the Czech Republic in third countries for those states whose measures implemented due to the COVID-19 pandemic do not allow to carry out operations;</p>
+
+<p>14. the embassies of the Czech Republic in third countries to enter a visa into a travel document based only on those applications, which can be accepted under clause I.</p>
+
+<p>15 or for which the proceedings were not stayed according to clause I. 16; 15. third country nationals, who intend to enter the territory of the Czech Republic for the purpose of employment, to present a current certificate from the employer that the employer will employ the foreign national no later than before a long-term visa or a visa for the purpose of collection of a residence permit is entered into their travel document, if more than 90 days elapsed since the filing of an application for a long-term visa or a longterm residence permit;</p>
+
+<p>16. foreign nationals detained under Section 27 of Act No. 273/2008 Coll., on the Police of the Czech Republic, or under Act No. 326/1999 Coll., on the Residence of Foreign Nationals in the Territory of the Czech Republic and on changes to certain Acts, as amended, to submit themselves to the collection of a biological sample for the purpose of detecting the presence of COVID-19 and to provide healthcare professionals with the necessary collaboration in the process of taking this sample at the official sample-taking site of the provider of medical services or in the facility for detention of foreigners;</p>
+
+<p>17. carriers providing international transport of persons, which transport persons to the Czech Republic, to not allow transport of those travellers who are not authorised to enter the territory of the Czech Republic under this Protective Measure or who have failed to comply with the obligations specified in clauses I.1 and I.3, unless they are exempted from such obligations under clauses I.2 or clauses I.4 through I.10;</p>
+
+<p><strong>II. prohibits</strong></p>
+
+<p>1. all third country nationals from entering the territory of the Czech Republic; this does not apply:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>to foreign nationals who provide evidence that they stayed in a country with a low risk of infection for at least 14 days immediately before entering the territory of the Czech Republic and did not stay in the territories of countries with other than a low risk of infection for more than 12 hours during the last 14 days;</li>
+	<li>to holders of valid long-term visas, long-term, temporary or permanent residence permits for the territory of the European Union;</li>
+	<li>to foreign nationals who have been issued short-term visas by the Czech Republic after 11 May 2020 or by a Member State of the European Union on behalf of the Czech Republic under a bilateral agreement after 1 August 2021;</li>
+	<li>to family members within the meaning of Section 15a of Act No. 326/1999 Coll., on the Residence of Foreign Nationals in the Territory of the Czech Republic and on changes to certain Acts, as amended, of citizens of the Czech Republic or citizens of the European Union;</li>
+	<li>if in exceptional situations the entry and presence of a foreigner in the territory of the Czech Republic is absolutely necessary and at the same time the reason for entry is proved by an appropriate document issued by the head of the central state administration authority, which contains a proper specific justification of the necessity of the presence of a foreigner in the territory of the Czech Republic and fulfilment of the intended purpose cannot be ensured in any other way; a mere general indication of the need for presence does not fulfil the condition of a proper specific justification; the document cannot be issued for accompanying family members of the requesting foreigner;</li>
+	<li>to workers in the field of international transport, provided that the reason for their entry is supported by an adequate document;</li>
+	<li>to accredited members of diplomatic missions in the Czech Republic, including personal servants, holders of diplomatic passports travelling to the Czech Republic for the purposes of official business and to officials of international organisations registered with the Ministry of Foreign Affairs;</li>
+	<li>in urgent extraordinary situations (such as the provision of planned medical services, performance of an obligation imposed by a court, a travel taken in response to a summons from a government authority, execution of a court decision, an official meeting, an entrance exam for studies, a national equivalency test, necessary care of close family members who are unable to take care of themselves on their own, exercise of custody of a minor child or exercise of the right to be in contact with a minor child, other humanitarian situations), provided that the reason for the entry is supported by an adequate document;</li>
+	<li>a foreign national who is provably in a permanent relationship as a partner with a citizen of the Czech Republic or a citizen of the European Union with temporary residence exceeding 90 days or permanent residence in the Czech Republic, based particularly on sharing the same household, and who has been issued with a certificate from the Ministry of Foreign Affairs in order to allow him/her to enter the territory of the Czech Republic under this clause;</li>
+	<li>to vaccinated persons with a national certificate on vaccination that has been carried out, to vaccinated persons with a national certificate of completed vaccination and to persons who have had COVID-19, and the period of stay will not be longer than the period of validity of the certificate;</li>
+	<li>in case of a minor child travelling with his or her legal guardian or accompanying another person who holds a national vaccination certificate or a national certificate of completed vaccination, or who is a person who has undergone COVID-19, and the validity of the certificate is longer than the intended length of stay; this provision cannot be used for school trips and similar group arrivals;</li>
+	<li>if the entry is in the interest of the Czech Republic&rsquo;s foreign policy, which is decided only by the Minister of Foreign Affairs; provided that they meet the conditions for entering as defined in this Protective Measure and are otherwise authorised to enter the territory of the Czech Republic;</li>
+</ol>
+
+<p><strong>III. determines</strong></p>
+
+<p>1. that the list of countries or territories with a low, medium, high and very high risk of incidence of COVID-19 is made based on the criteria specified in Council Recommendation (EU) 2020/1475 on a coordinated approach to facilitate safe free movement during the COVID-19 pandemic, with the criteria being:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>the &ldquo;14-day cumulative COVID-19 case notification rate&rdquo;, i.e. the total number of newly notified COVID-19 cases per 100,000 population in the last 14 days at regional level;</li>
+	<li>the 'vaccination rate', i.e. the cumulative rate of complete vaccination rate by primary vaccination in the general population at regional level;</li>
+	<li>the &ldquo;testing rate&rdquo;, i.e. the number of tests for COVID-19 infection conducted during the last week per 100,000 population; while the following conditions also apply: to achieve an overall score, the fortnightly case reporting rate (C) should be weighted by the vaccination rate (V) in the region. If the value of either of these two criteria is not available at regional level, the value at national level should be used. The following formula should be used for this purpose: (C+C*(100-V)/100)/2=weighted rate and therefore</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>the list of countries or territories with a low risk of incidence of COVID-19 always contains the Member States of the European Union or, as the case may be, their parts, for which the weighted rate is lower than 40,</li>
+	<li>the list of countries or territories with a medium risk of incidence of COVID-19 contains the Member States of the European Union or, as the case may be, their parts, for which the weighted rate is lower than 100, but higher than 40 or more,</li>
+	<li>the list of countries or territories with a high risk of incidence of COVID-19 contains the Member States of the European Union or, as the case may be, their parts, for which the weighted rate is lower than 300, but higher than 100 or more,</li>
+	<li>the list of countries or territories with a very high risk of incidence of COVID-19 contains the Member States of the European Union or, as the case may be, their parts, for which the weighted rate is higher than 300 and the testing rate is 600 or less,</li>
+</ol>
+
+<p>the list of countries or territories is issued in the form of a protective measure;</p>
+
+<p>2. that complying with the obligation to present a Public Health Passenger Locator Form means presenting the form in such a format, which allows for definite identification of the holder and checking the filled out information; an electronic Public Health Passenger Locator Form is available on the website www.prijezdovyformular.cz; the personal data processed beyond the framework of Section 79(1) of Act No. 258/2000 Coll. are the number of the travel document, citizenship, electronic mail address and telephone number; by filling out and sending an Public Health Passenger Locator Form, the regional Public Health Office with jurisdiction over the person&rsquo;s domicile or the person&rsquo;s reported place of residence is notified, via remote access, of the person&rsquo;s entry into the territory of the Czech Republic; information related to the person's stay abroad (visited countries) and the means of arrival to the Czech Republic, as well as information on the place of residence in the Czech Republic; the length of data retention is 3 months from the submitting of the Public Health Passenger Locator Form; access to the database of Public Health Passenger Locator Forms is possible according to Section 79(1) of Act on the Protection of Public Health by employees of the Regional Public Health Offices, Section of Public Health Protection and Support of the Ministry of Health and The Institute of Health Information and Statistics of the Czech Republic, for the purpose of activities focused on preventing or minimizing the import of COVID-19 disease into the Czech Republic, or preventing or minimizing further spread, in particular, to detect cases for sequencing samples, contact tracing, sanctioning for breach of obligations, in particular under this protective measure and the collection and analysis of anonymised statistical data;</p>
+
+<p>3. that a test for detection of the presence of the SARS-CoV-2 virus/a test means:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>for antigen testing, a written certificate of the negative result of a rapid antigen test (RAT), which is not older than 24 hours from the date of the antigen test and it is a test included in the common and updated list of RAT tests established by the Council Recommendation of 21 January 2021 on a common framework for the use and validation of rapid antigen tests and the mutual recognition of COVID-19 test results in the EU;</li>
+	<li>for RT-PCR testing, a written certificate of the negative result of an RT-PCR test, which is not older than 72 hours from the date of the RT-PCR test, issued by a person authorised to carry out this test in the country where it was carried out;</li>
+</ol>
+
+<p>if it is a test carried out in a territory, which is subject to the Regulation of the European Union on the Digital COVID Certificate1 , or in the territory of a third country, for which an implementing act was adopted pursuant to the Regulation of the European Union on the EU Digital COVID Certificate1 , the result will only be proved by a certificate of the test issued in accordance with the Regulation of the European Union on the Digital Covid Certificate2 ;</p>
+
+<p>4. that a vaccinated person with a national certificate on vaccination that has been carried out means a person who presents a valid national certificate on vaccination against COVID-19 that has been carried out, issued under the Regulation of the European Union on the EU Digital COVID Certificate3 , provided that at least 14 days elapsed from completion of the vaccination scheme, and in the case of a person who has reached the age of 18 and at the same time a maximum of 270 days elapsed from completion of vaccination scheme or has been vaccinated with a booster dose, and who does not show any symptoms of COVID-19;</p>
+
+<p>5. that a vaccinated person with a national certificate on completed vaccination means a person who presents a valid national certificate on completed vaccination against COVID19 as referred to in clauses III.6 or III.7, provided that at least 14 days elapsed from completion of the vaccination scheme, and in the case of a person who has reached the age of 18 and at the same time a maximum of 270 days elapsed from completion of vaccination scheme or has been vaccinated with a booster dose, and who does not show any symptoms of COVID-19; provided that the person was vaccinated using:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>a medicinal product containing a vaccine against COVID-19, which was granted registration under Regulation (EC) No 726/2004; or</li>
+	<li>a medicinal product, the production of which is in accordance with the patent of the medicinal product referred to in item a), provided that this medicinal product was also approved by the World Health Organisation for emergency use; the list of products referred to in items a) and b) is published on the website of the Ministry of Health;</li>
+</ol>
+
+<p>6. that a national certificate of completed vaccination means a written confirmation issued at least in the English language by an authorised person operating in a third country, which is not the country issuing the certificate referred to in clause III.7 is in the list of recognised national certificates on the website of the Ministry of Health; the written confirmation must contain information on the vaccinated person, the type of vaccine administered, the date of administration of the vaccine, identification of the entity, which issued the confirmation, and</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>it must be possible to verify this information directly from the written conformation via a remote access;</li>
+	<li>it is a third country in which vaccination with a medicinal product is carried out in accordance with clause III.5, the vaccination rate is higher than in the Czech Republic, the country provides reliable and verifiable data on the pandemic and cooperates within international organizations combating the pandemics;</li>
+</ol>
+
+<p>7. that a national certificate of completed vaccination is also deemed to be a certificate on completed vaccination issued to a vaccinated person according to clause III.5 by an authorised person operating in a third country, for which the implementing Act was adopted according to the Regulation of the European Union on the EU Digital COVID Certificate4 and the template which is in the same time published in the list of national certificates on the website of the Ministry of Health;</p>
+
+<p>8. that a person who has had COVID-19 is deemed to be that person who presents a certificate that he/she has had COVID-19, issued according to the Regulation of the European Union on the Digital COVID Certificate5 or by an authorised entity operating in a third country, for which the implementing Act was adopted under the Regulation of the European Union on the EU Digital COVID Certificate6 , and at least 11 days but no more than 180 days elapsed from the first positive result of an RT-PCR test for detection of the presence of the SARS-CoV-2 virus; if the certificate has been issued by a third country, it must be in the same time published in the list of national certificates on the website of the Ministry of Health, which is identical to the list according to clause III.7;</p>
+
+<p>9. that a person who has had COVID-19 is also deemed to be a holder of a diplomatic note, issued by the Ministry of Foreign Affairs; such holders can be citizens of the Czech Republic and their co-travelling family members with an issued temporary residence permit for the territory of the Czech Republic, citizens of the European Union with an issued certificate of temporary residence in the territory of the Czech Republic or foreign nationals with a permanent residence permit for the territory of the Czech Republic issued by the Czech Republic, certifying a documented completed isolation due to COVID-19 in the country of departure before their entry into the territory of the Czech Republic; a diplomatic note is not usually issued earlier than 14 days after the first positive result of an RT-PCR test for detection of the presence of the SARS-CoV-2 virus and it cannot be used for purposes of the applications referred to in clause I.15 and for purposes of an entry referred to in clause II.1;</p>
+
+<p>10. that necessary travel means restriction of free movement to the absolutely necessary minimum, with the exception of:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>travels absolutely necessary to procure the basic necessities of life and to ensure care of children; b) travels absolutely necessary to procure items to take care of animals, to use the necessary financial and postal services, to refuel;</li>
+	<li>urgent or otherwise necessary travels to a provider of healthcare services;</li>
+	<li>travels to social services facility;</li>
+	<li>travels to take care of urgent official matters;</li>
+	<li>funerals;</li>
+</ol>
+
+<p>11. that a citizen of a third country is a foreign national, except for a citizen of the European Union and a foreign national within the meaning of Section 1(3) of Act No. 326/1999 Coll., on the Residence of Foreign Nationals in the Territory of the Czech Republic and on changes to certain Acts, as amended;</p>
+
+<p>12. that for the purposes of this Protective Measure, Member States of the European Union are deemed to include, in addition to the Member States of the European, the Principality of Andorra, the Republic of Iceland, the Principality of Liechtenstein, the Principality of Monaco, the Kingdom of Norway, the Republic of San Marino, the Swiss Confederation and the Vatican City State; all other countries are deemed to be third countries;</p>
+
+<p>13. that for the purposes of this Protective Measure, the term &ldquo;written confirmation&rdquo; means both a hardcopy format (an original or a simple copy) and an electronic format, as long as it contains the name, surname and date of birth or the number of the travel document of a specific addressee; a written confirmation in an electronic format cannot be presented in the form of an SMS message;</p>
+
+<p>14. that the holders of diplomatic notes on the impossibility to take a test for detection of the presence of the SARS-CoV-2 virus in the country of departure can be citizens of the Czech Republic and their co-travelling family members with an issued temporary residence permit for the territory of the Czech Republic, citizens of the European Union with an issued certificate of temporary residence in the territory of the Czech Republic, foreign nationals with a permanent residence permit for the territory of the Czech Republic issued by the Czech Republic and the workers servicing critical infrastructure, whose performance of their activities is in the interest of the Czech Republic;</p>
+
+<p>15. that a means of public transport is such a means of transport, in which persons who are not members of the same household are being transported at the given moment;</p>
+
+<p>16. that if an embassy of the Czech Republic is accredited for more countries then the current inclusion of the given country in the list of countries or territories with a low, medium, high and very high risk of incidence of COVID-19 is decisive for the acceptance and processing of visa applications and residence permit applications from each of the countries.</p>
+
+<p>17. that individual transport is a journey by such means of transport in which only persons who are members of the same household are transported at a given moment</p>
+
+<p>18. that the rate in the Czech Republic is published here: <a href="https://www.mzcr.cz/tiskove-centrum/datove-tiskove-zpravy-ke-covid-19/">https://www.mzcr.cz/tiskove-centrum/datove-tiskove-zpravy-ke-covid-19/</a></p>
+
+<p><strong>II.</strong></p>
+
+<p>With effect as of 15 February 2022 at 00:00, the Protective Measure of the Ministry of Health dated 23 December 2021, ref. no.: MZDR 20599/2020-139/MIN/KAN, have been repealed.</p>
+
+<p><strong>III.</strong></p>
+
+<p>This Protective Measure has become effective on the date on which it has been issued.</p>
+
+<h2><a id="Vaccination plan" name="Vaccination plan"></a>Vaccination campaign action plan</h2>
+
+<p class="Default"><strong>The Government</strong></p>
+
+<p class="Default"><strong>I. acknowledges </strong>the information from the Minister of Health on the <a href="https://www.vlada.cz/assets/media-centrum/aktualne/57_Methodical-Instruction-for-the-Vaccination-Campaign-Action--Plan_34_13012021.pdf">Methodical Instruction for the Vaccination Campaign Action plan </a>(hereinafter the &ldquo;Methodical Instruction&rdquo;) contained in part III of material Ref. No. 37/21;</p>
+
+<p class="Default"><strong>II. issues </strong>preliminary consent to the Ministry of Health&rsquo;s intention to issue:</p>
+
+<p class="Default">1. an extraordinary measure which, effective from 14 January 2021, orders all healthcare service providers that have been supplied with a medicinal product containing a vaccination substance against COVID-19, procured using government budget funds based on Commission Decision C(2020) 4192, to perform the vaccination of persons participating in the public health insurance system in the Czech Republic or persons who are entitled to the provision of healthcare services in the Czech Republic, as though they were participants in the public health insurance system in the Czech Republic, in accordance with the Methodical Instruction and related activities, set forth in Annex No. 1 to this resolution,</p>
+
+<p class="Default">2. an extraordinary measure which, effective from 12:00 a.m. of 14 January 2021, orders all healthcare service providers that have established a distribution vaccination center, large-capacity vaccination center or vaccination center in compliance with the Methodical Instruction, upon any reception or dispensing of the vaccine against COVID-19, even to another healthcare service provider, to submit to the National Vaccination Dispatching on an ongoing basis via the defined electronic reporting system of the Covid Forms App web application and related activities, set forth in Annex No. 2 to this resolution;</p>
+
+<p class="Default"><strong>III. orders </strong>the Ministry of Health to evaluate the application practice of the Methodical Instruction after 14 days and to potentially amend the Methodical Instruction based on this evaluation and inform the government of this fact immediately.</p>
+
+<h2><a id="Vaccination" name="Vaccination"></a>Vaccination from 15 January 2022</h2>
+
+<p>The Ministry of Health, as the competent administrative authority, pursuant to Section 80(1)(g) of Act No. 258/2000 Coll., on Public Health Protection and on the amendment of certain related acts, as amended (hereinafter &ldquo;Act No. 258/2000 Coll.&rdquo;) and Section 2(1) of Act No. 94/2021 Coll., on Extraordinary Measures during the COVID-19 Disease Epidemic and on the amendment of certain related acts (hereinafter &ldquo;Act No. 69 Coll.), orders this Extraordinary Measure, proceeding pursuant to Section 1(69)(b) and (2) of Act No. 258/2000 Coll., and pursuant to Section 2(2)(b) through (e), (h), (i) and (m) of Act No. 94/2021 Coll., in order to protect the population against the further spread of the COVID-19 disease caused by the novel SARS-CoV-2 coronavirus:</p>
+
+<p>1. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 30 August 2021, Ref. No. MZDR 32802/2021-1/MIN/KAN, as amended by the Extraordinary Measure of the Ministry of Health of 10 September 2021, Ref. No. MZDR&nbsp;32802/2021-3/MIN/KAN, is amended in that in point I/2(b), the words &ldquo;at least 14 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14 days have passed since the completion of the vaccination schedule and, in the case of a person at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>2. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 27 October 2021, Ref. No. MZDR 15757/2020-61/MIN/KAN, as amended by the Extraordinary Measure of the Ministry of Health of 10 November 2021, Ref. No. MZDR 15757/2020- 62/MIN/KAN, and as amended by the Extraordinary Measure of the Ministry of Health of 13 December 2021, Ref. No. MZDR 15757/2020-63/MIN/KAN, is amended in that</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>in point I/2(e) the words &ldquo;at least 14 days have passed since the completion of the&nbsp;vaccination schedule based on the summary of product characteristics&rdquo; are replaced&nbsp;with &ldquo;at least 14 days have passed since the completion of the vaccination schedule and&nbsp;in the case of employees at least 18 years of age, not more than 270 days have passed&nbsp;or they have received a booster dose&rdquo;,</li>
+	<li>in point I/2(f) the words &ldquo;at least 14 days have passed since the completion of the&nbsp;vaccination schedule based on the summary of product characteristics&rdquo; are replaced&nbsp;with &ldquo;at least 14 days have passed since the completion of the vaccination schedule and&nbsp;in the case of persons at least 18 years of age, not more than 270 days have passed or&nbsp;they have received a booster dose&rdquo;.</li>
+</ol>
+
+<p>3. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 18 November 2021, Ref. No. MZDR 47828/2020-31/MIN/KAN, as amended by the&nbsp;Extraordinary Measure of the Ministry of Health of 14 January 2022, Ref. No. MZDR&nbsp;1519/2022-1/MIN/KAN, is amended in that that in point II(d), the words &ldquo;at least 14 days&nbsp;have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14&nbsp; days have passed since the completion of the vaccination schedule and, in the case of a person at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>4. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 18 November 2021, Ref. No. MZDR 14597/2021-5/MIN/KAN, is amended in that that in point I/1(c) and in point I/3(c), the words &ldquo;at least 14 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14 days have passed since the completion of the vaccination schedule and, in the case of a person at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>5. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 22 November 2021, Ref. No. MZDR 423/2021-1/MIN/KAN, is amended in that in point 2(a), the words &ldquo;at least 14 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14 days have passed since the completion of the vaccination schedule and, in the case of a person at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>6. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 29 December 2021, Ref. No. MZDR 14601/2021-34/MIN/KAN, as amended by the&nbsp;Extraordinary Measure of the Ministry of Health of 14 January 2022, Ref. No. MZDR&nbsp;1518/2022-1/MIN/KAN, is amended in that in point I/15(b), the words &ldquo;at least 14 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14 days have passed since the completion of the vaccination schedule and, in the case of a person at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>7. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 14 January 2021, Ref. No. MZDR 1520/2022-1/MIN/KAN, is amended in that in point I/2(c), the words &ldquo;at least 18 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 270 days have passed since the completion of the vaccination schedule and, in the case of a employees at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<p>8. Effective from 15 February 2022, the Extraordinary Measure of the Ministry of Health of 26 January 2022, Ref. No. MZDR 1515/2022-2/MIN/KAN, is amended in that in point XIV/1(a), the words &ldquo;at least 14 days have passed since the completion of the vaccination schedule;&rdquo; are replaced by &ldquo;at least 14 days have passed since the completion of the vaccination schedule and, in the case of a student at least 18 years of age, not more than 270 days have passed or they have received a booster dose;&rdquo;.</p>
+
+<h2>Reporting of test results into the ISIN</h2>
+
+<p>The Ministry of Health, as the competent administrative authority, pursuant to Section 80(1)(g) of Act No. 258/2000 Coll., on Public Health Protection and amendments to certain related acts, as amended (hereinafter referred to as &ldquo;Act No. 258/2000 Coll.&rdquo;), orders this Extraordinary Measure, proceeding pursuant to Section 69(1)(i) and (2) of Act No. 258/2000 Coll., in order to protect the population and prevent the occurrence and spread of the COVID-19 disease caused by the new SARS-CoV-2 coronavirus:</p>
+
+<p><strong>I.</strong></p>
+
+<p><a href="https://www.vlada.cz/assets/media-centrum/aktualne/249_annex-6.pdf">Effective from 9 March 2021</a>, all healthcare service providers who perform examinations to determine the presence of the SARS-CoV-2 virus antigen using POC antigen tests are ordered to report, electronically and without undue delay, information about every result of the POC antigen tests to determine the presence of SARS-CoV-2 virus antigen into the Information System of Infectious Diseases (ISIN). A mandatory part of the reported information about the result of the POC antigen test is information about whether the patient is symptomatic or asymptomatic.</p>
+
+<p><strong>II.</strong></p>
+
+<p>Effective from 9 March 2021, the Extraordinary Measure of 21 December 2020, Ref. No. MZDR 60890/2020-1/MIN/KAN, is repealed.</p>
+
+<p><strong>III.</strong></p>
+
+<p>This Extraordinary Measure takes effect on the date it is issued.</p>
+
+<h2><a id="Visits_at_Healthcare" name="Visits_at_Healthcare"></a>Visits at&nbsp; healthcare and social service institutions</h2>
+
+<p>The Ministry of Health, as the competent administrative authority, pursuant to Section 80(1)(g) of Act No. 258/2000 Coll., on Public Health Protection and on the amendment of certain related acts, as amended, and Section 2(1) of Act No. 94/2021 Coll., on Extraordinary Measures during the COVID-19 Disease Epidemic and on the amendment of certain related acts, orders this Extraordinary Measure, proceeding pursuant to Section 69(1)(i) and (2) of Act No. 258/2000 Coll., and pursuant to Section 2(2)(b) of Act No. 94/2021 Coll., in order to protect the population against the further spread of the COVID-19 disease caused by the novel SARS-CoV-2 coronavirus:</p>
+
+<p>I.</p>
+
+<p><a href="https://koronavirus.mzcr.cz/wp-content/uploads/2020/03/543_EM_visits-to-patients-at-healthcare-facilities-from-od-22-11-2021.pdf">Effective from 12:00 a.m. on 22 November 2021</a> until the cancellation of this Extraordinary Measure:</p>
+
+<p>1. visits to patients at healthcare facilities are restricted among all healthcare service providers, in that visits may only be permitted under the condition that the person visiting the patient does not show clinical symptoms of COVID-19, and (with the exception of children under 12 years of age) demonstrates to the healthcare service provider that they meet the following conditions:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>the person has taken an RT-PCR test for the presence of the SARS-CoV-2 virus antigen with a negative result no more than 72 hours ago, or</li>
+	<li>the person has taken a rapid antigen test (RAT) for the presence of the SARS-CoV-2 antigen with a negative result no more than 24 hours ago, carried out by a healthcare professional, or the person has been vaccinated against COVID-19 and submits a national certificate of completed vaccination or a certificate of completed vaccination issued pursuant to the European Union regulation on the EU COVID digital certificate EU COVID1 , under the condition that at least 14 days have passed since the completion of the vaccination program;a national certificate of performed vaccination refers to a written confirmation issued at least in the English language by an authorized entity operating in a third country, a specimen of which is published in the list of recognized national certificates on the website of the Ministry of Health; the written confirmation must contain data about the vaccinated person, administered type of vaccine, date of administration of the vaccine and identification of the entity that issued the confirmation of that vaccination, whereas these data must be verifiable via remote access directly from the written confirmation, assuming vaccination was performed using</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>a medicinal product containing a COVID-19 vaccine granted market authorization under Regulation (EC) No. 726/2004, or</li>
+	<li>a medicinal product manufactured in accordance with a patent for the medicinal product pursuant to point i), if this medicinal product has been approved by the World Health Organization for emergency use; or</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="3" style="list-style-type:lower-alpha">
+	<li>the person has undergone a laboratory-confirmed case of COVID-19, where the period of ordered isolation has ended, and no more than 180 days have passed since the first positive RT-PCR test for the presence of the SARS-CoV-2 virus or rapid antigen test (RAT) for the presence of the SARS-CoV-2 antigen,</li>
+</ol>
+
+<p>unless the healthcare service provider stipulates otherwise in justified cases by means of an organizational measure; the person visiting a patient who fulfils one of the listed conditions may conduct the visit while observing the provider&rsquo;s other systemic measures,</p>
+
+<p>2. prohibits all healthcare service providers from allowing the presence of a third party during childbirth at a healthcare facility, if the following conditions are not met:</p>
+
+<ul>
+	<li>childbirth takes place in a separate birthing room or box with its own social amenities,</li>
+	<li>contact between the third party and other birthing mothers is restricted,</li>
+	<li>a third person is subject to the same rules as person visiting a patient pursuant to point 1,</li>
+</ul>
+
+<p>3. visits to users among all social service providers, at homes for seniors and homes with special regimes, and all social service residential facilities (pursuant to Section 44, 49 and 50 of Act No. 108/2006 Coll., on Social Services), are restricted in that visits may only be permitted under the condition that the person visiting the user does not show clinical symptoms of COVID-19 and (with the exception of children under 12 years of age) demonstrates to the social service provider that they meet the following conditions:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>the person has taken an RT-PCR test for the presence of the SARS-CoV-2 virus antigen with a negative result no more than 72 hours ago, or</li>
+	<li>the person has taken a rapid antigen test (RAT) for the presence of the SARS-CoV-2 antigen with a negative result no more than 24 hours ago, carried out by a healthcare professional, or</li>
+	<li>the person has been vaccinated against COVID-19 and submits a national certificate of completed vaccination or a certificate of completed vaccination issued pursuant to the European Union regulation on the EU COVID digital certificate1 , under the condition that at least 14 days have passed since the completion of the vaccination program; a national certificate of completed vaccination refers to a written confirmation issued at least in the English language by the authorized entity operating in a third country, a specimen of which is published in the list of recognized national certificates on the website of the Ministry of Health; the written confirmation must contain data about the vaccinated person, administered type of vaccine, date of administration of the vaccine, identification of the entity that issued the confirmation of that vaccination, whereas these data must be verifiable via remote access directly from the written confirmation, assuming the vaccination was performed using</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>a medicinal product containing a COVID-19 vaccine granted market authorization under Regulation (EC) No. 726/2004, or</li>
+	<li>a medicinal product manufactured in accordance with a patent for the medicinal product pursuant to point i), if this medicinal product has been approved by the World Health Organization for emergency use; or</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="4" style="list-style-type:lower-alpha">
+	<li>the person has undergone a laboratory-confirmed case of COVID-19, where the period of ordered isolation has ended, and no more than 180 days have passed since the first positive RT-PCR test for the presence of the SARS-CoV-2 virus or rapid antigen test (RAT) for the presence of the SARS-CoV-2 antigen, unless the social services provider stipulates otherwise in justified cases by means of an organizational measure; the person visiting a user who fulfils one of the listed conditions may conduct the visit while observing the provider&rsquo;s other systemic measures.</li>
+</ol>
+
+<p>II.</p>
+
+<p>Effective from 12:00 a.m. on 22 November 2021, the Extraordinary Measure of the Ministry of Health of 5 November 2021, Ref. No. MZDR 14597/2021-4/MIN/KAN, is repealed.</p>
+
+<h2><a id="facemasks" name="facemasks"></a>The obligation to wear face masks</h2>
+
+<p>The Ministry of Health, as the competent administrative authority pursuant to Section 80(1)(g) of Act No. 258/2000 Coll., on Public Health Protection and amendments to Certain Related Acts, as amended (hereinafter referred to as &ldquo;Act No. 258/2000 Coll.&rdquo;), orders this Extraordinary Measure, proceeding pursuant to Section 69(1)(i) and (2) of Act No. 258/2000 Coll., to protect the population and prevent the occurrence and spread of COVID-19 caused by the novel SARS-CoV-2 coronavirus:</p>
+
+<p>I.</p>
+
+<p>1. <a href="https://koronavirus.mzcr.cz/wp-content/uploads/2021/10/525_EM_protection-of-airways-from-01-11-2021.pdf">Effective from 12:00 a.m. of 1 November 2021 </a>until this Extraordinary Measure is rescinded, all persons are prohibited from moving around and being present without the protection of their airways (nose, mouth), which is a respirator or similar device (always without an exhalation valve) meeting at least all the technical conditions and requirements (for the product), including a filtration effectiveness of at least 94% in accordance with the relevant standards, which prevents the spread of droplets, specifically:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>in the internal spaces of buildings that serve as a:</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li>retail outlet;</li>
+	<li>service provision outlet;</li>
+	<li>healthcare facility;</li>
+	<li>social service buildings, such as weekly care centers, homes for persons with&nbsp;medical handicaps, homes for senior citizens and homes with a special regime, and&nbsp;facilities providing facilitating social services in residential form;</li>
+	<li>international airports;</li>
+	<li>universities, schools or school facilities, with the exception of primary school pupils during education at primary school, school groups or school clubs, pupils on the&nbsp;lower levels of six-year and eight-year high school during education at high school,&nbsp;pupils of the first four years of an eight-year conservatory curriculum during&nbsp;education at a conservatory, if they use a medical face mask or similar device&nbsp;meeting at least all the technical conditions and requirements (for the product) of the&nbsp;CSN EN 14683+AC standard that prevent the spreading of droplets,</li>
+	<li>museums, galleries, exhibition grounds, publicly accessible historical or cultural&nbsp;monuments (castles, chateaux or similar historical monuments, etc.), observatories&nbsp;and planetariums or places where trade fairs or retail economic exhibitions are held,</li>
+	<li>gambling halls, casinos, music, dance, gaming and similar social clubs or&nbsp;discotheques,</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<ol start="2" style="list-style-type:lower-alpha">
+	<li>in all other indoor premises of buildings not specified in point 2(a), except for the place of residence or accommodation (e.g. hotel room), where there are at least 2 persons&nbsp;present in the same place at the same time at a distance of less than 1.5 meters, unless&nbsp;these are exclusively members of one household.</li>
+	<li>in means of public transit, including vehicular transit for third party use, the subject of&nbsp;which is passenger transport (in particular taxi service),</li>
+	<li>as concerns attendees at concerts and other musical, theatre, film or other artistic&nbsp;performances, circuses and variety shows and sports matches,</li>
+	<li>during participation at congresses, educational events and examinations in person,</li>
+	<li>during participation at public or private events, including assemblies pursuant to Act No.&nbsp;84/1990 Coll., on the Right of Assembly, as amended, during which multiple persons&nbsp;gather in one place, unless these are members of one household; this applies to&nbsp;outdoor premises in cases when the event is attended by 30 or more people, where they&nbsp;do not maintain a distance of 1.5 meters,&nbsp;with the exception of children under 15 years of age, who may also wear different types of&nbsp;protective equipment at these places, such as a medical face mask or similar device&nbsp;meeting at least all the technical conditions and requirements (for the product) under CSN&nbsp;EN 14683+AC, which prevents the spread of droplets, unless they are subject to the&nbsp;exception under point 2.</li>
+</ol>
+
+<p>In exceptional cases, when it is necessary for the child, pupil or student to see the&nbsp;teacher&rsquo;s mouth during teaching, it is possible for the teacher to use a protective shield as&nbsp;protective respiratory equipment, under the condition that they maintain a distance of at&nbsp;least 1.5 meters from the children, pupils or students. Pupils or students performing&nbsp;practice, practical schooling or practical training at the workplaces of legal entities and&nbsp;natural persons shall observe the rules applied to employees at this workplace.</p>
+
+<p>2. The prohibition pursuant to paragraph 1 does not apply to:</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li>children that have not yet commenced mandatory school attendance; this does not&nbsp;apply to children in preparatory classes of primary school and children in the preparatory&nbsp;level of special primary school,</li>
+	<li>children, pupils and students as a part of educational activities for which the wearing of&nbsp;protective equipment is impossible (in particular physical education, singing and playing&nbsp;wind instruments),</li>
+	<li>teaching staff members or academic workers as a part of educational activities whose&nbsp;character does not enable the wearing of a protective device (in particular physical&nbsp;education, singing and playing wind instruments), if they maintain a distance of at least&nbsp;1.5 metres from others,</li>
+	<li>children in preparatory classes of primary school, children in the preparatory level of&nbsp;special primary school, pupils and students during schooling who are seated at a desk&nbsp;or otherwise seated,</li>
+	<li>teaching staff members or academic workers that were vaccinated against COVID-19&nbsp;and at least 14 days have passed since the completion of the vaccination programme in&nbsp;accordance with the summary of product characteristics, during the provision of&nbsp;education,</li>
+	<li>carers in a children&rsquo;s group that were vaccinated against COVID-19 and at least 14 days&nbsp;have passed since the completion of the vaccination programme in accordance with the&nbsp;summary of product characteristics, during the provision of care in accordance with Act&nbsp;No. 47/2014 Coll., on the Provision of Child Care Services in a Children&rsquo;s Group and&nbsp;Amending Related Acts, as amended,</li>
+	<li>examined persons and examiners at school or university, if all the persons maintain a&nbsp;distance of at least 1.5 meters,</li>
+	<li>accommodated children, pupils or students while staying in their room (i.e., outside of&nbsp;the common areas) at a boarding school or children&rsquo;s home or during school field trips;</li>
+	<li>children and employees in educational facilities for the performance of institutional&nbsp;education or protective education and schools established as a part of them and centers&nbsp;of educational care when providing services in the form of boarding;</li>
+	<li>schools established by the Ministry of Justice;</li>
+	<li>children and employees at facilities for children requiring immediate assistance,</li>
+	<li>persons with intellectual disorders, disorders on the autistic spectrum and cognitive&nbsp;disorders or severe alterations of their mental state, whose mental capacity or current&nbsp;mental state does not allow them to observe this prohibition;</li>
+	<li>patients, if they are hospitalised in inpatient healthcare facilities or if this is necessary for&nbsp;the provision of healthcare services;</li>
+	<li>healthcare workers for the necessary period of time, if required for the provision of&nbsp;healthcare services;</li>
+	<li>social service users in social service buildings, such as weekly care centers, homes for&nbsp;persons with a medical handicap, homes for senior citizens and homes with a special&nbsp;regime, and in facilities providing facilitating social services in residential form;</li>
+	<li>other cases worthy of consideration that are stipulated by a healthcare or social service&nbsp;provider or attending doctor for movement and staying in healthcare facilities and social&nbsp;service facilities;</li>
+	<li>persons while performing work at the workplace or while performing similar activities, for&nbsp;the period when they perform this activity in one place without the presence of other&nbsp;persons,</li>
+	<li>persons while performing work at the workplace or while performing similar activities in&nbsp;accordance with adopted and implemented hygiene, technical, organisational and other&nbsp;measures to prevent risks stipulated by the employer in accordance with Section 102 of&nbsp;Act No. 262/2006 Coll., the Labour Code, as amended, provided they are equipped, at&nbsp;least, with other protective devices, which are a medical face mask or similar device&nbsp;fulfilling at least all the technical conditions and requirements (for the product) of the&nbsp;CSN EN 14683+AC standard, that prevent the spread of droplets,</li>
+	<li>persons driving public transport vehicles who are not in direct contact with passengers&nbsp;during their boarding and alighting;</li>
+	<li>judges, lay assessors, public prosecutors, accused persons and their defense counsel,&nbsp;parties to civil, administrative and constitutional court proceedings and their&nbsp;representatives, witnesses, experts, interpreters and other persons on which a court&nbsp;decides, in the place and at the time of the court proceedings;</li>
+	<li>persons performing copyrighted works (e.g. theatre, dance or musical performances),&nbsp;lecturers and persons participating in the creation and production of audio-visual works&nbsp;or programs;</li>
+	<li>hosts, reporters and other persons appearing on radio, television and other programs;</li>
+	<li>persons performing work classified by a decision of the competent public health&nbsp;protection authority in category three or four due to the risk factor affecting working&nbsp;conditions of heat stress, and also persons performing work which has not yet been&nbsp;categorised and for which it can be anticipated that, after categorization has been&nbsp;performed, it will be classified in category three or four due to the presence of a risk&nbsp;factor affecting working conditions of heat stress;</li>
+	<li>customers of catering establishments while consuming food and meals, including&nbsp;drinks, subject to the condition that the customer is sitting at a table;</li>
+	<li>persons outside catering establishments for the necessary period for the consumption&nbsp;of food and meals, including drinks;</li>
+	<li>a couple being married over the course of the wedding ceremony and other persons&nbsp;attending the ceremony, and persons declaring that they are entering into registered&nbsp;partnership together and other persons attending this declaration;</li>
+	<li>persons for the essential time needed to take their portrait photograph, or photographs&nbsp;of newlyweds, including a group photograph with household members and other direct&nbsp;relatives, and other close persons and persons for the period of time required to take&nbsp;photographs during photography sessions organised by the school or school facility,</li>
+	<li>athletes or persons exercising during training, exercises, matches, competitions, etc.,&nbsp;including running and cycling, and trainers, other team members within the framework of&nbsp;collective sports, and referees during participation in sporting activities or training&nbsp;conducted within competitions organised by sports unions or umbrella sports&nbsp;organizations,</li>
+	<li>persons on the premises of artificial swimming areas, swimming pools, bathing pools,&nbsp;pools for infants and toddlers and paddling pools, spa and therapeutic pools, saunas,&nbsp;wellness facilities and salt caves,</li>
+	<li>persons for the period of time necessary to provide services which are provided to the&nbsp;&nbsp;person in the area of their head and neck and where use of protective equipment would&nbsp;prevent the provision of this service, such as barber shops, hairdressing salons,&nbsp;solariums, cosmetic, massage and similar regenerative or reconditioning services or&nbsp;other similar services during which skin integrity is breached,</li>
+	<li>persons during the organised activity of choirs, and only at the place of actual&nbsp;performance of the activity (singing) and during this activity,</li>
+	<li>persons participating in rehabilitation events or other similar events, both residential and&nbsp;non-residential, events or persons under 18 years of age when staying in and moving&nbsp;about the indoor and outdoor venue of the event (e.g., campground) and in the&nbsp;countryside, if no other mass event is held concurrently in the same place,</li>
+	<li>members and employees of the basic components of the Integrated Rescue System, if&nbsp;they use a mask or half mask meeting all of the technical conditions and requirements&nbsp;(for the product) of the CSN EN 140 +A1 standard,</li>
+	<li>persons who are unable for serious medical reasons to wear a respirator or medical&nbsp;face mask or similar device fulfilling at least all the technical conditions and&nbsp;requirements (for the product) of the CSN EN 14683+AC standard, that prevent the&nbsp;spread of droplets, and who are able to prove this fact by a medical certificate; however,&nbsp;such persons shall be required to wear other respiratory protective equipment pursuant&nbsp;to this measure, which is specified in the medical certificate, except where the medical&nbsp;certificate specifically states that the person concerned cannot wear any respiratory&nbsp;protective equipment.</li>
+</ol>
+
+<p>3. Effective from 12:00 a.m. of 1 November 2021 until this Extraordinary Measure is rescinded,&nbsp;all employers are ordered to equip employees with respirators, in a sufficient number for&nbsp;each work shift; this does not apply if the employee does not come into contact with other&nbsp;persons during the period of work performance and in connection with work performance&nbsp;(e.g., remote work performance outside of the employer&rsquo;s premises).</p>
+
+<p>4. Effective from 12:00 a.m. on 1 November 2021 until this Extraordinary Measure is&nbsp;rescinded, all healthcare service providers are directed to only issue a certificate under&nbsp;paragraph 2(hh) to persons who are prevented from using respiratory protective equipment&nbsp;pursuant to this measure for serious medical reasons, and are further directed to make a&nbsp;record of that fact and the reasons for it, including the diagnosis, in the person's medical&nbsp;records, including that the natural person has been advised of the risks associated with not&nbsp;using respiratory protective equipment pursuant to this measure.</p>
+
+<p>II.</p>
+
+<p>Effective from 12:00 a.m. of 1 November 2021, this Extraordinary Measure repeals the&nbsp;Extraordinary Measure of the Ministry of Health of 22 October 2021, Ref. No. MZDR&nbsp;15757/2020- 60/MIN/KAN.</p>
+
+    </div><!-- /detail -->
+    
+    <p class="tools">
+      <a href="/scripts/detail.php?id=183562&amp;tmplid=51" onclick="window.open(this.href); return false" title="Open in new window">print article</a>&nbsp;&nbsp;
+      <a href="/scripts/modules/recommend/send.php?sa=yes&amp;locale=EN" title="Send by email">email</a>&nbsp;&nbsp;
+<a onclick="return fbs_click()" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.vlada.cz%2Fen%2Fmedia-centrum%2Faktualne%2Fimportant-covid-19-measures-for-foreigners-183562%2F&amp;t=Important+covid-19+measures+for+foreigners" title="Share on Facebook">facebook</a>&nbsp;&nbsp;
+<a onclick="window.open(this.href); return false" href="/twitter.php?original_referer=http://www.vlada.cz/en/media-centrum/aktualne/important-covid-19-measures-for-foreigners-183562/&amp;text=Important+covid-19+measures+for+foreigners" title="Share on Twitter">twitter</a></p><!-- /tools -->
+    </p><!-- /tools -->
+    </div><!-- /col + /mergecols-2 + /offset-after -->
+  <div class="col lastcol noprint">
+    <h2>Hotline&nbsp;1221</h2>
+
+<p>COVID-19 information hotline (dial 1221) is also available in English from anywhere in the Czech Republic on weekdays from 8 a.m. to 7 p.m. and on weekends from 9 a.m. to 4:30 p.m.</p>
+
+<h2>Useful information</h2>
+
+<p>Current information on COVID-19&nbsp;on the website of the&nbsp;<a href="https://koronavirus.mzcr.cz/en/">Ministry of Health &ndash; information for citizens and healthcare workers, current data</a>.</p>
+
+<p><a href="https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response_en" style="border: none; margin: 0px; padding: 0px;">The European coronavirus response team</a></p>
+ 
+<h3 class="h2">Related items</h3>
+<dl class="related">
+<dt>9. 2. 2022</dt>
+<dd><a href="/en/media-centrum/aktualne/measures-adopted-by-the-czech-government-against-coronavirus-180545/" title="Measures adopted by the Czech Government against the coronavirus">Measures adopted by the Czech Government against the coronavirus</a></dd>
+<dt>25. 11. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-decides-to-proclaim-a-state-of-emergency-for-30-days--limit-mass-events--restaurants-operation-or-alcohol-consumption-in-public-192668/" title="The Government Decides to Proclaim a State of Emergency for 30 days, Limit Mass Events, Restaurants Operation or Alcohol Consumption in Public">The Government Decides to Proclaim a State of Emergency for 30 days, Limit Mass Events, Restaurants Operation or Alcohol Consumption in Public</a></dd>
+<dt>20. 10. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-discussed-changes-in-anti-epidemic-measures--191346/" title="The Government Discussed Changes in Anti-epidemic Measures ">The Government Discussed Changes in Anti-epidemic Measures </a></dd>
+<dt>23. 8. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/preventive-tests-for-covid-19-will-remain-free-for-all-insured--government-decides-190528/" title="Preventive tests for Covid-19 will remain free for all insured, government decides">Preventive tests for Covid-19 will remain free for all insured, government decides</a></dd>
+<dt>1. 7. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-agrees-to-tighten-anti-epidemic-measures-due-to-the-spread-of-the-more-contagious-delta-mutation-of-the-coronavirus-189605/" title="Government agrees to tighten anti-epidemic measures due to the spread of the more contagious Delta mutation of the coronavirus">Government agrees to tighten anti-epidemic measures due to the spread of the more contagious Delta mutation of the coronavirus</a></dd>
+<dt>28. 6. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approves-aid-to-people-and-municipalities-in-south-moravia-affected-by-a-natural-disaster--189576/" title="Government approves aid to people and municipalities in South Moravia affected by a natural disaster ">Government approves aid to people and municipalities in South Moravia affected by a natural disaster </a></dd>
+<dt>14. 6. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/non-state-cultural-heritage-sites-will-also-receive-financial-support-during-the-epidemic--pupils-in-other-regions-will-put-away-their-masks-and-respi-189246/" title="Non-state cultural heritage sites will also receive financial support during the epidemic, pupils in other regions will put away their masks and respi">Non-state cultural heritage sites will also receive financial support during the epidemic, pupils in other regions will put away their masks and respi</a></dd>
+<dt>7. 6. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-worked-on-the-2022-state-budget--approved-the-next-steps-in-the-dispute-with-poland-over-mining-in-the-turow-mine--189056/" title="Government worked on the 2022 state budget, approved the next steps in the dispute with Poland over mining in the Turów mine ">Government worked on the 2022 state budget, approved the next steps in the dispute with Poland over mining in the Turów mine </a></dd>
+<dt>31. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-will-propose-extraordinary-increase-in-pensions-by-czk-300--and-has-extended-the-antivirus-a-programme-by-a-month-188906/" title="The government will propose extraordinary increase in pensions by CZK 300, and has extended the Antivirus A programme by a month">The government will propose extraordinary increase in pensions by CZK 300, and has extended the Antivirus A programme by a month</a></dd>
+<dt>28. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/all-remaining-services-to-open-under-set-conditions-from-monday--the-government-agrees-188778/" title="All remaining services to open under set conditions from Monday, the government agrees">All remaining services to open under set conditions from Monday, the government agrees</a></dd>
+<dt>24. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-discusses-coal-commission-outcomes-and-emergency-measure-amendments-while-deciding-to-help-at-risk-women-tackle-menstrual-poverty-188777/" title="Government discusses Coal Commission outcomes and emergency measure amendments while deciding to help at-risk women tackle menstrual poverty">Government discusses Coal Commission outcomes and emergency measure amendments while deciding to help at-risk women tackle menstrual poverty</a></dd>
+<dt>21. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-to-set-rules-for-covid-passports--agreed-with-extending-the-protection-period-after-recovering-from-covid-19-from-90-to-180-days-188573/" title="Government to set rules for COVID passports, agreed with extending the protection period after recovering from COVID-19 from 90 to 180 days">Government to set rules for COVID passports, agreed with extending the protection period after recovering from COVID-19 from 90 to 180 days</a></dd>
+<dt>17. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approved-proposal-of-national-recovery-plan-for-nearly-200-billion--agreed-with-further-easement-of-epidemic-control-measures-188479/" title="Government approved proposal of National Recovery Plan for nearly 200 billion, agreed with further easement of epidemic control measures">Government approved proposal of National Recovery Plan for nearly 200 billion, agreed with further easement of epidemic control measures</a></dd>
+<dt>10. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/from-tomorrow--self-payers-may-stay-at-spas--on-monday--restaurants-open-outdoor-seating-and-cultural-life-resumes--government-approved-188379/" title="From tomorrow, self-payers may stay at spas, on Monday, restaurants open outdoor seating and cultural life resumes, government approved">From tomorrow, self-payers may stay at spas, on Monday, restaurants open outdoor seating and cultural life resumes, government approved</a></dd>
+<dt>6. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/restrictions-to-ease-in-remaining-regions-from-monday-as-government-extends-compensation-bonus-and-covid-programmes--188374/" title="Restrictions to ease in remaining regions from Monday as government extends compensation bonus and covid programmes ">Restrictions to ease in remaining regions from Monday as government extends compensation bonus and covid programmes </a></dd>
+<dt>3. 5. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-discussed-a-proposal-for-the-next-phase-of-loosening-anti-epidemic-measures-from-10-may-188148/" title="The Government Discussed a Proposal for the Next Phase of Loosening Anti-Epidemic Measures from 10 May">The Government Discussed a Proposal for the Next Phase of Loosening Anti-Epidemic Measures from 10 May</a></dd>
+<dt>29. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/from-monday--children-in-three-other-regions-and-in-prague-will-return-to-schools-and-kindergartens--the-government-agreed-188110/" title="From Monday, Children in Three Other Regions and in Prague will Return to Schools and Kindergartens, the Government Agreed">From Monday, Children in Three Other Regions and in Prague will Return to Schools and Kindergartens, the Government Agreed</a></dd>
+<dt>26. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/hairdressers-and-other-body-care-services-will-open-on-3-may--more-pupils-will-return-to-schools-in-three-regions--188089/" title="Hairdressers and other body care services will open on 3 May, more pupils will return to schools in three regions ">Hairdressers and other body care services will open on 3 May, more pupils will return to schools in three regions </a></dd>
+<dt>22. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-discussed-a-plan-for-further-restriction-lifting--which-will-depend-on-the-number-of-newly-infected-cases-in-the-population--187954/" title="The Government Has Discussed a Plan for Further Restriction Lifting, Which Will Depend on the Number of Newly Infected Cases in the Population ">The Government Has Discussed a Plan for Further Restriction Lifting, Which Will Depend on the Number of Newly Infected Cases in the Population </a></dd>
+<dt>19. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-extended-the-antivirus-programme--and-approved-the-national-strategy-for-countering-hybrid-action-187870/" title="The government extended the Antivirus programme, and approved the National Strategy for Countering Hybrid Action">The government extended the Antivirus programme, and approved the National Strategy for Countering Hybrid Action</a></dd>
+<dt>12. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-extended-the-guarantee-scheme-for-firms-the-state-will-subsidise-childrens-groups-and-labs-sequencing-coronavirus-strains-187744/" title="Government extended the guarantee scheme for firms; the State will subsidise children's groups and labs sequencing coronavirus strains">Government extended the guarantee scheme for firms; the State will subsidise children's groups and labs sequencing coronavirus strains</a></dd>
+<dt>6. 4. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-state-of-emergency-to-end-on-monday--some-restrictions-will-be-lifted--first-children-back-in-schools-and-nurseries-187741/" title="The state of emergency to end on Monday, some restrictions will be lifted, first children back in schools and nurseries">The state of emergency to end on Monday, some restrictions will be lifted, first children back in schools and nurseries</a></dd>
+<dt>22. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-to-ask-the-chamber-of-deputies-to-extend-the-state-of-emergency--mandatory-testing-for-the-self-employed-and-non-profit-organisations-187425/" title="Government to ask the Chamber of Deputies to extend the state of emergency, mandatory testing for the self-employed and non-profit organisations">Government to ask the Chamber of Deputies to extend the state of emergency, mandatory testing for the self-employed and non-profit organisations</a></dd>
+<dt>18. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-extended-the-measures-up-to-28-march-and-expanded-the-mandatory-testing-to-public-employers-with-less-than-50-employees-187364/" title="The government has extended the measures up to 28 March and expanded the mandatory testing to public employers with less than 50 employees">The government has extended the measures up to 28 March and expanded the mandatory testing to public employers with less than 50 employees</a></dd>
+<dt>15. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/mandatory-employee-testing-even-for-small-companies--the-government-decides-187320/" title="Mandatory employee testing even for small companies, the government decides">Mandatory employee testing even for small companies, the government decides</a></dd>
+<dt>8. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-approves-bonuses-for-healthcare-and-social-services-workers--new-programmes-to-help-entrepreneurs--187214/" title="The government approves bonuses for healthcare and social services workers, new programmes to help entrepreneurs ">The government approves bonuses for healthcare and social services workers, new programmes to help entrepreneurs </a></dd>
+<dt>5. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-imposed-the-work-obligation-on-pupils-and-students-of-medical-schools--testing-will-be-mandatory-for-employees-in-the-public-sector-187155/" title="The Government has imposed the work obligation on pupils and students of medical schools, testing will be mandatory for employees in the public sector">The Government has imposed the work obligation on pupils and students of medical schools, testing will be mandatory for employees in the public sector</a></dd>
+<dt>3. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-calls-outpatient-physicians-to-arms-in-the-battle-against-covid-19--obliging-them-to-perform-certain-duties--187111/" title="The government calls outpatient physicians to arms in the battle against covid-19, obliging them to perform certain duties ">The government calls outpatient physicians to arms in the battle against covid-19, obliging them to perform certain duties </a></dd>
+<dt>2. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/employees-will-be-allowed-to-eat-in-company-canteens-provided-they-keep-a-safe-distance-from-each-other-187071/" title="Employees will be allowed to eat in company canteens provided they keep a safe distance from each other">Employees will be allowed to eat in company canteens provided they keep a safe distance from each other</a></dd>
+<dt>1. 3. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-will-ask-the-parliament-to-increase-the-compensation-for-persons-in-quarantine--employees-to-face-mandatory-testing-187070/" title="The government will ask the Parliament to increase the compensation for persons in quarantine, employees to face mandatory testing">The government will ask the Parliament to increase the compensation for persons in quarantine, employees to face mandatory testing</a></dd>
+<dt>26. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-declares-state-of-emergency-until-28-march--free-movement-and-retail-rules-to-be-tightened-from-monday--schools-to-close-again-187038/" title="The government declares state of emergency until 28 March, free movement and retail rules to be tightened from Monday, schools to close again">The government declares state of emergency until 28 March, free movement and retail rules to be tightened from Monday, schools to close again</a></dd>
+<dt>25. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-will-ask-the-chamber-of-deputies-to-extend-the-state-of-emergency-until-the-end-of-march-186938/" title="The government will ask the Chamber of Deputies to extend the state of emergency until the end of March">The government will ask the Chamber of Deputies to extend the state of emergency until the end of March</a></dd>
+<dt>23. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-extended-the-antivirus-program-until-the-end-of-april--people-will-have-to-wear-a-respirator-or-surgical-masks-in-selected-places-f-187145/" title="The Government has extended the Antivirus program until the end of April, people will have to wear a respirator or surgical masks in selected places f">The Government has extended the Antivirus program until the end of April, people will have to wear a respirator or surgical masks in selected places f</a></dd>
+<dt>15. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approves-draft-changes-to-crisis-legislation-and-pilot-project-for-testing-in-schools-186699/" title="Government approves draft changes to crisis legislation and pilot project for testing in schools">Government approves draft changes to crisis legislation and pilot project for testing in schools</a></dd>
+<dt>14. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/at-the-request-of-regional-governors--government-declares-14-day-state-of-emergency-186698/" title="At the request of regional governors, government declares 14-day state of emergency">At the request of regional governors, government declares 14-day state of emergency</a></dd>
+<dt>11. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-decided-to-restrict-movement-in-the-three-worst-affected-districts--186609/" title="The government has decided to restrict movement in the three worst affected districts ">The government has decided to restrict movement in the three worst affected districts </a></dd>
+<dt>8. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-asks-the-chamber-of-deputies-for-another-30-days-of-the-state-of-emergency--and-wants-to-simplify-the-support-for-enterpreneurs-186539/" title="The government asks the Chamber of Deputies for another 30 days of the state of emergency, and wants to simplify the support for enterpreneurs">The government asks the Chamber of Deputies for another 30 days of the state of emergency, and wants to simplify the support for enterpreneurs</a></dd>
+<dt>1. 2. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-has-agreed-to-temporarily-waive-vat-on-respirators-and-to-extend-support-for-food-producers-186440/" title="Government has agreed to temporarily waive VAT on respirators and to extend support for food producers">Government has agreed to temporarily waive VAT on respirators and to extend support for food producers</a></dd>
+<dt>28. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-made-adjustments-to-the-measures--and-further-restrictions-on-the-use-of-hotel-services-or-contacts-will-be-ordered-from-saturday-186322/" title="The government has made adjustments to the measures, and further restrictions on the use of hotel services or contacts will be ordered from Saturday">The government has made adjustments to the measures, and further restrictions on the use of hotel services or contacts will be ordered from Saturday</a></dd>
+<dt>25. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approves-state-guaranteed-loans-for-hotel-proprietors-186237/" title="Government Approves State Guaranteed Loans for Hotel Proprietors">Government Approves State Guaranteed Loans for Hotel Proprietors</a></dd>
+<dt>22. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-extends-duration-of-state-of-emergency-until-14-february--will-allow-childrens-groups-to-run--186192/" title="Government extends duration of state of emergency until 14 February, will allow children's groups to run ">Government extends duration of state of emergency until 14 February, will allow children's groups to run </a></dd>
+<dt>18. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-to-request-that-chamber-of-deputies-extend-state-of-emergency-until-21-february--approves-further-assistance-programmes-for-businesses-186137/" title="Government to request that Chamber of Deputies extend state of emergency until 21 February, approves further assistance programmes for businesses">Government to request that Chamber of Deputies extend state of emergency until 21 February, approves further assistance programmes for businesses</a></dd>
+<dt>13. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-acquaints-itself-with-vaccination-strategy-for-the-czech-republic--vaccination-sites-must-start-reporting-on-vaccine-consumption-186055/" title="Government acquaints itself with vaccination strategy for the Czech Republic, vaccination sites must start reporting on vaccine consumption">Government acquaints itself with vaccination strategy for the Czech Republic, vaccination sites must start reporting on vaccine consumption</a></dd>
+<dt>11. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approves-aid-to-operators-of-ski-resorts--students-do-not-need-to-tax-remuneration-for-work-during-work-duties--186029/" title="Government approves aid to operators of ski resorts, students do not need to tax remuneration for work during work duties ">Government approves aid to operators of ski resorts, students do not need to tax remuneration for work during work duties </a></dd>
+<dt>7. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-extends-force-of-emergency-measures-to-22-january-antigen-tests-also-to-continue-to-be-provided-free-of-charge-185980/" title="Government extends force of emergency measures to 22 January; antigen tests also to continue to be provided free of charge">Government extends force of emergency measures to 22 January; antigen tests also to continue to be provided free of charge</a></dd>
+<dt>4. 1. 2021</dt>
+<dd><a href="/en/media-centrum/aktualne/government-approves-further-aid-for-closed-premises--wants-to-extend-easier-administration-of-social-benefits-during-pandemic-185930/" title="Government approves further aid for closed premises, wants to extend easier administration of social benefits during pandemic">Government approves further aid for closed premises, wants to extend easier administration of social benefits during pandemic</a></dd>
+<dt>23. 12. 2020</dt>
+<dd><a href="/en/media-centrum/aktualne/government-extends-state-of-emergency-for-a-further-30-days--with-more-stringent-measures-to-take-effect-on-27-december-185828/" title="Government extends state of emergency for a further 30 days, with more stringent measures to take effect on 27 December">Government extends state of emergency for a further 30 days, with more stringent measures to take effect on 27 December</a></dd>
+<dt>21. 12. 2020</dt>
+<dd><a href="/en/media-centrum/aktualne/government-discusses-current-pandemic-situation-and-vaccination-preparations--185929/" title="Government discusses current pandemic situation and vaccination preparations ">Government discusses current pandemic situation and vaccination preparations </a></dd>
+<dt>17. 12. 2020</dt>
+<dd><a href="/en/media-centrum/aktualne/government-to-ask-chamber-of-deputies-to-extend-state-of-emergency-to-22-january-185753/" title="Government to ask Chamber of Deputies to extend state of emergency to 22 January">Government to ask Chamber of Deputies to extend state of emergency to 22 January</a></dd>
+<dt>14. 12. 2020</dt>
+<dd><a href="/en/media-centrum/aktualne/the-government-has-decided-that-stricter-4th-tier-pandemic-measures-will-start-to-apply-on-friday-affected-businesses-will-be-helped-by-compensations-185661/" title="The government has decided that stricter 4th tier pandemic measures will start to apply on Friday; affected businesses will be helped by compensations">The government has decided that stricter 4th tier pandemic measures will start to apply on Friday; affected businesses will be helped by compensations</a></dd>
+</dl><!-- /related -->
+  </div><!-- /col + /lastcol + /noprint -->
+  <div class="fix"><!-- workaround --></div>
+</div><!-- /cols + /cols-3 -->
+
+			</div><!-- /content-main -->
+			<div class="content-side">
+				<div class="cols cols-2">
+					<div class="col">
+						<div id="menu"><h2><a href="/en/media-centrum/default.htm">Media Centre</a></h2><ul><li><a class="selected" href="/scripts/detail.php?pgid=103"><span class="selected">Press Advisories</span></a></li><li><a href="/scripts/detail.php?pgid=486">Scheduled Events</a></li><li><a href="/scripts/detail.php?pgid=474">Press Releases</a></li><li><a href="/scripts/detail.php?pgid=487">Press Conferences</a></li><li><a href="/scripts/detail.php?pgid=810">Introducing</a></li><li><a href="/en/jednani-vlady/default.htm">Government Meetings</a></li><li><a href="/en/media-centrum/dulezite-dokumenty/default.htm">Important Documents</a></li><li><a href="/en/neprehlednete/default.htm">Important Information</a></li><li><a href="/en/media-centrum/kontakty/default.htm">Contacts</a></li></ul></div>
+					</div><!-- /col -->
+					<div class="col lastcol">
+						<h2><a href="/en/neprehlednete/default.htm">Important information</a></h2><p><a href="http://www.vlada.cz/en/media-centrum/aktualne/the-obligation-to-wear-face-masks-applies-from-10-september--183562/" title="Current measures "><img src="/assets/media-centrum/aktualne/nouzovy-stav-188x106.jpg" alt="Measures adopted by the Czech Government against coronavirus" width="188" height="106" /></a></p>
+<p><a href="http://www.euroskop.cz/8427/sekce/the-czech-republic-in-the-schengen-area/" title="EUROSKOP"><img src="/assets/media-centrum/neprehlednete/188_sirka_1.gif" alt="www.euroskop.cz" width="186" height="56" /></a></p>
+<p><a href="https://czechandslovakcentury.com/en" title="Celebrate Czech and Slovak century "><img src="/assets/media-centrum/neprehlednete/1918_2018_100_188.jpg" alt="Oslavme společné století " width="188" height="168" /></a></p>
+<p><a href="http://www.visegradgroup.eu/main.php" title="Visegrad Group"><img src="/assets/media-centrum/neprehlednete/v4.jpg" alt="Visegrad Group" width="188" height="106" /></a></p>
+<p><a href="http://www.vlada.cz/en/evropske-zalezitosti/national-convention/national-convention--162631/" title="National Convention"><img src="/assets/media-centrum/neprehlednete/national-convention_188.jpg" alt="National Convention" width="188" height="56" /></a></p>
+
+					</div><!-- /col + /lastcol -->
+					<div class="fix"><!-- workaround --></div>
+				</div><!-- /cols + /cols-2 -->
+			</div><!-- /content-side -->
+			<div class="fix"><!-- workaround --></div>
+		<div class="footerCol en-site">
+			<div class="col">
+						<h2><a href="/en/urad-vlady/strakova-akademie/visit-strakas-academy---the-seat-of-the-czech-republic-government-and-of-the-office-of-the-czech-republic-government-22917/">Straka's Academy</a></h2>
+						<p>
+<a href="/en/urad-vlady/strakova-akademie/visit-strakas-academy---the-seat-of-the-czech-republic-government-and-of-the-office-of-the-czech-republic-government-22917/"><img src="/assets/urad-vlady/strakova-akademie/0098_f_1.jpg" alt="Straka&#039;s Academy " width="188" height="106" /></a></p>
+					</div><!-- /col -->
+<div class="col">
+						<h2 class="ico"><a href="/en/media-centrum/kontakty/default.htm">Press Department</a></h2>
+						<p><a href="/en/media-centrum/kontakty/default.htm"><img src="/assets/188x106-phone.jpg" alt="Press Department" width="188" height="106" /></a></p>
+					</div><!-- /col -->					<div class="col">
+						<h2 class="ico"><a href="/scripts/detail.php?pgid=810">Introducing</a></h2>
+						<p><a href="/en/media-centrum/aktualne/klara-simackova-laurencikova-appointed-new-government-commissioner-for-human-rights-196676/"><img src="/assets/media-centrum/aktualne/_MG_9645_188x106.JPG" alt="Nová zmocněnkyně pro lidská práva Klára Šimáčková Laurenčíková." width="188" height="106" /></a></p>
+					</div><!-- /col -->
+
+<div class="col">
+						<h2 class="ico"><a href="/en/jednani-vlady/default.htm">Archive Documents</a></h2>
+						<p><a href="/en/jednani-vlady/default.htm"><img src="/assets/188x106-archive.jpg" alt="Archive of Documents" width="188" height="106" /></a></p>
+					</div><!-- /col --><div class="col lastcol">
+						<h2 class="ico"><a href="/scripts/detail.php?pgid=1017">Photo Gallery</a></h2>
+<script type="text/javascript">
+<!--
+document.write('<p><a href="/scripts/detail.php?id=201493&tmplid=766" title="Open photo gallery"><img src="/assets/media-centrum/aktualne/1Z6_5059-foto.JPG" alt="TZ-Albánie" width="188" height="106" /></a></p>');
+-->
+</script>
+<noscript><p><a href="/en/media-centrum/aktualne/prime-minister-fiala-attends-meeting-of-eu-and-western-balkan-leaders-in-tirana--albania-201493/"><img src="/assets/media-centrum/aktualne/1Z6_5059-foto.JPG" alt="TZ-Albánie" width="188" height="106" /></a></p></noscript>
+
+
+					</div><!-- /col + /lastcol -->
+<div class="fix"><!-- workaround --></div>
+				</div><!-- /cols + /cols-5 + /offset-after -->
+			</div><!-- /content-full -->
+		</div><!-- /footerCol -->	
+		</div><!-- /CONTENT -->
+		<ul id="footer">
+	<li>Government of the Czech Republic (c) 2009 - 2022</li>
+	<li class="noprint"><a href="/en/urad-vlady/rss/the-rss-channel-of-the-office-of-the-government-of-the-czech-republic-22552/">RSS</a></li>
+	<li class="noprint"><a href="/en/mapa.htm">Site map</a></li>
+	<li class="noprint"><a href="/en/urad-vlady/adresa-uradu-vlady/contact-address-50831/">Contact</a></li>
+	<li class="noprint"><a href="/scripts/modules/fg/fulltxt.php?locale=EN">Advanced search</a></li>
+	<li class="noprint"><a href="/en/urad-vlady/about-server/personal-data-protection-167157/">Personal data protection</a></li>
+	<li class="noprint"><ul class="cookies-settings"></ul></li>
+</ul><!-- /FOOTER -->
+	</div><!-- /CASE -->
+<script type="text/javascript">
+_gaq.push(['_trackPageview']); // změření zobrazení stránky
+ (function() {   
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+</body>
+</html>
