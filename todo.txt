@@ -1,12 +1,11 @@
-- Changer la nav bar sur tt onglets
-- blank sur logo SN
+- Inverser D/G dans tableau URLS
+- Enlever code erreur pas 200 + modif tableau all
+- modif itrameur ALL
+- changer 
+
 - préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
-- analyse => Observations
-- trouver des images
--agrandir et arranger le css des tableaux concordances ( dans le coin en haut à gauche c'est chelou c'est pas bien )
 -retirer des tableaux de concordances les lignes error et vide
 -maj le nuage fr grace à nltk
-- rentrer le journal de bord avec les difficultés rencontrées dans le site
 - href des scripts dans le site
 -RANGER et finaliser les chemins pour le beau css final
 
