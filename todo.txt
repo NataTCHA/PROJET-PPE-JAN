@@ -1,6 +1,7 @@
 - Inverser D/G dans tableau URLS
 - modif itrameur ALL
 - changer 
+-trouver bannière et changer la couleur de la navbar mobile
 
 - préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
 - href des scripts dans le site
