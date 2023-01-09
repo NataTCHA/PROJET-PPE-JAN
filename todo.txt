@@ -1,5 +1,4 @@
 - Inverser D/G dans tableau URLS
-- Enlever code erreur pas 200 + modif tableau all
 - modif itrameur ALL
 - changer 
 
