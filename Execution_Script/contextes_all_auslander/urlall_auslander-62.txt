@@ -1,5 +1,0 @@
-     * Kreditkarte: Sie verfügt über einen im Vorfeld abgestimmten
-       Kreditrahmen. Die Abrechnung erfolgt am Monatsende. Besonders bei
-       Auslandreisen sind Kreditkarten von Vorteil, für Hotel- und
-       Mietwagenbuchungen oft Voraussetzung.
-     * Chargekarte: Auch bei der Chargekarte funktioniert das Einkaufen
