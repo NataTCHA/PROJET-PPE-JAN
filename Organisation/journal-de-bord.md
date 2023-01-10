@@ -59,4 +59,6 @@ En ce jour nous avons décidé de commencer nos analyses Itrameur, mais nous nou
 Bonne année !! Nous souhaitons le meilleur à tout ceux qui passeront par là :D </br>
 En ce début d'année nous avons ajouté un menu déroulant à notre site avec les balises "navbar" que Bulma détient.</br> Nous avons continué à remplir notre site et avons commencé à s'interesser au CSS, car un site remplit c'est bien mais un site remplit et beau c'est mieux ! </br>
 
-03/03
+07/01/2023
+</br>
+Une fois l'architecture du site bien avancée , nous avons pu nous pencher davantage sur Bulma. Nous avons fait une refonte intégrale du site à l'aide de cette template : https://github.com/themefisher/enov-bulma
