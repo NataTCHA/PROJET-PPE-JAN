@@ -24,6 +24,10 @@
 
    <!-- Main Stylesheet -->
    <link rel="stylesheet" href="css/style.css">
+   <script src="highlight.js"></script>
+   <script src="highlight.min.js"></script>
+   <link rel="stylesheet" href="styles/default.min.css">
+   <script>hljs.initHighlightingOnLoad();</script>
 
 </head>
 <body>
@@ -112,7 +116,7 @@
          <div class="has-text-centered">
             <span class="text-color text-sm letter-spacing is-uppercase mr-3">Aspiration des URLs</span>
          </div>
-         <h2 class="mt-1 mb-4 has-text-centered"><a href="blog-single.html">Rédaction du script :</a></h2>
+         <h2 class="mt-1 mb-4 has-text-centered"><a href="scripts.html">Rédaction du script :</a></h2>
          <div class="blog-item-meta has-text-centered mb-5">
             <span class="is-uppercase text-sm letter-spacing"><i class="ti-time mr-1"></i>Décembre 2022</span>
          </div>
@@ -146,6 +150,125 @@
     
 
 <br>
+<h3 class="quote">Script en entier pour l'aspiration</h3>
+
+
+<pre style=" height: 500px; width: 900px;"><code class="script Bash" >#!/usr/bin/env bash
+
+   #===============================================================================
+   # Ce script est notre programme pour traiter les URLs. Il permet de créer un tableau HTML en sortie avec chaque URL, le code de réponse correspondant .
+   # Il s'utilise dans le dossier avec le fichier à traiter &lt;URL.txt&gt; (avec un URL/ligne) avec la ligne de commande :
+   # bash traitement_url_base.sh &lt;URL.txt&gt;  &lt;tableauURL.html&gt; "&lt;motif recherché&gt;"
+   
+   #&lt;tableauURL.html&gt;  est le fichier de sortie du tableau HTML (ici il n'existe pas avant le lancement du script).
+   #Il est nécéssaire d'avoir créer un dossier 'aspirations' dans le dossier d'utilisation du script.
+   #===============================================================================
+   # On attribue les fichiers en argument à des variables :
+   
+   fichier_urls=$1 # le fichier d'URL en entrée
+   fichier_tableau=$2 # le fichier HTML en sortie
+   motif=$3 # le motif recherché
+   
+   if [ $# -ne 3 ]
+   then
+      echo " Ce programme demande trois arguments."
+      exit
+   fi
+   
+   # On vérifie que le fichier d'URLs existe :
+   if [ -f $1 ]
+      then
+         echo "Fichier OK"
+      else
+         echo "Ceci n'est pas un fichier valide."
+         exit
+   fi
+   
+   
+   
+   echo $fichier_urls;
+   basename=$(basename -s .txt $fichier_urls)
+   
+   # On crée l'architecture HTML du tableau de sortie dans le fichier donné en second argument :
+   #Déclaration de l'encodage et on associe Bulma pour la mise en forme CSS
+   echo "&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8" /&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+   &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" /&gt;&lt;/head&gt;&lt;body&gt;" &gt; $fichier_tableau
+   echo "&lt;h2&gt;Tableau $basename :&lt;/h2&gt;" &gt;&gt; $fichier_tableau
+   echo "&lt;br/&gt;" &gt;&gt; $fichier_tableau
+   echo "&lt;table class="table is-striped is-narrow is-hoverable is-fullwidth"&gt;" &gt;&gt; $fichier_tableau
+   echo "&lt;tr&gt;&lt;th&gt;ligne&lt;/th&gt;&lt;th&gt;code&lt;/th&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;encodage&lt;/th&gt;&lt;th&gt;dump&lt;/th&gt;&lt;th&gt;text&lt;/th&gt;&lt;th&gt;N°Occ&lt;/th&gt;&lt;th&gt;contextes&lt;/th&gt;&lt;th&gt;concordances&lt;/th&gt;&lt;/tr&gt;" &gt;&gt; $fichier_tableau
+   # On crée un compteur pour les URLs/le nombre de lignes :               
+   lineno=1;
+   #
+   while read -r line;
+   do
+   # On récupère l'URL (=la ligne)
+       URL=$line
+      # On récupère le code :
+       CODEHTTP=$(curl -I -s $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | head -n1)	
+      # On récupère l'encodage :
+       ENC=$(curl -I -s $line | grep -Eo "charset=[\w-]+"| cut -d= -f2)
+      # On récupère le contenu de la page HTML
+      aspiration=$(curl $URL)
+      # On met le contenu dans un document HTML dédié
+      echo "$aspiration" &gt; "aspirations/$basename-$lineno.html"
+   
+      # On affiche les informations importantes dans le terminal
+      #echo -e "\tURL : $URL";
+      echo -e "\tURL N°: $lineno";
+       echo -e "\tCode : $CODEHTTP";
+   
+      # Si ENC n'existe pas :
+      if [[ ! $ENC ]]
+      then
+         # On définit l'encodage en UTF-8
+         echo -e "\tEncodage non détecté, on prend UTF-8 par défaut.";
+         ENC="UTF-8";
+      # Sinon on garde l'encodage détécté
+      else
+         echo -e "\tEncodage : $ENC";
+      fi
+   
+      # Si le code est égal à 200 :
+      if [[ $CODEHTTP -eq 200 ]]                                                                                                                                         
+      then 
+         dump=$(lynx -dump -nolist -assume_charset=$ENC -display_charset=$ENC $URL)
+         
+         
+         if [[ $ENC -ne "UTF-8" && -n "$dump" ]]
+         # On vient convertir le fichier en UTF-8 grâce à iconv
+            then
+               dump=$(echo $dump | iconv -f $ENC -t UTF-8//IGNORE)
+               
+         fi
+         
+      
+      # Si le code n'est pas 200, on ne récupère pas le contenu :	
+      else
+         echo -e "\tCode différent de 200, utilisation d'un dump vide."
+         dump=""
+         ENC=""
+      fi
+      echo "$dump" &gt; "./dumps-text/$basename-$lineno.txt"
+      count=$(egrep -o -E $motif ./dumps-text/$basename-$lineno.txt| wc -l)
+   
+   contexte=$(echo "$dump"|grep -E -A2 -B2 $motif)
+         echo "$contexte" &gt; "contextes/$basename-$lineno.txt" 
+   
+   
+   bash concordance.sh ./dumps-text/$basename-$lineno.txt $motif &gt; ./concordances/$basename-$lineno.html
+   echo "&lt;tr&gt;&lt;td&gt;$lineno&lt;/td&gt;&lt;td&gt;$CODEHTTP&lt;/td&gt;&lt;td&gt;&lt;
+   a href=\"$URL\"&gt;$URL&lt;/a&gt;&lt;/td&gt;&lt;td&gt;$ENC&lt;/td&gt;&lt;td&gt;&lt;
+   a href="./aspirations/$basename-$lineno.html"&gt;html&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;
+   a href="./dumps-text/$basename-$lineno.txt"&gt;text&lt;/a&gt;&lt;/td&gt;&lt;td&gt;$count&lt;/td&gt;&lt;td&gt;&lt;
+   a href="./contextes/$basename-$lineno.txt"&gt;contextes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;
+   a href="./concordances/$basename-$lineno.html"&gt;concordance&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;" &gt;&gt; $fichier_tableau
+   lineno=$((lineno+1));
+   
+   done &lt; $fichier_urls               
+   # On ferme le fichier HTML :
+   echo "&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" &gt;&gt; $fichier_tableau</code></pre>
+<h3 class="quote">Développement </h3>
            <p>Notre but premier a été de réaliser un script permettant de traiter nos URLs et d'obtenir des données sur celles-ci. Suite à ça nous avons voulu les représenter sous la forme d'un tableau html</p>
            <br>
            <p> Pour ce faire nous avons utilisé des commandes bash vu en cours.</p>
@@ -217,6 +340,65 @@
            <p class="panel-heading">
                Script Concordance
              </p>
+             <h3 class="quote">Script en entier pour la concordance</h3>
+
+             <pre style=" height: 500px; width: 900px;"><code class="bash">#!/usr/bin/bash
+
+
+               fichier_text=$1
+               motif=$2
+               
+               if [[ $# -ne 2 ]]
+               then
+                  echo "Ce programme demande exactement deux arguments."
+                  exit
+               fi
+               
+               if [[ ! -f $fichier_text ]]
+               then
+                 echo "le fichier $fichier_text n'existe pas"
+                 exit
+               fi
+               
+               if [[ -z $motif ]]
+               then
+                 echo "le motif est vide"
+                 exit
+               fi
+               
+               echo "
+               
+               &lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=UTF-8 /&gt;&lt;meta name=viewport content=width=device-width, initial-scale=1&gt;
+               &lt;link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css /&gt;&lt;/head&gt;&lt;body&gt;
+                   &lt;div class="table-container"&gt;
+                   &lt;table class="table is-striped is-narrow is-hoverable is-fullwidth"&gt;
+               &lt;html lang=\"en\"&gt;
+               &lt;head&gt;
+                 &lt;meta charset=\"UTF-8\"&gt;
+                 &lt;title&gt;Concordance&lt;/title&gt;
+               &lt;/head&gt;
+               &lt;body&gt;
+               
+               &lt;thead&gt;
+                 &lt;tr&gt;
+                   &lt;th class=\"has-text-right\"&gt;Contexte droit&lt;/th&gt;
+                   &lt;th&gt;Cible&lt;/th&gt;
+                   &lt;th class=\"has-text-left\"&gt;Contexte gauche&lt;/th&gt;
+                 &lt;/tr&gt;
+               &lt;/thead&gt;
+               &lt;tbody&gt;
+               "
+               
+               grep -E -o "(\w+\W+){0,5}\b$motif\b(\W+\w+){0,5}" $fichier_text | sed -E "s/(.*)($motif)(.*)/&lt;tr&gt;&lt;td&gt;\1&lt;\/td&gt;&lt;td&gt;\2&lt;\/td&gt;&lt;td&gt;\3&lt;\/td&gt;&lt;\/tr&gt;/"
+               
+               echo "
+               &lt;/tbody&gt;
+               &lt;/table&gt;
+               &lt;/body&gt;
+               &lt;/html&gt;
+               "</code></pre>
+             <h3 class="quote">Développement</h3>
+           
              <p>Suite à nos aspirations nous voulons créer un concordancier qui nous permettra de voir le contexte droit et gauche du motif.</p>
              <p>Pour ce faire, nous utilisons la commande bash ci-dessous qui nous permet de lancer notre futur script de concordancier</p>
             </br></br>    <img class="scripimage" src="images/Scripts/bash.png" width="100%"/>  
