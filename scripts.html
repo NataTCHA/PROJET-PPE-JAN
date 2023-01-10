@@ -270,47 +270,31 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
     <p> Pour ce faire nous avons utilisé tout un ensemble de commandes bash vues en cours.</p>
    <br>
 <p> Tout d'abord, nous avons téléchargé le <b>script traitement_url_base.sh</b> mis à notre disposition sur le Git du cours 
-   puis nous avons installé <b>curl</b> qui nous permet d'aspirer le contenu des pages web et de compléter ce script.</p>
+   puis nous avons installé <b>curl</b>.</p>
 <br>
 <p>Lorsque nous cherchons à aspirer une page web, il est important de savoir si l'aspiration fonctionne. C'est 
-   ce sur quoi nous renseigne La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
-</br></br>
+   ce sur quoi nous renseigne le code HTTP, récupéré par la commande <b>curl</b>. Un code égale à 200 signifie que tout fonctionne et un code différent signifie du travail en plus pour notre brave équipe.
+<br>Voici l'extrait de code qui correspond à la récupération de la page web et du code HTTP : </p>
+</br>
 <img class="scripimage" src="images/Scripts/recupurl.png" width="70%"/>  
 <br>
-<p>Les entêtes qui nous ont interessées sont les suivantes :</p>
-<div class="content">
-<ul>
-<li><b>Le code HTTP</b></li>
-<li><b>Son encodage</b></li>
-</ul>
-</div>
+<p>En plus du code HTTP, une deuxième information à relever est nécéssaire pour avoir des extractions utilisables : l'encodage.</p>
+<p>En effet, une page qui n'est pas encodée en UTF-8 pose problème : le contenu sera mal récupéré et inutilisable. C'est pour ça que l'on vient récupérer l'encodage grâce à une regex.</p>
+</br><img class="scripimage" src="images/Scripts/enco1.png" width="70%"/>  
 <br>
-<br>
-
-<br>
-
-<p>Lorsque le contenu de la page URL n'est pas de l'UTF-8 nous sommes embêtées , en effet le traitement d'une page non UTF-8 peut poser des problèmes pour la lecture des accents. Il nous paraît egalement fastidieux de traiter des pages n'ayant pas le même encodage. </p>
-<p> Pour eviter les problèmes nous le convertissons avec iconv pour n'avoir que de l'UTF-8.</p>
-</br></br><img class="scripimage" src="images/Scripts/enco1.png" width="70%"/>  
-
-<br>
-
-
-<br>
-<p>Nos URLs vérifiées, nous voulons les stocker dans un tableau html afin d'avoir plus de visibilité et un recueil de données.</p>
+<p>Une fois les informations et le contenu relatif aux URLs vérifiés, nous cherchons à créer un tableau récapitulatif contenant l'ensembles des données relatifs aux URLs. Nous venons 
+   donc créer l'architecture d'un tableau HTML qui s'incrémentera au fur et à mesure des aspirations :
+</p>
 <br>
 <img class="scriptimg" src="images/Scripts/tablurl1.png"/>  
-</br></br><p>fermeture du tableau html avec l'intégralité des donnéees :</p>
+</br></br><p>Enfin, nous venons clôre le tableau :</p>
 </br><img class="scripimage" src="images/Scripts/tablurl1.png" width="100%"/>  
 <br>
 
-<p>Après avoir traité nos URLs , nous avons pu passer à l'étape suivante: récupérer le contenu textuel de nos pages.</p>
-<p> La commande <b>Lynx</b> nous permet de récuperer le contenu textuel d'une page </p>
+<p>Après avoir traité nos URLs , nous avons pu passer à l'étape suivante: récupérer le contenu textuel de nos pages grâce à <b>lynx</b> :</p>
 </br></br></p> <img class="scripimage" src="images/Scripts/lynx.png" width="70%"/> </p>
 <br>
-
-<br>
-<p>Le but de notre projet est d'analyser un ou plusieurs mots; ainsi nous avons commencé à nous soucier de ce mot. Nous avons ajouté un compteur permettant de compter le nombre d'occurences de nos mots dans les dumps</p>
+<p>Le but de notre projet étant d'analyser un ou plusieurs mots; ainsi nous avons commencé à nous soucier de ce mot. Nous avons ajouté un compteur permettant de compter le nombre d'occurences de nos mots dans les dumps</p>
 </br></br><img class="scripimage" src="images/Scripts/count.png" width="70%"/>
 
 <br>
