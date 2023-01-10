@@ -1166,6 +1166,7 @@ textarea.input {
   border-color: rgb(72, 105, 232);
 }
 
+/*Mise en forme des titres de sections*/
 h3.quote {
   font-size: 30px;
   line-height: 40px;
@@ -1183,6 +1184,12 @@ h3.quote::before {
   position: absolute;
   top: 25px;
   left: 0;
+}
+
+/*Mise en forme des blocs de titres de sous sections*/
+p.panel-heading{
+  background: rgb(72, 105, 232,0.6);
+  font-size: 20px;
 }
 
 .mt-70 {
