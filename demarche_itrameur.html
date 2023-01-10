@@ -126,18 +126,18 @@
 
          <!--Contenu de la page-->
         <div class="box">
-           <p>Après avoir réalisé nos aspirations, nous pouvons créer nos corpus de texte finaux, ceux que nous utiliserons pour notre analyse iTrameur.
+           <p>Après avoir réalisé nos aspirations, nous pouvons créer nos corpus de textes finaux, ceux que nous utiliserons pour notre analyse iTrameur.
            </p>
            <br>
-           <p>Pour ce faire, nous avons créée un nouveau script qui, à partir de l'arborescence de dossiers générée avec <b>scriptaspi.sh</b>, 
-         viens concaténer les fichiers dumps texte ou contexte dans un fichier texte avec une arborescence XML.</p>
+           <p>Pour ce faire, nous avons créé un nouveau script qui, à partir de l'arborescence de dossiers générée avec <b>scriptaspi.sh</b>, 
+         vient concaténer les fichiers dumps texte ou contexte dans un fichier texte avec une arborescence XML.</p>
          <br>
          <p>Le script que nous avons rédigé est le suivant :</p>
          <br>
            <pre style=" height: 500px; width: 900px;display: block; margin-left: auto; margin-right: auto;"><code class="script Bash" >
 #!/usr/bin/env bash
 # Cela lui permet de récupérer les fichiers dans les bons dossiers.
-# Se lancera donc comme ça :
+# Il se lancera donc comme ça :
 # $ ./script/itrameurscript.sh
 
 if [[ $# -ne 2 ]]
@@ -154,7 +154,7 @@ basename=$2 # en, fr, ru, pl, it, jp, etc... # le basename correspnd à la langu
 echo "&lt;lang=\"$basename\"&gt;" &gt; "./itrameur/$folder-$basename.txt" 
 
 
-for filepath in $(ls $folder/$basename-*.txt) #on va itérer avec commande ls, on va rechercher tous les fichiers txt ayant dans leur nom la valeur de basename
+for filepath in $(ls $folder/$basename-*.txt) #on va itérer avec la commande ls, on va rechercher tous les fichiers txt ayant dans leur nom la valeur de basename
 do
 	# filepath == dumps-texts/fr-1.txt
 	# 	==&gt; pagename = fr-1
@@ -188,7 +188,7 @@ done
 # On clôture la structure XML
 echo "&lt;/lang&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
 </code></pre><br>
-   <p>On le lance en mettant en argument le nom du dossier dans lequel se trouve les fichiers à concaténer et le nom des fichiers textes (qui correspond à la langue avec le numéro d'URL si l'on a qu'un seul mot). Pour l'anglais et l'allemand, 
+   <p>On le lance en mettant en argument le nom du dossier dans lequel se trouvent les fichiers à concaténer et le nom des fichiers textes (qui correspond à la langue avec le numéro d'URL si l'on a qu'un seul mot). Pour l'anglais et l'allemand, 
       étant donné que nous avons plusieurs dossiers de dumps différents, nous avons donc lancé le script autant de fois que nous avons de mots.
       <br>À la fin, nous obtenons donc un ensemble de dossiers (1 par mot) contenant un fichier texte avec les aspirations concaténées et organisées au format XML comme nous pouvons le voir ci-dessous :
    </p>
