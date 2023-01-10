@@ -7,11 +7,13 @@ body {
   line-height: 1.7em;
   color: #303235;
 }
-/*pour image script.html*/
+/*Mise en forme images articles*/
 img.scripimage{
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+ }
+
 p {
   color: #303235;
 }
