@@ -52,9 +52,10 @@ Pour ce faire nous avons utilisé le script d'Itrameur et avons concaténé chac
 </br>
 23/12/2022
 </br>
-En ce jour nous avons décidé de commencer nos analyses Itrameur, mais nous nous sommes aperçu d'un problème, les cadres n'étaient pas représenté sur Itrameur ! Nous avons donc décidé de nettoyer les coquilles des fichiers concaténés à la main. Nous avons retiré les &lt; et les &gt; qui n'ont pas été retiré par le script Itrameur. Après cette rectification tout a fonctionné et nous avons pu réaliser notre analyse. Neanmoins nous avons voulu corriger notre script itrameur tout de même et avons trouvé le problème : les & n'etaient pas déspécialisé donc le nettoyage avait été mal fait</br>
+En ce jour nous avons décidé de commencer nos analyses Itrameur, mais nous nous sommes aperçu d'un problème, les cadres n'étaient pas représenté sur Itrameur ! Nous avons donc décidé de nettoyer les coquilles des fichiers concaténés à la main. Nous avons retiré les &lt; et les &gt; qui n'ont pas été retiré par le script Itrameur. Après cette rectification tout a fonctionné et nous avons pu réaliser notre analyse. Neanmoins nous avons voulu corriger notre script itrameur tout de même et avons trouvé le problème : les & n'etaient pas déspécialisées donc le nettoyage avait été mal fait</br>
 </br>
 01/01/2023
+</br>
 Bonne année !! Nous souhaitons le meilleur à tout ceux qui passeront par là :D </br>
 En ce début d'année nous avons ajouté un menu déroulant à notre site avec les balises "navbar" que Bulma détient.</br> Nous avons continué à remplir notre site et avons commencé à s'interesser au CSS, car un site remplit c'est bien mais un site remplit et beau c'est mieux ! </br>
 
