@@ -126,32 +126,22 @@
 <div class="box">
    <img class="scripimage" src="images/fox2.jpg" width="25%"/>  
 </br></br>
-<h3 class="quote">Rédaction du script : :</h3>
-   <p> Nous avons réalisé 2 scripts différents pour la constitution de nos corpus. Ces scripts ont été réalisés durant les séances de cours et au fil de nos exercices personnels.</p>
-    <p>Ces deux scripts sont :</p>
-       <div class="content">
-           <ul>
-               <li> <b>scriptaspi.sh</b> : le script qui permet de créer les aspirations des pages qui nous intéressaient. Lors de l'exécution de ce script, un autre script est exécuté en parallèle :<ul>
-                   <li> <b>concordance.sh</b> qui permet de créer les concordances du motif recherché lors de l'exécution du script.</li></ul></li>
-           </ul>
-       </div>
-       <br>
-       Ici, nous allons nous intéresser à la rédaction des deux premiers scripts. La création du script <b>itrameurscript.sh</b> est explicitée dans la partie <i>iTrameur</i>.
-    </p>
-    <br>
-    <br>
+<p> Nous avons réalisé 2 scripts différents pour la constitution de nos corpus. Ces scripts ont été réalisés durant les séances de cours et au fil de nos exercices personnels.</p>
+<p>Ces deux scripts sont :</p>
+<div class="content">
+   <ul>
+      <li> <b>scriptaspi.sh</b> : le script qui permet de créer les aspirations des pages qui nous intéressaient. Lors de l'exécution de ce script, un autre script est exécuté en parallèle :<ul>
+         <li> <b>concordance.sh</b> qui permet de créer les concordances du motif recherché lors de l'exécution du script.</li></ul></li>
+      </ul>
+   </div>
+   <br>
+   Ici, nous allons nous intéresser à la rédaction des deux premiers scripts. La création du script <b>itrameurscript.sh</b> est explicitée dans la partie <i>iTrameur</i>.
+</p>
+<h3 class="quote">Rédaction des scripts :</h3>
      <p class="panel-heading">
-       Script aspiration
+       Script final :
      </p>
-       
-      
-    <br>
-    
-
-<br>
-<h3 class="quote">Script en entier pour l'aspiration</h3>
-
-
+     <br>
 <pre style=" height: 500px; width: 900px;display: block;
 margin-left: auto;
 margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
@@ -268,15 +258,22 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
    
    done &lt; $fichier_urls               
    # On ferme le fichier HTML :
-   echo "&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" &gt;&gt; $fichier_tableau</code></pre>
-<h3 class="quote">Développement </h3>
-           <p>Notre but premier a été de réaliser un script permettant de traiter nos URLs et d'obtenir des données sur celles-ci. Suite à ça nous avons voulu les représenter sous la forme d'un tableau html.</p>
-           <br>
-           <p> Pour ce faire nous avons utilisé des commandes bash vu en cours.</p>
-           <br>
-<p> Tout d'abord nous avons téléchargé le <b>script traitement_url_base.sh</b> puis nous avons installé et utilisé <b>curl</b> afin de compléter ce script.</p>
+   echo "&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" &gt;&gt; $fichier_tableau</code></pre><br>
+   <p class="panel-heading">
+      Développement
+    </p>
+    <br>       
+    <p>Notre but premier a été de réaliser un script permettant de traiter nos listes d'URLs. Ce script doit permettre non seulement d'aspirer les contenus des pages webs choisies 
+      mais aussi de réaliser des opérations de concordances (et de contextualisation si concordance il y a) mais aussi de collecter ces informations et de les 
+      ranger dans des tableau HTML ce qui permet son insertion dans notre site.</p>
+   <br>
+    <p> Pour ce faire nous avons utilisé tout un ensemble de commandes bash vues en cours.</p>
+   <br>
+<p> Tout d'abord, nous avons téléchargé le <b>script traitement_url_base.sh</b> mis à notre disposition sur le Git du cours 
+   puis nous avons installé <b>curl</b> qui nous permet d'aspirer le contenu des pages web et de compléter ce script.</p>
 <br>
-<p>La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
+<p>Lorsque nous cherchons à aspirer une page web, il est important de savoir si l'aspiration fonctionne. C'est 
+   ce sur quoi nous renseigne La commande <b>curl</b> nous a permis de récuperer l'entête de la reponse du serveur et donc de savoir si l'url etait valide ou non ! si c'est 200 c'est ok sinon non :c </p>
 </br></br>
 <img class="scripimage" src="images/Scripts/recupurl.png" width="70%"/>  
 <br>
