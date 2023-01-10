@@ -124,44 +124,37 @@
          <div class="box">
             
    
-              <p> Pour permettre l'analyse de nos données sur Itrameur, nous avons du concatener nos fichiers textes extraits au préalable par le script. <b>( cf à la partie scripts)</b></p>
-              <p> Le script qui nous a permis de concatener nos fichiers textes et de le nettoyer de caractères indésirables est <b>itrameur.sh.</b></p>
-              <p> pour sa bonne execution nous avons crée un dossier qui contiendra le fichier concatené.</p>
-              <p>Nous n'avons qu'un seul mot en français que nous analyserons de ce fait les fichiers textes concaténés seront ceux du mot : <i>étranger</i></p>
-              <p>Le résultat de la concaténation des 50 fichiers textes du dossier dump est le fichier texte se nommmant : <i>dumps-text_FR-URL_FR</i></p>
-              <p>Les balises utilisées pour le bon fonctionnement de itrameur vont être placées entre chaque dumps dans le fichier texte concaténé</p>
-         </br>
+              <p> Pour permettre l'analyse de nos données sur Itrameur, nous avons du concaténer nos fichiers textes extraits au préalable <b>( cf à la partie iTrameur > Démarche)</b>.</p>
+              <p> Le script qui nous a permis de concaténer nos fichiers textes et de le nettoyer des caractères indésirables est <a href="script/itrameurscript.sh" target="_blank"><b>itrameur.sh</b></a>.</p>
+              <p>Le résultat de la concaténation des 50 fichiers textes du dossier dump est le fichier texte <a href="Execution_Script/itrameur_FR/dumps-text_FR-URL_FR.txt" target="_blank"><b>dumps-text_FR-URL_FR</b></a>. Les balises XML utilisées pour le bon fonctionnement d'iTrameur délimitent chaque dumps dans le fichier texte concaténé</p>
       </br>
               <p class="panel-heading">
-               Bonne importation
+               Importation dans iTrameur :
              </p>
             </br>
          </br>
                 <img class="scripimage" src="images/TrameurFR/trameurfr1.png">
                </br>
             </br>
-                <p>Nous voyons à travers cette image le placement de nos balises. Lorsque cette page s'affiche ça veut dire que l'importation du corpus s'est bien passée.</p>
-                <p>En effet la délimation de chaque fichier texte par URL s'est bien réalisée , les cadres sont réguliers et logiques. Nous avons donc une imbrications des balises correctes.</p>
-               </br></br>
+                <p>Nous voyons sur cette image l'organisation de nos balises. Lorsque cette page s'affiche (et que les cadres sont bien imbriqués les uns dans les autres), cela signifie que l'importation du corpus s'est bien passée et que les balises sont correctes.</p>
+               </br>
                 <p class="panel-heading">
                  Dictionnaire
                </p>
-            </br>
          </br>
-               <p>Le dictionnaire nous permet de voir quelle forme du mot étranger est la plus répandue dans notre corpus. Les différentes formes peuvent être représentées avec la regex suivant : (E|é|É)trangers?</p>
-
+               <p>Le dictionnaire nous permet de voir quelle forme du mot est la plus répandue dans notre corpus. Les différentes formes peuvent être représentées avec la regex suivantz : (E|é|É)trangers?</p>
                <img class="scripimage" src="images/TrameurFR/dico.png">
             </br></br>
-               <p>Nous pouvons voir que c'est la forme au singulier qui est la plus répandue dans la totalité de notre corpus, de ce fait il nous semble pertinent d'utiliser cette forme pour la cooccurence et voir le contexte du mot. Néanmoins la forme pluriel étant bien présente également, nous allons également regarder sa cooccurence et la comparer à la forme singulière.</p>
+               <p>Nous pouvons voir que c'est la forme au singulier qui est la plus répandue dans la totalité de notre corpus, de ce fait il nous semble pertinent d'utiliser cette forme pour la cooccurence et l'observation des contextes du mot. Néanmoins, la forme pluriel étant bien présente également, nous pouvons l'observer aussi afin de les comparer ensuite.</p>
 
             </br></br>
                 <p class="panel-heading">
-                 Cooccurent 
+                 Cooccurents : 
                </p>
-            </br></br>
+            </br>
                 <img class="scripimage" src="images/TrameurFR/trameurfr2.png">
                </br></br>
-               <p> Grâce à la cooccurence nous pouvons voir l'entourage du mot étranger au singulier le plus fréquent. De ce fait cela nous permet de pouvoir cibler par la suite les mots clefs qui vont nous permettre de mieux percevoir l'image que détient ce terme et comment il est perçu</p>
+               <p> Grâce à la cooccurence nous pouvons voir l'entourage le plus fréquent de <i>étranger</i>. Cela nous permet de pouvoir cibler les mots clefs pour notre analyse.</p>
               <p>Le terme étranger est un terme qui a des contextes très divergents les uns des autres, Nous pouvons donc penser qu'il a plusieurs définitions au sein de la communauté. De plus la partie du discours de ce terme peut être un nom, un nom propre ou même un adjectif.</p>
             </br></br>
             <img class="scripimage" src="images/TrameurFR/etrangerpluriel.png">
