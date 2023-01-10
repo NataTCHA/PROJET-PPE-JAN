@@ -137,7 +137,7 @@
    <br>
    Ici, nous allons nous intéresser à la rédaction des deux premiers scripts. La création du script <b>itrameurscript.sh</b> est explicitée dans la partie <i>iTrameur</i>.
 </p>
-<h3 class="quote">Rédaction des scripts :</h3>
+<h3 class="quote">Script d'aspirations :</h3>
      <p class="panel-heading">
        Script final :
      </p>
@@ -260,7 +260,7 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
    # On ferme le fichier HTML :
    echo "&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;" &gt;&gt; $fichier_tableau</code></pre><br>
    <p class="panel-heading">
-      Développement
+      Développement :
     </p>
     <br>       
     <p>Notre but premier a été de réaliser un script permettant de traiter nos listes d'URLs. Ce script doit permettre non seulement d'aspirer les contenus des pages webs choisies 
@@ -311,10 +311,10 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
            <p>Pour aussi relever le contexte du motif choisi par l'utilisateur, nous nous sommes documentées sur le manuel de <b>grep</b> où nous avons vu que les options <b>A</b> et <b>B</b> suivies d'un chiffre permettent de trouver ce qu'il y a après et avant le motif (<i>after, before</i>), le chiffre permettant de choisir la longueur du contexte que nous voulons relever.</p>
          </br> <img class="scripimage" src="images/Scripts/contexte.png" width="70%"/>
            <br>
+           <h3 class="quote">Script de concordances :</h3>
            <p class="panel-heading">
-               Script Concordance
-             </p>
-             <h3 class="quote">Script en entier pour la concordance</h3>
+               Script final :
+             </p><br>
 
              <pre style=" height: 500px; width: 900px; display: block;
              margin-left: auto;
@@ -372,9 +372,10 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
                &lt;/table&gt;
                &lt;/body&gt;
                &lt;/html&gt;
-               "</code></pre>
-             <h3 class="quote">Développement</h3>
-           
+               "</code></pre><br>
+               <p class="panel-heading">
+                  Développement :
+                </p><br>           
              <p>Suite à nos aspirations nous voulons créer un concordancier qui nous permettra de voir le contexte droit et gauche du motif.</p>
              <p>Pour ce faire, nous utilisons la commande bash ci-dessous qui nous permet de lancer notre futur script de concordancier</p>
             </br></br>    <img class="scripimage" src="images/Scripts/bash.png" width="100%"/>  
