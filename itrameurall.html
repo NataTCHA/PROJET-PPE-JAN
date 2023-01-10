@@ -123,35 +123,40 @@
          <!--Contenu de la page-->
          <div class="box">
 			<img class="scripimage" src="images/TrameurALL/puzzle.jpeg" width="35%"/>  
-		   <h2 class="title">Itrameur ALL</h2>
-		   <p> Pour permettre l'analyse de nos données sur Itrameur, nous avons concaténé nos fichiers textes extraits au préalable par le script ( cf à la partie scripts)</p>
-		   <p> Le script qui nous a permis de concatener nos fichiers txt et de le nettoyer de caractères indésirables est itrameur.sh. A l'aide d'expressions régulières il a fallu en outre se débarasser de balises parasites comme "lt" ou encore "gt".</p>
-		   <p> Pour une bonne exécution sur Itrameur nous avons crée un dossier qui contiendra le fichier concatené. Ce dossier contient les dumps pour le mot  Ausländer et les dumps pour le mot fremd.</p>
-			 <img class="scripimage" src="images/TrameurALL/cadreit.png">
-			 <p>L'importation du corpus s'est bien passée. Chaque cube dans la carte des sections corresponds à une page.L'imbrication est régulière.Lorsque l'on importe la base, la segmentation terminée indique 260163 occurrences et 37390 formes.</p>
-			 <br>
-		         <br>
-			 <p> Cooccurent Ausländer/expression régulière: [Au]sländer/w+ </p>
-			 <br>
-		         <br>
-			 <img class="scripimage" src="images/TrameurALL/itauslandercooc.png">
 			<br>
-		        <br>
-			<p> Coocurent Fremde/ expression régulière: [Ff]remd/w+ </p>
+			<p> Pour permettre l'analyse de nos données sur Itrameur, nous avons du concaténer nos fichiers textes extraits au préalable <b>( cf à la partie iTrameur > Démarche)</b>.</p>
+			<p> Le script qui nous a permis de concaténer nos fichiers textes et de le nettoyer des caractères indésirables est <a href="script/itrameurscript.sh" target="_blank"><b>itrameur.sh</b></a>.</p>
+			<p>Le résultat de la concaténation des 50 fichiers textes du dossier dump est le fichier texte <a href="Execution_Script/itrameur_FR/dumps-text_FR-URL_FR.txt" target="_blank"><b>dumps-text_FR-URL_FR</b></a>. Les balises XML utilisées pour le bon fonctionnement d'iTrameur délimitent chaque dumps dans le fichier texte concaténé.</p>
+	</br>
+			 <img class="scripimage" src="images/TrameurALL/cadreit.png">
+			 <br>
+			 <p>L'importation du corpus s'est bien passée. Chaque cadre dans la carte des sections correspond à une page. L'imbrication est régulière. Lorsque l'on importe la base, la segmentation terminée indique 260163 occurrences et 37390 formes.</p>
+			 <br>
+			 <p class="panel-heading">
+				Cooccurents Ausländer | [Au]sländer/w+ :
+			  </p>
+			  <br>
+			  <img class="scripimage" src="images/TrameurALL/itauslandercooc.png">
+			  <br>
+			  <br>
+			  <p class="panel-heading">
+				oocurent Fremde | [Ff]remd/w+ :
+			   </p>
 			<img class="scripimage" src="images/TrameurALL/itfremdcooc.png">
 			<br> 
-		        <br>
-			<p> Si les coocurents de <i> Fremde </i>  sont moins importants par rapport à <i> Ausländer </i> c'est parce que la poids de l'actualité est bien plus imprtant sur le web. Les thématiques directement tirées de l'actualité se caractérisent par leur 
-			 diversité: Olaf Scholz, le chancelier allemand, les restrictions en Chine, le mariage avec les étrangers, le tourisme avec Alicante etc. En revanche la présence du mot <i> Einheimsche </i> qui signifie "locale" indique que le mot fremd s'emploie 
-			  davantage lorsque les sujets ne sont pas internationaux. </p>
+			<br>
+			<p> Si les coocurents de <i> Fremde </i>  sont moins nombreux que par rapport à <i> Ausländer </i> c'est parce que la poids de l'actualité est bien plus important sur le Web. Les thématiques directement tirées de l'actualité se caractérisent par leur 
+				diversité : Olaf Scholz, le chancelier allemand, les restrictions en Chine, le mariage avec les étrangers, le tourisme avec Alicante... En revanche, la présence du mot <i> Einheimsche </i> qui signifie "local" indique que le mot <i>fremd</i> s'emploie 
+				davantage lorsque les sujets ne sont pas internationaux. </p>
+				<br> 
 		  
 		   
 			<p class= "panel-heading">
 			Les mots composés en allemand 
-			<br>
-		        <br>
-			<br> <p> Dans le cadre suivant on peut observer les coocurences du mot "Fremdenfeindlichkeit" qui signifie xénophobie en français.Le mot se décompose ainsi, "-feindlichkeit" = hostilité, et "Fremden"= envers les étrangers.  Ce terme est récurrent et est étroitement corrélé avec le mot racisme, "Rassismus" ainsi que le mot haine "Hass". 
-			 On constate donc que le refus de l'autre se traduit par la haine, la défiance et l'hostilité. Les composés de "Feind" sont nombreux:</p>
+			</p>
+			<br> <p> Dans le cadre suivant on peut observer les coocurences du mot <i>Fremdenfeindlichkeit</i> qui signifie <i>xénophobie</i>. Le mot se décompose ainsi : "-feindlichkeit" = hostilité, et "Fremden"= envers les étrangers.  Ce terme est récurrent et est étroitement corrélé avec le mot <i>racisme</i>, "Rassismus" ainsi que le mot haine "Hass". 
+			 On constate donc que le refus de l'autre se traduit par la haine, la défiance et l'hostilité. 
+			 <br>Les composés de "Feind" sont nombreux :</p>
 			 <br>
 		         <br> 
 			 <img class="scripimage" src="images/TrameurALL/feind.png">
