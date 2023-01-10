@@ -126,21 +126,23 @@
 
          <!--Contenu de la page-->
         <div class="box">
-           <p>Après avoir réalisé nos aspirations, nous avons pû créer nos corpus de texte finaux, ceux qui allaient nous permettre de réaliser 
-            notre analyse iTrameur.
+           <p>Après avoir réalisé nos aspirations, nous pouvons créer nos corpus de texte finaux, ceux que nous utiliserons pour notre analyse iTrameur.
            </p>
-           <pre style=" height: 500px; width: 900px;display: block;
-margin-left: auto;
-margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
-
+           <br>
+           <p>Pour ce faire, nous avons créée un nouveau script qui, à partir de l'arborescence de dossiers générée avec <b>scriptaspi.sh</b>, 
+         viens concaténer les fichiers dumps texte ou contexte dans un fichier texte avec une arborescence XML.</p>
+         <br>
+         <p>Le script que nous avons rédigé est le suivant :</p>
+         <br>
+           <pre style=" height: 500px; width: 900px;display: block; margin-left: auto; margin-right: auto;"><code class="script Bash" >
+#!/usr/bin/env bash
 # Cela lui permet de récupérer les fichiers dans les bons dossiers.
 # Se lancera donc comme ça :
-# $ ./script/iotrameurscript.sh
-
+# $ ./script/itrameurscript.sh
 
 if [[ $# -ne 2 ]]
 then
-	echo "Deux arguments attendus: &lt;dossier&gt; &lt;langue&gt;"  # si on a pas deux arguments alors on sort car deux arguments sont attendus.
+	echo "Deux arguments attendus: &lt;dossier&gt; &lt;langue&gt;"  # si on a pas deux arguments on sort car deux arguments sont attendus.
 	exit
 fi
 
@@ -185,8 +187,8 @@ done
 
 # On clôture la structure XML
 echo "&lt;/lang&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
-</code></pre>
-
+</code></pre><br>
+   <p>On le lance en mettant en argument le nom du dossier dans lequel se trouve les fichiers à concaténer et le nom des fichiers (la langue si l'on a un seul mot).</p>
         </div>
       </div>
    </div>
