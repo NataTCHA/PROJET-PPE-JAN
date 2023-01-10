@@ -25,6 +25,10 @@
 
    <!-- Main Stylesheet -->
    <link rel="stylesheet" href="css/style.css">
+   <script src="highlight.js"></script>
+   <script src="highlight.min.js"></script>
+   <link rel="stylesheet" href="styles/default.min.css">
+   <script>hljs.initHighlightingOnLoad();</script>
 
 </head><body>
 
@@ -114,7 +118,7 @@
          <div class="has-text-centered">
             <span class="text-color text-sm letter-spacing is-uppercase mr-3">Ou comment créer un corpus à partir de mille et un fichier</span>
          </div>
-         <h2 class="mt-1 mb-4 has-text-centered"><a href="blog-single.html">Rédaction du script et vérification :</a></h2>
+         <h2 class="mt-1 mb-4 has-text-centered"><a href="demarche_itrameur.html">Rédaction du script et vérification :</a></h2>
          <div class="blog-item-meta has-text-centered mb-5">
             <span class="is-uppercase text-sm mr-3 letter-spacing">par Juliette M.</span>
             <span class="is-uppercase text-sm letter-spacing"><i class="ti-time mr-1"></i>Janvier 2023</span>
@@ -125,6 +129,64 @@
            <p>Après avoir réalisé nos aspirations, nous avons pû créer nos corpus de texte finaux, ceux qui allaient nous permettre de réaliser 
             notre analyse iTrameur.
            </p>
+           <pre style=" height: 500px; width: 900px;display: block;
+margin-left: auto;
+margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
+
+# Cela lui permet de récupérer les fichiers dans les bons dossiers.
+# Se lancera donc comme ça :
+# $ ./script/iotrameurscript.sh
+
+
+if [[ $# -ne 2 ]]
+then
+	echo "Deux arguments attendus: &lt;dossier&gt; &lt;langue&gt;"  # si on a pas deux arguments alors on sort car deux arguments sont attendus.
+	exit
+fi
+
+#On attribue des noms de variables aux arguments
+folder=$1 # dumps-text OU contextes
+basename=$2 # en, fr, ru, pl, it, jp, etc... # le basename correspnd à la langue qu'on étudie
+
+#On commence à créer la structure XML dans le fichier de sortie avec une valeur de balise lang égale à basename.
+echo "&lt;lang=\"$basename\"&gt;" &gt; "./itrameur/$folder-$basename.txt" 
+
+
+for filepath in $(ls $folder/$basename-*.txt) #on va itérer avec commande ls, on va rechercher tous les fichiers txt ayant dans leur nom la valeur de basename
+do
+	# filepath == dumps-texts/fr-1.txt
+	# 	==&gt; pagename = fr-1
+	pagename=$(basename -s .txt $filepath)
+	
+    
+	#On complète la page XML :
+	echo "&lt;page=\"$pagename\"&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
+	echo "&lt;text&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
+	
+	# On récupère les dumps/contextes
+	# et on écrit à l'intérieur de la balise text
+	
+	content=$(cat $filepath)
+	# ordre important : & en premier
+	# sinon : &lt; =&gt; &lt; =&gt; &amp;lt;
+	
+	# On vient nettoyer le corpus de texte des éléments qui pourraient être présents et fausser l'arborescence XML
+	content=$(echo "$content" | sed 's/&/\&amp;/g')
+	content=$(echo "$content" | sed 's/&lt;/\&lt;/g')
+	content=$(echo "$content" | sed 's/&gt;/\&gt;/g')
+
+	#On affiche le contenu dans le fichier de sortie
+	echo "$content" &gt;&gt; "./itrameur/$folder-$basename.txt"
+
+	# On insère pour chaque page les balises fermantes correspondantes
+	echo "&lt;/text&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
+	echo "&lt;/page&gt; §" &gt;&gt; "./itrameur/$folder-$basename.txt"
+done
+
+# On clôture la structure XML
+echo "&lt;/lang&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
+</code></pre>
+
         </div>
       </div>
    </div>
