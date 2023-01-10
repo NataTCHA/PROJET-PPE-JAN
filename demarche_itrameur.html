@@ -188,7 +188,13 @@ done
 # On clôture la structure XML
 echo "&lt;/lang&gt;" &gt;&gt; "./itrameur/$folder-$basename.txt"
 </code></pre><br>
-   <p>On le lance en mettant en argument le nom du dossier dans lequel se trouve les fichiers à concaténer et le nom des fichiers textes (qui correspond à la langue avec le numéro d'URL si l'on a qu'un seul mot).</p>
+   <p>On le lance en mettant en argument le nom du dossier dans lequel se trouve les fichiers à concaténer et le nom des fichiers textes (qui correspond à la langue avec le numéro d'URL si l'on a qu'un seul mot). Pour l'anglais et l'allemand, 
+      étant donné que nous avons plusieurs dossiers de dumps différents, nous avons donc lancé le script autant de fois que nous avons de mots.
+      <br>À la fin, nous obtenons donc un ensemble de dossiers (1 par mot) contenant un fichier texte avec les aspirations concaténées et organisées au format XML comme nous pouvons le voir ci-dessous :
+   </p>
+   <br>
+   <img class="scripimage" src="images/Anglais/arborescenceitrameur.png" width="70%">
+
         </div>
       </div>
    </div>
