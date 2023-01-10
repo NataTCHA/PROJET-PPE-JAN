@@ -37,28 +37,29 @@ Nous avons complété les URLs Français ( pour atteindre 50 URL pour le mot ét
 Avancé du site, création d'un script java pour faire fonctionner des onglets. Les images sont à modifier
 
 20/12/2022:
-Afin de compléter le tabeau html , il faut rentrer le mot à rechercher dans la langue des url correspondantes. Pour l'allemand il faut rentrer les mots "Ausländer" et "Fremder" qui correspondent au nom commun étranger en français. Cependant nous avons remarqué que les contextes étaient vides. Voici la commande que nous avions effectué: "bash scriptaspirations.sh urlall_auslander.txt tableau.HTML "Ausländer". Mais cela s'est avéré infructueux car il est nécessaire des capter les adjectifs comme "ausländisch" et les mots composés sur "Ausländer". Nous avons donc élaboré une expression régulière capable de capturer les noms communs qui commencent tous par une majuscule en allemand et les adjectifs qui commencent par une minuscule. Voici la regex "\b[Au]sländer\w*\b".Les crochets prennent en compte majuscule et minuscule et le "w*" prend en compte un éventuel mot composé.
+Afin de compléter le tabeau HTML , il faut rentrer le mot à rechercher dans la langue des url correspondantes. Pour l'allemand il faut rentrer les mots "Ausländer" et "Fremder" qui correspondent au nom commun étranger en français. Cependant nous avons remarqué que les contextes étaient vides. Voici la commande que nous avions effectué: "bash scriptaspirations.sh urlall_auslander.txt tableau.HTML "Ausländer". Mais cela s'est avéré infructueux car il est nécessaire des capter les adjectifs comme "ausländisch" et les mots composés sur "Ausländer". Nous avons donc élaboré une expression régulière capable de capturer les noms communs qui commencent tous par une majuscule en allemand et les adjectifs qui commencent par une minuscule. Voici la regex "\b[Au]sländer\w*\b".Les crochets prennent en compte majuscule et minuscule et le "w*" prend en compte un éventuel mot composé.
 
 22/12/2022:
-Nous nous sommes penchée sur la création du nuage de mot et avons trouvé une résolution à notre problème d'installation. Wordcloud a été installé avec la commande pip install sur le terminal. Suite à ca nous avons commencé à manipuler les commandes pour effectuer des tests de nuages. Nous avons remarqué la presence de mots vides tels que " le, la, dans, de ...".
-De plus pour élaborer nos nuages nous avons décidé de concatener nos fichiers dump-textes pour englober un résulat général. </br>
-Pour ce faire nous avons utilisé le script d'Itrameur et avons concaténé chacune nos fichiers textes, puis nous avons ensuite crée une liste de mots vides.
-</br> Nos nuages se sont avérés plus concret avec des mots analysables, neanmoins il nous a parû long de créer notre liste de mot vide entièrement. Après une documentation nous avons eu plusieurs solutions possibles qui sont :
+Nous nous sommes penchées sur la création des nuages de mots et avons trouvé une solution à notre problème d'installation. Wordcloud a été installé avec la commande pip install sur le terminal. Suite à cela, nous avons commencé à manipuler les commandes pour effectuer des tests de nuages. Nous avons remarqué la presence de mots vides/grammaticaux comme "le, la, dans, de ...".
+De plus, pour élaborer nos nuages, nous avons décidé de concatener nos fichiers dump-textes pour obtenir un résulat général. </br>
+Pour ce faire nous avons utilisé le script d'Itrameur et avons chacune concaténé nos fichiers textes, puis nous avons crée une liste de mots vides.
+</br> Nos nuages se sont avérés bien représentatifs avec des mots analysables, neanmoins il nous a parû long de créer notre liste de mot vide entièrement. Après une documentation nous avons eu plusieurs solutions possibles qui sont :
 </br>
 -La bibliothèque NLTK détient des listes contenant un grand nombre de mots vides dans plusieurs langues. Nous avons utilisé un programme python qui a permis de corriger et supprimer les mots vides de nos fichier textes puis , nous avons crée une liste de mot adapté à notre nuage pour retirer les mots tels que "page","url".. qui s'étaient faufilés pour la segmentation d'itrameur. Ces fichiers corrigés ont été utilisé uniquement pour le construire le nuage de mot sous wordcloud
 </br>
 -Deuxième solution
 </br>
+01/01/2023 :
 </br>
-23/12/2022
-</br>
-En ce jour nous avons décidé de commencer nos analyses Itrameur, mais nous nous sommes aperçu d'un problème, les cadres n'étaient pas représenté sur Itrameur ! Nous avons donc décidé de nettoyer les coquilles des fichiers concaténés à la main. Nous avons retiré les &lt; et les &gt; qui n'ont pas été retiré par le script Itrameur. Après cette rectification tout a fonctionné et nous avons pu réaliser notre analyse. Neanmoins nous avons voulu corriger notre script itrameur tout de même et avons trouvé le problème : les & n'etaient pas déspécialisées donc le nettoyage avait été mal fait</br>
-</br>
-01/01/2023
-</br>
-Bonne année !! Nous souhaitons le meilleur à tout ceux qui passeront par là :D </br>
-En ce début d'année nous avons ajouté un menu déroulant à notre site avec les balises "navbar" que Bulma détient.</br> Nous avons continué à remplir notre site et avons commencé à s'interesser au CSS, car un site remplit c'est bien mais un site remplit et beau c'est mieux ! </br>
+Bonne année !! Nous souhaitons le meilleur à tout ceux qui passeraient par là :D !</br>
+En ce début d'année, nous avons ajouté un menu déroulant à notre site avec les balises "navbar" de Bulma.</br> Nous avons continué à remplir notre site et avons commencé à perfectionner le CSS, car un site rempli c'est bien mais un site rempli et beau c'est mieux ! </br>
 
-07/01/2023
 </br>
-Une fois l'architecture du site bien avancée , nous avons pu nous pencher davantage sur Bulma. Nous avons fait une refonte intégrale du site à l'aide de cette template : https://github.com/themefisher/enov-bulma
+04/12/2022 :
+</br>
+Nous avons commencé nos analyses Itrameur et avons remarqué un problème, l'importation sur Itrameur ne se faisait pas bien. Nous avons donc décidé de nettoyer les coquilles des fichiers concaténés avec des regx. Nous avons retiré les &lt; et les &gt; qui n'ont pas été retiré par le script Itrameur puis nous avons modifié notre script. Après cette rectification, tout a fonctionné et nous avons pu réaliser notre analyse.</br>
+</br>
+
+09/01/2023 :
+</br>
+Une fois l'architecture du site bien avancée , nous avons pu nous pencher davantage sur Bulma. Nous avons fait une refonte intégrale du site à l'aide de ce template (https://github.com/themefisher/enov-bulma) que nous avons ensuite modifié à notre convenance.
