@@ -1167,11 +1167,11 @@ textarea.input {
 }
 
 h3.quote {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
-  font-weight: normal;
+  font-weight: bold;
   padding: 0px 25px 0px 85px;
-  margin: 65px 0 65px 0 !important;
+  margin: 50px 0 50px 0 !important;
   position: relative;
 }
 
