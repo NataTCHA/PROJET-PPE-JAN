@@ -294,30 +294,22 @@ margin-right: auto;"><code class="script Bash" >#!/usr/bin/env bash
 <p>Après avoir traité nos URLs , nous avons pu passer à l'étape suivante: récupérer le contenu textuel de nos pages grâce à <b>lynx</b> :</p>
 </br></br></p> <img class="scripimage" src="images/Scripts/lynx.png" width="70%"/> </p>
 <br>
-<p>Le but de notre projet étant d'analyser un ou plusieurs mots; ainsi nous avons commencé à nous soucier de ce mot. Nous avons ajouté un compteur permettant de compter le nombre d'occurences de nos mots dans les dumps</p>
+<p>Étant donnée la nature de ce projet, nous avons décidé de créer un <b>compteur</b> qui nous permet de connaître le nombre d'occurences d'un motif donné (les mots que nous étudions).</p>
 </br></br><img class="scripimage" src="images/Scripts/count.png" width="70%"/>
-
 <br>
-
-           <br>
-
-          
-
-           <p> Pour stocker les aspirations, dumps, contextes nous avons crée des dossiers permettant de stocker ces données et également nécessaires au fonctionnement du script</p>
+<br>
+<p>Voici l'arborescence de dossier que l'on crée pour le bon déroulement du programme :</p>
          </br></br> <img class="scripimage" src="images/Scripts/folder2.png" width="20%"/> 
           <br>
-    
-          
-           <p>Le traitement de l'url ne sera pas le même en fonction de son entête. En effet s'il renvoit le code 200 nous allons incrémenter son dump à une variable. A contrario si l'URL renvoie un autre code nous utiliserons un dump vide.</p>
+           <p>Notons que le traitement de l'URL ne sera pas le même en fonction de son entête. En effet, s'il renvoie le code 200, nous venons récupérer son contenu mais, si l'URL renvoie un autre code, nous utilisons un dump vide.</p>
          </br></br>  <img class="scripimage" src="images/Scripts/entete.png" width="75%"/>  
            <br>
-           <p>L' aspiration des pages et dumps textuels se font donc sur les URL ayant le code 200, ces données sont directement envoyées aux dossiers crées au préalable</p>
-         </br></br> <img class="scripimage" src="images/Scripts/aspi.png" width="70%"/>
-      </br></br> <img class="scripimage" src="images/Scripts/dump.png" width="70%"/>
-           <br>
-           
-           <p>Pour ajouter le contexte du motif inséré par l'utilisateur , nous nous sommes documentés sur la manuel de 'grep' nous pouvons voir que les options A et B suivies d'un chiffre permettent de trouver ce qu'il y a après le mot et avant " after, before" le chiffre permet de mentionner la longueur de contexte que nous voulons en ligne.</p>
-         </br></br>    <img class="scripimage" src="images/Scripts/contexte.png" width="70%"/>
+           <p>L'aspiration des pages et dumps textuels se font donc sur les URL renvoyant le code 200, ces données étant directement enregistrées dans des fichiers dans les dossiers crées au préalable.</p>
+</br> <img class="scripimage" src="images/Scripts/aspi.png" width="70%"/>
+</br> <img class="scripimage" src="images/Scripts/dump.png" width="70%"/>
+<br>
+           <p>Pour aussi relever le contexte du motif choisi par l'utilisateur, nous nous sommes documentées sur le manuel de <b>grep</b> où nous avons vu que les options <b>A</b> et <b>B</b> suivies d'un chiffre permettent de trouver ce qu'il y a après et avant le motif (<i>after, before</i>), le chiffre permettant de choisir la longueur du contexte que nous voulons relever.</p>
+         </br> <img class="scripimage" src="images/Scripts/contexte.png" width="70%"/>
            <br>
            <p class="panel-heading">
                Script Concordance
