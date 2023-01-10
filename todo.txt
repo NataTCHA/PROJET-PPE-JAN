@@ -4,10 +4,4 @@
 -trouver bannière et changer la couleur de la navbar mobile
 
 - préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
-- href des scripts dans le site
-
-
-
-- Home / prblmatik => Ali OK
-- rediger script => Natou OK
 - rediger demarche iTrameur => Ju
