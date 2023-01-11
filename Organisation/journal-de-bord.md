@@ -18,7 +18,7 @@ Nous avons ajouté le premier script qui nous a servi à tester les URLs et à c
 
  30/11/2022:
  
-Nous avons élaboré le script pour le TD 2: scriptaspi.sh. Cependant un problème reste à résoudre en ce qui concerne notre tableau html. En effet le chemin des fichiers est errroné; par conséquent il ne débouche sur rien. 
+Nous avons élaboré le script pour le TD 2 : scriptaspi.sh. Cependant un problème reste à résoudre en ce qui concerne notre tableau html. En effet le chemin des fichiers est errroné; par conséquent il ne débouche sur rien. 
  
  06/12/2022 : 
  
@@ -47,7 +47,7 @@ Pour ce faire nous avons utilisé le script d'Itrameur et avons chacune concaté
 </br>
 -La bibliothèque NLTK détient des listes contenant un grand nombre de mots vides dans plusieurs langues. Nous avons utilisé un programme python qui a permis de corriger et supprimer les mots vides de nos fichier textes puis , nous avons crée une liste de mot adapté à notre nuage pour retirer les mots tels que "page","url".. qui s'étaient faufilés pour la segmentation d'itrameur. Ces fichiers corrigés ont été utilisé uniquement pour le construire le nuage de mot sous wordcloud
 </br>
--Deuxième solution
+-Deuxième solution : utilisation d'un site web externe (Word Art).
 </br>
 01/01/2023 :
 </br>
