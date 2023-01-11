@@ -1,6 +1,0 @@
-
-- modif itrameur ALL
-
--trouver bannière et changer la couleur de la navbar mobile
-
-- préciser la composition de notre corpus iTrameur (dumps utilisables et tt)
