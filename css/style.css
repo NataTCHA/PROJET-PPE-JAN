@@ -335,7 +335,7 @@ a:focus {
 /*Changement couleur navbar item*/
 .navbar .navbar-link:not(.quote-btn) {
   font-family: "Source Sans Pro", sans-serif;
-  color: #685668;
+  color: #b3b8cf;
   font-weight: 600;
   letter-spacing: 0.3px;
   font-size: 18px;
