@@ -332,10 +332,10 @@ a:focus {
   padding: 0;
 }
 
-
+/*Changement couleur navbar item*/
 .navbar .navbar-link:not(.quote-btn) {
   font-family: "Source Sans Pro", sans-serif;
-  color: #f5f5f5;
+  color: grey;
   font-weight: 600;
   letter-spacing: 0.3px;
   font-size: 18px;
